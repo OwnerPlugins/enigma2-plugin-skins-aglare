@@ -43,7 +43,7 @@ msgid "Activate/Deactivate {}"
 msgstr "Ενεργοποίηση/Απενεργοποίηση {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Προσθέτω"
 
 msgid "All png are removed from folder!"
 msgstr "Όλα τα png αφαιρέθηκαν από τον φάκελο!"
@@ -86,7 +86,7 @@ msgid "Brown"
 msgstr "Καφέ"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ματαίωση"
 
 msgid "Channel Description Color:"
 msgstr "Χρώμα περιγραφής καναλιών:"
@@ -143,7 +143,7 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr "Επιλογή καναλιών_Μεγάλη mini tv"
 
 msgid "City"
-msgstr ""
+msgstr "Πόλη"
 
 msgid "Color Style:"
 msgstr "Στυλ χρωμάτων:"
@@ -167,7 +167,7 @@ msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Διαγράφω"
 
 msgid "Download error: {}"
 msgstr "Σφάλμα λήψης: {}"
@@ -185,7 +185,7 @@ msgid "Downloading Aglare..."
 msgstr "Γίνεται λήψη του Aglare..."
 
 msgid "Edit"
-msgstr ""
+msgstr "Εκδίδω"
 
 msgid "Enable Display Genre icons:"
 msgstr "Ενεργοποίηση εμφάνισης εικονιδίων είδους:"
@@ -230,7 +230,7 @@ msgid "EventView_NO_Posters"
 msgstr "Προβολή προγραμμάτων_Χωρίς αφίσες"
 
 msgid "Exit"
-msgstr ""
+msgstr "Εξοδος"
 
 msgid "File Commander - Addon"
 msgstr ""
@@ -314,10 +314,10 @@ msgid "Local build ({}) is newer than server build ({})."
 msgstr "Η τοπική έκδοση ({}) είναι νεότερη από αυτή του διακομιστή ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Κωδικός τοποθεσίας"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "Αποτέλεσμα αναζήτησης τοποθεσίας MSN"
 
 msgid "MV Boli"
 msgstr "MV Boli"
@@ -335,7 +335,7 @@ msgid "OFF"
 msgstr "Απενεργοποίηση"
 
 msgid "OK"
-msgstr ""
+msgstr "ΕΝΤΑΞΕΙ"
 
 msgid "OMDB Only"
 msgstr "Μόνο OMDB"
@@ -356,10 +356,10 @@ msgid "Pink"
 msgstr "Ροζ"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Εισαγάγετε ένα έγκυρο όνομα πόλης."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Εισαγάγετε έναν έγκυρο κωδικό τοποθεσίας για την πόλη."
 
 msgid "Poster download error: {}"
 msgstr "Σφάλμα λήψης αφίσας: {}"
@@ -368,7 +368,7 @@ msgid "Purple"
 msgstr "Μοβ"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Να διαγραφεί πραγματικά αυτή η καταχώριση WeatherPlugin;"
 
 msgid "Red"
 msgstr "Κόκκινο"
@@ -380,10 +380,10 @@ msgid "Restart GUI now?"
 msgstr "Να γίνει επανεκκίνηση του γραφικού περιβάλλοντος τώρα;"
 
 msgid "Save"
-msgstr ""
+msgstr "Εκτός"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Κωδικός αναζήτησης"
 
 msgid "Second Infobar_MSNWeather"
 msgstr "2η μπάρα πληροφοριών_Καιρός MSN"
@@ -464,7 +464,7 @@ msgid "Support E2iplayer Skins:"
 msgstr "Υποστήριξη θεμάτων E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "Σύστημα"
 
 msgid "TMDB Only"
 msgstr "Μόνο TMDB"
@@ -500,10 +500,10 @@ msgid "VolumeBar Style:"
 msgstr "Στυλ μπάρας έντασης ήχου:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Επεξεργασία καταχώρισης"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Λίστα καταχωρήσεων"
 
 msgid "White"
 msgstr "Λευκό"
@@ -515,16 +515,16 @@ msgid "You already have the latest version ({})."
 msgstr "Έχετε ήδη την πιο πρόσφατη έκδοση ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Πρέπει να εισαγάγετε ένα έγκυρο όνομα πόλης για να μπορέσετε να αναζητήσετε τον κωδικό τοποθεσίας."
 
 msgid "imperial system"
-msgstr ""
+msgstr "αυτοκρατορικό σύστημα"
 
 msgid "metric system"
-msgstr ""
+msgstr "μετρικό σύστημα"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "αναπαραγωγή/εμφάνιση Αρχείων"
 
 msgid "volume2"
 msgstr "Ένταση2"
