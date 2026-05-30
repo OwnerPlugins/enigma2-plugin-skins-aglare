@@ -10,88 +10,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "%s ачкычы импорттолду!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 плакат"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA иштетүү/өчүрүү"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLEди жандыруу/өчүрүү"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "IMDBди жандыруу/өчүрүү"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "МОЛОТОВду иштетүү/өчүрүү"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "PROGRAMMETVди иштетүү/өчүрүү"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "{} жандыруу/өчүрүү"
+msgstr ""
 
 msgid "Add"
-msgstr "кошуу"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "Бардык PNG папкадан алынып салынды!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "Автоматтык"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "Көшөгө автоматтык түрдө жүктөө"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "Плакатты автоматтык түрдө жүктөө"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "EPG негизинде сүйүктүү окуялардын көшөгөсүн автоматтык түрдө алып келиңиз"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "EPG негизинде сүйүктүү окуялар үчүн плакаттарды автоматтык түрдө алуу"
+msgstr ""
 
 msgid "Back"
-msgstr "Артка"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "Фон"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "Көшөгө жүктөп алуу катасы: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "FreeNeue"
+msgstr ""
 
 msgid "Black"
-msgstr "Кара"
+msgstr ""
 
 msgid "Blue"
-msgstr "Көк"
+msgstr ""
 
 msgid "Brown"
-msgstr "Күрөң"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Жокко чыгаруу"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "Канал сүрөттөмөсү Түсү:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "Каналдын алдыңкы планынын түсү:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "Каналдын тандалган сүрөттөмөсү Түсү:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "Канал тандалган алдыңкы пландын түсү:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "Каналды тандоо стили:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -124,10 +124,10 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "ChannelSelection_NO_Plakers"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr "ChannelSelection_NO_Picon_NO_Picon"
+msgstr ""
 
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
@@ -136,115 +136,115 @@ msgid "City"
 msgstr ""
 
 msgid "Color Style:"
-msgstr "Түс стили:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "Автоматтык плакаттарды жүктөөнү баштоодон мурун кечигүү убактысын (мүнөт менен) конфигурациялаңыз"
+msgstr ""
 
 msgid "Crimson"
 msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "%s Skin үчүн ыңгайлаштыруу куралы"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "Кочкул жашыл"
+msgstr ""
 
 msgid "Default"
-msgstr "Демейки"
+msgstr ""
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr "Жок кылуу"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "Жүктөп алуу катасы: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "Жүктөлүп алынууда"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "Көшөгө азыр жүктөп алыңыз"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "Азыр постер жүктөп алыңыз"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Aglare жүктөлүүдө..."
+msgstr ""
 
 msgid "Edit"
-msgstr "Түзөтүү"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "Дисплей жанрынын сүрөтчөлөрүн иштетүү:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "Display InfoEvents иштетүү:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "XMC плакаттарын көрсөтүүнү иштетүү:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "Ата-эненин сүрөтчөлөрүн иштетүү:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "Рейтинг жылдызын иштетүү:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Кайталануучу издөөлөрдү тездетүү үчүн окуяны жүктөө учурунда кэштөө иштетиңиз же өчүрүңүз."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "Маалымат виджетинде кеңейтилген окуя маалыматын, анын ичинде толук актерлор, экипаж, сюжеттин чоо-жайы жана башка метадайындарды көрсөтүүнү иштетүү."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "Файлдарды жүктөөдө ката кетти!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "Жүктөө катасы: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "Ката {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "Ката: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "EventView стили:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_Плакаттар"
+msgstr ""
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "Чыгыңыз"
+msgstr ""
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "{} файлы табылган жок же бош"
+msgstr ""
 
 msgid "Green"
-msgstr "Жашыл"
+msgstr ""
 
 msgid "Greta"
-msgstr "Грета"
+msgstr ""
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "{0} ачкычы {1}ден импорттолсунбу?"
+msgstr ""
 
 msgid "Info..."
-msgstr "Маалымат..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "Маалымат тилкесинин датасы:"
+msgstr ""
 
 msgid "InfoBar ECM:"
 msgstr ""
@@ -253,10 +253,10 @@ msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "InfoBar стили:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "InfoBar Аба ырайы:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
@@ -265,7 +265,7 @@ msgid "Infobar_Date"
 msgstr ""
 
 msgid "Infobar_MSNWeather"
-msgstr "Infobar_MSNАба ырайы"
+msgstr ""
 
 msgid "Infobar_NO_Date"
 msgstr ""
@@ -280,163 +280,163 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr "Жаңыртуулар орнотулууда..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "Ачкыч бош"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "{} ачкычы ийгиликтүү жүктөлдү!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "LightGray"
-msgstr "Ачык боз"
+msgstr ""
 
 msgid "LimeGreen"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "/tmp/{}key.txt файлынан жүктөө"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "Жергиликтүү түзүлүш ({}) сервердин түзүлүшүнөн ({}) жаңыраак."
+msgstr ""
 
 msgid "Location code"
-msgstr "Жайгашкан жер коду"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN жайгашкан жерди издөө натыйжасы"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "MV Боли"
+msgstr ""
 
 msgid "Magenta"
-msgstr "Кызыл"
+msgstr ""
 
 msgid "Mint"
 msgstr ""
 
 msgid "No active providers enabled"
-msgstr "Активдүү провайдерлер иштетилген жок"
+msgstr ""
 
 msgid "OFF"
-msgstr "ӨЧҮРҮҮ"
+msgstr ""
 
 msgid "OK"
-msgstr "макул"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB гана"
+msgstr ""
 
 msgid "ON"
-msgstr "КҮЙҮК"
+msgstr ""
 
 msgid "Off"
-msgstr "Өчүк"
+msgstr ""
 
 msgid "Orange"
-msgstr "Ачык күрөң"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "{} үчүн жеке API ачкычы"
+msgstr ""
 
 msgid "Pink"
-msgstr "Кызгылт"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "Жарактуу шаардын атын киргизиңиз."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "Сураныч, шаар үчүн жарактуу жайгашкан жер кодун киргизиңиз."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "Постер жүктөө катасы: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "Кызгылт көк"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Бул WeatherPlugin жазуусу чын эле өчүрүлсүнбү?"
+msgstr ""
 
 msgid "Red"
-msgstr "Кызыл"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "Бардык PNG файлдарын алып салыңыз (плакат - көшөгө) (ОК)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "GUI азыр кайра иштетилсинби?"
+msgstr ""
 
 msgid "Save"
-msgstr "Сактоо"
+msgstr ""
 
 msgid "Search Code"
-msgstr "Издөө коду"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "Экинчи Infobar_MSNАба ырайы"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "Экинчи Infobar_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "Экинчи Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "SecondInfobar стили:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar Аба ырайы:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI жарыгы"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "Арипиңизди тандаңыз:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "Көшөгө жүктөп алуу үчүн убакытты биздин мүнөткө коюңуз"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "Плакаттарды жүктөп алуу үчүн убакытты биздин мүнөткө коюңуз"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "Орнотуулар Apikey Server"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Aglare Skin Info-ну орнотуу"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "Ар бир окуянын жанрын чагылдырган иконаларды көрсөтүү (мис., экшн, комедия, драма)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Мазмун рейтингин жана куракка ылайыктуулугун көрсөтүү үчүн окуяларда ата-эненин көзөмөлүнүн сүрөтчөлөрүн көрсөтүңүз."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "Жергиликтүү папкадагы тасманын постерин көрсөтүү"
+msgstr ""
 
 msgid "Sienna"
-msgstr "Сиенна"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "Тери стили:"
+msgstr ""
 
 msgid "SnowWhite"
 msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "Көшөгө дароо жүктөп баштаңыз"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "Постерди дароо жүктөп баштаңыз"
+msgstr ""
 
 msgid "SteelBlue"
 msgstr ""
@@ -445,76 +445,76 @@ msgid "Style2"
 msgstr ""
 
 msgid "Style3"
-msgstr "Стиль3"
+msgstr ""
 
 msgid "Style4"
 msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "E2iplayer терилерин колдоо:"
+msgstr ""
 
 msgid "System"
-msgstr "Система"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB гана"
+msgstr ""
 
 msgid "Teal"
 msgstr ""
 
 msgid "The file %s is empty."
-msgstr "%s файлы бош."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "%s файлы табылган жок."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "Бул операция тандалган рейтинг булагынын негизинде окуялар үчүн рейтинг жылдыздарын көрсөтүүгө мүмкүндүк берет."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "Бул операция папка түзмөгүнөн бардык PNG файлдарын жок кылат (Плакат Фонду)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "Помидор"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "URL жаңыртуу инициализацияланган жок, адегенде Plugins менюсунан плагинди бир жолу ачыңыз."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "Жаңыртуу текшерилбей калды: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "Жаңыртуу топтому табылган жок!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "VolumeBar стили:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: Жазууну түзөтүү"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: Жазуулардын тизмеси"
+msgstr ""
 
 msgid "White"
-msgstr "Ак"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "Yellow Green"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "Сизде мурунтан эле акыркы версия бар ({})."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "Жайгашкан жердин кодун издөөдөн мурун жарактуу шаардын атын киргизишиңиз керек."
+msgstr ""
 
 msgid "imperial system"
-msgstr "империялык система"
+msgstr ""
 
 msgid "metric system"
-msgstr "метрикалык система"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "Файлдарды ойнотуу/көрсөтүү"
+msgstr ""
 
 msgid "volume2"
-msgstr "том2"
+msgstr ""

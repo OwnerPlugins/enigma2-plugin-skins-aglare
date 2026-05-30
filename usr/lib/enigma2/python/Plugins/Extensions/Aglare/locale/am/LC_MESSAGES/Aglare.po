@@ -10,511 +10,511 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "%s ቁልፍ መጥቷል!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 ፖስተር"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMAን ያንቁ/አቦዝን"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLEን አንቃ/አቦዝን"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "IMDBን አግብር/አቦዝን"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "MOLOTOVን አግብር/አቦዝን"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "PROGRAMMETVን አግብር/አቦዝን"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "አግብር/አቦዝን {}"
+msgstr ""
 
 msgid "Add"
-msgstr "አክል"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "ሁሉም png ከአቃፊ ተወግደዋል!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "አውቶማቲክ"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "የbackdrop በራስ-ሰር ማውረድ"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "ፖስተር በራስ ሰር ማውረድ"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "በEPG ላይ ተመስርተው ለሚወዷቸው ዝግጅቶች በራስ-ሰር backdrop ያንሱ"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "በEPG ላይ ተመስርተው ለተወዳጅ ዝግጅቶች ፖስተሮችን በራስ ሰር ያውጡ"
+msgstr ""
 
 msgid "Back"
-msgstr "ተመለስ"
+msgstr ""
 
 msgid "Backdrop"
 msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "የBackdrop ማውረድ ስህተት፡ {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "FreeNeue"
+msgstr ""
 
 msgid "Black"
-msgstr "ጥቁር"
+msgstr ""
 
 msgid "Blue"
-msgstr "ሰማያዊ"
+msgstr ""
 
 msgid "Brown"
-msgstr "ብናማ"
+msgstr ""
 
 msgid "Cancel"
-msgstr "ሰርዝ"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "የሰርጥ መግለጫ ቀለም፡-"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "የሰርጥ የፊት ገጽ ቀለም፡"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "የተመረጠ ሰርጥ መግለጫ ቀለም፡-"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "ቻናል የተመረጠ የፊት ቀለም፡"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "የሰርጥ ምርጫ ቅጥ፡"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr "የሰርጥ ምርጫ_1_ፖስተር_EX"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr "የሰርጥ ምርጫ_1_ፖስተር_X"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr "የሰርጥ ምርጫ_4_ፖስተሮች_EX"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr "የሰርጥ ምርጫ_4_ፖስተሮች_X"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr "የሰርጥ ምርጫ_6_ፖስተሮች_EX"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr "የሰርጥ ምርጫ_6_ፖስተሮች_X"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr "የቻናል ምርጫ_BackDrop_H_EX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr "የቻናል ምርጫ_BackDrop_H_PX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_V_EX"
 msgstr ""
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr "የቻናል ምርጫ_BackDrop_V_PX"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "የሰርጥ ምርጫ_NO_ፖስተሮች"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr "የሰርጥ ምርጫ_NO_Posters_NO_Picon"
+msgstr ""
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr "የቻናል ምርጫ_ትልቅ_ሚኒ_ቲቪ"
+msgstr ""
 
 msgid "City"
-msgstr "ከተማ"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "የቀለም ቅጥ"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "አውቶማቲክ ፖስተር ማውረድ ከመጀመርዎ በፊት የመዘግየቱን ጊዜ (በደቂቃዎች ውስጥ) ያዋቅሩ"
+msgstr ""
 
 msgid "Crimson"
-msgstr "ክሪምሰን"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "ለ%s ቆዳ ማበጀት መሳሪያ"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "ጥቁር አረንጓዴ"
+msgstr ""
 
 msgid "Default"
-msgstr "ነባሪ"
+msgstr ""
 
 msgid "Del Line"
-msgstr "ዴል መስመር"
+msgstr ""
 
 msgid "Delete"
-msgstr "ሰርዝ"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "የማውረድ ስህተት፡ {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "ማውረድ በሂደት ላይ ነው።"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "አሁን ያውርዱ backdrop"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "አሁን ፖስተር አውርድ"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Aglareን በማውረድ ላይ..."
+msgstr ""
 
 msgid "Edit"
-msgstr "አርትዕ"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "የማሳያ ዘውግ አዶዎችን አንቃ፡-"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "የማሳያ መረጃ ክስተቶችን አንቃ፡-"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "ማሳያ XMC ፖስተር አንቃ፡-"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "የወላጅ አዶዎችን አንቃ፡"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "የኮከብ ደረጃን አንቃ፡"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "ተደጋጋሚ ፍለጋዎችን ለማፋጠን በክስተቱ በሚወርድበት ጊዜ መሸጎጫውን አንቃ ወይም አሰናክል።"
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "በመረጃ መግብር ውስጥ ሙሉ ተዋናዮችን፣ የቡድን አባላትን፣ የፕላን ዝርዝሮችን እና ሌላ ሜታዳታን ጨምሮ የተራዘመ የክስተት መረጃን ማሳየትን ያንቁ።"
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "ፋይሎችን ማውረድ ላይ ስህተት!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "በመጫን ላይ ስህተት፡ {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "ስህተት {0}፡ {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "ስህተት፡ {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "የክስተት እይታ ቅጥ፡"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "የክስተት እይታ_7_ፖስተሮች"
+msgstr ""
 
 msgid "EventView_NO_Posters"
-msgstr "የክስተት እይታ_NO_ፖስተሮች"
+msgstr ""
 
 msgid "Exit"
-msgstr "ውጣ"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "የፋይል አዛዥ - አዶን"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "ፋይል {} አልተገኘም ወይም ባዶ"
+msgstr ""
 
 msgid "Green"
-msgstr "አረንጓዴ"
+msgstr ""
 
 msgid "Greta"
-msgstr "ግሬታ"
+msgstr ""
 
 msgid "HandelGotD"
-msgstr "ሃንዴል ጎትዲ"
+msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "ቁልፍ {0} ከ{1} ይምጣ?"
+msgstr ""
 
 msgid "Info..."
-msgstr "መረጃ..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "የመረጃ አሞሌ ቀን፡-"
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "የመረጃ አሞሌ ECM፡"
+msgstr ""
 
 msgid "InfoBar PosterX:"
-msgstr "InfoBar PosterX፡"
+msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "የመረጃ አሞሌ ዘይቤ፡"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "የመረጃ አሞሌ የአየር ሁኔታ፡-"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
-msgstr "የመረጃ አሞሌ Xtraevent"
+msgstr ""
 
 msgid "Infobar_Date"
-msgstr "የመረጃ አሞሌ_ቀን"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
-msgstr "የመረጃ አሞሌ_MSNየአየር ሁኔታ"
+msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "የመረጃ አሞሌ_NO_ቀን"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr "የመረጃ አሞሌ_NO_አየር ሁኔታ"
+msgstr ""
 
 msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr "ኢንስ መስመር"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "ዝማኔዎችን በመጫን ላይ..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "ቁልፍ ባዶ"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "ቁልፍ {} በተሳካ ሁኔታ ተጭኗል!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "KhalidArtbold መደበኛ"
+msgstr ""
 
 msgid "LightGray"
-msgstr "ፈካ ያለ ግራጫ"
+msgstr ""
 
 msgid "LimeGreen"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "ከ /tmp/{}key.txt ጫን"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "የአካባቢ ግንባታ ({}) ከአገልጋይ ግንባታ ({}) የበለጠ አዲስ ነው።"
+msgstr ""
 
 msgid "Location code"
-msgstr "የአካባቢ ኮድ"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "የ MSN አካባቢ ፍለጋ ውጤት"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "ኤምቪ ቦሊ"
+msgstr ""
 
 msgid "Magenta"
-msgstr "ማጄንታ"
+msgstr ""
 
 msgid "Mint"
-msgstr "ሚንት"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "ምንም ንቁ አቅራቢዎች አልነቁም።"
+msgstr ""
 
 msgid "OFF"
-msgstr "ጠፍቷል"
+msgstr ""
 
 msgid "OK"
-msgstr "እሺ"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB ብቻ"
+msgstr ""
 
 msgid "ON"
-msgstr "በርቷል"
+msgstr ""
 
 msgid "Off"
-msgstr "ጠፍቷል"
+msgstr ""
 
 msgid "Orange"
-msgstr "ብርቱካናማ"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "የግል ኤፒአይ ቁልፍ ለ{}"
+msgstr ""
 
 msgid "Pink"
-msgstr "ሮዝ"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "እባክዎ የሚሰራ የከተማ ስም ያስገቡ።"
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "እባክዎ ለከተማው የሚሰራ የአካባቢ ኮድ ያስገቡ።"
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "የፖስተር ማውረድ ስህተት፡ {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "ሐምራዊ"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "ይህ የአየር ሁኔታ ፕለጊን ግቤት በእርግጥ ይሰረዝ?"
+msgstr ""
 
 msgid "Red"
-msgstr "ቀይ"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "ሁሉንም png አስወግድ (ፖስተር - backdrop) (እሺ)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "GUI አሁን እንደገና ይጀመር?"
+msgstr ""
 
 msgid "Save"
-msgstr "አስቀምጥ"
+msgstr ""
 
 msgid "Search Code"
-msgstr "የፍለጋ ኮድ"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "ሁለተኛ መረጃ አሞሌ_MSNየአየር ሁኔታ"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "ሁለተኛ የመረጃ አሞሌ_NO_አየር ሁኔታ"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "ሁለተኛ Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
-msgstr "ሁለተኛ ኢንፎባር ፖስተርክስ፡"
+msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "ሁለተኛ የመረጃ አሞሌ ቅጥ፡"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "ሁለተኛ የመረጃ አሞሌ የአየር ሁኔታ፡-"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
-msgstr "ሁለተኛ መረጃ አሞሌ Xtraevent:"
+msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI ብርሃን"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "የእርስዎን ፊደል ይምረጡ፡-"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "ለBackdrop ማውረድ ጊዜያችንን አዘጋጅ"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "ፖስተር ለማውረድ ጊዜያችንን አዘጋጅ"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "የApikey አገልጋይ ቅንብሮች"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "የAglare የቆዳ መረጃን ያዋቅሩ"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "የእያንዳንዱን ክስተት ዘውግ የሚወክሉ አዶዎችን አሳይ (ለምሳሌ፦ ድርጊት፣ አስቂኝ፣ ድራማ)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "የይዘት ደረጃን እና የዕድሜን ተስማሚነት ለማመልከት በክስተቶች ላይ የወላጅ መመሪያ አዶዎችን አሳይ።"
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "ከፊልም ፖስተር በአካባቢያዊ አቃፊ ውስጥ አሳይ"
+msgstr ""
 
 msgid "Sienna"
-msgstr "ሲዬና"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "የቆዳ ዘይቤ፡"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "በረዶ ነጭ"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "backdropን ወዲያውኑ ማውረድ ጀምር"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "ፖስተር ወዲያውኑ ማውረድ ይጀምሩ"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "ብረት ሰማያዊ"
+msgstr ""
 
 msgid "Style2"
-msgstr "ቅጥ2"
+msgstr ""
 
 msgid "Style3"
-msgstr "ቅጥ3"
+msgstr ""
 
 msgid "Style4"
-msgstr "ቅጥ4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "E2iplayer ቆዳዎችን ይደግፉ፡"
+msgstr ""
 
 msgid "System"
-msgstr "ስርዓት"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB ብቻ"
+msgstr ""
 
 msgid "Teal"
-msgstr "ሻይ"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "%s ፋይሉ ባዶ ነው።"
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "%s ፋይል አልተገኘም።"
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "ይህ ክዋኔ በተመረጠው የደረጃ አሰጣጥ ምንጭ ላይ በመመስረት የክስተቶች ደረጃ አሰጣጥ ኮከቦችን ለማሳየት ያስችላል።"
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "ይህ ክዋኔ ሁሉንም png ከአቃፊ መሳሪያ (Poster-Backdrop) ያስወግዳል"
+msgstr ""
 
 msgid "Tomato"
-msgstr "ቲማቲም"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "የዝማኔ ዩአርኤል አልተጀመረም ፕለጊኑን አንዴ ከፕለጊኖች ሜኑ መጀመሪያ ይክፈቱት።"
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "የዝማኔ ፍተሻ አልተሳካም፦ {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "የዝማኔ ጥቅል አልተገኘም!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "የድምጽ አሞሌ ቅጥ፡"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin፡ ግቤትን ያርትዑ"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin፡ የመግቢያ ዝርዝር"
+msgstr ""
 
 msgid "White"
-msgstr "ነጭ"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "ቢጫ አረንጓዴ"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "አስቀድመው የቅርብ ጊዜ ስሪት ({}) አልዎት።"
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "የአካባቢ ኮዱን ከመፈለግዎ በፊት የሚሰራ የከተማ ስም ማስገባት ያስፈልግዎታል።"
+msgstr ""
 
 msgid "imperial system"
-msgstr "ኢምፔሪያል ስርዓት"
+msgstr ""
 
 msgid "metric system"
-msgstr "የሜትሪክ ስርዓት"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "ፋይሎችን አጫውት/አሳይ"
+msgstr ""
 
 msgid "volume2"
-msgstr "ጥራዝ 2"
+msgstr ""

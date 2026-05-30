@@ -10,88 +10,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "%s 密鑰已導入！"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 張海報"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "啟用/停用 ELCINEMA"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "啟用/停用 GOOGLE"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "啟用/停用 IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "啟用/停用莫洛托夫"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "啟用/停用 PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "啟用/停用 {}"
+msgstr ""
 
 msgid "Add"
-msgstr "添加"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "所有 png 已從資料夾中刪除！"
+msgstr ""
 
 msgid "Automatic"
-msgstr "自動的"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "自動下載背景"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "自動下載海報"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "根據 EPG 自動取得喜愛的活動背景"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "根據EPG自動取得喜愛活動的海報"
+msgstr ""
 
 msgid "Back"
-msgstr "後退"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "背景"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "背景下載錯誤：{}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "自由新"
+msgstr ""
 
 msgid "Black"
-msgstr "黑色的"
+msgstr ""
 
 msgid "Blue"
-msgstr "藍色的"
+msgstr ""
 
 msgid "Brown"
-msgstr "棕色的"
+msgstr ""
 
 msgid "Cancel"
-msgstr "取消"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "通道描述顏色："
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "通道前方景色："
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "頻道選擇的描述顏色："
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "通道選擇的前景色："
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "頻道選擇風格："
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -133,388 +133,388 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "城市"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "顏色款式："
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "配置開始自動海報下載之前的延遲時間（以分鐘為單位）"
+msgstr ""
 
 msgid "Crimson"
-msgstr "赤紅"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "%s 皮膚的客製化工具"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "深綠色"
+msgstr ""
 
 msgid "Default"
-msgstr "預設"
+msgstr ""
 
 msgid "Del Line"
-msgstr "德爾線"
+msgstr ""
 
 msgid "Delete"
-msgstr "刪除"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "下載錯誤：{}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "下載正在進行中"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "立即下載背景"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "立即下載海報"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "正在下載阿格拉..."
+msgstr ""
 
 msgid "Edit"
-msgstr "編輯"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "啟用顯示類型圖示："
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "啟用顯示資訊事件："
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "啟用顯示 XMC 海報："
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "啟用家長圖示："
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "啟用評級星級："
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "在事件下載期間啟用或停用快取以加快重複搜尋的速度。"
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "在資訊小工具中啟用擴展事件資訊的顯示，包括完整演員表、工作人員、情節詳細資訊和其他元資料。"
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "下載檔案時發生錯誤！"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "載入錯誤：{}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "錯誤{0}：{1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "錯誤： {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "活動視圖樣式："
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_海報"
+msgstr ""
 
 msgid "EventView_NO_Posters"
-msgstr "事件視圖_NO_海報"
+msgstr ""
 
 msgid "Exit"
-msgstr "出口"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "文件指揮官 - 插件"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "文件 {} 未找到或為空"
+msgstr ""
 
 msgid "Green"
-msgstr "綠色的"
+msgstr ""
 
 msgid "Greta"
-msgstr "葛蕾塔"
+msgstr ""
 
 msgid "HandelGotD"
-msgstr "亨德爾得D"
+msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "從 {1} 導入金鑰 {0}？"
+msgstr ""
 
 msgid "Info..."
-msgstr "資訊..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "資訊欄日期："
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "資訊欄 ECM："
+msgstr ""
 
 msgid "InfoBar PosterX:"
-msgstr "資訊欄海報X："
+msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "資訊欄樣式："
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "資訊欄天氣："
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
-msgstr "資訊欄 Xtraevent："
+msgstr ""
 
 msgid "Infobar_Date"
-msgstr "資訊欄_日期"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
-msgstr "資訊欄_MSN天氣"
+msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "訊息欄_NO_日期"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr "資訊欄_NO_天氣"
+msgstr ""
 
 msgid "Infobar_OAWeather"
-msgstr "訊息欄_OA天氣"
+msgstr ""
 
 msgid "Ins Line"
-msgstr "INS線"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "正在安裝更新..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "鑰匙空"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "密鑰 {} 已成功載入！"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "KhalidArtbold常規"
+msgstr ""
 
 msgid "LightGray"
-msgstr "淺灰色"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "檸檬綠"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "從 /tmp/{}key.txt 載入"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "本機建置 ({}) 比伺服器建置 ({}) 新。"
+msgstr ""
 
 msgid "Location code"
-msgstr "位置代碼"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN位置搜尋結果"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "MV波利"
+msgstr ""
 
 msgid "Magenta"
-msgstr "品紅"
+msgstr ""
 
 msgid "Mint"
-msgstr "薄荷"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "沒有啟用任何活躍的提供者"
+msgstr ""
 
 msgid "OFF"
-msgstr "離開"
+msgstr ""
 
 msgid "OK"
-msgstr "好的"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "僅限 OMDB"
+msgstr ""
 
 msgid "ON"
-msgstr "在"
+msgstr ""
 
 msgid "Off"
-msgstr "離開"
+msgstr ""
 
 msgid "Orange"
-msgstr "橘子"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "{} 的個人 API 金鑰"
+msgstr ""
 
 msgid "Pink"
-msgstr "粉紅色的"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "請輸入有效的城市名稱。"
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "請輸入該城市的有效位置代碼。"
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "海報下載錯誤：{}"
+msgstr ""
 
 msgid "Purple"
-msgstr "紫色的"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "真的刪除這個WeatherPlugin條目嗎？"
+msgstr ""
 
 msgid "Red"
-msgstr "紅色的"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "刪除所有png（海報-背景）（確定）"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "現在重新啟動圖形使用者介面嗎？"
+msgstr ""
 
 msgid "Save"
-msgstr "節省"
+msgstr ""
 
 msgid "Search Code"
-msgstr "搜尋碼"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "第二個資訊欄_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "第二個資訊欄_NO_天氣"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "第二個資訊欄_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
-msgstr "第二資訊欄海報："
+msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "第二資訊欄樣式："
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "天氣："
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
-msgstr "SecondInfobar Xtraevent："
+msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI 燈"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "選擇您的字體："
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "設定背景下載時間 - 分鐘"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "設定時間 - 分鐘下載海報"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "設定 APIkey 伺服器"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "設定炫光皮膚訊息"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "顯示代表每個事件類型的圖示（例如動作、喜劇、戲劇）"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "在活動中顯示家長指導圖標，以指示內容分級和年齡適合性。"
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "在本機資料夾中顯示電影海報"
+msgstr ""
 
 msgid "Sienna"
-msgstr "赭色"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "皮膚風格："
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "白雪公主"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "立即開始下載背景"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "立即開始下載海報"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "鋼藍"
+msgstr ""
 
 msgid "Style2"
-msgstr "款式2"
+msgstr ""
 
 msgid "Style3"
-msgstr "款式3"
+msgstr ""
 
 msgid "Style4"
-msgstr "款式4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "支援 E2iplayer 皮膚："
+msgstr ""
 
 msgid "System"
-msgstr "系統"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "僅TMDB"
+msgstr ""
 
 msgid "Teal"
-msgstr "青色"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "文件 %s 為空。"
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "未找到文件 %s。"
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "此操作可根據所選的評級來源顯示事件的評級星級。"
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "此操作從資料夾裝置中刪除所有 png（海報背景）"
+msgstr ""
 
 msgid "Tomato"
-msgstr "番茄"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "更新 URL 未初始化 首先從外掛程式選單開啟外掛程式一次。"
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "更新檢查失敗：{}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "未找到更新包！"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "音量條樣式："
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin：編輯條目"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin：條目列表"
+msgstr ""
 
 msgid "White"
-msgstr "白色的"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "黃綠色"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "您已經擁有最新版本 ({})。"
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "您需要輸入有效的城市名稱才能搜尋位置代碼。"
+msgstr ""
 
 msgid "imperial system"
-msgstr "帝國制度"
+msgstr ""
 
 msgid "metric system"
-msgstr "公制"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "播放/顯示文件"
+msgstr ""
 
 msgid "volume2"
-msgstr "卷2"
+msgstr ""

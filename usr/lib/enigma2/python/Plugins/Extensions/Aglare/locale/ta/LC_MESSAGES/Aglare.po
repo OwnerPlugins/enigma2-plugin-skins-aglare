@@ -10,88 +10,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "%s விசை இறக்குமதி செய்யப்பட்டது!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 போஸ்டர்"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA ஐச் செயல்படுத்து/முடக்கு"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLE ஐ இயக்கு/முடக்கு"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "IMDB ஐ இயக்கு/முடக்கு"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "MOLOTOV ஐ இயக்கு/முடக்கு"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "ப்ரோக்ராம்மெடிவியை இயக்கு/முடக்கு"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "{}ஐச் செயல்படுத்து/முடக்கு"
+msgstr ""
 
 msgid "Add"
-msgstr "சேர்"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "அனைத்து png கோப்புறையிலிருந்து அகற்றப்பட்டது!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "தானியங்கி"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "பின்னணியின் தானியங்கி பதிவிறக்கம்"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "சுவரொட்டியின் தானியங்கி பதிவிறக்கம்"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "EPG அடிப்படையில் பிடித்த நிகழ்வுகளுக்கான பின்னணியைத் தானாகப் பெறவும்"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "EPG அடிப்படையில் பிடித்த நிகழ்வுகளுக்கான போஸ்டர்களைத் தானாகப் பெறவும்"
+msgstr ""
 
 msgid "Back"
-msgstr "மீண்டும்"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "பின்னணி"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "பின்னணிப் பதிவிறக்கப் பிழை: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "ஃப்ரீநியூ"
+msgstr ""
 
 msgid "Black"
-msgstr "கருப்பு"
+msgstr ""
 
 msgid "Blue"
-msgstr "நீலம்"
+msgstr ""
 
 msgid "Brown"
-msgstr "பழுப்பு"
+msgstr ""
 
 msgid "Cancel"
-msgstr "ரத்து செய்"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "சேனல் விளக்கம் நிறம்:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "சேனல் முன்புற நிறம்:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "சேனல் தேர்ந்தெடுக்கப்பட்ட விளக்க நிறம்:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "சேனல் தேர்ந்தெடுக்கப்பட்ட முன்புற நிறம்:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "சேனல் தேர்வு நடை:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -124,7 +124,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "சேனல்Selection_NO_Posters"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -133,85 +133,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "நகரம்"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "வண்ண உடை:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "தானியங்கி சுவரொட்டி பதிவிறக்கத்தைத் தொடங்குவதற்கு முன் தாமத நேரத்தை (நிமிடங்களில்) உள்ளமைக்கவும்"
+msgstr ""
 
 msgid "Crimson"
-msgstr "கருஞ்சிவப்பு"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "%s தோலுக்கான தனிப்பயனாக்குதல் கருவி"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "அடர் பச்சை"
+msgstr ""
 
 msgid "Default"
-msgstr "இயல்புநிலை"
+msgstr ""
 
 msgid "Del Line"
-msgstr "டெல் லைன்"
+msgstr ""
 
 msgid "Delete"
-msgstr "நீக்கு"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "பதிவிறக்கப் பிழை: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "பதிவிறக்கம் செயலில் உள்ளது"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "இப்போது பின்னணியைப் பதிவிறக்கவும்"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "இப்போது சுவரொட்டியைப் பதிவிறக்கவும்"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Aglare ஐ பதிவிறக்குகிறது..."
+msgstr ""
 
 msgid "Edit"
-msgstr "திருத்தவும்"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "காட்சி வகை ஐகான்களை இயக்கு:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "காட்சி தகவல் நிகழ்வுகளை இயக்கு:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "காட்சி XMC போஸ்டரை இயக்கு:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "பெற்றோர் சின்னங்களை இயக்கு:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "மதிப்பீடு நட்சத்திரத்தை இயக்கு:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "தொடர்ச்சியான தேடல்களை விரைவுபடுத்த, நிகழ்வு பதிவிறக்கத்தின் போது தற்காலிக சேமிப்பை இயக்கவும் அல்லது முடக்கவும்."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "தகவல் விட்ஜெட்டில் முழு நடிகர்கள், குழுவினர், சதி விவரங்கள் மற்றும் பிற மெட்டாடேட்டா உட்பட நீட்டிக்கப்பட்ட நிகழ்வுத் தகவலைக் காட்டுவதை இயக்கவும்."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "கோப்புகளைப் பதிவிறக்குவதில் பிழை!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "ஏற்றுவதில் பிழை: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "பிழை {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "பிழை: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "EventView நடை:"
+msgstr ""
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -220,31 +220,31 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "வெளியேறு"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "கோப்பு தளபதி - Addon"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "கோப்பு {} கிடைக்கவில்லை அல்லது காலியாக உள்ளது"
+msgstr ""
 
 msgid "Green"
-msgstr "பச்சை"
+msgstr ""
 
 msgid "Greta"
-msgstr "கிரேட்டா"
+msgstr ""
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "{0} விசையை {1} இலிருந்து இறக்கவா?"
+msgstr ""
 
 msgid "Info..."
-msgstr "தகவல்..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "இன்ஃபோபார் தேதி:"
+msgstr ""
 
 msgid "InfoBar ECM:"
 msgstr ""
@@ -253,22 +253,22 @@ msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "InfoBar நடை:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "InfoBar வானிலை:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr "தகவல்பார்_தேதி"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
 msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "தகவல்பட்டி_NO_தேதி"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
 msgstr ""
@@ -277,244 +277,244 @@ msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr "இன்ஸ் லைன்"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "புதுப்பிப்புகளை நிறுவுகிறது..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "சாவி காலி"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "விசை {} வெற்றிகரமாக ஏற்றப்பட்டது!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "காலித் ஆர்ட்போல்ட் ரெகுலர்"
+msgstr ""
 
 msgid "LightGray"
-msgstr "வெளிர் சாம்பல்"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "சுண்ணாம்பு பச்சை"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "/tmp/{}key.txt இலிருந்து ஏற்றவும்"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "உள்ளூர் உருவாக்கம் ({}) என்பது சர்வர் கட்டமைப்பை விட ({}) புதியது."
+msgstr ""
 
 msgid "Location code"
-msgstr "இருப்பிடக் குறியீடு"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN இருப்பிடத் தேடல் முடிவு"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "எம்.வி.போலி"
+msgstr ""
 
 msgid "Magenta"
-msgstr "மெஜந்தா"
+msgstr ""
 
 msgid "Mint"
-msgstr "புதினா"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "செயலில் உள்ள வழங்குநர்கள் எதுவும் இயக்கப்படவில்லை"
+msgstr ""
 
 msgid "OFF"
-msgstr "முடக்கப்பட்டுள்ளது"
+msgstr ""
 
 msgid "OK"
-msgstr "சரி"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB மட்டும்"
+msgstr ""
 
 msgid "ON"
-msgstr "ஆன்"
+msgstr ""
 
 msgid "Off"
-msgstr "ஆஃப்"
+msgstr ""
 
 msgid "Orange"
-msgstr "ஆரஞ்சு"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "{}க்கான தனிப்பட்ட API விசை"
+msgstr ""
 
 msgid "Pink"
-msgstr "இளஞ்சிவப்பு"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "சரியான நகரத்தின் பெயரை உள்ளிடவும்."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "நகரத்திற்கான சரியான இருப்பிடக் குறியீட்டை உள்ளிடவும்."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "போஸ்டர் பதிவிறக்கப் பிழை: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "ஊதா"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "இந்த WeatherPlugin உள்ளீட்டை உண்மையில் நீக்கவா?"
+msgstr ""
 
 msgid "Red"
-msgstr "சிவப்பு"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "அனைத்து png (போஸ்டர் - பின்னணி) அகற்றவும் (சரி)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "GUI ஐ இப்போது மறுதொடக்கம் செய்யவா?"
+msgstr ""
 
 msgid "Save"
-msgstr "சேமிக்கவும்"
+msgstr ""
 
 msgid "Search Code"
-msgstr "தேடல் குறியீடு"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "இரண்டாவது Infobar_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "இரண்டாவது தகவல்பட்டி_NO_வானிலை"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "இரண்டாவது Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "இரண்டாவது இன்ஃபோபார் நடை:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar வானிலை:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI ஒளி"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "உங்கள் எழுத்துருவைத் தேர்ந்தெடுக்கவும்:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "பேக்டிராப் பதிவிறக்கத்திற்கு நேரத்தை அமைக்கவும்"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "சுவரொட்டி பதிவிறக்கத்திற்கான நேரத்தை எங்கள் நிமிடம் அமைக்கவும்"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "அமைப்புகள் Apikey சேவையகம்"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Aglare தோல் தகவலை அமைக்கவும்"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "ஒவ்வொரு நிகழ்வின் வகையையும் குறிக்கும் ஐகான்களைக் காட்டு (எ.கா., அதிரடி, நகைச்சுவை, நாடகம்)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "உள்ளடக்க மதிப்பீடு மற்றும் வயது பொருத்தத்தைக் குறிக்க நிகழ்வுகளில் பெற்றோரின் வழிகாட்டுதல் ஐகான்களைக் காட்டு."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "உள்ளூர் கோப்புறையில் திரைப்படத்திலிருந்து போஸ்டரைக் காட்டு"
+msgstr ""
 
 msgid "Sienna"
-msgstr "சியன்னா"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "தோல் உடை:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "ஸ்னோவைட்"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "பின்னணியை உடனடியாகப் பதிவிறக்கத் தொடங்குங்கள்"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "உடனடியாக போஸ்டரைப் பதிவிறக்கத் தொடங்குங்கள்"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "ஸ்டீல் ப்ளூ"
+msgstr ""
 
 msgid "Style2"
-msgstr "உடை 2"
+msgstr ""
 
 msgid "Style3"
-msgstr "உடை 3"
+msgstr ""
 
 msgid "Style4"
-msgstr "உடை 4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "ஆதரவு E2iplayer Skins:"
+msgstr ""
 
 msgid "System"
-msgstr "அமைப்பு"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB மட்டும்"
+msgstr ""
 
 msgid "Teal"
-msgstr "டீல்"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "%s கோப்பு காலியாக உள்ளது."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "%s கோப்பு காணப்படவில்லை."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "தேர்ந்தெடுக்கப்பட்ட ரேட்டிங் மூலத்தின் அடிப்படையில் நிகழ்வுகளுக்கான ரேட்டிங் நட்சத்திரங்களை இந்தச் செயல்பாடு செயல்படுத்துகிறது."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "இந்தச் செயல்பாடு கோப்புறை சாதனத்திலிருந்து அனைத்து pngகளையும் நீக்குகிறது (போஸ்டர்-பேக் டிராப்)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "தக்காளி"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "புதுப்பிப்பு URL துவக்கப்படவில்லை, முதலில் செருகுநிரல்கள் மெனுவிலிருந்து ஒருமுறை செருகுநிரலைத் திறக்கவும்."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "புதுப்பிப்பு சரிபார்ப்பு தோல்வியடைந்தது: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "புதுப்பிப்பு தொகுப்பு காணப்படவில்லை!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "வால்யூம்பார் ஸ்டைல்:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: திருத்து நுழைவு"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: உள்ளீடுகளின் பட்டியல்"
+msgstr ""
 
 msgid "White"
-msgstr "வெள்ளை"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "மஞ்சள் பச்சை"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "உங்களிடம் ஏற்கனவே சமீபத்திய பதிப்பு ({}) உள்ளது."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "இருப்பிடக் குறியீட்டைத் தேடுவதற்கு முன், சரியான நகரப் பெயரை உள்ளிட வேண்டும்."
+msgstr ""
 
 msgid "imperial system"
-msgstr "ஏகாதிபத்திய அமைப்பு"
+msgstr ""
 
 msgid "metric system"
-msgstr "மெட்ரிக் அமைப்பு"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "கோப்புகளை இயக்கவும்/காண்பிக்கவும்"
+msgstr ""
 
 msgid "volume2"
-msgstr "தொகுதி2"
+msgstr ""

@@ -10,88 +10,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "បាន​នាំចូល​សោ %s!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 ផ្ទាំងរូបភាព"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "ធ្វើឱ្យសកម្ម/បិទដំណើរការ ELCINEMA"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "ធ្វើឱ្យសកម្ម/បិទដំណើរការ GOOGLE"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "ធ្វើឱ្យសកម្ម / អសកម្ម IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "ធ្វើឱ្យសកម្ម / អសកម្ម MOLOTOV"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "ធ្វើឱ្យសកម្ម/អសកម្ម PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "ធ្វើឱ្យសកម្ម/បិទដំណើរការ {}"
+msgstr ""
 
 msgid "Add"
-msgstr "បន្ថែម"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "png ទាំងអស់ត្រូវបានដកចេញពីថត!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "ស្វ័យប្រវត្តិ"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "ការទាញយកផ្ទាំងខាងក្រោយដោយស្វ័យប្រវត្តិ"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "ការទាញយកផ្ទាំងរូបភាពដោយស្វ័យប្រវត្តិ"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "ទាញយកផ្ទាំងខាងក្រោយដោយស្វ័យប្រវត្តិសម្រាប់ព្រឹត្តិការណ៍ដែលអ្នកចូលចិត្តដោយផ្អែកលើ EPG"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "ទាញយកផ្ទាំងរូបភាពដោយស្វ័យប្រវត្តិសម្រាប់ព្រឹត្តិការណ៍ដែលអ្នកចូលចិត្តដោយផ្អែកលើ EPG"
+msgstr ""
 
 msgid "Back"
-msgstr "ត្រឡប់មកវិញ"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "ផ្ទាំងខាងក្រោយ"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "កំហុសក្នុងការទាញយកផ្ទាំងខាងក្រោយ៖ {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "FreeNeue"
+msgstr ""
 
 msgid "Black"
-msgstr "ខ្មៅ"
+msgstr ""
 
 msgid "Blue"
-msgstr "ខៀវ"
+msgstr ""
 
 msgid "Brown"
-msgstr "ត្នោត"
+msgstr ""
 
 msgid "Cancel"
-msgstr "បោះបង់"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "ពណ៌​ពិពណ៌នា​ឆានែល៖"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "ពណ៌ផ្ទៃខាងមុខឆានែល៖"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "ពណ៌​ពណ៌នា​ដែល​បាន​ជ្រើស​ឆានែល៖"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "ឆានែលដែលបានជ្រើសរើសពណ៌ផ្ទៃខាងមុខ៖"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "រចនាប័ទ្មការជ្រើសរើសឆានែល៖"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -133,85 +133,85 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "ទីក្រុង"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "រចនាប័ទ្មពណ៌៖"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "កំណត់រចនាសម្ព័ន្ធពេលវេលាពន្យាពេល (គិតជានាទី) មុនពេលចាប់ផ្តើមការទាញយកផ្ទាំងរូបភាពដោយស្វ័យប្រវត្តិ"
+msgstr ""
 
 msgid "Crimson"
-msgstr "ពណ៌ក្រហម"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "ឧបករណ៍ប្ដូរតាមបំណងសម្រាប់ %s Skin"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "បៃតងងងឹត"
+msgstr ""
 
 msgid "Default"
-msgstr "លំនាំដើម"
+msgstr ""
 
 msgid "Del Line"
-msgstr "បន្ទាត់ Del"
+msgstr ""
 
 msgid "Delete"
-msgstr "លុប"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "កំហុសក្នុងការទាញយក៖ {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "ការទាញយកកំពុងដំណើរការ"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "ទាញយកផ្ទាំងខាងក្រោយឥឡូវនេះ"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "ទាញយកផ្ទាំងរូបភាពឥឡូវនេះ"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "កំពុងទាញយក Aglare..."
+msgstr ""
 
 msgid "Edit"
-msgstr "កែសម្រួល"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "បើករូបតំណាងប្រភេទបង្ហាញ៖"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "បើកដំណើរការ Display InfoEvents៖"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "បើកការបង្ហាញផ្ទាំងរូបភាព XMC៖"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "បើករូបតំណាងមាតាបិតា៖"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "បើកការវាយតម្លៃផ្កាយ៖"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "បើក ឬបិទឃ្លាំងសម្ងាត់កំឡុងពេលទាញយកព្រឹត្តិការណ៍ ដើម្បីបង្កើនល្បឿនការស្វែងរកម្តងហើយម្តងទៀត។"
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "បើកការបង្ហាញព័ត៌មានព្រឹត្តិការណ៍បន្ថែម រួមទាំងការសម្ដែងពេញលេញ ក្រុមនាវិក ព័ត៌មានលម្អិតនៃគ្រោង និងទិន្នន័យមេតាផ្សេងទៀតនៅក្នុងធាតុក្រាហ្វិកព័ត៌មាន។"
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "កំហុសក្នុងការទាញយកឯកសារ!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "កំហុសក្នុងការផ្ទុក៖ {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "កំហុស {0}៖ {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "កំហុស៖ {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "រចនាប័ទ្មទិដ្ឋភាពព្រឹត្តិការណ៍៖"
+msgstr ""
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -220,301 +220,301 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "ចេញ"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "មេបញ្ជាការឯកសារ - Addon"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "រកមិនឃើញឯកសារ {} ឬទទេ"
+msgstr ""
 
 msgid "Green"
-msgstr "បៃតង"
+msgstr ""
 
 msgid "Greta"
-msgstr "ហ្គ្រេតា"
+msgstr ""
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "នាំចូល​សោ {0} ពី {1}?"
+msgstr ""
 
 msgid "Info..."
-msgstr "ព័ត៌មាន..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "កាលបរិច្ឆេទរបារព័ត៌មាន៖"
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "របារព័ត៌មាន ECM៖"
+msgstr ""
 
 msgid "InfoBar PosterX:"
-msgstr "InfoBar PosterX៖"
+msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "រចនាប័ទ្មរបារព័ត៌មាន៖"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "InfoBar អាកាសធាតុ៖"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
-msgstr "InfoBar Xtraevent៖"
+msgstr ""
 
 msgid "Infobar_Date"
-msgstr "Infobar_កាលបរិច្ឆេទ"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
 msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "Infobar_NO_កាលបរិច្ឆេទ"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr "Infobar_NO_អាកាសធាតុ"
+msgstr ""
 
 msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr "បន្ទាត់ Ins"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "កំពុងដំឡើងបច្ចុប្បន្នភាព..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "គ្រាប់ចុចទទេ"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "សោ {} បាន​ផ្ទុក​ដោយ​ជោគជ័យ!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "KhalidArtbold ទៀងទាត់"
+msgstr ""
 
 msgid "LightGray"
-msgstr "ប្រផេះស្រាល"
+msgstr ""
 
 msgid "LimeGreen"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "ផ្ទុកពី /tmp/{}key.txt"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "Local build ({}) គឺថ្មីជាង server build ({})។"
+msgstr ""
 
 msgid "Location code"
-msgstr "លេខកូដទីតាំង"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "លទ្ធផលស្វែងរកទីតាំង MSN"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "MV បូលី"
+msgstr ""
 
 msgid "Magenta"
-msgstr "ពណ៌ស្វាយ"
+msgstr ""
 
 msgid "Mint"
-msgstr "ជីអង្កាម"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "គ្មានអ្នកផ្តល់សេវាសកម្មត្រូវបានបើកទេ។"
+msgstr ""
 
 msgid "OFF"
-msgstr "បិទ"
+msgstr ""
 
 msgid "OK"
-msgstr "យល់ព្រម"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB តែប៉ុណ្ណោះ"
+msgstr ""
 
 msgid "ON"
-msgstr "បើក"
+msgstr ""
 
 msgid "Off"
-msgstr "បិទ"
+msgstr ""
 
 msgid "Orange"
-msgstr "ពណ៌ទឹកក្រូច"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "សោ API ផ្ទាល់ខ្លួនសម្រាប់ {}"
+msgstr ""
 
 msgid "Pink"
-msgstr "ផ្កាឈូក"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "សូមបញ្ចូលឈ្មោះទីក្រុងត្រឹមត្រូវ។"
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "សូមបញ្ចូលលេខកូដទីតាំងត្រឹមត្រូវសម្រាប់ទីក្រុង។"
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "កំហុសក្នុងការទាញយកផ្ទាំងរូបភាព៖ {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "ពណ៌ស្វាយ"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "ពិតជាលុបធាតុ WeatherPlugin នេះមែនទេ?"
+msgstr ""
 
 msgid "Red"
-msgstr "ក្រហម"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "លុប png ទាំងអស់ (ផ្ទាំងរូបភាព - ផ្ទាំងខាងក្រោយ) (យល់ព្រម)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "ចាប់ផ្តើម GUI ឡើងវិញឥឡូវនេះ?"
+msgstr ""
 
 msgid "Save"
-msgstr "រក្សាទុក"
+msgstr ""
 
 msgid "Search Code"
-msgstr "ស្វែងរកលេខកូដ"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "ទីពីរ Infobar_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "ទីពីរ Infobar_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "ទីពីរ Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
-msgstr "SecondInfobar Posterx៖"
+msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "រចនាប័ទ្ម SecondInfobar៖"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar អាកាសធាតុ៖"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
-msgstr "SecondInfobar Xtraevent៖"
+msgstr ""
 
 msgid "Segoe UI light"
-msgstr "ពន្លឺ Segoe UI"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "ជ្រើសរើសពុម្ពអក្សររបស់អ្នក៖"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "កំណត់ពេលវេលារបស់យើង - នាទីសម្រាប់ការទាញយកផ្ទាំងខាងក្រោយ"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "កំណត់ពេលវេលារបស់យើង - នាទីសម្រាប់ការទាញយកផ្ទាំងរូបភាព"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "ការកំណត់ Apkey Server"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "ដំឡើងព័ត៌មានស្បែក Aglare"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "បង្ហាញរូបតំណាងដែលតំណាងឱ្យប្រភេទនៃព្រឹត្តិការណ៍នីមួយៗ (ឧ. សកម្មភាព កំប្លែង រឿងល្ខោន)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "បង្ហាញរូបតំណាងការណែនាំរបស់មាតាបិតានៅលើព្រឹត្តិការណ៍ដើម្បីបង្ហាញពីការវាយតម្លៃខ្លឹមសារ និងភាពសមស្របតាមអាយុ។"
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "បង្ហាញផ្ទាំងរូបភាពពីភាពយន្តនៅក្នុងថតក្នុងស្រុក"
+msgstr ""
 
 msgid "Sienna"
-msgstr "សៀនណា"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "រចនាប័ទ្មស្បែក៖"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "ព្រិលស"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "ចាប់ផ្តើមទាញយកផ្ទាំងខាងក្រោយភ្លាមៗ"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "ចាប់ផ្តើមទាញយកផ្ទាំងរូបភាពភ្លាមៗ"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "ដែកថែបខៀវ"
+msgstr ""
 
 msgid "Style2"
-msgstr "រចនាប័ទ្ម2"
+msgstr ""
 
 msgid "Style3"
-msgstr "រចនាប័ទ្ម3"
+msgstr ""
 
 msgid "Style4"
-msgstr "រចនាប័ទ្ម4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "គាំទ្រ E2iplayer Skins៖"
+msgstr ""
 
 msgid "System"
-msgstr "ប្រព័ន្ធ"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB តែប៉ុណ្ណោះ"
+msgstr ""
 
 msgid "Teal"
-msgstr "ទឹកប្រៃ"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "ឯកសារ %s គឺទទេ។"
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "រកមិនឃើញឯកសារ %s ទេ។"
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "ប្រតិបត្តិការនេះបើកការបង្ហាញផ្កាយវាយតម្លៃសម្រាប់ព្រឹត្តិការណ៍ ដោយផ្អែកលើប្រភពវាយតម្លៃដែលបានជ្រើសរើស។"
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "ប្រតិបត្តិការនេះដក png ទាំងអស់ចេញពីឧបករណ៍ថតឯកសារ (Poster-Backdrop)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "ប៉េងប៉ោះ"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "ធ្វើបច្ចុប្បន្នភាព URL ដែលមិនត្រូវបានចាប់ផ្តើមបើកកម្មវិធីជំនួយម្តងពីម៉ឺនុយកម្មវិធីជំនួយជាមុនសិន។"
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "ការត្រួតពិនិត្យការអាប់ដេតបានបរាជ័យ៖ {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "រកមិនឃើញកញ្ចប់អាប់ដេតទេ!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "រចនាប័ទ្មរបារកម្រិតសំឡេង៖"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin៖ កែសម្រួលធាតុ"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin៖ បញ្ជីនៃធាតុ"
+msgstr ""
 
 msgid "White"
-msgstr "ស"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "លឿងបៃតង"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "អ្នកមានកំណែចុងក្រោយបំផុត ({}) រួចហើយ។"
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "អ្នកត្រូវបញ្ចូលឈ្មោះទីក្រុងដែលមានសុពលភាព មុនពេលអ្នកអាចស្វែងរកលេខកូដទីតាំង។"
+msgstr ""
 
 msgid "imperial system"
-msgstr "ប្រព័ន្ធអធិរាជ"
+msgstr ""
 
 msgid "metric system"
-msgstr "ប្រព័ន្ធម៉ែត្រ"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "លេង / បង្ហាញឯកសារ"
+msgstr ""
 
 msgid "volume2"
-msgstr "បរិមាណ 2"
+msgstr ""

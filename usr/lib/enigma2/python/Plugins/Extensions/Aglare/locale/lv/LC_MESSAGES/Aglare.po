@@ -11,106 +11,106 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 msgid "%s key imported!"
-msgstr "%s atslēga importēta!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 plakāts"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "Aktivizējiet/deaktivizējiet ELCINEMA"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "Aktivizēt/deaktivizēt GOOGLE"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "Aktivizēt/deaktivizēt IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "Aktivizēt/deaktivizēt MOLOTOV"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Aktivizēt/deaktivizēt PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "Aktivizēt/deaktivizēt {}"
+msgstr ""
 
 msgid "Add"
-msgstr "Pievienot"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "Visi png ir noņemti no mapes!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "Automātiski"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "Automātiska fona kolāžas lejupielāde"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "Automātiska plakāta lejupielāde"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Automātiski ienesiet iecienītāko notikumu fonu, pamatojoties uz EPG"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "Automātiski ienesiet iecienītāko notikumu plakātus, pamatojoties uz EPG"
+msgstr ""
 
 msgid "Back"
-msgstr "Atpakaļ"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "Fons"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "Fona kolāžas lejupielādes kļūda: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "FreeNeue"
+msgstr ""
 
 msgid "Black"
-msgstr "Melns"
+msgstr ""
 
 msgid "Blue"
-msgstr "Zils"
+msgstr ""
 
 msgid "Brown"
-msgstr "Brūns"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Atcelt"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "Kanāla apraksta krāsa:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "Kanāla priekšplāna krāsa:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "Atlasītā kanāla apraksta krāsa:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "Kanāla izvēlētā priekšplāna krāsa:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "Kanāla atlases stils:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr "ChannelSelection_1_Plakāts_EX"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr "ChannelSelection_1_Plakāts_X"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr "ChannelSelection_4_Plakāti_EX"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr "ChannelSelection_4_Plakāti_X"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr "ChannelSelection_6_Plakāti_X"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -125,7 +125,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "ChannelSelection_NO_Plakāti"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -134,136 +134,136 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "Pilsēta"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "Krāsu stils:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "Konfigurējiet aizkaves laiku (minūtēs) pirms automātiskās plakāta lejupielādes"
+msgstr ""
 
 msgid "Crimson"
 msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "Pielāgošanas rīks %s ādai"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "Tumši zaļš"
+msgstr ""
 
 msgid "Default"
-msgstr "Noklusējums"
+msgstr ""
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr "Dzēst"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "Lejupielādes kļūda: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "Notiek lejupielāde"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "Lejupielādēt tagad fonu"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "Lejupielādējiet plakātu tūlīt"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Notiek Aglare lejupielāde..."
+msgstr ""
 
 msgid "Edit"
-msgstr "Rediģēt"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "Iespējot displeja žanra ikonas:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "Iespējot Display InfoEvents:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "Iespējot Display XMC plakātu:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "Iespējot vecāku ikonas:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "Iespējot vērtējuma zvaigznīti:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Iespējojiet vai atspējojiet kešatmiņu notikumu lejupielādes laikā, lai paātrinātu atkārtotu meklēšanu."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "Informācijas logrīkā iespējojiet paplašinātas notikumu informācijas rādīšanu, tostarp visu dalībnieku, komandu, sižeta informāciju un citus metadatus."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "Lejupielādējot failus, radās kļūda!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "Ielādējot kļūdu: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "Kļūda {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "Kļūda: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "Notikuma skata stils:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_Plakāti"
+msgstr ""
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "Iziet"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "Failu komandieris — papildinājums"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "Fails {} nav atrasts vai ir tukšs"
+msgstr ""
 
 msgid "Green"
-msgstr "Zaļš"
+msgstr ""
 
 msgid "Greta"
-msgstr "Grēta"
+msgstr ""
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "Vai importēt atslēgu {0} no {1}?"
+msgstr ""
 
 msgid "Info..."
-msgstr "Informācija..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "Informācijas joslas datums:"
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "Informācijas joslas ECM:"
+msgstr ""
 
 msgid "InfoBar PosterX:"
-msgstr "Informācijas joslas PosterX:"
+msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "Informācijas joslas stils:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "Informācijas joslas laikapstākļi:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr "Informācijas josla_Datums"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
 msgstr ""
@@ -281,34 +281,34 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr "Notiek atjauninājumu instalēšana..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "Atslēga tukša"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "Atslēga {} ir veiksmīgi ielādēta!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "LightGray"
-msgstr "Gaiši pelēks"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "Laima zaļš"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "Ielādēt no /tmp/{}key.txt"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "Lokālais būvējums ({}) ir jaunāks par servera būvējumu ({})."
+msgstr ""
 
 msgid "Location code"
-msgstr "Vietas kods"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN atrašanās vietas meklēšanas rezultāts"
+msgstr ""
 
 msgid "MV Boli"
 msgstr ""
@@ -317,205 +317,205 @@ msgid "Magenta"
 msgstr ""
 
 msgid "Mint"
-msgstr "Piparmētra"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "Nav iespējots neviens aktīvs pakalpojumu sniedzējs"
+msgstr ""
 
 msgid "OFF"
-msgstr "IZSLĒGTS"
+msgstr ""
 
 msgid "OK"
-msgstr "Labi"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "Tikai OMDB"
+msgstr ""
 
 msgid "ON"
-msgstr "IESL"
+msgstr ""
 
 msgid "Off"
-msgstr "Izslēgts"
+msgstr ""
 
 msgid "Orange"
-msgstr "Oranžs"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "Personiskā API atslēga {}"
+msgstr ""
 
 msgid "Pink"
-msgstr "Rozā"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "Lūdzu, ievadiet derīgu pilsētas nosaukumu."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "Lūdzu, ievadiet derīgu pilsētas atrašanās vietas kodu."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "Plakāta lejupielādes kļūda: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "Violeta"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Vai tiešām dzēst šo WeatherPlugin ierakstu?"
+msgstr ""
 
 msgid "Red"
-msgstr "Sarkans"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "Noņemt visu png (plakāts — fons) (OK)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "Vai tagad restartēt GUI?"
+msgstr ""
 
 msgid "Save"
-msgstr "Saglabāt"
+msgstr ""
 
 msgid "Search Code"
-msgstr "Meklēšanas kods"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "Otrā informācijas josla_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "Otrā informācijas josla_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "Otrā informācijas josla_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "Otrais informācijas joslas stils:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "Otrās informācijas joslas laikapstākļi:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI gaisma"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "Izvēlieties savu fontu:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "Iestatīt laiku mūsu minūte fona kolāžas lejupielādei"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "Iestatīt laiku mūsu — minūti plakāta lejupielādei"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "Iestatījumi Apikey serveris"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Iestatīt Aglare Skin Info"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "Rādīt ikonas, kas atspoguļo katra notikuma žanru (piemēram, asa sižeta, komēdijas, drāmas)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Rādīt vecāku norādījumu ikonas pasākumos, lai norādītu satura vērtējumu un piemērotību vecumam."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "Rādīt plakātu no filmas vietējā mapē"
+msgstr ""
 
 msgid "Sienna"
-msgstr "Sjenna"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "Ādas stils:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "Sniegbaltīte"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "Nekavējoties sāciet fona kolāžas lejupielādi"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "Nekavējoties sāciet lejupielādēt plakātu"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "Tērauda zils"
+msgstr ""
 
 msgid "Style2"
-msgstr "Stils2"
+msgstr ""
 
 msgid "Style3"
-msgstr "Stils 3"
+msgstr ""
 
 msgid "Style4"
-msgstr "Stils 4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "Atbalstiet E2iplayer apvalkus:"
+msgstr ""
 
 msgid "System"
-msgstr "Sistēma"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "Tikai TMDB"
+msgstr ""
 
 msgid "Teal"
 msgstr ""
 
 msgid "The file %s is empty."
-msgstr "Fails %s ir tukšs."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "Fails %s netika atrasts."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "Šī darbība ļauj parādīt notikumu vērtēšanas zvaigznes, pamatojoties uz atlasīto vērtējuma avotu."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "Šī darbība noņem visus png no mapes ierīces (plakāta fona kolāža)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "Tomāts"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Atjaunināšanas URL nav inicializēts, vispirms atveriet spraudni izvēlnē Plugins."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "Atjaunināšanas pārbaude neizdevās: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "Atjaunināšanas pakotne nav atrasta!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "VolumeBar stils:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "Weather Plugin: rediģēt ierakstu"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "Laika spraudnis: ierakstu saraksts"
+msgstr ""
 
 msgid "White"
-msgstr "Balts"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "Dzeltenzaļš"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "Jums jau ir jaunākā versija ({})."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "Lai varētu meklēt atrašanās vietas kodu, jums jāievada derīgs pilsētas nosaukums."
+msgstr ""
 
 msgid "imperial system"
-msgstr "impēriskā sistēma"
+msgstr ""
 
 msgid "metric system"
-msgstr "metriskā sistēma"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "atskaņot/rādīt failus"
+msgstr ""
 
 msgid "volume2"
-msgstr "apjoms2"
+msgstr ""

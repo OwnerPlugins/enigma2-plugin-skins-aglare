@@ -64,7 +64,7 @@ msgid "Backdrop download error: {}"
 msgstr ""
 
 msgid "BebasNeue"
-msgstr "FreeNeue"
+msgstr ""
 
 msgid "Black"
 msgstr ""
@@ -478,7 +478,7 @@ msgid "Tomato"
 msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Update URL not initialised open the plugin once from the Plugins menu first."
+msgstr ""
 
 msgid "Update check failed: {}"
 msgstr ""

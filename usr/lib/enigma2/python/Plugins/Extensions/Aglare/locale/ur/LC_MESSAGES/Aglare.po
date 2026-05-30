@@ -10,259 +10,259 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "%s کلید درآمد کی گئی!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 پوسٹر"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA کو فعال/غیر فعال کریں۔"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLE کو فعال/غیر فعال کریں۔"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "IMDB کو فعال/غیر فعال کریں۔"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "MOLOTOV کو فعال/غیر فعال کریں۔"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "PROGRAMMETV کو فعال/غیر فعال کریں۔"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "فعال/غیر فعال کریں {}"
+msgstr ""
 
 msgid "Add"
-msgstr "شامل کریں۔"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "تمام png فولڈر سے ہٹا دیے گئے ہیں!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "خودکار"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "بیک ڈراپ کا خودکار ڈاؤن لوڈ"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "پوسٹر کا خودکار ڈاؤن لوڈ"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "ای پی جی پر مبنی پسندیدہ ایونٹس کے لیے خودکار طور پر بیک ڈراپ حاصل کریں۔"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "ای پی جی پر مبنی پسندیدہ ایونٹس کے پوسٹرز خود بخود حاصل کریں۔"
+msgstr ""
 
 msgid "Back"
-msgstr "پیچھے"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "پس منظر"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "بیک ڈراپ ڈاؤن لوڈ کی خرابی: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "فری نیو"
+msgstr ""
 
 msgid "Black"
-msgstr "سیاہ"
+msgstr ""
 
 msgid "Blue"
-msgstr "نیلا"
+msgstr ""
 
 msgid "Brown"
-msgstr "براؤن"
+msgstr ""
 
 msgid "Cancel"
-msgstr "منسوخ کریں۔"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "چینل کی تفصیل کا رنگ:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "چینل کے پیش منظر کا رنگ:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "چینل منتخب کردہ تفصیل کا رنگ:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "چینل کا منتخب پیش منظر کا رنگ:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "چینل سلیکشن اسٹائل:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr "چینل سلیکشن_1_پوسٹر_EX"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr "چینل سلیکشن_1_پوسٹر_X"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr "چینل سلیکشن_4_پوسٹر_EX"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr "چینل سلیکشن_4_پوسٹر_X"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr "چینل سلیکشن_6_پوسٹر_EX"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr "چینل سلیکشن_6_پوسٹر_X"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr "چینل سلیکشن_بیک ڈراپ_H_EX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr "چینل سلیکشن_بیک ڈراپ_H_PX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr "چینل سلیکشن_بیک ڈراپ_وی_EX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr "چینل سلیکشن_بیک ڈراپ_V_PX"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "چینل سلیکشن_نو_پوسٹرز"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr "چینل کا انتخاب_NO_Posters_NO_Picon"
+msgstr ""
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr "چینل سلیکشن_بڑی_منی_ٹی وی"
+msgstr ""
 
 msgid "City"
-msgstr "شہر"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "رنگ انداز:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "خودکار پوسٹر ڈاؤن لوڈ شروع کرنے سے پہلے تاخیر کا وقت (منٹ میں) ترتیب دیں۔"
+msgstr ""
 
 msgid "Crimson"
-msgstr "کرمسن"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "%s جلد کے لیے حسب ضرورت ٹول"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "گہرا سبز"
+msgstr ""
 
 msgid "Default"
-msgstr "طے شدہ"
+msgstr ""
 
 msgid "Del Line"
-msgstr "ڈیل لائن"
+msgstr ""
 
 msgid "Delete"
-msgstr "حذف کریں۔"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "ڈاؤن لوڈ کی خرابی: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "ڈاؤن لوڈ جاری ہے۔"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "اب بیک ڈراپ ڈاؤن لوڈ کریں۔"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "ابھی پوسٹر ڈاؤن لوڈ کریں۔"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Aglare ڈاؤن لوڈ ہو رہا ہے..."
+msgstr ""
 
 msgid "Edit"
-msgstr "ترمیم کریں۔"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "ڈسپلے نوع کی شبیہیں فعال کریں:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "ڈسپلے انفارمیشن ایونٹس کو فعال کریں:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "ڈسپلے XMC پوسٹر کو فعال کریں:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "والدین کی شبیہیں فعال کریں:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "ریٹنگ اسٹار کو فعال کریں:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "بار بار کی تلاش کو تیز کرنے کے لیے ایونٹ ڈاؤن لوڈ کے دوران کیشنگ کو فعال یا غیر فعال کریں۔"
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "معلوماتی ویجیٹ میں ایونٹ کی توسیعی معلومات، بشمول مکمل کاسٹ، عملہ، پلاٹ کی تفصیلات اور دیگر میٹا ڈیٹا کے ڈسپلے کو فعال کریں۔"
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "فائلیں ڈاؤن لوڈ کرنے میں خرابی!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "لوڈ کرنے میں خرابی: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "خرابی {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "خرابی: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "ایونٹ ویو اسٹائل:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_پوسٹرز"
+msgstr ""
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "باہر نکلیں۔"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "فائل کمانڈر - ایڈون"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "فائل {} نہیں ملی یا خالی"
+msgstr ""
 
 msgid "Green"
-msgstr "سبز"
+msgstr ""
 
 msgid "Greta"
-msgstr "گریٹا"
+msgstr ""
 
 msgid "HandelGotD"
-msgstr "ہینڈل گوٹ ڈی"
+msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "{1} سے کلید {0} درآمد کریں؟"
+msgstr ""
 
 msgid "Info..."
-msgstr "معلومات..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "انفارمیشن بار کی تاریخ:"
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "انفارمیشن بار ای سی ایم:"
+msgstr ""
 
 msgid "InfoBar PosterX:"
-msgstr "انفارمیشن بار پوسٹر ایکس:"
+msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "انفارمیشن بار اسٹائل:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "InfoBar موسم:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr "معلومات بار_تاریخ"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
 msgstr ""
@@ -277,244 +277,244 @@ msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr "انس لائن"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "اپ ڈیٹس انسٹال کر رہا ہے..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "چابی خالی"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "کلید {} کامیابی کے ساتھ لوڈ ہو گئی!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "خالدآرٹبولڈ ریگولر"
+msgstr ""
 
 msgid "LightGray"
-msgstr "ہلکا گرے"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "لائم گرین"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "/tmp/{}key.txt سے لوڈ کریں۔"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "لوکل بلڈ ({}) سرور بلڈ ({}) سے نیا ہے۔"
+msgstr ""
 
 msgid "Location code"
-msgstr "مقام کا کوڈ"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN مقام کی تلاش کا نتیجہ"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "ایم وی بولی۔"
+msgstr ""
 
 msgid "Magenta"
-msgstr "میجنٹا"
+msgstr ""
 
 msgid "Mint"
-msgstr "پودینہ"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "کوئی فعال فراہم کنندہ فعال نہیں ہے۔"
+msgstr ""
 
 msgid "OFF"
-msgstr "آف"
+msgstr ""
 
 msgid "OK"
-msgstr "ٹھیک ہے"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "صرف OMDB"
+msgstr ""
 
 msgid "ON"
-msgstr "آن"
+msgstr ""
 
 msgid "Off"
-msgstr "آف"
+msgstr ""
 
 msgid "Orange"
-msgstr "کینو"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "{} کے لیے ذاتی API کلید"
+msgstr ""
 
 msgid "Pink"
-msgstr "گلابی"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "براہ کرم شہر کا ایک درست نام درج کریں۔"
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "براہ کرم شہر کے لیے ایک درست مقام کا کوڈ درج کریں۔"
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "پوسٹر ڈاؤن لوڈ کی خرابی: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "جامنی"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "واقعی اس WeatherPlugin اندراج کو حذف کریں؟"
+msgstr ""
 
 msgid "Red"
-msgstr "سرخ"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "تمام png کو ہٹا دیں (پوسٹر - بیک ڈراپ) (ٹھیک ہے)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "GUI کو ابھی دوبارہ شروع کریں؟"
+msgstr ""
 
 msgid "Save"
-msgstr "محفوظ کریں۔"
+msgstr ""
 
 msgid "Search Code"
-msgstr "تلاش کوڈ"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "دوسرا Infobar_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "دوسرا Infobar_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "دوسرا Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
-msgstr "سیکنڈ انفوبار پوسٹر ایکس:"
+msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "سیکنڈ انفوبار اسٹائل:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "سیکنڈ انفوبار موسم:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI لائٹ"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "اپنا فونٹ منتخب کریں:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "بیک ڈراپ ڈاؤن لوڈ کے لیے ہمارا منٹ مقرر کریں۔"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "پوسٹر ڈاؤن لوڈ کے لیے ہمارا منٹ مقرر کریں۔"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "اپیکی سرور کی ترتیبات"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Aglare جلد کی معلومات سیٹ اپ کریں۔"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "ہر ایونٹ کی صنف کی نمائندگی کرنے والے شبیہیں دکھائیں (جیسے، ایکشن، کامیڈی، ڈرامہ)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "مواد کی درجہ بندی اور عمر کی مناسبت کی نشاندہی کرنے کے لیے واقعات پر والدین کی رہنمائی کے آئیکن دکھائیں۔"
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "مقامی فولڈر میں فلم سے پوسٹر دکھائیں۔"
+msgstr ""
 
 msgid "Sienna"
-msgstr "سینا"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "جلد کا انداز:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "سنو وائٹ"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "بیک ڈراپ فوری طور پر ڈاؤن لوڈ کرنا شروع کریں۔"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "فوری طور پر پوسٹر ڈاؤن لوڈ کرنا شروع کریں۔"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "اسٹیل بلیو"
+msgstr ""
 
 msgid "Style2"
-msgstr "انداز 2"
+msgstr ""
 
 msgid "Style3"
-msgstr "انداز3"
+msgstr ""
 
 msgid "Style4"
-msgstr "انداز4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "سپورٹ E2iplayer کھالوں:"
+msgstr ""
 
 msgid "System"
-msgstr "سسٹم"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "صرف TMDB"
+msgstr ""
 
 msgid "Teal"
-msgstr "ٹیل"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "فائل %s خالی ہے۔"
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "فائل %s نہیں ملی۔"
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "یہ آپریشن منتخب کردہ درجہ بندی کے ماخذ کی بنیاد پر ایونٹس کے لیے درجہ بندی کے ستاروں کے ڈسپلے کو فعال کرتا ہے۔"
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "یہ آپریشن فولڈر ڈیوائس سے تمام png کو ہٹا دیتا ہے (پوسٹر بیک ڈراپ)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "ٹماٹر"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "اپ ڈیٹ URL شروع نہیں کیا گیا پلگ ان کو پہلے پلگ ان مینو سے ایک بار کھولیں۔"
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "اپ ڈیٹ چیک ناکام ہو گیا: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "اپ ڈیٹ پیکج نہیں ملا!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "والیوم بار اسٹائل:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "ویدر پلگ ان: اندراج میں ترمیم کریں۔"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "ویدر پلگ ان: اندراجات کی فہرست"
+msgstr ""
 
 msgid "White"
-msgstr "سفید"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "پیلا سبز"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "آپ کے پاس پہلے سے ہی تازہ ترین ورژن ({}) ہے۔"
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "اس سے پہلے کہ آپ مقام کا کوڈ تلاش کر سکیں آپ کو شہر کا ایک درست نام درج کرنا ہوگا۔"
+msgstr ""
 
 msgid "imperial system"
-msgstr "سامراجی نظام"
+msgstr ""
 
 msgid "metric system"
-msgstr "میٹرک نظام"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "فائلیں چلائیں / دکھائیں۔"
+msgstr ""
 
 msgid "volume2"
-msgstr "حجم 2"
+msgstr ""

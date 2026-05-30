@@ -11,88 +11,88 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "%s key imported!"
-msgstr "%s 키를 가져왔습니다!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "포스터 1개"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA 활성화/비활성화"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLE 활성화/비활성화"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "IMDB 활성화/비활성화"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "MOLOTOV 활성화/비활성화"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "PROGRAMMETV 활성화/비활성화"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "{} 활성화/비활성화"
+msgstr ""
 
 msgid "Add"
-msgstr "추가하다"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "모든 png가 폴더에서 제거되었습니다!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "오토매틱"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "배경화면 자동 다운로드"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "포스터 자동 다운로드"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "EPG를 기반으로 좋아하는 이벤트의 배경화면을 자동으로 가져옵니다."
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "EPG를 기반으로 좋아하는 이벤트의 포스터를 자동으로 가져옵니다."
+msgstr ""
 
 msgid "Back"
-msgstr "뒤쪽에"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "배경"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "배경화면 다운로드 오류: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "무료Neue"
+msgstr ""
 
 msgid "Black"
-msgstr "검은색"
+msgstr ""
 
 msgid "Blue"
-msgstr "파란색"
+msgstr ""
 
 msgid "Brown"
-msgstr "갈색"
+msgstr ""
 
 msgid "Cancel"
-msgstr "취소"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "채널 설명 색상:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "채널 전경색:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "선택한 채널 설명 색상:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "채널 선택 전경색:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "채널 선택 스타일:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -101,13 +101,13 @@ msgid "ChannelSelection_1_Poster_X"
 msgstr ""
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr "ChannelSelection_4_포스터_EX"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
 msgstr ""
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr "ChannelSelection_6_포스터_EX"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
 msgstr ""
@@ -134,139 +134,139 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "도시"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "색상 스타일:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "자동 포스터 다운로드를 시작하기 전 지연 시간(분)을 구성합니다."
+msgstr ""
 
 msgid "Crimson"
-msgstr "진홍"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "%s 스킨을 위한 사용자 정의 도구"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "암록색"
+msgstr ""
 
 msgid "Default"
-msgstr "기본"
+msgstr ""
 
 msgid "Del Line"
-msgstr "델라인"
+msgstr ""
 
 msgid "Delete"
-msgstr "삭제"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "다운로드 오류: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "다운로드 진행 중"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "지금 다운로드"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "지금 포스터 다운로드"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Aglare 다운로드 중..."
+msgstr ""
 
 msgid "Edit"
-msgstr "편집하다"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "디스플레이 장르 아이콘 활성화:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "디스플레이 InfoEvents 활성화:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "XMC 포스터 표시 활성화:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "자녀 보호 아이콘 활성화:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "별점 활성화:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "이벤트 다운로드 중에 캐싱을 활성화하거나 비활성화하여 반복 검색 속도를 높입니다."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "정보 위젯에서 전체 출연진, 제작진, 줄거리 세부 정보 및 기타 메타데이터를 포함한 확장된 이벤트 정보 표시를 활성화합니다."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "파일을 다운로드하는 중 오류가 발생했습니다."
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "로드 중 오류 발생: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "오류 {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "오류: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "이벤트뷰 스타일:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_포스터"
+msgstr ""
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "출구"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "파일 커맨더 - 애드온"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "파일 {}을(를) 찾을 수 없거나 비어 있습니다."
+msgstr ""
 
 msgid "Green"
-msgstr "녹색"
+msgstr ""
 
 msgid "Greta"
-msgstr "그레타"
+msgstr ""
 
 msgid "HandelGotD"
-msgstr "헨델갓D"
+msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "{1}에서 {0} 키를 가져오시겠습니까?"
+msgstr ""
 
 msgid "Info..."
-msgstr "정보..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "정보 표시줄 날짜:"
+msgstr ""
 
 msgid "InfoBar ECM:"
 msgstr ""
 
 msgid "InfoBar PosterX:"
-msgstr "InfoBar 포스터X:"
+msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "InfoBar 스타일:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "InfoBar 날씨:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
-msgstr "InfoBar Xtra이벤트:"
+msgstr ""
 
 msgid "Infobar_Date"
-msgstr "인포바_날짜"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
-msgstr "Infobar_MSN날씨"
+msgstr ""
 
 msgid "Infobar_NO_Date"
 msgstr ""
@@ -278,244 +278,244 @@ msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr "인라인"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "업데이트 설치 중..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "키가 비어 있음"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "키 {}이(가) 성공적으로 로드되었습니다!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "칼리드ArtboldRegular"
+msgstr ""
 
 msgid "LightGray"
-msgstr "라이트그레이"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "라임그린"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "/tmp/{}key.txt에서 로드"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "로컬 빌드({})는 서버 빌드({})보다 최신입니다."
+msgstr ""
 
 msgid "Location code"
-msgstr "위치 코드"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN 위치 검색 결과"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "MV 볼리"
+msgstr ""
 
 msgid "Magenta"
-msgstr "마젠타"
+msgstr ""
 
 msgid "Mint"
-msgstr "박하"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "활성화된 활성 공급자가 없습니다."
+msgstr ""
 
 msgid "OFF"
-msgstr "끄다"
+msgstr ""
 
 msgid "OK"
-msgstr "좋아요"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB만"
+msgstr ""
 
 msgid "ON"
-msgstr "에"
+msgstr ""
 
 msgid "Off"
-msgstr "끄다"
+msgstr ""
 
 msgid "Orange"
-msgstr "주황색"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "{}의 개인 API 키"
+msgstr ""
 
 msgid "Pink"
-msgstr "분홍색"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "올바른 도시 이름을 입력하세요."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "도시의 유효한 위치 코드를 입력하세요."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "포스터 다운로드 오류: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "보라"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "이 WeatherPlugin 항목을 삭제하시겠습니까?"
+msgstr ""
 
 msgid "Red"
-msgstr "빨간색"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "png(포스터-배경) 모두 제거(OK)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "지금 GUI를 다시 시작하시겠습니까?"
+msgstr ""
 
 msgid "Save"
-msgstr "구하다"
+msgstr ""
 
 msgid "Search Code"
-msgstr "검색 코드"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "두 번째 Infobar_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "두 번째 Infobar_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "두 번째 Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
-msgstr "SecondInfobar 포스터x:"
+msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "SecondInfobar 스타일:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar 날씨:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI 라이트"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "글꼴을 선택하세요:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "배경화면 다운로드 시간을 분으로 설정하세요."
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "포스터 다운로드 시간을 분으로 설정하세요."
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "설정 APIkey 서버"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Aglare 스킨 정보 설정"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "각 이벤트의 장르(예: 액션, 코미디, 드라마)를 나타내는 아이콘 표시"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "콘텐츠 등급 및 연령 적합성을 나타내기 위해 이벤트에 부모 지도 아이콘을 표시합니다."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "로컬 폴더에 영화 포스터 표시"
+msgstr ""
 
 msgid "Sienna"
-msgstr "시에나"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "스킨 스타일:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "스노우화이트"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "즉시 배경화면 다운로드 시작"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "즉시 포스터 다운로드 시작"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "스틸블루"
+msgstr ""
 
 msgid "Style2"
-msgstr "스타일2"
+msgstr ""
 
 msgid "Style3"
-msgstr "스타일3"
+msgstr ""
 
 msgid "Style4"
-msgstr "스타일4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "E2iplayer 스킨 지원:"
+msgstr ""
 
 msgid "System"
-msgstr "체계"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB만"
+msgstr ""
 
 msgid "Teal"
-msgstr "물오리"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "%s 파일이 비어 있습니다."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "%s 파일을 찾을 수 없습니다."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "이 작업을 통해 선택한 평가 소스를 기반으로 이벤트에 대한 평가 별표를 표시할 수 있습니다."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "이 작업은 폴더 장치(포스터-배경)에서 모든 png를 제거합니다."
+msgstr ""
 
 msgid "Tomato"
-msgstr "토마토"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "업데이트 URL이 초기화되지 않았습니다. 먼저 플러그인 메뉴에서 플러그인을 한 번 엽니다."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "업데이트 확인 실패: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "업데이트 패키지를 찾을 수 없습니다!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "VolumeBar 스타일:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: 항목 편집"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: 항목 목록"
+msgstr ""
 
 msgid "White"
-msgstr "하얀색"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "노란색녹색"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "이미 최신 버전({})이 있습니다."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "위치 코드를 검색하려면 유효한 도시 이름을 입력해야 합니다."
+msgstr ""
 
 msgid "imperial system"
-msgstr "제국 체제"
+msgstr ""
 
 msgid "metric system"
-msgstr "미터법"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "파일 재생/표시"
+msgstr ""
 
 msgid "volume2"
-msgstr "2권"
+msgstr ""

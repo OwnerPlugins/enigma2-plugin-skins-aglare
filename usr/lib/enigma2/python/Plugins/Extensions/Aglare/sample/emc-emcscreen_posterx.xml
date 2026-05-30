@@ -1,0 +1,109 @@
+
+<screen name="MovieSelection" position="0,0" size="1920,1080" title="Select a movie" backgroundColor="background" flags="wfNoBorder">
+  <panel name="ScreenTemplateAllColorButtons_menu" />
+  <widget source="session.VideoPicture" render="Pig" position="1164,100" zPosition="20" size="742,418" backgroundColor="transparent" transparent="0" cornerRadius="14" />
+  <widget source="Title" render="Label" position="90,34" size="1058,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left" />
+  <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98" />
+  <panel name="timedate" />
+  <eLabel backgroundColor="wpuc,wpmc,wplc,vertical" cornerRadius="0" position="0,0" size="1920,1080" zPosition="-99" />
+  <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80" />
+  <eLabel name="" position="31,30" size="1120,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2" />
+  <eLabel name="" position="1778,1018" size="52,52" backgroundColor="mcolor3,mcolor4,vertical" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
+  <ePixmap pixmap="buttons/media_button.png" position="1373,1011" size="300,60" zPosition="5" alphatest="blend" transparent="1" />
+  <widget name="DescriptionBorder" position="0,0" size="0,0" />
+  <widget name="list" position="36,102" size="1110,900" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="mcolor5" scrollbarSliderBorderColor="mcolor2" scrollbarWidth="10" scrollbarSliderBorderWidth="1" itemHeights="100,75,45" fontSizesOriginal="36,26,24" fontSizesCompact="36,28" fontSizesMinimal="34,30" pbarShift="17" pbarHeight="20" pbarLargeWidth="72" spaceRight="3" columnsOriginal="270,300" columnsCompactDescription="240,220,240" compactColumn="300" treeDescription="250" partIconeShiftMinimal="8" partIconeShiftCompact="2" partIconeShiftOriginal="3" iconsWidth="33" spaceIconeText="6" trashShift="4" dirShift="3" itemCornerRadius="8" />
+  <widget name="freeDiskSpace" position="1160,966" size="500,40" zPosition="2" font="Regular; 28" valign="center" backgroundColor="background" transparent="1" />
+  <widget source="Service" render="Label" position="1162,786" size="609,38" font="Regular; 28" backgroundColor="background" transparent="1" valign="center" halign="left" zPosition="88">
+    <convert type="MovieInfo">RecordServiceName</convert>
+  </widget>
+  <widget source="Service" render="Label" position="1616,966" size="150,40" font="Regular; 28" halign="right" backgroundColor="background" transparent="1" zPosition="88" foregroundColor="cyan2">
+    <convert type="MovieInfo">FileSize</convert>
+  </widget>
+  <widget source="Service" render="AglareRunningText" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=4000,wrap,always=0" position="1162,859" size="740,102" font="Regular; 26" backgroundColor="background" transparent="1" valign="top" halign="left" zPosition="88">
+    <convert type="EventName">ExtendedDescription</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1162,700" size="740,38" font="Regular; 28" foregroundColor="green" transparent="1" halign="left" zPosition="88" valign="center" noWrap="1">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1335,744" size="135,38" backgroundColor="background" transparent="1" zPosition="88" font="Regular; 30" valign="center" halign="center">
+    <convert type="ServicePosition">Position,ShowHours</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1484,744" size="160,38" backgroundColor="background" transparent="1" zPosition="88" font="Regular; 30" valign="center" halign="center" foregroundColor="yellow">
+    <convert type="ServicePosition">Remaining,Plus,ShowHours</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Progress" position="1162,837" size="740,14" backgroundColor="progbg" foregroundColor="fgcolor" cornerRadius="7">
+    <convert type="ServicePosition">Progress</convert>
+  </widget>
+  <widget source="Service" render="Label" position="1777,786" size="120,38" font="Regular;28" halign="center" backgroundColor="background" transparent="1" zPosition="88">
+    <convert type="ServiceTime">Duration</convert>
+    <convert type="ClockToText">AsLength</convert>
+  </widget>
+  <widget source="Service" render="Label" position="1162,744" size="160,38" font="Regular;28" foregroundColor="yellow" halign="center" backgroundColor="background" transparent="1" zPosition="88">
+    <convert type="ServiceTime">StartTime</convert>
+    <convert type="ClockToText">ShortDate</convert>
+  </widget>
+  <widget name="movie_sort" pixmaps="icons/az.png,icons/newtop.png,icons/shuffle.png,icons/za.png,icons/oldtop.png,icons/faz.png,icons/fza.png,icons/default.png" position="1280,1020" zPosition="1" size="30,16" transparent="1" alphatest="on" />
+  <widget name="movie_off" pixmaps="icons/ask.png,icons/movielist.png,icons/quit.png,icons/pause.png,icons/playlist.png,icons/playlistquit.png,icons/loop.png,icons/rep.png" position="1280,1048" zPosition="1" size="30,16" transparent="1" alphatest="on" />
+  <widget name="waitingtext" position="34,105" size="1110,900" font="Regular;33" halign="center" valign="center" zPosition="4" />
+  <widget name="chosenletter" position="38,103" size="1110,900" foregroundColor="yellow" font="Regular;112" halign="center" valign="center" transparent="1" zPosition="4" />
+  <widget source="session.CurrentService" render="AgpPEMC" position="1708,525" size="200,300" cornerRadius="20" zPosition="22" />
+</screen>
+<screen name="MoviePlayer" position="center,center" size="1920,1080" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder" alphatest="on">
+  <!-- Main movie info -->
+  <widget source="session.CurrentService" render="AgpIEMC" position="50,45" size="1040,230" font="Regular;23" transparent="1" zPosition="5" />
+  <!-- Logo -->
+  <widget source="session.CurrentService" render="AgpLEMC" position="1565,45" size="300,150" transparent="1" zPosition="10" />
+  <!-- Backdrop card -->
+  <eLabel position="35,670" size="640,375" backgroundColor="#a0101010" cornerRadius="32" zPosition="-3" />
+  <widget source="session.CurrentService" render="AgpBEMC" position="50,685" size="610,343" zPosition="2" cornerRadius="30" />
+  <!-- Cast cards - 8 -->
+  <eLabel position="700,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <eLabel position="805,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <eLabel position="910,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <eLabel position="1015,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <eLabel position="1120,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <eLabel position="1225,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <eLabel position="1330,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <eLabel position="1435,682" size="95,145" backgroundColor="#70101010" cornerRadius="16" zPosition="10" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="0" position="705,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="1" position="810,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="2" position="915,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="3" position="1020,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="4" position="1125,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="5" position="1230,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="6" position="1335,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <widget source="session.CurrentService" render="AgpCEMC" cast="7" position="1440,690" size="85,128" zPosition="20" cornerRadius="14" />
+  <!-- Poster card -->
+  <eLabel position="1650,690" size="240,350" backgroundColor="#a0101010" cornerRadius="34" zPosition="-3" />
+  <widget source="session.CurrentService" render="AgpSEMC" position="1670,705" size="200,20" zPosition="12" transparent="1" />
+  <widget source="session.CurrentService" render="AgpPEMC" position="1670,735" size="200,300" zPosition="8" cornerRadius="30" />
+  <!-- Keep native Cover disabled because AgpPEMC / AgpBEMC are used -->
+  <widget name="Cover" position="0,0" size="0,0" zPosition="5" alphatest="blend" transparent="1" />
+  <!-- Infobar background -->
+  <eLabel backgroundColor="igsdt,igsd,vertical" cornerRadius="32" position="690,840" size="940,200" zPosition="-99" />
+  <!-- Recording icon -->
+  <widget source="session.RecordState" render="Pixmap" pixmap="main/rec1.png" position="1586,852" size="34,34" zPosition="2" alphatest="blend" transparent="1">
+    <convert type="ConditionalShowHide">Blink</convert>
+  </widget>
+  <!-- Movie title -->
+  <widget source="session.CurrentService" render="Label" position="715,852" size="850,50" font="Regular;34" transparent="1" noWrap="1" valign="center">
+    <convert type="AgpMediaInfo">MediaName</convert>
+  </widget>
+  <!-- Android-style metadata line -->
+  <widget source="session.CurrentService" render="Label" position="715,982" size="899,40" font="Regular;28" transparent="1" noWrap="1" valign="center">
+    <convert type="AgpMediaInfo">Android,sep=dot</convert>
+  </widget>
+  <!-- Current position -->
+  <widget source="session.CurrentService" render="Label" position="715,920" size="135,45" halign="right" font="Regular;31" backgroundColor="background" transparent="1" valign="center" zPosition="1">
+    <convert type="ServicePosition">Position,ShowHours</convert>
+  </widget>
+  <!-- Progress bar -->
+  <widget source="session.CurrentService" render="Progress" position="865,936" size="580,14" backgroundColor="progbg" foregroundColor="green,yellow,red,horizontal" cornerRadius="7" zPosition="88">
+    <convert type="ServicePosition">Position</convert>
+  </widget>
+  <!-- Total length -->
+  <widget source="session.CurrentService" render="Label" position="1460,920" size="135,45" halign="left" font="Regular;31" backgroundColor="background" transparent="1" valign="center" zPosition="1">
+    <convert type="ServicePosition">Length,ShowHours</convert>
+  </widget>
+  <widget name="statusicon" position="1,1" zPosition="3" size="50,50" alphatest="blend" pixmaps="icons/pvr/play.png,icons/pvr/pause.png,icons/pvr/stop.png,icons/pvr/forward.png,icons/pvr/backward.png,icons/pvr/slow.png" />
+</screen>

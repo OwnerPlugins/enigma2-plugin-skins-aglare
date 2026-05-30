@@ -10,106 +10,106 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "นำเข้าคีย์ %s แล้ว!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "โปสเตอร์ 1 อัน"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "เปิด/ปิดการทำงานของ ELCINEMA"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "เปิด/ปิดการใช้งาน GOOGLE"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "เปิด/ปิด IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "เปิด/ปิดการทำงานของ MOLOTOV"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "เปิด/ปิด PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "เปิด/ปิดการใช้งาน {}"
+msgstr ""
 
 msgid "Add"
-msgstr "เพิ่ม"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "PNG ทั้งหมดจะถูกลบออกจากโฟลเดอร์!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "อัตโนมัติ"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "ดาวน์โหลดฉากหลังอัตโนมัติ"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "ดาวน์โหลดโปสเตอร์อัตโนมัติ"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "ดึงข้อมูลฉากหลังสำหรับกิจกรรมโปรดโดยอัตโนมัติตาม EPG"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "ดึงโปสเตอร์สำหรับกิจกรรมโปรดตาม EPG โดยอัตโนมัติ"
+msgstr ""
 
 msgid "Back"
-msgstr "กลับ"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "ฉากหลัง"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "ข้อผิดพลาดในการดาวน์โหลดฉากหลัง: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "ฟรีนิว"
+msgstr ""
 
 msgid "Black"
-msgstr "สีดำ"
+msgstr ""
 
 msgid "Blue"
-msgstr "สีฟ้า"
+msgstr ""
 
 msgid "Brown"
-msgstr "สีน้ำตาล"
+msgstr ""
 
 msgid "Cancel"
-msgstr "ยกเลิก"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "คำอธิบายช่องสี:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "สีพื้นหน้าของช่อง:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "ช่องที่เลือก คำอธิบาย สี:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "สีพื้นหน้าที่เลือกช่อง:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "รูปแบบการเลือกช่อง:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr "ChannelSelection_1_โปสเตอร์_EX"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr "ChannelSelection_1_โปสเตอร์_X"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr "ChannelSelection_4_โปสเตอร์_EX"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr "การเลือกช่อง_4_โปสเตอร์_X"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr "ChannelSelection_6_โปสเตอร์_EX"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr "การเลือกช่อง_6_โปสเตอร์_X"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -124,397 +124,397 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "ChannelSelection_NO_โปสเตอร์"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr "ChannelSelection_NO_โปสเตอร์_NO_Picon"
+msgstr ""
 
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "เมือง"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "สไตล์สี:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "กำหนดค่าเวลาหน่วง (เป็นนาที) ก่อนที่จะเริ่มดาวน์โหลดโปสเตอร์อัตโนมัติ"
+msgstr ""
 
 msgid "Crimson"
-msgstr "สีแดงเข้ม"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "เครื่องมือปรับแต่งสำหรับ %s สกิน"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "สีเขียวเข้ม"
+msgstr ""
 
 msgid "Default"
-msgstr "ค่าเริ่มต้น"
+msgstr ""
 
 msgid "Del Line"
-msgstr "เดล ไลน์"
+msgstr ""
 
 msgid "Delete"
-msgstr "ลบ"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "ข้อผิดพลาดในการดาวน์โหลด: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "อยู่ระหว่างการดาวน์โหลด"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "ดาวน์โหลดตอนนี้ฉากหลัง"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "ดาวน์โหลดตอนนี้โปสเตอร์"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "กำลังดาวน์โหลด Aglare..."
+msgstr ""
 
 msgid "Edit"
-msgstr "แก้ไข"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "เปิดใช้งานไอคอนประเภทการแสดงผล:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "เปิดใช้งาน Display InfoEvents:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "เปิดใช้งานการแสดงโปสเตอร์ XMC:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "เปิดใช้งานไอคอนผู้ปกครอง:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "เปิดใช้งานการให้คะแนนดาว:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "เปิดหรือปิดใช้งานการแคชระหว่างการดาวน์โหลดกิจกรรมเพื่อเพิ่มความเร็วในการค้นหาซ้ำ"
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "เปิดใช้งานการแสดงข้อมูลเหตุการณ์เพิ่มเติม รวมถึงนักแสดงทั้งหมด ทีมงาน รายละเอียดโครงเรื่อง และข้อมูลเมตาอื่น ๆ ในวิดเจ็ตข้อมูล"
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "เกิดข้อผิดพลาดในการดาวน์โหลดไฟล์!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "เกิดข้อผิดพลาดในการโหลด: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "ข้อผิดพลาด {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "ข้อผิดพลาด: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "รูปแบบมุมมองเหตุการณ์:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_โปสเตอร์"
+msgstr ""
 
 msgid "EventView_NO_Posters"
-msgstr "EventView_NO_โปสเตอร์"
+msgstr ""
 
 msgid "Exit"
-msgstr "ออก"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "ผู้บัญชาการไฟล์ - Addon"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "ไม่พบไฟล์ {} หรือว่างเปล่า"
+msgstr ""
 
 msgid "Green"
-msgstr "สีเขียว"
+msgstr ""
 
 msgid "Greta"
-msgstr "เกรตา"
+msgstr ""
 
 msgid "HandelGotD"
-msgstr "ฮันเดลก็อตดี"
+msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "นำเข้าคีย์ {0} จาก {1} หรือไม่"
+msgstr ""
 
 msgid "Info..."
-msgstr "ข้อมูล..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "วันที่แถบข้อมูล:"
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "แถบข้อมูล ECM:"
+msgstr ""
 
 msgid "InfoBar PosterX:"
-msgstr "แถบข้อมูล PosterX:"
+msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "สไตล์แถบข้อมูล:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "สภาพอากาศของแถบข้อมูล:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
-msgstr "กิจกรรม InfoBar Xtra:"
+msgstr ""
 
 msgid "Infobar_Date"
-msgstr "แถบข้อมูล_วันที่"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
 msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "แถบข้อมูล_NO_วันที่"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr "Infobar_NO_สภาพอากาศ"
+msgstr ""
 
 msgid "Infobar_OAWeather"
-msgstr "Infobar_OAสภาพอากาศ"
+msgstr ""
 
 msgid "Ins Line"
-msgstr "อินไลน์"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "กำลังติดตั้งการอัปเดต..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "คีย์ว่างเปล่า"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "โหลดคีย์ {} สำเร็จแล้ว!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "คาลิดอาร์ตโบลด์เรกูลาร์"
+msgstr ""
 
 msgid "LightGray"
-msgstr "สีเทาอ่อน"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "ไลม์กรีน"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "โหลดจาก /tmp/{}key.txt"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "Local build ({}) ใหม่กว่า server build ({})"
+msgstr ""
 
 msgid "Location code"
-msgstr "รหัสสถานที่"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "ผลการค้นหาตำแหน่ง MSN"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "เอ็มวี โบลี"
+msgstr ""
 
 msgid "Magenta"
-msgstr "สีม่วงแดง"
+msgstr ""
 
 msgid "Mint"
-msgstr "มิ้นต์"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "ไม่มีการเปิดใช้งานผู้ให้บริการที่ใช้งานอยู่"
+msgstr ""
 
 msgid "OFF"
-msgstr "ปิด"
+msgstr ""
 
 msgid "OK"
-msgstr "ตกลง"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB เท่านั้น"
+msgstr ""
 
 msgid "ON"
-msgstr "บน"
+msgstr ""
 
 msgid "Off"
-msgstr "ปิด"
+msgstr ""
 
 msgid "Orange"
-msgstr "ส้ม"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "คีย์ API ส่วนบุคคลสำหรับ {}"
+msgstr ""
 
 msgid "Pink"
-msgstr "สีชมพู"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "กรุณากรอกชื่อเมืองที่ถูกต้อง"
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "โปรดป้อนรหัสสถานที่ที่ถูกต้องสำหรับเมือง"
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "ข้อผิดพลาดในการดาวน์โหลดโปสเตอร์: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "สีม่วง"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "ลบรายการ WeatherPlugin นี้จริงหรือ"
+msgstr ""
 
 msgid "Red"
-msgstr "สีแดง"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "ลบ PNG ทั้งหมด (โปสเตอร์ - ฉากหลัง) (ตกลง)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "รีสตาร์ท GUI ตอนนี้หรือไม่"
+msgstr ""
 
 msgid "Save"
-msgstr "บันทึก"
+msgstr ""
 
 msgid "Search Code"
-msgstr "ค้นหารหัส"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "Infobar_MSNWeather ที่สอง"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "Infobar_NO_Weather ที่สอง"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "Infobar_OAWeather ที่สอง"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
-msgstr "แถบข้อมูลที่สอง Posterx:"
+msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "สไตล์อินโฟบาร์ที่สอง:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar สภาพอากาศ:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
-msgstr "เหตุการณ์ SecondInfobar Xtra:"
+msgstr ""
 
 msgid "Segoe UI light"
-msgstr "ไฟ Segoe UI"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "เลือกแบบอักษรของคุณ:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "ตั้งเวลาของเรา - นาทีในการดาวน์โหลดฉากหลัง"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "ตั้งเวลาของเรา - นาทีในการดาวน์โหลดโปสเตอร์"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "การตั้งค่าเซิร์ฟเวอร์ APIKEY"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "ตั้งค่าข้อมูลสกิน Aglare"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "แสดงไอคอนที่แสดงถึงประเภทของแต่ละเหตุการณ์ (เช่น แอ็คชั่น ตลก ละคร)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "แสดงไอคอนคำแนะนำจากผู้ปกครองในกิจกรรมเพื่อระบุการจัดประเภทเนื้อหาและความเหมาะสมตามอายุ"
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "แสดงโปสเตอร์จากภาพยนตร์ในโฟลเดอร์ในเครื่อง"
+msgstr ""
 
 msgid "Sienna"
-msgstr "เซียนน่า"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "ลักษณะผิว:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "สโนว์ไวท์"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "เริ่มดาวน์โหลดฉากหลังทันที"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "เริ่มดาวน์โหลดโปสเตอร์ทันที"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "สตีลบลู"
+msgstr ""
 
 msgid "Style2"
-msgstr "สไตล์2"
+msgstr ""
 
 msgid "Style3"
-msgstr "สไตล์3"
+msgstr ""
 
 msgid "Style4"
-msgstr "สไตล์4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "รองรับสกิน E2iplayer:"
+msgstr ""
 
 msgid "System"
-msgstr "ระบบ"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB เท่านั้น"
+msgstr ""
 
 msgid "Teal"
-msgstr "นกเป็ดน้ำ"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "ไฟล์ %s ว่างเปล่า"
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "ไม่พบไฟล์ %s"
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "การดำเนินการนี้เปิดใช้งานการแสดงดาวการจัดอันดับสำหรับเหตุการณ์ โดยขึ้นอยู่กับแหล่งการจัดอันดับที่เลือก"
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "การดำเนินการนี้จะลบ PNG ทั้งหมดออกจากอุปกรณ์โฟลเดอร์ (โปสเตอร์ - ฉากหลัง)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "มะเขือเทศ"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "อัปเดต URL ที่ไม่ได้เตรียมใช้งาน ให้เปิดปลั๊กอินหนึ่งครั้งจากเมนูปลั๊กอินก่อน"
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "การตรวจสอบการอัปเดตล้มเหลว: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "ไม่พบแพ็คเกจอัปเดต!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "สไตล์ VolumeBar:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: แก้ไขรายการ"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: รายการรายการ"
+msgstr ""
 
 msgid "White"
-msgstr "สีขาว"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "เหลืองเขียว"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "คุณมีเวอร์ชันล่าสุดแล้ว ({})"
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "คุณต้องป้อนชื่อเมืองที่ถูกต้องก่อนจึงจะค้นหารหัสสถานที่ได้"
+msgstr ""
 
 msgid "imperial system"
-msgstr "ระบบจักรวรรดิ"
+msgstr ""
 
 msgid "metric system"
-msgstr "ระบบเมตริก"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "เล่น/แสดงไฟล์"
+msgstr ""
 
 msgid "volume2"
-msgstr "ปริมาณ2"
+msgstr ""

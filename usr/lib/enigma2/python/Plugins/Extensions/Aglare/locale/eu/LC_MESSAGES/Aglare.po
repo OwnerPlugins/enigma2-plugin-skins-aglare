@@ -10,88 +10,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "%s gakoa inportatu da!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 kartel"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "Aktibatu/Desaktibatu ELCINEMA"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "Aktibatu/Desaktibatu GOOGLE"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "Aktibatu/Desaktibatu IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "Aktibatu/Desaktibatu MOLOTOV"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Aktibatu/Desaktibatu PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "Aktibatu/Desaktibatu {}"
+msgstr ""
 
 msgid "Add"
-msgstr "Gehitu"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "PNG guztiak karpetatik kendu dira!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "Automatikoa"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "Backdrop deskarga automatikoa"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "Kartelaren deskarga automatikoa"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Lortu automatikoki EPGan oinarritutako gogoko gertaeraren atzealdea"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "Lortu automatikoki EPGan oinarritutako gogoko gertakizunen kartelak"
+msgstr ""
 
 msgid "Back"
-msgstr "Itzuli"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "Atzealdea"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "Atzeko planoa deskargatzeko errorea: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "FreeNeue"
+msgstr ""
 
 msgid "Black"
-msgstr "Beltza"
+msgstr ""
 
 msgid "Blue"
-msgstr "Urdina"
+msgstr ""
 
 msgid "Brown"
-msgstr "Marroia"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Utzi"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "Kanalaren deskribapena Kolorea:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "Kanalaren lehen planoko kolorea:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "Hautatutako kanala Deskribapen Kolorea:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "Hautatutako kanala lehen planoko kolorea:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "Kanala hautatzeko estiloa:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -133,103 +133,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "Hiria"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "Kolore-estiloa:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "Konfiguratu atzerapen-denbora (minututan) kartelaren deskarga automatikoa hasi aurretik"
+msgstr ""
 
 msgid "Crimson"
-msgstr "Carmesi"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "%s Skin pertsonalizatzeko tresna"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "Berde Iluna"
+msgstr ""
 
 msgid "Default"
-msgstr "Lehenetsia"
+msgstr ""
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr "Ezabatu"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "Deskargaren errorea: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "Deskarga abian"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "Deskargatu orain atzealdea"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "Deskargatu orain kartela"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Aglare deskargatzen..."
+msgstr ""
 
 msgid "Edit"
-msgstr "Editatu"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "Gaitu bistaratzeko generoaren ikonoak:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "Gaitu bistaratzeko informazio-gertaerak:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "Gaitu Display XMC Poster:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "Gaitu gurasoen ikonoak:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "Gaitu balorazio izarra:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Gaitu edo desgaitu cachea gertaerak deskargatzean behin eta berriz bilaketak bizkortzeko."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "Gaitu gertaeren informazio hedatua bistaratzea, antzezle osoa, lantaldeak, argumentuaren xehetasunak eta bestelako metadatuak barne, informazio widgetean."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "Errore bat gertatu da fitxategiak deskargatzean!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "Errorea kargatzean: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "{0} errorea: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "Errorea: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "EventView estiloa:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_Posterak"
+msgstr ""
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "Irten"
+msgstr ""
 
 msgid "File Commander - Addon"
-msgstr "File Commander - Gehigarria"
+msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "Ez da {} fitxategia aurkitu edo hutsik"
+msgstr ""
 
 msgid "Green"
-msgstr "Berdea"
+msgstr ""
 
 msgid "Greta"
 msgstr ""
@@ -238,13 +238,13 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "{0} gakoa {1}tik inportatu nahi duzu?"
+msgstr ""
 
 msgid "Info..."
-msgstr "Informazioa..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "Informazio barraren data:"
+msgstr ""
 
 msgid "InfoBar ECM:"
 msgstr ""
@@ -253,61 +253,61 @@ msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "InfoBarren estiloa:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "InfoBar Eguraldia:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr "Informazio barra_Data"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
-msgstr "Infobarra_MSNEguraldia"
+msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "Informazio barra_EZ_Data"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr "Infobarra_NO_Eguraldia"
+msgstr ""
 
 msgid "Infobar_OAWeather"
-msgstr "Infobarra_OAEguraldia"
+msgstr ""
 
 msgid "Ins Line"
-msgstr "Ins Linea"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "Eguneraketak instalatzen..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "Giltza hutsik"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "{} gakoa behar bezala kargatu da!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "LightGray"
-msgstr "Gris Argia"
+msgstr ""
 
 msgid "LimeGreen"
 msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "Kargatu /tmp/{}key.txt-etik"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "Eraikuntza lokala ({}) zerbitzariaren eraikuntza ({}) baino berriagoa da."
+msgstr ""
 
 msgid "Location code"
-msgstr "Kokapen kodea"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN kokapenaren bilaketaren emaitza"
+msgstr ""
 
 msgid "MV Boli"
 msgstr ""
@@ -316,205 +316,205 @@ msgid "Magenta"
 msgstr ""
 
 msgid "Mint"
-msgstr "Menta"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "Ez dago gaituta hornitzaile aktiborik"
+msgstr ""
 
 msgid "OFF"
 msgstr ""
 
 msgid "OK"
-msgstr "Ados"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB soilik"
+msgstr ""
 
 msgid "ON"
 msgstr ""
 
 msgid "Off"
-msgstr "Desaktibatuta"
+msgstr ""
 
 msgid "Orange"
-msgstr "Laranja"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "{} API gako pertsonala"
+msgstr ""
 
 msgid "Pink"
-msgstr "Arrosa"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "Mesedez, idatzi baliozko hiri-izen bat."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "Mesedez, sartu hiriaren baliozko kokapen-kode bat."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "Kartela deskargatzeko errorea: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "Morea"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Benetan ezabatu nahi duzu WeatherPlugin sarrera hau?"
+msgstr ""
 
 msgid "Red"
-msgstr "Gorria"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "Kendu png guztiak (kartela - atzeko planoa) (Ados)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "GUI berrabiarazi orain?"
+msgstr ""
 
 msgid "Save"
-msgstr "Gorde"
+msgstr ""
 
 msgid "Search Code"
-msgstr "Bilaketa kodea"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "Bigarren Infobar_MSNEguraldia"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "Bigarren Infobar_NO_Eguraldia"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "Bigarren Infobarra_OAEguraldia"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
-msgstr "Bigarren Infobar Posterx:"
+msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "Bigarren informazio barraren estiloa:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar Eguraldia:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
-msgstr "Bigarren Infobar Xtraevent:"
+msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI argia"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "Hautatu zure letra-tipoa:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "Ezarri ordua gure - minutua Backdrop deskargatzeko"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "Ezarri ordua gure - minutua Kartela deskargatzeko"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "Ezarpenak Apikey Server"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Konfiguratu Aglare azalaren informazioa"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "Erakutsi gertaera bakoitzaren generoa adierazten duten ikonoak (adibidez, akzioa, komedia, drama)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Erakutsi gertaeretan gurasoen gidaritza-ikonoak edukiaren balorazioa eta adinaren egokitasuna adierazteko."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "Erakutsi filmaren kartela tokiko karpetan"
+msgstr ""
 
 msgid "Sienna"
-msgstr "Siena"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "Azalaren estiloa:"
+msgstr ""
 
 msgid "SnowWhite"
 msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "Hasi atzeko planoa berehala deskargatzen"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "Hasi kartela deskargatzen berehala"
+msgstr ""
 
 msgid "SteelBlue"
 msgstr ""
 
 msgid "Style2"
-msgstr "Estiloa 2"
+msgstr ""
 
 msgid "Style3"
-msgstr "Estiloa 3"
+msgstr ""
 
 msgid "Style4"
-msgstr "Estiloa 4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "Onartu E2iplayer Skins:"
+msgstr ""
 
 msgid "System"
-msgstr "Sistema"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB soilik"
+msgstr ""
 
 msgid "Teal"
-msgstr "Zertzeta"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "%s fitxategia hutsik dago."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "%s fitxategia ez da aurkitu."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "Eragiketa honek gertaeren balorazio-izarrak bistaratzea ahalbidetzen du, hautatutako balorazio-iturriaren arabera."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "Eragiketa honek png guztiak kendu karpeta gailutik (Poster-Backdrop)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "Tomatea"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Hasieratu gabeko URL eguneratzea ireki plugina behin Plugins menutik lehenik."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "Eguneratzeko egiaztapenak huts egin du: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "Ez da eguneratu paketea aurkitu!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "Bolumen barraren estiloa:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: Editatu sarrera"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: Sarreren zerrenda"
+msgstr ""
 
 msgid "White"
-msgstr "Zuria"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "HoriaBerdea"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "Dagoeneko duzu azken bertsioa ({})."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "Baliozko hiri-izen bat sartu behar duzu kokapen-kodea bilatu aurretik."
+msgstr ""
 
 msgid "imperial system"
-msgstr "sistema inperiala"
+msgstr ""
 
 msgid "metric system"
-msgstr "sistema metrikoa"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "erreproduzitu/erakutsi Fitxategiak"
+msgstr ""
 
 msgid "volume2"
-msgstr "bolumena 2"
+msgstr ""

@@ -10,88 +10,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "کلید %s وارد شد!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 پوستر"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA را فعال/غیرفعال کنید"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLE را فعال/غیرفعال کنید"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "فعال/غیرفعال کردن IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "MOLOTOV را فعال/غیرفعال کنید"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "فعال/غیرفعال کردن PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "فعال/غیرفعال کردن {}"
+msgstr ""
 
 msgid "Add"
-msgstr "اضافه کنید"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "همه png از پوشه حذف می شوند!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "خودکار"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "دانلود خودکار پس زمینه"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "دانلود خودکار پوستر"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "واکشی خودکار پس‌زمینه برای رویدادهای مورد علاقه بر اساس EPG"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "واکشی خودکار پوسترها برای رویدادهای مورد علاقه بر اساس EPG"
+msgstr ""
 
 msgid "Back"
-msgstr "برگشت"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "پس زمینه"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "خطای دانلود پس زمینه: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "FreeNeue"
+msgstr ""
 
 msgid "Black"
-msgstr "مشکی"
+msgstr ""
 
 msgid "Blue"
-msgstr "آبی"
+msgstr ""
 
 msgid "Brown"
-msgstr "قهوه ای"
+msgstr ""
 
 msgid "Cancel"
-msgstr "لغو کنید"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "رنگ توضیحات کانال:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "رنگ پیش زمینه کانال:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "انتخاب کانال توضیحات رنگ:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "رنگ پیش زمینه انتخابی کانال:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "سبک انتخاب کانال:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -124,7 +124,7 @@ msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "ChannelSelection_NO_پوسترها"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr ""
@@ -133,145 +133,145 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "شهر"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "سبک رنگ:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "قبل از شروع دانلود خودکار پوستر، زمان تاخیر (بر حسب دقیقه) را پیکربندی کنید"
+msgstr ""
 
 msgid "Crimson"
-msgstr "زرشکی"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "ابزار سفارشی سازی برای %s Skin"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "سبز تیره"
+msgstr ""
 
 msgid "Default"
-msgstr "پیش فرض"
+msgstr ""
 
 msgid "Del Line"
-msgstr "دل لاین"
+msgstr ""
 
 msgid "Delete"
-msgstr "حذف کنید"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "خطای دانلود: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "دانلود در حال انجام است"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "اکنون پس زمینه را دانلود کنید"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "اکنون پوستر را دانلود کنید"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "در حال دانلود Aglare..."
+msgstr ""
 
 msgid "Edit"
-msgstr "ویرایش کنید"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "فعال کردن نمادهای ژانر نمایش:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "فعال کردن Display InfoEvents:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "فعال کردن Display XMC Poster:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "فعال کردن نمادهای والدین:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "فعال کردن ستاره رتبه بندی:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "برای سرعت بخشیدن به جستجوهای مکرر، حافظه پنهان را در حین بارگیری رویداد فعال یا غیرفعال کنید."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "نمایش اطلاعات رویداد گسترده، از جمله بازیگران کامل، خدمه، جزئیات طرح و سایر ابرداده‌ها را در ویجت اطلاعات فعال کنید."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "خطا در دانلود فایل ها!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "خطا در بارگیری: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "خطای {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "خطا: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "سبک EventView:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_پوسترها"
+msgstr ""
 
 msgid "EventView_NO_Posters"
-msgstr "EventView_NO_پوسترها"
+msgstr ""
 
 msgid "Exit"
-msgstr "خارج شوید"
+msgstr ""
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "فایل {} یافت نشد یا خالی بود"
+msgstr ""
 
 msgid "Green"
-msgstr "سبز"
+msgstr ""
 
 msgid "Greta"
-msgstr "گرتا"
+msgstr ""
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "کلید {0} از {1} وارد شود؟"
+msgstr ""
 
 msgid "Info..."
-msgstr "اطلاعات..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "تاریخ نوار اطلاعات:"
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "نوار اطلاعات ECM:"
+msgstr ""
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "سبک نوار اطلاعات:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "آب و هوای نوار اطلاعات:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr "نوار اطلاعات_تاریخ"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
-msgstr "نوار اطلاعات_MSNآب و هوا"
+msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "نوار اطلاعات_NO_Date"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr "نوار اطلاعات_NO_آب و هوا"
+msgstr ""
 
 msgid "Infobar_OAWeather"
 msgstr ""
@@ -280,241 +280,241 @@ msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr "در حال نصب به روز رسانی..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "کلید خالی است"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "کلید {} با موفقیت بارگیری شد!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "LightGray"
-msgstr "خاکستری روشن"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "لیموگرین"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "بارگیری از /tmp/{}key.txt"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "ساخت محلی ({}) جدیدتر از ساخت سرور ({}) است."
+msgstr ""
 
 msgid "Location code"
-msgstr "کد مکان"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "نتیجه جستجوی مکان MSN"
+msgstr ""
 
 msgid "MV Boli"
-msgstr "ام وی بولی"
+msgstr ""
 
 msgid "Magenta"
-msgstr "سرخابی"
+msgstr ""
 
 msgid "Mint"
-msgstr "نعناع"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "هیچ ارائه دهنده فعالی فعال نیست"
+msgstr ""
 
 msgid "OFF"
-msgstr "خاموش"
+msgstr ""
 
 msgid "OK"
-msgstr "باشه"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "فقط OMDB"
+msgstr ""
 
 msgid "ON"
-msgstr "روشن"
+msgstr ""
 
 msgid "Off"
-msgstr "خاموش"
+msgstr ""
 
 msgid "Orange"
-msgstr "نارنجی"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "کلید API شخصی برای {}"
+msgstr ""
 
 msgid "Pink"
-msgstr "صورتی"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "لطفا یک نام شهر معتبر وارد کنید."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "لطفاً یک کد مکان معتبر برای شهر وارد کنید."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "خطای دانلود پوستر: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "بنفش"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "آیا واقعاً این ورودی WeatherPlugin حذف می شود؟"
+msgstr ""
 
 msgid "Red"
-msgstr "قرمز"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "حذف همه png (پوستر - پس زمینه) (OK)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "اکنون رابط کاربری گرافیکی را مجدداً راه اندازی کنید؟"
+msgstr ""
 
 msgid "Save"
-msgstr "ذخیره کنید"
+msgstr ""
 
 msgid "Search Code"
-msgstr "کد جستجو"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "دومین Infobar_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "نوار اطلاعات دوم_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "دومین Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "سبک SecondInfobar:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "آب و هوای SecondInfobar:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "چراغ رابط کاربری Segoe"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "فونت خود را انتخاب کنید:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "زمان ما - دقیقه را برای دانلود Backdrop تنظیم کنید"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "زمان ما - دقیقه را برای دانلود پوستر تنظیم کنید"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "تنظیمات سرور Apikey"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "راه اندازی اطلاعات پوست Aglare"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "نمایش نمادهایی که ژانر هر رویداد را نشان می دهند (مانند اکشن، کمدی، درام)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "نشان دادن نمادهای راهنمایی والدین در رویدادها برای نشان دادن رتبه بندی محتوا و تناسب سن."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "نمایش پوستر از فیلم در پوشه محلی"
+msgstr ""
 
 msgid "Sienna"
-msgstr "سینا"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "سبک پوست:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "سفید برفی"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "بلافاصله دانلود پس زمینه را شروع کنید"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "بلافاصله دانلود پوستر را شروع کنید"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "استیل آبی"
+msgstr ""
 
 msgid "Style2"
-msgstr "سبک 2"
+msgstr ""
 
 msgid "Style3"
-msgstr "سبک 3"
+msgstr ""
 
 msgid "Style4"
-msgstr "سبک 4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "پشتیبانی از پوسته های E2iplayer:"
+msgstr ""
 
 msgid "System"
-msgstr "سیستم"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "فقط TMDB"
+msgstr ""
 
 msgid "Teal"
-msgstr "آبی رنگ"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "فایل %s خالی است."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "فایل %s پیدا نشد."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "این عملیات نمایش ستاره های رتبه بندی برای رویدادها را بر اساس منبع رتبه بندی انتخاب شده فعال می کند."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "این عملیات تمام png را از دستگاه پوشه حذف می کند (پوستر-پس زمینه)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "گوجه فرنگی"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "به‌روزرسانی URL که مقداردهی اولیه نشده است، ابتدا افزونه را یک بار از منوی افزونه‌ها باز کنید."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "بررسی به‌روزرسانی انجام نشد: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "بسته به روز رسانی پیدا نشد!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "سبک بار صدا:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: ویرایش ورودی"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: فهرست ورودی ها"
+msgstr ""
 
 msgid "White"
-msgstr "سفید"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "سبز زرد"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "شما از قبل آخرین نسخه ({}) را دارید."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "قبل از اینکه بتوانید کد مکان را جستجو کنید، باید یک نام شهر معتبر وارد کنید."
+msgstr ""
 
 msgid "imperial system"
-msgstr "نظام شاهنشاهی"
+msgstr ""
 
 msgid "metric system"
-msgstr "سیستم متریک"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "پخش/نمایش فایل ها"
+msgstr ""
 
 msgid "volume2"
-msgstr "جلد 2"
+msgstr ""

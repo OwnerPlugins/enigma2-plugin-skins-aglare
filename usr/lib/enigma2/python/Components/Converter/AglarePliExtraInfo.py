@@ -90,19 +90,12 @@ def getCryptoInfo(info):
 
 
 def createCurrentCaidLabel(info):
-    current_source, current_caid, current_provid, current_ecmpid = getCryptoInfo(
-        info)
+    current_source, current_caid, current_provid, current_ecmpid = getCryptoInfo(info)
     res = "---"
     if not pathExists("/tmp/ecm.info"):
         return "FTA"
     for caid_entry in caid_data:
-        if int(
-            caid_entry[0],
-            16) <= int(
-            current_caid,
-            16) <= int(
-            caid_entry[1],
-                16):
+        if int(caid_entry[0], 16) <= int(current_caid, 16) <= int(caid_entry[1], 16):
             res = caid_entry[4]
     return res
 
@@ -241,8 +234,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
         self.ecmdata = GetEcmInfo()
         self.feraw = self.fedata = self.updateFEdata = None
         self.recursionCheck = set()
-        self.cryptocolors = parameters.get(
-            "PliExtraInfoCryptoColors", (0x004C7D3F, 0x009F9F9F, 0x00EEEE00, 0x00FFFFFF))
+        self.cryptocolors = parameters.get("PliExtraInfoCryptoColors", (0x004C7D3F, 0x009F9F9F, 0x00EEEE00, 0x00FFFFFF))
 
     def getCryptoInfo(self, info):
         if info.getInfo(iServiceInformation.sIsCrypted) == 1:
@@ -260,31 +252,16 @@ class AglarePliExtraInfo(Poll, Converter, object):
     def createCryptoBar(self, info):
         res = ""
         available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
-        colors = parameters.get(
-            "PliExtraInfoColors",
-            (0x0000FF00,
-             0x00FF0000,
-             0x00FFFFFF,
-             0x007F7F7F))  # "found", "not found", "available", "default" colors
+        colors = parameters.get("PliExtraInfoColors", (0x0000FF00, 0x00FF0000, 0x00FFFFFF, 0x007F7F7F))  # "found", "not found", "available", "default" colors
 
         for caid_entry in caid_data:
-            if int(
-                caid_entry[0],
-                16) <= int(
-                self.current_caid,
-                16) <= int(
-                caid_entry[1],
-                    16):
+            if int(caid_entry[0], 16) <= int(self.current_caid, 16) <= int(caid_entry[1], 16):
                 color = Hex2strColor(colors[0])  # green
             else:
                 color = Hex2strColor(colors[2])  # grey
                 try:
                     for caid in available_caids:
-                        if int(
-                                caid_entry[0],
-                                16) <= caid <= int(
-                                caid_entry[1],
-                                16):
+                        if int(caid_entry[0], 16) <= caid <= int(caid_entry[1], 16):
                             color = Hex2strColor(colors[1])  # yellow
                 except BaseException:
                     pass
@@ -294,8 +271,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
                     res += " "
                 res += color + caid_entry[3]
 
-        # white (this acts like a color "reset" for following strings
-        res += Hex2strColor(colors[3])
+        res += Hex2strColor(colors[3])  # white (this acts like a color "reset" for following strings
         return res
 
     def createCurrentCaidLabel(self):
@@ -303,13 +279,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
         if not pathExists("/tmp/ecm.info"):
             return "FTA"
         for caid_entry in caid_data:
-            if int(
-                caid_entry[0],
-                16) <= int(
-                self.current_caid,
-                16) <= int(
-                caid_entry[1],
-                    16):
+            if int(caid_entry[0], 16) <= int(self.current_caid, 16) <= int(caid_entry[1], 16):
                 res = caid_entry[4]
 
         return res
@@ -428,13 +398,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
 
     def createCryptoTandberg(self, info):
         available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
-        if int(
-            '0x1010',
-            16) <= int(
-            self.current_caid,
-            16) <= int(
-            '0x1010',
-                16):
+        if int('0x1010', 16) <= int(self.current_caid, 16) <= int('0x1010', 16):
             color = Hex2strColor(self.cryptocolors[0])
         else:
             color = Hex2strColor(self.cryptocolors[1])
@@ -450,13 +414,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
 
     def createCryptoBeta(self, info):
         available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
-        if int(
-            '0x1700',
-            16) <= int(
-            self.current_caid,
-            16) <= int(
-            '0x17ff',
-                16):
+        if int('0x1700', 16) <= int(self.current_caid, 16) <= int('0x17ff', 16):
             color = Hex2strColor(self.cryptocolors[0])
         else:
             color = Hex2strColor(self.cryptocolors[1])
@@ -472,13 +430,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
 
     def createCryptoNagra(self, info):
         available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
-        if int(
-            '0x1800',
-            16) <= int(
-            self.current_caid,
-            16) <= int(
-            '0x18ff',
-                16):
+        if int('0x1800', 16) <= int(self.current_caid, 16) <= int('0x18ff', 16):
             color = Hex2strColor(self.cryptocolors[0])
         else:
             color = Hex2strColor(self.cryptocolors[1])
@@ -494,13 +446,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
 
     def createCryptoBiss(self, info):
         available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
-        if int(
-            '0x2600',
-            16) <= int(
-            self.current_caid,
-            16) <= int(
-            '0x26ff',
-                16):
+        if int('0x2600', 16) <= int(self.current_caid, 16) <= int('0x26ff', 16):
             color = Hex2strColor(self.cryptocolors[0])
         else:
             color = Hex2strColor(self.cryptocolors[1])
@@ -516,13 +462,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
 
     def createCryptoDre(self, info):
         available_caids = info.getInfoObject(iServiceInformation.sCAIDs)
-        if int(
-            '0x4ae0',
-            16) <= int(
-            self.current_caid,
-            16) <= int(
-            '0x4ae1',
-                16):
+        if int('0x4ae0', 16) <= int(self.current_caid, 16) <= int('0x4ae1', 16):
             color = Hex2strColor(self.cryptocolors[0])
         else:
             color = Hex2strColor(self.cryptocolors[1])
@@ -540,24 +480,15 @@ class AglarePliExtraInfo(Poll, Converter, object):
         refstr = info.getInfoString(iServiceInformation.sServiceref)
         caid_name = "Free to Air"
         if "%3a//" in refstr.lower() and "127.0.0.1" not in refstr and "0.0.0.0" not in refstr and "localhost" not in refstr or "@" in refstr:
-            return "IPTV" + \
-                ":%06X:%04X" % (int(self.current_provid, 16), info.getInfo(iServiceInformation.sSID))
+            return "IPTV" + ":%06X:%04X" % (int(self.current_provid, 16), info.getInfo(iServiceInformation.sSID))
         elif int(self.current_caid, 16) == 0:
-            return caid_name + \
-                ":%06X:%04X" % (int(self.current_provid, 16), info.getInfo(iServiceInformation.sSID))
+            return caid_name + ":%06X:%04X" % (int(self.current_provid, 16), info.getInfo(iServiceInformation.sSID))
         try:
             for caid_entry in caid_data:
-                if int(
-                    caid_entry[0],
-                    16) <= int(
-                    self.current_caid,
-                    16) <= int(
-                    caid_entry[1],
-                        16):
+                if int(caid_entry[0], 16) <= int(self.current_caid, 16) <= int(caid_entry[1], 16):
                     caid_name = caid_entry[2]
                     break
-            return caid_name + ":%04X:%06X:%04X" % (int(self.current_caid, 16), int(
-                self.current_provid, 16), info.getInfo(iServiceInformation.sSID))
+            return caid_name + ":%04X:%06X:%04X" % (int(self.current_caid, 16), int(self.current_provid, 16), info.getInfo(iServiceInformation.sSID))
         except BaseException:
             pass
         return ""
@@ -568,13 +499,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
             return caid_name
         try:
             for caid_entry in self.caid_data:
-                if int(
-                    caid_entry[0],
-                    16) <= int(
-                    self.current_caid,
-                    16) <= int(
-                    caid_entry[1],
-                        16):
+                if int(caid_entry[0], 16) <= int(self.current_caid, 16) <= int(caid_entry[1], 16):
                     caid_name = caid_entry[2]
                     break
             return caid_name + ":%04X" % (int(self.current_caid, 16))
@@ -597,32 +522,19 @@ class AglarePliExtraInfo(Poll, Converter, object):
             return ""
         mode = ""
         try:
-            mode = "p" if int(
-                open(
-                    "/proc/stb/vmpeg/0/progressive",
-                    "r").read(),
-                16) else "i"
+            mode = "p" if int(open("/proc/stb/vmpeg/0/progressive", "r").read(), 16) else "i"
         except BaseException:
             pass
         fps = ""
         try:
-            fps = str(
-                (int(
-                    open(
-                        "/proc/stb/vmpeg/0/framerate",
-                        "r").read()) +
-                    500) //
-                1000)
+            fps = str((int(open("/proc/stb/vmpeg/0/framerate", "r").read()) + 500) // 1000)
         except BaseException:
             pass
 
         return "%sx%s%s%s" % (xres, yres, mode, fps)
 
     def createVideoCodec(self, info):
-        return codec_data.get(
-            info.getInfo(
-                iServiceInformation.sVideoType),
-            _("N/A"))
+        return codec_data.get(info.getInfo(iServiceInformation.sVideoType), _("N/A"))
 
     def createServiceRef(self, info):
         return info.getInfoString(iServiceInformation.sServiceref)
@@ -646,8 +558,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
             tsid = 0
         if onid < 0:
             onid = 0
-        return "%d-%d:%05d:%04d:%04d:%04d" % (onid,
-                                              tsid, sidpid, vpid, apid, pcrpid)
+        return "%d-%d:%05d:%04d:%04d:%04d" % (onid, tsid, sidpid, vpid, apid, pcrpid)
 
     def createInfoString(self, fieldGroup, fedata, feraw, info):
         if fieldGroup in self.recursionCheck:
@@ -657,8 +568,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
         fields = self.info_fields[fieldGroup]
         if fields and isinstance(fields[0], (tuple, list)):
             if fieldGroup == "TransponderInfo":
-                fields = fields[feraw and int(
-                    "DVB-T" in feraw.get("tuner_type", "")) + 1 or 0]
+                fields = fields[feraw and int("DVB-T" in feraw.get("tuner_type", "")) + 1 or 0]
             else:
                 fields = fields[int(config.usage.show_cryptoinfo.value) > 0]
 
@@ -672,8 +582,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
             elif field == "StreamURLInfo":
                 val = self.createStreamURLInfo(info)
             elif field == "TransponderModulationFEC":
-                val = self.createModulation(
-                    fedata) + '-' + self.createFEC(fedata, feraw)
+                val = self.createModulation(fedata) + '-' + self.createFEC(fedata, feraw)
             elif field == "TransponderName":
                 val = self.createTransponderName(feraw)
             elif field == "ProviderName":
@@ -692,8 +601,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
     def createStreamURLInfo(self, info):
         refstr = info.getInfoString(iServiceInformation.sServiceref)
         if "%3a//" in refstr.lower():
-            return refstr.replace("%3a", ":").replace(
-                "%3A", ":").split("://")[1].split("/")[0].split('@')[-1]
+            return refstr.replace("%3a", ":").replace("%3A", ":").split("://")[1].split("/")[0].split('@')[-1]
         return ""
 
     def createFrequency(self, fedata):
@@ -703,8 +611,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
         return ""
 
     def createChannelNumber(self, fedata, feraw):
-        return "DVB-T" in feraw.get("tuner_type",
-                                    "") and fedata.get("channel") or ""
+        return "DVB-T" in feraw.get("tuner_type", "") and fedata.get("channel") or ""
 
     def createSymbolRate(self, fedata, feraw):
         if "DVB-T" in feraw.get("tuner_type", ""):
@@ -779,96 +686,99 @@ class AglarePliExtraInfo(Poll, Converter, object):
             else:
                 orbpos -= 1
 
+        # Enigma2 orbital position format:
+        #   east  = degrees * 10        example: 13.0E -> 130
+        #   west  = 3600 - degrees * 10 example: 7.0W  -> 3530
         sat_names = {
-            30: 'Rascom/Eutelsat 3E',
-            48: 'SES 5',
-            70: 'Eutelsat 7E',
-            90: 'Eutelsat 9E',
-            100: 'Eutelsat 10E',
-            130: 'Hot Bird',
-            160: 'Eutelsat 16E',
-            192: 'Astra 1KR/1L/1M/1N',
-            200: 'Arabsat 20E',
-            216: 'Eutelsat 21.5E',
-            235: 'Astra 3',
-            255: 'Eutelsat 25.5E',
-            260: 'Badr 4/5/6',
+            30: 'Rascom QAF / Eutelsat 3E',
+            48: 'Astra 4A / SES 5',
+            70: 'Eutelsat 7B/7C',
+            90: 'Eutelsat 9B',
+            100: 'Eutelsat 10A/10B',
+            130: 'Hot Bird 13F/13G',
+            160: 'Eutelsat 16A',
+            192: 'Astra 1KR/1L/1M/1N/1P',
+            200: 'Arabsat 5C / BADR C',
+            216: 'Eutelsat 21B',
+            235: 'Astra 3B/3C',
+            255: 'Eutelsat 25B / Es\'hail 1',
+            260: 'BADR 4/5/6/7/8',
             282: 'Astra 2E/2F/2G',
-            305: 'Arabsat 30.5E',
-            315: 'Astra 5',
+            305: 'Arabsat 5A',
+            315: 'Astra 5B',
             330: 'Eutelsat 33E',
-            360: 'Eutelsat 36E',
-            380: 'Paksat',
-            390: 'Hellas Sat',
-            400: 'Express 40E',
-            420: 'Turksat',
-            450: 'Intelsat 45E',
-            480: 'Afghansat',
-            490: 'Yamal 49E',
-            530: 'Express 53E',
-            570: 'NSS 57E',
-            600: 'Intelsat 60E',
-            620: 'Intelsat 62E',
-            685: 'Intelsat 68.5E',
-            705: 'Eutelsat 70.5E',
-            720: 'Intelsat 72E',
-            750: 'ABS',
-            765: 'Apstar',
-            785: 'ThaiCom',
-            800: 'Express 80E',
-            830: 'Insat',
-            851: 'Intelsat/Horizons',
-            880: 'ST2',
-            900: 'Yamal 90E',
-            915: 'Mesat',
-            950: 'NSS/SES 95E',
-            1005: 'AsiaSat 100E',
-            1030: 'Express 103E',
-            1055: 'Asiasat 105E',
-            1082: 'NSS/SES 108E',
-            1100: 'BSat/NSAT',
-            1105: 'ChinaSat',
-            1130: 'KoreaSat',
-            1222: 'AsiaSat 122E',
-            1380: 'Telstar 18',
-            1440: 'SuperBird',
-            2310: 'Ciel',
-            2390: 'Echostar/Galaxy 121W',
-            2410: 'Echostar/DirectTV 119W',
-            2500: 'Echostar/DirectTV 110W',
-            2630: 'Galaxy 97W',
-            2690: 'NIMIQ 91W',
-            2780: 'NIMIQ 82W',
-            2830: 'Echostar/QuetzSat',
-            2880: 'AMC 72W',
-            2900: 'Star One',
-            2985: 'Echostar 61.5W',
+            360: 'Eutelsat 36B/36D',
+            380: 'Paksat 1R',
+            390: 'Hellas Sat 3/4',
+            400: 'Express AM7',
+            420: 'Turksat 3A/4A/5B/6A',
+            450: 'Intelsat 12',
+            480: 'Afghansat 1',
+            490: 'Yamal 601',
+            530: 'Express AM6',
+            570: 'NSS 12',
+            600: 'Intelsat 33e',
+            620: 'Intelsat 39',
+            685: 'Intelsat 20 / Horizons 3e',
+            705: 'Eutelsat 70B',
+            720: 'Intelsat 22',
+            750: 'ABS 2/2A',
+            765: 'Apstar 7',
+            785: 'Thaicom 6/8',
+            800: 'Express AM22',
+            830: 'Insat / GSAT',
+            851: 'Intelsat 15 / Horizons 2',
+            880: 'ST 2',
+            900: 'Yamal 401',
+            915: 'Measat 3/3a/3b/3d',
+            950: 'SES 12 / NSS 6',
+            1005: 'AsiaSat 5',
+            1030: 'Express AM3',
+            1055: 'AsiaSat 7',
+            1082: 'SES 7/9',
+            1100: 'BSat / JCSat',
+            1105: 'ChinaSat 10',
+            1130: 'KoreaSat 5A',
+            1222: 'AsiaSat 9',
+            1380: 'Telstar 18 Vantage',
+            1440: 'Superbird C2',
+            2310: 'Ciel 2',
+            2390: 'EchoStar / Galaxy 23',
+            2410: 'EchoStar / DirecTV 119W',
+            2500: 'EchoStar / DirecTV 110W',
+            2630: 'Galaxy 19',
+            2690: 'Nimiq 6',
+            2780: 'Nimiq 4',
+            2830: 'EchoStar / QuetzSat',
+            2880: 'AMC 6',
+            2900: 'Star One C2/C4',
+            2985: 'EchoStar 16',
             2990: 'Amazonas',
-            3020: 'Intelsat 58W',
-            3045: 'Intelsat 55.5W',
-            3070: 'Intelsat 53W',
-            3100: 'Intelsat 50W',
-            3150: 'Intelsat 45W',
-            3169: 'Intelsat 43.1W',
-            3195: 'SES 40.5W',
-            3225: 'NSS/Telstar 37W',
-            3255: 'Intelsat 34.5W',
-            3285: 'Intelsat 31.5W',
-            3300: 'Hispasat',
-            3325: 'Intelsat 27.5W',
-            3355: 'Intelsat 24.5W',
-            3380: 'SES 22W',
-            3400: 'NSS 20W',
-            3420: 'Intelsat 18W',
-            3450: 'Telstar 15W',
-            3460: 'Express 14W',
-            3475: 'Eutelsat 12.5W',
-            3490: 'Express 11W',
-            3520: 'Eutelsat 8W',
-            3530: 'Nilesat/Eutelsat 7W',
-            3550: 'Eutelsat 5W',
-            3560: 'Amos',
-            3592: 'Thor/Intelsat'
+            3020: 'Intelsat 21',
+            3045: 'Intelsat 34',
+            3070: 'Intelsat 23',
+            3100: 'Intelsat 9/11',
+            3150: 'Intelsat 14',
+            3169: 'Intelsat 11',
+            3195: 'SES 6',
+            3225: 'NSS 10 / Telstar 11N',
+            3255: 'Hispasat 30W-5/30W-6',
+            3285: 'Intelsat 35e',
+            3300: 'Hispasat 30W-5/30W-6',
+            3325: 'Intelsat 901',
+            3355: 'Intelsat 905',
+            3380: 'SES 4',
+            3400: 'NSS 7',
+            3420: 'Intelsat 37e',
+            3450: 'Telstar 12 Vantage',
+            3460: 'Express AM8',
+            3475: 'Eutelsat 12 West B',
+            3490: 'Express AM44',
+            3520: 'Eutelsat 8 West B',
+            3530: 'Nilesat 201/301 & Eutelsat 7 West A',
+            3550: 'Eutelsat 5 West B',
+            3560: 'Amos 3/7 / Dror 1',
+            3592: 'Thor 5/6/7 & Intelsat 10-02'
         }
 
         if orbpos in sat_names:
@@ -1023,8 +933,7 @@ class AglarePliExtraInfo(Poll, Converter, object):
             self.updateFEdata = False
             feinfo = service.frontendInfo()
             if feinfo:
-                self.feraw = feinfo.getAll(
-                    config.usage.infobar_frontend_source.value == "settings")
+                self.feraw = feinfo.getAll(config.usage.infobar_frontend_source.value == "settings")
                 if self.feraw:
                     self.fedata = ConvertToHumanReadable(self.feraw)
 
@@ -1120,22 +1029,12 @@ class AglarePliExtraInfo(Poll, Converter, object):
         for caid_entry in caid_data:
             if caid_entry[3] == request_caid:
                 if request_selected:
-                    if int(
-                        caid_entry[0],
-                        16) <= int(
-                        current_caid,
-                        16) <= int(
-                        caid_entry[1],
-                            16):
+                    if int(caid_entry[0], 16) <= int(current_caid, 16) <= int(caid_entry[1], 16):
                         return True
                 else:  # request available
                     try:
                         for caid in available_caids:
-                            if int(
-                                    caid_entry[0],
-                                    16) <= caid <= int(
-                                    caid_entry[1],
-                                    16):
+                            if int(caid_entry[0], 16) <= caid <= int(caid_entry[1], 16):
                                 return True
                     except BaseException:
                         pass

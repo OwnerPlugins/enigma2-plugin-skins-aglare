@@ -10,226 +10,226 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr "iuchair %s air a thoirt a-steach!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 postair"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "Cuir an gnìomh / cuir dheth ELCINEMA"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "Cuir an gnìomh/cuir dheth GOOGLE"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "Cuir an gnìomh / cuir dheth IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "Cuir an gnìomh / cuir dheth MOLOTOV"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Cuir an gnìomh / cuir dheth PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "Cuir an gnìomh/Cuir an gnìomh {}"
+msgstr ""
 
 msgid "Add"
-msgstr "Cuir ris"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "Thèid a h-uile png a thoirt air falbh bhon phasgan!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "fèin-ghluasadach"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "Luchdaich a-nuas cùl-dhealbhan gu fèin-obrachail"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "Luchdaich a-nuas am postair gu fèin-obrachail"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Faigh gu fèin-ghluasadach cùl-fhiosrachadh airson na tachartasan as fheàrr leat stèidhichte air EPG"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "Faigh postairean gu fèin-ghluasadach airson na tachartasan as fheàrr leat stèidhichte air EPG"
+msgstr ""
 
 msgid "Back"
-msgstr "Air ais"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "Cùl-fhiosrachadh"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "Mearachd luchdaich sìos cùl-raon: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "Neo saor an asgaidh"
+msgstr ""
 
 msgid "Black"
-msgstr "Dubh"
+msgstr ""
 
 msgid "Blue"
-msgstr "Gorm"
+msgstr ""
 
 msgid "Brown"
-msgstr "Donn"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Sguir dheth"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "Dath Tuairisgeul an t-Sianail:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "Dath aghaidh an t-seanail:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "Sianal air a thaghadh dath tuairisgeul:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "Sianal air a thaghadh airson dath aghaidh na deilbh:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "Stoidhle taghaidh seanail:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr "Taghadh seanail_1_Postair_EX"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_X"
-msgstr "Taghadh seanail_1_Postair_X"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr "Taghadh seanail_4_Postairean_EX"
+msgstr ""
 
 msgid "ChannelSelection_4_Posters_X"
-msgstr "Taghadh seanail_4_Postairean_X"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr "Taghadh seanail_6_Postairean_EX"
+msgstr ""
 
 msgid "ChannelSelection_6_Posters_X"
-msgstr "Taghadh seanail_6_Postairean_X"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr "Taghadh seanail_BackDrop_H_EX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr "Taghadh seanail_BackDrop_H_PX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr "Taghadh seanail_BackDrop_V_EX"
+msgstr ""
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr "Taghadh seanail_BackDrop_V_PX"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters"
-msgstr "Taghadh seanail_NO_Postairean"
+msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr "Taghadh seanail_NO_Postairean_NO_Picon"
+msgstr ""
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr "Taghadh seanail_big_mini_tv"
+msgstr ""
 
 msgid "City"
-msgstr "Cathair-bhaile"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "Stoidhle dath:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "Dèan rèiteachadh air an ùine dàil (ann am mionaidean) mus tòisich thu air luchdachadh sìos postair fèin-ghluasadach"
+msgstr ""
 
 msgid "Crimson"
-msgstr "Criomanach"
+msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "Inneal gnàthachaidh airson craiceann %s"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "Uaine Dorcha"
+msgstr ""
 
 msgid "Default"
-msgstr "Deònach"
+msgstr ""
 
 msgid "Del Line"
-msgstr "Loidhne Del"
+msgstr ""
 
 msgid "Delete"
-msgstr "Sguab às"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "Mearachd luchdaich sìos: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "Luchdaich sìos a 'dol air adhart"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "Luchdaich a-nuas an-dràsta cùl"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "Luchdaich sìos postair a-nis"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Luchdaich a-nuas Aglare. ."
+msgstr ""
 
 msgid "Edit"
-msgstr "Deasaich"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "Dèan comas air ìomhaighean gnè taisbeanaidh:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "Dèan comas air tachartasan fiosrachaidh taisbeanaidh:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "Dèan comas air Postair XMC Display:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "Dèan comas air ìomhaighean phàrantan:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "Dèan comas air Rionnag Rangachadh:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Dèan comas no cuir à comas tasgadan aig àm luchdachadh sìos tachartais gus ath-sgrùdaidhean a luathachadh."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "Dèan comas air taisbeanadh fiosrachadh tachartais leudaichte, a’ toirt a-steach sgioba slàn, sgioba, mion-fhiosrachadh mun chuilbheart, agus meata-dàta eile, anns a’ widget fiosrachaidh."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "Thachair mearachd le luchdachadh sìos faidhlichean!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "Thachair mearachd le luchdachadh: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "Mearachd {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "Mearachd: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "Stoidhle EventView:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_Postairean"
+msgstr ""
 
 msgid "EventView_NO_Posters"
-msgstr "EventView_NO_Postairean"
+msgstr ""
 
 msgid "Exit"
-msgstr "Ar-a-mach"
+msgstr ""
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "Cha deach faidhle {} a lorg no falamh"
+msgstr ""
 
 msgid "Green"
-msgstr "Uaine"
+msgstr ""
 
 msgid "Greta"
 msgstr ""
@@ -238,283 +238,283 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "Ion-phortaich iuchair {0} o {1}?"
+msgstr ""
 
 msgid "Info..."
-msgstr "Fiosrachadh..."
+msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "Ceann-latha InfoBar:"
+msgstr ""
 
 msgid "InfoBar ECM:"
-msgstr "Bàr Fiosrachaidh ECM:"
+msgstr ""
 
 msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "Stoidhle InfoBar:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "Aimsir InfoBar:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr "Bàr Fiosrachaidh_Ceann-latha"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
 msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr "Infobar_NO_Ceann-là"
+msgstr ""
 
 msgid "Infobar_NO_Weather"
-msgstr "Infobar_NO_Aimsir"
+msgstr ""
 
 msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ins Line"
-msgstr "Loidhne a-staigh"
+msgstr ""
 
 msgid "Installing updates..."
-msgstr "A' stàladh ùrachaidhean..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "An iuchair falamh"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "Shoirbhich leis an iuchair {}!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
-msgstr "KhalidArtbold cunbhalach"
+msgstr ""
 
 msgid "LightGray"
-msgstr "Solas Liath"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "Uaine Aoil"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "Luchdaich a-nuas o /tmp/{}key.txt"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "Tha togail ionadail ({}) nas ùire na togail an fhrithealaiche ({})."
+msgstr ""
 
 msgid "Location code"
-msgstr "Còd àite"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "Toradh rannsachaidh àite MSN"
+msgstr ""
 
 msgid "MV Boli"
 msgstr ""
 
 msgid "Magenta"
-msgstr "Mageanta"
+msgstr ""
 
 msgid "Mint"
-msgstr "Miontas"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "Chan eil solaraiche gnìomhach air a chomasachadh"
+msgstr ""
 
 msgid "OFF"
-msgstr "AIRSON"
+msgstr ""
 
 msgid "OK"
-msgstr "ceart gu leòr"
+msgstr ""
 
 msgid "OMDB Only"
-msgstr "OMDB a-mhàin"
+msgstr ""
 
 msgid "ON"
-msgstr "AIRSON"
+msgstr ""
 
 msgid "Off"
-msgstr "dheth"
+msgstr ""
 
 msgid "Orange"
-msgstr "Orains"
+msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "Iuchrach API pearsanta airson {}"
+msgstr ""
 
 msgid "Pink"
-msgstr "pinc"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "Feuch an cuir thu a-steach ainm baile-mòr dligheach."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "Feuch an cuir thu a-steach còd àite dligheach airson a’ bhaile."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "Mearachd luchdaich sìos postair: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "Purpaidh"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Dìreach sguab às an inntrigeadh WeatherPlugin seo?"
+msgstr ""
 
 msgid "Red"
-msgstr "Dearg"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "Thoir air falbh a h-uile png (postair - cùl-raon) (OK)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "Ath-thòiseachadh GUI a-nis?"
+msgstr ""
 
 msgid "Save"
-msgstr "Sàbhail"
+msgstr ""
 
 msgid "Search Code"
-msgstr "Còd-rannsachaidh"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "Dàrna Infobar_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "Dàrna Infobar_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "An dàrna Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr "Stoidhle SecondInfobar:"
+msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "Aimsir SecondInfobar:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Solais UI Segoe"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "Tagh do chruth-clò:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "Suidhich an ùine againn - mionaid airson luchdachadh sìos Cùl-fhiosrachadh"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "Suidhich an ùine againn - mionaid airson luchdachadh sìos Postair"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "Roghainnean frithealaiche Apikey"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Suidhich Aglare Skin Info"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "Seall ìomhaighean a’ riochdachadh gnè gach tachartais (m.e., gnìomh, comadaidh, dràma)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Seall ìomhaighean treòrachaidh phàrantan mu thachartasan gus ìre susbaint agus freagarrachd aois a chomharrachadh."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "Seall postair bhon fhilm sa phasgan ionadail"
+msgstr ""
 
 msgid "Sienna"
-msgstr "Sìne"
+msgstr ""
 
 msgid "Skin Style:"
-msgstr "Stoidhle Craicinn:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "Sneachda Geal"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "Tòisich a 'luchdachadh sìos cùl-raon sa bhad"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "Tòisich a 'luchdachadh sìos postair sa bhad"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "Stàilinn Gorm"
+msgstr ""
 
 msgid "Style2"
-msgstr "Stoidhle2"
+msgstr ""
 
 msgid "Style3"
-msgstr "Stoidhle3"
+msgstr ""
 
 msgid "Style4"
-msgstr "Stoidhle4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
-msgstr "Cuir taic ri craiceann E2iplayer:"
+msgstr ""
 
 msgid "System"
-msgstr "Siostam"
+msgstr ""
 
 msgid "TMDB Only"
-msgstr "TMDB a-mhàin"
+msgstr ""
 
 msgid "Teal"
-msgstr "Teallach"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "Tha am faidhle %s falamh."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "Cha deach am faidhle %s a lorg."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "Tha an gnìomhachd seo a’ comasachadh rionnagan rangachadh airson tachartasan a thaisbeanadh, stèidhichte air an stòr rangachadh taghte."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "Bheir an gnìomh seo air falbh a h-uile png bho inneal pasgan (Cùl-taic Postair)"
+msgstr ""
 
 msgid "Tomato"
 msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Ùraich URL nach deach a thòiseachadh fosgail am plugan aon uair bhon chlàr Plugins an toiseach."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "Dh'fhàillig an t-seic ùrachadh: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "Cha deach pasgan ùrachaidh a lorg!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "Stoidhle Bar Volume:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: Deasaich Inntrigeadh"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: Liosta inntrigidhean"
+msgstr ""
 
 msgid "White"
-msgstr "Geal"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "Uaine buidhe"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "Tha an tionndadh as ùire ({}) agad mu thràth."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "Feumaidh tu ainm baile-mòr dligheach a chuir a-steach mus urrainn dhut còd an àite a lorg."
+msgstr ""
 
 msgid "imperial system"
-msgstr "siostam ìmpireil"
+msgstr ""
 
 msgid "metric system"
-msgstr "siostam meatrach"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "cluich / seall Faidhlichean"
+msgstr ""
 
 msgid "volume2"
-msgstr "tomhas-lìonaidh2"
+msgstr ""

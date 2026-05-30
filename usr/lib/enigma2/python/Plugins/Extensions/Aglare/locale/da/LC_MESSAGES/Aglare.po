@@ -11,88 +11,88 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "%s key imported!"
-msgstr "%s nøgle importeret!"
+msgstr ""
 
 msgid "1 poster"
-msgstr "1 plakat"
+msgstr ""
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr "Aktiver/deaktiver ELCINEMA"
+msgstr ""
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr "Aktiver/deaktiver GOOGLE"
+msgstr ""
 
 msgid "Activate/Deactivate IMDB"
-msgstr "Aktiver/deaktiver IMDB"
+msgstr ""
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr "Aktiver/deaktiver MOLOTOV"
+msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Aktiver/deaktiver PROGRAMMETV"
+msgstr ""
 
 msgid "Activate/Deactivate {}"
-msgstr "Aktiver/deaktiver {}"
+msgstr ""
 
 msgid "Add"
-msgstr "Tilføje"
+msgstr ""
 
 msgid "All png are removed from folder!"
-msgstr "Al png er fjernet fra mappen!"
+msgstr ""
 
 msgid "Automatic"
-msgstr "Automatisk"
+msgstr ""
 
 msgid "Automatic download of backdrop"
-msgstr "Automatisk download af baggrund"
+msgstr ""
 
 msgid "Automatic download of poster"
-msgstr "Automatisk download af plakat"
+msgstr ""
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Hent automatisk baggrund for yndlingsbegivenheder baseret på EPG"
+msgstr ""
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "Hent automatisk plakater til yndlingsbegivenheder baseret på EPG"
+msgstr ""
 
 msgid "Back"
-msgstr "Tilbage"
+msgstr ""
 
 msgid "Backdrop"
-msgstr "Bagtæppe"
+msgstr ""
 
 msgid "Backdrop download error: {}"
-msgstr "Fejl ved download af baggrundsskærm: {}"
+msgstr ""
 
 msgid "BebasNeue"
-msgstr "GratisNeue"
+msgstr ""
 
 msgid "Black"
-msgstr "Sort"
+msgstr ""
 
 msgid "Blue"
-msgstr "Blå"
+msgstr ""
 
 msgid "Brown"
-msgstr "Brun"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Ophæve"
+msgstr ""
 
 msgid "Channel Description Color:"
-msgstr "Kanalbeskrivelse Farve:"
+msgstr ""
 
 msgid "Channel Foreground Color:"
-msgstr "Kanalens forgrundsfarve:"
+msgstr ""
 
 msgid "Channel Selected Description Color:"
-msgstr "Kanal valgt Beskrivelse Farve:"
+msgstr ""
 
 msgid "Channel Selected Foreground Color:"
-msgstr "Kanalvalgt forgrundsfarve:"
+msgstr ""
 
 msgid "ChannelSelection Style:"
-msgstr "Kanalvalgsstil:"
+msgstr ""
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -134,103 +134,103 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "City"
-msgstr "By"
+msgstr ""
 
 msgid "Color Style:"
-msgstr "Farvestil:"
+msgstr ""
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "Konfigurer forsinkelsestiden (i minutter), før du starter den automatiske plakatdownload"
+msgstr ""
 
 msgid "Crimson"
 msgstr ""
 
 msgid "Customization tool for %s Skin"
-msgstr "Tilpasningsværktøj til %s hud"
+msgstr ""
 
 msgid "Dark Green"
-msgstr "Mørkegrøn"
+msgstr ""
 
 msgid "Default"
-msgstr "Misligholdelse"
+msgstr ""
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr "Slet"
+msgstr ""
 
 msgid "Download error: {}"
-msgstr "Downloadfejl: {}"
+msgstr ""
 
 msgid "Download in progress"
-msgstr "Download i gang"
+msgstr ""
 
 msgid "Download now backdrop"
-msgstr "Download nu baggrund"
+msgstr ""
 
 msgid "Download now poster"
-msgstr "Download plakat nu"
+msgstr ""
 
 msgid "Downloading Aglare..."
-msgstr "Downloader Aglare..."
+msgstr ""
 
 msgid "Edit"
-msgstr "Redigere"
+msgstr ""
 
 msgid "Enable Display Genre icons:"
-msgstr "Aktiver Display Genre-ikoner:"
+msgstr ""
 
 msgid "Enable Display InfoEvents:"
-msgstr "Aktiver Display InfoEvents:"
+msgstr ""
 
 msgid "Enable Display XMC Poster:"
-msgstr "Aktiver Display XMC-plakat:"
+msgstr ""
 
 msgid "Enable Parental Icons:"
-msgstr "Aktiver forældreikoner:"
+msgstr ""
 
 msgid "Enable Rating Star:"
-msgstr "Aktiver Rating Star:"
+msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Aktiver eller deaktiver caching under download af hændelser for at fremskynde gentagne søgninger."
+msgstr ""
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "Aktiver visning af udvidede begivenhedsoplysninger, herunder fuld rollebesætning, besætning, plotdetaljer og andre metadata, i info-widgetten."
+msgstr ""
 
 msgid "Error downloading files!"
-msgstr "Fejl ved download af filer!"
+msgstr ""
 
 msgid "Error loading: {}"
-msgstr "Fejl ved indlæsning: {}"
+msgstr ""
 
 msgid "Error {0}: {1}"
-msgstr "Fejl {0}: {1}"
+msgstr ""
 
 msgid "Error: {}"
-msgstr "Fejl: {}"
+msgstr ""
 
 msgid "EventView Style:"
-msgstr "EventView-stil:"
+msgstr ""
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_Plakater"
+msgstr ""
 
 msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Exit"
-msgstr "Udgang"
+msgstr ""
 
 msgid "File Commander - Addon"
 msgstr ""
 
 msgid "File {} not found or empty"
-msgstr "Filen {} ikke fundet eller tom"
+msgstr ""
 
 msgid "Green"
-msgstr "Grøn"
+msgstr ""
 
 msgid "Greta"
 msgstr ""
@@ -239,13 +239,13 @@ msgid "HandelGotD"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
-msgstr "Vil du importere nøglen {0} fra {1}?"
+msgstr ""
 
 msgid "Info..."
 msgstr ""
 
 msgid "InfoBar Date:"
-msgstr "InfoBar Dato:"
+msgstr ""
 
 msgid "InfoBar ECM:"
 msgstr ""
@@ -254,16 +254,16 @@ msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr "InfoBar stil:"
+msgstr ""
 
 msgid "InfoBar Weather:"
-msgstr "InfoBar Vejret:"
+msgstr ""
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar_Date"
-msgstr "Infobar_Dato"
+msgstr ""
 
 msgid "Infobar_MSNWeather"
 msgstr ""
@@ -275,40 +275,40 @@ msgid "Infobar_NO_Weather"
 msgstr ""
 
 msgid "Infobar_OAWeather"
-msgstr "Infobar_OAVejr"
+msgstr ""
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Installing updates..."
-msgstr "Installerer opdateringer..."
+msgstr ""
 
 msgid "Key empty"
-msgstr "Nøglen er tom"
+msgstr ""
 
 msgid "Key {} successfully loaded!"
-msgstr "Nøglen {} blev indlæst!"
+msgstr ""
 
 msgid "KhalidArtboldRegular"
 msgstr ""
 
 msgid "LightGray"
-msgstr "Lysegrå"
+msgstr ""
 
 msgid "LimeGreen"
-msgstr "Limegrøn"
+msgstr ""
 
 msgid "Load from /tmp/{}key.txt"
-msgstr "Indlæs fra /tmp/{}key.txt"
+msgstr ""
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr "Lokal build ({}) er nyere end serverbuild ({})."
+msgstr ""
 
 msgid "Location code"
-msgstr "Lokationskode"
+msgstr ""
 
 msgid "MSN location search result"
-msgstr "MSN placering søgeresultat"
+msgstr ""
 
 msgid "MV Boli"
 msgstr ""
@@ -317,73 +317,73 @@ msgid "Magenta"
 msgstr ""
 
 msgid "Mint"
-msgstr "Mynte"
+msgstr ""
 
 msgid "No active providers enabled"
-msgstr "Ingen aktive udbydere aktiveret"
+msgstr ""
 
 msgid "OFF"
-msgstr "SLUKKET"
+msgstr ""
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr "Kun OMDB"
+msgstr ""
 
 msgid "ON"
-msgstr "PÅ"
+msgstr ""
 
 msgid "Off"
-msgstr "Slukket"
+msgstr ""
 
 msgid "Orange"
 msgstr ""
 
 msgid "Personal API key for {}"
-msgstr "Personlig API-nøgle for {}"
+msgstr ""
 
 msgid "Pink"
-msgstr "Lyserød"
+msgstr ""
 
 msgid "Please enter a valid city name."
-msgstr "Indtast venligst et gyldigt bynavn."
+msgstr ""
 
 msgid "Please enter a valid location code for the city."
-msgstr "Indtast venligst en gyldig lokationskode for byen."
+msgstr ""
 
 msgid "Poster download error: {}"
-msgstr "Fejl ved download af plakat: {}"
+msgstr ""
 
 msgid "Purple"
-msgstr "Lilla"
+msgstr ""
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Vil du virkelig slette denne WeatherPlugin-indgang?"
+msgstr ""
 
 msgid "Red"
-msgstr "Rød"
+msgstr ""
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "Fjern al png (plakat - baggrund) (OK)"
+msgstr ""
 
 msgid "Restart GUI now?"
-msgstr "Genstart GUI nu?"
+msgstr ""
 
 msgid "Save"
-msgstr "Spare"
+msgstr ""
 
 msgid "Search Code"
-msgstr "Søg kode"
+msgstr ""
 
 msgid "Second Infobar_MSNWeather"
-msgstr "Anden Infobar_MSNWeather"
+msgstr ""
 
 msgid "Second Infobar_NO_Weather"
-msgstr "Anden Infobar_NO_Weather"
+msgstr ""
 
 msgid "Second Infobar_OAWeather"
-msgstr "Anden Infobar_OAWeather"
+msgstr ""
 
 msgid "SecondInfobar Posterx:"
 msgstr ""
@@ -392,64 +392,64 @@ msgid "SecondInfobar Style:"
 msgstr ""
 
 msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar Vejr:"
+msgstr ""
 
 msgid "SecondInfobar Xtraevent:"
 msgstr ""
 
 msgid "Segoe UI light"
-msgstr "Segoe UI lys"
+msgstr ""
 
 msgid "Select Your Font:"
-msgstr "Vælg din skrifttype:"
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "Indstil tid vores - minut for download af baggrund"
+msgstr ""
 
 msgid "Set Time our - minute for Poster download"
-msgstr "Indstil tid vores - minut for plakat download"
+msgstr ""
 
 msgid "Settings Apikey Server"
-msgstr "Indstillinger Apikey Server"
+msgstr ""
 
 msgid "Setup Aglare Skin Info"
-msgstr "Opsætning af Aglare Skin Info"
+msgstr ""
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "Vis ikoner, der repræsenterer genren for hver begivenhed (f.eks. action, komedie, drama)"
+msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Vis forældrevejledningsikoner på begivenheder for at angive indholdsklassificering og aldersegnethed."
+msgstr ""
 
 msgid "Show poster from movie in local folder"
-msgstr "Vis plakat fra film i lokal mappe"
+msgstr ""
 
 msgid "Sienna"
 msgstr ""
 
 msgid "Skin Style:"
-msgstr "Hudstil:"
+msgstr ""
 
 msgid "SnowWhite"
-msgstr "Snehvide"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
-msgstr "Begynd at downloade baggrund med det samme"
+msgstr ""
 
 msgid "Start downloading poster immediately"
-msgstr "Begynd at downloade plakaten med det samme"
+msgstr ""
 
 msgid "SteelBlue"
-msgstr "Stålblå"
+msgstr ""
 
 msgid "Style2"
-msgstr "Stil2"
+msgstr ""
 
 msgid "Style3"
-msgstr "Stil3"
+msgstr ""
 
 msgid "Style4"
-msgstr "Stil4"
+msgstr ""
 
 msgid "Support E2iplayer Skins:"
 msgstr ""
@@ -458,64 +458,64 @@ msgid "System"
 msgstr ""
 
 msgid "TMDB Only"
-msgstr "Kun TMDB"
+msgstr ""
 
 msgid "Teal"
-msgstr "Blågrøn"
+msgstr ""
 
 msgid "The file %s is empty."
-msgstr "Filen %s er tom."
+msgstr ""
 
 msgid "The file %s was not found."
-msgstr "Filen %s blev ikke fundet."
+msgstr ""
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "Denne handling aktiverer visning af klassificeringsstjerner for begivenheder baseret på den valgte vurderingskilde."
+msgstr ""
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "Denne handling fjerner al png fra mappeenhed (Poster-Backdrop)"
+msgstr ""
 
 msgid "Tomato"
-msgstr "Tomat"
+msgstr ""
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Opdater URL ikke initialiseret, åbn plugin'et én gang fra Plugins-menuen først."
+msgstr ""
 
 msgid "Update check failed: {}"
-msgstr "Opdateringstjek mislykkedes: {}"
+msgstr ""
 
 msgid "Update package not found!"
-msgstr "Opdateringspakken blev ikke fundet!"
+msgstr ""
 
 msgid "VolumeBar Style:"
-msgstr "VolumeBar stil:"
+msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: Rediger indtastning"
+msgstr ""
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: Liste over poster"
+msgstr ""
 
 msgid "White"
-msgstr "Hvid"
+msgstr ""
 
 msgid "YellowGreen"
-msgstr "Gulgrøn"
+msgstr ""
 
 msgid "You already have the latest version ({})."
-msgstr "Du har allerede den seneste version ({})."
+msgstr ""
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "Du skal indtaste et gyldigt bynavn, før du kan søge efter lokationskoden."
+msgstr ""
 
 msgid "imperial system"
-msgstr "imperialistisk system"
+msgstr ""
 
 msgid "metric system"
-msgstr "metrisk system"
+msgstr ""
 
 msgid "play/show Files"
-msgstr "afspil/vis filer"
+msgstr ""
 
 msgid "volume2"
-msgstr "bind 2"
+msgstr ""
