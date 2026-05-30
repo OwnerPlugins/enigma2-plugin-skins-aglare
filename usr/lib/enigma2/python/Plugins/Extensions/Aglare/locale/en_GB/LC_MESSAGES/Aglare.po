@@ -477,6 +477,7 @@ msgstr ""
 msgid "Tomato"
 msgstr ""
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "Update URL not initialised open the plugin once from the Plugins menu first."
 

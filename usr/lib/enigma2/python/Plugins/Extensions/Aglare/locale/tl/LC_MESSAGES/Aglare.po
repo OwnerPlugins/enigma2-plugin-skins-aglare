@@ -162,6 +162,7 @@ msgstr "Tanggalin"
 msgid "Download error: {}"
 msgstr "Error sa pag-download: {}"
 
+#, fuzzy
 msgid "Download in progress"
 msgstr "Kasalukuyang i-download"
 
@@ -477,6 +478,7 @@ msgstr "Ang operasyong ito ay nag-aalis ng lahat ng png mula sa folder na device
 msgid "Tomato"
 msgstr "Kamatis"
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "I-update ang URL na hindi nasimulan buksan muna ang plugin mula sa menu ng Mga Plugin."
 
