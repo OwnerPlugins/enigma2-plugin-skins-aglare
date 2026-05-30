@@ -108,7 +108,8 @@ class AglareNextEpgInfo2(Renderer, VariableText):
                 self.labelcolor = self.hex2strColor(parseColor(value).argb())
                 attribs.append((attrib, value))
             if attrib == 'foregroundColor':
-                self.foregroundColor = self.hex2strColor(parseColor(value).argb())
+                self.foregroundColor = self.hex2strColor(
+                    parseColor(value).argb())
                 attribs.append((attrib, value))
         for attrib, value in attribs:
             self.skinAttributes.remove((attrib, value))

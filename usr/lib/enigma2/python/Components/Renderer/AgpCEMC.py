@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
+## __author__ = "Lululla"         ##
+## __copyright__ = "AGP Team"     ##
+## __created_by__ = "MNASR"       ##
 ###################################
 from __future__ import absolute_import, print_function
 
@@ -164,7 +164,9 @@ class AgpCEMC(Renderer):
 
     def _load_or_retry(self):
         try:
-            if not exists(self.current_json) or getsize(self.current_json) <= 0:
+            if not exists(
+                    self.current_json) or getsize(
+                    self.current_json) <= 0:
                 self._retry_later()
                 return
 
@@ -190,12 +192,19 @@ class AgpCEMC(Renderer):
 
             self.current_image = join(self.cast_path, "%s.jpg" % safe_actor)
 
-            if exists(self.current_image) and getsize(self.current_image) > 1000:
+            if exists(
+                    self.current_image) and getsize(
+                    self.current_image) > 1000:
                 self._show_image(self.current_image)
                 return
 
             image_url = "https://image.tmdb.org/t/p/w185%s" % profile_path
-            Thread(target=self._download_image, args=(image_url, self.current_image), daemon=True).start()
+            Thread(
+                target=self._download_image,
+                args=(
+                    image_url,
+                    self.current_image),
+                daemon=True).start()
 
         except Exception as e:
             logger.error("AgpCEMC load error: {}".format(str(e)))

@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
+## __author__ = "Lululla"         ##
+## __copyright__ = "AGP Team"     ##
+## __created_by__ = "MNASR"       ##
 ###################################
 from __future__ import absolute_import, print_function
 from json import load as json_load
@@ -176,16 +176,21 @@ class AgpParentalEMC(Renderer):
                 return value
 
         # 2) TMDB movie release_dates
-        release_dates = (((data.get("release_dates") or {}).get("results")) or [])
+        release_dates = (
+            ((data.get("release_dates") or {}).get("results")) or [])
         for entry in release_dates:
             if entry.get("iso_3166_1") == "US":
                 for rd in entry.get("release_dates", []):
-                    cert = str(rd.get("certification", "") or "").strip().upper()
+                    cert = str(
+                        rd.get(
+                            "certification",
+                            "") or "").strip().upper()
                     if cert:
                         return cert
 
         # 3) TMDB tv content_ratings
-        content_ratings = (((data.get("content_ratings") or {}).get("results")) or [])
+        content_ratings = (
+            ((data.get("content_ratings") or {}).get("results")) or [])
         for entry in content_ratings:
             if entry.get("iso_3166_1") == "US":
                 cert = str(entry.get("rating", "") or "").strip().upper()
@@ -211,5 +216,7 @@ class AgpParentalEMC(Renderer):
                 self.instance.hide()
 
         except Exception as e:
-            logger.error("AgpParentalEMC process_data error: {}".format(str(e)))
+            logger.error(
+                "AgpParentalEMC process_data error: {}".format(
+                    str(e)))
             self.instance.hide()

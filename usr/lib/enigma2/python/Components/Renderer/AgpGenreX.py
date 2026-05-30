@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__modified_by__ = "MNASR"      ##
+## __author__ = "Lululla"         ##
+## __copyright__ = "AGP Team"     ##
+## __modified_by__ = "MNASR"      ##
 ###################################
 from __future__ import absolute_import, print_function
 
@@ -25,6 +25,7 @@ if not IMOVIE_FOLDER.endswith("/"):
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+
 class AgpGenreX(Renderer, VariableText):
     GUI_WIDGET = eLabel
 
@@ -39,7 +40,8 @@ class AgpGenreX(Renderer, VariableText):
 
     def get_search_title(self, title, shortdesc="", fulldesc=""):
         try:
-            result = build_search_title(title or "", shortdesc or "", fulldesc or "")
+            result = build_search_title(
+                title or "", shortdesc or "", fulldesc or "")
             return smart_capitalize_title(result)
         except Exception:
             return smart_capitalize_title(clean_search_title(title or ""))
@@ -71,9 +73,9 @@ class AgpGenreX(Renderer, VariableText):
 
         skip_title, skip_word = should_skip_title(event_name)
         if skip_title:
-            logger.info("AgpGenreX skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}'".format(
-                ev_name, event_name, skip_word
-            ))
+            logger.info(
+                "AgpGenreX skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}'".format(
+                    ev_name, event_name, skip_word))
             self.text = ""
             self.instance.hide()
             return
@@ -92,18 +94,27 @@ class AgpGenreX(Renderer, VariableText):
 
                     genres = json_data.get("genres", [])
                     if genres:
-                        names = [g.get("name", "").strip() for g in genres if g.get("name", "").strip()]
+                        names = [
+                            g.get(
+                                "name",
+                                "").strip() for g in genres if g.get(
+                                "name",
+                                "").strip()]
                         if names:
                             genres_text = "Genre : " + " • ".join(names)
-                            logger.info("AgpGenreX genres extracted | title='{}' | genres='{}'".format(
-                                event_name, genres_text
-                            ))
+                            logger.info(
+                                "AgpGenreX genres extracted | title='{}' | genres='{}'".format(
+                                    event_name, genres_text))
                     else:
-                        logger.info("AgpGenreX JSON file has no genres data: {}".format(infos_file))
+                        logger.info(
+                            "AgpGenreX JSON file has no genres data: {}".format(infos_file))
                 else:
-                    logger.info("AgpGenreX JSON file is empty (0 bytes): {}".format(infos_file))
+                    logger.info(
+                        "AgpGenreX JSON file is empty (0 bytes): {}".format(infos_file))
             except Exception as e:
-                logger.warning("AgpGenreX invalid JSON | file='{}' | error='{}'".format(infos_file, str(e)))
+                logger.warning(
+                    "AgpGenreX invalid JSON | file='{}' | error='{}'".format(
+                        infos_file, str(e)))
 
         if not genres_text:
             self.text = ""

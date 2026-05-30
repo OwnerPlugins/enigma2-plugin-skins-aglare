@@ -51,7 +51,9 @@ class AglDownloadThread(Thread):
         self._stop_event = threading.Event()
         self.search_year = ""
         if config.plugins.Aglare.cache.value:
-            self.search_tmdb_logo = lru_cache(maxsize=250)(self.search_tmdb_logo)
+            self.search_tmdb_logo = lru_cache(
+                maxsize=250)(
+                self.search_tmdb_logo)
 
     def _normalize_match_title(self, value):
         value = str(value or "").lower().strip()
@@ -92,7 +94,13 @@ class AglDownloadThread(Thread):
 
         return result
 
-    def _select_best_tmdb_result(self, results, title_safe, shortdesc="", fulldesc="", year=None):
+    def _select_best_tmdb_result(
+            self,
+            results,
+            title_safe,
+            shortdesc="",
+            fulldesc="",
+            year=None):
         target = self._normalize_match_title(title_safe)
         srch, _fd = self.checkType(shortdesc, fulldesc)
 
@@ -100,7 +108,9 @@ class AglDownloadThread(Thread):
 
         for each in results:
             title = each.get('name', each.get('title', ''))
-            original_title = each.get('original_name', each.get('original_title', ''))
+            original_title = each.get(
+                'original_name', each.get(
+                    'original_title', ''))
             media_type = str(each.get('media_type', '')).lower()
 
             if not media_type:
@@ -118,7 +128,10 @@ class AglDownloadThread(Thread):
 
             title_n = self._normalize_match_title(title)
             orig_n = self._normalize_match_title(original_title)
-            result_year = each.get('release_date', each.get('first_air_date', ''))[:4]
+            result_year = each.get(
+                'release_date', each.get(
+                    'first_air_date', ''))[
+                :4]
 
             score = 0
 
@@ -166,7 +179,11 @@ class AglDownloadThread(Thread):
             return None, -1
 
         if year:
-            exact_year = [(each, score) for each, score, result_year in candidates if str(result_year) == str(year)]
+            exact_year = [
+                (each,
+                 score) for each,
+                score,
+                result_year in candidates if str(result_year) == str(year)]
             if exact_year:
                 exact_year.sort(key=lambda x: x[1], reverse=True)
                 return exact_year[0][0], exact_year[0][1]
@@ -211,7 +228,15 @@ class AglDownloadThread(Thread):
 
         return best, best_score
 
-    def search_tmdb_logo(self, dwn_logo, title, shortdesc, fulldesc, year=None, channel=None, api_key=None):
+    def search_tmdb_logo(
+            self,
+            dwn_logo,
+            title,
+            shortdesc,
+            fulldesc,
+            year=None,
+            channel=None,
+            api_key=None):
         def _strip_year_for_search(t):
             t = str(t).strip()
             t = sub(r"\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*", " ", t)
@@ -226,14 +251,19 @@ class AglDownloadThread(Thread):
             if not dwn_logo or not title:
                 return False, "Invalid input parameters"
 
-            clean_input_title = title.replace("+", " ").replace('–', '').strip()
+            clean_input_title = title.replace(
+                "+", " ").replace('–', '').strip()
             # logger.info("[tmdb-logo] year flow | step='clean_input_title' | value='{}'".format(str(clean_input_title or "")))
 
             forced_year = ""
             split_title = clean_input_title
             try:
-                split_title, forced_year = split_title_and_year(clean_input_title)
-                # logger.info("[tmdb-logo] year flow | step='split_title_and_year' | split_title='{}' | forced_year='{}'".format(str(split_title or ""), str(forced_year or "")year flow))
+                split_title, forced_year = split_title_and_year(
+                    clean_input_title)
+                # logger.info("[tmdb-logo] year flow |
+                # step='split_title_and_year' | split_title='{}' |
+                # forced_year='{}'".format(str(split_title or ""),
+                # str(forced_year or "")year flow))
             except Exception as e:
                 print(str(e))
                 # logger.info("[tmdb-logo] year flow | step='split_title_and_year_error' | error='{}'".format(str(e)))
@@ -251,10 +281,7 @@ class AglDownloadThread(Thread):
             search_language = self._get_tmdb_search_language(local_title_safe)
 
             logger.info("[tmdb-logo] language flow | title='{}' | language='{}' | srch='{}'".format(
-                str(local_title_safe or ""),
-                str(search_language or ""),
-                str(srch or "")
-            ))
+                str(local_title_safe or ""), str(search_language or ""), str(srch or "")))
             desc_year = ""
             if not year:
                 year = self._extract_year(fd)
@@ -266,32 +293,37 @@ class AglDownloadThread(Thread):
                 year = forced_year
                 # logger.info("[tmdb-logo] year flow | step='apply_forced_year' | applied_year='{}'".format(str(year or "")))
             else:
-                logger.info("[tmdb-logo] year flow | step='skip_forced_year' | forced_year='{}' | final_year_before_search='{}'".format(str(forced_year or ""), str(year or "")))
+                logger.info("[tmdb-logo] year flow | step='skip_forced_year' | forced_year='{}' | final_year_before_search='{}'".format(
+                    str(forced_year or ""), str(year or "")))
 
             local_search_year = year or ""
             # logger.info("[tmdb-logo] year flow | step='final_search_parts' | title_safe='{}' | search_year='{}'".format(str(local_title_safe or ""), str(local_search_year or "")))
 
             request_url = "https://api.themoviedb.org/3/search/{}?api_key={}&language={}&query={}".format(
-                srch,
-                tmdb_api_key,
-                search_language,
-                quoteEventName(local_title_safe)
-            )
+                srch, tmdb_api_key, search_language, quoteEventName(local_title_safe))
             if year and srch in ("movie", "multi"):
                 request_url += "&year={}".format(year)
 
             logger.info("[tmdb-logo] title flow | original='{}' | final='{}' | year='{}' | channel='{}'".format(
-                str(title or ""), str(local_title_safe or ""), str(year or ""), str(channel or "")
-            ))
+                str(title or ""), str(local_title_safe or ""), str(year or ""), str(channel or "")))
             logger.info("[tmdb-logo] search link | url={}".format(request_url))
 
-            retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
+            retries = Retry(
+                total=3,
+                backoff_factor=1,
+                status_forcelist=[
+                    500,
+                    502,
+                    503,
+                    504])
             adapter = HTTPAdapter(max_retries=retries)
             http = Session()
             http.mount("http://", adapter)
             http.mount("https://", adapter)
 
-            response = http.get(request_url, headers=headers, timeout=(10, 20), verify=False)
+            response = http.get(
+                request_url, headers=headers, timeout=(
+                    10, 20), verify=False)
             response.raise_for_status()
             if response.status_code != codes.ok:
                 return False, "No results"
@@ -322,40 +354,46 @@ class AglDownloadThread(Thread):
             if not item_id:
                 return False, "Missing TMDB id"
 
-            preferred_langs = self._build_logo_language_list(clean_input_title, srch)
+            preferred_langs = self._build_logo_language_list(
+                clean_input_title, srch)
 
             # First try: filtered by preferred languages
             images_url = "https://api.themoviedb.org/3/{}/{}/images?api_key={}&include_image_language={}".format(
-                media_type, item_id, tmdb_api_key, ",".join(preferred_langs)
-            )
+                media_type, item_id, tmdb_api_key, ",".join(preferred_langs))
             logger.info("[tmdb-logo] images link | url={}".format(images_url))
 
-            img_response = http.get(images_url, headers=headers, timeout=(10, 20), verify=False)
+            img_response = http.get(
+                images_url, headers=headers, timeout=(
+                    10, 20), verify=False)
             img_response.raise_for_status()
             images_data = img_response.json()
             logos = images_data.get("logos", [])
 
             if not logos:
-                logger.warning("[tmdb-logo] no logos with language filter | langs='{}' | retrying without language filter".format(
-                    ",".join(preferred_langs)
-                ))
+                logger.warning(
+                    "[tmdb-logo] no logos with language filter | langs='{}' | retrying without language filter".format(
+                        ",".join(preferred_langs)))
 
                 # Second try: no language filter at all
                 fallback_images_url = "https://api.themoviedb.org/3/{}/{}/images?api_key={}&include_image_language=".format(
-                    media_type, item_id, tmdb_api_key
-                )
-                logger.info("[tmdb-logo] fallback images link | url={}".format(fallback_images_url))
+                    media_type, item_id, tmdb_api_key)
+                logger.info(
+                    "[tmdb-logo] fallback images link | url={}".format(fallback_images_url))
 
-                fallback_response = http.get(fallback_images_url, headers=headers, timeout=(10, 20), verify=False)
+                fallback_response = http.get(
+                    fallback_images_url, headers=headers, timeout=(
+                        10, 20), verify=False)
                 fallback_response.raise_for_status()
                 fallback_images_data = fallback_response.json()
                 logos = fallback_images_data.get("logos", [])
 
             if not logos:
-                logger.warning("[tmdb-logo] no logos found even after fallback")
+                logger.warning(
+                    "[tmdb-logo] no logos found even after fallback")
                 return False, "No logos found"
 
-            best_logo, logo_score = self._select_best_tmdb_logo(logos, preferred_langs)
+            best_logo, logo_score = self._select_best_tmdb_logo(
+                logos, preferred_langs)
             if not best_logo:
                 return False, "No valid logo"
 
@@ -392,12 +430,15 @@ class AglDownloadThread(Thread):
                 if folder and not exists(folder):
                     makedirs(folder, exist_ok=True)
             except Exception as e:
-                logger.error("Failed to create logo folder {}: {}".format(dirname(filepath), str(e)))
+                logger.error(
+                    "Failed to create logo folder {}: {}".format(
+                        dirname(filepath), str(e)))
                 return False
             if exists(filepath):
                 try:
                     with open(filepath, "rb") as f:
-                        if f.read(8) == b'\x89PNG\r\n\x1a\n' and getsize(filepath) > 100:
+                        if f.read(8) == b'\x89PNG\r\n\x1a\n' and getsize(
+                                filepath) > 100:
                             return True
                     remove(filepath)
                 except Exception:
@@ -411,17 +452,25 @@ class AglDownloadThread(Thread):
                         "Accept": "image/png,image/*",
                         "Accept-Encoding": "gzip"
                     }
-                    response = get(url, headers=logo_headers, stream=True, timeout=(15, 30))
+                    response = get(
+                        url,
+                        headers=logo_headers,
+                        stream=True,
+                        timeout=(
+                            15,
+                            30))
                     response.raise_for_status()
                     with open(filepath, "wb") as f:
                         for chunk in response.iter_content(chunk_size=8192):
                             if chunk:
                                 f.write(chunk)
                     with open(filepath, "rb") as f:
-                        if f.read(8) != b'\x89PNG\r\n\x1a\n' or getsize(filepath) < 100:
+                        if f.read(8) != b'\x89PNG\r\n\x1a\n' or getsize(
+                                filepath) < 100:
                             remove(filepath)
                             raise ValueError("Invalid PNG file")
-                    logger.debug("Successfully saved logo: {} -> {}".format(url, filepath))
+                    logger.debug(
+                        "Successfully saved logo: {} -> {}".format(url, filepath))
                     return True
                 except Exception as e:
                     if exists(filepath):
@@ -429,7 +478,9 @@ class AglDownloadThread(Thread):
                             remove(filepath)
                         except Exception:
                             pass
-                    logger.debug("Logo attempt {} failed: {}".format(attempt + 1, str(e)))
+                    logger.debug(
+                        "Logo attempt {} failed: {}".format(
+                            attempt + 1, str(e)))
                     sleep(2 * (attempt + 1))
             return False
 

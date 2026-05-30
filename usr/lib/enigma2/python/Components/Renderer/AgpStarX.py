@@ -86,7 +86,8 @@ class AgpStarX(VariableValue, Renderer):
 
     def get_search_title(self, title, shortdesc="", fulldesc=""):
         try:
-            result = build_search_title(title or "", shortdesc or "", fulldesc or "")
+            result = build_search_title(
+                title or "", shortdesc or "", fulldesc or "")
             return smart_capitalize_title(result)
         except Exception:
             return smart_capitalize_title(clean_search_title(title or ""))
@@ -95,7 +96,8 @@ class AgpStarX(VariableValue, Renderer):
         try:
             skin_value = config.skin.primary_skin.value
             skin_folder = str(skin_value).replace('/skin.xml', '').strip('/')
-            return "/usr/share/enigma2/{}/xtra/star_back.png".format(skin_folder)
+            return "/usr/share/enigma2/{}/xtra/star_back.png".format(
+                skin_folder)
         except Exception:
             return "/usr/share/enigma2/Aglare-FHD/xtra/star_back.png"
 
@@ -105,8 +107,10 @@ class AgpStarX(VariableValue, Renderer):
                 if str(self.pxmp).startswith("/"):
                     return self.pxmp
                 skin_value = config.skin.primary_skin.value
-                skin_folder = str(skin_value).replace('/skin.xml', '').strip('/')
-                return "/usr/share/enigma2/{}/{}".format(skin_folder, str(self.pxmp).lstrip("/"))
+                skin_folder = str(skin_value).replace(
+                    '/skin.xml', '').strip('/')
+                return "/usr/share/enigma2/{}/{}".format(
+                    skin_folder, str(self.pxmp).lstrip("/"))
         except Exception:
             pass
         try:
@@ -156,7 +160,9 @@ class AgpStarX(VariableValue, Renderer):
                     if not exists(self.storage_path):
                         makedirs(self.storage_path, exist_ok=True)
                 except Exception as e:
-                    logger.error("Failed to create star path {}: {}".format(self.storage_path, str(e)))
+                    logger.error(
+                        "Failed to create star path {}: {}".format(
+                            self.storage_path, str(e)))
             elif attrib == 'alphatest':
                 pass
             else:
@@ -221,7 +227,8 @@ class AgpStarX(VariableValue, Renderer):
                     service = NavigationInstance.instance.getCurrentlyPlayingServiceReference()
                 else:
                     if getattr(source, "event", None) is None:
-                        logger.info("AgpStarX infos: Event source has no event yet")
+                        logger.info(
+                            "AgpStarX infos: Event source has no event yet")
                         self._hide_star()
                         return
 
@@ -232,7 +239,8 @@ class AgpStarX(VariableValue, Renderer):
 
                     event_name = self._strip_control(event.getEventName())
                     if not event_name:
-                        logger.info("AgpStarX infos: Event source has empty event name")
+                        logger.info(
+                            "AgpStarX infos: Event source has empty event name")
                         self._hide_star()
                         return
 
@@ -245,14 +253,17 @@ class AgpStarX(VariableValue, Renderer):
 
             if service is not None:
                 service_str = service.toString()
-                events = self.epgcache.lookupEvent(['IBDCTESX', (service_str, 0, -1, -1)])
+                events = self.epgcache.lookupEvent(
+                    ['IBDCTESX', (service_str, 0, -1, -1)])
                 # logger.info("AgpStarX event list | nexts='{}' | events_count='{}'".format(str(self.nxts), str(len(events) if events else 0)))
                 if not events or len(events) <= self.nxts:
-                    logger.info("AgpStarX infos: no event at requested nexts='{}'".format(str(self.nxts)))
+                    logger.info(
+                        "AgpStarX infos: no event at requested nexts='{}'".format(str(self.nxts)))
                     self._hide_star()
                     return
 
-                service_name = ServiceReference(service).getServiceName().replace('\xc2\x86', '').replace('\xc2\x87', '')
+                service_name = ServiceReference(service).getServiceName().replace(
+                    '\xc2\x86', '').replace('\xc2\x87', '')
                 self.canal = [None] * 6
                 self.canal[0] = service_name
                 self.canal[1] = events[self.nxts][1]
@@ -273,18 +284,21 @@ class AgpStarX(VariableValue, Renderer):
             self.oldCanal = curCanal
             self.last_channel = self.canal[2]
             self._reset_star()
-            self.pending_title = self.get_search_title(self.canal[5], self.canal[4], self.canal[3])
+            self.pending_title = self.get_search_title(
+                self.canal[5], self.canal[4], self.canal[3])
 
             skip_title, skip_word = should_skip_title(self.pending_title)
             if skip_title:
-                logger.info("AgpStarX skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}'".format(
-                    self.canal[2], self.pending_title, skip_word
-                ))
+                logger.info(
+                    "AgpStarX skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}'".format(
+                        self.canal[2], self.pending_title, skip_word))
                 self._hide_star()
                 return
 
-            base = self.storage_path if str(self.storage_path).endswith("/") else str(self.storage_path) + "/"
-            self.pending_info_file = "{}{}.json".format(base, self.pending_title)
+            base = self.storage_path if str(self.storage_path).endswith(
+                "/") else str(self.storage_path) + "/"
+            self.pending_info_file = "{}{}.json".format(
+                base, self.pending_title)
             self.retry_count = 0
 
             # logger.info("AgpStarX prepared json lookup | original='{}' | final_search_title='{}' | file='{}' | nexts='{}'".format(self.canal[2], self.pending_title, self.pending_info_file, str(self.nxts)))
@@ -292,7 +306,9 @@ class AgpStarX(VariableValue, Renderer):
             self._start_json_retry()
 
         except Exception as e:
-            logger.error("AgpStarX infos error: {}".format(str(e)), exc_info=True)
+            logger.error(
+                "AgpStarX infos error: {}".format(
+                    str(e)), exc_info=True)
 
     def _start_json_retry(self):
         if self._json_timer.isActive():
@@ -305,7 +321,8 @@ class AgpStarX(VariableValue, Renderer):
                 logger.info("AgpStarX retry aborted: widget not ready")
                 return
 
-            current_title = self.canal[2] if self.canal and len(self.canal) > 2 else self.last_channel
+            current_title = self.canal[2] if self.canal and len(
+                self.canal) > 2 else self.last_channel
             if not current_title:
                 logger.info("AgpStarX retry waiting: no current title yet")
                 self.retry_count += 1
@@ -326,14 +343,18 @@ class AgpStarX(VariableValue, Renderer):
                     if getsize(info_file) > 0:
                         with open(info_file, "r") as f:
                             data = json_load(f)
-                        logger.info("AgpStarX loaded cached json | file='{}'".format(info_file))
+                        logger.info(
+                            "AgpStarX loaded cached json | file='{}'".format(info_file))
                         # logger.info("AgpStarX cached json keys | keys='{}'".format(",".join(sorted(list(data.keys())[:20]))))
                         self.process_data(data)
                         return
                     else:
-                        logger.info("AgpStarX JSON file is empty (0 bytes): {}".format(info_file))
+                        logger.info(
+                            "AgpStarX JSON file is empty (0 bytes): {}".format(info_file))
                 except Exception as e:
-                    logger.warning("AgpStarX invalid json, removing: {} | error={}".format(info_file, str(e)))
+                    logger.warning(
+                        "AgpStarX invalid json, removing: {} | error={}".format(
+                            info_file, str(e)))
                     try:
                         remove(info_file)
                     except Exception:
@@ -342,30 +363,36 @@ class AgpStarX(VariableValue, Renderer):
             self._hide_star()
             self.retry_count += 1
             if self.retry_count < self.max_retries:
-                logger.info("AgpStarX waiting for json | try='{}/{}' | file='{}'".format(
-                    self.retry_count, self.max_retries, info_file
-                ))
+                logger.info(
+                    "AgpStarX waiting for json | try='{}/{}' | file='{}'".format(
+                        self.retry_count, self.max_retries, info_file))
                 self._json_timer.start(self.retry_interval_ms, True)
             else:
-                logger.info("AgpStarX json not found after retries | file='{}'".format(info_file))
+                logger.info(
+                    "AgpStarX json not found after retries | file='{}'".format(info_file))
                 self._hide_star()
 
         except Exception as e:
-            logger.error("AgpStarX _retry_json_read error: {}".format(str(e)), exc_info=True)
+            logger.error(
+                "AgpStarX _retry_json_read error: {}".format(
+                    str(e)), exc_info=True)
             self._hide_star()
 
     def process_data(self, data):
         try:
             self._delayed_ui_update(data)
         except Exception as e:
-            logger.error("AgpStarX process_data error: {}".format(str(e)), exc_info=True)
+            logger.error(
+                "AgpStarX process_data error: {}".format(
+                    str(e)), exc_info=True)
 
     def _delayed_ui_update(self, data):
         try:
             if not self.instance or not self.star:
                 return
 
-            current_title = self.canal[2] if self.canal and len(self.canal) > 2 else self.last_channel
+            current_title = self.canal[2] if self.canal and len(
+                self.canal) > 2 else self.last_channel
             if not current_title or current_title != self.last_channel:
                 return
 
@@ -386,9 +413,9 @@ class AgpStarX(VariableValue, Renderer):
                 rtng = 0
 
             if rtng <= 0:
-                logger.info("AgpStarX no usable rating | title='{}' | file='{}'".format(
-                    self.pending_title, self.pending_info_file
-                ))
+                logger.info(
+                    "AgpStarX no usable rating | title='{}' | file='{}'".format(
+                        self.pending_title, self.pending_info_file))
                 self._hide_star()
                 return
 
@@ -405,7 +432,8 @@ class AgpStarX(VariableValue, Renderer):
                 self.star.resize(eSize(self.szX, self.szY))
 
                 # OpenViX eSlider may not implement setAlphatest().
-                # Do not fail the whole star widget because of this optional method.
+                # Do not fail the whole star widget because of this optional
+                # method.
                 if hasattr(self.star, "setAlphatest"):
                     try:
                         self.star.setAlphatest(2)
@@ -420,7 +448,9 @@ class AgpStarX(VariableValue, Renderer):
                 self.instance.show()
 
         except Exception as e:
-            logger.error("AgpStarX UI update skipped: {}".format(str(e)), exc_info=True)
+            logger.error(
+                "AgpStarX UI update skipped: {}".format(
+                    str(e)), exc_info=True)
 
     def postWidgetCreate(self, instance):
         if self.star is not None:

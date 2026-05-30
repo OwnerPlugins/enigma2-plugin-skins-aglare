@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__created_by__ = "MNASR"       ##
+## __created_by__ = "MNASR"       ##
 ###################################
 from __future__ import absolute_import, print_function
 
@@ -31,7 +31,11 @@ class AgpMediaInfo(Converter, object):
         self.type = "summary"
         self.separator = " • "
         self._parse_options(type)
-        self._log("INIT", "AgpMediaInfo initialized | type='{}' | sep='{}'".format(self.type, self.separator))
+        self._log(
+            "INIT",
+            "AgpMediaInfo initialized | type='{}' | sep='{}'".format(
+                self.type,
+                self.separator))
 
     def changed(self, what):
         Converter.changed(self, what)
@@ -94,7 +98,13 @@ class AgpMediaInfo(Converter, object):
     def _resolve_path(self):
         try:
             source = self.source
-            class_name = getattr(getattr(source, "__class__", None), "__name__", "unknown")
+            class_name = getattr(
+                getattr(
+                    source,
+                    "__class__",
+                    None),
+                "__name__",
+                "unknown")
             self._log("INFO", "source class='{}'".format(class_name))
 
             if class_name == "EMCServiceEvent":
@@ -107,19 +117,29 @@ class AgpMediaInfo(Converter, object):
             if class_name == "EMCCurrentService":
                 try:
                     playable = source.getCurrentService()
-                    self._log("INFO", "EMCCurrentService returned playable='{}'".format(bool(playable)))
+                    self._log(
+                        "INFO",
+                        "EMCCurrentService returned playable='{}'".format(
+                            bool(playable)))
                 except Exception as e:
                     playable = None
-                    self._log("ERROR", "EMCCurrentService getCurrentService failed: {}".format(str(e)))
+                    self._log(
+                        "ERROR",
+                        "EMCCurrentService getCurrentService failed: {}".format(
+                            str(e)))
 
                 try:
                     ref = NavigationInstance.instance.getCurrentlyPlayingServiceReference()
                     path = self._safe_get_path_from_ref(ref)
-                    self._log("INFO", "EMCCurrentService fallback ref path='{}'".format(path))
+                    self._log(
+                        "INFO", "EMCCurrentService fallback ref path='{}'".format(path))
                     if path:
                         return path
                 except Exception as e:
-                    self._log("ERROR", "EMCCurrentService fallback ref failed: {}".format(str(e)))
+                    self._log(
+                        "ERROR",
+                        "EMCCurrentService fallback ref failed: {}".format(
+                            str(e)))
 
             if isinstance(source, ServiceEvent):
                 try:
@@ -129,7 +149,10 @@ class AgpMediaInfo(Converter, object):
                     if path:
                         return path
                 except Exception as e:
-                    self._log("ERROR", "ServiceEvent path resolve failed: {}".format(str(e)))
+                    self._log(
+                        "ERROR",
+                        "ServiceEvent path resolve failed: {}".format(
+                            str(e)))
 
             if isinstance(source, CurrentService):
                 try:
@@ -139,7 +162,10 @@ class AgpMediaInfo(Converter, object):
                     if path:
                         return path
                 except Exception as e:
-                    self._log("ERROR", "CurrentService path resolve failed: {}".format(str(e)))
+                    self._log(
+                        "ERROR",
+                        "CurrentService path resolve failed: {}".format(
+                            str(e)))
 
             if isinstance(source, EventInfo):
                 try:
@@ -149,27 +175,38 @@ class AgpMediaInfo(Converter, object):
                     if path:
                         return path
                 except Exception as e:
-                    self._log("ERROR", "EventInfo path resolve failed: {}".format(str(e)))
+                    self._log(
+                        "ERROR",
+                        "EventInfo path resolve failed: {}".format(
+                            str(e)))
 
             try:
                 if hasattr(source, "service"):
                     ref = getattr(source, "service", None)
                     path = self._safe_get_path_from_ref(ref)
-                    self._log("INFO", "generic source.service path='{}'".format(path))
+                    self._log(
+                        "INFO", "generic source.service path='{}'".format(path))
                     if path:
                         return path
             except Exception as e:
-                self._log("ERROR", "generic source.service resolve failed: {}".format(str(e)))
+                self._log(
+                    "ERROR",
+                    "generic source.service resolve failed: {}".format(
+                        str(e)))
 
             try:
                 if hasattr(source, "getCurrentServiceRef"):
                     ref = source.getCurrentServiceRef()
                     path = self._safe_get_path_from_ref(ref)
-                    self._log("INFO", "generic getCurrentServiceRef path='{}'".format(path))
+                    self._log(
+                        "INFO", "generic getCurrentServiceRef path='{}'".format(path))
                     if path:
                         return path
             except Exception as e:
-                self._log("ERROR", "generic getCurrentServiceRef resolve failed: {}".format(str(e)))
+                self._log(
+                    "ERROR",
+                    "generic getCurrentServiceRef resolve failed: {}".format(
+                        str(e)))
 
             try:
                 ref = NavigationInstance.instance.getCurrentlyPlayingServiceReference()
@@ -178,7 +215,10 @@ class AgpMediaInfo(Converter, object):
                 if path:
                     return path
             except Exception as e:
-                self._log("ERROR", "final fallback resolve failed: {}".format(str(e)))
+                self._log(
+                    "ERROR",
+                    "final fallback resolve failed: {}".format(
+                        str(e)))
 
             self._log("INFO", "resolved path=''")
             return ""
@@ -191,7 +231,9 @@ class AgpMediaInfo(Converter, object):
         for base in ("/usr/bin", "/usr/local/bin", "/bin"):
             candidate = os.path.join(base, name)
             if os.path.exists(candidate) and os.access(candidate, os.X_OK):
-                self._log("INFO", "found binary {}='{}'".format(name, candidate))
+                self._log(
+                    "INFO", "found binary {}='{}'".format(
+                        name, candidate))
                 return candidate
         self._log("INFO", "binary not found '{}'".format(name))
         return None
@@ -199,7 +241,8 @@ class AgpMediaInfo(Converter, object):
     def _run(self, cmd):
         try:
             self._log("INFO", "run command='{}'".format(" ".join(cmd)))
-            proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            proc = subprocess.Popen(
+                cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             out, err = proc.communicate()
 
             if not isinstance(out, str):
@@ -207,7 +250,8 @@ class AgpMediaInfo(Converter, object):
             if not isinstance(err, str):
                 err = err.decode("utf-8", "ignore")
 
-            self._log("INFO", "command rc={} stderr='{}'".format(proc.returncode, err[:300]))
+            self._log("INFO", "command rc={} stderr='{}'".format(
+                proc.returncode, err[:300]))
             if proc.returncode != 0:
                 return ""
             return out
@@ -284,7 +328,8 @@ class AgpMediaInfo(Converter, object):
             return 0.0
 
     def _normalize_codec(self, codec_name, codec_long_name):
-        text = " ".join([str(codec_name or ""), str(codec_long_name or "")]).strip()
+        text = " ".join([str(codec_name or ""),
+                         str(codec_long_name or "")]).strip()
         if not text:
             return ""
         lower = text.lower()
@@ -379,7 +424,11 @@ class AgpMediaInfo(Converter, object):
     def _ffprobe_info(self, path):
         ffprobe = self._which("ffprobe")
         if not ffprobe or not path:
-            self._log("INFO", "_ffprobe_info skipped | ffprobe='{}' path='{}'".format(bool(ffprobe), path))
+            self._log(
+                "INFO",
+                "_ffprobe_info skipped | ffprobe='{}' path='{}'".format(
+                    bool(ffprobe),
+                    path))
             return {}
 
         cmd = [
@@ -397,7 +446,10 @@ class AgpMediaInfo(Converter, object):
         try:
             raw = json.loads(output)
         except Exception as e:
-            self._log("ERROR", "_ffprobe_info json parse failed: {}".format(str(e)))
+            self._log(
+                "ERROR",
+                "_ffprobe_info json parse failed: {}".format(
+                    str(e)))
             return {}
 
         fmt = raw.get("format", {}) or {}
@@ -440,16 +492,19 @@ class AgpMediaInfo(Converter, object):
         }
 
         if result["width"] and result["height"]:
-            result["resolution"] = "%sx%s" % (result["width"], result["height"])
+            result["resolution"] = "%sx%s" % (
+                result["width"], result["height"])
 
-        fps = self._parse_fraction(video.get("avg_frame_rate") or video.get("r_frame_rate"))
+        fps = self._parse_fraction(
+            video.get("avg_frame_rate") or video.get("r_frame_rate"))
         if fps > 0:
             result["frame_rate"] = "%.3f fps" % fps
 
         try:
             sample_rate = int(str(audio.get("sample_rate", "") or "0"))
             if sample_rate > 0:
-                result["audio_sample_rate"] = "%.1f kHz" % (sample_rate / 1000.0)
+                result["audio_sample_rate"] = "%.1f kHz" % (
+                    sample_rate / 1000.0)
         except Exception:
             pass
 
@@ -476,9 +531,7 @@ class AgpMediaInfo(Converter, object):
                 result["hdr"],
                 result["audio_codec"],
                 result["audio_bitrate"],
-                result["dolby"]
-            )
-        )
+                result["dolby"]))
         return result
 
     def _analyze(self, path):
@@ -525,7 +578,10 @@ class AgpMediaInfo(Converter, object):
 
         if info.get("video_codec"):
             if info.get("video_bitrate"):
-                parts.append("{} {}".format(info.get("video_codec"), info.get("video_bitrate")))
+                parts.append(
+                    "{} {}".format(
+                        info.get("video_codec"),
+                        info.get("video_bitrate")))
             else:
                 parts.append(info.get("video_codec"))
 
@@ -544,7 +600,10 @@ class AgpMediaInfo(Converter, object):
 
         if info.get("audio_codec"):
             if info.get("audio_bitrate"):
-                parts.append("{} {}".format(info.get("audio_codec"), info.get("audio_bitrate")))
+                parts.append(
+                    "{} {}".format(
+                        info.get("audio_codec"),
+                        info.get("audio_bitrate")))
             else:
                 parts.append(info.get("audio_codec"))
 
@@ -554,7 +613,8 @@ class AgpMediaInfo(Converter, object):
         if info.get("audio_channels"):
             parts.append("{}ch".format(info.get("audio_channels")))
 
-        return self.separator.join([str(x).strip() for x in parts if str(x).strip()])
+        return self.separator.join([str(x).strip()
+                                   for x in parts if str(x).strip()])
 
     def _get_value(self):
         path = self._resolve_path()
@@ -600,7 +660,11 @@ class AgpMediaInfo(Converter, object):
         }
 
         value = str(mapping.get(self.type, self._summary(info)) or "")
-        self._log("INFO", "_get_value type='{}' value='{}'".format(self.type, value))
+        self._log(
+            "INFO",
+            "_get_value type='{}' value='{}'".format(
+                self.type,
+                value))
         return value
 
     @cached

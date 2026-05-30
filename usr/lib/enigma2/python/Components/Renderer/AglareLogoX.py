@@ -52,7 +52,8 @@ apdb = dict()
 
 def get_search_title(title, shortdesc="", fulldesc=""):
     try:
-        result = build_search_title(title or "", shortdesc or "", fulldesc or "")
+        result = build_search_title(
+            title or "", shortdesc or "", fulldesc or "")
         return smart_capitalize_title(result)
     except Exception:
         return smart_capitalize_title(clean_search_title(title or ""))
@@ -89,7 +90,9 @@ class AglareLogoX(Renderer):
         self.show_timer = eTimer()
         self.show_timer.callback.append(self.refreshLogo)
 
-        logger.info("AglareLogoX renderer initialized | storage_path='{}'".format(self.storage_path))
+        logger.info(
+            "AglareLogoX renderer initialized | storage_path='{}'".format(
+                self.storage_path))
 
         self.logo_db = AglDB
         self.logo_auto_db = global_agl_auto_db
@@ -108,7 +111,9 @@ class AglareLogoX(Renderer):
                     if not exists(self.storage_path):
                         makedirs(self.storage_path, exist_ok=True)
                 except Exception as e:
-                    logger.error("Failed to create logo path {}: {}".format(self.storage_path, str(e)))
+                    logger.error(
+                        "Failed to create logo path {}: {}".format(
+                            self.storage_path, str(e)))
             else:
                 attribs.append((attrib, value))
 
@@ -119,7 +124,11 @@ class AglareLogoX(Renderer):
         if not self.instance:
             return
 
-        if what[0] not in (self.CHANGED_DEFAULT, self.CHANGED_ALL, self.CHANGED_SPECIFIC, self.CHANGED_CLEAR):
+        if what[0] not in (
+                self.CHANGED_DEFAULT,
+                self.CHANGED_ALL,
+                self.CHANGED_SPECIFIC,
+                self.CHANGED_CLEAR):
             if self.instance:
                 self.instance.hide()
             return
@@ -145,7 +154,8 @@ class AglareLogoX(Renderer):
                     service = NavigationInstance.instance.getCurrentlyPlayingServiceReference()
                 else:
                     if getattr(source, "event", None) is None:
-                        logger.info("AglareLogoX: Event source has no event yet")
+                        logger.info(
+                            "AglareLogoX: Event source has no event yet")
                         if self.instance:
                             self.instance.hide()
                         return
@@ -156,9 +166,13 @@ class AglareLogoX(Renderer):
                     if bt is not None:
                         self.canal[1] = bt
 
-                    event_name = sub(r"[\u0000-\u001F\u007F-\u009F]", "", event.getEventName() or "")
+                    event_name = sub(
+                        r"[\u0000-\u001F\u007F-\u009F]",
+                        "",
+                        event.getEventName() or "")
                     if not event_name:
-                        logger.info("AglareLogoX: Event source has empty event name")
+                        logger.info(
+                            "AglareLogoX: Event source has empty event name")
                         if self.instance:
                             self.instance.hide()
                         return
@@ -170,13 +184,15 @@ class AglareLogoX(Renderer):
 
             if service is not None:
                 service_str = service.toString()
-                events = epgcache.lookupEvent(['IBDCTESX', (service_str, 0, -1, -1)])
+                events = epgcache.lookupEvent(
+                    ['IBDCTESX', (service_str, 0, -1, -1)])
                 if not events or len(events) <= self.nxts:
                     if self.instance:
                         self.instance.hide()
                     return
 
-                service_name = ServiceReference(service).getServiceName().replace('\xc2\x86', '').replace('\xc2\x87', '')
+                service_name = ServiceReference(service).getServiceName().replace(
+                    '\xc2\x86', '').replace('\xc2\x87', '')
                 self.canal = [None] * 6
                 self.canal[0] = service_name
                 self.canal[1] = events[self.nxts][1]
@@ -200,15 +216,16 @@ class AglareLogoX(Renderer):
                 self.instance.hide()
 
             self.oldCanal = curCanal
-            self.logocanal = get_search_title(self.canal[5], self.canal[4], self.canal[3])
+            self.logocanal = get_search_title(
+                self.canal[5], self.canal[4], self.canal[3])
             if not self.logocanal:
                 return
 
             skip_title, skip_word = should_skip_title(self.logocanal)
             if skip_title:
-                logger.info("Skipping before queue: original='{}' | final_search_title='{}' | matched_exclusion='{}' | channel='{}'".format(
-                    self.canal[2], self.logocanal, skip_word, self.canal[0]
-                ))
+                logger.info(
+                    "Skipping before queue: original='{}' | final_search_title='{}' | matched_exclusion='{}' | channel='{}'".format(
+                        self.canal[2], self.logocanal, skip_word, self.canal[0]))
                 return
 
             logo_path = join(self.storage_path, "%s.png" % self.logocanal)
@@ -227,7 +244,9 @@ class AglareLogoX(Renderer):
                     except Exception:
                         pass
             else:
-                if hasattr(self.logo_db, "queued_logos") and self.logocanal in self.logo_db.queued_logos:
+                if hasattr(
+                        self.logo_db,
+                        "queued_logos") and self.logocanal in self.logo_db.queued_logos:
                     self.logoNm = logo_path
                     self.logo_refresh_count = 0
                     try:
@@ -235,9 +254,9 @@ class AglareLogoX(Renderer):
                     except Exception:
                         pass
                     return
-                logger.info("Queueing logo download: original='{}' | final_search_title='{}' | channel='{}'".format(
-                    self.canal[2], self.logocanal, self.canal[0]
-                ))
+                logger.info(
+                    "Queueing logo download: original='{}' | final_search_title='{}' | channel='{}'".format(
+                        self.canal[2], self.logocanal, self.canal[0]))
                 ldb.put(self.canal[:])
                 self.runLogoThread()
                 self.logoNm = logo_path
@@ -277,9 +296,9 @@ class AglareLogoX(Renderer):
                 self.instance.show()
                 return True
         except Exception as e:
-            logger.warning("Logo loadPNG failed | file='{}' | error='{}'".format(
-                logo_path, str(e)
-            ))
+            logger.warning(
+                "Logo loadPNG failed | file='{}' | error='{}'".format(
+                    logo_path, str(e)))
 
         if self.instance:
             self.instance.hide()
@@ -301,16 +320,17 @@ class AglareLogoX(Renderer):
             except Exception:
                 pass
         else:
-            logger.warning("Logo refresh failed after retries | file='{}'".format(
-                self.logoNm
-            ))
+            logger.warning(
+                "Logo refresh failed after retries | file='{}'".format(
+                    self.logoNm))
             self.logo_refresh_count = 0
 
     def waitLogo(self):
         if not self.instance or not self.canal[5]:
             return
 
-        logocanal = get_search_title(self.canal[5], self.canal[4], self.canal[3])
+        logocanal = get_search_title(
+            self.canal[5], self.canal[4], self.canal[3])
         logo_path = join(self.storage_path, "%s.png" % logocanal)
 
         self.logoNm = logo_path
@@ -350,9 +370,9 @@ class LogoDB(AglDownloadThread):
 
             skip_title, skip_word = should_skip_title(local_logocanal)
             if skip_title:
-                logger.info("Skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}' | channel='{}'".format(
-                    canal[2], local_logocanal, skip_word, canal[0]
-                ))
+                logger.info(
+                    "Skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}' | channel='{}'".format(
+                        canal[2], local_logocanal, skip_word, canal[0]))
                 return
 
             if not exists(LOGO_FOLDER):
@@ -369,9 +389,13 @@ class LogoDB(AglDownloadThread):
                 if self.check_valid_logo(logo_path):
                     return
 
-                logger.info("Starting logo download: original='{}' | clean_for_tvdb='{}' | final_search_title='{}' | channel='{}'".format(
-                    canal[2], clean_for_tvdb(canal[5]), local_logocanal, canal[0]
-                ))
+                logger.info(
+                    "Starting logo download: original='{}' | clean_for_tvdb='{}' | final_search_title='{}' | channel='{}'".format(
+                        canal[2],
+                        clean_for_tvdb(
+                            canal[5]),
+                        local_logocanal,
+                        canal[0]))
 
                 api_key = api_key_manager.get_api_key("tmdb")
                 if not api_key:
@@ -473,7 +497,13 @@ class LogoAutoDB(AglDownloadThread):
     def run(self):
         while not self._stop_event.is_set():
             now = datetime.now()
-            next_run = datetime(year=now.year, month=now.month, day=now.day, hour=self.scheduled_hour, minute=self.scheduled_minute, second=0)
+            next_run = datetime(
+                year=now.year,
+                month=now.month,
+                day=now.day,
+                hour=self.scheduled_hour,
+                minute=self.scheduled_minute,
+                second=0)
             if next_run <= now:
                 next_run += timedelta(days=1)
             while datetime.now() < next_run and not self._stop_event.is_set():
@@ -504,7 +534,8 @@ class LogoAutoDB(AglDownloadThread):
         if exists(main_path):
             try:
                 with open(main_path, "r") as f:
-                    bouquets += ["/etc/enigma2/" + line.split("\"")[1] for line in f if line.startswith("#SERVICE") and "FROM BOUQUET" in line]
+                    bouquets += ["/etc/enigma2/" + line.split(
+                        "\"")[1] for line in f if line.startswith("#SERVICE") and "FROM BOUQUET" in line]
             except Exception:
                 pass
         for bouquet in bouquets:
@@ -513,7 +544,8 @@ class LogoAutoDB(AglDownloadThread):
                     with open(bouquet, "r", encoding="utf-8", errors="ignore") as f:
                         for line in f:
                             line = line.strip()
-                            if line.startswith("#SERVICE") and "FROM BOUQUET" not in line:
+                            if line.startswith(
+                                    "#SERVICE") and "FROM BOUQUET" not in line:
                                 service_ref = line[9:]
                                 services[service_ref] = None
                                 self.apdb[service_ref] = service_ref
@@ -524,7 +556,8 @@ class LogoAutoDB(AglDownloadThread):
     def _process_services(self):
         for service_ref in self.apdb.values():
             try:
-                events = epgcache.lookupEvent(['IBDCTESX', (service_ref, 0, -1, 1440)])
+                events = epgcache.lookupEvent(
+                    ['IBDCTESX', (service_ref, 0, -1, 1440)])
                 if not events:
                     continue
                 for evt in events:
@@ -536,13 +569,20 @@ class LogoAutoDB(AglDownloadThread):
 
     def _prepare_canal_data(self, service_ref, event):
         try:
-            service_name = ServiceReference(service_ref).getServiceName().replace("\xc2\x86", "").replace("\xc2\x87", "")
+            service_name = ServiceReference(service_ref).getServiceName().replace(
+                "\xc2\x86", "").replace("\xc2\x87", "")
             raw_title = event[4] or ""
             event_name = raw_title.strip()
             if not event_name:
                 return None
             clean_title = get_search_title(event_name, event[6], event[5])
-            return [service_name, event[1], event_name, event[5], event[6], clean_title]
+            return [
+                service_name,
+                event[1],
+                event_name,
+                event[5],
+                event[6],
+                clean_title]
         except Exception:
             return None
 
@@ -587,7 +627,10 @@ class LogoAutoDB(AglDownloadThread):
 
     def _init_logo_folder(self):
         try:
-            return validate_media_path(LOGO_FOLDER, media_type="logos", min_space_mb=self.min_disk_space)
+            return validate_media_path(
+                LOGO_FOLDER,
+                media_type="logos",
+                min_space_mb=self.min_disk_space)
         except Exception:
             fallback = "/tmp/logos"
             try:

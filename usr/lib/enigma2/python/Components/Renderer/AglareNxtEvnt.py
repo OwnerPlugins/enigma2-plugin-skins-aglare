@@ -110,7 +110,8 @@ class AglareNxtEvnt(Renderer, VariableText):
 
             if self.snglEvnt != '':
                 # snglEvent="0" means the current event.
-                # snglEvent="1" means the first upcoming event after the current one.
+                # snglEvent="1" means the first upcoming event after the
+                # current one.
                 requested_index = self._safe_int(self.snglEvnt, -1)
 
                 if requested_index < 0:
@@ -136,7 +137,10 @@ class AglareNxtEvnt(Renderer, VariableText):
                 if requested_count <= 0:
                     requested_count = self.MAX_EVENTS
 
-                count = min(requested_count, self.MAX_EVENTS, len(upcoming_events))
+                count = min(
+                    requested_count,
+                    self.MAX_EVENTS,
+                    len(upcoming_events))
 
                 for event in upcoming_events[:count]:
                     line = self._format_event(event)

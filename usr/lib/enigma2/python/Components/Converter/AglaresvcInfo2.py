@@ -113,7 +113,8 @@ class AglaresvcInfo2(Converter, object):
             'TEST': (self.TEST, updated),
         }
 
-        self.type, self.interesting_events = mapping.get(type, (self.IS_WIDESCREEN, video_changed))
+        self.type, self.interesting_events = mapping.get(
+            type, (self.IS_WIDESCREEN, video_changed))
 
     def getServiceInfoString(self, info, what, convert=lambda x: '%d' % x):
         v = info.getInfo(what)
@@ -170,7 +171,8 @@ class AglaresvcInfo2(Converter, object):
             return video_aspect not in WIDESCREEN
         if self.type == self.SUBSERVICES_AVAILABLE:
             subservices = service.subServices()
-            return bool(subservices and subservices.getNumberOfSubservices() > 0)
+            return bool(
+                subservices and subservices.getNumberOfSubservices() > 0)
         if self.type == self.HAS_HBBTV:
             return info.getInfoString(iServiceInformation.sHBBTVUrl) != ''
         if self.type == self.AUDIOTRACKS_AVAILABLE:
@@ -181,7 +183,8 @@ class AglaresvcInfo2(Converter, object):
             subtitlelist = subtitle and subtitle.getSubtitleList()
             return bool(subtitlelist and len(subtitlelist) > 0)
         if self.type == self.EDITMODE:
-            return bool(hasattr(self.source, 'editmode') and self.source.editmode)
+            return bool(hasattr(self.source, 'editmode')
+                        and self.source.editmode)
         if self.type == self.IS_STREAM:
             return service.streamed() is not None
         if self.type == self.IS_SD:
@@ -213,7 +216,9 @@ class AglaresvcInfo2(Converter, object):
             video_width = self._read_int_file('/proc/stb/vmpeg/0/xres', 16)
             if not video_width:
                 try:
-                    video_width = int(self.getServiceInfoString(info, iServiceInformation.sVideoWidth))
+                    video_width = int(
+                        self.getServiceInfoString(
+                            info, iServiceInformation.sVideoWidth))
                 except Exception:
                     return ''
             return '%d' % video_width
@@ -222,15 +227,19 @@ class AglaresvcInfo2(Converter, object):
             video_height = self._read_int_file('/proc/stb/vmpeg/0/yres', 16)
             if not video_height:
                 try:
-                    video_height = int(self.getServiceInfoString(info, iServiceInformation.sVideoHeight))
+                    video_height = int(
+                        self.getServiceInfoString(
+                            info, iServiceInformation.sVideoHeight))
                 except Exception:
                     return ''
             return '%d' % video_height
 
         if self.type == self.APID:
-            return self.getServiceInfoString(info, iServiceInformation.sAudioPID)
+            return self.getServiceInfoString(
+                info, iServiceInformation.sAudioPID)
         if self.type == self.VPID:
-            return self.getServiceInfoString(info, iServiceInformation.sVideoPID)
+            return self.getServiceInfoString(
+                info, iServiceInformation.sVideoPID)
         if self.type == self.PCRPID:
             return self.getServiceInfoString(info, iServiceInformation.sPCRPID)
         if self.type == self.PMTPID:
@@ -244,18 +253,25 @@ class AglaresvcInfo2(Converter, object):
         if self.type == self.SID:
             return self.getServiceInfoString(info, iServiceInformation.sSID)
         if self.type == self.VIDEO_CODEC:
-            return self.getServiceInfoString(info, iServiceInformation.sTagVideoCodec)
+            return self.getServiceInfoString(
+                info, iServiceInformation.sTagVideoCodec)
         if self.type == self.AUDIO_CODEC:
-            return self.getServiceInfoString(info, iServiceInformation.sTagAudioCodec)
+            return self.getServiceInfoString(
+                info, iServiceInformation.sTagAudioCodec)
         if self.type == self.TEST:
-            return self.getServiceInfoString(info, iServiceInformation.sTagMaximumBitrate)
+            return self.getServiceInfoString(
+                info, iServiceInformation.sTagMaximumBitrate)
         if self.type == self.FRAMERATE:
             video_rate = self._read_int_file('/proc/stb/vmpeg/0/framerate')
             if not video_rate:
-                video_rate = int(self.getServiceInfoString(info, iServiceInformation.sFrameRate))
+                video_rate = int(
+                    self.getServiceInfoString(
+                        info, iServiceInformation.sFrameRate))
             return '%d fps' % ((video_rate + 500) // 1000)
         if self.type == self.TRANSFERBPS:
-            return self.getServiceInfoString(info, iServiceInformation.sTransferBPS, lambda x: '%d kB/s' % (x // 1024))
+            return self.getServiceInfoString(
+                info, iServiceInformation.sTransferBPS, lambda x: '%d kB/s' %
+                (x // 1024))
         if self.type == self.HAS_HBBTV:
             return info.getInfoString(iServiceInformation.sHBBTVUrl)
         return ''
@@ -302,6 +318,5 @@ class AglaresvcInfo2(Converter, object):
             Converter.changed(self, what)
 
     def createVideoCodec(self, info):
-        return ('MPEG2', 'AVC', 'MPEG1', 'MPEG4-VC', 'VC1', 'VC1-SM', 'HEVC', '')[
-            info.getInfo(iServiceInformation.sVideoType)
-        ]
+        return ('MPEG2', 'AVC', 'MPEG1', 'MPEG4-VC', 'VC1', 'VC1-SM',
+                'HEVC', '')[info.getInfo(iServiceInformation.sVideoType)]

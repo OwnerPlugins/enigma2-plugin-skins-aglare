@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
+## __author__ = "Lululla"         ##
+## __copyright__ = "AGP Team"     ##
+## __created_by__ = "MNASR"       ##
 ###################################
 from __future__ import absolute_import, print_function
 
@@ -28,6 +28,7 @@ from .AgpEMCBase import EMC_ROOT, EMC_BACKDROP_FOLDER, ensure_emc_dirs, build_em
 
 bemc_queue = Queue()
 api_key_manager = ApiKeyManager()
+
 
 class AgpBEMC(Renderer):
     GUI_WIDGET = ePixmap
@@ -114,23 +115,46 @@ class AgpBEMC(Renderer):
 
         is_episode = is_emc_episode(movie_path)
 
-        # For TV episodes, do not pass a movie year. It can bias TMDB toward movies.
+        # For TV episodes, do not pass a movie year. It can bias TMDB toward
+        # movies.
         self.release_year = "" if is_episode else extract_emc_year(movie_path)
 
         backdrop_path = join(self.storage_path, "%s.jpg" % clean_title)
         if _validate_backdrop(backdrop_path):
             self.waitBackdrop(backdrop_path)
         else:
-            self._queue_for_download(clean_title, clean_title, backdrop_path, is_episode, movie_path)
+            self._queue_for_download(
+                clean_title,
+                clean_title,
+                backdrop_path,
+                is_episode,
+                movie_path)
 
-    def _queue_for_download(self, search_title, clean_title, backdrop_path, is_episode=False, movie_path=""):
+    def _queue_for_download(
+            self,
+            search_title,
+            clean_title,
+            backdrop_path,
+            is_episode=False,
+            movie_path=""):
         if not AgpDBbemc or not AgpDBbemc.is_alive():
             return
-        bemc_queue.put((search_title, clean_title, backdrop_path, self.release_year, is_episode, movie_path))
+        bemc_queue.put(
+            (search_title,
+             clean_title,
+             backdrop_path,
+             self.release_year,
+             is_episode,
+             movie_path))
         self.runBackdropThread(backdrop_path)
 
     def runBackdropThread(self, backdrop_path):
-        Thread(target=self.waitBackdrop, args=(backdrop_path,), daemon=True).start()
+        Thread(
+            target=self.waitBackdrop,
+            args=(
+                backdrop_path,
+            ),
+            daemon=True).start()
 
     def display_backdrop(self, path=None):
         if self.instance and path and _validate_backdrop(path):
@@ -172,8 +196,13 @@ class BackdropDBBEMC(AgbDownloadThread):
         self.lock = Lock()
 
     def build_providers(self):
-        provider_mapping = {"tmdb": (self.search_tmdb, 0), "fanart": (self.search_fanart, 1), "google": (self.search_google, 2)}
-        return [(name, func, prio) for name, (func, prio) in provider_mapping.items() if self.providers.get(name, False)]
+        provider_mapping = {
+            "tmdb": (
+                self.search_tmdb, 0), "fanart": (
+                self.search_fanart, 1), "google": (
+                self.search_google, 2)}
+        return [(name, func, prio) for name, (func, prio)
+                in provider_mapping.items() if self.providers.get(name, False)]
 
     def run(self):
         while True:
@@ -199,7 +228,8 @@ class BackdropDBBEMC(AgbDownloadThread):
         try:
             if exists(backdrop_path) and getsize(backdrop_path) > 1024:
                 return
-            for provider_name, provider_func, _ in sorted(self.provider_engines, key=lambda x: x[2]):
+            for provider_name, provider_func, _ in sorted(
+                    self.provider_engines, key=lambda x: x[2]):
                 api_key = api_key_manager.get_api_key(provider_name)
                 if not api_key:
                     continue
@@ -207,15 +237,16 @@ class BackdropDBBEMC(AgbDownloadThread):
                     episode_shortdesc = ""
                     episode_fulldesc = ""
                     if is_episode:
-                        episode_shortdesc, episode_fulldesc = extract_emc_episode_marker(movie_path)
+                        episode_shortdesc, episode_fulldesc = extract_emc_episode_marker(
+                            movie_path)
 
                     shortdesc = episode_shortdesc if is_episode else None
                     fulldesc = episode_fulldesc if is_episode else None
                     search_year = None if is_episode else release_year
 
-                    logger.info("AgpBEMC provider hint | title='{}' | is_episode='{}' | shortdesc='{}' | fulldesc='{}'".format(
-                        search_title, str(is_episode), str(shortdesc), str(fulldesc)
-                    ))
+                    logger.info(
+                        "AgpBEMC provider hint | title='{}' | is_episode='{}' | shortdesc='{}' | fulldesc='{}'".format(
+                            search_title, str(is_episode), str(shortdesc), str(fulldesc)))
 
                     result = provider_func(
                         dwn_backdrop=backdrop_path,
@@ -229,7 +260,10 @@ class BackdropDBBEMC(AgbDownloadThread):
                     if result and _validate_backdrop(backdrop_path):
                         break
                 except Exception as e:
-                    logger.error("AgpBEMC Error from %s: %s", provider_name, str(e))
+                    logger.error(
+                        "AgpBEMC Error from %s: %s",
+                        provider_name,
+                        str(e))
         finally:
             with self.lock:
                 self.queued.discard(search_title)

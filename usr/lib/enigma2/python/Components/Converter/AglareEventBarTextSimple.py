@@ -127,7 +127,8 @@ class AglareEventBarTextSimple(Converter):
             " ": (" ", "", ""),
         }
 
-        left, symbol, right = sep_map.get(self.separator, ("", self.separator, ""))
+        left, symbol, right = sep_map.get(
+            self.separator, ("", self.separator, ""))
 
         if not symbol:
             return self.separator
@@ -178,7 +179,8 @@ class AglareEventBarTextSimple(Converter):
         return "%d min" % minutes
 
     def _fmtDuration(self, seconds, add_plus=False):
-        text = self._fmtMinutesDuration(seconds) if self.unit == "minutes" else self._fmtClockDuration(seconds)
+        text = self._fmtMinutesDuration(
+            seconds) if self.unit == "minutes" else self._fmtClockDuration(seconds)
         if add_plus and self.minus:
             return "+" + text
         return text
@@ -199,7 +201,8 @@ class AglareEventBarTextSimple(Converter):
         now = int(time())
         is_now = begin <= now <= end
 
-        timerange = "%s%s%s" % (self._fmtClock(begin), self.range_sep, self._fmtClock(end))
+        timerange = "%s%s%s" % (self._fmtClock(
+            begin), self.range_sep, self._fmtClock(end))
         if is_now:
             last = self._fmtDuration(end - now, True)
             label = self.now_label

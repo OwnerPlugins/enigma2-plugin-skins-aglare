@@ -114,19 +114,37 @@ class AgpLEMC(Renderer):
 
         is_episode = is_emc_episode(movie_path)
 
-        # For TV episodes, do not pass a movie year. It can bias TMDB toward movies.
+        # For TV episodes, do not pass a movie year. It can bias TMDB toward
+        # movies.
         self.release_year = "" if is_episode else extract_emc_year(movie_path)
 
         logo_path = join(self.storage_path, "%s.png" % clean_title)
         if _validate_logo(logo_path):
             self.waitLogo(logo_path)
         else:
-            self._queue_for_download(clean_title, clean_title, logo_path, is_episode, movie_path)
+            self._queue_for_download(
+                clean_title,
+                clean_title,
+                logo_path,
+                is_episode,
+                movie_path)
 
-    def _queue_for_download(self, search_title, clean_title, logo_path, is_episode=False, movie_path=""):
+    def _queue_for_download(
+            self,
+            search_title,
+            clean_title,
+            logo_path,
+            is_episode=False,
+            movie_path=""):
         if not AgpDBlemc or not AgpDBlemc.is_alive():
             return
-        lemc_queue.put((search_title, clean_title, logo_path, self.release_year, is_episode, movie_path))
+        lemc_queue.put(
+            (search_title,
+             clean_title,
+             logo_path,
+             self.release_year,
+             is_episode,
+             movie_path))
         self.runLogoThread(logo_path)
 
     def runLogoThread(self, logo_path):
@@ -199,15 +217,19 @@ class LogoDBLEMC(AglDownloadThread):
             episode_shortdesc = ""
             episode_fulldesc = ""
             if is_episode:
-                episode_shortdesc, episode_fulldesc = extract_emc_episode_marker(movie_path)
+                episode_shortdesc, episode_fulldesc = extract_emc_episode_marker(
+                    movie_path)
 
             shortdesc = episode_shortdesc if is_episode else None
             fulldesc = episode_fulldesc if is_episode else None
             search_year = None if is_episode else release_year
 
-            logger.info("AgpLEMC provider hint | title='{}' | is_episode='{}' | shortdesc='{}' | fulldesc='{}'".format(
-                search_title, str(is_episode), str(shortdesc), str(fulldesc)
-            ))
+            logger.info(
+                "AgpLEMC provider hint | title='{}' | is_episode='{}' | shortdesc='{}' | fulldesc='{}'".format(
+                    search_title,
+                    str(is_episode),
+                    str(shortdesc),
+                    str(fulldesc)))
 
             self.search_tmdb_logo(
                 dwn_logo=logo_path,
