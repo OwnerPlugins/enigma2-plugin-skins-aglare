@@ -15586,5 +15586,8 @@
   "11b42bd4c418c133a37f3d0b8ee49324": "Inapakua Aglare...",
   "32ca45ac1e98f0d4911a813529e497e2": "Washa Nyota ya Ukadiriaji:",
   "2228b89c82e184c1b954891980dbcfee": "KhalidArtbold Kawaida",
-  "20d2959f1a9355cfd7d18b7fe844d0fe": "ChannelSelection_BackDrop_V_EX"
+  "20d2959f1a9355cfd7d18b7fe844d0fe": "ChannelSelection_BackDrop_V_EX",
+  "8a98e0e349ed0f03ffe39c3e62d45d98": "Error {0}: {1}",
+  "879769d29638dfde7d0bb2cdfbb338e3": "Import key {0} from {1}?",
+  "801b84c719bae83792dfea5e07706b8a": "Error {0}: {1}"
 }
