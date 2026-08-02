@@ -1,8 +1,23 @@
 # Aglare translations
 # Copyright (C) 2026 Lululla Team
 #
-#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr ""
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr ""
 
 
 
@@ -27,10 +42,10 @@ msgstr ""
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr ""
 
-msgid "Activate/Deactivate {}"
+msgid "Add"
 msgstr ""
 
-msgid "Add"
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
 msgstr ""
 
 msgid "All png are removed from folder!"
@@ -60,6 +75,9 @@ msgstr ""
 msgid "Backdrop download error: {}"
 msgstr ""
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr ""
+
 msgid "BebasNeue"
 msgstr ""
 
@@ -75,9 +93,6 @@ msgstr ""
 msgid "Brown"
 msgstr ""
 
-msgid "CD"
-msgstr ""
-
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr ""
 
@@ -85,6 +100,9 @@ msgid "Caid + Reader + Protocol + Server + ECM Time"
 msgstr ""
 
 msgid "Cancel"
+msgstr ""
+
+msgid "CD"
 msgstr ""
 
 msgid "Channel Description Color:"
@@ -135,13 +153,13 @@ msgstr ""
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr ""
 
+msgid "ChannelSelection_big_mini_tv"
+msgstr ""
+
 msgid "ChannelSelection_NO_Posters"
 msgstr ""
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
-
-msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "Choice device download image folder"
@@ -192,13 +210,13 @@ msgstr ""
 msgid "ECM Short Format:"
 msgstr ""
 
+msgid "Edit"
+msgstr ""
+
 msgid "EMC PX"
 msgstr ""
 
 msgid "EMC screens Style:"
-msgstr ""
-
-msgid "Edit"
 msgstr ""
 
 msgid "Enable Display Genre icons:"
@@ -210,19 +228,22 @@ msgstr ""
 msgid "Enable Display XMC Poster:"
 msgstr ""
 
-msgid "Enable Parental Icons:"
-msgstr ""
-
-msgid "Enable Rating Star:"
-msgstr ""
-
 msgid "Enable or disable bundled E2iPlayer screens."
 msgstr ""
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
 msgstr ""
 
+msgid "Enable Parental Icons:"
+msgstr ""
+
+msgid "Enable Rating Star:"
+msgstr ""
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
+msgstr ""
+
+msgid "Error {0}: {1}"
 msgstr ""
 
 msgid "Error by processing the skin file: {}"
@@ -232,9 +253,6 @@ msgid "Error downloading files!"
 msgstr ""
 
 msgid "Error loading: {}"
-msgstr ""
-
-msgid "Error {0}: {1}"
 msgstr ""
 
 msgid "Error: {}"
@@ -252,10 +270,10 @@ msgstr ""
 msgid "Exit"
 msgstr ""
 
-msgid "File Commander - Addon"
+msgid "File {} not found or empty"
 msgstr ""
 
-msgid "File {} not found or empty"
+msgid "File Commander - Addon"
 msgstr ""
 
 msgid "Green"
@@ -267,10 +285,16 @@ msgstr ""
 msgid "Greta"
 msgstr ""
 
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr ""
+
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Image Compatibility Group:"
+msgstr ""
+
+msgid "imperial system"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
@@ -318,10 +342,10 @@ msgstr ""
 msgid "Installing updates..."
 msgstr ""
 
-msgid "Key empty"
+msgid "Key {} successfully loaded!"
 msgstr ""
 
-msgid "Key {} successfully loaded!"
+msgid "Key empty"
 msgstr ""
 
 msgid "KhalidArtboldRegular"
@@ -336,9 +360,6 @@ msgstr ""
 msgid "LimeGreen"
 msgstr ""
 
-msgid "Load from /tmp/{}key.txt"
-msgstr ""
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr ""
 
@@ -348,16 +369,13 @@ msgstr ""
 msgid "Lucida"
 msgstr ""
 
-msgid "MSN location search result"
-msgstr ""
-
-msgid "MV Boli"
-msgstr ""
-
 msgid "Magenta"
 msgstr ""
 
 msgid "Megabit/s (Mb/s)"
+msgstr ""
+
+msgid "metric system"
 msgstr ""
 
 msgid "Mint"
@@ -366,10 +384,19 @@ msgstr ""
 msgid "Mix1"
 msgstr ""
 
+msgid "MSN location search result"
+msgstr ""
+
+msgid "MV Boli"
+msgstr ""
+
 msgid "No active providers enabled"
 msgstr ""
 
 msgid "No description available for this option."
+msgstr ""
+
+msgid "Off"
 msgstr ""
 
 msgid "OFF"
@@ -387,9 +414,6 @@ msgstr ""
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr ""
 
-msgid "Off"
-msgstr ""
-
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr ""
 
@@ -399,10 +423,10 @@ msgstr ""
 msgid "Orange"
 msgstr ""
 
-msgid "Personal API key for {}"
+msgid "Pink"
 msgstr ""
 
-msgid "Pink"
+msgid "play/show Files"
 msgstr ""
 
 msgid "Please enter a valid city name."
@@ -412,6 +436,9 @@ msgid "Please enter a valid location code for the city."
 msgstr ""
 
 msgid "Poster download error: {}"
+msgstr ""
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
 msgstr ""
 
 msgid "Purple"
@@ -459,18 +486,6 @@ msgstr ""
 msgid "Segoe UI light"
 msgstr ""
 
-msgid "Select EMC style."
-msgstr ""
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr ""
-
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr ""
-
-msgid "Select Your Font:"
-msgstr ""
-
 msgid "Select channel list event description color."
 msgstr ""
 
@@ -483,10 +498,16 @@ msgstr ""
 msgid "Select channel selection screen style."
 msgstr ""
 
+msgid "Select EMC style."
+msgstr ""
+
 msgid "Select event view screen style."
 msgstr ""
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr ""
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
 msgstr ""
 
 msgid "Select second infobar layout."
@@ -519,6 +540,12 @@ msgstr ""
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr ""
 
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr ""
+
+msgid "Select Your Font:"
+msgstr ""
+
 msgid "Set Time our - minute for Backdrop download"
 msgstr ""
 
@@ -531,6 +558,9 @@ msgstr ""
 msgid "Setup Aglare Skin Info"
 msgstr ""
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr ""
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr ""
 
@@ -540,10 +570,10 @@ msgstr ""
 msgid "Show or hide PosterX in the second infobar."
 msgstr ""
 
-msgid "Show or hide XtraEvent in the second infobar."
+msgid "Show or hide the date panel in the infobar."
 msgstr ""
 
-msgid "Show or hide the date panel in the infobar."
+msgid "Show or hide XtraEvent in the second infobar."
 msgstr ""
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
@@ -603,25 +633,28 @@ msgstr ""
 msgid "Support E2iplayer Skins:"
 msgstr ""
 
+msgid "Support InfoBar SoftCSA:"
+msgstr ""
+
 msgid "Support SubsSupportPro Skins:"
 msgstr ""
 
 msgid "System"
 msgstr ""
 
-msgid "TEST"
-msgstr ""
-
-msgid "TMDB Only"
-msgstr ""
-
 msgid "Teal"
+msgstr ""
+
+msgid "TEST"
 msgstr ""
 
 msgid "The file %s is empty."
 msgstr ""
 
 msgid "The file %s was not found."
+msgstr ""
+
+msgid "The update file was not found in /tmp.\nUpdate aborted."
 msgstr ""
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
@@ -633,10 +666,10 @@ msgstr ""
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr ""
 
-msgid "Tomato"
+msgid "TMDB Only"
 msgstr ""
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgid "Tomato"
 msgstr ""
 
 msgid "Update check failed: {}"
@@ -645,7 +678,16 @@ msgstr ""
 msgid "Update package not found!"
 msgstr ""
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr ""
+
+msgid "volume2"
+msgstr ""
+
 msgid "VolumeBar Style:"
+msgstr ""
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
 msgstr ""
 
 msgid "WeatherPlugin: Edit Entry"
@@ -666,14 +708,3 @@ msgstr ""
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr ""
 
-msgid "imperial system"
-msgstr ""
-
-msgid "metric system"
-msgstr ""
-
-msgid "play/show Files"
-msgstr ""
-
-msgid "volume2"
-msgstr ""

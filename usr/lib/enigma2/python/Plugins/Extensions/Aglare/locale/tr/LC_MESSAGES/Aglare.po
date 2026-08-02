@@ -1,41 +1,50 @@
+# tr translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tr <ekekaz@gmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] Bu işlem, dış görünümün kendi bileşenlerine sahip olup olmadığını kontrol eder (garanti edilmez)...\nGerçekten devam etmek istiyor musunuz?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Bu işlem, cihaz klasöründeki (Poster-Arka Plan) tüm PNG'leri kaldıracaktır...\nGerçekten devam etmek istiyor musunuz?"
 
 msgid "%s key imported!"
 msgstr "%s anahtarı içe aktarıldı!"
 
 msgid "1 poster"
-msgstr ""
+msgstr "1 poster"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA'yı Etkinleştir/Devre Dışı Bırak"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "ELCINEMA'yı meta veri sağlayıcısı olarak etkinleştirin veya devre dışı bırakın."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLE'ı Etkinleştir/Devre Dışı Bırak"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "GOOGLE'ı meta veri sağlayıcısı olarak etkinleştirin veya devre dışı bırakın."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "IMDB'yi Etkinleştir/Devre Dışı Bırak"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "IMDB'yi meta veri sağlayıcısı olarak etkinleştirin veya devre dışı bırakın."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "MOLOTOV'u Etkinleştirme/Devre Dışı Bırakma"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "MOLOTOV'u meta veri sağlayıcısı olarak etkinleştirin veya devre dışı bırakın."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "PROGRAMETV'yi Etkinleştir/Devre Dışı Bırak"
-
-msgid "Activate/Deactivate {}"
-msgstr "{} Etkinleştir/Devre Dışı Bırak"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "PROGRAMMETV'yi meta veri sağlayıcısı olarak etkinleştirin veya devre dışı bırakın."
 
 msgid "Add"
 msgstr "Eklemek"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "Aglare güncellemesi yapıldı!\nGUI'yi şimdi yeniden başlatmak istiyor musunuz?"
 
 msgid "All png are removed from folder!"
 msgstr "Tüm png klasörden kaldırıldı!"
@@ -53,7 +62,7 @@ msgid "Automatically fetch backdrop for favorite events based on EPG"
 msgstr "EPG'ye dayalı favori etkinlikler için arka planı otomatik olarak getir"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "EPG'ye dayalı olarak favori etkinliklere ait posterleri otomatik olarak getir"
+msgstr "EPG'ye dayalı favori etkinlikler için posterleri otomatik olarak getir"
 
 msgid "Back"
 msgstr "Geri"
@@ -64,8 +73,14 @@ msgstr "Arka plan"
 msgid "Backdrop download error: {}"
 msgstr "Arka plan indirme hatası: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Arka plan indirme işlemi 2 dakika içinde başlayacak.\nBu menüden güvenle çıkabilirsiniz."
+
 msgid "BebasNeue"
 msgstr "ÜcretsizNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Bit Hızı Birimi:"
 
 msgid "Black"
 msgstr "Siyah"
@@ -76,8 +91,17 @@ msgstr "Mavi"
 msgid "Brown"
 msgstr "Kahverengi"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + Protokol + Sunucu + ECM Zamanı"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Okuyucu + Protokol + Sunucu + ECM Zamanı"
+
 msgid "Cancel"
 msgstr "İptal etmek"
+
+msgid "CD"
+msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Kanal Açıklaması Renk:"
@@ -95,43 +119,52 @@ msgid "ChannelSelection Style:"
 msgstr "Kanal Seçim Stili:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "ChannelSelection_big_mini_tv"
+
+msgid "ChannelSelection_NO_Posters"
+msgstr "ChannelSelection_NO_Posters"
+
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "Choice device download image folder"
+msgstr "Seçim cihazı indirme resim klasörü"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Bit hızının Kb/s olarak mı yoksa Mb/s olarak mı gösterileceğini seçin."
 
 msgid "City"
 msgstr "Şehir"
@@ -148,9 +181,6 @@ msgstr "Kızıl"
 msgid "Customization tool for %s Skin"
 msgstr "%s Görünümü için özelleştirme aracı"
 
-msgid "Dark Green"
-msgstr "Koyu Yeşil"
-
 msgid "Default"
 msgstr "Varsayılan"
 
@@ -163,8 +193,8 @@ msgstr "Silmek"
 msgid "Download error: {}"
 msgstr "İndirme hatası: {}"
 
-msgid "Download in progress"
-msgstr "İndirme işlemi devam ediyor"
+msgid "Download in progress…"
+msgstr "İndirme işlemi devam ediyor…"
 
 msgid "Download now backdrop"
 msgstr "Şimdi arka planı indirin"
@@ -175,8 +205,17 @@ msgstr "Şimdi posteri indir"
 msgid "Downloading Aglare..."
 msgstr "Aglare indiriliyor..."
 
+msgid "ECM Short Format:"
+msgstr "ECM Kısa Formatı:"
+
 msgid "Edit"
 msgstr "Düzenlemek"
+
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "EMC ekranları Stil:"
 
 msgid "Enable Display Genre icons:"
 msgstr "Görüntüleme Türü simgelerini etkinleştirin:"
@@ -187,26 +226,32 @@ msgstr "InfoEvents'i Görüntülemeyi Etkinleştir:"
 msgid "Enable Display XMC Poster:"
 msgstr "XMC Posterini Görüntülemeyi Etkinleştir:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Paketlenmiş E2iPlayer ekranlarını etkinleştirin veya devre dışı bırakın."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Tekrarlanan aramaları hızlandırmak için etkinlik indirme sırasında önbelleğe almayı etkinleştirin veya devre dışı bırakın."
+
 msgid "Enable Parental Icons:"
 msgstr "Ebeveyn Simgelerini Etkinleştir:"
 
 msgid "Enable Rating Star:"
 msgstr "Derecelendirme Yıldızını Etkinleştir:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Tekrarlanan aramaları hızlandırmak için etkinlik indirme sırasında önbelleğe almayı etkinleştirin veya devre dışı bırakın."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Bilgi widget'ında tüm oyuncular, ekip, olay örgüsü ayrıntıları ve diğer meta veriler dahil olmak üzere genişletilmiş etkinlik bilgilerinin görüntülenmesini etkinleştirin."
+
+msgid "Error {0}: {1}"
+msgstr "Hata {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Dış görünüm dosyası işlenirken hata oluştu: {}"
 
 msgid "Error downloading files!"
 msgstr "Dosyalar indirilirken hata oluştu!"
 
 msgid "Error loading: {}"
 msgstr "Yükleme hatası: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Hata {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Hata: {}"
@@ -215,31 +260,43 @@ msgid "EventView Style:"
 msgstr "Olay Görünümü Stili:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Posters"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posters"
 
 msgid "Exit"
 msgstr "Çıkış"
 
-msgid "File Commander - Addon"
-msgstr "Dosya Komutanı - Eklenti"
-
 msgid "File {} not found or empty"
 msgstr "{} dosyası bulunamadı veya boş"
+
+msgid "File Commander - Addon"
+msgstr "Dosya Komutanı - Eklenti"
 
 msgid "Green"
 msgstr "Yeşil"
 
+msgid "Green2"
+msgstr "Yeşil2"
+
 msgid "Greta"
-msgstr ""
+msgstr "Greta"
+
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "Yeni bir kaplama uygulamak için GUI'nin yeniden başlatılması gerekiyor.\nGUI'yi şimdi yeniden başlatmak istiyor musunuz?"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "HandelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr "Görüntü Uyumluluk Grubu:"
+
+msgid "imperial system"
+msgstr "imparatorluk sistemi"
 
 msgid "Import key {0} from {1}?"
-msgstr "{0} anahtarı {1} cihazından içe aktarılsın mı?"
+msgstr "{0} anahtarı {1}'den içe aktarılsın mı?"
 
 msgid "Info..."
 msgstr "Bilgi..."
@@ -283,14 +340,17 @@ msgstr "Ins Hattı"
 msgid "Installing updates..."
 msgstr "Güncelleştirmeler yükleniyor..."
 
-msgid "Key empty"
-msgstr "Anahtar boş"
-
 msgid "Key {} successfully loaded!"
 msgstr "Anahtar {} başarıyla yüklendi!"
 
+msgid "Key empty"
+msgstr "Anahtar boş"
+
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldNormal"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Kilobit/sn (Kb/sn)"
 
 msgid "LightGray"
 msgstr "AçıkGri"
@@ -298,29 +358,44 @@ msgstr "AçıkGri"
 msgid "LimeGreen"
 msgstr "limon yeşili"
 
-msgid "Load from /tmp/{}key.txt"
-msgstr "/tmp/{}key.txt dosyasından yükle"
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Yerel yapı ({}), sunucu yapısından ({}) daha yenidir."
 
 msgid "Location code"
 msgstr "Konum kodu"
 
-msgid "MSN location search result"
-msgstr "MSN konum arama sonucu"
-
-msgid "MV Boli"
-msgstr ""
+msgid "Lucida"
+msgstr "Lucida"
 
 msgid "Magenta"
 msgstr "Macenta"
 
+msgid "Megabit/s (Mb/s)"
+msgstr "Megabit/sn (Mb/sn)"
+
+msgid "metric system"
+msgstr "metrik sistem"
+
 msgid "Mint"
 msgstr "Nane"
 
+msgid "Mix1"
+msgstr "Karışım1"
+
+msgid "MSN location search result"
+msgstr "MSN konum arama sonucu"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "No active providers enabled"
 msgstr "Etkin sağlayıcı yok"
+
+msgid "No description available for this option."
+msgstr "Bu seçenek için açıklama mevcut değil."
+
+msgid "Off"
+msgstr "Kapalı"
 
 msgid "OFF"
 msgstr "KAPALI"
@@ -334,17 +409,23 @@ msgstr "Yalnızca OMDB"
 msgid "ON"
 msgstr "AÇIK"
 
-msgid "Off"
-msgstr "Kapalı"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "AÇIK/KAPALI SubsSupportPro Görünümleri."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (Yeni Görüntü Grubu)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (OpenPLi Grubu)"
 
 msgid "Orange"
 msgstr "Turuncu"
 
-msgid "Personal API key for {}"
-msgstr "{} için kişisel API anahtarı"
-
 msgid "Pink"
 msgstr "Pembe"
+
+msgid "play/show Files"
+msgstr "Dosyaları oynat/göster"
 
 msgid "Please enter a valid city name."
 msgstr "Lütfen geçerli bir şehir adı girin."
@@ -354,6 +435,9 @@ msgstr "Lütfen şehir için geçerli bir konum kodu girin."
 
 msgid "Poster download error: {}"
 msgstr "Poster indirme hatası: {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Poster indirme işlemi 2 dakika içinde başlayacak.\nBu menüden güvenle çıkabilirsiniz."
 
 msgid "Purple"
 msgstr "Mor"
@@ -395,10 +479,67 @@ msgid "SecondInfobar Weather:"
 msgstr "SecondInfobar Hava Durumu:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "SecondInfobar Xtraevent:"
 
 msgid "Segoe UI light"
 msgstr "Segoe kullanıcı arayüzü ışığı"
+
+msgid "Select channel list event description color."
+msgstr "Kanal listesi etkinlik açıklaması rengini seçin."
+
+msgid "Select channel list foreground color."
+msgstr "Kanal listesi ön plan rengini seçin."
+
+msgid "Select channel list selected foreground color."
+msgstr "Ön plan rengi seçilen kanal listesini seçin."
+
+msgid "Select channel selection screen style."
+msgstr "Kanal seçim ekranı stilini seçin."
+
+msgid "Select EMC style."
+msgstr "EMC stilini seçin."
+
+msgid "Select event view screen style."
+msgstr "Olay görünümü ekran stilini seçin."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Bilgi çubuğu düzenini seçin. Stil5, ECM'yi kapatır ve yalnızca KAPALI/CD poster modlarına izin verir. Style6, ECM, PosterX ve Xtraevent'i kapatmaya zorlar."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Bilgi çubuğu için PosterX görüntüleme modunu seçin. Mevcut seçenekler, seçilen bilgi çubuğu stiline ve ECM moduna bağlıdır."
+
+msgid "Select second infobar layout."
+msgstr "İkinci bilgi çubuğu düzenini seçin."
+
+msgid "Select selected channel event description color."
+msgstr "Seçili kanal etkinliği açıklama rengini seçin."
+
+msgid "Select the base skin layout file."
+msgstr "Temel dış görünüm düzeni dosyasını seçin."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Oluşturulan dış görünüm tarafından kullanılan yazı tipi paketini seçin."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Dış görünüm tarafından kullanılan ana renk ön ayarını seçin."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Hedef görüntü temel grubunu seçin (OpenPLi ve Diğerleri)."
+
+msgid "Select volume bar style."
+msgstr "Ses çubuğu stilini seçin."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Bilgi çubuğu için hava durumu sağlayıcısı ekranını seçin."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "İkinci bilgi çubuğu için hava durumu sağlayıcısı ekranını seçin."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Cilt Kısa MYEMUPARA kullandığında hangi ECM alanlarının gösterileceğini seçin."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Bilgi çubuğu için XtraEvent görüntüleme modunu seçin. Mevcut seçenekler, seçilen bilgi çubuğu stiline ve ECM moduna bağlıdır."
 
 msgid "Select Your Font:"
 msgstr "Yazı Tipinizi Seçin:"
@@ -415,8 +556,23 @@ msgstr "Ayarlar Apikey Sunucusu"
 msgid "Setup Aglare Skin Info"
 msgstr "Aglare Cilt Bilgilerini Kur"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "{0} v.{1}\n\n için Aglare Skin\n'ı kurun, Lululla @2020\n\nLinuxsat-support.com\n\n'daki destek forumuSkinner yaratıcısı: Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Her etkinliğin türünü temsil eden simgeleri gösterin (ör. aksiyon, komedi, drama)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "Bilgi çubuğunda ECM bilgilerini gösterin veya gizleyin."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "İkinci bilgi çubuğunda PosterX'i gösterin veya gizleyin."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Bilgi çubuğunda tarih panelini gösterin veya gizleyin."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "İkinci bilgi çubuğunda XtraEvent'i gösterin veya gizleyin."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "İçerik derecelendirmesini ve yaşa uygunluğunu belirtmek için etkinliklerde ebeveyn rehberliği simgelerini gösterin."
@@ -432,6 +588,21 @@ msgstr "Cilt Stili:"
 
 msgid "SnowWhite"
 msgstr "Karbeyaz"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Kaynak + Caid + Okuyucu + Protokol + Sunucu + Bağlantı Noktası + ECM Zamanı"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Kaynak + Caid + Okuyucu + ECM Zamanı"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Kaynak + Prov + Caid + ECM Zamanı"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Kaynak + Prov + Caid + Protokol + Sunucu + Bağlantı Noktası + ECM Zamanı"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Kaynak + Prov + Caid + Sunucu + Bağlantı Noktası + ECM Zamanı"
 
 msgid "Start downloading backdrop immediately"
 msgstr "Arka planı hemen indirmeye başlayın"
@@ -451,17 +622,29 @@ msgstr "Stil3"
 msgid "Style4"
 msgstr "Stil4"
 
+msgid "Style5 CD"
+msgstr "Stil5 CD"
+
+msgid "Style6"
+msgstr "Stil6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "E2iplayer Kaplamalarını Destekleyin:"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "InfoBar SoftCSA'yı destekleyin:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Destek SubsSupportPro Görünümleri:"
 
 msgid "System"
 msgstr "Sistem"
 
-msgid "TMDB Only"
-msgstr "Yalnızca TMDB"
-
 msgid "Teal"
 msgstr "turkuaz"
+
+msgid "TEST"
+msgstr "TEST"
 
 msgid "The file %s is empty."
 msgstr "%s dosyası boş."
@@ -469,17 +652,23 @@ msgstr "%s dosyası boş."
 msgid "The file %s was not found."
 msgstr "%s dosyası bulunamadı."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "Güncelleme dosyası /tmp.\nGüncelleme iptal edildi."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Bu işlem, görseli indirmek için cihaz yolu klasörünü atar (Poster-Arka Plan)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Bu işlem, seçilen derecelendirme kaynağına göre etkinlikler için derecelendirme yıldızlarının görüntülenmesini sağlar."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Bu işlem, klasör aygıtındaki tüm png'leri kaldırır (Poster-Arka Plan)"
 
+msgid "TMDB Only"
+msgstr "Yalnızca TMDB"
+
 msgid "Tomato"
 msgstr "Domates"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Güncelleme URL'si başlatılmadı, önce Eklentiler menüsünden eklentiyi bir kez açın."
 
 msgid "Update check failed: {}"
 msgstr "Güncelleme kontrolü başarısız oldu: {}"
@@ -487,8 +676,17 @@ msgstr "Güncelleme kontrolü başarısız oldu: {}"
 msgid "Update package not found!"
 msgstr "Güncelleme paketi bulunamadı!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Güncelleme URL'si başlatılmadı; önce Eklentiler menüsünden eklentiyi bir kez açın."
+
+msgid "volume2"
+msgstr "cilt2"
+
 msgid "VolumeBar Style:"
 msgstr "Hacim Çubuğu Stili:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Uyarı: Varsayılan API anahtarlarını kullanıyorsunuz!\nEklenti ayarlarında kendi API anahtarlarınızı yapılandırmanızı önemle öneririz."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "Hava Durumu Eklentisi: Girişi Düzenle"
@@ -508,14 +706,3 @@ msgstr "Zaten en son sürüme ({}) sahipsiniz."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Konum kodunu arayabilmeniz için önce geçerli bir şehir adı girmeniz gerekir."
 
-msgid "imperial system"
-msgstr "imparatorluk sistemi"
-
-msgid "metric system"
-msgstr "metrik sistem"
-
-msgid "play/show Files"
-msgstr "Dosyaları oynat/göster"
-
-msgid "volume2"
-msgstr "cilt2"

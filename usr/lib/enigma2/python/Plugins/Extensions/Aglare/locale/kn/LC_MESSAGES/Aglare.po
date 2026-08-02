@@ -1,13 +1,23 @@
+# kn translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: kn <ekekaz@gmail.com>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[ಚೆಕ್‌ಸ್ಕಿನ್] ಈ ಕಾರ್ಯಾಚರಣೆಯು ಚರ್ಮವು ಅದರ ಘಟಕಗಳನ್ನು ಹೊಂದಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸುತ್ತದೆ (ಖಾತ್ರಿಯಿಲ್ಲ)...\nನೀವು ನಿಜವಾಗಿಯೂ ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] ಈ ಕಾರ್ಯಾಚರಣೆಯು ಎಲ್ಲಾ PNG ಗಳನ್ನು ಸಾಧನದ ಫೋಲ್ಡರ್‌ನಿಂದ (ಪೋಸ್ಟರ್-ಬ್ಯಾಕ್‌ಡ್ರಾಪ್) ತೆಗೆದುಹಾಕುತ್ತದೆ...\nನೀವು ನಿಜವಾಗಿಯೂ ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?"
 
 msgid "%s key imported!"
 msgstr "%s ಕೀಲಿಯನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ!"
@@ -15,26 +25,26 @@ msgstr "%s ಕೀಲಿಯನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ!
 msgid "1 poster"
 msgstr "1 ಪೋಸ್ಟರ್"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "ಮೆಟಾಡೇಟಾ ಪೂರೈಕೆದಾರರಾಗಿ ELCINEMA ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLE ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "GOOGLE ಅನ್ನು ಮೆಟಾಡೇಟಾ ಪೂರೈಕೆದಾರರಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "IMDB ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "IMDB ಅನ್ನು ಮೆಟಾಡೇಟಾ ಪೂರೈಕೆದಾರರಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "MOLOTOV ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "ಮೆಟಾಡೇಟಾ ಪೂರೈಕೆದಾರರಾಗಿ MOLOTOV ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "PROGRAMMETV ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
-
-msgid "Activate/Deactivate {}"
-msgstr "{} ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "ಮೆಟಾಡೇಟಾ ಪೂರೈಕೆದಾರರಾಗಿ PROGRAMMETV ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
 
 msgid "Add"
 msgstr "ಸೇರಿಸಿ"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "ಅಗ್ಲೇರ್ ನವೀಕರಣವನ್ನು ಮಾಡಲಾಗಿದೆ!\nನೀವು ಈಗ GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲು ಬಯಸುವಿರಾ?"
 
 msgid "All png are removed from folder!"
 msgstr "ಎಲ್ಲಾ png ಅನ್ನು ಫೋಲ್ಡರ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ!"
@@ -63,8 +73,14 @@ msgstr "ಹಿನ್ನೆಲೆ"
 msgid "Backdrop download error: {}"
 msgstr "ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಡೌನ್‌ಲೋಡ್ ದೋಷ: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಡೌನ್‌ಲೋಡ್ 2 ನಿಮಿಷಗಳಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ.\nನೀವು ಸುರಕ್ಷಿತವಾಗಿ ಈ ಮೆನುವಿನಿಂದ ನಿರ್ಗಮಿಸಬಹುದು."
+
 msgid "BebasNeue"
 msgstr "ಫ್ರೀನ್ಯೂ"
+
+msgid "Bitrate Unit:"
+msgstr "ಬಿಟ್ರೇಟ್ ಘಟಕ:"
 
 msgid "Black"
 msgstr "ಕಪ್ಪು"
@@ -75,8 +91,17 @@ msgstr "ನೀಲಿ"
 msgid "Brown"
 msgstr "ಕಂದು"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + ಪ್ರೋಟೋಕಾಲ್ + ಸರ್ವರ್ + ECM ಸಮಯ"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "ಕೈಡ್ + ರೀಡರ್ + ಪ್ರೋಟೋಕಾಲ್ + ಸರ್ವರ್ + ಇಸಿಎಂ ಸಮಯ"
+
 msgid "Cancel"
 msgstr "ರದ್ದುಮಾಡಿ"
+
+msgid "CD"
+msgstr "ಸಿಡಿ"
 
 msgid "Channel Description Color:"
 msgstr "ಚಾನಲ್ ವಿವರಣೆ ಬಣ್ಣ:"
@@ -94,43 +119,52 @@ msgid "ChannelSelection Style:"
 msgstr "ಚಾನಲ್ ಆಯ್ಕೆ ಶೈಲಿ:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "ChannelSelection_NO_Posters"
 msgstr "ಚಾನಲ್Selection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgid "Choice device download image folder"
+msgstr "ಆಯ್ಕೆಯ ಸಾಧನ ಡೌನ್‌ಲೋಡ್ ಇಮೇಜ್ ಫೋಲ್ಡರ್"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "ಬಿಟ್ರೇಟ್ ಅನ್ನು Kb/s ಅಥವಾ Mb/s ನಲ್ಲಿ ತೋರಿಸಲಾಗಿದೆಯೇ ಎಂಬುದನ್ನು ಆರಿಸಿ."
 
 msgid "City"
 msgstr "ನಗರ"
@@ -139,16 +173,13 @@ msgid "Color Style:"
 msgstr "ಬಣ್ಣದ ಶೈಲಿ:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "ಸ್ವಯಂಚಾಲಿತ ಪೋಸ್ಟರ್ ಡೌನ್‌ಲೋಡ್ ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ವಿಳಂಬ ಸಮಯವನ್ನು (ನಿಮಿಷಗಳಲ್ಲಿ) ಕಾನ್ಫಿಗರ್ ಮಾಡಿ"
+msgstr "ಸ್ವಯಂಚಾಲಿತ ಪೋಸ್ಟರ್ ಡೌನ್‌ಲೋಡ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ವಿಳಂಬ ಸಮಯವನ್ನು (ನಿಮಿಷಗಳಲ್ಲಿ) ಕಾನ್ಫಿಗರ್ ಮಾಡಿ"
 
 msgid "Crimson"
 msgstr "ಕಡುಗೆಂಪು"
 
 msgid "Customization tool for %s Skin"
 msgstr "%s ಸ್ಕಿನ್‌ಗಾಗಿ ಗ್ರಾಹಕೀಕರಣ ಸಾಧನ"
-
-msgid "Dark Green"
-msgstr "ಗಾಢ ಹಸಿರು"
 
 msgid "Default"
 msgstr "ಡೀಫಾಲ್ಟ್"
@@ -162,8 +193,8 @@ msgstr "ಅಳಿಸಿ"
 msgid "Download error: {}"
 msgstr "ಡೌನ್‌ಲೋಡ್ ದೋಷ: {}"
 
-msgid "Download in progress"
-msgstr "ಡೌನ್‌ಲೋಡ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ"
+msgid "Download in progress…"
+msgstr "ಡೌನ್‌ಲೋಡ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ..."
 
 msgid "Download now backdrop"
 msgstr "ಈಗ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
@@ -174,8 +205,17 @@ msgstr "ಈಗ ಪೋಸ್ಟರ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
 msgid "Downloading Aglare..."
 msgstr "ಅಗ್ಲೇರ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
 
+msgid "ECM Short Format:"
+msgstr "ECM ಕಿರು ಸ್ವರೂಪ:"
+
 msgid "Edit"
 msgstr "ಸಂಪಾದಿಸು"
+
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "EMC ಪರದೆಗಳ ಶೈಲಿ:"
 
 msgid "Enable Display Genre icons:"
 msgstr "ಪ್ರದರ್ಶನ ಪ್ರಕಾರದ ಐಕಾನ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ:"
@@ -186,26 +226,32 @@ msgstr "ಪ್ರದರ್ಶನ ಮಾಹಿತಿ ಘಟನೆಗಳನ್ನ�
 msgid "Enable Display XMC Poster:"
 msgstr "ಪ್ರದರ್ಶನ XMC ಪೋಸ್ಟರ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "ಬಂಡಲ್ ಮಾಡಿದ E2iPlayer ಪರದೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "ಪುನರಾವರ್ತಿತ ಹುಡುಕಾಟಗಳನ್ನು ವೇಗಗೊಳಿಸಲು ಈವೆಂಟ್ ಡೌನ್‌ಲೋಡ್ ಸಮಯದಲ್ಲಿ ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
+
 msgid "Enable Parental Icons:"
 msgstr "ಪೋಷಕ ಚಿಹ್ನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ:"
 
 msgid "Enable Rating Star:"
 msgstr "ರೇಟಿಂಗ್ ಸ್ಟಾರ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "ಪುನರಾವರ್ತಿತ ಹುಡುಕಾಟಗಳನ್ನು ವೇಗಗೊಳಿಸಲು ಈವೆಂಟ್ ಡೌನ್‌ಲೋಡ್ ಸಮಯದಲ್ಲಿ ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "ಮಾಹಿತಿ ವಿಜೆಟ್‌ನಲ್ಲಿ ಪೂರ್ಣ ಪಾತ್ರವರ್ಗ, ಸಿಬ್ಬಂದಿ, ಕಥಾವಸ್ತುವಿನ ವಿವರಗಳು ಮತ್ತು ಇತರ ಮೆಟಾಡೇಟಾ ಸೇರಿದಂತೆ ವಿಸ್ತೃತ ಈವೆಂಟ್ ಮಾಹಿತಿಯ ಪ್ರದರ್ಶನವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
+
+msgid "Error {0}: {1}"
+msgstr "ದೋಷ {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "ಸ್ಕಿನ್ ಫೈಲ್ ಅನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಲ್ಲಿ ದೋಷ: {}"
 
 msgid "Error downloading files!"
 msgstr "ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ!"
 
 msgid "Error loading: {}"
 msgstr "ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {}"
-
-msgid "Error {0}: {1}"
-msgstr "ದೋಷ {0}: {1}"
 
 msgid "Error: {}"
 msgstr "ದೋಷ: {}"
@@ -217,28 +263,40 @@ msgid "EventView_7_Posters"
 msgstr "EventView_7_ಪೋಸ್ಟರ್‌ಗಳು"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posters"
 
 msgid "Exit"
 msgstr "ನಿರ್ಗಮಿಸಿ"
 
-msgid "File Commander - Addon"
-msgstr "ಫೈಲ್ ಕಮಾಂಡರ್ - Addon"
-
 msgid "File {} not found or empty"
 msgstr "ಫೈಲ್ {} ಕಂಡುಬಂದಿಲ್ಲ ಅಥವಾ ಖಾಲಿಯಾಗಿದೆ"
+
+msgid "File Commander - Addon"
+msgstr "ಫೈಲ್ ಕಮಾಂಡರ್ - Addon"
 
 msgid "Green"
 msgstr "ಹಸಿರು"
 
+msgid "Green2"
+msgstr "ಹಸಿರು 2"
+
 msgid "Greta"
 msgstr "ಗ್ರೇಟಾ"
+
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "ಹೊಸ ಸ್ಕಿನ್ ಅನ್ನು ಅನ್ವಯಿಸಲು GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸುವ ಅಗತ್ಯವಿದೆ.\nನೀವು ಇದೀಗ GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲು ಬಯಸುವಿರಾ?"
 
 msgid "HandelGotD"
 msgstr "ಹ್ಯಾಂಡೆಲ್‌ಗಾಟ್‌ಡಿ"
 
+msgid "Image Compatibility Group:"
+msgstr "ಚಿತ್ರ ಹೊಂದಾಣಿಕೆ ಗುಂಪು:"
+
+msgid "imperial system"
+msgstr "ಸಾಮ್ರಾಜ್ಯಶಾಹಿ ವ್ಯವಸ್ಥೆ"
+
 msgid "Import key {0} from {1}?"
-msgstr "{1} ನಿಂದ ಕೀ {0} ಅನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳುವುದೇ?"
+msgstr "{1} ರಿಂದ {0} ಕೀಲಿಯನ್ನು ಆಮದು ಮಾಡುವುದೇ?"
 
 msgid "Info..."
 msgstr "ಮಾಹಿತಿ..."
@@ -247,7 +305,7 @@ msgid "InfoBar Date:"
 msgstr "ಮಾಹಿತಿ ಬಾರ್ ದಿನಾಂಕ:"
 
 msgid "InfoBar ECM:"
-msgstr ""
+msgstr "InfoBar ECM:"
 
 msgid "InfoBar PosterX:"
 msgstr "ಇನ್ಫೋಬಾರ್ ಪೋಸ್ಟರ್ಎಕ್ಸ್:"
@@ -259,13 +317,13 @@ msgid "InfoBar Weather:"
 msgstr "ಇನ್ಫೋಬಾರ್ ಹವಾಮಾನ:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "InfoBar Xtraevent:"
 
 msgid "Infobar_Date"
 msgstr "ಮಾಹಿತಿಪಟ್ಟಿ_ದಿನಾಂಕ"
 
 msgid "Infobar_MSNWeather"
-msgstr ""
+msgstr "Infobar_MSNWeather"
 
 msgid "Infobar_NO_Date"
 msgstr "ಮಾಹಿತಿಪಟ್ಟಿ_NO_ದಿನಾಂಕ"
@@ -274,7 +332,7 @@ msgid "Infobar_NO_Weather"
 msgstr "ಮಾಹಿತಿಪಟ್ಟಿ_NO_ಹವಾಮಾನ"
 
 msgid "Infobar_OAWeather"
-msgstr ""
+msgstr "Infobar_OAWeather"
 
 msgid "Ins Line"
 msgstr "ಇನ್ಸ್ ಲೈನ್"
@@ -282,14 +340,17 @@ msgstr "ಇನ್ಸ್ ಲೈನ್"
 msgid "Installing updates..."
 msgstr "ನವೀಕರಣಗಳನ್ನು ಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ..."
 
-msgid "Key empty"
-msgstr "ಕೀ ಖಾಲಿಯಾಗಿದೆ"
-
 msgid "Key {} successfully loaded!"
 msgstr "ಕೀ {} ಯಶಸ್ವಿಯಾಗಿ ಲೋಡ್ ಆಗಿದೆ!"
 
+msgid "Key empty"
+msgstr "ಕೀ ಖಾಲಿಯಾಗಿದೆ"
+
 msgid "KhalidArtboldRegular"
 msgstr "ಖಾಲಿದ್ ಆರ್ಟ್ಬೋಲ್ಡ್ ರೆಗ್ಯುಲರ್"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "ಕಿಲೋಬಿಟ್/ಸೆ (ಕೆಬಿ/ಸೆ)"
 
 msgid "LightGray"
 msgstr "ತಿಳಿ ಬೂದು"
@@ -297,14 +358,29 @@ msgstr "ತಿಳಿ ಬೂದು"
 msgid "LimeGreen"
 msgstr "ನಿಂಬೆಹಸಿರು"
 
-msgid "Load from /tmp/{}key.txt"
-msgstr "/tmp/{}key.txt ನಿಂದ ಲೋಡ್ ಮಾಡಿ"
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "ಸ್ಥಳೀಯ ನಿರ್ಮಾಣ ({}) ಸರ್ವರ್ ಬಿಲ್ಡ್ ({}) ಗಿಂತ ಹೊಸದು."
 
 msgid "Location code"
 msgstr "ಸ್ಥಳ ಕೋಡ್"
+
+msgid "Lucida"
+msgstr "ಲೂಸಿಡಾ"
+
+msgid "Magenta"
+msgstr "ಮೆಜೆಂಟಾ"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "ಮೆಗಾಬಿಟ್/ಸೆ (Mb/s)"
+
+msgid "metric system"
+msgstr "ಮೆಟ್ರಿಕ್ ವ್ಯವಸ್ಥೆ"
+
+msgid "Mint"
+msgstr "ಮಿಂಟ್"
+
+msgid "Mix1"
+msgstr "ಮಿಶ್ರಣ 1"
 
 msgid "MSN location search result"
 msgstr "MSN ಸ್ಥಳ ಹುಡುಕಾಟ ಫಲಿತಾಂಶ"
@@ -312,14 +388,14 @@ msgstr "MSN ಸ್ಥಳ ಹುಡುಕಾಟ ಫಲಿತಾಂಶ"
 msgid "MV Boli"
 msgstr "ಎಂವಿ ಬೋಲಿ"
 
-msgid "Magenta"
-msgstr "ಮೆಜೆಂಟಾ"
-
-msgid "Mint"
-msgstr "ಮಿಂಟ್"
-
 msgid "No active providers enabled"
 msgstr "ಯಾವುದೇ ಸಕ್ರಿಯ ಪೂರೈಕೆದಾರರನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿಲ್ಲ"
+
+msgid "No description available for this option."
+msgstr "ಈ ಆಯ್ಕೆಗೆ ಯಾವುದೇ ವಿವರಣೆ ಲಭ್ಯವಿಲ್ಲ."
+
+msgid "Off"
+msgstr "ಆಫ್"
 
 msgid "OFF"
 msgstr "ಆಫ್ ಆಗಿದೆ"
@@ -333,17 +409,23 @@ msgstr "OMDB ಮಾತ್ರ"
 msgid "ON"
 msgstr "ಆನ್ ಆಗಿದೆ"
 
-msgid "Off"
-msgstr "ಆಫ್"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "ಆನ್/ಆಫ್ SubsSupportPro ಸ್ಕಿನ್‌ಗಳು."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (ಹೊಸ ಚಿತ್ರಗಳ ಗುಂಪು)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (OpenPLi ಗುಂಪು)"
 
 msgid "Orange"
 msgstr "ಕಿತ್ತಳೆ"
 
-msgid "Personal API key for {}"
-msgstr "{} ಗಾಗಿ ವೈಯಕ್ತಿಕ API ಕೀ"
-
 msgid "Pink"
 msgstr "ಗುಲಾಬಿ"
+
+msgid "play/show Files"
+msgstr "ಫೈಲ್‌ಗಳನ್ನು ಪ್ಲೇ ಮಾಡಿ/ತೋರಿಸಿ"
 
 msgid "Please enter a valid city name."
 msgstr "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ನಗರದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
@@ -353,6 +435,9 @@ msgstr "ದಯವಿಟ್ಟು ನಗರಕ್ಕಾಗಿ ಮಾನ್ಯವ�
 
 msgid "Poster download error: {}"
 msgstr "ಪೋಸ್ಟರ್ ಡೌನ್‌ಲೋಡ್ ದೋಷ: {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "ಪೋಸ್ಟರ್ ಡೌನ್‌ಲೋಡ್ 2 ನಿಮಿಷಗಳಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ.\nನೀವು ಈ ಮೆನುವಿನಿಂದ ಸುರಕ್ಷಿತವಾಗಿ ನಿರ್ಗಮಿಸಬಹುದು."
 
 msgid "Purple"
 msgstr "ನೇರಳೆ"
@@ -394,10 +479,67 @@ msgid "SecondInfobar Weather:"
 msgstr "ಎರಡನೇ ಇನ್ಫೋಬಾರ್ ಹವಾಮಾನ:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "SecondInfobar Xtraevent:"
 
 msgid "Segoe UI light"
 msgstr "ಸಿಗೋ ಯುಐ ಲೈಟ್"
+
+msgid "Select channel list event description color."
+msgstr "ಚಾನಲ್ ಪಟ್ಟಿ ಈವೆಂಟ್ ವಿವರಣೆ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select channel list foreground color."
+msgstr "ಚಾನಲ್ ಪಟ್ಟಿಯ ಮುಂಭಾಗದ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select channel list selected foreground color."
+msgstr "ಚಾನಲ್ ಪಟ್ಟಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿದ ಮುಂಭಾಗದ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select channel selection screen style."
+msgstr "ಚಾನಲ್ ಆಯ್ಕೆ ಪರದೆಯ ಶೈಲಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select EMC style."
+msgstr "EMC ಶೈಲಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select event view screen style."
+msgstr "ಈವೆಂಟ್ ವೀಕ್ಷಣೆ ಪರದೆಯ ಶೈಲಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "ಇನ್ಫೋಬಾರ್ ಲೇಔಟ್ ಆಯ್ಕೆಮಾಡಿ. Style5 ECM ಅನ್ನು ಆಫ್ ಮಾಡುತ್ತದೆ ಮತ್ತು OFF/CD ಪೋಸ್ಟರ್ ಮೋಡ್‌ಗಳನ್ನು ಮಾತ್ರ ಅನುಮತಿಸುತ್ತದೆ. Style6 ECM, PosterX, ಮತ್ತು Xtraevent ಆಫ್ ಮಾಡಲು ಒತ್ತಾಯಿಸುತ್ತದೆ."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ಇನ್ಫೋಬಾರ್ಗಾಗಿ ಪೋಸ್ಟರ್ಎಕ್ಸ್ ಡಿಸ್ಪ್ಲೇ ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ. ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳು ಆಯ್ಕೆಮಾಡಿದ ಇನ್ಫೋಬಾರ್ ಶೈಲಿ ಮತ್ತು ECM ಮೋಡ್ ಅನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ."
+
+msgid "Select second infobar layout."
+msgstr "ಎರಡನೇ ಇನ್ಫೋಬಾರ್ ಲೇಔಟ್ ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select selected channel event description color."
+msgstr "ಆಯ್ಕೆಮಾಡಿದ ಚಾನಲ್ ಈವೆಂಟ್ ವಿವರಣೆ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select the base skin layout file."
+msgstr "ಬೇಸ್ ಸ್ಕಿನ್ ಲೇಔಟ್ ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select the font package used by the generated skin."
+msgstr "ರಚಿಸಿದ ಸ್ಕಿನ್ ಬಳಸುವ ಫಾಂಟ್ ಪ್ಯಾಕೇಜ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select the main color preset used by the skin."
+msgstr "ಚರ್ಮವು ಬಳಸುವ ಮುಖ್ಯ ಬಣ್ಣದ ಪೂರ್ವನಿಗದಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "ಟಾರ್ಗೆಟ್ ಇಮೇಜ್ ಬೇಸ್ ಗ್ರೂಪ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ (OpenPLi vs ಇತರೆ)."
+
+msgid "Select volume bar style."
+msgstr "ವಾಲ್ಯೂಮ್ ಬಾರ್ ಶೈಲಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select weather provider display for the infobar."
+msgstr "ಇನ್ಫೋಬಾರ್‌ಗಾಗಿ ಹವಾಮಾನ ಪೂರೈಕೆದಾರರ ಪ್ರದರ್ಶನವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "ಎರಡನೇ ಇನ್ಫೋಬಾರ್‌ಗಾಗಿ ಹವಾಮಾನ ಪೂರೈಕೆದಾರರ ಪ್ರದರ್ಶನವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "ಚರ್ಮವು ಶಾರ್ಟ್ ಮೈಮುಪಾರಾವನ್ನು ಬಳಸುವಾಗ ಯಾವ ECM ಕ್ಷೇತ್ರಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ಇನ್ಫೋಬಾರ್‌ಗಾಗಿ XtraEvent ಡಿಸ್ಪ್ಲೇ ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳು ಆಯ್ಕೆಮಾಡಿದ ಇನ್ಫೋಬಾರ್ ಶೈಲಿ ಮತ್ತು ECM ಮೋಡ್ ಅನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ."
 
 msgid "Select Your Font:"
 msgstr "ನಿಮ್ಮ ಫಾಂಟ್ ಆಯ್ಕೆಮಾಡಿ:"
@@ -414,8 +556,23 @@ msgstr "Apikey ಸರ್ವರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 msgid "Setup Aglare Skin Info"
 msgstr "ಅಗ್ಲೇರ್ ಸ್ಕಿನ್ ಮಾಹಿತಿಯನ್ನು ಸೆಟಪ್ ಮಾಡಿ"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "{0} v.{1}\n\n ಗಾಗಿ Aglare Skin\n ಅನ್ನು ಹೊಂದಿಸಿ ಲುಲುಲ್ಲಾ @2020\n\nlinuxsat-support.com\n\nSkinner ರಚನೆಕಾರ: Odem2014 ನಲ್ಲಿ ಬೆಂಬಲ ವೇದಿಕೆ"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "ಪ್ರತಿ ಈವೆಂಟ್‌ನ ಪ್ರಕಾರವನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಐಕಾನ್‌ಗಳನ್ನು ತೋರಿಸಿ (ಉದಾ., ಆಕ್ಷನ್, ಹಾಸ್ಯ, ನಾಟಕ)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "ಮಾಹಿತಿಪಟ್ಟಿಯಲ್ಲಿ ECM ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "ಎರಡನೇ ಇನ್ಫೋಬಾರ್ನಲ್ಲಿ ಪೋಸ್ಟರ್ಎಕ್ಸ್ ಅನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "ಮಾಹಿತಿಪಟ್ಟಿಯಲ್ಲಿ ದಿನಾಂಕ ಫಲಕವನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "ಎರಡನೇ ಮಾಹಿತಿಪಟ್ಟಿಯಲ್ಲಿ XtraEvent ಅನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "ವಿಷಯ ರೇಟಿಂಗ್ ಮತ್ತು ವಯಸ್ಸಿನ ಸೂಕ್ತತೆಯನ್ನು ಸೂಚಿಸಲು ಈವೆಂಟ್‌ಗಳಲ್ಲಿ ಪೋಷಕರ ಮಾರ್ಗದರ್ಶನ ಐಕಾನ್‌ಗಳನ್ನು ತೋರಿಸಿ."
@@ -432,6 +589,21 @@ msgstr "ಚರ್ಮದ ಶೈಲಿ:"
 msgid "SnowWhite"
 msgstr "ಸ್ನೋವೈಟ್"
 
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "ಮೂಲ + ಕೈಡ್ + ರೀಡರ್ + ಪ್ರೋಟೋಕಾಲ್ + ಸರ್ವರ್ + ಪೋರ್ಟ್ + ಇಸಿಎಂ ಸಮಯ"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "ಮೂಲ + ಕೈಡ್ + ರೀಡರ್ + ಇಸಿಎಂ ಸಮಯ"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "ಮೂಲ + Prov + Caid + ECM ಸಮಯ"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "ಮೂಲ + ಪ್ರೊವ್ + ಕೈಡ್ + ಪ್ರೋಟೋಕಾಲ್ + ಸರ್ವರ್ + ಪೋರ್ಟ್ + ಇಸಿಎಂ ಸಮಯ"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "ಮೂಲ + ಪ್ರೊವ್ + ಕೈಡ್ + ಸರ್ವರ್ + ಪೋರ್ಟ್ + ಇಸಿಎಂ ಸಮಯ"
+
 msgid "Start downloading backdrop immediately"
 msgstr "ತಕ್ಷಣವೇ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಪ್ರಾರಂಭಿಸಿ"
 
@@ -439,7 +611,7 @@ msgid "Start downloading poster immediately"
 msgstr "ಪೋಸ್ಟರ್ ಅನ್ನು ತಕ್ಷಣವೇ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಪ್ರಾರಂಭಿಸಿ"
 
 msgid "SteelBlue"
-msgstr "ಉಕ್ಕಿನ ನೀಲಿ"
+msgstr "ಸ್ಟೀಲ್ಬ್ಲೂ"
 
 msgid "Style2"
 msgstr "ಶೈಲಿ2"
@@ -450,17 +622,29 @@ msgstr "ಶೈಲಿ 3"
 msgid "Style4"
 msgstr "ಶೈಲಿ 4"
 
+msgid "Style5 CD"
+msgstr "ಸ್ಟೈಲ್ 5 ಸಿಡಿ"
+
+msgid "Style6"
+msgstr "ಶೈಲಿ 6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "E2iplayer ಸ್ಕಿನ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಿ:"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "ಬೆಂಬಲ InfoBar SoftCSA:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "ಬೆಂಬಲ SubsSupportPro ಚರ್ಮಗಳು:"
 
 msgid "System"
 msgstr "ವ್ಯವಸ್ಥೆ"
 
-msgid "TMDB Only"
-msgstr "TMDB ಮಾತ್ರ"
-
 msgid "Teal"
 msgstr "ಟೀಲ್"
+
+msgid "TEST"
+msgstr "ಪರೀಕ್ಷೆ"
 
 msgid "The file %s is empty."
 msgstr "%s ಫೈಲ್ ಖಾಲಿಯಾಗಿದೆ."
@@ -468,17 +652,23 @@ msgstr "%s ಫೈಲ್ ಖಾಲಿಯಾಗಿದೆ."
 msgid "The file %s was not found."
 msgstr "%s ಫೈಲ್ ಕಂಡುಬಂದಿಲ್ಲ."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "/tmp.\nನಲ್ಲಿ ಅಪ್‌ಡೇಟ್ ಫೈಲ್ ಕಂಡುಬಂದಿಲ್ಲ, ಅಪ್‌ಡೇಟ್ ಸ್ಥಗಿತಗೊಂಡಿದೆ."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "ಈ ಕಾರ್ಯಾಚರಣೆಯು ಚಿತ್ರವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧನದ ಮಾರ್ಗ ಫೋಲ್ಡರ್ ಅನ್ನು ನಿಯೋಜಿಸುತ್ತದೆ (ಪೋಸ್ಟರ್-ಬ್ಯಾಕ್‌ಡ್ರಾಪ್)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "ಈ ಕಾರ್ಯಾಚರಣೆಯು ಆಯ್ದ ರೇಟಿಂಗ್ ಮೂಲವನ್ನು ಆಧರಿಸಿ ಈವೆಂಟ್‌ಗಳಿಗೆ ರೇಟಿಂಗ್ ಸ್ಟಾರ್‌ಗಳ ಪ್ರದರ್ಶನವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "ಈ ಕಾರ್ಯಾಚರಣೆಯು ಫೋಲ್ಡರ್ ಸಾಧನದಿಂದ ಎಲ್ಲಾ png ಅನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ (ಪೋಸ್ಟರ್-ಬ್ಯಾಕ್‌ಡ್ರಾಪ್)"
 
+msgid "TMDB Only"
+msgstr "TMDB ಮಾತ್ರ"
+
 msgid "Tomato"
 msgstr "ಟೊಮೆಟೊ"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "ಅಪ್‌ಡೇಟ್ URL ಅನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗಿಲ್ಲ ಪ್ಲಗಿನ್‌ಗಳ ಮೆನುವಿನಿಂದ ಒಮ್ಮೆ ಪ್ಲಗಿನ್ ತೆರೆಯಿರಿ."
 
 msgid "Update check failed: {}"
 msgstr "ನವೀಕರಣ ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ: {}"
@@ -486,8 +676,17 @@ msgstr "ನವೀಕರಣ ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದ�
 msgid "Update package not found!"
 msgstr "ನವೀಕರಣ ಪ್ಯಾಕೇಜ್ ಕಂಡುಬಂದಿಲ್ಲ!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL ಅನ್ನು ನವೀಕರಿಸಲಾಗಿಲ್ಲ - ಪ್ಲಗಿನ್‌ಗಳ ಮೆನುವಿನಿಂದ ಮೊದಲು ಪ್ಲಗಿನ್ ಅನ್ನು ತೆರೆಯಿರಿ."
+
+msgid "volume2"
+msgstr "ಸಂಪುಟ2"
+
 msgid "VolumeBar Style:"
 msgstr "ವಾಲ್ಯೂಮ್‌ಬಾರ್ ಶೈಲಿ:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "ಎಚ್ಚರಿಕೆ: ನೀವು ಡೀಫಾಲ್ಟ್ API ಕೀಗಳನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ!\nಪ್ಲಗಿನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ನಿಮ್ಮ ಸ್ವಂತ API ಕೀಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲು ನಾವು ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: ಎಡಿಟ್ ಎಂಟ್ರಿ"
@@ -507,14 +706,3 @@ msgstr "ನೀವು ಈಗಾಗಲೇ ಇತ್ತೀಚಿನ ಆವೃತ್
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "ನೀವು ಸ್ಥಳ ಕೋಡ್ ಅನ್ನು ಹುಡುಕುವ ಮೊದಲು ನೀವು ಮಾನ್ಯವಾದ ನಗರದ ಹೆಸರನ್ನು ನಮೂದಿಸಬೇಕು."
 
-msgid "imperial system"
-msgstr "ಸಾಮ್ರಾಜ್ಯಶಾಹಿ ವ್ಯವಸ್ಥೆ"
-
-msgid "metric system"
-msgstr "ಮೆಟ್ರಿಕ್ ವ್ಯವಸ್ಥೆ"
-
-msgid "play/show Files"
-msgstr "ಫೈಲ್‌ಗಳನ್ನು ಪ್ಲೇ ಮಾಡಿ/ತೋರಿಸಿ"
-
-msgid "volume2"
-msgstr "ಸಂಪುಟ2"

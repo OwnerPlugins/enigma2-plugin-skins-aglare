@@ -1,14 +1,23 @@
+# vi translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: vi <ekekaz@gmail.com>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] Thao tác này sẽ kiểm tra xem skin có các thành phần của nó hay không (không được đảm bảo)...\nBạn có thực sự muốn tiếp tục không?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Thao tác này sẽ xóa tất cả PNG khỏi thư mục thiết bị (Poster-Backdrop)...\nBạn có thực sự muốn tiếp tục không?"
 
 msgid "%s key imported!"
 msgstr "Đã nhập khóa %s!"
@@ -16,26 +25,26 @@ msgstr "Đã nhập khóa %s!"
 msgid "1 poster"
 msgstr "1 áp phích"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "Kích hoạt/Tắt ELCINema"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "Kích hoạt hoặc hủy kích hoạt ELCINEMA với tư cách là nhà cung cấp siêu dữ liệu."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "Kích hoạt/Vô hiệu hóa GOOGLE"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "Kích hoạt hoặc hủy kích hoạt GOOGLE với tư cách là nhà cung cấp siêu dữ liệu."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Kích hoạt/Tắt IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "Kích hoạt hoặc hủy kích hoạt IMDB với tư cách là nhà cung cấp siêu dữ liệu."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "Kích hoạt/Hủy kích hoạt MOLOTOV"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "Kích hoạt hoặc hủy kích hoạt MOLOTOV với tư cách là nhà cung cấp siêu dữ liệu."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Kích hoạt/Tắt CHƯƠNG TRÌNH"
-
-msgid "Activate/Deactivate {}"
-msgstr "Kích hoạt/Tắt kích hoạt {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "Kích hoạt hoặc hủy kích hoạt PROGRAMMETV với tư cách là nhà cung cấp siêu dữ liệu."
 
 msgid "Add"
 msgstr "Thêm vào"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "Cập nhật Aglare đã hoàn tất!\nBạn có muốn khởi động lại GUI ngay bây giờ không?"
 
 msgid "All png are removed from folder!"
 msgstr "Tất cả png đều bị xóa khỏi thư mục!"
@@ -64,8 +73,14 @@ msgstr "Phông nền"
 msgid "Backdrop download error: {}"
 msgstr "Lỗi tải xuống phông nền: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Quá trình tải xuống phông nền sẽ bắt đầu sau 2 phút.\nBạn có thể thoát khỏi menu này một cách an toàn."
+
 msgid "BebasNeue"
 msgstr "FreeNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Đơn vị tốc độ bit:"
 
 msgid "Black"
 msgstr "Đen"
@@ -76,8 +91,17 @@ msgstr "Màu xanh da trời"
 msgid "Brown"
 msgstr "Màu nâu"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + Giao thức + Máy chủ + Thời gian ECM"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Đầu đọc + Giao thức + Máy chủ + Thời gian ECM"
+
 msgid "Cancel"
 msgstr "Hủy bỏ"
+
+msgid "CD"
+msgstr "đĩa CD"
 
 msgid "Channel Description Color:"
 msgstr "Màu mô tả kênh:"
@@ -97,20 +121,23 @@ msgstr "Kiểu lựa chọn kênh:"
 msgid "ChannelSelection_1_Poster_EX"
 msgstr "Lựa chọn kênh_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr "Lựa chọn kênh_1_Poster_X"
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "Lựa chọn kênh_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr "Lựa chọn kênh_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr "Lựa chọn kênh_4_Posters_X"
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "Lựa chọn kênh_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr "Lựa chọn kênh_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr "Lựa chọn kênh_6_Posters_X"
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "Lựa chọn kênh_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "Lựa chọn kênh_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr "KênhSelection_BackDrop_H_EX"
@@ -124,14 +151,20 @@ msgstr "KênhSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "KênhSelection_BackDrop_V_PX"
 
+msgid "ChannelSelection_big_mini_tv"
+msgstr "Lựa chọn kênh_big_mini_tv"
+
 msgid "ChannelSelection_NO_Posters"
 msgstr "Lựa chọn kênh_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "Lựa chọn kênh_NO_Posters_NO_Picon"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "Lựa chọn kênh_big_mini_tv"
+msgid "Choice device download image folder"
+msgstr "Lựa chọn thư mục hình ảnh tải xuống thiết bị"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Chọn xem tốc độ bit được hiển thị bằng Kb/s hay Mb/s."
 
 msgid "City"
 msgstr "Thành phố"
@@ -148,14 +181,11 @@ msgstr "màu đỏ thẫm"
 msgid "Customization tool for %s Skin"
 msgstr "Công cụ tùy chỉnh cho Skin %s"
 
-msgid "Dark Green"
-msgstr "Xanh đậm"
-
 msgid "Default"
 msgstr "Mặc định"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del Line"
 
 msgid "Delete"
 msgstr "Xóa bỏ"
@@ -163,8 +193,8 @@ msgstr "Xóa bỏ"
 msgid "Download error: {}"
 msgstr "Lỗi tải xuống: {}"
 
-msgid "Download in progress"
-msgstr "Đang tải xuống"
+msgid "Download in progress…"
+msgstr "Đang tải xuống…"
 
 msgid "Download now backdrop"
 msgstr "Tải xuống ngay phông nền"
@@ -175,8 +205,17 @@ msgstr "Tải xuống ngay áp phích"
 msgid "Downloading Aglare..."
 msgstr "Đang tải xuống Aglare..."
 
+msgid "ECM Short Format:"
+msgstr "Định dạng ngắn ECM:"
+
 msgid "Edit"
 msgstr "Biên tập"
+
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "Màn hình EMC Kiểu dáng:"
 
 msgid "Enable Display Genre icons:"
 msgstr "Bật biểu tượng Thể loại hiển thị:"
@@ -187,26 +226,32 @@ msgstr "Bật Thông tin hiển thị:"
 msgid "Enable Display XMC Poster:"
 msgstr "Bật hiển thị Poster XMC:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Bật hoặc tắt các màn hình E2iPlayer đi kèm."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Bật hoặc tắt bộ nhớ đệm trong quá trình tải xuống sự kiện để tăng tốc độ tìm kiếm lặp lại."
+
 msgid "Enable Parental Icons:"
 msgstr "Kích hoạt biểu tượng của phụ huynh:"
 
 msgid "Enable Rating Star:"
 msgstr "Bật xếp hạng sao:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Bật hoặc tắt bộ nhớ đệm trong quá trình tải xuống sự kiện để tăng tốc độ tìm kiếm lặp lại."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Cho phép hiển thị thông tin sự kiện mở rộng, bao gồm toàn bộ dàn diễn viên, đoàn làm phim, chi tiết cốt truyện và siêu dữ liệu khác trong tiện ích thông tin."
+
+msgid "Error {0}: {1}"
+msgstr "Lỗi {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Lỗi khi xử lý tệp giao diện: {}"
 
 msgid "Error downloading files!"
 msgstr "Lỗi tải file xuống!"
 
 msgid "Error loading: {}"
 msgstr "Lỗi tải: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Lỗi {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Lỗi: {}"
@@ -223,20 +268,32 @@ msgstr "Chế độ xem sự kiện_NO_Posters"
 msgid "Exit"
 msgstr "Ra"
 
-msgid "File Commander - Addon"
-msgstr "Chỉ huy tập tin - Addon"
-
 msgid "File {} not found or empty"
 msgstr "Tệp {} không tìm thấy hoặc trống"
+
+msgid "File Commander - Addon"
+msgstr "Chỉ huy tập tin - Addon"
 
 msgid "Green"
 msgstr "Màu xanh lá"
 
+msgid "Green2"
+msgstr "Xanh2"
+
 msgid "Greta"
-msgstr ""
+msgstr "Greta"
+
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "GUI cần khởi động lại để áp dụng giao diện mới.\nBạn có muốn Khởi động lại GUI ngay bây giờ không?"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "HandelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr "Nhóm tương thích hình ảnh:"
+
+msgid "imperial system"
+msgstr "hệ thống đế quốc"
 
 msgid "Import key {0} from {1}?"
 msgstr "Nhập khóa {0} từ {1}?"
@@ -269,7 +326,7 @@ msgid "Infobar_MSNWeather"
 msgstr "Thanh thông tin_MSNThời tiết"
 
 msgid "Infobar_NO_Date"
-msgstr "Thanh thông tin_NO_Ngày"
+msgstr "Thanh thông tin_NO_Date"
 
 msgid "Infobar_NO_Weather"
 msgstr "Thanh thông tin_NO_Thời tiết"
@@ -283,14 +340,17 @@ msgstr "Dòng Ins"
 msgid "Installing updates..."
 msgstr "Đang cài đặt bản cập nhật..."
 
-msgid "Key empty"
-msgstr "Chìa khóa trống"
-
 msgid "Key {} successfully loaded!"
 msgstr "Khóa {} đã được tải thành công!"
 
+msgid "Key empty"
+msgstr "Chìa khóa trống"
+
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldThường xuyên"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Kilobit/s (Kb/s)"
 
 msgid "LightGray"
 msgstr "Màu xám nhạt"
@@ -298,29 +358,44 @@ msgstr "Màu xám nhạt"
 msgid "LimeGreen"
 msgstr "vôimàu xanh lá cây"
 
-msgid "Load from /tmp/{}key.txt"
-msgstr "Tải từ /tmp/{}key.txt"
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Bản dựng cục bộ ({}) mới hơn bản dựng máy chủ ({})."
 
 msgid "Location code"
 msgstr "Mã vị trí"
 
-msgid "MSN location search result"
-msgstr "Kết quả tìm kiếm vị trí MSN"
-
-msgid "MV Boli"
-msgstr ""
+msgid "Lucida"
+msgstr "Lucida"
 
 msgid "Magenta"
 msgstr "Màu đỏ tươi"
 
+msgid "Megabit/s (Mb/s)"
+msgstr "Megabit/s (Mb/s)"
+
+msgid "metric system"
+msgstr "hệ mét"
+
 msgid "Mint"
 msgstr "bạc hà"
 
+msgid "Mix1"
+msgstr "Trộn1"
+
+msgid "MSN location search result"
+msgstr "Kết quả tìm kiếm vị trí MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "No active providers enabled"
 msgstr "Không có nhà cung cấp hoạt động nào được kích hoạt"
+
+msgid "No description available for this option."
+msgstr "Không có mô tả nào cho tùy chọn này."
+
+msgid "Off"
+msgstr "Tắt"
 
 msgid "OFF"
 msgstr "TẮT"
@@ -334,17 +409,23 @@ msgstr "Chỉ OMDB"
 msgid "ON"
 msgstr "TRÊN"
 
-msgid "Off"
-msgstr "Tắt"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "BẬT/TẮT SubsSupportPro Skins."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (Nhóm hình ảnh mới)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (Nhóm OpenPLi)"
 
 msgid "Orange"
 msgstr "Quả cam"
 
-msgid "Personal API key for {}"
-msgstr "Khóa API cá nhân cho {}"
-
 msgid "Pink"
 msgstr "Hồng"
+
+msgid "play/show Files"
+msgstr "phát/hiển thị tập tin"
 
 msgid "Please enter a valid city name."
 msgstr "Vui lòng nhập tên thành phố hợp lệ."
@@ -354,6 +435,9 @@ msgstr "Vui lòng nhập mã vị trí hợp lệ cho thành phố."
 
 msgid "Poster download error: {}"
 msgstr "Lỗi tải xuống áp phích: {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Quá trình tải xuống áp phích sẽ bắt đầu sau 2 phút.\nBạn có thể thoát khỏi menu này một cách an toàn."
 
 msgid "Purple"
 msgstr "Màu tím"
@@ -395,10 +479,67 @@ msgid "SecondInfobar Weather:"
 msgstr "Thời tiết của SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr "Sự kiện thứ haiInfobar Xtraevent:"
+msgstr "Sự kiện thứ haiInfobar Xtra:"
 
 msgid "Segoe UI light"
 msgstr "Đèn giao diện người dùng Segoe"
+
+msgid "Select channel list event description color."
+msgstr "Chọn màu mô tả sự kiện của danh sách kênh."
+
+msgid "Select channel list foreground color."
+msgstr "Chọn màu nền trước của danh sách kênh."
+
+msgid "Select channel list selected foreground color."
+msgstr "Chọn danh sách kênh màu nền trước đã chọn."
+
+msgid "Select channel selection screen style."
+msgstr "Chọn kiểu màn hình chọn kênh."
+
+msgid "Select EMC style."
+msgstr "Chọn kiểu EMC."
+
+msgid "Select event view screen style."
+msgstr "Chọn kiểu màn hình xem sự kiện."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Chọn bố cục thanh thông tin. Style5 buộc tắt ECM và chỉ cho phép các chế độ áp phích TẮT/CD. Style6 buộc tắt ECM, PosterX và Xtraevent."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Chọn chế độ hiển thị PosterX cho thanh thông tin. Các lựa chọn có sẵn tùy thuộc vào kiểu thanh thông tin đã chọn và chế độ ECM."
+
+msgid "Select second infobar layout."
+msgstr "Chọn bố cục thanh thông tin thứ hai."
+
+msgid "Select selected channel event description color."
+msgstr "Chọn màu mô tả sự kiện kênh đã chọn."
+
+msgid "Select the base skin layout file."
+msgstr "Chọn tập tin bố trí da cơ sở."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Chọn gói phông chữ được sử dụng bởi giao diện được tạo."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Chọn cài đặt trước màu chính được sử dụng bởi da."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Chọn nhóm cơ sở hình ảnh mục tiêu (OpenPLi so với nhóm khác)."
+
+msgid "Select volume bar style."
+msgstr "Chọn kiểu thanh âm lượng."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Chọn hiển thị nhà cung cấp thời tiết cho thanh thông tin."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "Chọn hiển thị nhà cung cấp thời tiết cho thanh thông tin thứ hai."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Chọn trường ECM nào được hiển thị khi giao diện sử dụng MYEMUPARA ngắn."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Chọn chế độ hiển thị XtraEvent cho thanh thông tin. Các lựa chọn có sẵn tùy thuộc vào kiểu thanh thông tin đã chọn và chế độ ECM."
 
 msgid "Select Your Font:"
 msgstr "Chọn phông chữ của bạn:"
@@ -415,8 +556,23 @@ msgstr "Cài đặt máy chủ Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Thiết lập thông tin da Aglare"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "Thiết lập Aglare Skin\nfor {0} v.{1}\n\nbởi Lululla @2020\n\nDiễn đàn hỗ trợ trên linuxsat-support.com\n\nSkinner Creator: Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Hiển thị các biểu tượng đại diện cho thể loại của từng sự kiện (ví dụ: hành động, hài, kịch)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "Hiển thị hoặc ẩn thông tin ECM trên thanh thông tin."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "Hiển thị hoặc ẩn PosterX trong thanh thông tin thứ hai."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Hiển thị hoặc ẩn bảng ngày trong thanh thông tin."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "Hiển thị hoặc ẩn XtraEvent trong thanh thông tin thứ hai."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Hiển thị biểu tượng hướng dẫn của phụ huynh về các sự kiện để cho biết mức xếp hạng nội dung và mức độ phù hợp với lứa tuổi."
@@ -425,13 +581,28 @@ msgid "Show poster from movie in local folder"
 msgstr "Hiển thị áp phích từ phim trong thư mục cục bộ"
 
 msgid "Sienna"
-msgstr ""
+msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Phong cách da:"
 
 msgid "SnowWhite"
 msgstr "Bạch Tuyết"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Nguồn + Caid + Reader + Giao thức + Máy chủ + Cổng + Thời gian ECM"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Nguồn + Caid + Reader + Thời gian ECM"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Nguồn + Prov + Caid + ECM Thời gian"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Nguồn + Prov + Caid + Giao thức + Máy chủ + Cổng + Thời gian ECM"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Nguồn + Prov + Caid + Máy chủ + Cổng + Thời gian ECM"
 
 msgid "Start downloading backdrop immediately"
 msgstr "Bắt đầu tải xuống phông nền ngay lập tức"
@@ -451,17 +622,29 @@ msgstr "Phong cách3"
 msgid "Style4"
 msgstr "phong cách4"
 
+msgid "Style5 CD"
+msgstr "CD phong cách5"
+
+msgid "Style6"
+msgstr "Phong Cách6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "Hỗ trợ giao diện E2iplayer:"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "Hỗ trợ InfoBar SoftCSA:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Hỗ trợ SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Hệ thống"
 
-msgid "TMDB Only"
-msgstr "Chỉ TMDB"
-
 msgid "Teal"
 msgstr "màu xanh mòng két"
+
+msgid "TEST"
+msgstr "BÀI KIỂM TRA"
 
 msgid "The file %s is empty."
 msgstr "Tệp %s trống."
@@ -469,17 +652,23 @@ msgstr "Tệp %s trống."
 msgid "The file %s was not found."
 msgstr "Không tìm thấy tập tin %s."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "Không tìm thấy tệp cập nhật trong /tmp.\nUpdate đã bị hủy."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Thao tác này gán thư mục đường dẫn thiết bị để tải ảnh xuống (Poster-Backdrop)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Thao tác này cho phép hiển thị số sao xếp hạng cho các sự kiện, dựa trên nguồn xếp hạng đã chọn."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Thao tác này sẽ xóa tất cả png khỏi thiết bị thư mục (Poster-Backdrop)"
 
+msgid "TMDB Only"
+msgstr "Chỉ TMDB"
+
 msgid "Tomato"
 msgstr "Cà chua"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "URL cập nhật chưa được khởi tạo, trước tiên hãy mở plugin một lần từ menu Plugin."
 
 msgid "Update check failed: {}"
 msgstr "Kiểm tra cập nhật không thành công: {}"
@@ -487,8 +676,17 @@ msgstr "Kiểm tra cập nhật không thành công: {}"
 msgid "Update package not found!"
 msgstr "Không tìm thấy gói cập nhật!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL cập nhật chưa được khởi tạo – trước tiên hãy mở plugin một lần từ menu Plugin."
+
+msgid "volume2"
+msgstr "tập2"
+
 msgid "VolumeBar Style:"
 msgstr "Kiểu thanh âm lượng:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Cảnh báo: Bạn đang sử dụng khóa API mặc định!\nChúng tôi thực sự khuyên bạn nên định cấu hình khóa API của riêng mình trong cài đặt plugin."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Chỉnh sửa mục nhập"
@@ -508,14 +706,3 @@ msgstr "Bạn đã có phiên bản mới nhất ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Bạn cần nhập tên thành phố hợp lệ trước khi có thể tìm kiếm mã vị trí."
 
-msgid "imperial system"
-msgstr "hệ thống đế quốc"
-
-msgid "metric system"
-msgstr "hệ mét"
-
-msgid "play/show Files"
-msgstr "phát/hiển thị tập tin"
-
-msgid "volume2"
-msgstr "tập2"

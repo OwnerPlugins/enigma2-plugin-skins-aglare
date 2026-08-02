@@ -1,13 +1,23 @@
+# tg translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Tajik <rkovacs@khujand.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tg <ekekaz@gmail.com>\n"
 "Language: tg\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Чинки] Ин амалиёт тафтиш мекунад, ки оё пӯст ҷузъҳои худро дорад (кафолат дода намешавад)...\nОё шумо воқеан мехоҳед идома диҳед?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Ин амалиёт ҳамаи PNG-ро аз ҷузвдони дастгоҳ нест мекунад (Плакат-Замин)...\nОё шумо дар ҳақиқат мехоҳед идома диҳед?"
 
 msgid "%s key imported!"
 msgstr "%s калид ворид карда шуд!"
@@ -15,26 +25,26 @@ msgstr "%s калид ворид карда шуд!"
 msgid "1 poster"
 msgstr "1 плакат"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "ELCINEMA-ро фаъол / ғайрифаъол кунед"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "ELCINEMA-ро ҳамчун провайдери метамаълумот фаъол ё ғайрифаъол кунед."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "GOOGLE-ро фаъол / ғайрифаъол кунед"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "GOOGLE-ро ҳамчун провайдери метамаълумот фаъол ё ғайрифаъол кунед."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "IMDB-ро фаъол / ғайрифаъол кунед"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "IMDB-ро ҳамчун провайдери метамаълумот фаъол ё ғайрифаъол кунед."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "МОЛОТОВ-ро фаъол/фаъол кунед"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "MOLOTOV-ро ҳамчун провайдери метамаълумот фаъол ё ғайрифаъол кунед."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "PROGRAMMETV-ро фаъол / ғайрифаъол кунед"
-
-msgid "Activate/Deactivate {}"
-msgstr "Фаъол/хомӯш кардани {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "PROGRAMMETV-ро ҳамчун провайдери метамаълумот фаъол ё ғайрифаъол кунед."
 
 msgid "Add"
 msgstr "Илова"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "Навсозии Aglare анҷом ёфт!\nОё шумо мехоҳед GUI-ро ҳозир бозоғоз намоед?"
 
 msgid "All png are removed from folder!"
 msgstr "Ҳама png аз ҷузвдон хориҷ карда шудаанд!"
@@ -49,7 +59,7 @@ msgid "Automatic download of poster"
 msgstr "Зеркашии автоматии плакат"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Ба таври худкор замина барои рӯйдодҳои дӯстдошта дар асоси EPG гиред"
+msgstr "Ба таври худкор замина барои рӯйдодҳои дӯстдоштаро дар асоси EPG гиред"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
 msgstr "Ба таври худкор плакатҳоро барои рӯйдодҳои дӯстдошта дар асоси EPG гиред"
@@ -63,8 +73,14 @@ msgstr "Замина"
 msgid "Backdrop download error: {}"
 msgstr "Хатогии зеркашии замина: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Зеркашии пасзамина пас аз 2 дақиқа оғоз мешавад.\nШумо метавонед аз ин меню бехатар берун равед."
+
 msgid "BebasNeue"
 msgstr "FreeNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Воҳиди суръати бит:"
 
 msgid "Black"
 msgstr "Сиёҳ"
@@ -75,8 +91,17 @@ msgstr "Кабуд"
 msgid "Brown"
 msgstr "Браун"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + протокол + сервер + ECM Time"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Reader + Протокол + Сервер + Вақти ECM"
+
 msgid "Cancel"
 msgstr "Бекор кардан"
+
+msgid "CD"
+msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Тавсифи канал Ранги:"
@@ -96,32 +121,38 @@ msgstr "Услуби интихоби канал:"
 msgid "ChannelSelection_1_Poster_EX"
 msgstr "Интихоби канал_1_Постер_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr "Интихоби канал_1_Постер_X"
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "Интихоби канал_1_Постер_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr "Интихоби канал_4_Постерҳо_X"
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr "Интихоби канал_6_Постерҳо_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr "Интихоби канал_6_Постерҳо_X"
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "Интихоби Channel_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "ChannelSelection_NO_Posters"
 msgstr "Интихоби Channel_NO_Плакатҳо"
@@ -129,8 +160,11 @@ msgstr "Интихоби Channel_NO_Плакатҳо"
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "Интихоби Channel_NO_Picon_NO_Picon"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgid "Choice device download image folder"
+msgstr "Интихоби дастгоҳи зеркашии ҷузвдони тасвир"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Интихоб кунед, ки суръати бит дар Кб/с ё Мб/с нишон дода мешавад."
 
 msgid "City"
 msgstr "Шаҳр"
@@ -147,14 +181,11 @@ msgstr "Арғувон"
 msgid "Customization tool for %s Skin"
 msgstr "Асбоби мутобиқсозӣ барои %s Skin"
 
-msgid "Dark Green"
-msgstr "Сабзи сиёҳ"
-
 msgid "Default"
 msgstr "Пешфарз"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del Line"
 
 msgid "Delete"
 msgstr "Нобуд кунед"
@@ -162,8 +193,8 @@ msgstr "Нобуд кунед"
 msgid "Download error: {}"
 msgstr "Хатои боргирӣ: {}"
 
-msgid "Download in progress"
-msgstr "Зеркашӣ идома дорад"
+msgid "Download in progress…"
+msgstr "Зеркашӣ идома дорад…"
 
 msgid "Download now backdrop"
 msgstr "Ҳоло замина зеркашӣ кунед"
@@ -172,10 +203,19 @@ msgid "Download now poster"
 msgstr "Ҳоло плакатро зеркашӣ кунед"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Downloading Aglare..."
+
+msgid "ECM Short Format:"
+msgstr "Формати кӯтоҳи ECM:"
 
 msgid "Edit"
 msgstr "Таҳрир"
+
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "Тарзи экранҳои EMC:"
 
 msgid "Enable Display Genre icons:"
 msgstr "Нишонаҳои жанри намоишро фаъол созед:"
@@ -186,26 +226,32 @@ msgstr "Намоиши InfoEvents-ро фаъол созед:"
 msgid "Enable Display XMC Poster:"
 msgstr "Намоиши плакати XMC-ро фаъол созед:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Экранҳои маҷмӯии E2iPlayer-ро фаъол ё ғайрифаъол кунед."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Барои суръат бахшидан ба ҷустуҷӯҳои такрорӣ кэшро ҳангоми зеркашии ҳодиса фаъол ё ғайрифаъол кунед."
+
 msgid "Enable Parental Icons:"
 msgstr "Нишонаҳои волидайнро фаъол созед:"
 
 msgid "Enable Rating Star:"
 msgstr "Ситораи рейтингро фаъол созед:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Барои суръат бахшидан ба ҷустуҷӯҳои такрорӣ кэшро ҳангоми зеркашии ҳодиса фаъол ё ғайрифаъол кунед."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Дар виҷети иттилоот намоиши маълумоти васеъи рӯйдод, аз ҷумла ҳайати пурра, экипаж, тафсилоти сюжет ва дигар метадотаҳоро фаъол созед."
+
+msgid "Error {0}: {1}"
+msgstr "Хатогӣ {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Хатогӣ ҳангоми коркарди файли пӯст: {}"
 
 msgid "Error downloading files!"
 msgstr "Хатогӣ ҳангоми зеркашии файлҳо!"
 
 msgid "Error loading: {}"
 msgstr "Хатогии боркунӣ: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Хатои {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Хатогӣ: {}"
@@ -217,25 +263,37 @@ msgid "EventView_7_Posters"
 msgstr "EventView_7_Плакатҳо"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posters"
 
 msgid "Exit"
 msgstr "Баромадгоҳ"
 
-msgid "File Commander - Addon"
-msgstr "Фармондеҳи файл - Addon"
-
 msgid "File {} not found or empty"
 msgstr "Файли {} ёфт нашуд ё холӣ"
+
+msgid "File Commander - Addon"
+msgstr "Фармондеҳи файл - Addon"
 
 msgid "Green"
 msgstr "Сабз"
 
+msgid "Green2"
+msgstr "Сабз 2"
+
 msgid "Greta"
 msgstr "Грета"
 
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "Барои татбиқ кардани пӯсти нав ба GUI бозоғоз лозим аст.\nОё шумо мехоҳед GUI-ро ҳозир бозоғоз кунед?"
+
 msgid "HandelGotD"
-msgstr ""
+msgstr "HandelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr "Гурӯҳи мутобиқати тасвирҳо:"
+
+msgid "imperial system"
+msgstr "системаи империалистй"
 
 msgid "Import key {0} from {1}?"
 msgstr "Калиди {0} аз {1} ворид карда шавад?"
@@ -250,7 +308,7 @@ msgid "InfoBar ECM:"
 msgstr "ECM InfoBar:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "InfoBar PosterX:"
 
 msgid "InfoBar Style:"
 msgstr "Услуби InfoBar:"
@@ -259,37 +317,40 @@ msgid "InfoBar Weather:"
 msgstr "Обу ҳавои InfoBar:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "InfoBar Xtraevent:"
 
 msgid "Infobar_Date"
 msgstr "Маълумот_Сана"
 
 msgid "Infobar_MSNWeather"
-msgstr ""
+msgstr "Infobar_MSNWeather"
 
 msgid "Infobar_NO_Date"
 msgstr "Infobar_NO_Сана"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Weather"
 
 msgid "Infobar_OAWeather"
 msgstr "Infobar_OAWҳаво"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins Line"
 
 msgid "Installing updates..."
 msgstr "Насб кардани навсозиҳо..."
 
-msgid "Key empty"
-msgstr "Калид холӣ"
-
 msgid "Key {} successfully loaded!"
 msgstr "Калиди {} бомуваффақият бор карда шуд!"
 
+msgid "Key empty"
+msgstr "Калид холӣ"
+
 msgid "KhalidArtboldRegular"
 msgstr "ХолидАртболд Мунтазам"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Килобит/с (Кб/с)"
 
 msgid "LightGray"
 msgstr "Хокистари равшан"
@@ -297,14 +358,29 @@ msgstr "Хокистари равшан"
 msgid "LimeGreen"
 msgstr "Оҳаки сабз"
 
-msgid "Load from /tmp/{}key.txt"
-msgstr "Аз /tmp/{}key.txt бор кунед"
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Сохтани маҳаллӣ ({}) аз сохтани сервер ({}) навтар аст."
 
 msgid "Location code"
 msgstr "Рамзи ҷойгиршавӣ"
+
+msgid "Lucida"
+msgstr "Лусида"
+
+msgid "Magenta"
+msgstr "Magenta"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "Мегабит/с (Мб/с)"
+
+msgid "metric system"
+msgstr "системаи метрӣ"
+
+msgid "Mint"
+msgstr "пудинагӣ"
+
+msgid "Mix1"
+msgstr "Омезиши 1"
 
 msgid "MSN location search result"
 msgstr "Натиҷаи ҷустуҷӯи макони MSN"
@@ -312,14 +388,14 @@ msgstr "Натиҷаи ҷустуҷӯи макони MSN"
 msgid "MV Boli"
 msgstr "М.В.Боли"
 
-msgid "Magenta"
-msgstr ""
-
-msgid "Mint"
-msgstr "пудинагӣ"
-
 msgid "No active providers enabled"
 msgstr "Ягон провайдери фаъол фаъол нашудааст"
+
+msgid "No description available for this option."
+msgstr "Барои ин хосият тавсифе дастрас нест."
+
+msgid "Off"
+msgstr "Хомӯш"
 
 msgid "OFF"
 msgstr "ХОМӮШ"
@@ -333,17 +409,23 @@ msgstr "Танҳо OMDB"
 msgid "ON"
 msgstr "ДАР БОРАИ"
 
-msgid "Off"
-msgstr "Хомӯш"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "Пӯстҳои SubsSupportPro ON/OFF."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (Гурӯҳи тасвирҳои нав)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (Гурӯҳи OpenPLi)"
 
 msgid "Orange"
 msgstr "норанҷӣ"
 
-msgid "Personal API key for {}"
-msgstr "Калиди API шахсӣ барои {}"
-
 msgid "Pink"
 msgstr "Гулобӣ"
+
+msgid "play/show Files"
+msgstr "Файлҳоро бозӣ/намоиш диҳед"
 
 msgid "Please enter a valid city name."
 msgstr "Лутфан номи дурусти шаҳрро ворид кунед."
@@ -354,11 +436,14 @@ msgstr "Лутфан рамзи ҷойгиршавии дурусти шаҳрр
 msgid "Poster download error: {}"
 msgstr "Хатои зеркашии плакат: {}"
 
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Зеркашии плакат пас аз 2 дақиқа оғоз мешавад.\nШумо метавонед аз ин меню бехатар хориҷ шавед."
+
 msgid "Purple"
-msgstr "Бунафш"
+msgstr "Арғувон"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Дар ҳақиқат ин Вуруди WeatherPlugin нест карда мешавад?"
+msgstr "Дар ҳақиқат ин Вуруди WeatherPlugin нест кунед?"
 
 msgid "Red"
 msgstr "Сурх"
@@ -367,7 +452,7 @@ msgid "Remove all png (poster - backdrop) (OK)"
 msgstr "Ҳама png-ро нест кунед (плакат - замина) (Хуб)"
 
 msgid "Restart GUI now?"
-msgstr "Ҳоло GUI-ро аз нав оғоз кунед?"
+msgstr "GUI-ро ҳоло аз нав оғоз кунед?"
 
 msgid "Save"
 msgstr "Захира кунед"
@@ -394,10 +479,67 @@ msgid "SecondInfobar Weather:"
 msgstr "Обу ҳавои SecondInfobar:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "SecondInfobar Xtraevent:"
 
 msgid "Segoe UI light"
 msgstr "Нури Segoe UI"
+
+msgid "Select channel list event description color."
+msgstr "Ранги тавсифи рӯйдодҳои рӯйхати каналҳоро интихоб кунед."
+
+msgid "Select channel list foreground color."
+msgstr "Ранги пеши рӯйхати каналҳоро интихоб кунед."
+
+msgid "Select channel list selected foreground color."
+msgstr "Рӯйхати каналҳоро интихоб кунед, ки ранги пешакии интихобшударо интихоб кунед."
+
+msgid "Select channel selection screen style."
+msgstr "Услуби экрани интихоби каналро интихоб кунед."
+
+msgid "Select EMC style."
+msgstr "Услуби EMC-ро интихоб кунед."
+
+msgid "Select event view screen style."
+msgstr "Услуби намоиши рӯйдодҳоро интихоб кунед."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Тарҳбандии панели маълумотро интихоб кунед. Style5 ECM-ро хомӯш мекунад ва танҳо ба шеваҳои плакатҳои CD OFF/CD иҷозат медиҳад. Style6 ECM, PosterX ва Xtraeventро хомӯш мекунад."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ҳолати намоиши PosterX-ро барои лавҳаи иттилоот интихоб кунед. Интихобҳои дастрас аз услуби интихобшудаи панели иттилоотӣ ва режими ECM вобастаанд."
+
+msgid "Select second infobar layout."
+msgstr "Тарҳбандии дуюми панели иттилоотиро интихоб кунед."
+
+msgid "Select selected channel event description color."
+msgstr "Ранги тавсифи рӯйдодҳои каналро интихоб кунед."
+
+msgid "Select the base skin layout file."
+msgstr "Файли тарҳбандии пӯсти асосиро интихоб кунед."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Бастаи шрифтро интихоб кунед, ки аз ҷониби пӯсти тавлидшуда истифода мешавад."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Ранги асосии пешакии пӯстро интихоб кунед."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Гурӯҳи асосии тасвири мақсаднокро интихоб кунед (OpenPLi против дигарон)."
+
+msgid "Select volume bar style."
+msgstr "Услуби сатри овозро интихоб кунед."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Намоиши провайдери обу ҳаворо барои лавҳаи маълумот интихоб кунед."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "Намоиши провайдери обу ҳаворо барои лавҳаи дуюми иттилоот интихоб кунед."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Интихоб кунед, ки кадом майдонҳои ECM ҳангоми истифодаи пӯст Short MYEMUPARA нишон дода мешаванд."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ҳолати намоиши XtraEvent -ро барои лавҳаи иттилоот интихоб кунед. Интихобҳои дастрас аз услуби интихобшудаи панели иттилоотӣ ва режими ECM вобастаанд."
 
 msgid "Select Your Font:"
 msgstr "Шрифти худро интихоб кунед:"
@@ -414,8 +556,23 @@ msgstr "Танзимоти Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Танзимоти Aglare Skin Info"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "Насб кардани Aglare Skin\nfor {0} v.{1}\n\n аз ҷониби Lululla @2020\n\nФоруми дастгирӣ дар linuxsat-support.com\n\nОфарандаи Skinner: Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Нишонаҳоеро нишон диҳед, ки жанри ҳар як ҳодисаро намояндагӣ мекунанд (масалан, амал, комедия, драма)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "Маълумоти ECM-ро дар лавҳаи иттилоот нишон диҳед ё пинҳон кунед."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "PosterX-ро дар лавҳаи дуюм нишон диҳед ё пинҳон кунед."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Панели санаро дар лавҳаи маълумот нишон диҳед ё пинҳон кунед."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "XtraEvent -ро дар лавҳаи дуюм нишон диҳед ё пинҳон кунед."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Нишонаҳои роҳнамоии волидайнро дар рӯйдодҳо нишон диҳед, то рейтинги мундариҷа ва мувофиқати синну солро нишон диҳанд."
@@ -432,6 +589,21 @@ msgstr "Услуби пӯст:"
 msgid "SnowWhite"
 msgstr "Сафеди барфи"
 
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Сарчашма + Caid + Reader + Протокол + Сервер + Порт + Вақти ECM"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Сарчашма + Caid + Reader + Time ECM"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Сарчашма + Prov + Caid + Вақти ECM"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Сарчашма + Prov + Caid + Протокол + Сервер + Порт + Вақти ECM"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Сарчашма + Prov + Caid + Сервер + Порт + Вақти ECM"
+
 msgid "Start downloading backdrop immediately"
 msgstr "Зеркашии замина фавран оғоз кунед"
 
@@ -439,7 +611,7 @@ msgid "Start downloading poster immediately"
 msgstr "Зеркашии плакатро фавран оғоз кунед"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "SteelBlue"
 
 msgid "Style2"
 msgstr "Услуб 2"
@@ -450,17 +622,29 @@ msgstr "Услуб 3"
 msgid "Style4"
 msgstr "Услуб 4"
 
+msgid "Style5 CD"
+msgstr "CD Style5"
+
+msgid "Style6"
+msgstr "Услуб 6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "Дастгирии пӯстҳои E2iplayer:"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "Дастгирии InfoBar SoftCSA:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Дастгирии пӯстҳои SubsSupportPro:"
 
 msgid "System"
 msgstr "Система"
 
-msgid "TMDB Only"
-msgstr "Танҳо TMDB"
-
 msgid "Teal"
-msgstr ""
+msgstr "Teal"
+
+msgid "TEST"
+msgstr "САНЧИШ"
 
 msgid "The file %s is empty."
 msgstr "Файли %s холӣ аст."
@@ -468,17 +652,23 @@ msgstr "Файли %s холӣ аст."
 msgid "The file %s was not found."
 msgstr "Файли %s ёфт нашуд."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "Файли навсозӣ дар /tmp.\nUpdate қатъ карда нашуд."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Ин амалиёт ҷузвдони роҳи дастгоҳро барои зеркашии тасвир таъин мекунад (Плакат-Замин)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Ин амалиёт имкон медиҳад, ки ситораҳои рейтинги рӯйдодҳо дар асоси манбаи рейтинги интихобшуда намоиш дода шаванд."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ин амалиёт ҳамаи png-ро аз дастгоҳи ҷузвдон нест мекунад (Плакат-Замин)"
 
+msgid "TMDB Only"
+msgstr "Танҳо TMDB"
+
 msgid "Tomato"
 msgstr "Помидор"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "URL-и навсозӣ оғоз карда нашудааст, аввал плагинро як маротиба аз менюи плагинҳо кушоед."
 
 msgid "Update check failed: {}"
 msgstr "Санҷиши навсозӣ ноком шуд: {}"
@@ -486,8 +676,17 @@ msgstr "Санҷиши навсозӣ ноком шуд: {}"
 msgid "Update package not found!"
 msgstr "Бастаи навсозӣ ёфт нашуд!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL-и навсозӣ оғоз нашудааст - аввал плагинро аз менюи плагинҳо як бор кушоед."
+
+msgid "volume2"
+msgstr "ҷилди 2"
+
 msgid "VolumeBar Style:"
 msgstr "Услуби VolumeBar:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Огоҳӣ: Шумо калидҳои API-и пешфарзро истифода мебаред!\nМо тавсия медиҳем, ки калидҳои API-и худро дар танзимоти плагин танзим кунед."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Таҳрири вуруд"
@@ -507,14 +706,3 @@ msgstr "Шумо аллакай версияи охирини ({}) доред."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Пеш аз ҷустуҷӯи рамзи ҷойгиршавӣ, шумо бояд номи дурусти шаҳрро ворид кунед."
 
-msgid "imperial system"
-msgstr "системаи империалистй"
-
-msgid "metric system"
-msgstr "системаи метрӣ"
-
-msgid "play/show Files"
-msgstr "Файлҳоро бозӣ/намоиш диҳед"
-
-msgid "volume2"
-msgstr "ҷилди 2"

@@ -1,14 +1,23 @@
+# fi translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: fi <ekekaz@gmail.com>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] Tämä toiminto tarkistaa, onko ihossa sen komponentteja (ei taattu)...\nHaluatko todella jatkaa?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Tämä toiminto poistaa kaikki PNG:t laitekansiosta (Juliste-tausta)...\nHaluatko todella jatkaa?"
 
 msgid "%s key imported!"
 msgstr "%s avain tuotu!"
@@ -16,26 +25,26 @@ msgstr "%s avain tuotu!"
 msgid "1 poster"
 msgstr "1 juliste"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "Aktivoi/deaktivoi ELCINEMA"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "Aktivoi tai poista käytöstä ELCINEMA metatietojen tarjoajana."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "Aktivoi/deaktivoi GOOGLE"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "Aktivoi tai poista käytöstä GOOGLE metatietojen tarjoajana."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Aktivoi/deaktivoi IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "Aktivoi tai poista käytöstä IMDB metatietojen tarjoajana."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "Aktivoi/deaktivoi MOLOTOV"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "Aktivoi tai poista käytöstä MOLOTOV metatietojen tarjoajana."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Aktivoi/deaktivoi PROGRAMMETV"
-
-msgid "Activate/Deactivate {}"
-msgstr "Aktivoi/deaktivoi {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "Aktivoi tai poista käytöstä PROGRAMMETV metatietojen tarjoajana."
 
 msgid "Add"
 msgstr "Lisätä"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "Aglare-päivitys tehtiin!\nHaluatko käynnistää graafisen käyttöliittymän uudelleen nyt?"
 
 msgid "All png are removed from folder!"
 msgstr "Kaikki png:t on poistettu kansiosta!"
@@ -50,7 +59,7 @@ msgid "Automatic download of poster"
 msgstr "Automaattinen julisteen lataus"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Hae automaattisesti EPG-pohjaisten suosikkitapahtumien tausta"
+msgstr "Hae automaattisesti suosikkitapahtumien tausta EPG:n perusteella"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
 msgstr "Hae automaattisesti EPG:hen perustuvien suosikkitapahtumien julisteet"
@@ -64,8 +73,14 @@ msgstr "Tausta"
 msgid "Backdrop download error: {}"
 msgstr "Taustan latausvirhe: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Taustan lataus alkaa 2 minuutin kuluttua.\nVoit turvallisesti poistua tästä valikosta."
+
 msgid "BebasNeue"
 msgstr "FreeNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Bittinopeusyksikkö:"
 
 msgid "Black"
 msgstr "Musta"
@@ -76,8 +91,17 @@ msgstr "Sininen"
 msgid "Brown"
 msgstr "Ruskea"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + protokolla + palvelin + ECM-aika"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Reader + Protokolla + palvelin + ECM-aika"
+
 msgid "Cancel"
 msgstr "Peruuttaa"
+
+msgid "CD"
+msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Kanavan kuvauksen väri:"
@@ -97,41 +121,50 @@ msgstr "Kanavanvalintatyyli:"
 msgid "ChannelSelection_1_Poster_EX"
 msgstr "ChannelSelection_1_Juliste_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr "ChannelSelection_1_Juliste_X"
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Juliste_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "ChannelSelection_big_mini_tv"
+
+msgid "ChannelSelection_NO_Posters"
+msgstr "ChannelSelection_NO_Posters"
+
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "Choice device download image folder"
+msgstr "Valitse laitteen latauskuvakansio"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Valitse, näytetäänkö bittinopeus Kb/s vai Mb/s."
 
 msgid "City"
 msgstr "Kaupunki"
@@ -143,19 +176,16 @@ msgid "Configure the delay time (in minutes) before starting the automatic poste
 msgstr "Määritä viive (minuutteina) ennen automaattisen julistelatauksen aloittamista"
 
 msgid "Crimson"
-msgstr ""
+msgstr "Crimson"
 
 msgid "Customization tool for %s Skin"
 msgstr "Räätälöintityökalu %s Skinille"
-
-msgid "Dark Green"
-msgstr "Tummanvihreä"
 
 msgid "Default"
 msgstr "Oletus"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del Line"
 
 msgid "Delete"
 msgstr "Poistaa"
@@ -163,8 +193,8 @@ msgstr "Poistaa"
 msgid "Download error: {}"
 msgstr "Latausvirhe: {}"
 
-msgid "Download in progress"
-msgstr "Lataus käynnissä"
+msgid "Download in progress…"
+msgstr "Lataus käynnissä…"
 
 msgid "Download now backdrop"
 msgstr "Lataa nyt tausta"
@@ -175,11 +205,20 @@ msgstr "Lataa nyt juliste"
 msgid "Downloading Aglare..."
 msgstr "Ladataan Aglarea..."
 
+msgid "ECM Short Format:"
+msgstr "ECM lyhyt muoto:"
+
 msgid "Edit"
 msgstr "Muokata"
 
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "EMC-näytöt Tyyli:"
+
 msgid "Enable Display Genre icons:"
-msgstr "Ota käyttöön Display Genre -kuvakkeet:"
+msgstr "Ota Display Genre -kuvakkeet käyttöön:"
 
 msgid "Enable Display InfoEvents:"
 msgstr "Ota Display InfoEvents käyttöön:"
@@ -187,26 +226,32 @@ msgstr "Ota Display InfoEvents käyttöön:"
 msgid "Enable Display XMC Poster:"
 msgstr "Ota Display XMC Poster käyttöön:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Ota käyttöön tai poista käytöstä niputetut E2iPlayer-näytöt."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Ota välimuisti käyttöön tai poista se käytöstä tapahtuman latauksen aikana nopeuttaaksesi toistuvia hakuja."
+
 msgid "Enable Parental Icons:"
 msgstr "Ota vanhempien kuvakkeet käyttöön:"
 
 msgid "Enable Rating Star:"
 msgstr "Ota Rating Star käyttöön:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Ota välimuisti käyttöön tai poista se käytöstä tapahtuman latauksen aikana nopeuttaaksesi toistuvia hakuja."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ota käyttöön laajennetut tapahtumatiedot, mukaan lukien kaikki näyttelijät, miehistö, juonen tiedot ja muut metatiedot, tietowidgetissä."
+
+msgid "Error {0}: {1}"
+msgstr "Virhe {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Virhe ihotiedoston käsittelyssä: {}"
 
 msgid "Error downloading files!"
 msgstr "Virhe tiedostojen lataamisessa!"
 
 msgid "Error loading: {}"
 msgstr "Virhe latauksessa: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Virhe {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Virhe: {}"
@@ -215,31 +260,43 @@ msgid "EventView Style:"
 msgstr "Tapahtumanäkymän tyyli:"
 
 msgid "EventView_7_Posters"
-msgstr "Tapahtumanäkymä_7_Julisteet"
+msgstr "EventView_7_Julisteet"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posters"
 
 msgid "Exit"
 msgstr "Poistu"
 
-msgid "File Commander - Addon"
-msgstr "Tiedoston komento - Addon"
-
 msgid "File {} not found or empty"
 msgstr "Tiedostoa {} ei löydy tai se on tyhjä"
+
+msgid "File Commander - Addon"
+msgstr "Tiedoston komento - Addon"
 
 msgid "Green"
 msgstr "Vihreä"
 
+msgid "Green2"
+msgstr "Vihreä 2"
+
 msgid "Greta"
-msgstr ""
+msgstr "Greta"
+
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "GUI vaatii uudelleenkäynnistyksen uuden ulkoasun käyttämiseksi.\nHaluatko käynnistää graafisen käyttöliittymän uudelleen nyt?"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "HandelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr "Kuvien yhteensopivuusryhmä:"
+
+msgid "imperial system"
+msgstr "keisarillinen järjestelmä"
 
 msgid "Import key {0} from {1}?"
-msgstr "Tuodaanko avain {0} kohteesta {1}?"
+msgstr "Tuoda avain {0} kohteesta {1}?"
 
 msgid "Info..."
 msgstr "Tiedot..."
@@ -248,10 +305,10 @@ msgid "InfoBar Date:"
 msgstr "Tietopalkin päivämäärä:"
 
 msgid "InfoBar ECM:"
-msgstr ""
+msgstr "InfoBar ECM:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "InfoBar PosterX:"
 
 msgid "InfoBar Style:"
 msgstr "Infopalkin tyyli:"
@@ -260,37 +317,40 @@ msgid "InfoBar Weather:"
 msgstr "InfoBar Sää:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "InfoBar Xtraevent:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Date"
 
 msgid "Infobar_MSNWeather"
-msgstr ""
+msgstr "Infobar_MSNWeather"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "Infobar_NO_Date"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "Infobar_NO_Weather"
 
 msgid "Infobar_OAWeather"
-msgstr ""
+msgstr "Infobar_OAWeather"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins Line"
 
 msgid "Installing updates..."
 msgstr "Asennetaan päivityksiä..."
 
-msgid "Key empty"
-msgstr "Avain tyhjä"
-
 msgid "Key {} successfully loaded!"
 msgstr "Avain {} ladattu onnistuneesti!"
 
+msgid "Key empty"
+msgstr "Avain tyhjä"
+
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRegular"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Kilobittiä/s (Kb/s)"
 
 msgid "LightGray"
 msgstr "Vaaleanharmaa"
@@ -298,35 +358,50 @@ msgstr "Vaaleanharmaa"
 msgid "LimeGreen"
 msgstr "Lime Green"
 
-msgid "Load from /tmp/{}key.txt"
-msgstr "Lataa tiedostosta /tmp/{}key.txt"
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Paikallinen koontiversio ({}) on uudempi kuin palvelinkoontiversio ({})."
 
 msgid "Location code"
 msgstr "Sijaintikoodi"
 
-msgid "MSN location search result"
-msgstr "MSN-sijainnin hakutulos"
-
-msgid "MV Boli"
-msgstr ""
+msgid "Lucida"
+msgstr "Lucida"
 
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "Megabitti/s (Mb/s)"
+
+msgid "metric system"
+msgstr "metrijärjestelmä"
 
 msgid "Mint"
 msgstr "Minttu"
 
+msgid "Mix1"
+msgstr "Sekoita 1"
+
+msgid "MSN location search result"
+msgstr "MSN-sijainnin hakutulos"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "No active providers enabled"
 msgstr "Ei aktiivisia palveluntarjoajia käytössä"
+
+msgid "No description available for this option."
+msgstr "Tälle vaihtoehdolle ei ole saatavilla kuvausta."
+
+msgid "Off"
+msgstr "Pois"
 
 msgid "OFF"
 msgstr "POIS"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "OMDB Only"
 msgstr "Vain OMDB"
@@ -334,17 +409,23 @@ msgstr "Vain OMDB"
 msgid "ON"
 msgstr "PÄÄLLÄ"
 
-msgid "Off"
-msgstr "Pois"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "ON/OFF SubsSupportPro Skinit."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (New Images Group)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (OpenPLi-ryhmä)"
 
 msgid "Orange"
 msgstr "Oranssi"
 
-msgid "Personal API key for {}"
-msgstr "Henkilökohtainen API-avain kohteelle {}"
-
 msgid "Pink"
 msgstr "Vaaleanpunainen"
+
+msgid "play/show Files"
+msgstr "toista/näytä tiedostoja"
 
 msgid "Please enter a valid city name."
 msgstr "Anna kelvollinen kaupungin nimi."
@@ -354,6 +435,9 @@ msgstr "Anna kaupungin kelvollinen sijaintikoodi."
 
 msgid "Poster download error: {}"
 msgstr "Julisteen latausvirhe: {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Julisteen lataus alkaa 2 minuutin kuluttua.\nVoit turvallisesti poistua tästä valikosta."
 
 msgid "Purple"
 msgstr "Violetti"
@@ -386,7 +470,7 @@ msgid "Second Infobar_OAWeather"
 msgstr "Toinen tietopalkki_OAWeather"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "SecondInfobar Posterx:"
 
 msgid "SecondInfobar Style:"
 msgstr "Toinen tietopalkin tyyli:"
@@ -395,13 +479,70 @@ msgid "SecondInfobar Weather:"
 msgstr "SecondInfobar Sää:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "SecondInfobar Xtraevent:"
 
 msgid "Segoe UI light"
 msgstr "Segoe UI valo"
 
+msgid "Select channel list event description color."
+msgstr "Valitse kanavaluettelon tapahtumakuvauksen väri."
+
+msgid "Select channel list foreground color."
+msgstr "Valitse kanavaluettelon etualan väri."
+
+msgid "Select channel list selected foreground color."
+msgstr "Valitse kanavaluettelon valittu etualan väri."
+
+msgid "Select channel selection screen style."
+msgstr "Valitse kanavan valintaruudun tyyli."
+
+msgid "Select EMC style."
+msgstr "Valitse EMC-tyyli."
+
+msgid "Select event view screen style."
+msgstr "Valitse tapahtumanäkymän näytön tyyli."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Valitse tietopalkin asettelu. Style5 pakottaa ECM:n pois päältä ja sallii vain OFF/CD-julistetilat. Style6 pakottaa ECM:n, PosterX:n ja Xtraeventin pois päältä."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Valitse tietopalkin PosterX-näyttötila. Käytettävissä olevat vaihtoehdot riippuvat valitusta tietopalkin tyylistä ja ECM-tilasta."
+
+msgid "Select second infobar layout."
+msgstr "Valitse toinen tietopalkin asettelu."
+
+msgid "Select selected channel event description color."
+msgstr "Valitse valitun kanavan tapahtuman kuvauksen väri."
+
+msgid "Select the base skin layout file."
+msgstr "Valitse perusskin asettelutiedosto."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Valitse luodun ihon käyttämä fonttipaketti."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Valitse ihon käyttämä pääväriasetus."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Valitse kohdekuvan perusryhmä (OpenPLi vs. Muut)."
+
+msgid "Select volume bar style."
+msgstr "Valitse äänenvoimakkuuspalkin tyyli."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Valitse sääpalvelun näyttö tietopalkkiin."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "Valitse sääpalvelun näyttö toista tietopalkkia varten."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Valitse, mitkä ECM-kentät näytetään, kun iho käyttää Lyhyt MYEMUPARA."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Valitse tietopalkin XtraEvent-näyttötila. Käytettävissä olevat vaihtoehdot riippuvat valitusta tietopalkin tyylistä ja ECM-tilasta."
+
 msgid "Select Your Font:"
-msgstr "Valitse fonttisi:"
+msgstr "Valitse kirjasin:"
 
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Aseta aika - minuutti taustan lataamiseen"
@@ -415,23 +556,53 @@ msgstr "Asetukset Apikey-palvelin"
 msgid "Setup Aglare Skin Info"
 msgstr "Määritä Aglare Skin Info"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "Asenna Aglare Skin\n for {0} v.{1}\n\n by Lululla @2020\n\nTukifoorumi osoitteessa linuxsat-support.com\n\nSkinnerin luoja: Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Näytä kuvakkeet, jotka edustavat kunkin tapahtuman lajityyppiä (esim. toiminta, komedia, draama)"
 
+msgid "Show or hide ECM information in the infobar."
+msgstr "Näytä tai piilota ECM-tiedot tietopalkissa."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "Näytä tai piilota PosterX toisessa tietopalkissa."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Näytä tai piilota päivämääräpaneeli tietopalkissa."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "Näytä tai piilota XtraEvent toisessa tietopalkissa."
+
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Näytä tapahtumissa vanhempien opastuskuvakkeet sisällön luokituksen ja iän sopivuuden osoittamiseksi."
+msgstr "Näytä tapahtumissa vanhempien ohjekuvakkeet sisällön luokituksen ja iän sopivuuden osoittamiseksi."
 
 msgid "Show poster from movie in local folder"
 msgstr "Näytä elokuvan juliste paikallisessa kansiossa"
 
 msgid "Sienna"
-msgstr ""
+msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Ihon tyyli:"
 
 msgid "SnowWhite"
 msgstr "Lumikki"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Lähde + Caid + Reader + Protokolla + Palvelin + Portti + ECM-aika"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Lähde + Caid + Reader + ECM-aika"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Lähde + Prov + Caid + ECM-aika"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Lähde + Prov + Caid + Protokolla + Palvelin + Portti + ECM-aika"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Lähde + Prov + Caid + palvelin + portti + ECM-aika"
 
 msgid "Start downloading backdrop immediately"
 msgstr "Aloita taustan lataaminen välittömästi"
@@ -440,7 +611,7 @@ msgid "Start downloading poster immediately"
 msgstr "Aloita julisteen lataaminen välittömästi"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "SteelBlue"
 
 msgid "Style2"
 msgstr "Tyyli 2"
@@ -451,17 +622,29 @@ msgstr "Tyyli 3"
 msgid "Style4"
 msgstr "Tyyli 4"
 
+msgid "Style5 CD"
+msgstr "Style5 CD"
+
+msgid "Style6"
+msgstr "Tyyli 6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "Tuki E2iplayer-skineille:"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "Tukitietopalkin SoftCSA:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Tuki SubsSupportPro Skineille:"
 
 msgid "System"
 msgstr "Järjestelmä"
 
-msgid "TMDB Only"
-msgstr "Vain TMDB"
-
 msgid "Teal"
 msgstr "Sinivihreä"
+
+msgid "TEST"
+msgstr "TESTATA"
 
 msgid "The file %s is empty."
 msgstr "Tiedosto %s on tyhjä."
@@ -469,17 +652,23 @@ msgstr "Tiedosto %s on tyhjä."
 msgid "The file %s was not found."
 msgstr "Tiedostoa %s ei löytynyt."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "Päivitystiedostoa ei löytynyt hakemistosta /tmp.\nPäivitys keskeytetty."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Tämä toiminto määrittää laitteen polkukansion ladattavalle kuvalle (juliste-tausta)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Tämä toiminto mahdollistaa tapahtumien tähtiluokitusten näyttämisen valitun luokituslähteen perusteella."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Tämä toiminto poistaa kaikki png-tiedostot kansiolaitteesta (juliste-tausta)"
 
+msgid "TMDB Only"
+msgstr "Vain TMDB"
+
 msgid "Tomato"
 msgstr "Tomaatti"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Päivitä URL-osoite ei alustettu avaa laajennus ensin Plugins-valikosta."
 
 msgid "Update check failed: {}"
 msgstr "Päivitystarkistus epäonnistui: {}"
@@ -487,8 +676,17 @@ msgstr "Päivitystarkistus epäonnistui: {}"
 msgid "Update package not found!"
 msgstr "Päivityspakettia ei löydy!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Päivitä URL-osoite ei alustettu – avaa laajennus ensin Plugins-valikosta."
+
+msgid "volume2"
+msgstr "volyymi 2"
+
 msgid "VolumeBar Style:"
-msgstr "VolumeBarin tyyli:"
+msgstr "VolumeBar-tyyli:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Varoitus: Käytät oletusarvoisia API-avaimia!\nSuosittelemme, että määrität omat API-avaimet laajennuksen asetuksissa."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Muokkaa merkintää"
@@ -508,14 +706,3 @@ msgstr "Sinulla on jo uusin versio ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Sinun on syötettävä kelvollinen kaupungin nimi, ennen kuin voit etsiä sijaintikoodia."
 
-msgid "imperial system"
-msgstr "keisarillinen järjestelmä"
-
-msgid "metric system"
-msgstr "metrijärjestelmä"
-
-msgid "play/show Files"
-msgstr "toista/näytä tiedostoja"
-
-msgid "volume2"
-msgstr "volyymi 2"

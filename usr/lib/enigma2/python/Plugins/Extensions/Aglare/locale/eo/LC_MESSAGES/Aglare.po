@@ -1,14 +1,23 @@
+# eo translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:27+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: eo <ekekaz@gmail.com>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] Ĉi tiu operacio kontrolas ĉu la haŭto havas siajn komponantojn (ne garantiitajn)...\nĈu vi vere volas daŭrigi?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Ĉi tiu operacio forigos ĉiujn PNG-ojn el la aparata dosierujo (Poster-Backdrop)...\nĈu vi vere volas daŭrigi?"
 
 msgid "%s key imported!"
 msgstr "%s ŝlosilo importita!"
@@ -16,26 +25,26 @@ msgstr "%s ŝlosilo importita!"
 msgid "1 poster"
 msgstr "1 afiŝo"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "Aktivigi/Malaktivigi ELCINEMA"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "Aktivigu aŭ malaktivigu ELCINEMA kiel metadatuman provizanto."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "Aktivigi/Malaktivigi GOOGLE"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "Aktivigu aŭ malaktivigu GOOGLE kiel provizanto de metadatumoj."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Aktivigi/Malaktivigi IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "Aktivigu aŭ malaktivigu IMDB kiel metadatuman provizanto."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "Aktivigi/Malaktivigi MOLOTOV"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "Aktivigu aŭ malaktivigu MOLOTOV kiel metadatuman provizanto."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Aktivigi/Malaktivigi PROGRAMMETV"
-
-msgid "Activate/Deactivate {}"
-msgstr "Aktivigi/Malaktivigi {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "Aktivigu aŭ malaktivigu PROGRAMMETV kiel metadatuman provizanto."
 
 msgid "Add"
 msgstr "Aldoni"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "Glare-ĝisdatigo estis farita!\nĈu vi volas rekomenci la GUI nun?"
 
 msgid "All png are removed from folder!"
 msgstr "Ĉiuj png estas forigitaj el dosierujo!"
@@ -64,8 +73,14 @@ msgstr "Fono"
 msgid "Backdrop download error: {}"
 msgstr "Eraro pri elŝuto de fono: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Fona elŝuto komenciĝos post 2 minutoj.\nVi povas sekure eliri ĉi tiun menuon."
+
 msgid "BebasNeue"
 msgstr "FreeNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Bitrata unuo:"
 
 msgid "Black"
 msgstr "Nigra"
@@ -76,8 +91,17 @@ msgstr "Blua"
 msgid "Brown"
 msgstr "Bruna"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + Protokolo + Servilo + ECM-Tempo"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Leganto + Protokolo + Servilo + ECM-Tempo"
+
 msgid "Cancel"
 msgstr "Nuligi"
+
+msgid "CD"
+msgstr "KD"
 
 msgid "Channel Description Color:"
 msgstr "Kanala Priskribo Koloro:"
@@ -89,49 +113,58 @@ msgid "Channel Selected Description Color:"
 msgstr "Kanalo Elektita Priskribo Koloro:"
 
 msgid "Channel Selected Foreground Color:"
-msgstr "Kanalo Elektita Malfono Koloro:"
+msgstr "Kanalo Elektita Malfona Koloro:"
 
 msgid "ChannelSelection Style:"
 msgstr "Stilo de Elekto de Kanalo:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr "ChannelSelection_4_Afiŝoj_X"
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr "ChannelSelection_6_Afiŝoj_X"
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Afiŝoj"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgid "Choice device download image folder"
+msgstr "Elekta aparato elŝuta bilda dosierujo"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Elektu ĉu bitrate estas montrita en Kb/s aŭ Mb/s."
 
 msgid "City"
 msgstr "Urbo"
@@ -148,9 +181,6 @@ msgstr "Purpura"
 msgid "Customization tool for %s Skin"
 msgstr "Agorda ilo por %s Haŭto"
 
-msgid "Dark Green"
-msgstr "Malhela Verdo"
-
 msgid "Default"
 msgstr "Defaŭlte"
 
@@ -163,8 +193,8 @@ msgstr "Forigi"
 msgid "Download error: {}"
 msgstr "Elŝuta eraro: {}"
 
-msgid "Download in progress"
-msgstr "Elŝuto en progreso"
+msgid "Download in progress…"
+msgstr "Elŝuto en progreso..."
 
 msgid "Download now backdrop"
 msgstr "Elŝutu nun fonon"
@@ -175,8 +205,17 @@ msgstr "Elŝutu nun afiŝon"
 msgid "Downloading Aglare..."
 msgstr "Elŝutante Glare..."
 
+msgid "ECM Short Format:"
+msgstr "ECM Mallonga Formato:"
+
 msgid "Edit"
 msgstr "Redakti"
+
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "EMC-ekranoj Stilo:"
 
 msgid "Enable Display Genre icons:"
 msgstr "Ebligu Montraj Ĝenraj ikonoj:"
@@ -187,26 +226,32 @@ msgstr "Ebligu Vidigajn InfoEventojn:"
 msgid "Enable Display XMC Poster:"
 msgstr "Ebligu Display XMC-Afiŝon:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Ebligu aŭ malŝalti kunigitajn ekranojn de E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Ebligu aŭ malŝaltu kaŝmemoron dum evento-elŝuto por akceli ripetajn serĉojn."
+
 msgid "Enable Parental Icons:"
 msgstr "Ebligu Gepatrajn Ikonojn:"
 
 msgid "Enable Rating Star:"
 msgstr "Ebligi Taksan Stelon:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Ebligu aŭ malŝaltu kaŝmemoron dum evento-elŝuto por akceli ripetajn serĉojn."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ebligu la montradon de plilongigitaj evento-informoj, inkluzive de plena rolantaro, skipo, intrigo-detaloj kaj aliaj metadatenoj, en la informa fenestraĵo."
+
+msgid "Error {0}: {1}"
+msgstr "Eraro {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Eraro pro procesado de la haŭta dosiero: {}"
 
 msgid "Error downloading files!"
 msgstr "Eraro dum elŝuto de dosieroj!"
 
 msgid "Error loading: {}"
 msgstr "Eraro dum ŝarĝo: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Eraro {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Eraro: {}"
@@ -223,20 +268,32 @@ msgstr "EventView_NO_Afiŝoj"
 msgid "Exit"
 msgstr "Eliro"
 
-msgid "File Commander - Addon"
-msgstr "Dosiera Komandanto - Aldono"
-
 msgid "File {} not found or empty"
 msgstr "Dosiero {} ne trovita aŭ malplena"
+
+msgid "File Commander - Addon"
+msgstr "Dosiera Komandanto - Aldono"
 
 msgid "Green"
 msgstr "Verda"
 
+msgid "Green2"
+msgstr "Verda2"
+
 msgid "Greta"
-msgstr ""
+msgstr "Greta"
+
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "GUI bezonas rekomencon por apliki novan haŭton.\nĈu vi volas Rekomenci la GUI nun?"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "HandelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr "Grupo de Bilda Kongruo:"
+
+msgid "imperial system"
+msgstr "imperia sistemo"
 
 msgid "Import key {0} from {1}?"
 msgstr "Ĉu importi ŝlosilon {0} el {1}?"
@@ -248,10 +305,10 @@ msgid "InfoBar Date:"
 msgstr "InfoBar Dato:"
 
 msgid "InfoBar ECM:"
-msgstr ""
+msgstr "InfoBar ECM:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "InfoBar PosterX:"
 
 msgid "InfoBar Style:"
 msgstr "InfoBar Stilo:"
@@ -260,7 +317,7 @@ msgid "InfoBar Weather:"
 msgstr "InfoBar Vetero:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "InfoBar Xtraevent:"
 
 msgid "Infobar_Date"
 msgstr "Infobaro_Dato"
@@ -275,7 +332,7 @@ msgid "Infobar_NO_Weather"
 msgstr "Infobar_NE_Vetero"
 
 msgid "Infobar_OAWeather"
-msgstr ""
+msgstr "Infobar_OAWeather"
 
 msgid "Ins Line"
 msgstr "Ins Linio"
@@ -283,23 +340,23 @@ msgstr "Ins Linio"
 msgid "Installing updates..."
 msgstr "Instalante ĝisdatigojn..."
 
-msgid "Key empty"
-msgstr "Ŝlosilo malplena"
-
 msgid "Key {} successfully loaded!"
 msgstr "Ŝlosilo {} sukcese ŝargita!"
 
+msgid "Key empty"
+msgstr "Ŝlosilo malplena"
+
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRegular"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Kilobit/s (Kb/s)"
 
 msgid "LightGray"
 msgstr "Helgriza"
 
 msgid "LimeGreen"
-msgstr "Kalkverda"
-
-msgid "Load from /tmp/{}key.txt"
-msgstr "Ŝarĝu el /tmp/{}key.txt"
+msgstr "LimeGreen"
 
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Loka konstruo ({}) estas pli nova ol servila konstruo ({})."
@@ -307,23 +364,41 @@ msgstr "Loka konstruo ({}) estas pli nova ol servila konstruo ({})."
 msgid "Location code"
 msgstr "Lokkodo"
 
-msgid "MSN location search result"
-msgstr "MSN-loka serĉrezulto"
-
-msgid "MV Boli"
-msgstr ""
+msgid "Lucida"
+msgstr "Lucida"
 
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "Megabit/s (Mb/s)"
+
+msgid "metric system"
+msgstr "metrika sistemo"
 
 msgid "Mint"
 msgstr "Mento"
 
+msgid "Mix1"
+msgstr "Miksaĵo1"
+
+msgid "MSN location search result"
+msgstr "MSN-loka serĉrezulto"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "No active providers enabled"
 msgstr "Neniuj aktivaj provizantoj ebligitaj"
 
+msgid "No description available for this option."
+msgstr "Neniu priskribo disponebla por ĉi tiu opcio."
+
+msgid "Off"
+msgstr "Malŝaltita"
+
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
 msgid "OK"
 msgstr "Bone"
@@ -332,19 +407,25 @@ msgid "OMDB Only"
 msgstr "Nur OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
-msgid "Off"
-msgstr "Malŝaltita"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "ON/OFF SubsSupportPro Haŭtoj."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (Nova Bilda Grupo)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi/Satlodge (OpenPLi Grupo)"
 
 msgid "Orange"
 msgstr "Oranĝo"
 
-msgid "Personal API key for {}"
-msgstr "Persona API-ŝlosilo por {}"
-
 msgid "Pink"
 msgstr "Rozkolora"
+
+msgid "play/show Files"
+msgstr "ludi/montri dosierojn"
 
 msgid "Please enter a valid city name."
 msgstr "Bonvolu enigi validan urbonomon."
@@ -354,6 +435,9 @@ msgstr "Bonvolu enigi validan lokkodon por la urbo."
 
 msgid "Poster download error: {}"
 msgstr "Eraro elŝuta afiŝo: {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Elŝuto de afiŝo komenciĝos post 2 minutoj.\nVi povas sekure eliri ĉi tiun menuon."
 
 msgid "Purple"
 msgstr "Purpuro"
@@ -386,7 +470,7 @@ msgid "Second Infobar_OAWeather"
 msgstr "Dua Infobar_OAWeather"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "SecondInfobar Posterx:"
 
 msgid "SecondInfobar Style:"
 msgstr "Dua Infobar Stilo:"
@@ -399,6 +483,63 @@ msgstr "Dua Infobar Xtraevent:"
 
 msgid "Segoe UI light"
 msgstr "Segoe UI lumo"
+
+msgid "Select channel list event description color."
+msgstr "Elektu koloron pri priskribo de evento de kanallisto."
+
+msgid "Select channel list foreground color."
+msgstr "Elektu kanallistan malfonokoloron."
+
+msgid "Select channel list selected foreground color."
+msgstr "Elektu kanalliston elektitan malfonokoloron."
+
+msgid "Select channel selection screen style."
+msgstr "Elektu kanalan elektan ekranstilon."
+
+msgid "Select EMC style."
+msgstr "Elektu EMC-stilon."
+
+msgid "Select event view screen style."
+msgstr "Elektu ekranan stilon de evento-vido."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Elektu infobaran aranĝon. Style5 devigas ECM for kaj permesas nur OFF/KD-afiŝo-reĝimojn. Style6 devigas ECM, PosterX, kaj Xtraevent for."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Elektu PosterX-montran reĝimon por la informbreto. Disponeblaj elektoj dependas de la elektita infobreto stilo kaj ECM-reĝimo."
+
+msgid "Select second infobar layout."
+msgstr "Elektu la duan informbaran aranĝon."
+
+msgid "Select selected channel event description color."
+msgstr "Elektu la elektitan kanalan eventan priskriban koloron."
+
+msgid "Select the base skin layout file."
+msgstr "Elektu la bazan haŭtan aranĝan dosieron."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Elektu la tiparpakaĵon uzatan de la generita haŭto."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Elektu la ĉefan kolormalpostagordon uzatan de la haŭto."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Elektu la celbildan bazan grupon (OpenPLi vs Aliaj)."
+
+msgid "Select volume bar style."
+msgstr "Elektu stilon de volumo."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Elektu veterprovizantan ekranon por la informbreto."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "Elektu veterprovizantan ekranon por la dua informbreto."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Elektu kiuj ECM-kampoj estas montritaj kiam la haŭto uzas Short MYEMUPARA."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Elektu XtraEvent-montran reĝimon por la informbreto. Disponeblaj elektoj dependas de la elektita infobreto stilo kaj ECM-reĝimo."
 
 msgid "Select Your Font:"
 msgstr "Elektu Vian Tiparon:"
@@ -415,8 +556,23 @@ msgstr "Agordoj Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Agordu Aglare Haŭtajn Informojn"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "Agordu Aglare Skin\npor {0} v.{1}\n\nde Lululla @2020\n\nSubtena forumo sur linuxsat-support.com\n\nSkinner-kreinto: Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Montru ikonojn reprezentantajn la ĝenron de ĉiu okazaĵo (ekz., ago, komedio, dramo)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "Montru aŭ kaŝu ECM-informojn en la informbreto."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "Montru aŭ kaŝu PosterX en la dua informbreto."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Montru aŭ kaŝu la datpanelon en la informbreto."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "Montru aŭ kaŝu XtraEvent en la dua informbreto."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Montru gepatran gvidikonojn pri eventoj por indiki enhavan takson kaj aĝtaŭgecon."
@@ -425,13 +581,28 @@ msgid "Show poster from movie in local folder"
 msgstr "Montru afiŝon de filmo en loka dosierujo"
 
 msgid "Sienna"
-msgstr ""
+msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Haŭta Stilo:"
 
 msgid "SnowWhite"
 msgstr "Neĝulino"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Fonto + Caid + Leganto + Protokolo + Servilo + Haveno + ECM-Tempo"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Fonto + Caid + Leganto + ECM-Tempo"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Fonto + Prov + Caid + ECM Tempo"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Fonto + Prov + Caid + Protokolo + Servilo + Haveno + ECM-Tempo"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Fonto + Prov + Caid + Servilo + Haveno + ECM Tempo"
 
 msgid "Start downloading backdrop immediately"
 msgstr "Komencu elŝuti fonon tuj"
@@ -440,7 +611,7 @@ msgid "Start downloading poster immediately"
 msgstr "Komencu elŝuti afiŝon tuj"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "SteelBlue"
 
 msgid "Style2"
 msgstr "Stilo 2"
@@ -451,17 +622,29 @@ msgstr "Stilo3"
 msgid "Style4"
 msgstr "Stilo4"
 
+msgid "Style5 CD"
+msgstr "Stilo5 KD"
+
+msgid "Style6"
+msgstr "Stilo6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "Subteno E2iplayer Haŭtoj:"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "Subteno InfoBar SoftCSA:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Subteno SubsupportPro Haŭtoj:"
 
 msgid "System"
 msgstr "Sistemo"
 
-msgid "TMDB Only"
-msgstr "TMDB Nur"
-
 msgid "Teal"
 msgstr "Kreko"
+
+msgid "TEST"
+msgstr "TESTO"
 
 msgid "The file %s is empty."
 msgstr "La dosiero %s estas malplena."
@@ -469,17 +652,23 @@ msgstr "La dosiero %s estas malplena."
 msgid "The file %s was not found."
 msgstr "La dosiero %s ne estis trovita."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "La ĝisdatiga dosiero ne estis trovita en /tmp.\nĜisdatigo ĉesigita."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Ĉi tiu operacio asignu la dosierujon de la aparato por elŝuti bildon (Afiŝo-Fono)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Ĉi tiu operacio ebligas la montradon de taksaj steloj por eventoj, surbaze de la elektita taksa fonto."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ĉi tiu operacio forigas ĉiujn png de dosierujo (Afiŝo-Fono)"
 
-msgid "Tomato"
-msgstr ""
+msgid "TMDB Only"
+msgstr "TMDB Nur"
 
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Ĝisdatigi URL ne pravigita unue malfermu la kromprogramon unufoje el la menuo Kromaĵoj."
+msgid "Tomato"
+msgstr "Tomato"
 
 msgid "Update check failed: {}"
 msgstr "Ĝisdatiga kontrolo malsukcesis: {}"
@@ -487,8 +676,17 @@ msgstr "Ĝisdatiga kontrolo malsukcesis: {}"
 msgid "Update package not found!"
 msgstr "Ĝisdatigpakaĵo ne trovita!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Ĝisdatigi URL ne pravigita - unue malfermu la kromprogramon unufoje el la menuo Kromaĵoj."
+
+msgid "volume2"
+msgstr "volumo 2"
+
 msgid "VolumeBar Style:"
-msgstr "Stilo de VolumeBaro:"
+msgstr "VolumeBar Stilo:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Averto: Vi uzas defaŭltajn API-ŝlosilojn!\nNi forte rekomendas agordi viajn proprajn API-ŝlosilojn en la aldonaĵaj agordoj."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Redaktu Eniron"
@@ -508,14 +706,3 @@ msgstr "Vi jam havas la lastan version ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Vi devas enigi validan urbonomon antaŭ ol vi povas serĉi la lokkodon."
 
-msgid "imperial system"
-msgstr "imperia sistemo"
-
-msgid "metric system"
-msgstr "metrika sistemo"
-
-msgid "play/show Files"
-msgstr "ludi/montri dosierojn"
-
-msgid "volume2"
-msgstr "volumo 2"

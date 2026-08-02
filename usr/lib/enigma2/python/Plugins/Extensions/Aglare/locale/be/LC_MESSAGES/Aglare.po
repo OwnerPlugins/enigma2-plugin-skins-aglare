@@ -1,14 +1,23 @@
+# be translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:27+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: be <ekekaz@gmail.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] Гэтая аперацыя правярае, ці мае вокладка свае кампаненты (не гарантуецца)...\nВы сапраўды хочаце працягнуць?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Гэтая аперацыя выдаліць усе файлы PNG з папкі прылады (Плакат-Застава)...\nВы сапраўды хочаце працягнуць?"
 
 msgid "%s key imported!"
 msgstr "Імпартаваны ключ %s!"
@@ -16,29 +25,29 @@ msgstr "Імпартаваны ключ %s!"
 msgid "1 poster"
 msgstr "1 плакат"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "Уключыць/выключыць ELCINEMA"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "Актывуйце або дэактывуйце ELCINEMA ў якасці пастаўшчыка метададзеных."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "Уключыць/выключыць GOOGLE"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "Актывуйце або дэактывуйце GOOGLE як пастаўшчыка метададзеных."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Актываваць/дэактываваць IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "Актывуйце або дэактывуйце IMDB як пастаўшчыка метададзеных."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "Актываваць/Адключыць MOLATOV"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "Актывуйце або дэактывуйце MOLOTOV як пастаўшчыка метададзеных."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Уключыць/выключыць PROGRAMMETV"
-
-msgid "Activate/Deactivate {}"
-msgstr "Актываваць/дэактываваць {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "Актывуйце або дэактывуйце PROGRAMMETV у якасці пастаўшчыка метададзеных."
 
 msgid "Add"
 msgstr "Дадаць"
 
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "Абнаўленне Aglare выканана!\nВы хочаце перазапусціць графічны інтэрфейс зараз?"
+
 msgid "All png are removed from folder!"
-msgstr "Усе png выдаляюцца з папкі!"
+msgstr "Усе png выдалены з папкі!"
 
 msgid "Automatic"
 msgstr "Аўтаматычны"
@@ -64,8 +73,14 @@ msgstr "Фон"
 msgid "Backdrop download error: {}"
 msgstr "Памылка загрузкі фону: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Загрузка фону пачнецца праз 2 хвіліны.\nВы можаце спакойна выйсці з гэтага меню."
+
 msgid "BebasNeue"
 msgstr "FreeNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Адзінка бітрэйту:"
 
 msgid "Black"
 msgstr "Чорны"
@@ -76,8 +91,17 @@ msgstr "Сіні"
 msgid "Brown"
 msgstr "Карычневы"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + пратакол + сервер + час ECM"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Reader + Protocol + Server + ECM Time"
+
 msgid "Cancel"
 msgstr "Адмяніць"
+
+msgid "CD"
+msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Колер апісання канала:"
@@ -95,43 +119,52 @@ msgid "ChannelSelection Style:"
 msgstr "Стыль выбару канала:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "ChannelSelection_big_mini_tv"
+
+msgid "ChannelSelection_NO_Posters"
+msgstr "ChannelSelection_NO_Posters"
+
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "Choice device download image folder"
+msgstr "Выбар папкі для загрузкі малюнка прылады"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Выберыце, у Кб/с ці Мб/с паказвацца бітрэйт."
 
 msgid "City"
 msgstr "Горад"
@@ -148,9 +181,6 @@ msgstr "Малінавы"
 msgid "Customization tool for %s Skin"
 msgstr "Інструмент налады для скіна %s"
 
-msgid "Dark Green"
-msgstr "Цёмна-зялёны"
-
 msgid "Default"
 msgstr "Па змаўчанні"
 
@@ -163,8 +193,8 @@ msgstr "Выдаліць"
 msgid "Download error: {}"
 msgstr "Памылка загрузкі: {}"
 
-msgid "Download in progress"
-msgstr "Ідзе загрузка"
+msgid "Download in progress…"
+msgstr "Ідзе спампоўка…"
 
 msgid "Download now backdrop"
 msgstr "Спампаваць зараз фон"
@@ -175,8 +205,17 @@ msgstr "Спампаваць зараз плакат"
 msgid "Downloading Aglare..."
 msgstr "Спампоўка Aglare..."
 
+msgid "ECM Short Format:"
+msgstr "Кароткі фармат ECM:"
+
 msgid "Edit"
 msgstr "Рэдагаваць"
+
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "Экраны EMC Стыль:"
 
 msgid "Enable Display Genre icons:"
 msgstr "Уключыць значкі жанраў адлюстравання:"
@@ -187,26 +226,32 @@ msgstr "Уключыць адлюстраванне InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Уключыць Display XMC Poster:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Уключыць або выключыць уключаныя экраны E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Уключыце або адключыце кэшаванне падчас загрузкі падзей, каб паскорыць паўторны пошук."
+
 msgid "Enable Parental Icons:"
 msgstr "Уключыць бацькоўскія значкі:"
 
 msgid "Enable Rating Star:"
 msgstr "Уключыць зорку:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Уключыце або адключыце кэшаванне падчас загрузкі падзей, каб паскорыць паўторны пошук."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Уключыце адлюстраванне пашыранай інфармацыі аб падзеі, у тым ліку поўнага акцёрскага складу, здымачнай групы, дэталяў сюжэта і іншых метаданых, у інфармацыйным віджэце."
+
+msgid "Error {0}: {1}"
+msgstr "Памылка {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Памылка пры апрацоўцы файла вокладкі: {}"
 
 msgid "Error downloading files!"
 msgstr "Памылка спампоўкі файлаў!"
 
 msgid "Error loading: {}"
 msgstr "Памылка загрузкі: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Памылка {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Памылка: {}"
@@ -215,28 +260,40 @@ msgid "EventView Style:"
 msgstr "Стыль EventView:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Posters"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posters"
 
 msgid "Exit"
 msgstr "Выхад"
 
-msgid "File Commander - Addon"
-msgstr "File Commander - адон"
-
 msgid "File {} not found or empty"
 msgstr "Файл {} не знойдзены або пусты"
+
+msgid "File Commander - Addon"
+msgstr "File Commander - адон"
 
 msgid "Green"
 msgstr "Зялёны"
 
+msgid "Green2"
+msgstr "Зялёны2"
+
 msgid "Greta"
 msgstr "Грэта"
 
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "Графічны інтэрфейс патрабуе перазапуску, каб прымяніць новую вокладку.\nВы хочаце перазапусціць графічны інтэрфейс зараз?"
+
 msgid "HandelGotD"
 msgstr "ГендэльГотД"
+
+msgid "Image Compatibility Group:"
+msgstr "Група сумяшчальнасці выявы:"
+
+msgid "imperial system"
+msgstr "імперскі лад"
 
 msgid "Import key {0} from {1}?"
 msgstr "Імпартаваць ключ {0} з {1}?"
@@ -257,7 +314,7 @@ msgid "InfoBar Style:"
 msgstr "Стыль інфармацыйнай панэлі:"
 
 msgid "InfoBar Weather:"
-msgstr "Інфармацыйная панэль надвор'я:"
+msgstr "Інфабар Надвор'е:"
 
 msgid "InfoBar Xtraevent:"
 msgstr "Інфармацыйная панэль Xtraevent:"
@@ -283,23 +340,23 @@ msgstr "Лінія Ins"
 msgid "Installing updates..."
 msgstr "Усталяванне абнаўленняў..."
 
-msgid "Key empty"
-msgstr "Ключ пусты"
-
 msgid "Key {} successfully loaded!"
 msgstr "Ключ {} паспяхова загружаны!"
 
+msgid "Key empty"
+msgstr "Ключ пусты"
+
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRegular"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Кілабіт/с (Кб/с)"
 
 msgid "LightGray"
 msgstr "Светла-шэры"
 
 msgid "LimeGreen"
-msgstr "Лайм-зялёны"
-
-msgid "Load from /tmp/{}key.txt"
-msgstr "Загрузіць з /tmp/{}key.txt"
+msgstr "Лайм-Грын"
 
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Лакальная зборка ({}) навейшая за зборку сервера ({})."
@@ -307,20 +364,38 @@ msgstr "Лакальная зборка ({}) навейшая за зборку 
 msgid "Location code"
 msgstr "Код месцазнаходжання"
 
+msgid "Lucida"
+msgstr "Люцыда"
+
+msgid "Magenta"
+msgstr "Пурпурны"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "Мегабіт/с (Мбіт/с)"
+
+msgid "metric system"
+msgstr "метрычная сістэма"
+
+msgid "Mint"
+msgstr "Манетны двор"
+
+msgid "Mix1"
+msgstr "Змяшаць 1"
+
 msgid "MSN location search result"
 msgstr "Вынік пошуку месцазнаходжання MSN"
 
 msgid "MV Boli"
 msgstr "М.В.Болі"
 
-msgid "Magenta"
-msgstr "Пурпурны"
-
-msgid "Mint"
-msgstr "Манетны двор"
-
 msgid "No active providers enabled"
 msgstr "Няма актыўных правайдэраў"
+
+msgid "No description available for this option."
+msgstr "Для гэтай опцыі няма апісання."
+
+msgid "Off"
+msgstr "Выкл"
 
 msgid "OFF"
 msgstr "ВЫКЛ"
@@ -334,17 +409,23 @@ msgstr "Толькі OMDB"
 msgid "ON"
 msgstr "ВКЛ"
 
-msgid "Off"
-msgstr "Выкл"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "ON/OFF SubsSupportPro Скіны."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (група новых малюнкаў)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (Група OpenPLi)"
 
 msgid "Orange"
 msgstr "Аранжавы"
 
-msgid "Personal API key for {}"
-msgstr "Персанальны ключ API для {}"
-
 msgid "Pink"
 msgstr "Ружовы"
+
+msgid "play/show Files"
+msgstr "прайграваць/паказваць файлы"
 
 msgid "Please enter a valid city name."
 msgstr "Увядзіце сапраўдную назву горада."
@@ -354,6 +435,9 @@ msgstr "Калі ласка, увядзіце сапраўдны код месц
 
 msgid "Poster download error: {}"
 msgstr "Памылка загрузкі плаката: {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Спампоўка плаката пачнецца праз 2 хвіліны.\nВы можаце спакойна выйсці з гэтага меню."
 
 msgid "Purple"
 msgstr "Фіялетавы"
@@ -386,7 +470,7 @@ msgid "Second Infobar_OAWeather"
 msgstr "Другая інфармацыйная панэль_OAWeather"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "SecondInfobar Posterx:"
 
 msgid "SecondInfobar Style:"
 msgstr "Стыль Second Infobar:"
@@ -398,13 +482,70 @@ msgid "SecondInfobar Xtraevent:"
 msgstr "Xtraevent SecondInfobar:"
 
 msgid "Segoe UI light"
-msgstr "Карыстальніцкі інтэрфейс Segoe Light"
+msgstr "Падсвятленне інтэрфейсу Segoe"
+
+msgid "Select channel list event description color."
+msgstr "Выберыце колер апісання падзеі ў спісе каналаў."
+
+msgid "Select channel list foreground color."
+msgstr "Выберыце колер пярэдняга плана спісу каналаў."
+
+msgid "Select channel list selected foreground color."
+msgstr "Выберыце спіс каналаў, выбраны колер пярэдняга плана."
+
+msgid "Select channel selection screen style."
+msgstr "Выберыце стыль экрана выбару канала."
+
+msgid "Select EMC style."
+msgstr "Выберыце стыль EMC."
+
+msgid "Select event view screen style."
+msgstr "Выберыце стыль экрана прагляду падзеі."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Выберыце макет інфармацыйнай панэлі. Style5 прымусова выключае ECM і дазваляе толькі рэжымы OFF/CD плакат. Style6 прымусова адключае ECM, PosterX і Xtraevent."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Выберыце рэжым адлюстравання PosterX для інфармацыйнай панэлі. Даступныя варыянты залежаць ад абранага стылю інфармацыйнай панэлі і рэжыму ECM."
+
+msgid "Select second infobar layout."
+msgstr "Выберыце другі макет інфармацыйнай панэлі."
+
+msgid "Select selected channel event description color."
+msgstr "Выберыце колер апісання выбранай падзеі канала."
+
+msgid "Select the base skin layout file."
+msgstr "Выберыце файл макета базавай вокладкі."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Выберыце пакет шрыфтоў, які выкарыстоўваецца ў згенераванай вокладцы."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Выберыце асноўны колер, які выкарыстоўваецца скурай."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Выберыце мэтавую базавую групу малюнкаў (OpenPLi супраць іншых)."
+
+msgid "Select volume bar style."
+msgstr "Выберыце стыль панэлі гучнасці."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Выберыце дысплей пастаўшчыка надвор'я для інфармацыйнай панэлі."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "Выберыце адлюстраванне пастаўшчыка надвор'я для другой інфармацыйнай панэлі."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Выберыце, якія палі ECM будуць паказвацца, калі скін выкарыстоўвае Short MYEMUPARA."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Выберыце рэжым адлюстравання XtraEvent для інфармацыйнай панэлі. Даступныя варыянты залежаць ад абранага стылю інфармацыйнай панэлі і рэжыму ECM."
 
 msgid "Select Your Font:"
 msgstr "Выберыце свой шрыфт:"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr "Усталюйце наш час - хвіліна для загрузкі Застаўкі"
+msgstr "Усталюйце наш час - хвіліна для загрузкі фону"
 
 msgid "Set Time our - minute for Poster download"
 msgstr "Усталюйце наш час - хвіліна для загрузкі плаката"
@@ -415,8 +556,23 @@ msgstr "Налады сервера Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Налада Aglare Skin Info"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "Наладка Aglare Skin\nдля {0} v.{1}\n\n ад Lululla @2020\n\nФорум падтрымкі на linuxsat-support.com\n\nСтваральнік Skinner: Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Паказаць значкі, якія прадстаўляюць жанр кожнай падзеі (напрыклад, баявік, камедыя, драма)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "Паказаць або схаваць інфармацыю ECM на інфармацыйнай панэлі."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "Паказаць або схаваць PosterX на другой інфармацыйнай панэлі."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Паказаць або схаваць панэль даты ў інфармацыйнай панэлі."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "Паказаць або схаваць XtraEvent на другой інфармацыйнай панэлі."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Паказваць значкі бацькоўскага кантролю на падзеях, каб паказаць рэйтынг змесціва і адпаведнасць узросту."
@@ -433,14 +589,29 @@ msgstr "Стыль скуры:"
 msgid "SnowWhite"
 msgstr "Беласнежка"
 
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Крыніца + Caid + Reader + Protocol + Server + Port + ECM Time"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Крыніца + Caid + Reader + ECM Time"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Крыніца + Prov + Caid + ECM Time"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Крыніца + Prov + Caid + Пратакол + Сервер + Порт + Час ECM"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Крыніца + Prov + Caid + Сервер + Порт + Час ECM"
+
 msgid "Start downloading backdrop immediately"
-msgstr "Пачніце загрузку фону неадкладна"
+msgstr "Неадкладна пачніце спампоўку фону"
 
 msgid "Start downloading poster immediately"
 msgstr "Пачніце загрузку плаката неадкладна"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "SteelBlue"
 
 msgid "Style2"
 msgstr "Стыль2"
@@ -451,17 +622,29 @@ msgstr "Стыль3"
 msgid "Style4"
 msgstr "Стыль4"
 
+msgid "Style5 CD"
+msgstr "Дыск стыль 5"
+
+msgid "Style6"
+msgstr "Стыль6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "Падтрымка скінаў E2iplayer:"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "Падтрымка InfoBar SoftCSA:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Падтрымка скінаў SubsSupportPro:"
 
 msgid "System"
 msgstr "сістэма"
 
-msgid "TMDB Only"
-msgstr "Толькі TMDB"
-
 msgid "Teal"
 msgstr "Чыркаваты"
+
+msgid "TEST"
+msgstr "ТЭСТ"
 
 msgid "The file %s is empty."
 msgstr "Файл %s пусты."
@@ -469,17 +652,23 @@ msgstr "Файл %s пусты."
 msgid "The file %s was not found."
 msgstr "Файл %s не знойдзены."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "Файл абнаўлення не знойдзены ў /tmp.\nАбнаўленне спынена."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Гэта аперацыя прызначыць шлях прылады да папкі для загрузкі выявы (плакат-фон)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Гэтая аперацыя дазваляе паказваць рэйтынгавыя зоркі для падзей на аснове абранай крыніцы рэйтынгаў."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Гэтая аперацыя выдаляе ўвесь PNG з прылады папкі (Плакат-Застава)"
 
+msgid "TMDB Only"
+msgstr "Толькі TMDB"
+
 msgid "Tomato"
 msgstr "Таматны"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "URL-адрас абнаўлення не ініцыялізаваны, спачатку адкрыйце ўбудову адзін раз з меню "Убудовы"."
 
 msgid "Update check failed: {}"
 msgstr "Памылка праверкі абнаўлення: {}"
@@ -487,8 +676,17 @@ msgstr "Памылка праверкі абнаўлення: {}"
 msgid "Update package not found!"
 msgstr "Пакет абнаўлення не знойдзены!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL-адрас абнаўлення не ініцыялізаваны – спачатку адкрыйце плагін адзін раз з меню плагінаў."
+
+msgid "volume2"
+msgstr "том2"
+
 msgid "VolumeBar Style:"
 msgstr "Стыль VolumeBar:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Папярэджанне: вы выкарыстоўваеце ключы API па змаўчанні!\nМы настойліва рэкамендуем канфігураваць свае ўласныя ключы API ў наладах плагіна."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Рэдагаваць запіс"
@@ -508,14 +706,3 @@ msgstr "У вас ужо ёсць апошняя версія ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Вам неабходна ўвесці сапраўдную назву горада, перш чым вы зможаце шукаць код месцазнаходжання."
 
-msgid "imperial system"
-msgstr "імперскі лад"
-
-msgid "metric system"
-msgstr "метрычная сістэма"
-
-msgid "play/show Files"
-msgstr "прайграваць/паказваць файлы"
-
-msgid "volume2"
-msgstr "том2"

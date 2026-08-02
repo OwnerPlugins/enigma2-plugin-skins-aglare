@@ -1,40 +1,50 @@
+# mt translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Maltese <translation-team-mt@lists.sourceforge.net>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: mt <ekekaz@gmail.com>\n"
 "Language: mt\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] Din l-operazzjoni tiċċekkja jekk il-ġilda għandhiex il-komponenti tagħha (mhux garantiti)... \nVerament trid tkompli?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Din l-operazzjoni se tneħħi l-PNGs kollha mill-folder tat-tagħmir (Poster-Backdrop)... \nVerament trid tkompli?"
 
 msgid "%s key imported!"
 msgstr "%s ċavetta importata!"
 
 msgid "1 poster"
-msgstr ""
+msgstr "1 poster"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "Attiva/Diżattiva ELCINEMA"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "Attiva jew iddiżattiva ELCINEMA bħala fornitur tal-metadejta."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "Attiva/Diżattiva GOOGLE"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "Attiva jew iddiżattiva GOOGLE bħala fornitur tal-metadejta."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Attiva/Diżattiva IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "Attiva jew iddiżattiva IMDB bħala fornitur tal-metadata."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "Attiva/Diżattiva MOLOTOV"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "Attiva jew iddiżattiva MOLOTOV bħala fornitur tal-metadejta."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Attiva/Diżattiva PROGRAMMETV"
-
-msgid "Activate/Deactivate {}"
-msgstr "Attiva/Diżattiva {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "Attiva jew iddiżattiva PROGRAMMETV bħala fornitur tal-metadata."
 
 msgid "Add"
 msgstr "Żid"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "L-aġġornament tal-glare sar! \nTridu terġa' tibda l-GUI issa?"
 
 msgid "All png are removed from folder!"
 msgstr "Il-png kollha jitneħħew mill-folder!"
@@ -63,8 +73,14 @@ msgstr "Sfond"
 msgid "Backdrop download error: {}"
 msgstr "Żball tat-tniżżil tal-isfond: {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "It-tniżżil ta' l-isfond jibda fi żmien 2 minuti. \nTista' toħroġ minn dan il-menu mingħajr periklu."
+
 msgid "BebasNeue"
 msgstr "FreeNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Unità bitrate:"
 
 msgid "Black"
 msgstr "Iswed"
@@ -75,8 +91,17 @@ msgstr "Blu"
 msgid "Brown"
 msgstr "Kannella"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + Protokoll + Server + Ħin ECM"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Qarrej + Protokoll + Server + Ħin ECM"
+
 msgid "Cancel"
 msgstr "Ikkanċella"
+
+msgid "CD"
+msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Deskrizzjoni tal-Kanal Kulur:"
@@ -94,43 +119,52 @@ msgid "ChannelSelection Style:"
 msgstr "Stil tal-Għażla tal-Kanal:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "ChannelSelection_big_mini_tv"
+
+msgid "ChannelSelection_NO_Posters"
+msgstr "ChannelSelection_NO_Posters"
+
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "Choice device download image folder"
+msgstr "Folder tal-immaġni tat-tniżżil tal-apparat tal-għażla"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Agħżel jekk ir-rata tal-bit hijiex f'Kb/s jew Mb/s."
 
 msgid "City"
 msgstr "Belt"
@@ -142,19 +176,16 @@ msgid "Configure the delay time (in minutes) before starting the automatic poste
 msgstr "Ikkonfigura l-ħin tad-dewmien (f'minuti) qabel ma tibda t-tniżżil awtomatiku tal-poster"
 
 msgid "Crimson"
-msgstr ""
+msgstr "Crimson"
 
 msgid "Customization tool for %s Skin"
 msgstr "Għodda ta' customization għal %s Skin"
 
-msgid "Dark Green"
-msgstr "Aħdar Skur"
-
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del Line"
 
 msgid "Delete"
 msgstr "Ħassar"
@@ -162,8 +193,8 @@ msgstr "Ħassar"
 msgid "Download error: {}"
 msgstr "Żball tat-tniżżil: {}"
 
-msgid "Download in progress"
-msgstr "Niżżel għaddej"
+msgid "Download in progress…"
+msgstr "Tniżżil għaddej..."
 
 msgid "Download now backdrop"
 msgstr "Niżżel issa l-isfond"
@@ -174,8 +205,17 @@ msgstr "Niżżel issa poster"
 msgid "Downloading Aglare..."
 msgstr "Niżżel Aglare..."
 
+msgid "ECM Short Format:"
+msgstr "Format Qasir ECM:"
+
 msgid "Edit"
 msgstr "Editja"
+
+msgid "EMC PX"
+msgstr "EMC PX"
+
+msgid "EMC screens Style:"
+msgstr "Skrins EMC Stil:"
 
 msgid "Enable Display Genre icons:"
 msgstr "Ippermetti l-ikoni tal-Ġeneru tal-Wiri:"
@@ -186,26 +226,32 @@ msgstr "Ippermetti l-Wiri InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Ippermetti Display XMC Poster:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Ippermetti jew iddiżattiva l-iskrins tal-E2iPlayer miġbura."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Ippermetti jew iddiżattiva l-caching waqt it-tniżżil tal-avvenimenti biex tħaffef it-tfittxijiet ripetuti."
+
 msgid "Enable Parental Icons:"
 msgstr "Ippermetti l-Ikoni tal-Ġenituri:"
 
 msgid "Enable Rating Star:"
 msgstr "Attiva l-Istilla tal-Klassifikazzjoni:"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Ippermetti jew iddiżattiva l-caching waqt it-tniżżil tal-avvenimenti biex tħaffef it-tfittxijiet ripetuti."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ippermetti l-wiri ta' informazzjoni estiża dwar l-avveniment, inkluż cast sħiħ, ekwipaġġ, dettalji tal-plott, u metadejta oħra, fil-widget tal-informazzjoni."
+
+msgid "Error {0}: {1}"
+msgstr "Żball {0}: {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Żball billi tipproċessa l-fajl tal-ġilda: {}"
 
 msgid "Error downloading files!"
 msgstr "Żball fit-tniżżil tal-fajls!"
 
 msgid "Error loading: {}"
 msgstr "Żball fit-tagħbija: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Żball {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Żball: {}"
@@ -214,31 +260,43 @@ msgid "EventView Style:"
 msgstr "Stil EventView:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Posters"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posters"
 
 msgid "Exit"
 msgstr "Ħruġ"
 
-msgid "File Commander - Addon"
-msgstr ""
-
 msgid "File {} not found or empty"
 msgstr "Fajl {} mhux misjub jew vojt"
+
+msgid "File Commander - Addon"
+msgstr "File Commander - Addon"
 
 msgid "Green"
 msgstr "Aħdar"
 
+msgid "Green2"
+msgstr "Aħdar2"
+
 msgid "Greta"
-msgstr ""
+msgstr "Greta"
+
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "Il-GUI teħtieġ bidu mill-ġdid biex tapplika ġilda ġdida. \nTridu terġa' tibda l-GUI issa?"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "HandelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr "Grupp ta' Kompatibbiltà tal-Immaġini:"
+
+msgid "imperial system"
+msgstr "sistema imperjali"
 
 msgid "Import key {0} from {1}?"
-msgstr "Importa ċ-ċavetta {0} minn {1}?"
+msgstr "Importa ċavetta {0} minn {1}?"
 
 msgid "Info..."
 msgstr "Informazzjoni..."
@@ -247,25 +305,25 @@ msgid "InfoBar Date:"
 msgstr "Data tal-Bar tal-Informazzjoni:"
 
 msgid "InfoBar ECM:"
-msgstr ""
+msgstr "InfoBar ECM:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "InfoBar PosterX:"
 
 msgid "InfoBar Style:"
-msgstr "Stil InfoBar:"
+msgstr "InfoBar Stil:"
 
 msgid "InfoBar Weather:"
 msgstr "InfoBar Temp:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "InfoBar Xtraevent:"
 
 msgid "Infobar_Date"
-msgstr ""
+msgstr "Infobar_Date"
 
 msgid "Infobar_MSNWeather"
-msgstr ""
+msgstr "Infobar_MSNWeather"
 
 msgid "Infobar_NO_Date"
 msgstr "Infobar_NO_Data"
@@ -274,7 +332,7 @@ msgid "Infobar_NO_Weather"
 msgstr "Infobar_NO_Temp"
 
 msgid "Infobar_OAWeather"
-msgstr ""
+msgstr "Infobar_OAWeather"
 
 msgid "Ins Line"
 msgstr "Linja Ins"
@@ -282,23 +340,23 @@ msgstr "Linja Ins"
 msgid "Installing updates..."
 msgstr "Jinstallaw aġġornamenti..."
 
-msgid "Key empty"
-msgstr "Ċavetta vojta"
-
 msgid "Key {} successfully loaded!"
 msgstr "Iċ-ċavetta {} tagħbija b'suċċess!"
 
+msgid "Key empty"
+msgstr "Ċavetta vojta"
+
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRegular"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Kilobit/s (Kb/s)"
 
 msgid "LightGray"
-msgstr ""
+msgstr "LightGray"
 
 msgid "LimeGreen"
-msgstr ""
-
-msgid "Load from /tmp/{}key.txt"
-msgstr "Tagħbija minn /tmp/{}key.txt"
+msgstr "LimeGreen"
 
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Il-bini lokali ({}) huwa aktar ġdid mill-bini tas-server ({})."
@@ -306,44 +364,68 @@ msgstr "Il-bini lokali ({}) huwa aktar ġdid mill-bini tas-server ({})."
 msgid "Location code"
 msgstr "Kodiċi tal-post"
 
+msgid "Lucida"
+msgstr "Lucida"
+
+msgid "Magenta"
+msgstr "Magenta"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "Megabit/s (Mb/s)"
+
+msgid "metric system"
+msgstr "sistema metrika"
+
+msgid "Mint"
+msgstr "Mint"
+
+msgid "Mix1"
+msgstr "Ħallat1"
+
 msgid "MSN location search result"
 msgstr "Riżultat tat-tfittxija tal-post tal-MSN"
 
 msgid "MV Boli"
-msgstr ""
-
-msgid "Magenta"
-msgstr ""
-
-msgid "Mint"
-msgstr ""
+msgstr "MV Boli"
 
 msgid "No active providers enabled"
 msgstr "Ebda fornituri attivi attivati"
 
+msgid "No description available for this option."
+msgstr "Ebda deskrizzjoni disponibbli għal din l-għażla."
+
+msgid "Off"
+msgstr "Mitfi"
+
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "OMDB Only"
 msgstr "OMDB Biss"
 
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
-msgid "Off"
-msgstr "Mitfi"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "ON/OFF Ġlud SubsSupportPro."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (Grupp ta' Stampi Ġodda)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (Grupp OpenPLi)"
 
 msgid "Orange"
 msgstr "Oranġjo"
 
-msgid "Personal API key for {}"
-msgstr "Ċavetta API personali għal {}"
-
 msgid "Pink"
 msgstr "Roża"
+
+msgid "play/show Files"
+msgstr "play/show Fajls"
 
 msgid "Please enter a valid city name."
 msgstr "Jekk jogħġbok daħħal isem tal-belt validu."
@@ -353,6 +435,9 @@ msgstr "Jekk jogħġbok daħħal kodiċi tal-post validu għall-belt."
 
 msgid "Poster download error: {}"
 msgstr "Żball tat-tniżżil tal-poster: {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "It-tniżżil tal-poster jibda fi żmien 2 minuti. \nTista' toħroġ minn dan il-menu mingħajr periklu."
 
 msgid "Purple"
 msgstr "Vjola"
@@ -385,7 +470,7 @@ msgid "Second Infobar_OAWeather"
 msgstr "It-tieni Infobar_OAWeather"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "SecondInfobar Posterx:"
 
 msgid "SecondInfobar Style:"
 msgstr "Stil tat-Tieni Infobar:"
@@ -394,10 +479,67 @@ msgid "SecondInfobar Weather:"
 msgstr "SecondInfobar Temp:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "SecondInfobar Xtraevent:"
 
 msgid "Segoe UI light"
 msgstr "Dawl Segoe UI"
+
+msgid "Select channel list event description color."
+msgstr "Agħżel il-kulur tad-deskrizzjoni tal-avveniment tal-lista tal-kanali."
+
+msgid "Select channel list foreground color."
+msgstr "Agħżel il-kulur tat-tagħrif miksub fil-lista tal-kanali."
+
+msgid "Select channel list selected foreground color."
+msgstr "Agħżel il-lista tal-kanali magħżula kulur miksub."
+
+msgid "Select channel selection screen style."
+msgstr "Agħżel l-istil tal-iskrin tal-għażla tal-kanal."
+
+msgid "Select EMC style."
+msgstr "Agħżel l-istil EMC."
+
+msgid "Select event view screen style."
+msgstr "Agħżel l-istil tal-iskrin tal-vista tal-avveniment."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Agħżel it-tqassim tal-infobar. Style5 jġiegħel lill-ECM jitfi u jippermetti biss modi tal-poster OFF/CD. Style6 iġġiegħel ECM, PosterX, u Xtraevent jitfi."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Agħżel il-mod tal-wiri PosterX għall-infobar. Għażliet disponibbli jiddependu fuq l-istil tal-infobar magħżul u l-mod ECM."
+
+msgid "Select second infobar layout."
+msgstr "Agħżel it-tieni tqassim tal-infobar."
+
+msgid "Select selected channel event description color."
+msgstr "Agħżel il-kulur tad-deskrizzjoni tal-avveniment tal-kanal magħżul."
+
+msgid "Select the base skin layout file."
+msgstr "Agħżel il-fajl tat-tqassim tal-ġilda bażi."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Agħżel il-pakkett tat-tipa użat mill-ġilda ġġenerata."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Agħżel issettjat minn qabel tal-kulur prinċipali użat mill-ġilda."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Agħżel il-grupp bażi tal-immaġni fil-mira (OpenPLi vs Oħrajn)."
+
+msgid "Select volume bar style."
+msgstr "Agħżel stil bar volum."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Agħżel il-wiri tal-fornitur tat-temp għall-infobar."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "Agħżel il-wiri tal-fornitur tat-temp għat-tieni infobar."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Agħżel liema oqsma ECM jintwerew meta l-ġilda tuża Short MYEMUPARA."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Agħżel il-mod tal-wiri XtraEvent għall-infobar. Għażliet disponibbli jiddependu fuq l-istil tal-infobar magħżul u l-mod ECM."
 
 msgid "Select Your Font:"
 msgstr "Agħżel il-font tiegħek:"
@@ -409,28 +551,58 @@ msgid "Set Time our - minute for Poster download"
 msgstr "Issettja l-Ħin tagħna - minuta għat-tniżżil tal-Poster"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Settings Apikey Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Setup Aglare Skin Info"
+
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "Setup Aglare Skin\nfor {0} v.{1}\n\nminn Lululla @2020\n\nForum ta' appoġġ fuq linuxsat-support.com\n\nSkinner kreatur: Odem2014"
 
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Uri ikoni li jirrappreżentaw il-ġeneru ta’ kull avveniment (eż., azzjoni, kummiedja, drama)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "Uri jew aħbi l-informazzjoni tal-ECM fl-infobar."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "Uri jew aħbi PosterX fit-tieni infobar."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Uri jew aħbi l-pannell tad-data fil-bar tal-informazzjoni."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "Uri jew aħbi XtraEvent fit-tieni infobar."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Uri ikoni tal-gwida tal-ġenituri dwar avvenimenti biex tindika l-klassifikazzjoni tal-kontenut u l-adegwatezza tal-età."
 
 msgid "Show poster from movie in local folder"
-msgstr "Uri poster mill-film fil-folder lokali"
+msgstr "Uri poster minn film fil-folder lokali"
 
 msgid "Sienna"
-msgstr ""
+msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Stil tal-ġilda:"
 
 msgid "SnowWhite"
-msgstr ""
+msgstr "SnowWhite"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Sors + Caid + Qarrej + Protokoll + Server + Port + Ħin ECM"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Sors + Caid + Qarrej + Ħin ECM"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Sors + Prov + Caid + Ħin ECM"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Sors + Prov + Caid + Protokoll + Server + Port + Ħin ECM"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Sors + Prov + Caid + Server + Port + Ħin ECM"
 
 msgid "Start downloading backdrop immediately"
 msgstr "Ibda tniżżel l-isfond immedjatament"
@@ -439,7 +611,7 @@ msgid "Start downloading poster immediately"
 msgstr "Ibda tniżżel poster immedjatament"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "SteelBlue"
 
 msgid "Style2"
 msgstr "Stil2"
@@ -448,19 +620,31 @@ msgid "Style3"
 msgstr "Stil3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Style4"
+
+msgid "Style5 CD"
+msgstr "Style5 CD"
+
+msgid "Style6"
+msgstr "Style6"
 
 msgid "Support E2iplayer Skins:"
 msgstr "Appoġġ għall-E2iplayer Skins:"
 
+msgid "Support InfoBar SoftCSA:"
+msgstr "Appoġġ InfoBar SoftCSA:"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Appoġġ SubsSupportPro Skins:"
+
 msgid "System"
 msgstr "Sistema"
 
-msgid "TMDB Only"
-msgstr "TMDB Biss"
-
 msgid "Teal"
-msgstr ""
+msgstr "Teal"
+
+msgid "TEST"
+msgstr "TEST"
 
 msgid "The file %s is empty."
 msgstr "Il-fajl %s huwa vojt."
@@ -468,17 +652,23 @@ msgstr "Il-fajl %s huwa vojt."
 msgid "The file %s was not found."
 msgstr "Il-fajl %s ma nstabx."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "Il-fajl tal-aġġornament ma nstabx f'/tmp.\nAġġornament abortit."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Din l-operazzjoni tassenja folder tal-mogħdija tal-apparat biex tniżżel l-immaġni (Poster-Backdrop)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Din l-operazzjoni tippermetti l-wiri tal-istilel tal-klassifikazzjoni għall-avvenimenti, ibbażati fuq is-sors tal-klassifikazzjoni magħżul."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Din l-operazzjoni neħħi l-png kollha mill-apparat tal-folder (Poster-Backdrop)"
 
+msgid "TMDB Only"
+msgstr "TMDB Biss"
+
 msgid "Tomato"
 msgstr "Tadam"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Aġġorna l-URL mhux inizjalizzat tiftaħ il-plugin darba mill-menu Plugins l-ewwel."
 
 msgid "Update check failed: {}"
 msgstr "Il-kontroll tal-aġġornament falla: {}"
@@ -486,8 +676,17 @@ msgstr "Il-kontroll tal-aġġornament falla: {}"
 msgid "Update package not found!"
 msgstr "Pakkett ta' aġġornament ma nstabx!"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Aġġorna l-URL mhux inizjalizzat - l-ewwel tiftaħ il-plugin darba mill-menu Plugins."
+
+msgid "volume2"
+msgstr "volum2"
+
 msgid "VolumeBar Style:"
 msgstr "Stil tal-VolumBar:"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Twissija: Qed tuża ċwievet API default! \nNirrakkomandaw bil-qawwa li tikkonfigura ċ-ċwievet API tiegħek stess fis-settings tal-plugin."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Editja Dħul"
@@ -507,14 +706,3 @@ msgstr "Diġà għandek l-aħħar verżjoni ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Għandek bżonn iddaħħal isem validu tal-belt qabel ma tkun tista' tfittex il-kodiċi tal-post."
 
-msgid "imperial system"
-msgstr "sistema imperjali"
-
-msgid "metric system"
-msgstr "sistema metrika"
-
-msgid "play/show Files"
-msgstr "play/show Fajls"
-
-msgid "volume2"
-msgstr "volum2"

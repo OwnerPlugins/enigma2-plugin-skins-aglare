@@ -1,13 +1,23 @@
+# zh_SG translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Language zh-SG\n"
-"Language: zh-SG\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: zh_SG <ekekaz@gmail.com>\n"
+"Language: zh_SG\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] 此操作检查皮肤是否有其组件（不保证）...\n您真的要继续吗？"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] 此操作将从设备文件夹（海报-背景）中删除所有 PNG...\n确实要继续吗？"
 
 msgid "%s key imported!"
 msgstr "%s 密钥已导入！"
@@ -15,26 +25,26 @@ msgstr "%s 密钥已导入！"
 msgid "1 poster"
 msgstr "1 张海报"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "激活/停用 ELCINEMA"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "激活或停用 ELCINEMA 作为元数据提供程序。"
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "激活/停用 GOOGLE"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "激活或停用 GOOGLE 作为元数据提供商。"
 
-msgid "Activate/Deactivate IMDB"
-msgstr "激活/停用 IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "激活或停用 IMDB 作为元数据提供程序。"
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "激活/停用莫洛托夫"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "激活或停用 MOLOTOV 作为元数据提供者。"
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "激活/停用 PROGRAMMETV"
-
-msgid "Activate/Deactivate {}"
-msgstr "激活/停用 {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "激活或停用 PROGRAMMETV 作为元数据提供者。"
 
 msgid "Add"
 msgstr "添加"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "Aglare 更新已完成！\n您想立即重新启动 GUI 吗？"
 
 msgid "All png are removed from folder!"
 msgstr "所有 png 均已从文件夹中删除！"
@@ -63,8 +73,14 @@ msgstr "背景"
 msgid "Backdrop download error: {}"
 msgstr "背景下载错误：{}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "背景下载将在 2 分钟后开始。\n您可以安全退出此菜单。"
+
 msgid "BebasNeue"
 msgstr "自由新"
+
+msgid "Bitrate Unit:"
+msgstr "比特率单位："
 
 msgid "Black"
 msgstr "黑色的"
@@ -75,8 +91,17 @@ msgstr "蓝色的"
 msgid "Brown"
 msgstr "棕色的"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + 协议 + 服务器 + ECM 时间"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + 阅读器 + 协议 + 服务器 + ECM 时间"
+
 msgid "Cancel"
 msgstr "取消"
+
+msgid "CD"
+msgstr "光盘"
 
 msgid "Channel Description Color:"
 msgstr "通道描述颜色："
@@ -94,43 +119,52 @@ msgid "ChannelSelection Style:"
 msgstr "频道选择风格："
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "ChannelSelection_big_mini_tv"
+
+msgid "ChannelSelection_NO_Posters"
+msgstr "ChannelSelection_NO_Posters"
+
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "Choice device download image folder"
+msgstr "选择设备下载图像文件夹"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "选择比特率以 Kb/s 还是 Mb/s 为单位显示。"
 
 msgid "City"
 msgstr "城市"
@@ -147,9 +181,6 @@ msgstr "赤红"
 msgid "Customization tool for %s Skin"
 msgstr "%s 皮肤的定制工具"
 
-msgid "Dark Green"
-msgstr "深绿色"
-
 msgid "Default"
 msgstr "默认"
 
@@ -162,8 +193,8 @@ msgstr "删除"
 msgid "Download error: {}"
 msgstr "下载错误：{}"
 
-msgid "Download in progress"
-msgstr "下载正在进行中"
+msgid "Download in progress…"
+msgstr "下载正在进行中..."
 
 msgid "Download now backdrop"
 msgstr "立即下载背景"
@@ -174,8 +205,17 @@ msgstr "立即下载海报"
 msgid "Downloading Aglare..."
 msgstr "正在下载阿格拉..."
 
+msgid "ECM Short Format:"
+msgstr "ECM 短格式："
+
 msgid "Edit"
 msgstr "编辑"
+
+msgid "EMC PX"
+msgstr "电磁兼容PX"
+
+msgid "EMC screens Style:"
+msgstr "EMC 屏幕样式："
 
 msgid "Enable Display Genre icons:"
 msgstr "启用显示类型图标："
@@ -186,26 +226,32 @@ msgstr "启用显示信息事件："
 msgid "Enable Display XMC Poster:"
 msgstr "启用显示 XMC 海报："
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "启用或禁用捆绑的 E2iPlayer 屏幕。"
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "在事件下载期间启用或禁用缓存以加快重复搜索的速度。"
+
 msgid "Enable Parental Icons:"
 msgstr "启用家长图标："
 
 msgid "Enable Rating Star:"
 msgstr "启用评级星级："
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "在事件下载期间启用或禁用缓存以加快重复搜索的速度。"
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "在信息小部件中启用扩展事件信息的显示，包括完整演员表、工作人员、情节详细信息和其他元数据。"
+
+msgid "Error {0}: {1}"
+msgstr "错误 {0}：{1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "处理外观文件时出错：{}"
 
 msgid "Error downloading files!"
 msgstr "下载文件时出错！"
 
 msgid "Error loading: {}"
 msgstr "加载错误：{}"
-
-msgid "Error {0}: {1}"
-msgstr "错误{0}：{1}"
 
 msgid "Error: {}"
 msgstr "错误： {}"
@@ -222,20 +268,32 @@ msgstr "事件视图_NO_海报"
 msgid "Exit"
 msgstr "出口"
 
-msgid "File Commander - Addon"
-msgstr "文件指挥官 - 插件"
-
 msgid "File {} not found or empty"
 msgstr "文件 {} 未找到或为空"
+
+msgid "File Commander - Addon"
+msgstr "文件指挥官 - 插件"
 
 msgid "Green"
 msgstr "绿色的"
 
+msgid "Green2"
+msgstr "绿色2"
+
 msgid "Greta"
 msgstr "格蕾塔"
 
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "GUI 需要重新启动才能应用新皮肤。\n是否要立即重新启动 GUI？"
+
 msgid "HandelGotD"
 msgstr "亨德尔得D"
+
+msgid "Image Compatibility Group:"
+msgstr "图像兼容性组："
+
+msgid "imperial system"
+msgstr "帝国制度"
 
 msgid "Import key {0} from {1}?"
 msgstr "从 {1} 导入密钥 {0}？"
@@ -282,14 +340,17 @@ msgstr "INS线"
 msgid "Installing updates..."
 msgstr "正在安装更新..."
 
-msgid "Key empty"
-msgstr "钥匙空"
-
 msgid "Key {} successfully loaded!"
 msgstr "密钥 {} 已成功加载！"
 
+msgid "Key empty"
+msgstr "钥匙空"
+
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtbold常规"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "千比特/秒 (Kb/s)"
 
 msgid "LightGray"
 msgstr "浅灰色"
@@ -297,14 +358,29 @@ msgstr "浅灰色"
 msgid "LimeGreen"
 msgstr "柠檬绿"
 
-msgid "Load from /tmp/{}key.txt"
-msgstr "从 /tmp/{}key.txt 加载"
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "本地构建 ({}) 比服务器构建 ({}) 新。"
 
 msgid "Location code"
 msgstr "位置代码"
+
+msgid "Lucida"
+msgstr "露西达"
+
+msgid "Magenta"
+msgstr "品红"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "兆比特/秒 (Mb/s)"
+
+msgid "metric system"
+msgstr "公制"
+
+msgid "Mint"
+msgstr "薄荷"
+
+msgid "Mix1"
+msgstr "混合1"
 
 msgid "MSN location search result"
 msgstr "MSN位置搜索结果"
@@ -312,14 +388,14 @@ msgstr "MSN位置搜索结果"
 msgid "MV Boli"
 msgstr "MV波利"
 
-msgid "Magenta"
-msgstr "品红"
-
-msgid "Mint"
-msgstr "薄荷"
-
 msgid "No active providers enabled"
 msgstr "没有启用任何活跃的提供商"
+
+msgid "No description available for this option."
+msgstr "该选项没有可用的描述。"
+
+msgid "Off"
+msgstr "离开"
 
 msgid "OFF"
 msgstr "离开"
@@ -333,17 +409,23 @@ msgstr "仅限 OMDB"
 msgid "ON"
 msgstr "在"
 
-msgid "Off"
-msgstr "离开"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "打开/关闭 SubsSupportPro 皮肤。"
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue（新图像组）"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge（OpenPLi 集团）"
 
 msgid "Orange"
 msgstr "橙子"
 
-msgid "Personal API key for {}"
-msgstr "{} 的个人 API 密钥"
-
 msgid "Pink"
 msgstr "粉色的"
+
+msgid "play/show Files"
+msgstr "播放/显示文件"
 
 msgid "Please enter a valid city name."
 msgstr "请输入有效的城市名称。"
@@ -353,6 +435,9 @@ msgstr "请输入该城市的有效位置代码。"
 
 msgid "Poster download error: {}"
 msgstr "海报下载错误：{}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "海报下载将在 2 分钟后开始。\n您可以安全退出此菜单。"
 
 msgid "Purple"
 msgstr "紫色的"
@@ -399,6 +484,63 @@ msgstr "SecondInfobar Xtraevent："
 msgid "Segoe UI light"
 msgstr "Segoe UI 灯"
 
+msgid "Select channel list event description color."
+msgstr "选择频道列表事件描述颜色。"
+
+msgid "Select channel list foreground color."
+msgstr "选择频道列表前景色。"
+
+msgid "Select channel list selected foreground color."
+msgstr "选择通道列表中选定的前景色。"
+
+msgid "Select channel selection screen style."
+msgstr "选择频道选择屏幕样式。"
+
+msgid "Select EMC style."
+msgstr "选择 EMC 样式。"
+
+msgid "Select event view screen style."
+msgstr "选择事件视图屏幕样式。"
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "选择信息栏布局。 Style5 强制 ECM 关闭并仅允许 OFF/CD 海报模式。 Style6 强制关闭 ECM、PosterX 和 Xtraevent。"
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "选择信息栏的 PosterX 显示模式。可用选项取决于所选的信息栏样式和 ECM 模式。"
+
+msgid "Select second infobar layout."
+msgstr "选择第二个信息栏布局。"
+
+msgid "Select selected channel event description color."
+msgstr "选择所选通道事件描述颜色。"
+
+msgid "Select the base skin layout file."
+msgstr "选择基础皮肤布局文件。"
+
+msgid "Select the font package used by the generated skin."
+msgstr "选择生成的皮肤使用的字体包。"
+
+msgid "Select the main color preset used by the skin."
+msgstr "选择皮肤使用的主要颜色预设。"
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "选择目标图像基础组（OpenPLi 与其他）。"
+
+msgid "Select volume bar style."
+msgstr "选择音量条样式。"
+
+msgid "Select weather provider display for the infobar."
+msgstr "选择信息栏的天气提供商显示。"
+
+msgid "Select weather provider display for the second infobar."
+msgstr "选择第二个信息栏的天气提供商显示。"
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "选择当皮肤使用 Short MYEMUPARA 时显示哪些 ECM 字段。"
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "选择信息栏的 XtraEvent 显示模式。可用选项取决于所选的信息栏样式和 ECM 模式。"
+
 msgid "Select Your Font:"
 msgstr "选择您的字体："
 
@@ -414,8 +556,23 @@ msgstr "设置 APIkey 服务器"
 msgid "Setup Aglare Skin Info"
 msgstr "设置炫光皮肤信息"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "设置 Aglare Skin\n for {0} v.{1}\n\n by Lululla @2020\n\nlinuxsat-support.com 上的支持论坛\n\nSkinner 创建者：Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "显示代表每个事件类型的图标（例如动作、喜剧、戏剧）"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "在信息栏中显示或隐藏 ECM 信息。"
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "在第二个信息栏中显示或隐藏 PosterX。"
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "在信息栏中显示或隐藏日期面板。"
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "在第二个信息栏中显示或隐藏 XtraEvent。"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "在活动中显示家长指导图标，以指示内容分级和年龄适合性。"
@@ -431,6 +588,21 @@ msgstr "皮肤风格："
 
 msgid "SnowWhite"
 msgstr "白雪公主"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "源 + Caid + 阅读器 + 协议 + 服务器 + 端口 + ECM 时间"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "来源+Caid+读者+ECM时间"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "来源 + Prov + Caid + ECM 时间"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "源 + Prov + Caid + 协议 + 服务器 + 端口 + ECM 时间"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "源 + Prov + Caid + 服务器 + 端口 + ECM 时间"
 
 msgid "Start downloading backdrop immediately"
 msgstr "立即开始下载背景"
@@ -450,17 +622,29 @@ msgstr "款式3"
 msgid "Style4"
 msgstr "款式4"
 
+msgid "Style5 CD"
+msgstr "风格5 CD"
+
+msgid "Style6"
+msgstr "款式6"
+
 msgid "Support E2iplayer Skins:"
 msgstr "支持 E2iplayer 皮肤："
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "支持InfoBar SoftCSA："
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "支持 SubsSupportPro 皮肤："
 
 msgid "System"
 msgstr "系统"
 
-msgid "TMDB Only"
-msgstr "仅TMDB"
-
 msgid "Teal"
 msgstr "青色"
+
+msgid "TEST"
+msgstr "测试"
 
 msgid "The file %s is empty."
 msgstr "文件 %s 为空。"
@@ -468,17 +652,23 @@ msgstr "文件 %s 为空。"
 msgid "The file %s was not found."
 msgstr "未找到文件 %s。"
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "在 /tmp 中找不到更新文件。\n更新已中止。"
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "此操作指定设备路径文件夹来下载图像（海报-背景）"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "此操作可以根据所选的评级源显示事件的评级星级。"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "此操作从文件夹设备中删除所有 png（海报背景）"
 
+msgid "TMDB Only"
+msgstr "仅TMDB"
+
 msgid "Tomato"
 msgstr "番茄"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "更新 URL 未初始化 首先从插件菜单打开插件一次。"
 
 msgid "Update check failed: {}"
 msgstr "更新检查失败：{}"
@@ -486,8 +676,17 @@ msgstr "更新检查失败：{}"
 msgid "Update package not found!"
 msgstr "未找到更新包！"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "更新 URL 未初始化 – 首先从插件菜单中打开插件一次。"
+
+msgid "volume2"
+msgstr "卷2"
+
 msgid "VolumeBar Style:"
 msgstr "音量条样式："
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "警告：您正在使用默认 API 密钥！\n我们强烈建议您在插件设置中配置您自己的 API 密钥。"
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin：编辑条目"
@@ -507,14 +706,3 @@ msgstr "您已经拥有最新版本 ({})。"
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "您需要输入有效的城市名称才能搜索位置代码。"
 
-msgid "imperial system"
-msgstr "帝国制度"
-
-msgid "metric system"
-msgstr "公制"
-
-msgid "play/show Files"
-msgstr "播放/显示文件"
-
-msgid "volume2"
-msgstr "卷2"

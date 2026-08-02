@@ -1,14 +1,23 @@
+# fr translations
+# Copyright (C) 2026 Lululla Team
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: French <traduc@traduc.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: fr <ekekaz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
+msgstr "[Checkskin] Cette opération vérifie si le skin a ses composants (non garanti)...\nVoulez-vous vraiment continuer ?"
+
+msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
+msgstr "[RemovePng] Cette opération supprimera tous les fichiers PNG du dossier de l'appareil (Poster-Backdrop)...\nVoulez-vous vraiment continuer ?"
 
 msgid "%s key imported!"
 msgstr "Clé %s importée !"
@@ -16,26 +25,26 @@ msgstr "Clé %s importée !"
 msgid "1 poster"
 msgstr "1 affiche"
 
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "Activer/Désactiver ELCINEMA"
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
+msgstr "Activez ou désactivez ELCINEMA en tant que fournisseur de métadonnées."
 
-msgid "Activate/Deactivate GOOGLE"
-msgstr "Activer/Désactiver GOOGLE"
+msgid "Activate or deactivate GOOGLE as a metadata provider."
+msgstr "Activez ou désactivez GOOGLE en tant que fournisseur de métadonnées."
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Activer/Désactiver IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr "Activez ou désactivez IMDB en tant que fournisseur de métadonnées."
 
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "Activer/Désactiver MOLOTOV"
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
+msgstr "Activez ou désactivez MOLOTOV en tant que fournisseur de métadonnées."
 
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "Activer/Désactiver PROGRAMMETV"
-
-msgid "Activate/Deactivate {}"
-msgstr "Activer/Désactiver {}"
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
+msgstr "Activez ou désactivez PROGRAMMETV en tant que fournisseur de métadonnées."
 
 msgid "Add"
 msgstr "Ajouter"
+
+msgid "Aglare update was done!\nDo you want to restart the GUI now?"
+msgstr "La mise à jour d'Aglare a été effectuée !\nVoulez-vous redémarrer l'interface graphique maintenant ?"
 
 msgid "All png are removed from folder!"
 msgstr "Tous les png sont supprimés du dossier !"
@@ -64,8 +73,14 @@ msgstr "Toile de fond"
 msgid "Backdrop download error: {}"
 msgstr "Erreur de téléchargement de toile de fond : {}"
 
+msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Le téléchargement de Background va commencer dans 2 minutes.\nVous pouvez quitter ce menu en toute sécurité."
+
 msgid "BebasNeue"
 msgstr "GratuitNeue"
+
+msgid "Bitrate Unit:"
+msgstr "Unité de débit :"
 
 msgid "Black"
 msgstr "Noir"
@@ -76,8 +91,17 @@ msgstr "Bleu"
 msgid "Brown"
 msgstr "Brun"
 
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr "Caid + Protocole + Serveur + Heure ECM"
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr "Caid + Lecteur + Protocole + Serveur + Heure ECM"
+
 msgid "Cancel"
 msgstr "Annuler"
+
+msgid "CD"
+msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Description du canal Couleur :"
@@ -95,43 +119,52 @@ msgid "ChannelSelection Style:"
 msgstr "Style de sélection de canal :"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "ChannelSelection_1_Poster_PX"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "ChannelSelection_4_Posters_PX"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_PX"
+
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "ChannelSelection_6_Posters_PX_test"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters"
-msgstr ""
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "ChannelSelection_BackDrop_V_PX"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "ChannelSelection_big_mini_tv"
+
+msgid "ChannelSelection_NO_Posters"
+msgstr "ChannelSelection_NO_Posters"
+
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "Choice device download image folder"
+msgstr "Dossier d'images de téléchargement de l'appareil de choix"
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr "Choisissez si le débit binaire est affiché en Kb/s ou en Mb/s."
 
 msgid "City"
 msgstr "Ville"
@@ -148,9 +181,6 @@ msgstr "Cramoisi"
 msgid "Customization tool for %s Skin"
 msgstr "Outil de personnalisation pour %s Skin"
 
-msgid "Dark Green"
-msgstr "Vert foncé"
-
 msgid "Default"
 msgstr "Défaut"
 
@@ -163,8 +193,8 @@ msgstr "Supprimer"
 msgid "Download error: {}"
 msgstr "Erreur de téléchargement : {}"
 
-msgid "Download in progress"
-msgstr "Téléchargement en cours"
+msgid "Download in progress…"
+msgstr "Téléchargement en cours…"
 
 msgid "Download now backdrop"
 msgstr "Téléchargez maintenant"
@@ -175,8 +205,17 @@ msgstr "Téléchargez maintenant l'affiche"
 msgid "Downloading Aglare..."
 msgstr "Téléchargement d'Aglare..."
 
+msgid "ECM Short Format:"
+msgstr "Format court ECM :"
+
 msgid "Edit"
 msgstr "Modifier"
+
+msgid "EMC PX"
+msgstr "CEM PX"
+
+msgid "EMC screens Style:"
+msgstr "Style des écrans CEM :"
 
 msgid "Enable Display Genre icons:"
 msgstr "Activer les icônes de genre d'affichage :"
@@ -187,26 +226,32 @@ msgstr "Activer l'affichage des événements d'information :"
 msgid "Enable Display XMC Poster:"
 msgstr "Activer l'affichage de l'affiche XMC :"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Activez ou désactivez les écrans E2iPlayer fournis."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Activez ou désactivez la mise en cache pendant le téléchargement d'événements pour accélérer les recherches répétées."
+
 msgid "Enable Parental Icons:"
 msgstr "Activer les icônes parentales :"
 
 msgid "Enable Rating Star:"
 msgstr "Activer l'étoile de notation :"
 
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Activez ou désactivez la mise en cache pendant le téléchargement d'événements pour accélérer les recherches répétées."
-
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Activez l'affichage d'informations étendues sur l'événement, y compris la distribution complète, l'équipe, les détails de l'intrigue et d'autres métadonnées, dans le widget d'informations."
+
+msgid "Error {0}: {1}"
+msgstr "Erreur {0} : {1}"
+
+msgid "Error by processing the skin file: {}"
+msgstr "Erreur lors du traitement du fichier skin : {}"
 
 msgid "Error downloading files!"
 msgstr "Erreur lors du téléchargement des fichiers !"
 
 msgid "Error loading: {}"
 msgstr "Erreur de chargement : {}"
-
-msgid "Error {0}: {1}"
-msgstr "Erreur {0} : {1}"
 
 msgid "Error: {}"
 msgstr "Erreur: {}"
@@ -215,28 +260,40 @@ msgid "EventView Style:"
 msgstr "Style d'affichage d'événement :"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "EventView_7_Posters"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "EventView_NO_Posters"
 
 msgid "Exit"
 msgstr "Sortie"
 
-msgid "File Commander - Addon"
-msgstr "Commandant de fichiers - Module complémentaire"
-
 msgid "File {} not found or empty"
 msgstr "Fichier {} introuvable ou vide"
+
+msgid "File Commander - Addon"
+msgstr "Commandant de fichiers - Module complémentaire"
 
 msgid "Green"
 msgstr "Vert"
 
+msgid "Green2"
+msgstr "Vert2"
+
 msgid "Greta"
-msgstr ""
+msgstr "Greta"
+
+msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
+msgstr "L'interface graphique doit être redémarrée pour appliquer un nouveau skin.\nVoulez-vous redémarrer l'interface graphique maintenant ?"
 
 msgid "HandelGotD"
 msgstr "HaendelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr "Groupe de compatibilité des images :"
+
+msgid "imperial system"
+msgstr "système impérial"
 
 msgid "Import key {0} from {1}?"
 msgstr "Importer la clé {0} depuis {1} ?"
@@ -283,14 +340,17 @@ msgstr "Ligne Ins"
 msgid "Installing updates..."
 msgstr "Installation des mises à jour..."
 
-msgid "Key empty"
-msgstr "Clé vide"
-
 msgid "Key {} successfully loaded!"
 msgstr "Clé {} chargée avec succès !"
 
+msgid "Key empty"
+msgstr "Clé vide"
+
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "KhalidArtboldRegular"
+
+msgid "Kilobit/s (Kb/s)"
+msgstr "Kilobit/s (Kb/s)"
 
 msgid "LightGray"
 msgstr "Gris clair"
@@ -298,29 +358,44 @@ msgstr "Gris clair"
 msgid "LimeGreen"
 msgstr "Vert Citron"
 
-msgid "Load from /tmp/{}key.txt"
-msgstr "Charger depuis /tmp/{}key.txt"
-
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "La version locale ({}) est plus récente que la version serveur ({})."
 
 msgid "Location code"
 msgstr "Code de localisation"
 
-msgid "MSN location search result"
-msgstr "Résultat de la recherche d'emplacement MSN"
-
-msgid "MV Boli"
-msgstr ""
+msgid "Lucida"
+msgstr "Lucide"
 
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
+
+msgid "Megabit/s (Mb/s)"
+msgstr "Mégabit/s (Mb/s)"
+
+msgid "metric system"
+msgstr "système métrique"
 
 msgid "Mint"
 msgstr "Menthe"
 
+msgid "Mix1"
+msgstr "Mélanger1"
+
+msgid "MSN location search result"
+msgstr "Résultat de la recherche d'emplacement MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "No active providers enabled"
 msgstr "Aucun fournisseur actif activé"
+
+msgid "No description available for this option."
+msgstr "Aucune description disponible pour cette option."
+
+msgid "Off"
+msgstr "Désactivé"
 
 msgid "OFF"
 msgstr "DÉSACTIVÉ"
@@ -334,17 +409,23 @@ msgstr "OMDB uniquement"
 msgid "ON"
 msgstr "SUR"
 
-msgid "Off"
-msgstr "Désactivé"
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr "Skins SubsSupportPro ON/OFF."
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr "OpenBH / OpenViX / TeamBlue (Nouveau groupe d'images)"
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr "OpenPLi / Satlodge (Groupe OpenPLi)"
 
 msgid "Orange"
-msgstr ""
-
-msgid "Personal API key for {}"
-msgstr "Clé API personnelle pour {}"
+msgstr "Orange"
 
 msgid "Pink"
 msgstr "Rose"
+
+msgid "play/show Files"
+msgstr "lire/afficher les fichiers"
 
 msgid "Please enter a valid city name."
 msgstr "Veuillez saisir un nom de ville valide."
@@ -354,6 +435,9 @@ msgstr "Veuillez saisir un code de localisation valide pour la ville."
 
 msgid "Poster download error: {}"
 msgstr "Erreur de téléchargement de l'affiche : {}"
+
+msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
+msgstr "Le téléchargement de l'affiche commencera dans 2 minutes.\nVous pouvez quitter ce menu en toute sécurité."
 
 msgid "Purple"
 msgstr "Violet"
@@ -400,6 +484,63 @@ msgstr "SecondInfobar Xtraevent :"
 msgid "Segoe UI light"
 msgstr "Lumière de l'interface utilisateur Segoe"
 
+msgid "Select channel list event description color."
+msgstr "Sélectionnez la couleur de la description de l'événement de la liste des chaînes."
+
+msgid "Select channel list foreground color."
+msgstr "Sélectionnez la couleur de premier plan de la liste des chaînes."
+
+msgid "Select channel list selected foreground color."
+msgstr "Sélectionnez la couleur de premier plan sélectionnée dans la liste des chaînes."
+
+msgid "Select channel selection screen style."
+msgstr "Sélectionnez le style d’écran de sélection de chaîne."
+
+msgid "Select EMC style."
+msgstr "Sélectionnez le style CEM."
+
+msgid "Select event view screen style."
+msgstr "Sélectionnez le style d’écran d’affichage des événements."
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr "Sélectionnez la disposition de la barre d'informations. Style5 force la désactivation de l'ECM et autorise uniquement les modes affiche OFF/CD. Style6 force la désactivation d'ECM, PosterX et Xtraevent."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Sélectionnez le mode d'affichage PosterX pour la barre d'informations. Les choix disponibles dépendent du style de barre d'informations sélectionné et du mode ECM."
+
+msgid "Select second infobar layout."
+msgstr "Sélectionnez la deuxième disposition de la barre d'informations."
+
+msgid "Select selected channel event description color."
+msgstr "Sélectionnez la couleur de description de l'événement de canal sélectionné."
+
+msgid "Select the base skin layout file."
+msgstr "Sélectionnez le fichier de présentation de l'habillage de base."
+
+msgid "Select the font package used by the generated skin."
+msgstr "Sélectionnez le package de polices utilisé par le skin généré."
+
+msgid "Select the main color preset used by the skin."
+msgstr "Sélectionnez le préréglage de couleur principal utilisé par le skin."
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr "Sélectionnez le groupe de base d'images cible (OpenPLi vs Others)."
+
+msgid "Select volume bar style."
+msgstr "Sélectionnez le style de barre de volume."
+
+msgid "Select weather provider display for the infobar."
+msgstr "Sélectionnez l'affichage du fournisseur météo pour la barre d'informations."
+
+msgid "Select weather provider display for the second infobar."
+msgstr "Sélectionnez l'affichage du fournisseur météo pour la deuxième barre d'informations."
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr "Sélectionnez les champs ECM à afficher lorsque le skin utilise Short MYEMUPARA."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Sélectionnez le mode d'affichage XtraEvent pour la barre d'informations. Les choix disponibles dépendent du style de barre d'informations sélectionné et du mode ECM."
+
 msgid "Select Your Font:"
 msgstr "Sélectionnez votre police :"
 
@@ -415,8 +556,23 @@ msgstr "Paramètres du serveur Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Configurer les informations sur la peau Aglare"
 
+msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
+msgstr "Configurer Aglare Skin\npour {0} v.{1}\n\npar Lululla @2020\n\nForum d'assistance sur linuxsat-support.com\n\nCréateur de skinner : Odem2014"
+
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Afficher des icônes représentant le genre de chaque événement (par exemple, action, comédie, drame)"
+
+msgid "Show or hide ECM information in the infobar."
+msgstr "Afficher ou masquer les informations ECM dans la barre d'informations."
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr "Afficher ou masquer PosterX dans la deuxième barre d'informations."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Afficher ou masquer le panneau de date dans la barre d'informations."
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr "Afficher ou masquer XtraEvent dans la deuxième barre d'informations."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Affichez les icônes de contrôle parental sur les événements pour indiquer l'évaluation du contenu et l'adéquation à l'âge."
@@ -433,6 +589,21 @@ msgstr "Style de peau :"
 msgid "SnowWhite"
 msgstr "Blanc comme neige"
 
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr "Source + Caid + Lecteur + Protocole + Serveur + Port + Heure ECM"
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr "Source + Caid + Lecteur + Heure ECM"
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr "Source + Prov + Caid + Heure ECM"
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr "Source + Prov + Caid + Protocole + Serveur + Port + Heure ECM"
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr "Source + Prov + Caid + Serveur + Port + Heure ECM"
+
 msgid "Start downloading backdrop immediately"
 msgstr "Commencez à télécharger Contexte immédiatement"
 
@@ -443,25 +614,37 @@ msgid "SteelBlue"
 msgstr "Bleu acier"
 
 msgid "Style2"
-msgstr ""
+msgstr "Style2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Style3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Style4"
+
+msgid "Style5 CD"
+msgstr "CD Style5"
+
+msgid "Style6"
+msgstr "Style6"
 
 msgid "Support E2iplayer Skins:"
-msgstr "Prise en charge des skins E2iplayer :"
+msgstr "Prend en charge les skins E2iplayer :"
+
+msgid "Support InfoBar SoftCSA:"
+msgstr "Prise en charge de la barre d'informations SoftCSA :"
+
+msgid "Support SubsSupportPro Skins:"
+msgstr "Supporter les skins SubsSupportPro :"
 
 msgid "System"
 msgstr "Système"
 
-msgid "TMDB Only"
-msgstr "TMDB uniquement"
-
 msgid "Teal"
 msgstr "Sarcelle"
+
+msgid "TEST"
+msgstr "TEST"
 
 msgid "The file %s is empty."
 msgstr "Le fichier %s est vide."
@@ -469,17 +652,23 @@ msgstr "Le fichier %s est vide."
 msgid "The file %s was not found."
 msgstr "Le fichier %s n'a pas été trouvé."
 
+msgid "The update file was not found in /tmp.\nUpdate aborted."
+msgstr "Le fichier de mise à jour est introuvable dans /tmp.\nMise à jour abandonnée."
+
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Cette opération attribue le dossier du chemin de l'appareil pour télécharger l'image (Poster-Backdrop)"
+
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Cette opération permet d'afficher les étoiles de notation des événements, en fonction de la source de notation sélectionnée."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Cette opération supprime tous les png du périphérique de dossier (Poster-Backdrop)"
 
+msgid "TMDB Only"
+msgstr "TMDB uniquement"
+
 msgid "Tomato"
 msgstr "Tomate"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "Mettre à jour l'URL non initialisée, ouvrez d'abord le plugin une fois à partir du menu Plugins."
 
 msgid "Update check failed: {}"
 msgstr "Échec de la vérification de la mise à jour : {}"
@@ -487,14 +676,23 @@ msgstr "Échec de la vérification de la mise à jour : {}"
 msgid "Update package not found!"
 msgstr "Package de mise à jour introuvable !"
 
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL de mise à jour non initialisée – ouvrez d’abord le plugin une fois à partir du menu Plugins."
+
+msgid "volume2"
+msgstr "tome2"
+
 msgid "VolumeBar Style:"
 msgstr "Style de barre de volume :"
+
+msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
+msgstr "Attention : vous utilisez des clés API par défaut !\nNous vous recommandons fortement de configurer vos propres clés API dans les paramètres du plugin."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin : Modifier l'entrée"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin : liste des entrées"
+msgstr "WeatherPlugin : Liste des entrées"
 
 msgid "White"
 msgstr "Blanc"
@@ -508,14 +706,3 @@ msgstr "Vous disposez déjà de la dernière version ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Vous devez saisir un nom de ville valide avant de pouvoir rechercher le code de localisation."
 
-msgid "imperial system"
-msgstr "système impérial"
-
-msgid "metric system"
-msgstr "système métrique"
-
-msgid "play/show Files"
-msgstr "lire/afficher les fichiers"
-
-msgid "volume2"
-msgstr "tome2"
