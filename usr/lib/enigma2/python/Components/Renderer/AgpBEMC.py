@@ -1,10 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
-###################################
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __created_by__ = "MNASR"
+
 from __future__ import absolute_import, print_function
 
 from os import makedirs
@@ -28,6 +27,7 @@ from .AgpEMCBase import EMC_ROOT, EMC_BACKDROP_FOLDER, ensure_emc_dirs, build_em
 
 bemc_queue = Queue()
 api_key_manager = ApiKeyManager()
+
 
 class AgpBEMC(Renderer):
     GUI_WIDGET = ePixmap
@@ -161,6 +161,7 @@ class AgpBEMC(Renderer):
         else:
             self.instance.hide()
 
+
 class BackdropDBBEMC(AgbDownloadThread):
     def __init__(self):
         super().__init__()
@@ -233,8 +234,10 @@ class BackdropDBBEMC(AgbDownloadThread):
             with self.lock:
                 self.queued.discard(search_title)
 
+
 def _validate_backdrop(path):
     return exists(path) and getsize(path) > 100
+
 
 db_lock = Lock()
 AgpDBbemc = None

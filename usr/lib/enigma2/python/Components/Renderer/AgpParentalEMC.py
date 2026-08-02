@@ -1,10 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
-###################################
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __created_by__ = "MNASR"
+
 from __future__ import absolute_import, print_function
 from json import load as json_load
 from os import makedirs

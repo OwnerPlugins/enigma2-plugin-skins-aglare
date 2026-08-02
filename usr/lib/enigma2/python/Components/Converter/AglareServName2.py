@@ -18,6 +18,7 @@ from Components.config import config
 import NavigationInstance
 from os import path as os_path
 import urllib
+from urllib.parse import urlparse
 
 import gettext
 _ = gettext.gettext
@@ -362,13 +363,13 @@ class AglareServName2(Converter, object):
                 if DreamOS():
                     x = self.tpdata.get('modulation', 1)
                     if type == iDVBFrontend.feSatellite:
-                        result += x in list(range(6)) and {0:'Auto', 1:'QPSK', 2:'8PSK', 3:'QAM16', 4:'16APSK', 5:'32APSK'}[x] or ''
+                        result += x in list(range(6)) and {0: 'Auto', 1: 'QPSK', 2: '8PSK', 3: 'QAM16', 4: '16APSK', 5: '32APSK'}[x] or ''
                     elif type == iDVBFrontend.feCable:
                         result += x in list(range(6)) and {0: 'Auto', 1: 'QAM16', 2: 'QAM32', 3: 'QAM64', 4: 'QAM128', 5: 'QAM256'}[x] or ''
                 else:
                     x = self.tpdata.get('modulation', 1)
                     if type == 'DVB-S':
-                        result += x in list(range(6)) and {0:'Auto', 1:'QPSK', 2:'8PSK', 3:'QAM16', 4:'16APSK', 5:'32APSK'}[x] or ''
+                        result += x in list(range(6)) and {0: 'Auto', 1: 'QPSK', 2: '8PSK', 3: 'QAM16', 4: '16APSK', 5: '32APSK'}[x] or ''
                     elif type == 'DVB-C':
                         result += x in list(range(6)) and {0: 'Auto', 1: 'QAM16', 2: 'QAM32', 3: 'QAM64', 4: 'QAM128', 5: 'QAM256'}[x] or ''
             elif f == 'p':  # %p - polarization (dvb-s/s2)

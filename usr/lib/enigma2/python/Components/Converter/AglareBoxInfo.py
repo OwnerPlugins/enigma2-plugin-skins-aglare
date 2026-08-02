@@ -16,9 +16,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 
-###################################
-##__modified_by__ = "MNASR"       ##
-###################################
+# __modified_by__ = "MNASR"
 
 from Components.Converter.Poll import Poll
 from Components.Converter.Converter import Converter
@@ -271,7 +269,7 @@ class AglareBoxInfo(Poll, Converter, object):
 
                 elif distro == "OPENPLI":
                     v = BoxInfo.getItem("imgversion") or BoxInfo.getItem("imageversion") or ""
-                    #b = BoxInfo.getItem("imagebuild") or BoxInfo.getItem("imgrevision") or ""
+                    # b = BoxInfo.getItem("imagebuild") or BoxInfo.getItem("imgrevision") or ""
                     software = "%s %s" % (distro, v)
 
             except Exception:

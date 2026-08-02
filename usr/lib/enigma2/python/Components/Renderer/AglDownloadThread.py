@@ -1,10 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
-###################################
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __created_by__ = "MNASR"
+
 from __future__ import absolute_import, print_function
 from os import remove, makedirs
 from os.path import exists, getsize, dirname
@@ -44,6 +43,7 @@ headers = {"User-Agent": choice(AGENTS)}
 
 global srch
 
+
 class AglDownloadThread(Thread):
     def __init__(self, *args, **kwargs):
         Thread.__init__(self)
@@ -58,7 +58,6 @@ class AglDownloadThread(Thread):
         value = sub(r"[^a-z0-9\u0600-\u06FF]+", " ", value)
         value = sub(r"\s+", " ", value).strip()
         return value
-
 
     def _contains_arabic(self, value):
         try:
@@ -227,25 +226,26 @@ class AglDownloadThread(Thread):
                 return False, "Invalid input parameters"
 
             clean_input_title = title.replace("+", " ").replace('–', '').strip()
-            #logger.info("[tmdb-logo] year flow | step='clean_input_title' | value='{}'".format(str(clean_input_title or "")))
+            # logger.info("[tmdb-logo] year flow | step='clean_input_title' | value='{}'".format(str(clean_input_title or "")))
 
             forced_year = ""
             split_title = clean_input_title
             try:
                 split_title, forced_year = split_title_and_year(clean_input_title)
-                #logger.info("[tmdb-logo] year flow | step='split_title_and_year' | split_title='{}' | forced_year='{}'".format(str(split_title or ""), str(forced_year or "")year flow))
+                # logger.info("[tmdb-logo] year flow | step='split_title_and_year' | split_title='{}' | forced_year='{}'".format(str(split_title or ""), str(forced_year or "")year flow))
             except Exception as e:
-                #logger.info("[tmdb-logo] year flow | step='split_title_and_year_error' | error='{}'".format(str(e)))
+                print(str(e))
+                # logger.info("[tmdb-logo] year flow | step='split_title_and_year_error' | error='{}'".format(str(e)))
                 forced_year = ""
                 split_title = clean_input_title
 
             local_title_safe = _strip_year_for_search(split_title)
-            #logger.info("[tmdb-logo] year flow | step='strip_year_for_search' | title_safe='{}'".format(str(local_title_safe or "")))
+            # logger.info("[tmdb-logo] year flow | step='strip_year_for_search' | title_safe='{}'".format(str(local_title_safe or "")))
             if not local_title_safe:
                 return False, "Invalid title after cleaning"
 
             srch, fd = self.checkType(shortdesc, fulldesc)
-            #logger.info("[tmdb-logo] year flow | step='checkType' | srch='{}' | fd='{}'".format(str(srch or ""), str(fd or "")))
+            # logger.info("[tmdb-logo] year flow | step='checkType' | srch='{}' | fd='{}'".format(str(srch or ""), str(fd or "")))
 
             search_language = self._get_tmdb_search_language(local_title_safe)
 
@@ -258,16 +258,17 @@ class AglDownloadThread(Thread):
             if not year:
                 year = self._extract_year(fd)
                 desc_year = year
-            #logger.info("[tmdb-logo] year flow | step='extract_year' | desc_year='{}' | incoming_year='{}'".format(str(desc_year or ""), str(year or "")))
+                print("Year desc:", str(desc_year))
+            # logger.info("[tmdb-logo] year flow | step='extract_year' | desc_year='{}' | incoming_year='{}'".format(str(desc_year or ""), str(year or "")))
 
             if forced_year and not year:
                 year = forced_year
-                #logger.info("[tmdb-logo] year flow | step='apply_forced_year' | applied_year='{}'".format(str(year or "")))
+                # logger.info("[tmdb-logo] year flow | step='apply_forced_year' | applied_year='{}'".format(str(year or "")))
             else:
                 logger.info("[tmdb-logo] year flow | step='skip_forced_year' | forced_year='{}' | final_year_before_search='{}'".format(str(forced_year or ""), str(year or "")))
 
             local_search_year = year or ""
-            #logger.info("[tmdb-logo] year flow | step='final_search_parts' | title_safe='{}' | search_year='{}'".format(str(local_title_safe or ""), str(local_search_year or "")))
+            # logger.info("[tmdb-logo] year flow | step='final_search_parts' | title_safe='{}' | search_year='{}'".format(str(local_title_safe or ""), str(local_search_year or "")))
 
             request_url = "https://api.themoviedb.org/3/search/{}?api_key={}&language={}&query={}".format(
                 srch,

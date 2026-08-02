@@ -1,15 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
-###################################
+# __author__ = "Lululla"         ##
+# __copyright__ = "AGP Team"     ##
+# __created_by__ = "MNASR"       ##
 from __future__ import absolute_import, print_function
 
 from json import load as json_load
 from os import makedirs
-from os.path import exists, getsize, join
+from os.path import exists, getsize
 from threading import Lock
 
 from Components.Renderer.Renderer import Renderer
@@ -21,7 +19,7 @@ from Components.Sources.CurrentService import CurrentService
 from Components.Sources.ServiceEvent import ServiceEvent
 import NavigationInstance
 
-from .Agp_Utils import logger
+# from .Agp_Utils import logger
 from .AgpEMCBase import EMC_ROOT, EMC_INFO_FOLDER, ensure_emc_dirs, build_emc_search_title, is_video_file
 
 

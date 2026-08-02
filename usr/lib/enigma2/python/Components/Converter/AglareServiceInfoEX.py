@@ -19,7 +19,7 @@
 # 25.12.2018 add support for gamma values mod by Sirius
 
 ###################################
-##__created_by__ = "MNASR"       ##
+# __created_by__ = "MNASR"       ##
 ###################################
 from Components.Converter.Poll import Poll
 from Components.Converter.Converter import Converter

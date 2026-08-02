@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
-###################################
+
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __created_by__ = "MNASR"
+
 from __future__ import absolute_import, print_function
 import re
 from os import makedirs
@@ -62,6 +62,7 @@ def extract_emc_year(value):
     except Exception:
         return ""
 
+
 def is_emc_episode(value):
     try:
         text = str(value or "")
@@ -76,6 +77,7 @@ def is_emc_episode(value):
         return False
     except Exception:
         return False
+
 
 def extract_emc_episode_marker(value):
     """
@@ -263,6 +265,7 @@ def clean_movie_filename(name):
 
     except Exception:
         return ""
+
 
 def build_emc_search_title(movie_path, keep_year=False):
     raw = basename(safe_str(movie_path))

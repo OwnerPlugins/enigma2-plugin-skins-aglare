@@ -1,10 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
-###################################
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __created_by__ = "MNASR"
 from __future__ import absolute_import, print_function
 from os import makedirs
 from os.path import join, exists, getsize
@@ -27,6 +25,7 @@ from .AgpEMCBase import EMC_ROOT, EMC_LOGO_FOLDER, ensure_emc_dirs, build_emc_se
 
 lemc_queue = Queue()
 api_key_manager = ApiKeyManager()
+
 
 class AgpLEMC(Renderer):
     GUI_WIDGET = ePixmap
@@ -160,6 +159,7 @@ class AgpLEMC(Renderer):
         else:
             self.instance.hide()
 
+
 class LogoDBLEMC(AglDownloadThread):
     def __init__(self):
         super().__init__()
@@ -220,8 +220,10 @@ class LogoDBLEMC(AglDownloadThread):
             with self.lock:
                 self.queued.discard(search_title)
 
+
 def _validate_logo(path):
     return exists(path) and getsize(path) > 100
+
 
 db_lock = Lock()
 AgpDBlemc = None

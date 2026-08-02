@@ -1,10 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__modified_by__ = "MNASR"      ##
-###################################
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __modified_by__ = "MNASR"
 from __future__ import absolute_import, print_function
 # Standard library imports
 from Components.config import config

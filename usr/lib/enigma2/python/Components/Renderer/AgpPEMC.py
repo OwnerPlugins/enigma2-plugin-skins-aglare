@@ -1,13 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
-###################################
-from __future__ import absolute_import, print_function
 
-from datetime import datetime
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __created_by__ = "MNASR"
+from __future__ import absolute_import, print_function
 from os import makedirs
 from os.path import join, exists, getsize
 from threading import Thread, Lock
@@ -29,6 +26,7 @@ from .AgpEMCBase import EMC_ROOT, EMC_POSTER_FOLDER, ensure_emc_dirs, build_emc_
 
 pemc_queue = Queue()
 api_key_manager = ApiKeyManager()
+
 
 class AgpPEMC(Renderer):
     GUI_WIDGET = ePixmap
@@ -169,6 +167,7 @@ class AgpPEMC(Renderer):
         else:
             self.instance.hide()
 
+
 class PosterDBPEMC(AgpDownloadThread):
     def __init__(self):
         super().__init__()
@@ -241,8 +240,10 @@ class PosterDBPEMC(AgpDownloadThread):
             with self.lock:
                 self.queued.discard(search_title)
 
+
 def _validate_poster(path):
     return exists(path) and getsize(path) > 100
+
 
 db_lock = Lock()
 AgpDBpemc = None

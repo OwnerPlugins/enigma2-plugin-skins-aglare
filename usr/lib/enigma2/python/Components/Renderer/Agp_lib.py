@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__modified_by__ = "MNASR"      ##
+# __author__ = "Lululla"         ##
+# __copyright__ = "AGP Team"     ##
+# __modified_by__ = "MNASR"      ##
 ###################################
 from __future__ import absolute_import, print_function
 from re import compile, sub, search, escape as re_escape, DOTALL, IGNORECASE
@@ -86,6 +86,7 @@ REGEX_ = compile(
 	DOTALL
 )
 
+
 def remove_accents(string):
 	"""
 	Remove diacritic marks from non-Arabic characters only.
@@ -124,58 +125,59 @@ def getCleanTitle(eventitle=""):
 	"""Remove specific formatting markers from titles"""
 	return eventitle.replace(' ^`^s', '').replace(' ^`^y', '')
 
-def remove_year_in_parentheses(title):
-    # Remove (2015) or [2015] only (with optional spaces)
-    title = sub(r"\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*", " ", title)
-    # Clean extra spaces
-    title = sub(r"\s+", " ", title).strip()
-    return title
 
+def remove_year_in_parentheses(title):
+	# Remove (2015) or [2015] only (with optional spaces)
+	title = sub(r"\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*", " ", title)
+	# Clean extra spaces
+	title = sub(r"\s+", " ", title).strip()
+	return title
 
 
 def sanitize_filename(name):
-    # 1) Normalize spaces
-    name = sub(r"\s+", " ", str(name)).strip()
+	# 1) Normalize spaces
+	name = sub(r"\s+", " ", str(name)).strip()
 
-    # 2) Remove common release tags (your existing big regex is fine)
-    name = sub(
-        r"\.(?=\D)|\(\d{4}\)|\b(?:720p|1080p|2160p|4k)\b|"
-        r"\b(?:HDTV|WEB[Rr]ip|WEB\-DL|HDRip|HDTC|HDTS|DVDScr|DVDRip)\b|"
-        r"\b(?:BRRip|BDRip|BDMV|CAMRip|Cam|TS|TC|SCR|R5)\b|"
-        r"\b(?:PROPER|REPACK|SUBBED|UNRATED|EXTENDED|INTERNAL|LIMITED|READNFO)\b|"
-        r"\b(?:AAC[\d\.]*|AC3[\d\.]*|DTS[\d\.]*|DD5\.1|TRUEHD|ATMOS)\b|"
-        r"\b(?:XviD|DivX|x264|H\.264|x265|HEVC|AVC|10bits)\b",
-        " ",
-        name,
-        flags=IGNORECASE
-    )
+	# 2) Remove common release tags (your existing big regex is fine)
+	name = sub(
+		r"\.(?=\D)|\(\d{4}\)|\b(?:720p|1080p|2160p|4k)\b|"
+		r"\b(?:HDTV|WEB[Rr]ip|WEB\-DL|HDRip|HDTC|HDTS|DVDScr|DVDRip)\b|"
+		r"\b(?:BRRip|BDRip|BDMV|CAMRip|Cam|TS|TC|SCR|R5)\b|"
+		r"\b(?:PROPER|REPACK|SUBBED|UNRATED|EXTENDED|INTERNAL|LIMITED|READNFO)\b|"
+		r"\b(?:AAC[\d\.]*|AC3[\d\.]*|DTS[\d\.]*|DD5\.1|TRUEHD|ATMOS)\b|"
+		r"\b(?:XviD|DivX|x264|H\.264|x265|HEVC|AVC|10bits)\b",
+		" ",
+		name,
+		flags=IGNORECASE
+	)
 
-    # 3A) Remove year ONLY if inside () or []
-    name = sub(r"\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*", " ", name)
+	# 3A) Remove year ONLY if inside () or []
+	name = sub(r"\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*", " ", name)
 
-    # 3B) Remove trailing year " 2015" ONLY if there is other text before it
-    #     - "Point break 2015" -> "Point break"
-    #     - "2012" -> "2012" (unchanged)
-    name = sub(r"(?<!^)\s+(?:19|20)\d{2}\s*$", "", name)
+	# 3B) Remove trailing year " 2015" ONLY if there is other text before it
+	#     - "Point break 2015" -> "Point break"
+	#     - "2012" -> "2012" (unchanged)
+	name = sub(r"(?<!^)\s+(?:19|20)\d{2}\s*$", "", name)
 
-    # 4) Remove SxxExx
-    name = sub(r"(?i)\bs\d+e\d+\b", "", name)
+	# 4) Remove SxxExx
+	name = sub(r"(?i)\bs\d+e\d+\b", "", name)
 
-    # 5) Remove invalid filename characters
-    for char in '*?"<>|,':
-        name = name.replace(char, "")
+	# 5) Remove invalid filename characters
+	for char in '*?"<>|,':
+		name = name.replace(char, "")
 
-    # 6) Replace any remaining non-word (except space, underscore, dash) with space
-    name = sub(r"[^\w\s\-_]", " ", name)
+	# 6) Replace any remaining non-word (except space, underscore, dash) with space
+	name = sub(r"[^\w\s\-_]", " ", name)
 
-    # 7) Final whitespace cleanup
-    name = sub(r"\s+", " ", name).strip()
+	# 7) Final whitespace cleanup
+	name = sub(r"\s+", " ", name).strip()
 
-    # 8) Truncate
-    if len(name) > 50:
-        name = name[:50].rstrip()
+	# 8) Truncate
+	if len(name) > 50:
+		name = name[:50].rstrip()
 
-    return name
+	return name
+
 
 def strip_trailing_series_markers(title):
 	try:
@@ -219,7 +221,7 @@ def strip_polish_episode_markers(title):
 	if not title:
 		return ""
 
-	original = title
+	# original = title
 
 	# Examples:
 	# "House 7: odc.2"       -> "House"
@@ -366,6 +368,7 @@ def smart_capitalize_title(title):
 	except Exception:
 		return safe_str(title)
 
+
 def apply_aka_rule(title):
 	try:
 		title = safe_str(title)
@@ -382,6 +385,8 @@ def apply_aka_rule(title):
 		return aka_title or title
 	except Exception:
 		return safe_str(title)
+
+
 def preserve_franchise_dash_subtitle(title):
 	try:
 		value = safe_str(title)
@@ -480,6 +485,7 @@ def apply_title_substitutions(title):
 	except Exception:
 		return safe_str(title)
 
+
 def finalize_known_aliases(title):
 	try:
 		title = safe_str(title)
@@ -490,6 +496,7 @@ def finalize_known_aliases(title):
 		return title
 	except Exception:
 		return safe_str(title)
+
 
 def clean_search_title(title):
 	try:
@@ -561,7 +568,7 @@ def clean_search_title(title):
 		title = apply_title_substitutions(title)
 		title = apply_char_replacements(title)
 		logger.info("clean_search_title after replacements | original='{}' | replaced='{}'".format(original_title, title))
-		#title = sub(r'^(live:\s*|uzivo:\s*|uzivo\s+|live\s+)', '', title, flags=IGNORECASE).strip()
+		# title = sub(r'^(live:\s*|uzivo:\s*|uzivo\s+|live\s+)', '', title, flags=IGNORECASE).strip()
 
 		title = preserve_franchise_dash_subtitle(title)
 
@@ -593,8 +600,6 @@ def clean_search_title(title):
 
 		title = sub(r'\s{2,}', ' ', title).strip()
 
-
-
 		title = sub(r'\s*[_\-:|,]+\s*$', '', title).strip()
 		title = sub(r'\bep\.?$', '', title, flags=IGNORECASE).strip()
 		title = sub(r'\.$', '', title).strip()
@@ -610,8 +615,10 @@ def clean_search_title(title):
 	except Exception:
 		return smart_capitalize_title(safe_str(title))
 
+
 def get_predefined_skip_words():
 	return PREDEFINED_SKIP_WORDS
+
 
 def should_skip_title(title):
 	try:
@@ -635,6 +642,7 @@ def should_skip_title(title):
 	except Exception:
 		return False, ""
 
+
 def split_title_and_year(title):
 	try:
 		title = safe_str(title)
@@ -650,6 +658,7 @@ def split_title_and_year(title):
 		return base_title, year
 	except Exception:
 		return safe_str(title), ""
+
 
 def convtext(text):
 	"""Central title cleanup entry point used by all providers."""

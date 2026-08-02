@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__created_by__ = "MNASR"       ##
+# __created_by__ = "MNASR"       ##
 ###################################
 from __future__ import absolute_import, print_function
 

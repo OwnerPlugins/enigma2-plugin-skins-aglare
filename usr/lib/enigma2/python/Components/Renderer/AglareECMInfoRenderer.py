@@ -2,7 +2,7 @@ from Components.Renderer.Renderer import Renderer
 from Components.VariableText import VariableText
 from enigma import eLabel, eTimer
 import os
-import re
+
 
 class AglareECMInfoRenderer(Renderer, VariableText):
     def __init__(self):
@@ -142,9 +142,10 @@ class AglareECMInfoRenderer(Renderer, VariableText):
                 ("System", "system"),
                 ("Protocol", "protocol"),
                 ("Reader", "reader"),
-                ("Address", lambda: ecm_info.get("from", 
-                                  f"{ecm_info.get('server','N/A')}:{ecm_info.get('port','')}" 
-                                  if ecm_info.get('server') else "N/A")),
+                ("Address", lambda: ecm_info.get(
+                    "from",
+                    f"{ecm_info.get('server', 'N/A')}:{ecm_info.get('port', '')}"
+                    if ecm_info.get('server') else "N/A")),
                 ("CAID", "caid"),
                 ("PID", "pid"),
                 ("Provider", "prov"),

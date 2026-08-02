@@ -106,9 +106,10 @@ class AglareEventName2(Converter, object):
 			return self.getCompactTimeline()
 		elif self.type == self.AGE_RATING:
 			return self.getAgeRating(event)
-		elif self.type in [self.NEXT_EVENT_LIST, self.NEXT_EVENT_LISTWT,
-						   self.NEXT_EVENT_LIST2, self.NEXT_EVENT_LISTWT2,
-						   self.NEXT_EVENT_LIST3]:
+		elif self.type in [
+				self.NEXT_EVENT_LIST, self.NEXT_EVENT_LISTWT,
+				self.NEXT_EVENT_LIST2, self.NEXT_EVENT_LISTWT2,
+				self.NEXT_EVENT_LIST3]:
 			return self.getNextEventList()
 		return ''
 
@@ -132,8 +133,9 @@ class AglareEventName2(Converter, object):
 			return ''
 
 		# Ensure we have valid methods to call
-		if not all(hasattr(event, method) for method in ['getParentalData', 'getEventName',
-														 'getShortDescription', 'getExtendedDescription']):
+		if not all(hasattr(event, method) for method in [
+				'getParentalData', 'getEventName',
+				'getShortDescription', 'getExtendedDescription']):
 			return ''
 		# First try official EPG rating data
 		rating = event.getParentalData()

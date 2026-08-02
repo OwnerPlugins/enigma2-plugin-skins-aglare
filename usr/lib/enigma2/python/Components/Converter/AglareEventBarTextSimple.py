@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-##__created_by__ = "MNASR"       ##
-###################################
+# __created_by__ = "MNASR"
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from time import time, localtime
