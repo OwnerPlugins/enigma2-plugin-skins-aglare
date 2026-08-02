@@ -94,6 +94,8 @@ class AglareLogoX(Renderer):
             "AglareLogoX renderer initialized | storage_path='{}'".format(
                 self.storage_path))
 
+        # global AglDB, global_agl_auto_db
+
         self.logo_db = AglDB
         self.logo_auto_db = global_agl_auto_db
 
@@ -156,6 +158,7 @@ class AglareLogoX(Renderer):
                     if getattr(source, "event", None) is None:
                         logger.info(
                             "AglareLogoX: Event source has no event yet")
+                        self.oldCanal = None
                         if self.instance:
                             self.instance.hide()
                         return
@@ -173,6 +176,7 @@ class AglareLogoX(Renderer):
                     if not event_name:
                         logger.info(
                             "AglareLogoX: Event source has empty event name")
+                        self.oldCanal = None
                         if self.instance:
                             self.instance.hide()
                         return
@@ -204,6 +208,7 @@ class AglareLogoX(Renderer):
                     apdb[service_name] = service_str
 
             if not servicetype or not self.canal[5]:
+                self.oldCanal = None
                 if self.instance:
                     self.instance.hide()
                 return

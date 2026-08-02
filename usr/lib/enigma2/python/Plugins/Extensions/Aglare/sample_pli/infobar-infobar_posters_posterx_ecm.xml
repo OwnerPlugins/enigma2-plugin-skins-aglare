@@ -1,0 +1,3 @@
+
+    <!--posters-->
+    <widget source="session.Event_Now" render="AglarePosterX" position="1640,430" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="igsd" />

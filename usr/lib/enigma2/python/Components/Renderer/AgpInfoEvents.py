@@ -1,10 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-## __author__ = "Lululla"         ##
-## __copyright__ = "AGP Team"     ##
-## __modified_by__ = "MNASR"      ##
-###################################
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __modified_by__ = "MNASR"
 from __future__ import absolute_import, print_function
 
 from json import load as json_load, dump as json_dump
@@ -202,6 +200,7 @@ class AgpInfoEvents(Renderer, VariableText):
                 logger.info("AgpInfoEvents event list | nexts='{}' | events_count='{}'".format(
                     str(self.nxts), str(len(events) if events else 0)))
                 if not events or len(events) <= self.nxts:
+                    self.oldCanal = None
                     self.current_request_key = None
                     self._clear_display()
                     return
@@ -217,6 +216,7 @@ class AgpInfoEvents(Renderer, VariableText):
                 self.canal[5] = self.canal[2]
 
             if not servicetype or not self.canal[5]:
+                self.oldCanal = None
                 self.current_request_key = None
                 self._clear_display()
                 return
@@ -236,6 +236,7 @@ class AgpInfoEvents(Renderer, VariableText):
             logger.error(
                 "AgpInfoEvents changed error: {}".format(
                     str(e)), exc_info=True)
+            self.oldCanal = None
             self.current_request_key = None
             self._clear_display()
 

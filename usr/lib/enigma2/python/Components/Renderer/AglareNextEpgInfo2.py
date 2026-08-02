@@ -14,7 +14,6 @@ except ImportError:
 
 
 class AglareNextEpgInfo2(Renderer, VariableText):
-    # ***<module>.NextEpgInfo2: Failure detected at line number 57 and instruction offset 46: Different bytecode
     def __init__(self):
         Renderer.__init__(self)
         VariableText.__init__(self)
@@ -23,7 +22,8 @@ class AglareNextEpgInfo2(Renderer, VariableText):
         self.hideLabel = 0
         self.timecolor = ''
         self.labelcolor = ''
-        self.foregroundColor = '00?0?0?0'
+        # FIXED: Replaced invalid '00?0?0?0' with standard E2 valid hex
+        self.foregroundColor = '00f0f0f0'
         self.numOfSpaces = 1
 
     GUI_WIDGET = eLabel
@@ -119,10 +119,8 @@ class AglareNextEpgInfo2(Renderer, VariableText):
         return Renderer.applySkin(self, desktop, parent)
 
     def hex2strColor(self, rgb):
-        out = ''
-        for i in list(range(28, (-1), (-4))):
-            out += f'{chr(48 + (rgb >> i & 15))}'
-        return out
+        # FIXED: Generates strict 8-character valid hex digits (e.g., '00ffff00')
+        return '%08x' % rgb
 
     def formatColorString(self, color):
         if color:

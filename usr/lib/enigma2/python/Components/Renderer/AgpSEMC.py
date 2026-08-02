@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# ##################################
-# #__author__ = "Lululla"         ##
-# #__copyright__ = "AGP Team"     ##
-# #__created_by__ = "MNASR"       ##
-# ##################################
+###################################
+##__author__ = "Lululla"         ##
+##__copyright__ = "AGP Team"     ##
+##__created_by__ = "MNASR"       ##
+###################################
 from __future__ import absolute_import, print_function
 
 from json import load as json_load
 from os import makedirs
-from os.path import exists, getsize
+from os.path import exists, getsize, join
 from threading import Lock
 
 from Components.Renderer.Renderer import Renderer
@@ -21,7 +21,7 @@ from Components.Sources.CurrentService import CurrentService
 from Components.Sources.ServiceEvent import ServiceEvent
 import NavigationInstance
 
-# from .Agp_Utils import logger
+from .Agp_Utils import logger
 from .AgpEMCBase import EMC_ROOT, EMC_INFO_FOLDER, ensure_emc_dirs, build_emc_search_title, is_video_file
 
 
@@ -57,8 +57,7 @@ class AgpSEMC(VariableValue, Renderer):
         try:
             skin_value = config.skin.primary_skin.value
             skin_folder = str(skin_value).replace('/skin.xml', '').strip('/')
-            return "/usr/share/enigma2/{}/xtra/star_back.png".format(
-                skin_folder)
+            return "/usr/share/enigma2/{}/xtra/star_back.png".format(skin_folder)
         except Exception:
             return "/usr/share/enigma2/Aglare-FHD/xtra/star_back.png"
 
@@ -68,10 +67,8 @@ class AgpSEMC(VariableValue, Renderer):
                 if str(self.pxmp).startswith("/"):
                     return self.pxmp
                 skin_value = config.skin.primary_skin.value
-                skin_folder = str(skin_value).replace(
-                    '/skin.xml', '').strip('/')
-                return "/usr/share/enigma2/{}/{}".format(
-                    skin_folder, str(self.pxmp).lstrip("/"))
+                skin_folder = str(skin_value).replace('/skin.xml', '').strip('/')
+                return "/usr/share/enigma2/{}/{}".format(skin_folder, str(self.pxmp).lstrip("/"))
         except Exception:
             pass
         try:
@@ -195,10 +192,8 @@ class AgpSEMC(VariableValue, Renderer):
             self._reset_star()
 
             self.pending_title = build_emc_search_title(movie_path)
-            base = self.storage_path if str(self.storage_path).endswith(
-                "/") else str(self.storage_path) + "/"
-            self.pending_info_file = "{}{}.json".format(
-                base, self.pending_title)
+            base = self.storage_path if str(self.storage_path).endswith("/") else str(self.storage_path) + "/"
+            self.pending_info_file = "{}{}.json".format(base, self.pending_title)
             self.retry_count = 0
             self._start_json_retry()
 
@@ -215,9 +210,7 @@ class AgpSEMC(VariableValue, Renderer):
             if not self.instance or not self.star:
                 return
 
-            if exists(
-                    self.pending_info_file) and getsize(
-                    self.pending_info_file) > 0:
+            if exists(self.pending_info_file) and getsize(self.pending_info_file) > 0:
                 with open(self.pending_info_file, "r") as f:
                     data = json_load(f)
                 self.process_data(data)

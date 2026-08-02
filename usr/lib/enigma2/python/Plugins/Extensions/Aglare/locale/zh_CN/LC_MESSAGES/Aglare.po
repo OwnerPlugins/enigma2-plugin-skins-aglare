@@ -1,307 +1,192 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma 2\n"
-"PO-Revision-Date: 2026-02-05 15:28+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Language zh-CN\n"
-"Language: zh-CN\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-10 18:47+0800\n"
+"PO-Revision-Date: 2025-04-10 18:55+0800\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%s key imported!"
-msgstr "%s 密钥已导入！"
-
-msgid "1 poster"
-msgstr "1 张海报"
-
-msgid "Activate/Deactivate ELCINEMA"
-msgstr "激活/停用 ELCINEMA"
-
-msgid "Activate/Deactivate GOOGLE"
-msgstr "激活/停用 GOOGLE"
-
-msgid "Activate/Deactivate IMDB"
-msgstr "激活/停用 IMDB"
-
-msgid "Activate/Deactivate MOLOTOV"
-msgstr "激活/停用莫洛托夫"
-
-msgid "Activate/Deactivate PROGRAMMETV"
-msgstr "激活/停用 PROGRAMMETV"
-
-msgid "Activate/Deactivate {}"
-msgstr "激活/停用 {}"
+"Last-Translator: 沙鸥_lexlong2007 <lexlong2007@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.3\n"
 
 msgid "Add"
 msgstr "添加"
 
-msgid "All png are removed from folder!"
-msgstr "所有 png 均已从文件夹中删除！"
-
-msgid "Automatic"
-msgstr "自动的"
-
-msgid "Automatic download of backdrop"
-msgstr "自动下载背景"
-
-msgid "Automatic download of poster"
-msgstr "自动下载海报"
-
-msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "根据 EPG 自动获取喜爱的活动背景"
-
-msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "根据EPG自动获取喜爱活动的海报"
+msgid ""
+"Aglare update was done!!!\n"
+"Do you want to restart the GUI now?"
+msgstr ""
+"Aglare更新完成!!!\n"
+"你需要马上重启机顶盒界面吗?"
 
 msgid "Back"
-msgstr "后退"
+msgstr "返回"
 
 msgid "Backdrop"
 msgstr "背景"
 
-msgid "Backdrop download error: {}"
-msgstr "背景下载错误：{}"
-
 msgid "BebasNeue"
-msgstr "自由新"
+msgstr "BebasNeue"
 
 msgid "Black"
-msgstr "黑色的"
+msgstr "黑"
 
 msgid "Blue"
-msgstr "蓝色的"
+msgstr "蓝"
 
 msgid "Brown"
-msgstr "棕色的"
+msgstr "棕色"
+
+msgid "CD"
+msgstr "CD"
 
 msgid "Cancel"
 msgstr "取消"
 
-msgid "Channel Description Color:"
-msgstr "通道描述颜色："
-
-msgid "Channel Foreground Color:"
-msgstr "通道前景色："
-
-msgid "Channel Selected Description Color:"
-msgstr "频道选择的描述颜色："
-
-msgid "Channel Selected Foreground Color:"
-msgstr "通道选择的前景色："
-
 msgid "ChannelSelection Style:"
-msgstr "频道选择风格："
+msgstr "频道选择样式:"
 
-msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgid "ChannelSelection_1_Poster"
+msgstr "频道选择有一个海报"
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+msgid "ChannelSelection_4_Posters"
+msgstr "频道选择有四个海报"
 
-msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgid "ChannelSelection_6_Posters"
+msgstr "频道选择_6_海报"
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+msgid "ChannelSelection_BackDrop_H"
+msgstr "频道选择_BackDrop_水平"
 
-msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
-
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
-
-msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
-
-msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
-
-msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
-
-msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgid "ChannelSelection_BackDrop_V"
+msgstr "频道选择_垂直5海报"
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "频道选择无海报"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "频道选择_无海报_无图标"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "频道选择超大频道预览"
 
 msgid "City"
 msgstr "城市"
 
 msgid "Color Style:"
-msgstr "颜色款式："
+msgstr "颜色样式:"
 
-msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "配置开始自动海报下载之前的延迟时间（以分钟为单位）"
-
-msgid "Crimson"
-msgstr "赤红"
-
-msgid "Customization tool for %s Skin"
-msgstr "%s 皮肤的定制工具"
-
-msgid "Dark Green"
-msgstr "深绿色"
+msgid "Customization tool for Aglare-FHD Skin"
+msgstr "Aglare-FHD皮肤定制工具"
 
 msgid "Default"
-msgstr "默认"
-
-msgid "Del Line"
-msgstr "德尔线"
+msgstr "默认值"
 
 msgid "Delete"
 msgstr "删除"
 
-msgid "Download error: {}"
-msgstr "下载错误：{}"
+msgid "Do you want to save the changes?"
+msgstr "是否要保存更改？"
 
-msgid "Download in progress"
-msgstr "下载正在进行中"
-
-msgid "Download now backdrop"
-msgstr "立即下载背景"
-
-msgid "Download now poster"
-msgstr "立即下载海报"
+msgid "Download in progress..."
+msgstr "下载进度..."
 
 msgid "Downloading Aglare..."
-msgstr "正在下载阿格拉..."
+msgstr "下载Aglare中..."
 
 msgid "Edit"
 msgstr "编辑"
 
-msgid "Enable Display Genre icons:"
-msgstr "启用显示类型图标："
-
-msgid "Enable Display InfoEvents:"
-msgstr "启用显示信息事件："
-
-msgid "Enable Display XMC Poster:"
-msgstr "启用显示 XMC 海报："
-
-msgid "Enable Parental Icons:"
-msgstr "启用家长图标："
-
-msgid "Enable Rating Star:"
-msgstr "启用评级星级："
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "在事件下载期间启用或禁用缓存以加快重复搜索的速度。"
-
-msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "在信息小部件中启用扩展事件信息的显示，包括完整演员表、工作人员、情节详细信息和其他元数据。"
+msgid "Error by processing the skin file: {}"
+msgstr "处理皮肤文件时出错: {}"
 
 msgid "Error downloading files!"
-msgstr "下载文件时出错！"
-
-msgid "Error loading: {}"
-msgstr "加载错误：{}"
-
-msgid "Error {0}: {1}"
-msgstr "错误{0}：{1}"
-
-msgid "Error: {}"
-msgstr "错误： {}"
+msgstr "下载文件时出错!"
 
 msgid "EventView Style:"
-msgstr "事件视图样式："
+msgstr "事件视图样式:"
 
 msgid "EventView_7_Posters"
-msgstr "EventView_7_海报"
+msgstr "节目预览7个海报"
 
 msgid "EventView_NO_Posters"
-msgstr "事件视图_NO_海报"
+msgstr "节目预告无海报"
 
 msgid "Exit"
-msgstr "出口"
+msgstr "退出"
 
 msgid "File Commander - Addon"
-msgstr "文件指挥官 - 插件"
+msgstr "文件管理器-附加文件查看器"
 
-msgid "File {} not found or empty"
-msgstr "文件 {} 未找到或为空"
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
+"要应用新皮肤需要重启GUI图形界面\n"
+"你确认要重启GUI图形界面吗？"
 
 msgid "Green"
-msgstr "绿色的"
+msgstr "绿"
+
+msgid "Green2"
+msgstr "绿色2"
 
 msgid "Greta"
-msgstr "格蕾塔"
+msgstr "手写字体(中东)"
 
 msgid "HandelGotD"
-msgstr "亨德尔得D"
+msgstr "HandelGotD"
 
-msgid "Import key {0} from {1}?"
-msgstr "从 {1} 导入密钥 {0}？"
+msgid "Import Api Key OMDB from /tmp/omdbkey.txt?"
+msgstr "从/tmp/omdbkey.txt导入API密钥OMDB ？"
+
+msgid "Import Api Key TMDB from /tmp/tmdbkey.txt?"
+msgstr "从/tmp/tmdbkey.txt导入TMDB的API密钥 ?"
 
 msgid "Info..."
-msgstr "信息..."
+msgstr "皮肤信息:"
 
 msgid "InfoBar Date:"
-msgstr "信息栏日期："
-
-msgid "InfoBar ECM:"
-msgstr "信息栏 ECM："
+msgstr "信息栏 时间:"
 
 msgid "InfoBar PosterX:"
-msgstr "信息栏海报X："
+msgstr "信息栏 PosterX:"
 
 msgid "InfoBar Style:"
 msgstr "信息栏样式："
 
 msgid "InfoBar Weather:"
-msgstr "信息栏天气："
+msgstr "信息栏天气:"
 
 msgid "InfoBar Xtraevent:"
-msgstr "信息栏 Xtraevent："
+msgstr "信息栏 Xtraevent:"
 
 msgid "Infobar_Date"
-msgstr "信息栏_日期"
-
-msgid "Infobar_MSNWeather"
-msgstr "信息栏_MSN天气"
+msgstr "信息栏显示时间"
 
 msgid "Infobar_NO_Date"
-msgstr "信息栏_NO_日期"
+msgstr "信息栏不显示时间"
 
 msgid "Infobar_NO_Weather"
-msgstr "信息栏_NO_天气"
+msgstr "信息栏不显示天气"
 
-msgid "Infobar_OAWeather"
-msgstr "信息栏_OA天气"
+msgid "Infobar_Weather"
+msgstr "信息栏显示天气"
 
-msgid "Ins Line"
-msgstr "INS线"
-
-msgid "Installing updates..."
-msgstr "正在安装更新..."
-
-msgid "Key empty"
-msgstr "钥匙空"
-
-msgid "Key {} successfully loaded!"
-msgstr "密钥 {} 已成功加载！"
+msgid "Installing updates!"
+msgstr "正在安装更新"
 
 msgid "KhalidArtboldRegular"
-msgstr "KhalidArtbold常规"
+msgstr "Khalid Artbold Regular"
 
-msgid "LightGray"
-msgstr "浅灰色"
+msgid "Load OMDB Apikey from /tmp/omdbkey.txt"
+msgstr "从/tmp/omdbkey.txt加载OMDB Apikey"
 
-msgid "LimeGreen"
-msgstr "柠檬绿"
-
-msgid "Load from /tmp/{}key.txt"
-msgstr "从 /tmp/{}key.txt 加载"
-
-msgid "Local build ({}) is newer than server build ({})."
-msgstr "本地构建 ({}) 比服务器构建 ({}) 新。"
+msgid "Load TMDB Apikey from /tmp/tmdbkey.txt"
+msgstr "从/tmp/tmdbkey.txt导入TMDB的API密钥 ?"
 
 msgid "Location code"
 msgstr "位置代码"
@@ -310,211 +195,216 @@ msgid "MSN location search result"
 msgstr "MSN位置搜索结果"
 
 msgid "MV Boli"
-msgstr "MV波利"
+msgstr "MV Boli"
 
 msgid "Magenta"
-msgstr "品红"
+msgstr "(黑 - 蓝 - 绿 - 浅蓝 - 浅红 - 品红 - 红 - 晴朗 - 黄 - 紫)"
 
-msgid "Mint"
-msgstr "薄荷"
-
-msgid "No active providers enabled"
-msgstr "没有启用任何活跃的提供商"
+msgid "Missing %s !"
+msgstr "%s 门户路径"
 
 msgid "OFF"
-msgstr "离开"
+msgstr "关"
 
 msgid "OK"
-msgstr "好的"
+msgstr "确认"
 
-msgid "OMDB Only"
-msgstr "仅限 OMDB"
+msgid "OMDB ApiKey Imported & Stored!"
+msgstr "OMDB ApiKey已导入并存储！"
+
+msgid "OMDB ApiKey is empty!"
+msgstr "OMDB秘钥空白"
 
 msgid "ON"
-msgstr "在"
-
-msgid "Off"
-msgstr "离开"
-
-msgid "Orange"
-msgstr "橙子"
-
-msgid "Personal API key for {}"
-msgstr "{} 的个人 API 密钥"
-
-msgid "Pink"
-msgstr "粉色的"
+msgstr "开"
 
 msgid "Please enter a valid city name."
-msgstr "请输入有效的城市名称。"
+msgstr "请输入有效的城市名称."
 
 msgid "Please enter a valid location code for the city."
-msgstr "请输入该城市的有效位置代码。"
-
-msgid "Poster download error: {}"
-msgstr "海报下载错误：{}"
+msgstr "请为城市输入一个有效的位置代码."
 
 msgid "Purple"
-msgstr "紫色的"
+msgstr "紫色"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr "真的删除这个WeatherPlugin条目吗？"
+msgstr "真的删除这个天气插件条目?"
 
 msgid "Red"
-msgstr "红色的"
-
-msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "删除所有png（海报-背景）（确定）"
+msgstr "红"
 
 msgid "Restart GUI now?"
-msgstr "现在重新启动图形用户界面吗？"
+msgstr "现在重启界面吗?"
 
 msgid "Save"
-msgstr "节省"
+msgstr "保存"
 
 msgid "Search Code"
-msgstr "搜寻码"
-
-msgid "Second Infobar_MSNWeather"
-msgstr "第二个信息栏_MSNWeather"
-
-msgid "Second Infobar_NO_Weather"
-msgstr "第二个信息栏_NO_天气"
-
-msgid "Second Infobar_OAWeather"
-msgstr "第二个信息栏_OAWeather"
+msgstr "搜索代码"
 
 msgid "SecondInfobar Posterx:"
-msgstr "第二信息栏海报："
+msgstr "第二信息栏 Posterx:"
 
 msgid "SecondInfobar Style:"
-msgstr "第二信息栏样式："
-
-msgid "SecondInfobar Weather:"
-msgstr "天气："
+msgstr "第二信息栏样式:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr "SecondInfobar Xtraevent："
+msgstr "第二信息栏 Xtraevent:"
 
 msgid "Segoe UI light"
-msgstr "Segoe UI 灯"
+msgstr "Segoe UI Light"
 
 msgid "Select Your Font:"
-msgstr "选择您的字体："
+msgstr "选择您喜欢的字体:"
 
-msgid "Set Time our - minute for Backdrop download"
-msgstr "设置背景下载时间 - 分钟"
-
-msgid "Set Time our - minute for Poster download"
-msgstr "设定时间 - 分钟下载海报"
+msgid "Server version:"
+msgstr "服务器版本:"
 
 msgid "Settings Apikey Server"
-msgstr "设置 APIkey 服务器"
+msgstr "设置Apikey服务器"
 
-msgid "Setup Aglare Skin Info"
-msgstr "设置炫光皮肤信息"
+msgid "Settings OMDB APIKEY"
+msgstr "设置"
 
-msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "显示代表每个事件类型的图标（例如动作、喜剧、戏剧）"
+msgid "Settings TMDB ApiKey"
+msgstr "TMDB设置秘钥"
 
-msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "在活动中显示家长指导图标，以指示内容分级和年龄适合性。"
+msgid "Setup Aglare for Aglare-FHD v.%s"
+msgstr "Aglare-FHD管理器v.%s"
 
-msgid "Show poster from movie in local folder"
-msgstr "在本地文件夹中显示电影海报"
+msgid "Signup on OMDB and input free personal ApiKey"
+msgstr "注册OMDB并输入免费的个人Api密钥"
 
-msgid "Sienna"
-msgstr "赭色"
+msgid "Signup on TMDB and input free personal ApiKey"
+msgstr "注册TMDB并输入免费的个人Api密钥"
 
 msgid "Skin Style:"
-msgstr "皮肤风格："
-
-msgid "SnowWhite"
-msgstr "白雪公主"
-
-msgid "Start downloading backdrop immediately"
-msgstr "立即开始下载背景"
-
-msgid "Start downloading poster immediately"
-msgstr "立即开始下载海报"
-
-msgid "SteelBlue"
-msgstr "钢蓝"
+msgstr "皮肤样式:"
 
 msgid "Style2"
-msgstr "款式2"
+msgstr "样式 2"
 
 msgid "Style3"
-msgstr "款式3"
+msgstr "样式 3"
 
 msgid "Style4"
-msgstr "款式4"
+msgstr "样式 4"
+
+msgid "Style5 CD"
+msgstr "样式 5 CD"
 
 msgid "Support E2iplayer Skins:"
 msgstr "支持 E2iplayer 皮肤："
 
 msgid "System"
-msgstr "系统"
+msgstr "系统设置"
 
-msgid "TMDB Only"
-msgstr "仅TMDB"
+msgid "TMDB ApiKey Imported & Stored!"
+msgstr "TMDB ApiKey已导入并存储！"
 
-msgid "Teal"
-msgstr "青色"
+msgid "TMDB ApiKey is empty!"
+msgstr "TMDB Apikey是空的!"
 
-msgid "The file %s is empty."
-msgstr "文件 %s 为空。"
+msgid ""
+"The update is available!\n"
+"\n"
+"Do you want to run the update now?"
+msgstr ""
+"更新内容如下!\n"
+"\n"
+"是否现在就运行更新?"
 
-msgid "The file %s was not found."
-msgstr "未找到文件 %s。"
-
-msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "此操作可以根据所选的评级源显示事件的评级星级。"
-
-msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "此操作从文件夹设备中删除所有 png（海报背景）"
-
-msgid "Tomato"
-msgstr "番茄"
-
-msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr "更新 URL 未初始化 首先从插件菜单打开插件一次。"
-
-msgid "Update check failed: {}"
-msgstr "更新检查失败：{}"
-
-msgid "Update package not found!"
-msgstr "未找到更新包！"
+msgid "Version installed:"
+msgstr "已安装的版本:"
 
 msgid "VolumeBar Style:"
-msgstr "音量条样式："
+msgstr "音量条风格:"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin：编辑条目"
+msgstr "天气插件：编辑条目"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin：条目列表"
+msgstr "天气插件：条目列表"
 
-msgid "White"
-msgstr "白色的"
+msgid "You have the current version Aglare!"
+msgstr "您已安装最新的Aglare版本!"
 
-msgid "YellowGreen"
-msgstr "黄绿色"
+msgid "You have version %s!!!"
+msgstr "您的版本 %s!"
 
-msgid "You already have the latest version ({})."
-msgstr "您已经拥有最新版本 ({})。"
+msgid ""
+"You need to enter a valid city name before you can search for the location "
+"code."
+msgstr "您需要输入有效的城市名称，然后才能搜索位置代码."
 
-msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "您需要输入有效的城市名称才能搜索位置代码。"
+msgid ""
+"[Checkskin] This operation checks if the skin has its components (is not "
+"sure)..\n"
+"Do you really want to continue?"
+msgstr ""
+"[Checkskin]此操作检查皮肤是否有其成分（不确定）。\n"
+"您确定要继续吗？"
 
 msgid "imperial system"
-msgstr "帝国制度"
+msgstr "国家天气制度"
 
 msgid "metric system"
-msgstr "公制"
+msgstr "度量系统"
 
 msgid "play/show Files"
 msgstr "播放/显示文件"
 
 msgid "volume2"
-msgstr "卷2"
+msgstr "音量样式2"
+
+msgid "--------------------------( SKIN GENERAL SETUP )-----------------------"
+msgstr "--------------------------(皮肤常规设置)-----------------------"
+
+msgid "--------------------------( SKIN APIKEY SETUP )-----------------------"
+msgstr "--------------------------(皮肤api密钥设置)-----------------------"
+
+msgid "API KEY SETUP:"
+msgstr "API密钥设置:"
+
+msgid "TMDB API:"
+msgstr "TMDB API密钥:"
+
+msgid "--Load TMDB Apikey"
+msgstr "--加载 TMDB Api密钥"
+
+msgid "--Set TMDB Apikey"
+msgstr "--设置 TMDB Api密钥"
+
+msgid "OMDB API:"
+msgstr "OMDB API密钥:"
+
+msgid "--Load OMDB Apikey"
+msgstr "--加载 OMDB Api密钥"
+
+msgid "--Set OMDB Apikey"
+msgstr "--设置 OMDB Api密钥"
+
+msgid "Setup Aglare"
+msgstr "Aglare皮肤设置"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

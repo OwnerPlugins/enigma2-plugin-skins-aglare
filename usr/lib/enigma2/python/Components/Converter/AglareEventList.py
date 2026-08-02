@@ -61,6 +61,7 @@ class AglareEventList(Converter, object):
     @cached
     def getContent(self):
         contentList = []
+        seen_begins = set()  # Track event start times to prevent duplicates
         ref = self.source.service
         info = ref and self.source.info
         if info is None:
@@ -72,22 +73,35 @@ class AglareEventList(Converter, object):
 
         i = 1
         while i <= self.eventcount and event:
-            # Append current event to list
-            contentList.append(self.getEventTuple(event))
-
-            # Controllo che beginTime e duration non siano None prima di
-            # calcolare il prossimo inizio
             begin = event.getBeginTime()
             dur = event.getDuration()
+
+            # Stop if event data is invalid
             if begin is None or dur is None:
                 break
 
+            # Append current event if we haven't seen it yet
+            if begin not in seen_begins:
+                contentList.append(self.getEventTuple(event))
+                seen_begins.add(begin)
+                i += 1  # Only increment the counter if a unique event was added
+
+            # Calculate next event time
             next_start_time = begin + dur
-            event = self.epgcache.lookupEventTime(
+            next_event = self.epgcache.lookupEventTime(
                 eServiceReference(ref.toString()), next_start_time
             )
-            i += 1
+            
+            # Failsafe: if EPG overlaps and returns the exact same event, push the time forward 1 minute
+            if next_event and next_event.getBeginTime() == begin:
+                next_start_time += 60
+                next_event = self.epgcache.lookupEventTime(
+                    eServiceReference(ref.toString()), next_start_time
+                )
+                
+            event = next_event
 
+        # Primetime logic
         if self.primetime == 1:
             now = localtime(time())
             dt = datetime(now.tm_year, now.tm_mon, now.tm_mday, 20, 15)
@@ -98,10 +112,10 @@ class AglareEventList(Converter, object):
             event = self.epgcache.lookupEventTime(
                 eServiceReference(ref.toString()), primeTime
             )
-            # Controllo che event e getBeginTime non siano None
             if event:
                 bt = event.getBeginTime()
-                if bt is not None and bt <= primeTime:
+                # Ensure the primetime event is valid AND hasn't already been added
+                if bt is not None and bt <= primeTime and bt not in seen_begins:
                     contentList.append(self.getEventTuple(event))
 
         return contentList
@@ -111,8 +125,6 @@ class AglareEventList(Converter, object):
             begin = event.getBeginTime()
             dur = event.getDuration()
 
-            # Se uno dei due è None, restituisco una tupla vuota o un
-            # placeholder
             if begin is None or dur is None:
                 return ("", "", "")
 

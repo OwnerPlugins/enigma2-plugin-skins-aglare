@@ -33,7 +33,7 @@ from ServiceReference import ServiceReference
 
 from Plugins.Extensions.Aglare.api_config import cfg
 
-from .Agp_Utils import IMOVIE_FOLDER, logger  # , clean_for_tvdb
+from .Agp_Utils import IMOVIE_FOLDER, logger
 from .Agp_lib import build_search_title, clean_search_title, smart_capitalize_title, should_skip_title
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -229,6 +229,7 @@ class AgpStarX(VariableValue, Renderer):
                     if getattr(source, "event", None) is None:
                         logger.info(
                             "AgpStarX infos: Event source has no event yet")
+                        self.oldCanal = None
                         self._hide_star()
                         return
 
@@ -241,6 +242,7 @@ class AgpStarX(VariableValue, Renderer):
                     if not event_name:
                         logger.info(
                             "AgpStarX infos: Event source has empty event name")
+                        self.oldCanal = None
                         self._hide_star()
                         return
 
@@ -259,6 +261,7 @@ class AgpStarX(VariableValue, Renderer):
                 if not events or len(events) <= self.nxts:
                     logger.info(
                         "AgpStarX infos: no event at requested nexts='{}'".format(str(self.nxts)))
+                    self.oldCanal = None
                     self._hide_star()
                     return
 
@@ -274,6 +277,7 @@ class AgpStarX(VariableValue, Renderer):
 
             if not servicetype or not self.canal[5]:
                 logger.info("AgpStarX infos: no usable event")
+                self.oldCanal = None
                 self._hide_star()
                 return
 
@@ -309,6 +313,7 @@ class AgpStarX(VariableValue, Renderer):
             logger.error(
                 "AgpStarX infos error: {}".format(
                     str(e)), exc_info=True)
+            self.oldCanal = None
 
     def _start_json_retry(self):
         if self._json_timer.isActive():

@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# ##################################
-# #__author__ = "Lululla"         ##
-# #__copyright__ = "AGP Team"     ##
-# #__created_by__ = "MNASR"       ##
-# ##################################
+###################################
+##__author__ = "Lululla"         ##
+##__copyright__ = "AGP Team"     ##
+##__created_by__ = "MNASR"       ##
+###################################
 from __future__ import absolute_import, print_function
 from os import makedirs
 from os.path import join, exists, getsize
@@ -27,7 +27,6 @@ from .AgpEMCBase import EMC_ROOT, EMC_LOGO_FOLDER, ensure_emc_dirs, build_emc_se
 
 lemc_queue = Queue()
 api_key_manager = ApiKeyManager()
-
 
 class AgpLEMC(Renderer):
     GUI_WIDGET = ePixmap
@@ -114,37 +113,19 @@ class AgpLEMC(Renderer):
 
         is_episode = is_emc_episode(movie_path)
 
-        # For TV episodes, do not pass a movie year. It can bias TMDB toward
-        # movies.
+        # For TV episodes, do not pass a movie year. It can bias TMDB toward movies.
         self.release_year = "" if is_episode else extract_emc_year(movie_path)
 
         logo_path = join(self.storage_path, "%s.png" % clean_title)
         if _validate_logo(logo_path):
             self.waitLogo(logo_path)
         else:
-            self._queue_for_download(
-                clean_title,
-                clean_title,
-                logo_path,
-                is_episode,
-                movie_path)
+            self._queue_for_download(clean_title, clean_title, logo_path, is_episode, movie_path)
 
-    def _queue_for_download(
-            self,
-            search_title,
-            clean_title,
-            logo_path,
-            is_episode=False,
-            movie_path=""):
+    def _queue_for_download(self, search_title, clean_title, logo_path, is_episode=False, movie_path=""):
         if not AgpDBlemc or not AgpDBlemc.is_alive():
             return
-        lemc_queue.put(
-            (search_title,
-             clean_title,
-             logo_path,
-             self.release_year,
-             is_episode,
-             movie_path))
+        lemc_queue.put((search_title, clean_title, logo_path, self.release_year, is_episode, movie_path))
         self.runLogoThread(logo_path)
 
     def runLogoThread(self, logo_path):
@@ -178,7 +159,6 @@ class AgpLEMC(Renderer):
             self._timer.start(500 + self.retry_count * 200, True)
         else:
             self.instance.hide()
-
 
 class LogoDBLEMC(AglDownloadThread):
     def __init__(self):
@@ -217,19 +197,15 @@ class LogoDBLEMC(AglDownloadThread):
             episode_shortdesc = ""
             episode_fulldesc = ""
             if is_episode:
-                episode_shortdesc, episode_fulldesc = extract_emc_episode_marker(
-                    movie_path)
+                episode_shortdesc, episode_fulldesc = extract_emc_episode_marker(movie_path)
 
             shortdesc = episode_shortdesc if is_episode else None
             fulldesc = episode_fulldesc if is_episode else None
             search_year = None if is_episode else release_year
 
-            logger.info(
-                "AgpLEMC provider hint | title='{}' | is_episode='{}' | shortdesc='{}' | fulldesc='{}'".format(
-                    search_title,
-                    str(is_episode),
-                    str(shortdesc),
-                    str(fulldesc)))
+            logger.info("AgpLEMC provider hint | title='{}' | is_episode='{}' | shortdesc='{}' | fulldesc='{}'".format(
+                search_title, str(is_episode), str(shortdesc), str(fulldesc)
+            ))
 
             self.search_tmdb_logo(
                 dwn_logo=logo_path,
@@ -244,10 +220,8 @@ class LogoDBLEMC(AglDownloadThread):
             with self.lock:
                 self.queued.discard(search_title)
 
-
 def _validate_logo(path):
     return exists(path) and getsize(path) > 100
-
 
 db_lock = Lock()
 AgpDBlemc = None

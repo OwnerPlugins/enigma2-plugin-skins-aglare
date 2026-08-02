@@ -1,0 +1,8 @@
+
+    <!--ecm-->
+  <widget source="session.CurrentService" render="AglareECMInfoRenderer" position="20,490" size="380,300" font="Regular;24" transparent="1" />
+  <eLabel backgroundColor="igsdt" cornerRadius="30" position="10,480" size="400,320" zPosition="-99" />
+  <eLabel name="" position="10,428" size="400,52" foregroundColor="white" backgroundColor="white" cornerRadius="8" zPosition="-1" />
+  <eLabel name="" position="11,428" size="398,50" backgroundColor="igsdt" cornerRadius="8" />
+  <eLabel name="" position="20,434" size="380,46" zPosition="1" transparent="1" text="ECM information" font="Regular; 30" halign="left" />
+  

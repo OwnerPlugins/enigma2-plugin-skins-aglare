@@ -11,9 +11,9 @@
         <panel name="menutemp"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <panel name="pigscreen885"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/plugin.png" scale="strech" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/skin/pic/PayPal.png" scale="strech" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/skin/pic/qr-code.png" scale="strech" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/plugin.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/skin/pic/PayPal.png" scale="1" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/skin/pic/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
         <eLabel backgroundGradient="blue,red,vertical" cornerRadius="10" position="1399,605" size="400,400"/>
         <widget name="paypal" position="59,851" size="830,150" font="Regular; 34" foregroundColor="#ffb75b" backgroundColor="#101010" halign="left" transparent="1" zPosition="5"/>
         <!-- Menu List -->
@@ -49,9 +49,9 @@
         <panel name="menutemp"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <panel name="pigscreen885"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/plugin.png" scale="strech" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/skin/pic/PayPal.png" scale="strech" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/skin/pic/qr-code.png" scale="strech" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/plugin.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/skin/pic/PayPal.png" scale="1" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/skin/pic/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
         <eLabel backgroundGradient="blue,red,vertical" cornerRadius="10" position="1399,605" size="400,400"/>
         <widget name="paypal" position="59,851" size="830,150" font="Regular; 34" foregroundColor="#ffb75b" backgroundColor="#101010" halign="left" transparent="1" zPosition="5"/>
         <!-- Menu List -->
@@ -133,9 +133,9 @@
         <panel name="menutemp"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <panel name="pigscreen885"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/plugin.png" scale="strech" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/res/pics/PayPal.png" scale="strech" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/res/pics/qr-code.png" scale="strech" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/plugin.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/res/pics/PayPal.png" scale="1" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/res/pics/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
         <eLabel backgroundGradient="blue,red,vertical" cornerRadius="10" position="1399,605" size="400,400"/>
         <widget name="paypal" position="59,851" size="830,150" font="Regular; 34" foregroundColor="#ffb75b" backgroundColor="#101010" halign="left" transparent="1" zPosition="5"/>
         <widget name="info" position="51,119" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
@@ -188,9 +188,9 @@
         <widget name="config" position="55,206" size="838,640" font="Regular;30" itemHeight="50" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColor="#00ffffff"/>
         <widget name="info" position="51,119" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <widget name="description" position="61,878" size="845,113" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/mmPicons/plugin.png" scale="strech" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/mmPicons/res/skin/pics/PayPal.png" scale="strech" position="1219,929" size="156,75" zPosition="5" alphatest="on"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/mmPicons/res/skin/pics/qr-code.png" scale="strech" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/mmPicons/plugin.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/mmPicons/res/skin/pics/PayPal.png" scale="1" position="1219,929" size="156,75" zPosition="5" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/mmPicons/res/skin/pics/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
         <eLabel backgroundGradient="blue,red,vertical" cornerRadius="10" position="1399,605" size="400,400"/>
         <widget name="paypal" position="984,612" size="401,301" font="Regular; 34" foregroundColor="#ffb75b" backgroundColor="#101010" halign="left" transparent="1" zPosition="5"/>
     </screen>
@@ -454,32 +454,16 @@
         <widget name="config" position="49,191" size="850,650" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" foregroundColorSelected="#ffffff" backgroundColor="#20000000" backgroundColorSelected="#0b2049"/>
         <widget name="description" position="61,878" size="845,113" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
         <widget name="info" position="51,119" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvmanager/logo.png" scale="strech" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvmanager/res/pics/PayPal.png" scale="strech" position="1219,929" size="156,75" zPosition="5" alphatest="on"/>
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvmanager/res/pics/qr-code.png" scale="strech" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvmanager/logo.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvmanager/res/pics/PayPal.png" scale="1" position="1219,929" size="156,75" zPosition="5" alphatest="on"/>
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvmanager/res/pics/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
     </screen>
-    <!-- *************************************** -->
-    <!--  TvToM3u PANELS                           * -->
-    <!-- *************************************** -->
-    <!--
-     <screen name="TvToM3u" position="center,center" size="1920,1080" title="TvToM3u" backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp" />
-        <panel name="menutemp" />
-        <panel name="ScreenTemplateAllColorButtons_menu" />
-        <panel name="pigscreen885" />
-        <widget name="text" position="43,153" size="869,742" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1" />
-        <widget name="MENU" position="43,97" size="884,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5" />
-        <widget name="version" position="41,901" size="877,90" font="Regular; 32" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5" />
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvaddon/plugin.png" scale="strech" alphatest="blend" position="736,35" size="191,67" zPosition="5" />
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvaddon/Skin/PayPal.png" scale="strech" position="1310,896" size="156,75" zPosition="5" alphatest="on" />
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvaddon/Skin/qr-code.png" scale="strech" position="1502,668" size="318,318" zPosition="2" alphatest="on" />
-    </screen> -->
     <!-- *************************************** -->
     <!--  VAVOO                                 * -->
     <!-- *************************************** -->
     <screen name="MainVavoox" position="center,center" size="1920,1080" title="Vavoo Stream Live by Lululla" backgroundColor="#ff000000" flags="wfNoBorder">
         <!-- <eLabel name="" position="31,30" size="900,980" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2" /> -->
-        <ePixmap position="0,0" size="1920,1080" pixmap="vavoo/main.png" alphatest="blend" zPosition="-1"/>
+        <ePixmap position="center,center" size="1920,1080" pixmap="vavoo/main.png" alphatest="blend" zPosition="-1"/>
         <widget source="global.CurrentTime" render="Label" position="1438,70" size="316,117" font="Lcd; 84" halign="right" backgroundColor="#914167" transparent="1" valign="center" foregroundColor="#00ffffff">
             <convert type="ClockToText">Default</convert>
         </widget>
@@ -504,8 +488,8 @@
         <panel name="MainVavoox"/>
     </screen>
     <screen name="vavoo_configx" position="center,center" size="1920,1080" title="Vavoo Stream Live by Lululla" backgroundColor="#ff000000" flags="wfNoBorder">
-        <ePixmap position="0,0" size="1920,1080" pixmap="vavoo/main.png" alphatest="blend" zPosition="-1"/>
-        <eLabel position="0,0" size="1920,1080" backgroundColor="#30000000" transparent="0" zPosition="-9" foregroundColor="#00ffffff"/>
+        <ePixmap position="center,center" size="1920,1080" pixmap="vavoo/main.png" alphatest="blend" zPosition="-1"/>
+        <eLabel position="center,center" size="1920,1080" backgroundColor="#30000000" transparent="0" zPosition="-9" foregroundColor="#00ffffff"/>
         <!-- <eLabel backgroundColor="#00ffffff" position="0,975" size="1920,3" zPosition="12" /> -->
         <widget name="description" position="118,878" size="707,90" zPosition="1" backgroundColor="#30000000" transparent="1" font="Regular; 34" valign="center" halign="center" foregroundColor="#00ffffff"/>
         <widget name="config" position="145,172" size="655,650" zPosition="1" font="Regular; 28" itemHeight="50" scrollbarMode="showNever" transparent="1" backgroundColor="#ffffff" foregroundColor="#ffccff" backgroundColorSelected="#743554" foregroundColorSelected="#ffffcc"/>
@@ -529,23 +513,23 @@
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
         <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
-        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
-        <widget name="back" position="0,0" size="0,0" zPosition="0" alphatest="blend" transparent="1"/>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="center,center" size="1920,1080" zPosition="-99"/>
+        <widget name="back" position="center,center" size="0,0" zPosition="0" alphatest="blend" transparent="1"/>
         <widget name="logo" position="1017,595" size="400,400" zPosition="0" alphatest="blend" scale="stretch" transparent="1"/>
         <widget name="info" position="65,118" zPosition="4" size="835,57" font="Regular;38" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" halign="center" valign="center"/>
         <widget name="list" position="58,189" size="849,793" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColor="#00ffffff"/>
         <eLabel name="" position="1704,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="OK"/>
         <eLabel name="" position="1838,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="EXIT"/>
     </screen>
-    <screen name="radiom2" position="0,0" size="1920,1080" title="Radio Stream Live by Lululla" backgroundColor="#ff000000" flags="wfNoBorder">
+    <screen name="radiom2" position="center,center" size="1920,1080" title="Radio Stream Live by Lululla" backgroundColor="#ff000000" flags="wfNoBorder">
         <panel name="radiom1"/>
     </screen>
-    <screen name="radiom3" position="0,0" size="1920,1080" title="Radio Stream Live by Lululla" backgroundColor="#ff000000" flags="wfNoBorder">
+    <screen name="radiom3" position="center,center" size="1920,1080" title="Radio Stream Live by Lululla" backgroundColor="#ff000000" flags="wfNoBorder">
         <panel name="radiom1"/>
     </screen>
     <screen name="radiom80" position="center,center" size="1920,1080" title="Radio Stream Live by Lululla" backgroundColor="#ff000000" flags="wfNoBorder">
         <ePixmap position="0,680" size="1920,400" pixmap="radio/80bar.png" alphatest="blend" zPosition="-1"/>
-        <widget name="back" position="0,0" size="1920,1080" pixmap="radio/foreg.jpg" scale="1" zPosition="-2"/>
+        <widget name="back" position="center,center" size="1920,1080" pixmap="radio/foreg.jpg" scale="1" zPosition="-2"/>
         <widget name="logo" position="20,720" size="340,340" zPosition="0" alphatest="blend" scale="stretch" transparent="1"/>
         <widget name="info" position="380,720" size="0,0" font="Regular;40" foregroundColor="#00ffff00" backgroundColor="#000000" transparent="1" halign="left" valign="center" zPosition="4"/>
         <widget name="format" position="400,715" size="1500,40" font="Regular;34" foregroundColor="#00ffff00" backgroundColor="#000000" transparent="1" halign="left" valign="center" zPosition="4"/>
@@ -604,7 +588,7 @@
     <!--  QuitMainloopScreen                   * -->
     <!-- *************************************** -->
     <screen name="QuitMainloopScreen" position="center,center" size="1920,1080" backgroundColor="#ff000000" flags="wfNoBorder">
-        <ePixmap pixmap="sf/welcome.png" position="0,0" size="1920,1080" scale="1" zPosition="1" transparent="1"/>
+        <ePixmap pixmap="sf/welcome.png" position="center,center" size="1920,1080" scale="1" zPosition="1" transparent="1"/>
         <widget name="text" position="78,12" size="1770,60" font="Regular; 50" halign="center" valign="center" backgroundColor="#ffffffff" foregroundColor="gold" zPosition="2"/>
         <eLabel name="" position="7,957" size="321,121" font="Regular; 34" backgroundColor="background" text="Welcome to ...  Satellite-Forum.com @Lululla" zPosition="2" transparent="1" halign="center" foregroundColor="yellow"/>
     </screen>

@@ -1,0 +1,4 @@
+
+    <widget source="session.Event_Now" render="xtraPoster" position="45,695" size="230,230" cornerRadius="115" zPosition="1" borderWidth="1" borderColor="igsd" />
+    <widget source="session.Event_Next" render="xtraPoster" position="1645,695" size="230,230" cornerRadius="115" zPosition="1" borderWidth="1" borderColor="igsd" />
+

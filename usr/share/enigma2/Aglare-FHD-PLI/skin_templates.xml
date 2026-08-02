@@ -30,7 +30,7 @@
         <widget source="session.Event_Now" render="Progress" position="1058,824" size="400,10" pixmap="main/progfg40010.png" backgroundColor="progbg" zPosition="99" cornerRadius="5">
             <convert type="AglareReceiverInfo">MmcInfo</convert>
         </widget>
-        <widget source="session.CurrentService" render="Label" zPosition="6" position="1058,859" size="500,26" halign="left" valign="center" font="Regular; 24" transparent="1" backgroundColor="background" foregroundColor="white">
+        <widget source="session.CurrentService" render="Label" zPosition="6" position="1058,859" size="560,26" halign="left" valign="center" font="Regular; 24" transparent="1" backgroundColor="background" foregroundColor="white">
             <convert type="AglareBoxInfo">Boxtype</convert>
         </widget>
         <eLabel name="" position="997,846" size="50,50" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="icomoon; 26" text="" zPosition="1"/>
@@ -115,10 +115,8 @@
         <widget source="menu" render="Listbox" position="36,110" size="890,770" enableWrapAround="1" zPosition="44" itemHeight="70" scrollbarMode="showNever" itemCornerRadius="20">
             <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (30,0),size = (900,70),flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 0) ],
-
 		"fonts": [gFont("Regular",36)],
 		"itemHeight": 70
-
 	}
 			</convert>
         </widget>
@@ -507,6 +505,13 @@
             <convert type="ConditionalShowHide"/>
         </widget>
         <eLabel name="" position="1848,902" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regularn; 20" zPosition="0" text="NO VPN"/>
+        <widget source="session.CurrentService" render="FixedLabel" position="1140,819" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regularn; 24" zPosition="9" text="CSA">
+            <convert type="AglareServiceInfoEX">IsSoftCSA</convert>
+            <convert type="ConditionalShowHide"/>
+        </widget>
+        <widget position="1692,870" source="session.FrontendInfo" render="Label" zPosition="2" size="210,30" font="Regular;23" halign="center" transparent="1" valign="center" backgroundColor="background">
+            <convert type="FrontendInfo">STRING,10,6,True</convert>
+        </widget>
     </screen>
     <screen name="infobartemp2" flags="wfNoBorder" position="0,0" backgroundColor="transparent">
         <widget source="session.Event_Now" render="Label" position="50,956" size="200,35" halign="center" font="Regular; 32" backgroundColor="background" transparent="1" valign="center" zPosition="1">
@@ -662,6 +667,10 @@
             <convert type="ServiceInfo">HasHBBTV</convert>
             <convert type="ConditionalShowHide"/>
         </widget>
+        <widget source="session.CurrentService" render="FixedLabel" position="1242,956" size="52,35" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="10" font="Regularn; 22" zPosition="9" text="CSA">
+            <convert type="AglareServiceInfoEX">IsSoftCSA</convert>
+            <convert type="ConditionalShowHide"/>
+        </widget>
     </screen>
     <screen name="infobartemp3" flags="wfNoBorder" position="0,0" backgroundColor="transparent">
         <widget source="session.Event_Now" render="Label" position="320,956" size="200,35" halign="center" font="Regular; 30" backgroundColor="background" transparent="1" valign="center" zPosition="1">
@@ -810,6 +819,18 @@
         <eLabel name="" position="1690,873" size="50,40" cornerRadius="10" zPosition="0" backgroundColor="background"/>
         <eLabel name="" position="1750,873" size="50,40" cornerRadius="10" zPosition="0" backgroundColor="background"/>
         <eLabel name="" position="1470,873" size="90,40" cornerRadius="10" zPosition="0" backgroundColor="background"/>
+        <eLabel name="" position="60,860" size="1800,50" cornerRadius="10" zPosition="-92" backgroundColor="background"/>
+        <widget backgroundColor="background" font="Regular; 22" halign="left" noWrap="1" position="72,860" render="Label" size="565,32" source="session.CurrentService" transparent="1" valign="center" zPosition="10">
+            <convert type="AglareCaidInfo2">Default</convert>
+        </widget>
+        <widget source="session.CurrentService" render="Label" position="930,860" size="340,32" font="Regular; 22" halign="left" backgroundColor="background" zPosition="2" transparent="1" valign="center">
+            <convert type="AglareBitrate">Inline</convert>
+        </widget>
+        <eLabel name="" position="1290,873" size="50,40" cornerRadius="10" zPosition="10" backgroundColor="background"/>
+        <widget source="session.CurrentService" render="FixedLabel" position="1290,875" size="50,36" backgroundColor="greeng1" halign="center" valign="center" transparent="0" cornerRadius="10" font="Regularn; 22" zPosition="11" text="CSA">
+            <convert type="AglareServiceInfoEX">IsSoftCSA</convert>
+            <convert type="ConditionalShowHide"/>
+        </widget>
     </screen>
     <screen name="infobartemp4" flags="wfNoBorder" position="0,0" backgroundColor="transparent">
         <widget source="session.Event_Now" render="Label" position="352,894" size="170,35" halign="center" font="Regular; 30" backgroundColor="background" transparent="1" valign="center" zPosition="1">
@@ -1110,11 +1131,12 @@
         <widget source="session.CurrentService" render="Label" position="390,970" size="792,30" font="Regular; 22" halign="left" zPosition="9" backgroundColor="background90" transparent="1" text="camname" valign="center" noWrap="1" foregroundColor="white">
             <convert type="AglareAccess">CamName</convert>
         </widget>
-        <widget source="session.CurrentService" render="Label" position="0,1100" size="0,0" font="Regular; 22" halign="center" zPosition="9" backgroundColor="background90" transparent="1" text="camegami" valign="center" noWrap="1" foregroundColor="white">
-            <convert type="EGExtraInfo">CamName</convert>
-        </widget>
         <eLabel name="" position="1848,902" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regularn; 20" zPosition="0" text="NO VPN"/>
         <eLabel name="" position="351,972" size="30,30" font="icomoon; 28" text="" halign="center" zPosition="99" transparent="1"/>
+        <widget source="session.CurrentService" render="FixedLabel" position="1140,843" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regularn; 24" zPosition="9" text="CSA">
+            <convert type="AglareServiceInfoEX">IsSoftCSA</convert>
+            <convert type="ConditionalShowHide"/>
+        </widget>
     </screen>
     <screen name="infobartimedate" flags="wfNoBorder" position="0,0" backgroundColor="transparent">
         <widget font="Bold; 30" halign="center" position="1604,85" render="Label" size="306,40" source="global.CurrentTime" transparent="1" zPosition="1">

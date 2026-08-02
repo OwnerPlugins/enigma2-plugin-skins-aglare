@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-## __author__ = "Lululla"         ##
-## __copyright__ = "AGP Team"     ##
-## __modified_by__ = "MNASR"      ##
+# __author__ = "Lululla"         ##
+# __copyright__ = "AGP Team"     ##
+# __modified_by__ = "MNASR"      ##
 ###################################
 from __future__ import absolute_import, print_function
 # Standard library
@@ -160,7 +160,7 @@ class AglarePosterX(Renderer):
 
         self.providers = api_key_manager.get_active_providers()
 
-        global AgpDB, global_agp_auto_db
+        # global AgpDB, global_agp_auto_db
 
         self.poster_db = AgpDB
         self.poster_auto_db = global_agp_auto_db
@@ -233,6 +233,7 @@ class AglarePosterX(Renderer):
                     if getattr(source, "event", None) is None:
                         logger.info(
                             "AglarePosterX: Event source has no event yet")
+                        self.oldCanal = None
                         if self.instance:
                             self.instance.hide()
                         return
@@ -250,6 +251,7 @@ class AglarePosterX(Renderer):
                     if not event_name:
                         logger.info(
                             "AglarePosterX: Event source has empty event name")
+                        self.oldCanal = None
                         if self.instance:
                             self.instance.hide()
                         return
@@ -269,6 +271,7 @@ class AglarePosterX(Renderer):
 
                 if not events or len(events) <= self.nxts:
                     # self._log_debug("No events or insufficient events")
+                    self.oldCanal = None
                     if self.instance:
                         self.instance.hide()
                     return
@@ -290,6 +293,7 @@ class AglarePosterX(Renderer):
 
             # Skip if no valid program data
             if not servicetype or not self.canal[5]:
+                self.oldCanal = None
                 if self.instance:
                     self.instance.hide()
                 return
@@ -641,14 +645,6 @@ class PosterDB(AgpDownloadThread):
         except Exception as e:
             logger.error(f"Poster validation error: {str(e)}")
             return False
-
-    # def update_poster_cache(self, poster_name, path):
-        # """Force update cache entry"""
-        # self.poster_cache[poster_name] = path
-        # # Limit cache size
-        # if len(self.poster_cache) > 50:
-            # oldest = next(iter(self.poster_cache))
-            # del self.poster_cache[oldest]
 
     def mark_failed_attempt(self, canal_name):
         """Track failed download attempts"""

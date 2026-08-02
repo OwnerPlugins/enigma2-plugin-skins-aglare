@@ -1,10 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-###################################
-## __author__ = "Lululla"         ##
-## __copyright__ = "AGP Team"     ##
-## __modified_by__ = "MNASR"      ##
-###################################
+# __author__ = "Lululla"
+# __copyright__ = "AGP Team"
+# __modified_by__ = "MNASR"
 from __future__ import absolute_import, print_function
 
 from json import load as json_load, dump as json_dump
@@ -205,6 +203,7 @@ class AgpInfoEvents2(Renderer, VariableText):
         try:
             if not self._resolve_event_from_source() or not self.canal[5]:
                 logger.info("AgpInfoEvents2 infos: no usable event")
+                self.oldCanal = None
                 self.current_request_key = None
                 self._clear_display()
                 return
@@ -223,6 +222,7 @@ class AgpInfoEvents2(Renderer, VariableText):
             logger.error(
                 "AgpInfoEvents2 changed error: {}".format(
                     str(e)), exc_info=True)
+            self.oldCanal = None
             self.current_request_key = None
             self._clear_display()
 

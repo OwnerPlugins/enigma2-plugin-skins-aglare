@@ -22,17 +22,6 @@
     <resolution xres="1920" yres="1080" bpp="32" />
   </output>
   <colors>
-    <color name="greeng1" value="#0038761d" />
-    <color name="greeng2" value="#00326a1a" />
-    <color name="greeng3" value="#002c5e17" />
-    <color name="redg1" value="#00771615" />
-    <color name="redg2" value="#006b1312" />
-    <color name="redg3" value="#005f1110" />
-  <color name="black1" value="#00181818" />
-  <color name="gold1" value="#20ffd700" />
-  <color name="white1" value="#20ffffff" />
-  <color name="backgroundtrans1" value="#95000000" />
-  <color name="backgroundtrans2" value="#95161414" />
   <color name="#101010" value="#00101010" />
   <color name="#10101010" value="#10101010" />
   <color name="#101214" value="#00101214" />
@@ -60,7 +49,6 @@
   <color name="#555556" value="#00555556" />
   <color name="#606060" value="#00606060" />
   <color name="#808080" value="#00808080" />
-  <color name="#8293b3" value="#008293b3" />
   <color name="#90000000" value="#90000000" />
   <color name="#90ff00ff" value="#90ff00ff" />
   <color name="#92f1fc" value="#0092f1fc" />
@@ -70,7 +58,6 @@
   <color name="#b0b0b0" value="#00b0b0b0" />
   <color name="#b2049" value="#000b2049" />
   <color name="#bab329" value="#00bab329" />
-  <color name="#c101b" value="#000c101b" />
   <color name="#c4c4c4" value="#00c4c4c4" />
   <color name="#cccc40" value="#00cccc40" />
   <color name="#e5b243" value="#00e5b243" />
@@ -86,10 +73,13 @@
   <color name="background3" value="#80000000" />
   <color name="background4" value="#10000000" />
   <color name="background90" value="#20000000" />
+  <color name="backgroundtrans1" value="#95000000" />
+  <color name="backgroundtrans2" value="#95161414" />
   <color name="black" value="#00000000" />
+  <color name="black1" value="#00181818" />
   <color name="blue" value="#000000ff" />
   <color name="bpSide" value="#00ff6600" />
-  <color name="buttonsc" value="#0000001e" />
+  <color name="buttonsc" value="#0011000e" />
   <color name="chselbg" value="#00632e48" />
   <color name="chselfg" value="#00ededed" />
   <color name="cyan" value="#000090e6" />
@@ -100,7 +90,7 @@
   <color name="darkgrey" value="#00888888" />
   <color name="darkgrey2" value="#202d2d2d" />
   <color name="description" value="#0077c411" />
-  <color name="fgcolor" value="#00c0c0c0" />
+  <color name="fgcolor" value="#002d2dff" />
   <color name="foreground" value="#00f8f8f8" />
   <color name="foreground2" value="#00e7c777" />
   <color name="fresh" value="#009fd00b" />
@@ -108,19 +98,23 @@
   <color name="g2" value="#00481848" />
   <color name="g3" value="#001c0e1c" />
   <color name="gold" value="#00ffd700" />
+  <color name="gold1" value="#20ffd700" />
   <color name="grdd" value="#000f0910" />
   <color name="grdd7" value="#00d7d7d7" />
   <color name="grdl" value="#00c414c4" />
   <color name="green" value="#0000ff00" />
   <color name="greenfont" value="#0051bc0e" />
+  <color name="greeng1" value="#0038761d" />
+  <color name="greeng2" value="#00326a1a" />
+  <color name="greeng3" value="#002c5e17" />
   <color name="grey" value="#008f8f8f" />
   <color name="grey_tux" value="#00333333" />
   <color name="grey2" value="#006b6b6b" />
   <color name="greyc4" value="#00c4c4c4" />
   <color name="hellgreen" value="#0056c856" />
-  <color name="igsd" value="#00093673" />
-  <color name="igsdt" value="#12093673" />
-  <color name="igsl" value="#000c4798" />
+  <color name="igsd" value="#00000064" />
+  <color name="igsdt" value="#44000064" />
+  <color name="igsl" value="#000000a0" />
   <color name="linebg" value="#00999999" />
   <color name="listbgt" value="#200a1c20" />
   <color name="lmsb" value="#003e91f6" />
@@ -128,18 +122,24 @@
   <color name="mainlight" value="#0004495c" />
   <color name="mainskincolor" value="#007396ff" />
   <color name="mcolor2" value="#00171a1c" />
-  <color name="mcolor3" value="#00ececfb" />
-  <color name="mcolor4" value="#00303030" />
-  <color name="mcolor5" value="#00093673" />
-  <color name="mcolor6" value="#000c4798" />
+  <color name="mcolor3" value="#003232d1" />
+  <color name="mcolor4" value="#0019199f" />
+  <color name="mcolor5" value="#0019199f" />
+  <color name="mcolor510" value="#1019199f" />
+  <color name="mcolor530" value="#3019199f" />
+  <color name="mcolor6" value="#001c1ccc" />
+  <color name="mcolor7" value="#10171a1c" />
   <color name="menu" value="#25062748" />
   <color name="mint" value="#0000cc99" />
   <color name="progbg" value="#005a5a5a" />
   <color name="red" value="#00ff0000" />
   <color name="redfont" value="#00bd1b0e" />
+  <color name="redg1" value="#00771615" />
+  <color name="redg2" value="#006b1312" />
+  <color name="redg3" value="#005f1110" />
   <color name="selectbg" value="#000f4c5c" />
-  <color name="sidec1" value="#0023314c" />
-  <color name="sidec2" value="#00171a1c" />
+  <color name="sidec1" value="#442020e5" />
+  <color name="sidec2" value="#002020e5" />
   <color name="sidect" value="#118e762d" />
   <color name="silver" value="#00c0c0c0" />
   <color name="transchsel1" value="#21020202" />
@@ -152,9 +152,10 @@
   <color name="transpyellow" value="#33bab329" />
   <color name="wdcolor" value="#002a2a2a" />
   <color name="white" value="#00ffffff" />
+  <color name="white1" value="#20ffffff" />
   <color name="white2" value="#00dddddd" />
   <color name="wplc" value="#0000006e" />
-  <color name="wpmc" value="#00093673" />
+  <color name="wpmc" value="#00000082" />
   <color name="wpuc" value="#00000028" />
   <color name="yellow" value="#00ffff00" />
 </colors>
@@ -222,8 +223,8 @@
     <pixmap name="menu_on" filename="Aglare-FHD-PLI/icons/menu_on.png" />
     <pixmap name="menu_off" filename="Aglare-FHD-PLI/icons/menu_off.png" />
   </switchpixmap>
+  <scrollbarstyle width="10" borderWidth="1" borderColor="mcolor2" foregroundColor="mcolor5" backgroundColor="black" mode="showOnDemand" />
   <windowstyle type="skinned" id="0">
-    <scrolllabel scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="mcolor5" scrollbarSliderBorderColor="mcolor2" scrollbarWidth="10" scrollbarSliderBorderWidth="1" />
     <configList entryFont="Regular;28" valueFont="Regular;28" />
     <title offset="30,8" font="Regular;36" />
     <color name="Background" color="background" />
@@ -234,7 +235,7 @@
     <color name="ListboxSelectedForeground" color="white" />
     <color name="ListboxMarkedBackground" color="yellow" />
     <color name="ListboxMarkedForeground" color="green" />
-    <color name="ListboxMarkedAndSelectedBackground" color="#3e91f6" />
+    <color name="ListboxMarkedAndSelectedBackground" color="lmsb" />
     <color name="ListboxMarkedAndSelectedForeground" color="green" />
     <color name="WindowTitleForeground" color="chselfg" />
     <color name="WindowTitleBackground" color="background" />
