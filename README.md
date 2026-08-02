@@ -25,3 +25,10 @@
   <img src="https://raw.githubusercontent.com/Belfagor2005/enigma2-plugin-skins-aglare/main/usr/share/enigma2/Aglare-FHD-PLI/picon_default.png?raw=true" alt="Picon Default">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OwnerPlugins/enigma2-plugin-skins-aglare/refs/heads/main/usr/share/enigma2/Aglare-FHD-PLI/image_logo/corvoboys/imagelogo.png?raw=true" alt="Picon Default">
+</p>
+
+
+
+
