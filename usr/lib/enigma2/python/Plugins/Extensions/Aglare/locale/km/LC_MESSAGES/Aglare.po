@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] ប្រតិបត្តិការនេះពិនិត្យមើលថាតើស្បែកមានសមាសធាតុរបស់វា (មិនត្រូវបានធានា)...\nតើអ្នកពិតជាចង់បន្តមែនទេ?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] ប្រតិបត្តិការនេះនឹងលុប PNGs ទាំងអស់ចេញពីថតឧបករណ៍ (Poster-Backdrop)...\nតើអ្នកពិតជាចង់បន្តមែនទេ?"
-
 msgid "%s key imported!"
 msgstr "បាន​នាំចូល​សោ %s!"
 
@@ -40,11 +34,11 @@ msgstr "ធ្វើឱ្យសកម្ម ឬបិទដំណើរកា�
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "ធ្វើឱ្យសកម្ម ឬបិទដំណើរការ PROGRAMMETV ជាអ្នកផ្តល់ទិន្នន័យមេតា។"
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "បន្ថែម"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "ការអាប់ដេត Aglare ត្រូវបានបញ្ចប់!\nតើអ្នកចង់ចាប់ផ្តើម GUI ឡើងវិញឥឡូវនេះទេ?"
 
 msgid "All png are removed from folder!"
 msgstr "png ទាំងអស់ត្រូវបានដកចេញពីថត!"
@@ -73,9 +67,6 @@ msgstr "ផ្ទាំងខាងក្រោយ"
 msgid "Backdrop download error: {}"
 msgstr "កំហុសក្នុងការទាញយកផ្ទាំងខាងក្រោយ៖ {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "ការទាញយកផ្ទាំងខាងក្រោយនឹងចាប់ផ្តើមក្នុងរយៈពេល 2 នាទីទៀត។\nអ្នកអាចចេញពីម៉ឺនុយនេះដោយសុវត្ថិភាព។"
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "ខៀវ"
 msgid "Brown"
 msgstr "ត្នោត"
 
+msgid "CD"
+msgstr "ស៊ីឌី"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Server + ECM Time"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 
 msgid "Cancel"
 msgstr "បោះបង់"
-
-msgid "CD"
-msgstr "ស៊ីឌី"
 
 msgid "Channel Description Color:"
 msgstr "ពណ៌​ពិពណ៌នា​ឆានែល៖"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "ឧបករណ៍ជ្រើសរើសថតរូបភាពទាញយក"
@@ -208,14 +199,14 @@ msgstr "កំពុងទាញយក Aglare..."
 msgid "ECM Short Format:"
 msgstr "ទម្រង់ខ្លី ECM៖"
 
-msgid "Edit"
-msgstr "កែសម្រួល"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "រចនាប័ទ្មអេក្រង់ EMC៖"
+
+msgid "Edit"
+msgstr "កែសម្រួល"
 
 msgid "Enable Display Genre icons:"
 msgstr "បើករូបតំណាងប្រភេទបង្ហាញ៖"
@@ -226,23 +217,20 @@ msgstr "បើកដំណើរការ Display InfoEvents៖"
 msgid "Enable Display XMC Poster:"
 msgstr "បើកការបង្ហាញផ្ទាំងរូបភាព XMC៖"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "បើក ឬបិទអេក្រង់ E2iPlayer ដែលបានបាច់។"
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "បើក ឬបិទឃ្លាំងសម្ងាត់កំឡុងពេលទាញយកព្រឹត្តិការណ៍ ដើម្បីបង្កើនល្បឿនការស្វែងរកម្តងហើយម្តងទៀត។"
-
 msgid "Enable Parental Icons:"
 msgstr "បើករូបតំណាងមាតាបិតា៖"
 
 msgid "Enable Rating Star:"
 msgstr "បើកការវាយតម្លៃផ្កាយ៖"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "បើក ឬបិទអេក្រង់ E2iPlayer ដែលបានបាច់។"
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "បើក ឬបិទឃ្លាំងសម្ងាត់កំឡុងពេលទាញយកព្រឹត្តិការណ៍ ដើម្បីបង្កើនល្បឿនការស្វែងរកម្តងហើយម្តងទៀត។"
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "បើកការបង្ហាញព័ត៌មានព្រឹត្តិការណ៍បន្ថែម រួមទាំងការសម្ដែងពេញលេញ ក្រុមនាវិក ព័ត៌មានលម្អិតនៃគ្រោង និងទិន្នន័យមេតាផ្សេងទៀតនៅក្នុងធាតុក្រាហ្វិកព័ត៌មាន។"
-
-msgid "Error {0}: {1}"
-msgstr "កំហុស {0}៖ {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "កំហុសដោយដំណើរការឯកសារស្បែក៖ {}"
@@ -252,6 +240,9 @@ msgstr "កំហុសក្នុងការទាញយកឯកសារ!"
 
 msgid "Error loading: {}"
 msgstr "កំហុសក្នុងការផ្ទុក៖ {}"
+
+msgid "Error {0}: {1}"
+msgstr "កំហុស {0}៖ {1}"
 
 msgid "Error: {}"
 msgstr "កំហុស៖ {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "ចេញ"
 
-msgid "File {} not found or empty"
-msgstr "រកមិនឃើញឯកសារ {} ឬទទេ"
-
 msgid "File Commander - Addon"
 msgstr "មេបញ្ជាការឯកសារ - Addon"
+
+msgid "File {} not found or empty"
+msgstr "រកមិនឃើញឯកសារ {} ឬទទេ"
 
 msgid "Green"
 msgstr "បៃតង"
@@ -283,17 +274,11 @@ msgstr "បៃតង ២"
 msgid "Greta"
 msgstr "ហ្គ្រេតា"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI ត្រូវការការចាប់ផ្តើមឡើងវិញដើម្បីអនុវត្តស្បែកថ្មី។\nតើអ្នកចង់ចាប់ផ្តើម GUI ឡើងវិញឥឡូវនេះទេ?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "ក្រុមភាពឆបគ្នានៃរូបភាព៖"
-
-msgid "imperial system"
-msgstr "ប្រព័ន្ធអធិរាជ"
 
 msgid "Import key {0} from {1}?"
 msgstr "នាំចូលសោ {0} ពី {1}?"
@@ -340,11 +325,11 @@ msgstr "បន្ទាត់ Ins"
 msgid "Installing updates..."
 msgstr "កំពុងដំឡើងបច្ចុប្បន្នភាព..."
 
-msgid "Key {} successfully loaded!"
-msgstr "សោ {} បាន​ផ្ទុក​ដោយ​ជោគជ័យ!"
-
 msgid "Key empty"
 msgstr "គ្រាប់ចុចទទេ"
+
+msgid "Key {} successfully loaded!"
+msgstr "សោ {} បាន​ផ្ទុក​ដោយ​ជោគជ័យ!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtbold ទៀងទាត់"
@@ -358,6 +343,9 @@ msgstr "ប្រផេះស្រាល"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Local build ({}) គឺថ្មីជាង server build ({})។"
 
@@ -367,14 +355,17 @@ msgstr "លេខកូដទីតាំង"
 msgid "Lucida"
 msgstr "លូស៊ីដា"
 
+msgid "MSN location search result"
+msgstr "លទ្ធផលស្វែងរកទីតាំង MSN"
+
+msgid "MV Boli"
+msgstr "MV បូលី"
+
 msgid "Magenta"
 msgstr "ពណ៌ស្វាយ"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "មេហ្គាប៊ីត/វិនាទី (Mb/s)"
-
-msgid "metric system"
-msgstr "ប្រព័ន្ធម៉ែត្រ"
 
 msgid "Mint"
 msgstr "ជីអង្កាម"
@@ -382,20 +373,11 @@ msgstr "ជីអង្កាម"
 msgid "Mix1"
 msgstr "លាយ 1"
 
-msgid "MSN location search result"
-msgstr "លទ្ធផលស្វែងរកទីតាំង MSN"
-
-msgid "MV Boli"
-msgstr "MV បូលី"
-
 msgid "No active providers enabled"
 msgstr "គ្មានអ្នកផ្តល់សេវាសកម្មត្រូវបានបើកទេ។"
 
 msgid "No description available for this option."
 msgstr "មិនមានការពិពណ៌នាសម្រាប់ជម្រើសនេះទេ។"
-
-msgid "Off"
-msgstr "បិទ"
 
 msgid "OFF"
 msgstr "បិទ"
@@ -412,6 +394,9 @@ msgstr "បើក"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "បើក/បិទ SubsSupportPro Skins។"
 
+msgid "Off"
+msgstr "បិទ"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (ក្រុមរូបភាពថ្មី)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (ក្រុម OpenPLi)"
 msgid "Orange"
 msgstr "ពណ៌ទឹកក្រូច"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "ផ្កាឈូក"
-
-msgid "play/show Files"
-msgstr "លេង / បង្ហាញឯកសារ"
 
 msgid "Please enter a valid city name."
 msgstr "សូមបញ្ចូលឈ្មោះទីក្រុងត្រឹមត្រូវ។"
@@ -435,9 +420,6 @@ msgstr "សូមបញ្ចូលលេខកូដទីតាំងត្រ
 
 msgid "Poster download error: {}"
 msgstr "កំហុសក្នុងការទាញយកផ្ទាំងរូបភាព៖ {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "ការទាញយកផ្ទាំងរូបភាពនឹងចាប់ផ្តើមក្នុងរយៈពេល 2 នាទីទៀត។\nអ្នកអាចចេញពីម៉ឺនុយនេះដោយសុវត្ថិភាព។"
 
 msgid "Purple"
 msgstr "ពណ៌ស្វាយ"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent៖"
 msgid "Segoe UI light"
 msgstr "ពន្លឺ Segoe UI"
 
+msgid "Select EMC style."
+msgstr "ជ្រើសរើសរចនាប័ទ្ម EMC ។"
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ជ្រើសរើសរបៀបបង្ហាញ PosterX សម្រាប់របារព័ត៌មាន។ ជម្រើសដែលមានអាស្រ័យលើរចនាប័ទ្មរបារព័ត៌មានដែលបានជ្រើសរើស និងរបៀប ECM ។"
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ជ្រើសរើសរបៀបបង្ហាញ XtraEvent សម្រាប់របារព័ត៌មាន។ ជម្រើសដែលមានអាស្រ័យលើរចនាប័ទ្មរបារព័ត៌មានដែលបានជ្រើសរើស និងរបៀប ECM ។"
+
+msgid "Select Your Font:"
+msgstr "ជ្រើសរើសពុម្ពអក្សររបស់អ្នក៖"
+
 msgid "Select channel list event description color."
 msgstr "ជ្រើសរើសពណ៌ពិពណ៌នាព្រឹត្តិការណ៍បញ្ជីឆានែល។"
 
@@ -496,17 +490,11 @@ msgstr "ជ្រើសរើសបញ្ជីឆានែលដែលបាន
 msgid "Select channel selection screen style."
 msgstr "ជ្រើសរើសរចនាប័ទ្មអេក្រង់ជ្រើសរើសឆានែល។"
 
-msgid "Select EMC style."
-msgstr "ជ្រើសរើសរចនាប័ទ្ម EMC ។"
-
 msgid "Select event view screen style."
 msgstr "ជ្រើសរើសរចនាប័ទ្មអេក្រង់ទិដ្ឋភាពព្រឹត្តិការណ៍។"
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "ជ្រើសរើសប្លង់របារព័ត៌មាន។ Style5 បង្ខំឱ្យ ECM បិទ ហើយអនុញ្ញាតតែរបៀបបិទ/CD។ Style6 បង្ខំឱ្យ ECM, PosterX, និង Xtraevent បិទ។"
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "ជ្រើសរើសរបៀបបង្ហាញ PosterX សម្រាប់របារព័ត៌មាន។ ជម្រើសដែលមានអាស្រ័យលើរចនាប័ទ្មរបារព័ត៌មានដែលបានជ្រើសរើស និងរបៀប ECM ។"
 
 msgid "Select second infobar layout."
 msgstr "ជ្រើសរើសប្លង់របារព័ត៌មានទីពីរ។"
@@ -538,12 +526,6 @@ msgstr "ជ្រើសរើសការបង្ហាញអ្នកផ្ត
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "ជ្រើសរើសវាល ECM ណាមួយត្រូវបានបង្ហាញនៅពេលដែលស្បែកប្រើ Short MYEMUPARA ។"
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "ជ្រើសរើសរបៀបបង្ហាញ XtraEvent សម្រាប់របារព័ត៌មាន។ ជម្រើសដែលមានអាស្រ័យលើរចនាប័ទ្មរបារព័ត៌មានដែលបានជ្រើសរើស និងរបៀប ECM ។"
-
-msgid "Select Your Font:"
-msgstr "ជ្រើសរើសពុម្ពអក្សររបស់អ្នក៖"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "កំណត់ពេលវេលារបស់យើង - នាទីសម្រាប់ការទាញយកផ្ទាំងខាងក្រោយ"
 
@@ -556,9 +538,6 @@ msgstr "ការកំណត់ Apkey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "ដំឡើងព័ត៌មានស្បែក Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "ដំឡើង Aglare Skin\nសម្រាប់ {0} v.{1}\n\nby Luulla @2020\n\nវេទិកាគាំទ្រនៅលើ linuxsat-support.com\n\nSkinner អ្នកបង្កើត៖ Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "បង្ហាញរូបតំណាងដែលតំណាងឱ្យប្រភេទនៃព្រឹត្តិការណ៍នីមួយៗ (ឧ. សកម្មភាពកំប្លែង រឿងល្ខោន)"
 
@@ -568,11 +547,11 @@ msgstr "បង្ហាញ ឬលាក់ព័ត៌មាន ECM នៅក្
 msgid "Show or hide PosterX in the second infobar."
 msgstr "បង្ហាញ ឬលាក់ PosterX នៅក្នុងរបារព័ត៌មានទីពីរ។"
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "បង្ហាញ ឬលាក់បន្ទះកាលបរិច្ឆេទនៅក្នុងរបារព័ត៌មាន។"
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "បង្ហាញ ឬលាក់ XtraEvent នៅក្នុងរបារព័ត៌មានទីពីរ។"
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "បង្ហាញ ឬលាក់បន្ទះកាលបរិច្ឆេទនៅក្នុងរបារព័ត៌មាន។"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "បង្ហាញរូបតំណាងការណែនាំរបស់មាតាបិតានៅលើព្រឹត្តិការណ៍ដើម្បីបង្ហាញពីការវាយតម្លៃខ្លឹមសារ និងភាពសមស្របតាមអាយុ។"
@@ -631,29 +610,26 @@ msgstr "រចនាប័ទ្ម ៦"
 msgid "Support E2iplayer Skins:"
 msgstr "គាំទ្រ E2iplayer Skins៖"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "គាំទ្រ InfoBar SoftCSA៖"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "គាំទ្រ SubsSupportPro Skins៖"
 
 msgid "System"
 msgstr "ប្រព័ន្ធ"
 
-msgid "Teal"
-msgstr "ទឹកប្រៃ"
-
 msgid "TEST"
 msgstr "តេស្ត"
+
+msgid "TMDB Only"
+msgstr "TMDB តែប៉ុណ្ណោះ"
+
+msgid "Teal"
+msgstr "ទឹកប្រៃ"
 
 msgid "The file %s is empty."
 msgstr "ឯកសារ %s គឺទទេ។"
 
 msgid "The file %s was not found."
 msgstr "រកមិនឃើញឯកសារ %s ទេ។"
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "ឯកសារអាប់ដេតមិនត្រូវបានរកឃើញនៅក្នុង /tmp.\nUpdate ត្រូវបានលុបចោល។"
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "ប្រតិបត្តិការនេះកំណត់ថតផ្លូវឧបករណ៍ដើម្បីទាញយករូបភាព (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "ប្រតិបត្តិការនេះបើកការបង
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "ប្រតិបត្តិការនេះដក png ទាំងអស់ចេញពីឧបករណ៍ថតឯកសារ (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "TMDB តែប៉ុណ្ណោះ"
-
 msgid "Tomato"
 msgstr "ប៉េងប៉ោះ"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "អាប់ដេត URL មិនត្រូវបានចាប់ផ្តើមទេ – បើកកម្មវិធីជំនួយម្តងពីម៉ឺនុយកម្មវិធីជំនួយជាមុនសិន។"
 
 msgid "Update check failed: {}"
 msgstr "ការត្រួតពិនិត្យការអាប់ដេតបានបរាជ័យ៖ {}"
@@ -676,17 +652,8 @@ msgstr "ការត្រួតពិនិត្យការអាប់ដេ
 msgid "Update package not found!"
 msgstr "រកមិនឃើញកញ្ចប់អាប់ដេតទេ!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "អាប់ដេត URL មិនត្រូវបានចាប់ផ្តើមទេ – បើកកម្មវិធីជំនួយម្តងពីម៉ឺនុយកម្មវិធីជំនួយជាមុនសិន។"
-
-msgid "volume2"
-msgstr "បរិមាណ 2"
-
 msgid "VolumeBar Style:"
 msgstr "រចនាប័ទ្មរបារកម្រិតសំឡេង៖"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "ការព្រមាន៖ អ្នកកំពុងប្រើសោ API លំនាំដើម!\nយើងសូមផ្តល់អនុសាសន៍យ៉ាងខ្លាំងឱ្យកំណត់រចនាសម្ព័ន្ធសោ API ផ្ទាល់ខ្លួនរបស់អ្នកនៅក្នុងការកំណត់កម្មវិធីជំនួយ។"
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin៖ កែសម្រួលធាតុ"
@@ -706,3 +673,92 @@ msgstr "អ្នកមានកំណែចុងក្រោយបំផុត
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "អ្នកត្រូវបញ្ចូលឈ្មោះទីក្រុងដែលមានសុពលភាព មុនពេលអ្នកអាចស្វែងរកលេខកូដទីតាំងបាន។"
 
+msgid "imperial system"
+msgstr "ប្រព័ន្ធអធិរាជ"
+
+msgid "metric system"
+msgstr "ប្រព័ន្ធម៉ែត្រ"
+
+msgid "play/show Files"
+msgstr "លេង / បង្ហាញឯកសារ"
+
+msgid "volume2"
+msgstr "បរិមាណ 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] ប្រតិបត្តិការនេះពិនិត្យមើលថាតើស្បែកមានសមាសធាតុរបស់វា (មិនត្រូវបានធានា)...\n"
+#~ "តើអ្នកពិតជាចង់បន្តមែនទេ?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] ប្រតិបត្តិការនេះនឹងលុប PNGs ទាំងអស់ចេញពីថតឧបករណ៍ (Poster-Backdrop)...\n"
+#~ "តើអ្នកពិតជាចង់បន្តមែនទេ?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "ការអាប់ដេត Aglare ត្រូវបានបញ្ចប់!\n"
+#~ "តើអ្នកចង់ចាប់ផ្តើម GUI ឡើងវិញឥឡូវនេះទេ?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "ការទាញយកផ្ទាំងខាងក្រោយនឹងចាប់ផ្តើមក្នុងរយៈពេល 2 នាទីទៀត។\n"
+#~ "អ្នកអាចចេញពីម៉ឺនុយនេះដោយសុវត្ថិភាព។"
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI ត្រូវការការចាប់ផ្តើមឡើងវិញដើម្បីអនុវត្តស្បែកថ្មី។\n"
+#~ "តើអ្នកចង់ចាប់ផ្តើម GUI ឡើងវិញឥឡូវនេះទេ?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "ការទាញយកផ្ទាំងរូបភាពនឹងចាប់ផ្តើមក្នុងរយៈពេល 2 នាទីទៀត។\n"
+#~ "អ្នកអាចចេញពីម៉ឺនុយនេះដោយសុវត្ថិភាព។"
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "ដំឡើង Aglare Skin\n"
+#~ "សម្រាប់ {0} v.{1}\n"
+#~ "\n"
+#~ "by Luulla @2020\n"
+#~ "\n"
+#~ "វេទិកាគាំទ្រនៅលើ linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner អ្នកបង្កើត៖ Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "គាំទ្រ InfoBar SoftCSA៖"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "ឯកសារអាប់ដេតមិនត្រូវបានរកឃើញនៅក្នុង /tmp.\n"
+#~ "Update ត្រូវបានលុបចោល។"
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "ការព្រមាន៖ អ្នកកំពុងប្រើសោ API លំនាំដើម!\n"
+#~ "យើងសូមផ្តល់អនុសាសន៍យ៉ាងខ្លាំងឱ្យកំណត់រចនាសម្ព័ន្ធសោ API ផ្ទាល់ខ្លួនរបស់អ្នកនៅក្នុងការកំណត់កម្មវិធីជំនួយ។"

@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Această operație verifică dacă pielea are componentele sale (nu este garantată)... \nChiar doriți să continuați?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Această operațiune va elimina toate PNG-urile din folderul dispozitivului (Poster-Backdrop)... \nChiar doriți să continuați?"
-
 msgid "%s key imported!"
 msgstr "Cheia %s importată!"
 
@@ -40,11 +34,11 @@ msgstr "Activați sau dezactivați MOLOTOV ca furnizor de metadate."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Activați sau dezactivați PROGRAMMETV ca furnizor de metadate."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Adăuga"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Actualizarea Glare a fost finalizată! \nDoriți să reporniți GUI acum?"
 
 msgid "All png are removed from folder!"
 msgstr "Toate png sunt eliminate din folder!"
@@ -73,9 +67,6 @@ msgstr "Pe fundal"
 msgid "Backdrop download error: {}"
 msgstr "Eroare de descărcare a fundalului: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Descărcarea fundalului va începe în 2 minute.\nPuteți ieși din acest meniu în siguranță."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Albastru"
 msgid "Brown"
 msgstr "Maro"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Server + Ora ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Cititor + Protocol + Server + Ora ECM"
 
 msgid "Cancel"
 msgstr "Anula"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Culoare descriere canal:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Alegeți dosarul de imagini de descărcare a dispozitivului"
@@ -208,14 +199,14 @@ msgstr "Se descarcă Glare..."
 msgid "ECM Short Format:"
 msgstr "Format scurt ECM:"
 
-msgid "Edit"
-msgstr "Edita"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Ecrane EMC Stil:"
+
+msgid "Edit"
+msgstr "Edita"
 
 msgid "Enable Display Genre icons:"
 msgstr "Activați pictogramele pentru genul de afișare:"
@@ -226,23 +217,20 @@ msgstr "Activați afișarea InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Activați afișarea posterului XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Activați sau dezactivați ecranele E2iPlayer grupate."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Activați sau dezactivați memorarea în cache în timpul descărcării evenimentului pentru a accelera căutările repetate."
-
 msgid "Enable Parental Icons:"
 msgstr "Activați pictogramele parentale:"
 
 msgid "Enable Rating Star:"
 msgstr "Activați Rating Star:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Activați sau dezactivați ecranele E2iPlayer grupate."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Activați sau dezactivați memorarea în cache în timpul descărcării evenimentului pentru a accelera căutările repetate."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Activați afișarea informațiilor extinse despre eveniment, inclusiv distribuția completă, echipajul, detaliile complotului și alte metadate, în widgetul de informații."
-
-msgid "Error {0}: {1}"
-msgstr "Eroare {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Eroare la procesarea fișierului skin: {}"
@@ -252,6 +240,9 @@ msgstr "Eroare la descărcarea fișierelor!"
 
 msgid "Error loading: {}"
 msgstr "Eroare la încărcare: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Eroare {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Eroare: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Ieșire"
 
-msgid "File {} not found or empty"
-msgstr "Fișierul {} nu a fost găsit sau este gol"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Fișierul {} nu a fost găsit sau este gol"
 
 msgid "Green"
 msgstr "Verde"
@@ -283,17 +274,11 @@ msgstr "Verde2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI are nevoie de o repornire pentru a aplica un aspect nou.\nDoriți să reporniți GUI acum?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Grup de compatibilitate imagine:"
-
-msgid "imperial system"
-msgstr "sistem imperial"
 
 msgid "Import key {0} from {1}?"
 msgstr "Importați cheia {0} din {1}?"
@@ -340,11 +325,11 @@ msgstr "Linia Ins"
 msgid "Installing updates..."
 msgstr "Se instalează actualizări..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Cheia {} a fost încărcată cu succes!"
-
 msgid "Key empty"
 msgstr "Cheie goală"
+
+msgid "Key {} successfully loaded!"
+msgstr "Cheia {} a fost încărcată cu succes!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Gri deschis"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Versiunea locală ({}) este mai nouă decât versiunea serverului ({})."
 
@@ -367,14 +355,17 @@ msgstr "Codul locației"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Rezultatul căutării locației MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "sistem metric"
 
 msgid "Mint"
 msgstr "Mentă"
@@ -382,20 +373,11 @@ msgstr "Mentă"
 msgid "Mix1"
 msgstr "Mix1"
 
-msgid "MSN location search result"
-msgstr "Rezultatul căutării locației MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Nu sunt activați furnizori activi"
 
 msgid "No description available for this option."
 msgstr "Nu există descriere disponibilă pentru această opțiune."
-
-msgid "Off"
-msgstr "Oprit"
 
 msgid "OFF"
 msgstr "OFF"
@@ -412,6 +394,9 @@ msgstr "PE"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Oprit"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (grup de imagini noi)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Grup OpenPLi)"
 msgid "Orange"
 msgstr "Portocale"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Roz"
-
-msgid "play/show Files"
-msgstr "redați/afișați fișiere"
 
 msgid "Please enter a valid city name."
 msgstr "Vă rugăm să introduceți un nume de oraș valid."
@@ -435,9 +420,6 @@ msgstr "Vă rugăm să introduceți un cod de locație valid pentru oraș."
 
 msgid "Poster download error: {}"
 msgstr "Eroare de descărcare a posterului: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Descărcarea posterului va începe în 2 minute.\nPuteți ieși din acest meniu în siguranță."
 
 msgid "Purple"
 msgstr "Violet"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Lumină Segoe UI"
 
+msgid "Select EMC style."
+msgstr "Selectați stilul EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Selectați modul de afișare PosterX pentru bara de informații. Opțiunile disponibile depind de stilul barei de informații selectate și de modul ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Selectați modul de afișare XtraEvent pentru bara de informații. Opțiunile disponibile depind de stilul barei de informații selectate și de modul ECM."
+
+msgid "Select Your Font:"
+msgstr "Selectați fontul dvs.:"
+
 msgid "Select channel list event description color."
 msgstr "Selectați culoarea descriere a evenimentului pentru lista de canale."
 
@@ -496,17 +490,11 @@ msgstr "Selectați culoarea prim-plan selectată pentru lista de canale."
 msgid "Select channel selection screen style."
 msgstr "Selectați stilul ecranului de selecție a canalului."
 
-msgid "Select EMC style."
-msgstr "Selectați stilul EMC."
-
 msgid "Select event view screen style."
 msgstr "Selectați stilul ecranului de vizualizare a evenimentului."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Selectați aspectul barei de informații. Style5 forțează ECM dezactivat și permite doar modurile OFF/CD poster. Style6 dezactivează ECM, PosterX și Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Selectați modul de afișare PosterX pentru bara de informații. Opțiunile disponibile depind de stilul barei de informații selectate și de modul ECM."
 
 msgid "Select second infobar layout."
 msgstr "Selectați al doilea aspect al barei de informații."
@@ -538,12 +526,6 @@ msgstr "Selectați afișarea furnizorului de vreme pentru a doua bară de inform
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Selectați ce câmpuri ECM sunt afișate atunci când pielea folosește Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Selectați modul de afișare XtraEvent pentru bara de informații. Opțiunile disponibile depind de stilul barei de informații selectate și de modul ECM."
-
-msgid "Select Your Font:"
-msgstr "Selectați fontul dvs.:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Setați ora noastră - minut pentru descărcarea fundalului"
 
@@ -556,9 +538,6 @@ msgstr "Setări Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Configurați informațiile pentru piele Glare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Configurați Aglare Skin\npentru {0} v.{1}\n\nde Lululla @2020\n\nForumul de asistență pe linuxsat-support.com\n\nSkinner creator: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Afișați pictograme care reprezintă genul fiecărui eveniment (de exemplu, acțiune, comedie, dramă)"
 
@@ -568,11 +547,11 @@ msgstr "Afișați sau ascundeți informațiile ECM în bara de informații."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Afișați sau ascundeți PosterX în a doua bară de informații."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Afișează sau ascunde panoul de dată în bara de informații."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Afișați sau ascundeți XtraEvent în a doua bară de informații."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Afișează sau ascunde panoul de dată în bara de informații."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Afișați pictograme de îndrumare parentală la evenimente pentru a indica evaluarea conținutului și adecvarea vârstei."
@@ -631,29 +610,26 @@ msgstr "Stil6"
 msgid "Support E2iplayer Skins:"
 msgstr "Acceptă skinuri E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Suport InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Asistență SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Sistem"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "TEST"
+
+msgid "TMDB Only"
+msgstr "Numai TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Fișierul %s este gol."
 
 msgid "The file %s was not found."
 msgstr "Fișierul %s nu a fost găsit."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Fișierul de actualizare nu a fost găsit în /tmp.\nActualizare anulată."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Această operațiune atribuie folderul calea dispozitivului pentru a descărca imaginea (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Această operațiune permite afișarea stelelor de rating pentru evenime
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Această operațiune elimină toate png din dispozitivul folderului (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Numai TMDB"
-
 msgid "Tomato"
 msgstr "Roșie"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Adresa URL de actualizare nu este inițializată – deschideți mai întâi pluginul o dată din meniul Plugins."
 
 msgid "Update check failed: {}"
 msgstr "Verificarea actualizării a eșuat: {}"
@@ -676,17 +652,8 @@ msgstr "Verificarea actualizării a eșuat: {}"
 msgid "Update package not found!"
 msgstr "Pachetul de actualizare nu a fost găsit!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Adresa URL de actualizare nu este inițializată – deschideți mai întâi pluginul o dată din meniul Plugins."
-
-msgid "volume2"
-msgstr "volumul 2"
-
 msgid "VolumeBar Style:"
 msgstr "Stil bară de volum:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Avertisment: utilizați chei API implicite! \nRecomandăm insistent să vă configurați propriile chei API în setările pluginului."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Editați intrarea"
@@ -706,3 +673,92 @@ msgstr "Aveți deja cea mai recentă versiune ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Trebuie să introduceți un nume valid de oraș înainte de a putea căuta codul de locație."
 
+msgid "imperial system"
+msgstr "sistem imperial"
+
+msgid "metric system"
+msgstr "sistem metric"
+
+msgid "play/show Files"
+msgstr "redați/afișați fișiere"
+
+msgid "volume2"
+msgstr "volumul 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Această operație verifică dacă pielea are componentele sale (nu este garantată)... \n"
+#~ "Chiar doriți să continuați?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Această operațiune va elimina toate PNG-urile din folderul dispozitivului (Poster-Backdrop)... \n"
+#~ "Chiar doriți să continuați?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Actualizarea Glare a fost finalizată! \n"
+#~ "Doriți să reporniți GUI acum?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Descărcarea fundalului va începe în 2 minute.\n"
+#~ "Puteți ieși din acest meniu în siguranță."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI are nevoie de o repornire pentru a aplica un aspect nou.\n"
+#~ "Doriți să reporniți GUI acum?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Descărcarea posterului va începe în 2 minute.\n"
+#~ "Puteți ieși din acest meniu în siguranță."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Configurați Aglare Skin\n"
+#~ "pentru {0} v.{1}\n"
+#~ "\n"
+#~ "de Lululla @2020\n"
+#~ "\n"
+#~ "Forumul de asistență pe linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Suport InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Fișierul de actualizare nu a fost găsit în /tmp.\n"
+#~ "Actualizare anulată."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Avertisment: utilizați chei API implicite! \n"
+#~ "Recomandăm insistent să vă configurați propriile chei API în setările pluginului."

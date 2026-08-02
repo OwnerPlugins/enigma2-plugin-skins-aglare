@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] この操作は、スキンにコンポーネントがあるかどうかをチェックします (保証されていません)...\n本当に続行しますか?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] この操作により、デバイス フォルダ (Poster-Backdrop) からすべての PNG が削除されます...\n本当に続行しますか?"
-
 msgid "%s key imported!"
 msgstr "%s キーがインポートされました!"
 
@@ -40,11 +34,11 @@ msgstr "MOLOTOV をメタデータ プロバイダーとしてアクティブ化
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "PROGRAMMETV をメタデータ プロバイダーとしてアクティブ化または非アクティブ化します。"
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "追加"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare アップデートが完了しました!\n今すぐ GUI を再起動しますか?"
 
 msgid "All png are removed from folder!"
 msgstr "すべての png がフォルダーから削除されました。"
@@ -73,9 +67,6 @@ msgstr "背景"
 msgid "Backdrop download error: {}"
 msgstr "背景のダウンロード エラー: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "バックドロップのダウンロードは 2 分後に開始されます。\nこのメニューは安全に終了できます。"
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "青"
 msgid "Brown"
 msgstr "茶色"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + プロトコル + サーバー + ECM 時間"
 
@@ -99,9 +93,6 @@ msgstr "Caid + リーダー + プロトコル + サーバー + ECM 時間"
 
 msgid "Cancel"
 msgstr "キャンセル"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "チャンネル説明の色:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "選択デバイスのダウンロード画像フォルダー"
@@ -208,14 +199,14 @@ msgstr "アグレアをダウンロード中..."
 msgid "ECM Short Format:"
 msgstr "ECM ショートフォーマット:"
 
-msgid "Edit"
-msgstr "編集"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC スクリーンのスタイル:"
+
+msgid "Edit"
+msgstr "編集"
 
 msgid "Enable Display Genre icons:"
 msgstr "ジャンルアイコンの表示を有効にする:"
@@ -226,23 +217,20 @@ msgstr "InfoEvent の表示を有効にする:"
 msgid "Enable Display XMC Poster:"
 msgstr "XMC ポスターの表示を有効にする:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "バンドルされた E2iPlayer 画面を有効または無効にします。"
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "イベントのダウンロード中のキャッシュを有効または無効にして、繰り返しの検索を高速化します。"
-
 msgid "Enable Parental Icons:"
 msgstr "保護者用アイコンを有効にする:"
 
 msgid "Enable Rating Star:"
 msgstr "評価スターを有効にする:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "バンドルされた E2iPlayer 画面を有効または無効にします。"
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "イベントのダウンロード中のキャッシュを有効または無効にして、繰り返しの検索を高速化します。"
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "情報ウィジェットで、全キャスト、スタッフ、プロットの詳細、その他のメタデータを含む拡張イベント情報の表示を有効にします。"
-
-msgid "Error {0}: {1}"
-msgstr "エラー {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "スキン ファイルの処理中にエラーが発生しました: {}"
@@ -252,6 +240,9 @@ msgstr "ファイルのダウンロード中にエラーが発生しました!"
 
 msgid "Error loading: {}"
 msgstr "読み込みエラー: {}"
+
+msgid "Error {0}: {1}"
+msgstr "エラー {0}: {1}"
 
 msgid "Error: {}"
 msgstr "エラー： {}"
@@ -268,11 +259,11 @@ msgstr "イベントビュー_NO_ポスター"
 msgid "Exit"
 msgstr "出口"
 
-msgid "File {} not found or empty"
-msgstr "ファイル {} が見つからないか空です"
-
 msgid "File Commander - Addon"
 msgstr "ファイルコマンダー - アドオン"
+
+msgid "File {} not found or empty"
+msgstr "ファイル {} が見つからないか空です"
 
 msgid "Green"
 msgstr "緑"
@@ -283,17 +274,11 @@ msgstr "緑2"
 msgid "Greta"
 msgstr "グレタさん"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "新しいスキンを適用するには GUI を再起動する必要があります。\n今すぐ GUI を再起動しますか?"
-
 msgid "HandelGotD"
 msgstr "ヘンデルゴットD"
 
 msgid "Image Compatibility Group:"
 msgstr "画像互換性グループ:"
-
-msgid "imperial system"
-msgstr "天皇制"
 
 msgid "Import key {0} from {1}?"
 msgstr "{1} からキー {0} をインポートしますか?"
@@ -340,11 +325,11 @@ msgstr "インスライン"
 msgid "Installing updates..."
 msgstr "アップデートをインストールしています..."
 
-msgid "Key {} successfully loaded!"
-msgstr "キー {} が正常にロードされました。"
-
 msgid "Key empty"
 msgstr "キーが空です"
+
+msgid "Key {} successfully loaded!"
+msgstr "キー {} が正常にロードされました。"
 
 msgid "KhalidArtboldRegular"
 msgstr "ハリドアートボールドレギュラー"
@@ -358,6 +343,9 @@ msgstr "ライトグレー"
 msgid "LimeGreen"
 msgstr "ライムグリーン"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "ローカル ビルド ({}) はサーバー ビルド ({}) よりも新しいです。"
 
@@ -367,14 +355,17 @@ msgstr "ロケーションコード"
 msgid "Lucida"
 msgstr "ルシーダ"
 
+msgid "MSN location search result"
+msgstr "MSN 位置検索結果"
+
+msgid "MV Boli"
+msgstr "MVボリ"
+
 msgid "Magenta"
 msgstr "マゼンタ"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "メガビット/秒 (Mb/秒)"
-
-msgid "metric system"
-msgstr "メートル法"
 
 msgid "Mint"
 msgstr "ミント"
@@ -382,20 +373,11 @@ msgstr "ミント"
 msgid "Mix1"
 msgstr "ミックス1"
 
-msgid "MSN location search result"
-msgstr "MSN 位置検索結果"
-
-msgid "MV Boli"
-msgstr "MVボリ"
-
 msgid "No active providers enabled"
 msgstr "アクティブなプロバイダーが有効になっていません"
 
 msgid "No description available for this option."
 msgstr "このオプションに関する説明はありません。"
-
-msgid "Off"
-msgstr "オフ"
 
 msgid "OFF"
 msgstr "オフ"
@@ -412,6 +394,9 @@ msgstr "の上"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "SubsSupportPro スキンのオン/オフ。"
 
+msgid "Off"
+msgstr "オフ"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (新しいイメージグループ)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / サトロッジ (OpenPLi グループ)"
 msgid "Orange"
 msgstr "オレンジ"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "ピンク"
-
-msgid "play/show Files"
-msgstr "ファイルの再生/表示"
 
 msgid "Please enter a valid city name."
 msgstr "有効な都市名を入力してください。"
@@ -435,9 +420,6 @@ msgstr "都市の有効な場所コードを入力してください。"
 
 msgid "Poster download error: {}"
 msgstr "ポスターのダウンロード エラー: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "ポスターのダウンロードは 2 分後に始まります。\nこのメニューは安全に終了できます。"
 
 msgid "Purple"
 msgstr "紫"
@@ -484,6 +466,18 @@ msgstr "2 番目の Infobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI ライト"
 
+msgid "Select EMC style."
+msgstr "EMC スタイルを選択します。"
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "情報バーの PosterX 表示モードを選択します。利用可能な選択肢は、選択した情報バーのスタイルと ECM モードによって異なります。"
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "情報バーの XtraEvent 表示モードを選択します。利用可能な選択肢は、選択した情報バーのスタイルと ECM モードによって異なります。"
+
+msgid "Select Your Font:"
+msgstr "フォントを選択してください:"
+
 msgid "Select channel list event description color."
 msgstr "チャンネルリストのイベント説明の色を選択します。"
 
@@ -496,17 +490,11 @@ msgstr "チャンネルリストで選択した前景色を選択します。"
 msgid "Select channel selection screen style."
 msgstr "チャンネル選択画面のスタイルを選択します。"
 
-msgid "Select EMC style."
-msgstr "EMC スタイルを選択します。"
-
 msgid "Select event view screen style."
 msgstr "イベントビューの画面スタイルを選択します。"
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "情報バーのレイアウトを選択します。 Style5 は ECM を強制的にオフにし、OFF/CD ポスター モードのみを許可します。 Style6 は ECM、PosterX、および Xtraeven を強制的にオフにします。"
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "情報バーの PosterX 表示モードを選択します。利用可能な選択肢は、選択した情報バーのスタイルと ECM モードによって異なります。"
 
 msgid "Select second infobar layout."
 msgstr "2 番目の情報バーのレイアウトを選択します。"
@@ -538,12 +526,6 @@ msgstr "2 番目の情報バーの天気予報プロバイダーの表示を選�
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "スキンが Short MYEMUPARA を使用する場合に表示される ECM フィールドを選択します。"
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "情報バーの XtraEvent 表示モードを選択します。利用可能な選択肢は、選択した情報バーのスタイルと ECM モードによって異なります。"
-
-msgid "Select Your Font:"
-msgstr "フォントを選択してください:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "背景のダウンロードに時間を設定します - 分"
 
@@ -556,9 +538,6 @@ msgstr "設定 Apikey サーバー"
 msgid "Setup Aglare Skin Info"
 msgstr "Aglare スキン情報のセットアップ"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nlinuxsat-support.com のサポート フォーラム\n\nSkinner 作成者: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "各イベントのジャンル (アクション、コメディ、ドラマなど) を表すアイコンを表示します。"
 
@@ -568,11 +547,11 @@ msgstr "情報バーに ECM 情報を表示または非表示にします。"
 msgid "Show or hide PosterX in the second infobar."
 msgstr "2 番目の情報バーで PosterX を表示または非表示にします。"
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "情報バーの日付パネルを表示または非表示にします。"
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "2 番目の情報バーで XtraEvent を表示または非表示にします。"
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "情報バーの日付パネルを表示または非表示にします。"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "イベントに保護者向けのガイダンス アイコンを表示して、コンテンツのレーティングと年齢への適合性を示します。"
@@ -631,29 +610,26 @@ msgstr "スタイル6"
 msgid "Support E2iplayer Skins:"
 msgstr "E2iplayer スキンのサポート:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "InfoBar SoftCSA をサポート:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "SubsSupportPro スキンをサポート:"
 
 msgid "System"
 msgstr "システム"
 
-msgid "Teal"
-msgstr "ティール"
-
 msgid "TEST"
 msgstr "テスト"
+
+msgid "TMDB Only"
+msgstr "TMDBのみ"
+
+msgid "Teal"
+msgstr "ティール"
 
 msgid "The file %s is empty."
 msgstr "ファイル %s は空です。"
 
 msgid "The file %s was not found."
 msgstr "ファイル %s が見つかりませんでした。"
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "更新ファイルが /tmp に見つかりませんでした。\nUpdate は中止されました。"
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "この操作では、ダウンロード画像 (Poster-Backdrop) にデバイス パス フォルダーを割り当てます。"
@@ -664,11 +640,11 @@ msgstr "この操作により、選択した評価ソースに基づいてイベ
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "この操作により、フォルダー デバイス (Poster-Backdrop) からすべての PNG が削除されます。"
 
-msgid "TMDB Only"
-msgstr "TMDBのみ"
-
 msgid "Tomato"
 msgstr "トマト"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "更新 URL が初期化されていません – 最初に [プラグイン] メニューからプラグインを 1 回開きます。"
 
 msgid "Update check failed: {}"
 msgstr "更新チェックに失敗しました: {}"
@@ -676,17 +652,8 @@ msgstr "更新チェックに失敗しました: {}"
 msgid "Update package not found!"
 msgstr "アップデートパッケージが見つかりません!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "更新 URL が初期化されていません – 最初に [プラグイン] メニューからプラグインを 1 回開きます。"
-
-msgid "volume2"
-msgstr "ボリューム2"
-
 msgid "VolumeBar Style:"
 msgstr "ボリュームバーのスタイル:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "警告: デフォルトの API キーを使用しています。\nプラグイン設定で独自の API キーを構成することを強くお勧めします。"
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: エントリーの編集"
@@ -706,3 +673,92 @@ msgstr "すでに最新バージョン ({}) がインストールされていま
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "場所コードを検索する前に、有効な都市名を入力する必要があります。"
 
+msgid "imperial system"
+msgstr "天皇制"
+
+msgid "metric system"
+msgstr "メートル法"
+
+msgid "play/show Files"
+msgstr "ファイルの再生/表示"
+
+msgid "volume2"
+msgstr "ボリューム2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] この操作は、スキンにコンポーネントがあるかどうかをチェックします (保証されていません)...\n"
+#~ "本当に続行しますか?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] この操作により、デバイス フォルダ (Poster-Backdrop) からすべての PNG が削除されます...\n"
+#~ "本当に続行しますか?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare アップデートが完了しました!\n"
+#~ "今すぐ GUI を再起動しますか?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "バックドロップのダウンロードは 2 分後に開始されます。\n"
+#~ "このメニューは安全に終了できます。"
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "新しいスキンを適用するには GUI を再起動する必要があります。\n"
+#~ "今すぐ GUI を再起動しますか?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "ポスターのダウンロードは 2 分後に始まります。\n"
+#~ "このメニューは安全に終了できます。"
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "linuxsat-support.com のサポート フォーラム\n"
+#~ "\n"
+#~ "Skinner 作成者: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "InfoBar SoftCSA をサポート:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "更新ファイルが /tmp に見つかりませんでした。\n"
+#~ "Update は中止されました。"
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "警告: デフォルトの API キーを使用しています。\n"
+#~ "プラグイン設定で独自の API キーを構成することを強くお勧めします。"

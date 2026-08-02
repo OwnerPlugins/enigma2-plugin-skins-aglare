@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Mae'r llawdriniaeth hon yn gwirio a oes gan y croen ei gydrannau (ddim wedi'i warantu)...\nYdych chi wir eisiau parhau?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Bydd y gweithrediad hwn yn tynnu pob PNG o ffolder y ddyfais (Cefn y Poster)...\nYdych chi wir eisiau parhau?"
-
 msgid "%s key imported!"
 msgstr "Allwedd %s wedi'i mewngludo!"
 
@@ -40,11 +34,11 @@ msgstr "Ysgogi neu ddadactifadu MOLOTOV fel darparwr metadata."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Ysgogi neu ddadactifadu PROGRAMMETV fel darparwr metadata."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Ychwanegu"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Mae'r diweddariad yn arswydus! \nYdych chi am ailgychwyn y GUI nawr?"
 
 msgid "All png are removed from folder!"
 msgstr "Mae pob png yn cael ei dynnu o'r ffolder!"
@@ -73,9 +67,6 @@ msgstr "Cefndir"
 msgid "Backdrop download error: {}"
 msgstr "Gwall lawrlwytho cefndir: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Bydd lawrlwytho cefndir yn dechrau mewn 2 funud.\nGallwch chi adael y ddewislen hon yn ddiogel."
-
 msgid "BebasNeue"
 msgstr "RhyddNeue"
 
@@ -91,6 +82,9 @@ msgstr "Glas"
 msgid "Brown"
 msgstr "Brown"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Gweinydd + Amser ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Darllenydd + Protocol + Gweinydd + Amser ECM"
 
 msgid "Cancel"
 msgstr "Canslo"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Lliw Disgrifiad o'r Sianel:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posteri"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Dewis dyfais lawrlwytho ffolder delwedd"
@@ -208,14 +199,14 @@ msgstr "Wrthi'n lawrlwytho Aglare..."
 msgid "ECM Short Format:"
 msgstr "Fformat Byr ECM:"
 
-msgid "Edit"
-msgstr "Golygu"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Sgriniau EMC Arddull:"
+
+msgid "Edit"
+msgstr "Golygu"
 
 msgid "Enable Display Genre icons:"
 msgstr "Galluogi eiconau Dangos Genre:"
@@ -226,23 +217,20 @@ msgstr "Galluogi Digwyddiadau Gwybodaeth Arddangos:"
 msgid "Enable Display XMC Poster:"
 msgstr "Galluogi Arddangos Poster XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Galluogi neu analluogi sgriniau E2iPlayer wedi'u bwndelu."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Galluogi neu analluogi caching yn ystod lawrlwytho digwyddiadau i gyflymu chwiliadau mynych."
-
 msgid "Enable Parental Icons:"
 msgstr "Galluogi Eiconau Rhieni:"
 
 msgid "Enable Rating Star:"
 msgstr "Galluogi Rating Star:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Galluogi neu analluogi sgriniau E2iPlayer wedi'u bwndelu."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Galluogi neu analluogi caching yn ystod lawrlwytho digwyddiadau i gyflymu chwiliadau mynych."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Galluogi arddangos gwybodaeth digwyddiad estynedig, gan gynnwys cast llawn, criw, manylion plot, a metadata eraill, yn y teclyn gwybodaeth."
-
-msgid "Error {0}: {1}"
-msgstr "Gwall {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Gwall wrth brosesu'r ffeil croen: {}"
@@ -252,6 +240,9 @@ msgstr "Gwall wrth lawrlwytho ffeiliau!"
 
 msgid "Error loading: {}"
 msgstr "Gwall wrth lwytho: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Gwall {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Gwall: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posteri"
 msgid "Exit"
 msgstr "Ymadael"
 
-msgid "File {} not found or empty"
-msgstr "Ffeil {} heb ei chanfod neu'n wag"
-
 msgid "File Commander - Addon"
 msgstr "File Comander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Ffeil {} heb ei chanfod neu'n wag"
 
 msgid "Green"
 msgstr "Gwyrdd"
@@ -283,17 +274,11 @@ msgstr "Gwyrdd2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "Mae GUI angen ail-ddechrau i osod croen newydd.\nYdych chi am Ailgychwyn y GUI nawr?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Grŵp Cydnawsedd Delwedd:"
-
-msgid "imperial system"
-msgstr "system imperialaidd"
 
 msgid "Import key {0} from {1}?"
 msgstr "Mewnforio allwedd {0} o {1}?"
@@ -340,11 +325,11 @@ msgstr "Llinell Ins"
 msgid "Installing updates..."
 msgstr "Wrthi'n gosod diweddariadau..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Allwedd {} wedi'i llwytho'n llwyddiannus!"
-
 msgid "Key empty"
 msgstr "Allwedd yn wag"
+
+msgid "Key {} successfully loaded!"
+msgstr "Allwedd {} wedi'i llwytho'n llwyddiannus!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRheolaidd"
@@ -358,6 +343,9 @@ msgstr "Llwyd golau"
 msgid "LimeGreen"
 msgstr "Gwyrddlesni Calch"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Mae adeiladwaith lleol ({}) yn fwy newydd nag adeiladu gweinydd ({})."
 
@@ -367,14 +355,17 @@ msgstr "Cod lleoliad"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Canlyniad chwiliad lleoliad MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "system fetrig"
 
 msgid "Mint"
 msgstr "Mintys"
@@ -382,20 +373,11 @@ msgstr "Mintys"
 msgid "Mix1"
 msgstr "Cymysgedd1"
 
-msgid "MSN location search result"
-msgstr "Canlyniad chwiliad lleoliad MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Dim darparwyr gweithredol wedi'u galluogi"
 
 msgid "No description available for this option."
 msgstr "Nid oes disgrifiad ar gael ar gyfer yr opsiwn hwn."
-
-msgid "Off"
-msgstr "I ffwrdd"
 
 msgid "OFF"
 msgstr "ODDI AR"
@@ -412,6 +394,9 @@ msgstr "YMLAEN"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "YMLAEN / I FFWRDD SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "I ffwrdd"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Grŵp Delweddau Newydd)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Grŵp OpenPLi)"
 msgid "Orange"
 msgstr "Oren"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Pinc"
-
-msgid "play/show Files"
-msgstr "chwarae/dangos Ffeiliau"
 
 msgid "Please enter a valid city name."
 msgstr "Rhowch enw dinas dilys."
@@ -435,9 +420,6 @@ msgstr "Rhowch god lleoliad dilys ar gyfer y ddinas."
 
 msgid "Poster download error: {}"
 msgstr "Gwall lawrlwytho poster: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Bydd lawrlwytho poster yn dechrau mewn 2 funud.\nGallwch chi adael y ddewislen hon yn ddiogel."
 
 msgid "Purple"
 msgstr "Porffor"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI golau"
 
+msgid "Select EMC style."
+msgstr "Dewiswch arddull EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Dewiswch modd arddangos PosterX ar gyfer y bar gwybodaeth. Mae'r dewisiadau sydd ar gael yn dibynnu ar yr arddull infobar a ddewiswyd a'r modd ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Dewiswch modd arddangos XtraEvent ar gyfer y bar gwybodaeth. Mae'r dewisiadau sydd ar gael yn dibynnu ar yr arddull infobar a ddewiswyd a'r modd ECM."
+
+msgid "Select Your Font:"
+msgstr "Dewiswch Eich Ffont:"
+
 msgid "Select channel list event description color."
 msgstr "Dewiswch liw disgrifiad digwyddiad rhestr sianeli."
 
@@ -496,17 +490,11 @@ msgstr "Dewiswch y lliw blaendir dewisedig rhestr sianeli."
 msgid "Select channel selection screen style."
 msgstr "Dewiswch arddull sgrin dewis sianel."
 
-msgid "Select EMC style."
-msgstr "Dewiswch arddull EMC."
-
 msgid "Select event view screen style."
 msgstr "Dewiswch arddull sgrin golwg digwyddiad."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Dewiswch gynllun y bar gwybodaeth. Mae Style5 yn gorfodi ECM i ffwrdd ac yn caniatáu moddau poster OFF/CD yn unig. Mae Style6 yn gorfodi ECM, PosterX, ac Xtraevent i ffwrdd."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Dewiswch modd arddangos PosterX ar gyfer y bar gwybodaeth. Mae'r dewisiadau sydd ar gael yn dibynnu ar yr arddull infobar a ddewiswyd a'r modd ECM."
 
 msgid "Select second infobar layout."
 msgstr "Dewiswch ail gynllun y bar gwybodaeth."
@@ -538,12 +526,6 @@ msgstr "Dewiswch arddangosfa darparwr tywydd ar gyfer yr ail far gwybodaeth."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Dewiswch pa feysydd ECM a ddangosir pan fydd y croen yn defnyddio MYEMUPARA Byr."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Dewiswch modd arddangos XtraEvent ar gyfer y bar gwybodaeth. Mae'r dewisiadau sydd ar gael yn dibynnu ar yr arddull infobar a ddewiswyd a'r modd ECM."
-
-msgid "Select Your Font:"
-msgstr "Dewiswch Eich Ffont:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Gosod Amser ein - munud ar gyfer lawrlwytho Backdrop"
 
@@ -556,9 +538,6 @@ msgstr "Gosodiadau Gweinydd Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Gosod Gwybodaeth Croen Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Gosod Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner crëwr: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Dangos eiconau sy’n cynrychioli genre pob digwyddiad (e.e., act, comedi, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Dangos neu guddio gwybodaeth ECM yn y bar gwybodaeth."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Dangos neu guddio PosterX yn yr ail far gwybodaeth."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Dangos neu guddio'r panel dyddiad yn y bar gwybodaeth."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Dangos neu guddio XtraEvent yn yr ail far gwybodaeth."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Dangos neu guddio'r panel dyddiad yn y bar gwybodaeth."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Dangos eiconau arweiniad rhieni ar ddigwyddiadau i ddangos gradd cynnwys ac addasrwydd oedran."
@@ -631,29 +610,26 @@ msgstr "Arddull6"
 msgid "Support E2iplayer Skins:"
 msgstr "Cefnogi E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Cefnogi InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Cefnogi SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "System"
 
-msgid "Teal"
-msgstr "Corhwyaden"
-
 msgid "TEST"
 msgstr "PRAWF"
+
+msgid "TMDB Only"
+msgstr "TMDB yn unig"
+
+msgid "Teal"
+msgstr "Corhwyaden"
 
 msgid "The file %s is empty."
 msgstr "Mae'r ffeil %s yn wag."
 
 msgid "The file %s was not found."
 msgstr "Ni ddaethpwyd o hyd i'r ffeil %s."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Ni chanfuwyd y ffeil diweddaru yn /tmp.\nUpdate erthylu."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Mae'r gweithrediad hwn yn aseinio ffolder llwybr dyfais i lawrlwytho delwedd (Cefndir Poster)"
@@ -664,11 +640,11 @@ msgstr "Mae'r gweithrediad hwn yn galluogi arddangos sêr graddio ar gyfer digwy
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Mae'r gweithrediad hwn yn tynnu'r holl png o ddyfais ffolder (Cefndir Poster)"
 
-msgid "TMDB Only"
-msgstr "TMDB yn unig"
-
 msgid "Tomato"
 msgstr "Tomato"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Diweddaru URL heb ei gychwyn - agorwch yr ategyn unwaith o'r ddewislen Ategion yn gyntaf."
 
 msgid "Update check failed: {}"
 msgstr "Methodd y gwiriad diweddaru: {}"
@@ -676,17 +652,8 @@ msgstr "Methodd y gwiriad diweddaru: {}"
 msgid "Update package not found!"
 msgstr "Heb ganfod y pecyn diweddaru!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Diweddaru URL heb ei gychwyn - agorwch yr ategyn unwaith o'r ddewislen Ategion yn gyntaf."
-
-msgid "volume2"
-msgstr "cyfrol2"
-
 msgid "VolumeBar Style:"
 msgstr "Arddull Bar Cyfrol:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Rhybudd: Rydych chi'n defnyddio bysellau API rhagosodedig! \nRydym yn argymell yn gryf eich bod chi'n ffurfweddu'ch allweddi API eich hun yng ngosodiadau'r ategyn."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Golygu Cofnod"
@@ -706,3 +673,92 @@ msgstr "Mae gennych y fersiwn diweddaraf ({}) eisoes."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Mae angen i chi nodi enw dinas dilys cyn y gallwch chwilio am y cod lleoliad."
 
+msgid "imperial system"
+msgstr "system imperialaidd"
+
+msgid "metric system"
+msgstr "system fetrig"
+
+msgid "play/show Files"
+msgstr "chwarae/dangos Ffeiliau"
+
+msgid "volume2"
+msgstr "cyfrol2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Mae'r llawdriniaeth hon yn gwirio a oes gan y croen ei gydrannau (ddim wedi'i warantu)...\n"
+#~ "Ydych chi wir eisiau parhau?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Bydd y gweithrediad hwn yn tynnu pob PNG o ffolder y ddyfais (Cefn y Poster)...\n"
+#~ "Ydych chi wir eisiau parhau?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Mae'r diweddariad yn arswydus! \n"
+#~ "Ydych chi am ailgychwyn y GUI nawr?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Bydd lawrlwytho cefndir yn dechrau mewn 2 funud.\n"
+#~ "Gallwch chi adael y ddewislen hon yn ddiogel."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "Mae GUI angen ail-ddechrau i osod croen newydd.\n"
+#~ "Ydych chi am Ailgychwyn y GUI nawr?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Bydd lawrlwytho poster yn dechrau mewn 2 funud.\n"
+#~ "Gallwch chi adael y ddewislen hon yn ddiogel."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Gosod Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner crëwr: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Cefnogi InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Ni chanfuwyd y ffeil diweddaru yn /tmp.\n"
+#~ "Update erthylu."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Rhybudd: Rydych chi'n defnyddio bysellau API rhagosodedig! \n"
+#~ "Rydym yn argymell yn gryf eich bod chi'n ffurfweddu'ch allweddi API eich hun yng ngosodiadau'r ategyn."

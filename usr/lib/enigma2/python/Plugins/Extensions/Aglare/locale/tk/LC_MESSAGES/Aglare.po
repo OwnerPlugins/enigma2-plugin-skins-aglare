@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Çekkin] Bu amal deriniň düzüm bölekleriniň bardygyny ýa-da ýokdugyny barlaýar (kepillendirilmeýär) ... \nDo hakykatdanam dowam etmek isleýärsiňizmi?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Bu amal, enjam bukjasyndaky ähli PNG-leri aýyrar (Poster-Backdrop) ... \nDowam etmek isleýärsiňizmi?"
-
 msgid "%s key imported!"
 msgstr "% s açary import edildi!"
 
@@ -40,11 +34,11 @@ msgstr "Metadata üpjün ediji hökmünde MOLOTOW-y işjeňleşdiriň ýa-da ö�
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Metadata üpjün ediji hökmünde PROGRAMMETV-i işjeňleşdiriň ýa-da öçüriň."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Goş"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare täzelenme edildi! \nGUI-ni täzeden açmak isleýärsiňizmi?"
 
 msgid "All png are removed from folder!"
 msgstr "Phli png bukjadan aýryldy!"
@@ -73,9 +67,6 @@ msgstr "Yzky görnüş"
 msgid "Backdrop download error: {}"
 msgstr "Fonda göçürip almak säwligi: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Fonda göçürip almak 2 minutdan başlar. \n Bu menýudan arkaýyn çykyp bilersiňiz."
-
 msgid "BebasNeue"
 msgstr "Mugt"
 
@@ -91,6 +82,9 @@ msgstr "Gök"
 msgid "Brown"
 msgstr "Goňur"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokol + Serwer + ECM Wagt"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protokol + Serwer + ECM Wagty"
 
 msgid "Cancel"
 msgstr "Elatyr"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Kanalyň beýany Reňk:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Enjamy göçürip alýan surat bukjasyny saýlaň"
@@ -208,14 +199,14 @@ msgstr "Aglare ýüklemek ..."
 msgid "ECM Short Format:"
 msgstr "ECM gysga formaty:"
 
-msgid "Edit"
-msgstr "Redaktirläň"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC ekranlary Stil:"
+
+msgid "Edit"
+msgstr "Redaktirläň"
 
 msgid "Enable Display Genre icons:"
 msgstr "Ekranyň reanr nyşanlaryny işjeňleşdiriň:"
@@ -226,23 +217,20 @@ msgstr "Ekranyň maglumatlaryny açyň:"
 msgid "Enable Display XMC Poster:"
 msgstr "Ekrany XMC afişasyny açyň:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Baglanan E2iPlayer ekranlaryny işletmek ýa-da öçürmek."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Gaýtadan gözlegleri çaltlaşdyrmak üçin hadysany göçürip alanyňyzda keş keşini açyň ýa-da öçüriň."
-
 msgid "Enable Parental Icons:"
 msgstr "Ene-atanyň nyşanlaryny işletmek:"
 
 msgid "Enable Rating Star:"
 msgstr "Reýting ýyldyzyny işletmek:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Baglanan E2iPlayer ekranlaryny işletmek ýa-da öçürmek."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Gaýtadan gözlegleri çaltlaşdyrmak üçin hadysany göçürip alanyňyzda keş keşini açyň ýa-da öçüriň."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Maglumat widjetinde doly rol oýnaýanlar, ekipa .lar, sýu plotet jikme-jiklikleri we beýleki metadatalary goşmak bilen giňeldilen waka maglumatlaryny görkezmäge mümkinçilik beriň."
-
-msgid "Error {0}: {1}"
-msgstr "Roralňyşlyk {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Deriniň faýlyny gaýtadan işlemekde ýalňyşlyk: {}"
@@ -252,6 +240,9 @@ msgstr "Faýllary göçürip almakda ýalňyşlyk!"
 
 msgid "Error loading: {}"
 msgstr "Adingüklemekde säwlik: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Roralňyşlyk {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Roralňyşlyk: {}"
@@ -268,11 +259,11 @@ msgstr "WakaView_NO_Posters"
 msgid "Exit"
 msgstr "Çyk"
 
-msgid "File {} not found or empty"
-msgstr "Faýl found found tapylmady ýa-da boş"
-
 msgid "File Commander - Addon"
 msgstr "Faýl serkerdesi - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Faýl found found tapylmady ýa-da boş"
 
 msgid "Green"
 msgstr "Greenaşyl"
@@ -283,17 +274,11 @@ msgstr "Green2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI täze derini ulanmak üçin täzeden başlamaly. \nGUI-ni täzeden açmak isleýärsiňizmi?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Surat utgaşyk topary:"
-
-msgid "imperial system"
-msgstr "imperiýa ulgamy"
 
 msgid "Import key {0} from {1}?"
 msgstr "{0} açaryny {1}-den import ediň?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Täzelenmeler gurmak ..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Düwme {} üstünlikli ýüklendi!"
-
 msgid "Key empty"
 msgstr "Açar boş"
+
+msgid "Key {} successfully loaded!"
+msgstr "Düwme {} üstünlikli ýüklendi!"
 
 msgid "KhalidArtboldRegular"
 msgstr "HalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "LightGray"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Builderli gurluş ({}) serwer gurluşyndan ({}) has täze."
 
@@ -367,14 +355,17 @@ msgstr "Locationerleşiş kody"
 msgid "Lucida"
 msgstr "Lusida"
 
+msgid "MSN location search result"
+msgstr "MSN ýerleşiş gözleg netijesi"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit / s (Mb / s)"
-
-msgid "metric system"
-msgstr "ölçeg ulgamy"
 
 msgid "Mint"
 msgstr "Mint"
@@ -382,20 +373,11 @@ msgstr "Mint"
 msgid "Mix1"
 msgstr "Mix1"
 
-msgid "MSN location search result"
-msgstr "MSN ýerleşiş gözleg netijesi"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Işjeň üpjün edijiler açyk däl"
 
 msgid "No description available for this option."
 msgstr "Bu opsiýa üçin düşündiriş ýok."
-
-msgid "Off"
-msgstr "Öçürilen"
 
 msgid "OFF"
 msgstr "Öçürmek"
@@ -412,6 +394,9 @@ msgstr "ON"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "SubsSupportPro derileri açmak / öçürmek."
 
+msgid "Off"
+msgstr "Öçürilen"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Täze suratlar topary)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi topary)"
 msgid "Orange"
 msgstr "Mämişi"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Gülgüne"
-
-msgid "play/show Files"
-msgstr "Faýllary oýnamak / görkezmek"
 
 msgid "Please enter a valid city name."
 msgstr "Dogry şäher adyny giriziň."
@@ -435,9 +420,6 @@ msgstr "Şäher üçin dogry ýer koduny giriziň."
 
 msgid "Poster download error: {}"
 msgstr "Afişany göçürip almak säwligi: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Afişany göçürip almak 2 minutdan başlar. \n Bu menýudan arkaýyn çykyp bilersiňiz."
 
 msgid "Purple"
 msgstr "Gyrmyzy"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI çyrasy"
 
+msgid "Select EMC style."
+msgstr "EMC stilini saýlaň."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Infobar üçin PosterX görkeziş tertibini saýlaň. Elýeterli saýlawlar, saýlanan infobar stiline we ECM re modeimine baglydyr."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Infobar üçin XtraEvent görkeziş tertibini saýlaň. Elýeterli saýlawlar, saýlanan infobar stiline we ECM re modeimine baglydyr."
+
+msgid "Select Your Font:"
+msgstr "Şriftiňizi saýlaň:"
+
 msgid "Select channel list event description color."
 msgstr "Kanal sanawy hadysasynyň düşündiriş reňkini saýlaň."
 
@@ -496,17 +490,11 @@ msgstr "Saýlanan birinji reňkdäki kanal sanawyny saýlaň."
 msgid "Select channel selection screen style."
 msgstr "Kanal saýlamagyň ekran stilini saýlaň."
 
-msgid "Select EMC style."
-msgstr "EMC stilini saýlaň."
-
 msgid "Select event view screen style."
 msgstr "Waka görnüşini ekranyň stilini saýlaň."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Infobar ýerleşişini saýlaň. Style5 ECM-i öçürýär we diňe OFF / CD afişa reesimlerine mümkinçilik berýär. Style6 ECM, PosterX we Xtraevent-i öçürýär."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Infobar üçin PosterX görkeziş tertibini saýlaň. Elýeterli saýlawlar, saýlanan infobar stiline we ECM re modeimine baglydyr."
 
 msgid "Select second infobar layout."
 msgstr "Ikinji infobar ýerleşişini saýlaň."
@@ -538,12 +526,6 @@ msgstr "Ikinji infobar üçin howa üpjün edijiniň displeýini saýlaň."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Deriniň gysga MYEMUPARA ulanylanda haýsy ECM meýdanlarynyň görkezilýändigini saýlaň."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Infobar üçin XtraEvent görkeziş tertibini saýlaň. Elýeterli saýlawlar, saýlanan infobar stiline we ECM re modeimine baglydyr."
-
-msgid "Select Your Font:"
-msgstr "Şriftiňizi saýlaň:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Yzky görnüşi göçürip almak üçin wagtymyzy belläň"
 
@@ -556,9 +538,6 @@ msgstr "Sazlamalar Apikey Serweri"
 msgid "Setup Aglare Skin Info"
 msgstr "Aglare deri maglumatlary gurmak"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Aglare Skin\n {0} v .__ CSH_1__\n\nby Lululla @ 2020\n\n linuxsat-support.com\n\nSkinner döredijisi: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Her wakanyň reanryny görkezýän nyşanlary görkeziň (meselem, hereket, komediýa, drama)"
 
@@ -568,11 +547,11 @@ msgstr "ECM maglumatyny infobarda görkeziň ýa-da gizläň."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "PosterX-i ikinji infobarda görkeziň ýa-da gizläň."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Infobarda sene panelini görkeziň ýa-da gizläň."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Ikinji infobarda XtraEvent-i görkeziň ýa-da gizläň."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Infobarda sene panelini görkeziň ýa-da gizläň."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Mazmunyň derejesini we ýaşa laýyklygyny görkezmek üçin wakalarda ene-atanyň görkezme nyşanlaryny görkeziň."
@@ -631,29 +610,26 @@ msgstr "Style6"
 msgid "Support E2iplayer Skins:"
 msgstr "E2ipleýer derilerine goldaw:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "“InfoBar SoftCSA” -y goldaň:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "SubsSupportPro derilerine goldaw:"
 
 msgid "System"
 msgstr "Ulgam"
 
-msgid "Teal"
-msgstr "Çaý"
-
 msgid "TEST"
 msgstr "Synag"
+
+msgid "TMDB Only"
+msgstr "Diňe TMDB"
+
+msgid "Teal"
+msgstr "Çaý"
 
 msgid "The file %s is empty."
 msgstr "% S faýly boş."
 
 msgid "The file %s was not found."
 msgstr "% S faýly tapylmady"
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Täzelenme faýly /tmp.\nUpdate ýatyryldy."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Bu amal, suraty göçürip almak üçin enjam ýol bukjasyny belleýär (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Bu amal, saýlanan reýting çeşmesine esaslanyp, wakalar üçin reýti
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Bu amal, ähli png-i bukja enjamyndan aýyrýar (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Diňe TMDB"
-
 msgid "Tomato"
 msgstr "Pomidor"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Başlanmadyk URL-ni täzeläň - ilki bilen Plugins menýusyndan bir gezek açyň."
 
 msgid "Update check failed: {}"
 msgstr "Täzelenme barlagy şowsuz: {}"
@@ -676,17 +652,8 @@ msgstr "Täzelenme barlagy şowsuz: {}"
 msgid "Update package not found!"
 msgstr "Täzelenme bukjasy tapylmady!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Başlanmadyk URL-ni täzeläň - ilki bilen Plugins menýusyndan bir gezek açyň."
-
-msgid "volume2"
-msgstr "göwrüm2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar stili:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Duýduryş: Adaty API düwmelerini ulanýarsyňyz! \nBiziň plugin sazlamalarynda öz API açarlaryňyzy düzmegi maslahat berýäris."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Girişi redaktirläň"
@@ -706,3 +673,92 @@ msgstr "Sizde iň soňky wersiýa ({}) bar."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Locationerleşiş koduny gözlemezden ozal dogry şäher adyny girizmeli."
 
+msgid "imperial system"
+msgstr "imperiýa ulgamy"
+
+msgid "metric system"
+msgstr "ölçeg ulgamy"
+
+msgid "play/show Files"
+msgstr "Faýllary oýnamak / görkezmek"
+
+msgid "volume2"
+msgstr "göwrüm2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Çekkin] Bu amal deriniň düzüm bölekleriniň bardygyny ýa-da ýokdugyny barlaýar (kepillendirilmeýär) ... \n"
+#~ "Do hakykatdanam dowam etmek isleýärsiňizmi?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Bu amal, enjam bukjasyndaky ähli PNG-leri aýyrar (Poster-Backdrop) ... \n"
+#~ "Dowam etmek isleýärsiňizmi?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare täzelenme edildi! \n"
+#~ "GUI-ni täzeden açmak isleýärsiňizmi?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Fonda göçürip almak 2 minutdan başlar. \n"
+#~ " Bu menýudan arkaýyn çykyp bilersiňiz."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI täze derini ulanmak üçin täzeden başlamaly. \n"
+#~ "GUI-ni täzeden açmak isleýärsiňizmi?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Afişany göçürip almak 2 minutdan başlar. \n"
+#~ " Bu menýudan arkaýyn çykyp bilersiňiz."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Aglare Skin\n"
+#~ " {0} v .__ CSH_1__\n"
+#~ "\n"
+#~ "by Lululla @ 2020\n"
+#~ "\n"
+#~ " linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner döredijisi: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "“InfoBar SoftCSA” -y goldaň:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Täzelenme faýly /tmp.\n"
+#~ "Update ýatyryldy."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Duýduryş: Adaty API düwmelerini ulanýarsyňyz! \n"
+#~ "Biziň plugin sazlamalarynda öz API açarlaryňyzy düzmegi maslahat berýäris."

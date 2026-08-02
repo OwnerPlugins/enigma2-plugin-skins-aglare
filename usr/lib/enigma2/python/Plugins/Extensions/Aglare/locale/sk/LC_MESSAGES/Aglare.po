@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Skontrolovať vzhľad] Táto operácia skontroluje, či má vzhľad svoje komponenty (nie je zaručené)...\nNaozaj chcete pokračovať?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Táto operácia odstráni všetky PNG z priečinka zariadenia (Poster-Backdrop)...\nNaozaj chcete pokračovať?"
-
 msgid "%s key imported!"
 msgstr "%s kľúč importovaný!"
 
@@ -40,11 +34,11 @@ msgstr "Aktivujte alebo deaktivujte MOLOTOV ako poskytovateľa metadát."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktivujte alebo deaktivujte PROGRAMMETV ako poskytovateľa metadát."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Pridať"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aktualizácia Aglare bola dokončená!\nChcete teraz reštartovať GUI?"
 
 msgid "All png are removed from folder!"
 msgstr "Všetky png sú odstránené z priečinka!"
@@ -73,9 +67,6 @@ msgstr "Pozadie"
 msgid "Backdrop download error: {}"
 msgstr "Chyba sťahovania kulisy: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Sťahovanie kulisy sa spustí o 2 minúty.\nTúto ponuku môžete bezpečne opustiť."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Modrá"
 msgid "Brown"
 msgstr "Hnedá"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokol + Server + Čas ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + ECM čas"
 
 msgid "Cancel"
 msgstr "Zrušiť"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Farba popisu kanála:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Vyberte priečinok s obrázkami na stiahnutie zariadenia"
@@ -208,14 +199,14 @@ msgstr "Sťahuje sa Aglare..."
 msgid "ECM Short Format:"
 msgstr "Krátky formát ECM:"
 
-msgid "Edit"
-msgstr "Upraviť"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Štýl EMC obrazoviek:"
+
+msgid "Edit"
+msgstr "Upraviť"
 
 msgid "Enable Display Genre icons:"
 msgstr "Povoliť ikony žánru zobrazenia:"
@@ -226,23 +217,20 @@ msgstr "Povoliť zobrazovanie informačných udalostí:"
 msgid "Enable Display XMC Poster:"
 msgstr "Povoliť zobrazenie XMC plagátu:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Povoliť alebo zakázať pribalené obrazovky E2iPlayer."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Povoľte alebo zakážte ukladanie do vyrovnávacej pamäte počas sťahovania udalosti, aby ste urýchlili opakované vyhľadávanie."
-
 msgid "Enable Parental Icons:"
 msgstr "Povoliť ikony rodičov:"
 
 msgid "Enable Rating Star:"
 msgstr "Povoliť hviezdičku hodnotenia:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Povoliť alebo zakázať pribalené obrazovky E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Povoľte alebo zakážte ukladanie do vyrovnávacej pamäte počas sťahovania udalosti, aby ste urýchlili opakované vyhľadávanie."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Povoľte zobrazenie rozšírených informácií o udalosti vrátane celého obsadenia, štábu, podrobností o sprisahaní a ďalších metadát v informačnom widgete."
-
-msgid "Error {0}: {1}"
-msgstr "Chyba {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Chyba pri spracovaní súboru vzhľadu: {}"
@@ -252,6 +240,9 @@ msgstr "Chyba pri sťahovaní súborov!"
 
 msgid "Error loading: {}"
 msgstr "Chyba pri načítavaní: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Chyba {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Chyba: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "VÝCHOD"
 
-msgid "File {} not found or empty"
-msgstr "Súbor {} sa nenašiel alebo je prázdny"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Súbor {} sa nenašiel alebo je prázdny"
 
 msgid "Green"
 msgstr "Zelená"
@@ -283,17 +274,11 @@ msgstr "Zelená2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI potrebuje reštart na použitie nového vzhľadu.\nChcete reštartovať GUI teraz?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Skupina kompatibility obrázkov:"
-
-msgid "imperial system"
-msgstr "imperiálny systém"
 
 msgid "Import key {0} from {1}?"
 msgstr "Importovať kľúč {0} z {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Inštalujú sa aktualizácie..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Kľúč {} bol úspešne načítaný!"
-
 msgid "Key empty"
 msgstr "Kľúč prázdny"
+
+msgid "Key {} successfully loaded!"
+msgstr "Kľúč {} bol úspešne načítaný!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "LightGray"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Lokálna zostava ({}) je novšia ako zostava servera ({})."
 
@@ -367,14 +355,17 @@ msgstr "Kód miesta"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Výsledok vyhľadávania polohy MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "purpurová"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "metrický systém"
 
 msgid "Mint"
 msgstr "Mincovňa"
@@ -382,20 +373,11 @@ msgstr "Mincovňa"
 msgid "Mix1"
 msgstr "Mix1"
 
-msgid "MSN location search result"
-msgstr "Výsledok vyhľadávania polohy MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Nie sú aktivovaní žiadni aktívni poskytovatelia"
 
 msgid "No description available for this option."
 msgstr "Pre túto možnosť nie je k dispozícii žiadny popis."
-
-msgid "Off"
-msgstr "Vypnuté"
 
 msgid "OFF"
 msgstr "VYPNUTÉ"
@@ -412,6 +394,9 @@ msgstr "ON"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro skiny."
 
+msgid "Off"
+msgstr "Vypnuté"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (skupina nových obrázkov)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Group)"
 msgid "Orange"
 msgstr "Oranžová"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Ružová"
-
-msgid "play/show Files"
-msgstr "prehrať/zobraziť súbory"
 
 msgid "Please enter a valid city name."
 msgstr "Zadajte platný názov mesta."
@@ -435,9 +420,6 @@ msgstr "Zadajte platný kód miesta pre mesto."
 
 msgid "Poster download error: {}"
 msgstr "Chyba sťahovania plagátu: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Sťahovanie plagátu sa spustí o 2 minúty.\nToto menu môžete bezpečne opustiť."
 
 msgid "Purple"
 msgstr "Fialová"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI svetlo"
 
+msgid "Select EMC style."
+msgstr "Vyberte štýl EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Vyberte režim zobrazenia PosterX pre informačný panel. Dostupné možnosti závisia od zvoleného štýlu informačného panela a režimu ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Vyberte režim zobrazenia XtraEvent pre informačný panel. Dostupné možnosti závisia od zvoleného štýlu informačného panela a režimu ECM."
+
+msgid "Select Your Font:"
+msgstr "Vyberte si svoje písmo:"
+
 msgid "Select channel list event description color."
 msgstr "Vyberte farbu popisu udalosti zoznamu kanálov."
 
@@ -496,17 +490,11 @@ msgstr "Vybrať zoznam kanálov vybratú farbu popredia."
 msgid "Select channel selection screen style."
 msgstr "Vyberte štýl obrazovky výberu kanála."
 
-msgid "Select EMC style."
-msgstr "Vyberte štýl EMC."
-
 msgid "Select event view screen style."
 msgstr "Vyberte štýl obrazovky zobrazenia udalosti."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Vyberte rozloženie informačného panela. Style5 vynúti ECM vypnutie a umožňuje len režimy plagátu OFF/CD. Style6 vynúti ECM, PosterX a Xtraevent vypnutie."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Vyberte režim zobrazenia PosterX pre informačný panel. Dostupné možnosti závisia od zvoleného štýlu informačného panela a režimu ECM."
 
 msgid "Select second infobar layout."
 msgstr "Vyberte rozloženie druhého informačného panela."
@@ -538,12 +526,6 @@ msgstr "Vyberte zobrazenie poskytovateľa počasia pre druhý informačný panel
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Vyberte, ktoré polia ECM sa zobrazia, keď vzhľad používa Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Vyberte režim zobrazenia XtraEvent pre informačný panel. Dostupné možnosti závisia od zvoleného štýlu informačného panela a režimu ECM."
-
-msgid "Select Your Font:"
-msgstr "Vyberte si svoje písmo:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Nastavte čas našej minúty na stiahnutie kulisy"
 
@@ -556,9 +538,6 @@ msgstr "Nastavenia Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Nastavte Aglare Skin Info"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Nastavenie Aglare Skin\nfor {0} v.{1}\n\n od Lululla @2020\n\nFórum podpory na linuxsat-support.com\n\nSkinner Creator: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Zobraziť ikony predstavujúce žáner každej udalosti (napr. akcia, komédia, dráma)"
 
@@ -568,11 +547,11 @@ msgstr "Zobraziť alebo skryť informácie ECM v informačnom paneli."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Zobraziť alebo skryť PosterX v druhom informačnom paneli."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Zobraziť alebo skryť panel dátumu na informačnom paneli."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Zobraziť alebo skryť XtraEvent v druhom informačnom paneli."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Zobraziť alebo skryť panel dátumu na informačnom paneli."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Zobrazovať ikony rodičovského dozoru pri udalostiach na označenie obsahu a vhodnosti podľa veku."
@@ -631,29 +610,26 @@ msgstr "Štýl6"
 msgid "Support E2iplayer Skins:"
 msgstr "Podpora vzhľadov E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Podpora InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Podpora vzhľadov SubsSupportPro:"
 
 msgid "System"
 msgstr "Systém"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "TEST"
+
+msgid "TMDB Only"
+msgstr "Iba TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Súbor %s je prázdny."
 
 msgid "The file %s was not found."
 msgstr "Súbor %s sa nenašiel."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Aktualizačný súbor sa nenašiel v /tmp.\nAktualizácia bola prerušená."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Táto operácia priradí priečinok cesty k zariadeniu na stiahnutie obrázku (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Táto operácia umožňuje zobrazenie hviezdičkami hodnotenia udalostí
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Táto operácia odstráni všetky png zo zariadenia priečinkov (plagát-pozadie)"
 
-msgid "TMDB Only"
-msgstr "Iba TMDB"
-
 msgid "Tomato"
 msgstr "Paradajka"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Aktualizácia URL nie je inicializovaná – najprv raz otvorte plugin z ponuky Pluginy."
 
 msgid "Update check failed: {}"
 msgstr "Kontrola aktualizácie zlyhala: {}"
@@ -676,17 +652,8 @@ msgstr "Kontrola aktualizácie zlyhala: {}"
 msgid "Update package not found!"
 msgstr "Aktualizačný balík sa nenašiel!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Aktualizácia URL nie je inicializovaná – najprv raz otvorte plugin z ponuky Pluginy."
-
-msgid "volume2"
-msgstr "zväzok 2"
-
 msgid "VolumeBar Style:"
 msgstr "Štýl panela hlasitosti:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Upozornenie: Používate predvolené API kľúče!\nDôrazne odporúčame nakonfigurovať si vlastné API kľúče v nastaveniach pluginu."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Upravte položku"
@@ -706,3 +673,92 @@ msgstr "Už máte najnovšiu verziu ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Pred vyhľadávaním kódu lokality musíte zadať platný názov mesta."
 
+msgid "imperial system"
+msgstr "imperiálny systém"
+
+msgid "metric system"
+msgstr "metrický systém"
+
+msgid "play/show Files"
+msgstr "prehrať/zobraziť súbory"
+
+msgid "volume2"
+msgstr "zväzok 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Skontrolovať vzhľad] Táto operácia skontroluje, či má vzhľad svoje komponenty (nie je zaručené)...\n"
+#~ "Naozaj chcete pokračovať?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Táto operácia odstráni všetky PNG z priečinka zariadenia (Poster-Backdrop)...\n"
+#~ "Naozaj chcete pokračovať?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aktualizácia Aglare bola dokončená!\n"
+#~ "Chcete teraz reštartovať GUI?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Sťahovanie kulisy sa spustí o 2 minúty.\n"
+#~ "Túto ponuku môžete bezpečne opustiť."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI potrebuje reštart na použitie nového vzhľadu.\n"
+#~ "Chcete reštartovať GUI teraz?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Sťahovanie plagátu sa spustí o 2 minúty.\n"
+#~ "Toto menu môžete bezpečne opustiť."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Nastavenie Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ " od Lululla @2020\n"
+#~ "\n"
+#~ "Fórum podpory na linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner Creator: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Podpora InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Aktualizačný súbor sa nenašiel v /tmp.\n"
+#~ "Aktualizácia bola prerušená."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Upozornenie: Používate predvolené API kľúče!\n"
+#~ "Dôrazne odporúčame nakonfigurovať si vlastné API kľúče v nastaveniach pluginu."

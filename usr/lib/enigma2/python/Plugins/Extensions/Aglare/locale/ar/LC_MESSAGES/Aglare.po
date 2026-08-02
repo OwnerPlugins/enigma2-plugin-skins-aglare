@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[فحص الجلد] تتحقق هذه العملية مما إذا كان الجلد يحتوي على مكوناته (غير مضمونة)...\nهل تريد الاستمرار حقًا؟"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] ستؤدي هذه العملية إلى إزالة جميع ملفات PNG من مجلد الجهاز (Poster-Backdrop)...\nهل تريد المتابعة حقًا؟"
-
 msgid "%s key imported!"
 msgstr "تم استيراد مفتاح %s!"
 
@@ -40,11 +34,11 @@ msgstr "قم بتنشيط أو إلغاء تنشيط MOLOTOV كموفر للبي
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "قم بتنشيط أو إلغاء تنشيط PROGRAMMETV كموفر للبيانات الوصفية."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "يضيف"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "تم إجراء تحديث Aglare!\nهل تريد إعادة تشغيل واجهة المستخدم الرسومية الآن؟"
 
 msgid "All png are removed from folder!"
 msgstr "تتم إزالة جميع ملفات png من المجلد!"
@@ -73,9 +67,6 @@ msgstr "الخلفية"
 msgid "Backdrop download error: {}"
 msgstr "خطأ في تنزيل الخلفية: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "سيبدأ تنزيل الصور الخلفية خلال دقيقتين.\nيمكنك الخروج من هذه القائمة بأمان."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "أزرق"
 msgid "Brown"
 msgstr "بني"
 
+msgid "CD"
+msgstr "قرص مضغوط"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Server + ECM Time"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 
 msgid "Cancel"
 msgstr "يلغي"
-
-msgid "CD"
-msgstr "قرص مضغوط"
 
 msgid "Channel Description Color:"
 msgstr "لون وصف القناة:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "اختيار مجلد تحميل صورة الجهاز"
@@ -208,14 +199,14 @@ msgstr "تحميل جلاير..."
 msgid "ECM Short Format:"
 msgstr "تنسيق ECM القصير:"
 
-msgid "Edit"
-msgstr "يحرر"
-
 msgid "EMC PX"
 msgstr "إي إم سي بي إكس"
 
 msgid "EMC screens Style:"
 msgstr "شاشات EMC النمط:"
+
+msgid "Edit"
+msgstr "يحرر"
 
 msgid "Enable Display Genre icons:"
 msgstr "تمكين أيقونات نوع العرض:"
@@ -226,23 +217,20 @@ msgstr "تمكين عرض أحداث المعلومات:"
 msgid "Enable Display XMC Poster:"
 msgstr "تمكين عرض ملصق XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "تمكين أو تعطيل شاشات E2iPlayer المجمعة."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "قم بتمكين أو تعطيل التخزين المؤقت أثناء تنزيل الحدث لتسريع عمليات البحث المتكررة."
-
 msgid "Enable Parental Icons:"
 msgstr "تمكين الرموز الأبوية:"
 
 msgid "Enable Rating Star:"
 msgstr "تمكين نجمة التقييم:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "تمكين أو تعطيل شاشات E2iPlayer المجمعة."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "قم بتمكين أو تعطيل التخزين المؤقت أثناء تنزيل الحدث لتسريع عمليات البحث المتكررة."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "قم بتمكين عرض معلومات الحدث الموسعة، بما في ذلك الممثلون الكاملون وطاقم العمل وتفاصيل الحبكة وبيانات التعريف الأخرى، في أداة المعلومات."
-
-msgid "Error {0}: {1}"
-msgstr "الخطأ {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "خطأ أثناء معالجة ملف السطح: {}"
@@ -252,6 +240,9 @@ msgstr "خطأ في تنزيل الملفات!"
 
 msgid "Error loading: {}"
 msgstr "خطأ في التحميل: {}"
+
+msgid "Error {0}: {1}"
+msgstr "الخطأ {0}: {1}"
 
 msgid "Error: {}"
 msgstr "خطأ: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "مخرج"
 
-msgid "File {} not found or empty"
-msgstr "الملف {} غير موجود أو فارغ"
-
 msgid "File Commander - Addon"
 msgstr "قائد الملف - الملحق"
+
+msgid "File {} not found or empty"
+msgstr "الملف {} غير موجود أو فارغ"
 
 msgid "Green"
 msgstr "أخضر"
@@ -283,17 +274,11 @@ msgstr "الأخضر2"
 msgid "Greta"
 msgstr "غريتا"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "تحتاج واجهة المستخدم الرسومية إلى إعادة التشغيل لتطبيق مظهر جديد.\nهل تريد إعادة تشغيل واجهة المستخدم الرسومية الآن؟"
-
 msgid "HandelGotD"
 msgstr "هاندل جوت د"
 
 msgid "Image Compatibility Group:"
 msgstr "مجموعة توافق الصور:"
-
-msgid "imperial system"
-msgstr "النظام الإمبراطوري"
 
 msgid "Import key {0} from {1}?"
 msgstr "هل تريد استيراد المفتاح {0} من {1}؟"
@@ -340,11 +325,11 @@ msgstr "خط إنس"
 msgid "Installing updates..."
 msgstr "جارٍ تثبيت التحديثات..."
 
-msgid "Key {} successfully loaded!"
-msgstr "تم تحميل المفتاح {} بنجاح!"
-
 msgid "Key empty"
 msgstr "المفتاح فارغ"
+
+msgid "Key {} successfully loaded!"
+msgstr "تم تحميل المفتاح {} بنجاح!"
 
 msgid "KhalidArtboldRegular"
 msgstr "خالد ارتبولد منتظم"
@@ -358,6 +343,9 @@ msgstr "رمادي فاتح"
 msgid "LimeGreen"
 msgstr "ليموني جرين"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "البناء المحلي ({}) أحدث من بناء الخادم ({})."
 
@@ -367,14 +355,17 @@ msgstr "رمز الموقع"
 msgid "Lucida"
 msgstr "لوسيدا"
 
+msgid "MSN location search result"
+msgstr "نتيجة بحث موقع MSN"
+
+msgid "MV Boli"
+msgstr "إم في بولي"
+
 msgid "Magenta"
 msgstr "أرجواني"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "ميجابت/ثانية (ميجابايت/ثانية)"
-
-msgid "metric system"
-msgstr "النظام المتري"
 
 msgid "Mint"
 msgstr "نعناع"
@@ -382,20 +373,11 @@ msgstr "نعناع"
 msgid "Mix1"
 msgstr "مزيج1"
 
-msgid "MSN location search result"
-msgstr "نتيجة بحث موقع MSN"
-
-msgid "MV Boli"
-msgstr "إم في بولي"
-
 msgid "No active providers enabled"
 msgstr "لم يتم تمكين أي مقدمي خدمات نشطين"
 
 msgid "No description available for this option."
 msgstr "لا يوجد وصف متاح لهذا الخيار."
-
-msgid "Off"
-msgstr "عن"
 
 msgid "OFF"
 msgstr "عن"
@@ -412,6 +394,9 @@ msgstr "على"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "تشغيل/إيقاف جلود SubsSupportPro."
 
+msgid "Off"
+msgstr "عن"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (مجموعة الصور الجديدة)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (مجموعة OpenPLi)"
 msgid "Orange"
 msgstr "البرتقالي"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "لون القرنفل"
-
-msgid "play/show Files"
-msgstr "تشغيل/إظهار الملفات"
 
 msgid "Please enter a valid city name."
 msgstr "الرجاء إدخال اسم مدينة صالح."
@@ -435,9 +420,6 @@ msgstr "الرجاء إدخال رمز موقع صالح للمدينة."
 
 msgid "Poster download error: {}"
 msgstr "خطأ في تنزيل الملصق: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "سيبدأ تنزيل الملصق خلال دقيقتين.\nيمكنك الخروج من هذه القائمة بأمان."
 
 msgid "Purple"
 msgstr "أرجواني"
@@ -484,6 +466,18 @@ msgstr "الحدث الثاني لشريط المعلومات:"
 msgid "Segoe UI light"
 msgstr "ضوء واجهة المستخدم Segoe"
 
+msgid "Select EMC style."
+msgstr "حدد نمط EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "حدد وضع عرض PosterX لشريط المعلومات. تعتمد الاختيارات المتاحة على نمط شريط المعلومات المحدد ووضع ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "حدد وضع عرض XtraEvent لشريط المعلومات. تعتمد الاختيارات المتاحة على نمط شريط المعلومات المحدد ووضع ECM."
+
+msgid "Select Your Font:"
+msgstr "حدد الخط الخاص بك:"
+
 msgid "Select channel list event description color."
 msgstr "حدد لون وصف حدث قائمة القنوات."
 
@@ -496,17 +490,11 @@ msgstr "حدد قائمة القنوات المحددة اللون الأمام�
 msgid "Select channel selection screen style."
 msgstr "حدد نمط شاشة اختيار القناة."
 
-msgid "Select EMC style."
-msgstr "حدد نمط EMC."
-
 msgid "Select event view screen style."
 msgstr "حدد نمط شاشة عرض الحدث."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "حدد تخطيط شريط المعلومات. يفرض Style5 إيقاف تشغيل ECM ويسمح فقط بأوضاع الملصقات OFF/CD. يفرض Style6 إيقاف تشغيل ECM وPosterX وXtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "حدد وضع عرض PosterX لشريط المعلومات. تعتمد الاختيارات المتاحة على نمط شريط المعلومات المحدد ووضع ECM."
 
 msgid "Select second infobar layout."
 msgstr "حدد تخطيط شريط المعلومات الثاني."
@@ -538,12 +526,6 @@ msgstr "حدد عرض موفر الطقس لشريط المعلومات الثا
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "حدد حقول ECM التي تظهر عندما يستخدم الجلد Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "حدد وضع عرض XtraEvent لشريط المعلومات. تعتمد الاختيارات المتاحة على نمط شريط المعلومات المحدد ووضع ECM."
-
-msgid "Select Your Font:"
-msgstr "حدد الخط الخاص بك:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "اضبط الوقت - دقيقة واحدة لتنزيل الصور الخلفية"
 
@@ -556,9 +538,6 @@ msgstr "إعدادات خادم Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "إعداد معلومات الجلد الوهج"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "إعداد Aglare Skin\nfor {0} v.{1}\n\n بواسطة Lululla @2020\n\nمنتدى الدعم على linuxsat-support.com\n\nSkinner Creator: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "إظهار الأيقونات التي تمثل نوع كل حدث (على سبيل المثال، أكشن، كوميديا، دراما)"
 
@@ -568,11 +547,11 @@ msgstr "إظهار أو إخفاء معلومات ECM في شريط المعلو
 msgid "Show or hide PosterX in the second infobar."
 msgstr "إظهار أو إخفاء PosterX في شريط المعلومات الثاني."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "إظهار أو إخفاء لوحة التاريخ في شريط المعلومات."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "إظهار أو إخفاء XtraEvent في شريط المعلومات الثاني."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "إظهار أو إخفاء لوحة التاريخ في شريط المعلومات."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "إظهار أيقونات توجيه الوالدين في الأحداث للإشارة إلى تقييم المحتوى ومدى ملاءمته للعمر."
@@ -631,29 +610,26 @@ msgstr "النمط6"
 msgid "Support E2iplayer Skins:"
 msgstr "دعم جلود E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "دعم شريط المعلومات SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "دعم جلود SubsSupportPro:"
 
 msgid "System"
 msgstr "نظام"
 
-msgid "Teal"
-msgstr "البط البري"
-
 msgid "TEST"
 msgstr "امتحان"
+
+msgid "TMDB Only"
+msgstr "TMDB فقط"
+
+msgid "Teal"
+msgstr "البط البري"
 
 msgid "The file %s is empty."
 msgstr "الملف %s فارغ."
 
 msgid "The file %s was not found."
 msgstr "لم يتم العثور على الملف %s."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "لم يتم العثور على ملف التحديث في /tmp.\nتم إحباط التحديث."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "تقوم هذه العملية بتعيين مجلد مسار الجهاز لتنزيل الصورة (خلفية الملصق)"
@@ -664,11 +640,11 @@ msgstr "تعمل هذه العملية على تمكين عرض نجوم الت�
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "تقوم هذه العملية بإزالة جميع ملفات png من جهاز المجلد (خلفية الملصق)"
 
-msgid "TMDB Only"
-msgstr "TMDB فقط"
-
 msgid "Tomato"
 msgstr "طماطم"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "لم تتم تهيئة عنوان URL للتحديث - افتح المكون الإضافي مرة واحدة من قائمة المكونات الإضافية أولاً."
 
 msgid "Update check failed: {}"
 msgstr "فشل التحقق من التحديث: {}"
@@ -676,17 +652,8 @@ msgstr "فشل التحقق من التحديث: {}"
 msgid "Update package not found!"
 msgstr "لم يتم العثور على حزمة التحديث!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "لم تتم تهيئة عنوان URL للتحديث - افتح المكون الإضافي مرة واحدة من قائمة المكونات الإضافية أولاً."
-
-msgid "volume2"
-msgstr "حجم2"
-
 msgid "VolumeBar Style:"
 msgstr "نمط شريط الصوت:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "تحذير: أنت تستخدم مفاتيح واجهة برمجة التطبيقات الافتراضية!\nنوصي بشدة بتهيئة مفاتيح واجهة برمجة التطبيقات الخاصة بك في إعدادات المكونات الإضافية."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: تحرير الإدخال"
@@ -706,3 +673,92 @@ msgstr "لديك بالفعل أحدث إصدار ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "تحتاج إلى إدخال اسم مدينة صالح قبل أن تتمكن من البحث عن رمز الموقع."
 
+msgid "imperial system"
+msgstr "النظام الإمبراطوري"
+
+msgid "metric system"
+msgstr "النظام المتري"
+
+msgid "play/show Files"
+msgstr "تشغيل/إظهار الملفات"
+
+msgid "volume2"
+msgstr "حجم2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[فحص الجلد] تتحقق هذه العملية مما إذا كان الجلد يحتوي على مكوناته (غير مضمونة)...\n"
+#~ "هل تريد الاستمرار حقًا؟"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] ستؤدي هذه العملية إلى إزالة جميع ملفات PNG من مجلد الجهاز (Poster-Backdrop)...\n"
+#~ "هل تريد المتابعة حقًا؟"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "تم إجراء تحديث Aglare!\n"
+#~ "هل تريد إعادة تشغيل واجهة المستخدم الرسومية الآن؟"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "سيبدأ تنزيل الصور الخلفية خلال دقيقتين.\n"
+#~ "يمكنك الخروج من هذه القائمة بأمان."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "تحتاج واجهة المستخدم الرسومية إلى إعادة التشغيل لتطبيق مظهر جديد.\n"
+#~ "هل تريد إعادة تشغيل واجهة المستخدم الرسومية الآن؟"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "سيبدأ تنزيل الملصق خلال دقيقتين.\n"
+#~ "يمكنك الخروج من هذه القائمة بأمان."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "إعداد Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ " بواسطة Lululla @2020\n"
+#~ "\n"
+#~ "منتدى الدعم على linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner Creator: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "دعم شريط المعلومات SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "لم يتم العثور على ملف التحديث في /tmp.\n"
+#~ "تم إحباط التحديث."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "تحذير: أنت تستخدم مفاتيح واجهة برمجة التطبيقات الافتراضية!\n"
+#~ "نوصي بشدة بتهيئة مفاتيح واجهة برمجة التطبيقات الخاصة بك في إعدادات المكونات الإضافية."

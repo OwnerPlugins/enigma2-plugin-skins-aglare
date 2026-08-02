@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[چیکسکین] دا عملیات چک کوي چې پوټکي خپلې برخې لري (تضمین نه دی)...\nایا تاسو واقعیا غواړئ دوام ورکړئ؟"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] دا عملیات به ټول PNGs د آلې فولډر څخه لرې کړي (پوسټر بیک ډراپ)...\nایا تاسو واقعیا غواړئ دوام ورکړئ؟"
-
 msgid "%s key imported!"
 msgstr "%s کیلي وارد شوې!"
 
@@ -40,11 +34,11 @@ msgstr "MOLOTOV د میټاډاټا چمتو کونکي په توګه فعال �
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "PROGRAMMETV د میټاډاټا چمتو کونکي په توګه فعال یا غیر فعال کړئ."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "اضافه کړئ"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare Update ترسره شو!\nایا تاسو اوس GUI بیا پیلول غواړئ؟"
 
 msgid "All png are removed from folder!"
 msgstr "ټول png له فولډر څخه لرې شوي!"
@@ -73,9 +67,6 @@ msgstr "شالید"
 msgid "Backdrop download error: {}"
 msgstr "د شاليد ډاونلوډ تېروتنه: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "د شالید ډاونلوډ به په 2 دقیقو کې پیل شي.\nتاسو کولی شئ په خوندي ډول له دې مینو څخه ووځي."
-
 msgid "BebasNeue"
 msgstr "FreeNue"
 
@@ -91,6 +82,9 @@ msgstr "آبي"
 msgid "Brown"
 msgstr "نصواري"
 
+msgid "CD"
+msgstr "سي ډي"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + پروتوکول + سرور + ECM وخت"
 
@@ -99,9 +93,6 @@ msgstr "Caid + لوستونکی + پروتوکول + سرور + ECM وخت"
 
 msgid "Cancel"
 msgstr "لغوه کړئ"
-
-msgid "CD"
-msgstr "سي ډي"
 
 msgid "Channel Description Color:"
 msgstr "د چینل تفصیل رنګ:"
@@ -151,14 +142,14 @@ msgstr "د چینل انتخاب_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "د چینل انتخاب_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "د چینل انتخاب_لوی_مینی_تلویزیون"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "د چینل انتخاب_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "د چینل انتخاب_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "د چینل انتخاب_لوی_مینی_تلویزیون"
 
 msgid "Choice device download image folder"
 msgstr "د انتخاب وسیله ډاونلوډ عکس فولډر"
@@ -208,14 +199,14 @@ msgstr "Aglare ډاونلوډ کول ..."
 msgid "ECM Short Format:"
 msgstr "د ECM لنډه بڼه:"
 
-msgid "Edit"
-msgstr "سمون"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "د EMC سکرین سټایل:"
+
+msgid "Edit"
+msgstr "سمون"
 
 msgid "Enable Display Genre icons:"
 msgstr "د ښودلو ژانر شبیه فعال کړئ:"
@@ -226,23 +217,20 @@ msgstr "د ښودلو معلوماتو پیښې فعال کړئ:"
 msgid "Enable Display XMC Poster:"
 msgstr "د XMC پوسټر ښودنه فعال کړئ:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "بنډل شوي E2iPlayer سکرینونه فعال یا غیر فعال کړئ."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "د بار بار لټونونو ګړندي کولو لپاره د پیښې ډاونلوډ پرمهال کیشینګ فعال یا غیر فعال کړئ."
-
 msgid "Enable Parental Icons:"
 msgstr "د والدینو عکسونه فعال کړئ:"
 
 msgid "Enable Rating Star:"
 msgstr "د ستوري درجه بندي فعال کړئ:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "بنډل شوي E2iPlayer سکرینونه فعال یا غیر فعال کړئ."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "د بار بار لټونونو ګړندي کولو لپاره د پیښې ډاونلوډ پرمهال کیشینګ فعال یا غیر فعال کړئ."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "د معلوماتو ویجټ کې د بشپړ کاسټ ، عملې ، پلاټ توضیحاتو ، او نورو میټاډاټا په شمول د غزیدلي پیښې معلوماتو ښودل فعال کړئ."
-
-msgid "Error {0}: {1}"
-msgstr "تېروتنه {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "د پوستکي دوتنې پروسس کولو کې تېروتنه: {}"
@@ -252,6 +240,9 @@ msgstr "د فایلونو ډاونلوډ کولو کې تېروتنه!"
 
 msgid "Error loading: {}"
 msgstr "د بارولو تېروتنه: {}"
+
+msgid "Error {0}: {1}"
+msgstr "تېروتنه {0}: {1}"
 
 msgid "Error: {}"
 msgstr "تېروتنه: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "وتل"
 
-msgid "File {} not found or empty"
-msgstr "دوتنه {} ونه موندل شوه یا خالي"
-
 msgid "File Commander - Addon"
 msgstr "د فایل کمانډر - اډون"
+
+msgid "File {} not found or empty"
+msgstr "دوتنه {} ونه موندل شوه یا خالي"
 
 msgid "Green"
 msgstr "شین"
@@ -283,17 +274,11 @@ msgstr "شنه۲"
 msgid "Greta"
 msgstr "ګریټا"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "د نوي پوټکي پلي کولو لپاره GUI بیا پیل ته اړتیا لري.\nایا تاسو غواړئ GUI اوس بیا پیل کړئ؟"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "د انځور مطابقت ډله:"
-
-msgid "imperial system"
-msgstr "امپراطوري نظام"
 
 msgid "Import key {0} from {1}?"
 msgstr "کیلي {0} له {1} څخه وارد کړئ؟"
@@ -340,11 +325,11 @@ msgstr "Ins کرښه"
 msgid "Installing updates..."
 msgstr "تازه نصب کول..."
 
-msgid "Key {} successfully loaded!"
-msgstr "کیلي {} په بریالیتوب سره پورته شوه!"
-
 msgid "Key empty"
 msgstr "کیلي خالي"
+
+msgid "Key {} successfully loaded!"
+msgstr "کیلي {} په بریالیتوب سره پورته شوه!"
 
 msgid "KhalidArtboldRegular"
 msgstr "خالد ارټبولډ منظم"
@@ -358,6 +343,9 @@ msgstr "رڼا خړ"
 msgid "LimeGreen"
 msgstr "شنه شنه"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "محلي جوړونه ({}) د سرور جوړونې ({}) څخه نوی دی."
 
@@ -367,14 +355,17 @@ msgstr "د ځای کوډ"
 msgid "Lucida"
 msgstr "لوسیدا"
 
+msgid "MSN location search result"
+msgstr "د MSN ځای لټون پایله"
+
+msgid "MV Boli"
+msgstr "MV بولي"
+
 msgid "Magenta"
 msgstr "میګینټا"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "میګابایټ/s (Mb/s)"
-
-msgid "metric system"
-msgstr "میټریک سیسټم"
 
 msgid "Mint"
 msgstr "منت"
@@ -382,20 +373,11 @@ msgstr "منت"
 msgid "Mix1"
 msgstr "مخلوط 1"
 
-msgid "MSN location search result"
-msgstr "د MSN ځای لټون پایله"
-
-msgid "MV Boli"
-msgstr "MV بولي"
-
 msgid "No active providers enabled"
 msgstr "هیڅ فعال چمتو کونکي فعال شوي ندي"
 
 msgid "No description available for this option."
 msgstr "د دې اختیار لپاره هیڅ توضیح شتون نلري."
-
-msgid "Off"
-msgstr "بند"
 
 msgid "OFF"
 msgstr "بند"
@@ -412,6 +394,9 @@ msgstr "پر"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "بند"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (د نوي انځورونو ګروپ)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi ګروپ)"
 msgid "Orange"
 msgstr "نارنجي"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "ګلابي"
-
-msgid "play/show Files"
-msgstr "فایلونه پلی / ښکاره کړئ"
 
 msgid "Please enter a valid city name."
 msgstr "مهرباني وکړئ د یو معتبر ښار نوم ولیکئ."
@@ -435,9 +420,6 @@ msgstr "مهرباني وکړئ د ښار لپاره د اعتبار وړ ځای
 
 msgid "Poster download error: {}"
 msgstr "د پوستر ډاونلوډ تېروتنه: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "د پوسټر ډاونلوډ به په 2 دقیقو کې پیل شي.\nتاسو کولی شئ په خوندي ډول له دې مینو څخه ووځئ."
 
 msgid "Purple"
 msgstr "ارغواني"
@@ -484,6 +466,18 @@ msgstr "دوهم انفوبار Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI رڼا"
 
+msgid "Select EMC style."
+msgstr "د EMC سټایل غوره کړئ."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "د معلوماتو بار لپاره د پوسټر ایکس نندارې حالت غوره کړئ. شته انتخابونه په ټاکل شوي انفوبار سټایل او ECM حالت پورې اړه لري."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "د معلوماتو بار لپاره د XtraEvent نندارې حالت غوره کړئ. شته انتخابونه په ټاکل شوي انفوبار سټایل او ECM حالت پورې اړه لري."
+
+msgid "Select Your Font:"
+msgstr "خپل فونټ غوره کړئ:"
+
 msgid "Select channel list event description color."
 msgstr "د چینل لیست د پیښې توضیحاتو رنګ غوره کړئ."
 
@@ -496,17 +490,11 @@ msgstr "د چینل لیست غوره کړئ د مخکینۍ رنګ غوره ک�
 msgid "Select channel selection screen style."
 msgstr "د چینل انتخاب سکرین سټایل غوره کړئ."
 
-msgid "Select EMC style."
-msgstr "د EMC سټایل غوره کړئ."
-
 msgid "Select event view screen style."
 msgstr "د پیښې لید سکرین سټایل غوره کړئ."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "د معلوماتو بار ترتیب غوره کړئ. سټایل 5 ECM بندوي او یوازې OFF/CD پوسټر حالتونو ته اجازه ورکوي. سټایل 6 ECM، PosterX، او Xtraevent بندوي."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "د معلوماتو بار لپاره د پوسټر ایکس نندارې حالت غوره کړئ. شته انتخابونه په ټاکل شوي انفوبار سټایل او ECM حالت پورې اړه لري."
 
 msgid "Select second infobar layout."
 msgstr "د دوهم معلوماتو بار ترتیب غوره کړئ."
@@ -538,12 +526,6 @@ msgstr "د دوهم معلوماتو بار لپاره د هوا چمتو کون
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "د ECM ساحې غوره کړئ کله چې پوټکي لنډ MYEMUPARA کاروي."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "د معلوماتو بار لپاره د XtraEvent نندارې حالت غوره کړئ. شته انتخابونه په ټاکل شوي انفوبار سټایل او ECM حالت پورې اړه لري."
-
-msgid "Select Your Font:"
-msgstr "خپل فونټ غوره کړئ:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "د شاليد ډاونلوډ لپاره زموږ دقیقې وخت وټاکئ"
 
@@ -556,9 +538,6 @@ msgstr "د اپیکی سرور تنظیمات"
 msgid "Setup Aglare Skin Info"
 msgstr "د Aglare پوستکي معلومات تنظیم کړئ"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Aglare Skin\n د {0} v.{1}\n\n لپاره د Lululla @ 2020\n\n لپاره په linuxsat-support.com\n\n د ملاتړ فورم ترتیب کړئ: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "عکسونه وښایاست چې د هرې پیښې ژانر نمایندګي کوي (د مثال په توګه ، عمل ، کامیډي ، ډرامه)"
 
@@ -568,11 +547,11 @@ msgstr "په معلوماتو بار کې د ECM معلومات ښکاره کړ�
 msgid "Show or hide PosterX in the second infobar."
 msgstr "په دوهم معلوماتي بار کې پوسټر ایکس وښایاست یا پټ کړئ."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "په معلوماتو بار کې د نیټې پینل وښایاست یا پټ کړئ."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "په دوهم معلوماتي بار کې XtraEvent وښایاست یا پټ کړئ."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "په معلوماتو بار کې د نیټې پینل وښایاست یا پټ کړئ."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "په پیښو کې د والدین لارښود شبیه وښایاست ترڅو د مینځپانګې درجه بندي او د عمر مناسبیت په ګوته کړي."
@@ -631,29 +610,26 @@ msgstr "سټایل6"
 msgid "Support E2iplayer Skins:"
 msgstr "د E2iplayer پوستکي ملاتړ:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "د InfoBar SoftCSA ملاتړ:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "د SubsSupportPro سکینونو ملاتړ:"
 
 msgid "System"
 msgstr "سیسټم"
 
-msgid "Teal"
-msgstr "تېل"
-
 msgid "TEST"
 msgstr "ټیسټ"
+
+msgid "TMDB Only"
+msgstr "یوازې TMDB"
+
+msgid "Teal"
+msgstr "تېل"
 
 msgid "The file %s is empty."
 msgstr "دوتنه %s خالي ده."
 
 msgid "The file %s was not found."
 msgstr "دوتنه %s ونه موندل شوه."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "د اپډیټ فایل په /tmp کې ونه موندل شو.\nتازه کول لغوه شو."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "دا عملیات د عکس ډاونلوډ کولو لپاره د وسیلې لارې فولډر ګماري (پوسټر بیک ډراپ)"
@@ -664,11 +640,11 @@ msgstr "دا عملیات د ټاکل شوي درجه بندي سرچینې پر
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "دا عملیات د فولډر وسیلې څخه ټول png لرې کوي (پوسټر بیک ډراپ)"
 
-msgid "TMDB Only"
-msgstr "یوازې TMDB"
-
 msgid "Tomato"
 msgstr "ټماټر"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "تازه URL پیل شوی نه دی - لومړی د پلگ ان مینو څخه یو ځل پلگ ان خلاص کړئ."
 
 msgid "Update check failed: {}"
 msgstr "تازه چک ناکام شو: {}"
@@ -676,17 +652,8 @@ msgstr "تازه چک ناکام شو: {}"
 msgid "Update package not found!"
 msgstr "تازه بسته ونه موندل شوه!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "تازه URL پیل شوی نه دی - لومړی د پلگ ان مینو څخه یو ځل پلگ ان خلاص کړئ."
-
-msgid "volume2"
-msgstr "حجم2"
-
 msgid "VolumeBar Style:"
 msgstr "د حجم بار سټایل:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "خبرداری: تاسو د ډیفالټ API کیلي کاروئ!\nموږ په کلکه وړاندیز کوو چې ستاسو د API کیلي په پلگ ان ترتیباتو کې تنظیم کړئ."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: د ننوتلو سمون"
@@ -706,3 +673,92 @@ msgstr "تاسو لا دمخه وروستۍ نسخه لرئ ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "مخکې لدې چې تاسو د موقعیت کوډ لټون وکړئ تاسو اړتیا لرئ د یو معتبر ښار نوم دننه کړئ."
 
+msgid "imperial system"
+msgstr "امپراطوري نظام"
+
+msgid "metric system"
+msgstr "میټریک سیسټم"
+
+msgid "play/show Files"
+msgstr "فایلونه پلی / ښکاره کړئ"
+
+msgid "volume2"
+msgstr "حجم2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[چیکسکین] دا عملیات چک کوي چې پوټکي خپلې برخې لري (تضمین نه دی)...\n"
+#~ "ایا تاسو واقعیا غواړئ دوام ورکړئ؟"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] دا عملیات به ټول PNGs د آلې فولډر څخه لرې کړي (پوسټر بیک ډراپ)...\n"
+#~ "ایا تاسو واقعیا غواړئ دوام ورکړئ؟"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare Update ترسره شو!\n"
+#~ "ایا تاسو اوس GUI بیا پیلول غواړئ؟"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "د شالید ډاونلوډ به په 2 دقیقو کې پیل شي.\n"
+#~ "تاسو کولی شئ په خوندي ډول له دې مینو څخه ووځي."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "د نوي پوټکي پلي کولو لپاره GUI بیا پیل ته اړتیا لري.\n"
+#~ "ایا تاسو غواړئ GUI اوس بیا پیل کړئ؟"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "د پوسټر ډاونلوډ به په 2 دقیقو کې پیل شي.\n"
+#~ "تاسو کولی شئ په خوندي ډول له دې مینو څخه ووځئ."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Aglare Skin\n"
+#~ " د {0} v.{1}\n"
+#~ "\n"
+#~ " لپاره د Lululla @ 2020\n"
+#~ "\n"
+#~ " لپاره په linuxsat-support.com\n"
+#~ "\n"
+#~ " د ملاتړ فورم ترتیب کړئ: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "د InfoBar SoftCSA ملاتړ:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "د اپډیټ فایل په /tmp کې ونه موندل شو.\n"
+#~ "تازه کول لغوه شو."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "خبرداری: تاسو د ډیفالټ API کیلي کاروئ!\n"
+#~ "موږ په کلکه وړاندیز کوو چې ستاسو د API کیلي په پلگ ان ترتیباتو کې تنظیم کړئ."

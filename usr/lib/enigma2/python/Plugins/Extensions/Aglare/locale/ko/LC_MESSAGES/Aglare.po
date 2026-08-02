@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[체크스킨] 스킨에 구성요소가 있는지 확인하는 작업입니다(보장되지 않음)...\n계속하시겠습니까?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] 이 작업은 장치 폴더(포스터-배경)에서 모든 PNG를 제거합니다...\n계속하시겠습니까?"
-
 msgid "%s key imported!"
 msgstr "%s 키를 가져왔습니다!"
 
@@ -40,11 +34,11 @@ msgstr "MOLOTOV를 메타데이터 공급자로 활성화하거나 비활성화�
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "PROGRAMMETV를 메타데이터 공급자로 활성화하거나 비활성화합니다."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "추가하다"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare 업데이트가 완료되었습니다!\n지금 GUI를 다시 시작하시겠습니까?"
 
 msgid "All png are removed from folder!"
 msgstr "모든 png가 폴더에서 제거되었습니다!"
@@ -73,9 +67,6 @@ msgstr "배경"
 msgid "Backdrop download error: {}"
 msgstr "배경화면 다운로드 오류: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "2분 후에 배경화면 다운로드가 시작됩니다.\n이 메뉴를 안전하게 종료할 수 있습니다."
-
 msgid "BebasNeue"
 msgstr "무료Neue"
 
@@ -91,6 +82,9 @@ msgstr "파란색"
 msgid "Brown"
 msgstr "갈색"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + 프로토콜 + 서버 + ECM 시간"
 
@@ -99,9 +93,6 @@ msgstr "Caid + 리더 + 프로토콜 + 서버 + ECM 시간"
 
 msgid "Cancel"
 msgstr "취소"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "채널 설명 색상:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "선택 장치 다운로드 이미지 폴더"
@@ -208,14 +199,14 @@ msgstr "Aglare 다운로드 중..."
 msgid "ECM Short Format:"
 msgstr "ECM 짧은 형식:"
 
-msgid "Edit"
-msgstr "편집하다"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC 스크린 스타일:"
+
+msgid "Edit"
+msgstr "편집하다"
 
 msgid "Enable Display Genre icons:"
 msgstr "디스플레이 장르 아이콘 활성화:"
@@ -226,23 +217,20 @@ msgstr "디스플레이 InfoEvents 활성화:"
 msgid "Enable Display XMC Poster:"
 msgstr "XMC 포스터 표시 활성화:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "번들 E2iPlayer 화면을 활성화하거나 비활성화합니다."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "이벤트 다운로드 중에 캐싱을 활성화하거나 비활성화하여 반복 검색 속도를 높입니다."
-
 msgid "Enable Parental Icons:"
 msgstr "자녀 보호 아이콘 활성화:"
 
 msgid "Enable Rating Star:"
 msgstr "별점 활성화:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "번들 E2iPlayer 화면을 활성화하거나 비활성화합니다."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "이벤트 다운로드 중에 캐싱을 활성화하거나 비활성화하여 반복 검색 속도를 높입니다."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "정보 위젯에서 전체 출연진, 제작진, 플롯 세부 정보 및 기타 메타데이터를 포함한 확장 이벤트 정보 표시를 활성화합니다."
-
-msgid "Error {0}: {1}"
-msgstr "오류 {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "스킨 파일 처리 중 오류 발생: {}"
@@ -252,6 +240,9 @@ msgstr "파일을 다운로드하는 중 오류가 발생했습니다."
 
 msgid "Error loading: {}"
 msgstr "로드 중 오류 발생: {}"
+
+msgid "Error {0}: {1}"
+msgstr "오류 {0}: {1}"
 
 msgid "Error: {}"
 msgstr "오류: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "출구"
 
-msgid "File {} not found or empty"
-msgstr "파일 {}을(를) 찾을 수 없거나 비어 있습니다."
-
 msgid "File Commander - Addon"
 msgstr "파일 커맨더 - 애드온"
+
+msgid "File {} not found or empty"
+msgstr "파일 {}을(를) 찾을 수 없거나 비어 있습니다."
 
 msgid "Green"
 msgstr "녹색"
@@ -283,17 +274,11 @@ msgstr "그린2"
 msgid "Greta"
 msgstr "그레타"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "새 스킨을 적용하려면 GUI를 다시 시작해야 합니다.\n지금 GUI를 다시 시작하시겠습니까?"
-
 msgid "HandelGotD"
 msgstr "헨델갓D"
 
 msgid "Image Compatibility Group:"
 msgstr "이미지 호환성 그룹:"
-
-msgid "imperial system"
-msgstr "제국 체제"
 
 msgid "Import key {0} from {1}?"
 msgstr "{1}에서 {0} 키를 가져오시겠습니까?"
@@ -340,11 +325,11 @@ msgstr "인라인"
 msgid "Installing updates..."
 msgstr "업데이트 설치 중..."
 
-msgid "Key {} successfully loaded!"
-msgstr "키 {}이(가) 성공적으로 로드되었습니다!"
-
 msgid "Key empty"
 msgstr "키가 비어 있음"
+
+msgid "Key {} successfully loaded!"
+msgstr "키 {}이(가) 성공적으로 로드되었습니다!"
 
 msgid "KhalidArtboldRegular"
 msgstr "칼리드ArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "라이트그레이"
 msgid "LimeGreen"
 msgstr "라임그린"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "로컬 빌드({})는 서버 빌드({})보다 최신입니다."
 
@@ -367,14 +355,17 @@ msgstr "위치 코드"
 msgid "Lucida"
 msgstr "루시다"
 
+msgid "MSN location search result"
+msgstr "MSN 위치 검색 결과"
+
+msgid "MV Boli"
+msgstr "MV 볼리"
+
 msgid "Magenta"
 msgstr "마젠타"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "메가비트/초(Mb/초)"
-
-msgid "metric system"
-msgstr "미터법"
 
 msgid "Mint"
 msgstr "박하"
@@ -382,20 +373,11 @@ msgstr "박하"
 msgid "Mix1"
 msgstr "믹스1"
 
-msgid "MSN location search result"
-msgstr "MSN 위치 검색 결과"
-
-msgid "MV Boli"
-msgstr "MV 볼리"
-
 msgid "No active providers enabled"
 msgstr "활성화된 활성 공급자가 없습니다."
 
 msgid "No description available for this option."
 msgstr "이 옵션에 대한 설명이 없습니다."
-
-msgid "Off"
-msgstr "끄다"
 
 msgid "OFF"
 msgstr "끄다"
@@ -412,6 +394,9 @@ msgstr "에"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro 스킨."
 
+msgid "Off"
+msgstr "끄다"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue(새 이미지 그룹)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi 그룹)"
 msgid "Orange"
 msgstr "주황색"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "분홍색"
-
-msgid "play/show Files"
-msgstr "파일 재생/표시"
 
 msgid "Please enter a valid city name."
 msgstr "올바른 도시 이름을 입력하세요."
@@ -435,9 +420,6 @@ msgstr "도시의 유효한 위치 코드를 입력하세요."
 
 msgid "Poster download error: {}"
 msgstr "포스터 다운로드 오류: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "2분 후에 포스터 다운로드가 시작됩니다.\n이 메뉴를 안전하게 종료할 수 있습니다."
 
 msgid "Purple"
 msgstr "보라"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI 라이트"
 
+msgid "Select EMC style."
+msgstr "EMC 스타일을 선택하세요."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "정보 표시줄에 대한 PosterX 표시 모드를 선택합니다. 사용 가능한 선택 사항은 선택한 정보 표시줄 스타일과 ECM 모드에 따라 다릅니다."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "정보 표시줄에 대한 XtraEvent 표시 모드를 선택합니다. 사용 가능한 선택 사항은 선택한 정보 표시줄 스타일과 ECM 모드에 따라 다릅니다."
+
+msgid "Select Your Font:"
+msgstr "글꼴을 선택하세요:"
+
 msgid "Select channel list event description color."
 msgstr "채널 목록 이벤트 설명 색상을 선택합니다."
 
@@ -496,17 +490,11 @@ msgstr "전경색을 선택한 채널 목록을 선택합니다."
 msgid "Select channel selection screen style."
 msgstr "채널 선택 화면 스타일을 선택합니다."
 
-msgid "Select EMC style."
-msgstr "EMC 스타일을 선택하세요."
-
 msgid "Select event view screen style."
 msgstr "이벤트 보기 화면 스타일을 선택합니다."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "정보 표시줄 레이아웃을 선택하세요. Style5는 ECM을 강제로 끄고 OFF/CD 포스터 모드만 허용합니다. Style6은 ECM, PosterX 및 Xtraevent를 강제로 끕니다."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "정보 표시줄에 대한 PosterX 표시 모드를 선택합니다. 사용 가능한 선택 사항은 선택한 정보 표시줄 스타일과 ECM 모드에 따라 다릅니다."
 
 msgid "Select second infobar layout."
 msgstr "두 번째 정보 표시줄 레이아웃을 선택하세요."
@@ -538,12 +526,6 @@ msgstr "두 번째 정보 표시줄에 대한 날씨 공급자 표시를 선택�
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "스킨이 Short MYEMUPARA를 사용할 때 표시되는 ECM 필드를 선택합니다."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "정보 표시줄에 대한 XtraEvent 표시 모드를 선택합니다. 사용 가능한 선택 사항은 선택한 정보 표시줄 스타일과 ECM 모드에 따라 다릅니다."
-
-msgid "Select Your Font:"
-msgstr "글꼴을 선택하세요:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "배경화면 다운로드 시간을 분으로 설정하세요."
 
@@ -556,9 +538,6 @@ msgstr "설정 APIkey 서버"
 msgid "Setup Aglare Skin Info"
 msgstr "Aglare 스킨 정보 설정"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "{0} v.{1}\n\n용 Aglare Skin\n 설정Lululla의 @2020\n\n지원 포럼 linuxsat-support.com\n\nSkinner 작성자: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "각 이벤트의 장르(예: 액션, 코미디, 드라마)를 나타내는 아이콘 표시"
 
@@ -568,11 +547,11 @@ msgstr "정보 표시줄에 ECM 정보를 표시하거나 숨깁니다."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "두 번째 정보 표시줄에 PosterX를 표시하거나 숨깁니다."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "정보 표시줄에 날짜 패널을 표시하거나 숨깁니다."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "두 번째 정보 표시줄에 XtraEvent를 표시하거나 숨깁니다."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "정보 표시줄에 날짜 패널을 표시하거나 숨깁니다."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "콘텐츠 등급 및 연령 적합성을 나타내기 위해 이벤트에 부모 지도 아이콘을 표시합니다."
@@ -631,29 +610,26 @@ msgstr "스타일6"
 msgid "Support E2iplayer Skins:"
 msgstr "E2iplayer 스킨 지원:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "InfoBar SoftCSA 지원:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "SubsSupportPro 스킨 지원:"
 
 msgid "System"
 msgstr "체계"
 
-msgid "Teal"
-msgstr "물오리"
-
 msgid "TEST"
 msgstr "시험"
+
+msgid "TMDB Only"
+msgstr "TMDB만"
+
+msgid "Teal"
+msgstr "물오리"
 
 msgid "The file %s is empty."
 msgstr "%s 파일이 비어 있습니다."
 
 msgid "The file %s was not found."
 msgstr "%s 파일을 찾을 수 없습니다."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "/tmp에서 업데이트 파일을 찾을 수 없습니다.\n업데이트가 중단되었습니다."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "이 작업은 이미지(포스터-배경)를 다운로드할 장치 경로 폴더를 할당합니다."
@@ -664,11 +640,11 @@ msgstr "이 작업을 통해 선택한 평가 소스를 기반으로 이벤트�
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "이 작업은 폴더 장치(포스터-배경)에서 모든 png를 제거합니다."
 
-msgid "TMDB Only"
-msgstr "TMDB만"
-
 msgid "Tomato"
 msgstr "토마토"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "업데이트 URL이 초기화되지 않았습니다. 먼저 플러그인 메뉴에서 플러그인을 한 번 엽니다."
 
 msgid "Update check failed: {}"
 msgstr "업데이트 확인 실패: {}"
@@ -676,17 +652,8 @@ msgstr "업데이트 확인 실패: {}"
 msgid "Update package not found!"
 msgstr "업데이트 패키지를 찾을 수 없습니다!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "업데이트 URL이 초기화되지 않았습니다. 먼저 플러그인 메뉴에서 플러그인을 한 번 엽니다."
-
-msgid "volume2"
-msgstr "2권"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar 스타일:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "경고: 기본 API 키를 사용하고 있습니다!\n플러그인 설정에서 자체 API 키를 구성하는 것이 좋습니다."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: 항목 편집"
@@ -706,3 +673,92 @@ msgstr "이미 최신 버전({})이 있습니다."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "위치 코드를 검색하려면 유효한 도시 이름을 입력해야 합니다."
 
+msgid "imperial system"
+msgstr "제국 체제"
+
+msgid "metric system"
+msgstr "미터법"
+
+msgid "play/show Files"
+msgstr "파일 재생/표시"
+
+msgid "volume2"
+msgstr "2권"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[체크스킨] 스킨에 구성요소가 있는지 확인하는 작업입니다(보장되지 않음)...\n"
+#~ "계속하시겠습니까?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] 이 작업은 장치 폴더(포스터-배경)에서 모든 PNG를 제거합니다...\n"
+#~ "계속하시겠습니까?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare 업데이트가 완료되었습니다!\n"
+#~ "지금 GUI를 다시 시작하시겠습니까?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "2분 후에 배경화면 다운로드가 시작됩니다.\n"
+#~ "이 메뉴를 안전하게 종료할 수 있습니다."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "새 스킨을 적용하려면 GUI를 다시 시작해야 합니다.\n"
+#~ "지금 GUI를 다시 시작하시겠습니까?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "2분 후에 포스터 다운로드가 시작됩니다.\n"
+#~ "이 메뉴를 안전하게 종료할 수 있습니다."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "{0} v.{1}\n"
+#~ "\n"
+#~ "용 Aglare Skin\n"
+#~ " 설정Lululla의 @2020\n"
+#~ "\n"
+#~ "지원 포럼 linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner 작성자: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "InfoBar SoftCSA 지원:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "/tmp에서 업데이트 파일을 찾을 수 없습니다.\n"
+#~ "업데이트가 중단되었습니다."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "경고: 기본 API 키를 사용하고 있습니다!\n"
+#~ "플러그인 설정에서 자체 API 키를 구성하는 것이 좋습니다."

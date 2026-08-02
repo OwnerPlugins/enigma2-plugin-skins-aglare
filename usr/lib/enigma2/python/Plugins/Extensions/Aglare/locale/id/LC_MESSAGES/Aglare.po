@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Operasi ini memeriksa apakah skin memiliki komponennya (tidak dijamin)...\nApakah Anda benar-benar ingin melanjutkan?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Operasi ini akan menghapus semua PNG dari folder perangkat (Poster-Backdrop)...\nApakah Anda benar-benar ingin melanjutkan?"
-
 msgid "%s key imported!"
 msgstr "Kunci %s diimpor!"
 
@@ -40,11 +34,11 @@ msgstr "Aktifkan atau nonaktifkan MOLOTOV sebagai penyedia metadata."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktifkan atau nonaktifkan PROGRAMMETV sebagai penyedia metadata."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Menambahkan"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Pembaruan aglare telah selesai!\nApakah Anda ingin memulai ulang GUI sekarang?"
 
 msgid "All png are removed from folder!"
 msgstr "Semua png dihapus dari folder!"
@@ -73,9 +67,6 @@ msgstr "Latar belakang"
 msgid "Backdrop download error: {}"
 msgstr "Kesalahan pengunduhan latar belakang: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Pengunduhan tampilan latar akan dimulai dalam 2 menit.\nAnda dapat keluar dari menu ini dengan aman."
-
 msgid "BebasNeue"
 msgstr "BebasNeue"
 
@@ -91,6 +82,9 @@ msgstr "Biru"
 msgid "Brown"
 msgstr "Cokelat"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokol + Server + Waktu ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Pembaca + Protokol + Server + Waktu ECM"
 
 msgid "Cancel"
 msgstr "Membatalkan"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Warna Deskripsi Saluran:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Poster"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "Pilihan Saluran_NO_Poster_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Folder gambar unduhan perangkat pilihan"
@@ -208,14 +199,14 @@ msgstr "Mengunduh Aglare..."
 msgid "ECM Short Format:"
 msgstr "Format Pendek ECM:"
 
-msgid "Edit"
-msgstr "Sunting"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Layar EMC Gaya:"
+
+msgid "Edit"
+msgstr "Sunting"
 
 msgid "Enable Display Genre icons:"
 msgstr "Aktifkan ikon Genre Tampilan:"
@@ -226,23 +217,20 @@ msgstr "Aktifkan Tampilkan InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Aktifkan Tampilan Poster XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Mengaktifkan atau menonaktifkan layar E2iPlayer yang dibundel."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Mengaktifkan atau menonaktifkan cache selama pengunduhan acara untuk mempercepat pencarian berulang."
-
 msgid "Enable Parental Icons:"
 msgstr "Aktifkan Ikon Orang Tua:"
 
 msgid "Enable Rating Star:"
 msgstr "Aktifkan Peringkat Bintang:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Mengaktifkan atau menonaktifkan layar E2iPlayer yang dibundel."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Mengaktifkan atau menonaktifkan cache selama pengunduhan acara untuk mempercepat pencarian berulang."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktifkan tampilan informasi acara tambahan, termasuk pemeran lengkap, kru, detail plot, dan metadata lainnya, di widget info."
-
-msgid "Error {0}: {1}"
-msgstr "Kesalahan {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Kesalahan saat memproses file skin: {}"
@@ -252,6 +240,9 @@ msgstr "Kesalahan saat mengunduh file!"
 
 msgid "Error loading: {}"
 msgstr "Kesalahan saat memuat: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Kesalahan {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Kesalahan: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Poster"
 msgid "Exit"
 msgstr "KELUAR"
 
-msgid "File {} not found or empty"
-msgstr "File {} tidak ditemukan atau kosong"
-
 msgid "File Commander - Addon"
 msgstr "Komandan File - Addon"
+
+msgid "File {} not found or empty"
+msgstr "File {} tidak ditemukan atau kosong"
 
 msgid "Green"
 msgstr "Hijau"
@@ -283,17 +274,11 @@ msgstr "Hijau2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI memerlukan restart untuk menerapkan skin baru.\nApakah Anda ingin Restart GUI sekarang?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Grup Kompatibilitas Gambar:"
-
-msgid "imperial system"
-msgstr "sistem kekaisaran"
 
 msgid "Import key {0} from {1}?"
 msgstr "Impor kunci {0} dari {1}?"
@@ -340,11 +325,11 @@ msgstr "Garis In"
 msgid "Installing updates..."
 msgstr "Menginstal pembaruan..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Kunci {} berhasil dimuat!"
-
 msgid "Key empty"
 msgstr "Kunci kosong"
+
+msgid "Key {} successfully loaded!"
+msgstr "Kunci {} berhasil dimuat!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldReguler"
@@ -358,6 +343,9 @@ msgstr "Abu-abu Muda"
 msgid "LimeGreen"
 msgstr "hijau limau"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Build lokal ({}) lebih baru dari build server ({})."
 
@@ -367,14 +355,17 @@ msgstr "Kode lokasi"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Hasil pencarian lokasi MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "ungu"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/dtk (Mb/dtk)"
-
-msgid "metric system"
-msgstr "sistem metrik"
 
 msgid "Mint"
 msgstr "daun mint"
@@ -382,20 +373,11 @@ msgstr "daun mint"
 msgid "Mix1"
 msgstr "Campuran1"
 
-msgid "MSN location search result"
-msgstr "Hasil pencarian lokasi MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Tidak ada penyedia aktif yang diaktifkan"
 
 msgid "No description available for this option."
 msgstr "Tidak ada deskripsi yang tersedia untuk opsi ini."
-
-msgid "Off"
-msgstr "Mati"
 
 msgid "OFF"
 msgstr "MATI"
@@ -412,6 +394,9 @@ msgstr "PADA"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "HIDUP/MATI SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Mati"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Grup Gambar Baru)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlooge (Grup OpenPLi)"
 msgid "Orange"
 msgstr "Oranye"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Berwarna merah muda"
-
-msgid "play/show Files"
-msgstr "memutar/menampilkan File"
 
 msgid "Please enter a valid city name."
 msgstr "Silakan masukkan nama kota yang valid."
@@ -435,9 +420,6 @@ msgstr "Silakan masukkan kode lokasi yang valid untuk kota tersebut."
 
 msgid "Poster download error: {}"
 msgstr "Kesalahan pengunduhan poster: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Pengunduhan poster akan dimulai dalam 2 menit.\nAnda dapat keluar dari menu ini dengan aman."
 
 msgid "Purple"
 msgstr "Ungu"
@@ -484,6 +466,18 @@ msgstr "Acara XtraInfobar Kedua:"
 msgid "Segoe UI light"
 msgstr "Lampu Segoe UI"
 
+msgid "Select EMC style."
+msgstr "Pilih gaya EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Pilih mode tampilan PosterX untuk bilah info. Pilihan yang tersedia bergantung pada gaya bilah info dan mode ECM yang dipilih."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Pilih mode tampilan XtraEvent untuk bilah info. Pilihan yang tersedia bergantung pada gaya bilah info dan mode ECM yang dipilih."
+
+msgid "Select Your Font:"
+msgstr "Pilih Font Anda:"
+
 msgid "Select channel list event description color."
 msgstr "Pilih warna deskripsi acara daftar saluran."
 
@@ -496,17 +490,11 @@ msgstr "Pilih daftar saluran warna latar depan yang dipilih."
 msgid "Select channel selection screen style."
 msgstr "Pilih gaya layar pemilihan saluran."
 
-msgid "Select EMC style."
-msgstr "Pilih gaya EMC."
-
 msgid "Select event view screen style."
 msgstr "Pilih gaya layar tampilan acara."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Pilih tata letak bilah info. Style5 mematikan ECM dan hanya mengizinkan mode poster OFF/CD. Style6 memaksa ECM, PosterX, dan Xtraevent mati."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Pilih mode tampilan PosterX untuk bilah info. Pilihan yang tersedia bergantung pada gaya bilah info dan mode ECM yang dipilih."
 
 msgid "Select second infobar layout."
 msgstr "Pilih tata letak bilah info kedua."
@@ -538,12 +526,6 @@ msgstr "Pilih tampilan penyedia cuaca untuk infobar kedua."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Pilih bidang ECM mana yang ditampilkan ketika skin menggunakan MYEMUPARA Pendek."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Pilih mode tampilan XtraEvent untuk bilah info. Pilihan yang tersedia bergantung pada gaya bilah info dan mode ECM yang dipilih."
-
-msgid "Select Your Font:"
-msgstr "Pilih Font Anda:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Tetapkan Waktu - menit untuk pengunduhan Latar Belakang"
 
@@ -556,9 +538,6 @@ msgstr "Pengaturan Server Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Siapkan Info Kulit Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Setup Aglare Skin\nuntuk {0} v.{1}\n\noleh Lululla @2020\n\nForum dukungan di linuxsat-support.com\n\nPembuat skinner: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Tampilkan ikon yang mewakili genre setiap acara (misalnya aksi, komedi, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Menampilkan atau menyembunyikan informasi ECM di bilah info."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Tampilkan atau sembunyikan PosterX di bilah info kedua."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Menampilkan atau menyembunyikan panel tanggal di bilah info."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Tampilkan atau sembunyikan XtraEvent di bilah info kedua."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Menampilkan atau menyembunyikan panel tanggal di bilah info."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Tampilkan ikon panduan orang tua di acara untuk menunjukkan rating konten dan kesesuaian usia."
@@ -631,29 +610,26 @@ msgstr "Gaya6"
 msgid "Support E2iplayer Skins:"
 msgstr "Mendukung Kulit E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Dukungan InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Mendukung Kulit SubsSupportPro:"
 
 msgid "System"
 msgstr "Sistem"
 
-msgid "Teal"
-msgstr "teal"
-
 msgid "TEST"
 msgstr "TES"
+
+msgid "TMDB Only"
+msgstr "Hanya TMDB"
+
+msgid "Teal"
+msgstr "teal"
 
 msgid "The file %s is empty."
 msgstr "Berkas %s kosong."
 
 msgid "The file %s was not found."
 msgstr "Berkas %s tidak ditemukan."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "File pembaruan tidak ditemukan di /tmp.\nUpdate dibatalkan."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Operasi ini menetapkan folder jalur perangkat untuk mengunduh gambar (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Operasi ini mengaktifkan tampilan bintang peringkat untuk acara, berdasa
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Operasi ini menghapus semua png dari perangkat folder (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Hanya TMDB"
-
 msgid "Tomato"
 msgstr "Tomat"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Perbarui URL tidak diinisialisasi – buka plugin sekali dari menu Plugins terlebih dahulu."
 
 msgid "Update check failed: {}"
 msgstr "Pemeriksaan pembaruan gagal: {}"
@@ -676,17 +652,8 @@ msgstr "Pemeriksaan pembaruan gagal: {}"
 msgid "Update package not found!"
 msgstr "Paket pembaruan tidak ditemukan!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Perbarui URL tidak diinisialisasi – buka plugin sekali dari menu Plugins terlebih dahulu."
-
-msgid "volume2"
-msgstr "volume2"
-
 msgid "VolumeBar Style:"
 msgstr "Gaya Bilah Volume:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Peringatan: Anda menggunakan kunci API default!\nKami sangat menyarankan untuk mengonfigurasi kunci API Anda sendiri di pengaturan plugin."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Edit Entri"
@@ -706,3 +673,92 @@ msgstr "Anda sudah memiliki versi terbaru ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Anda harus memasukkan nama kota yang valid sebelum dapat mencari kode lokasi."
 
+msgid "imperial system"
+msgstr "sistem kekaisaran"
+
+msgid "metric system"
+msgstr "sistem metrik"
+
+msgid "play/show Files"
+msgstr "memutar/menampilkan File"
+
+msgid "volume2"
+msgstr "volume2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Operasi ini memeriksa apakah skin memiliki komponennya (tidak dijamin)...\n"
+#~ "Apakah Anda benar-benar ingin melanjutkan?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Operasi ini akan menghapus semua PNG dari folder perangkat (Poster-Backdrop)...\n"
+#~ "Apakah Anda benar-benar ingin melanjutkan?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Pembaruan aglare telah selesai!\n"
+#~ "Apakah Anda ingin memulai ulang GUI sekarang?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Pengunduhan tampilan latar akan dimulai dalam 2 menit.\n"
+#~ "Anda dapat keluar dari menu ini dengan aman."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI memerlukan restart untuk menerapkan skin baru.\n"
+#~ "Apakah Anda ingin Restart GUI sekarang?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Pengunduhan poster akan dimulai dalam 2 menit.\n"
+#~ "Anda dapat keluar dari menu ini dengan aman."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Setup Aglare Skin\n"
+#~ "untuk {0} v.{1}\n"
+#~ "\n"
+#~ "oleh Lululla @2020\n"
+#~ "\n"
+#~ "Forum dukungan di linuxsat-support.com\n"
+#~ "\n"
+#~ "Pembuat skinner: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Dukungan InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "File pembaruan tidak ditemukan di /tmp.\n"
+#~ "Update dibatalkan."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Peringatan: Anda menggunakan kunci API default!\n"
+#~ "Kami sangat menyarankan untuk mengonfigurasi kunci API Anda sendiri di pengaturan plugin."

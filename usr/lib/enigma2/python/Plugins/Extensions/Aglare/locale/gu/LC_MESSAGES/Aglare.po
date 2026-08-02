@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[ચેકસ્કીન] આ ઑપરેશન તપાસે છે કે શું ત્વચામાં તેના ઘટકો છે (ગેરંટી નથી)...\nશું તમે ખરેખર ચાલુ રાખવા માંગો છો?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] આ ઑપરેશન ઉપકરણ ફોલ્ડર (પોસ્ટર-બેકડ્રોપ)માંથી તમામ PNG ને દૂર કરશે...\nશું તમે ખરેખર ચાલુ રાખવા માંગો છો?"
-
 msgid "%s key imported!"
 msgstr "%s કી આયાત કરી!"
 
@@ -40,11 +34,11 @@ msgstr "મેટાડેટા પ્રદાતા તરીકે MOLOTOV �
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "મેટાડેટા પ્રદાતા તરીકે PROGRAMMETV ને સક્રિય અથવા નિષ્ક્રિય કરો."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "ઉમેરો"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare અપડેટ થઈ ગયું!\nશું તમે GUI ને હવે પુનઃપ્રારંભ કરવા માંગો છો?"
 
 msgid "All png are removed from folder!"
 msgstr "બધા png ફોલ્ડરમાંથી દૂર કરવામાં આવે છે!"
@@ -73,9 +67,6 @@ msgstr "બેકડ્રોપ"
 msgid "Backdrop download error: {}"
 msgstr "બેકડ્રોપ ડાઉનલોડ ભૂલ: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "બેકડ્રોપ ડાઉનલોડ 2 મિનિટમાં શરૂ થશે.\nતમે સુરક્ષિત રીતે આ મેનૂમાંથી બહાર નીકળી શકો છો."
-
 msgid "BebasNeue"
 msgstr "ફ્રીન્યુ"
 
@@ -91,6 +82,9 @@ msgstr "વાદળી"
 msgid "Brown"
 msgstr "બ્રાઉન"
 
+msgid "CD"
+msgstr "સીડી"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + પ્રોટોકોલ + સર્વર + ECM સમય"
 
@@ -99,9 +93,6 @@ msgstr "Caid + રીડર + પ્રોટોકોલ + સર્વર + EC
 
 msgid "Cancel"
 msgstr "રદ કરો"
-
-msgid "CD"
-msgstr "સીડી"
 
 msgid "Channel Description Color:"
 msgstr "ચેનલ વર્ણન રંગ:"
@@ -151,14 +142,14 @@ msgstr "ચેનલ પસંદગી_બેકડ્રોપ_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ચેનલ પસંદગી_બેકડ્રોપ_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ચેનલ પસંદગી_મોટી_મિની_ટીવી"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ચેનલ પસંદગી_NO_પોસ્ટર્સ"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ચેનલ પસંદગી_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ચેનલ પસંદગી_મોટી_મિની_ટીવી"
 
 msgid "Choice device download image folder"
 msgstr "પસંદગી ઉપકરણ ડાઉનલોડ છબી ફોલ્ડર"
@@ -208,14 +199,14 @@ msgstr "Aglare ડાઉનલોડ કરી રહ્યું છે..."
 msgid "ECM Short Format:"
 msgstr "ECM ટૂંકું ફોર્મેટ:"
 
-msgid "Edit"
-msgstr "સંપાદિત કરો"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC સ્ક્રીન શૈલી:"
+
+msgid "Edit"
+msgstr "સંપાદિત કરો"
 
 msgid "Enable Display Genre icons:"
 msgstr "ડિસ્પ્લે શૈલીના ચિહ્નોને સક્ષમ કરો:"
@@ -226,23 +217,20 @@ msgstr "પ્રદર્શન માહિતી ઇવેન્ટ્સ સ
 msgid "Enable Display XMC Poster:"
 msgstr "ડિસ્પ્લે XMC પોસ્ટરને સક્ષમ કરો:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "બંડલ E2iPlayer સ્ક્રીનને સક્ષમ અથવા અક્ષમ કરો."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "પુનરાવર્તિત શોધને ઝડપી બનાવવા માટે ઇવેન્ટ ડાઉનલોડ દરમિયાન કેશીંગને સક્ષમ અથવા અક્ષમ કરો."
-
 msgid "Enable Parental Icons:"
 msgstr "પેરેંટલ ચિહ્નો સક્ષમ કરો:"
 
 msgid "Enable Rating Star:"
 msgstr "રેટિંગ સ્ટાર સક્ષમ કરો:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "બંડલ E2iPlayer સ્ક્રીનને સક્ષમ અથવા અક્ષમ કરો."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "પુનરાવર્તિત શોધને ઝડપી બનાવવા માટે ઇવેન્ટ ડાઉનલોડ દરમિયાન કેશીંગને સક્ષમ અથવા અક્ષમ કરો."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "માહિતી વિજેટમાં સંપૂર્ણ કાસ્ટ, ક્રૂ, પ્લોટ વિગતો અને અન્ય મેટાડેટા સહિત વિસ્તૃત ઇવેન્ટ માહિતીના પ્રદર્શનને સક્ષમ કરો."
-
-msgid "Error {0}: {1}"
-msgstr "ભૂલ {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "ત્વચા ફાઇલ પર પ્રક્રિયા કરવામાં ભૂલ: {}"
@@ -252,6 +240,9 @@ msgstr "ફાઇલો ડાઉનલોડ કરવામાં ભૂલ!"
 
 msgid "Error loading: {}"
 msgstr "લોડ કરવામાં ભૂલ: {}"
+
+msgid "Error {0}: {1}"
+msgstr "ભૂલ {0}: {1}"
 
 msgid "Error: {}"
 msgstr "ભૂલ: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "બહાર નીકળો"
 
-msgid "File {} not found or empty"
-msgstr "ફાઇલ {} મળી નથી અથવા ખાલી છે"
-
 msgid "File Commander - Addon"
 msgstr "ફાઇલ કમાન્ડર - એડન"
+
+msgid "File {} not found or empty"
+msgstr "ફાઇલ {} મળી નથી અથવા ખાલી છે"
 
 msgid "Green"
 msgstr "લીલા"
@@ -283,17 +274,11 @@ msgstr "લીલો2"
 msgid "Greta"
 msgstr "ગ્રેટા"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "નવી સ્કીન લાગુ કરવા માટે GUI ને પુનઃપ્રારંભ કરવાની જરૂર છે.\nશું તમે GUI ને હમણાં પુનઃપ્રારંભ કરવા માંગો છો?"
-
 msgid "HandelGotD"
 msgstr "હેન્ડેલગોટડી"
 
 msgid "Image Compatibility Group:"
 msgstr "છબી સુસંગતતા જૂથ:"
-
-msgid "imperial system"
-msgstr "શાહી સિસ્ટમ"
 
 msgid "Import key {0} from {1}?"
 msgstr "{1} માંથી {0} કી આયાત કરીએ?"
@@ -340,11 +325,11 @@ msgstr "ઇન્સ લાઇન"
 msgid "Installing updates..."
 msgstr "અપડેટ્સ ઇન્સ્ટોલ કરી રહ્યાં છીએ..."
 
-msgid "Key {} successfully loaded!"
-msgstr "કી {} સફળતાપૂર્વક લોડ થઈ!"
-
 msgid "Key empty"
 msgstr "ચાવી ખાલી"
+
+msgid "Key {} successfully loaded!"
+msgstr "કી {} સફળતાપૂર્વક લોડ થઈ!"
 
 msgid "KhalidArtboldRegular"
 msgstr "ખાલિદઆર્ટબોલ્ડરેગ્યુલર"
@@ -358,6 +343,9 @@ msgstr "આછો ગ્રે"
 msgid "LimeGreen"
 msgstr "ચૂનો લીલો"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "લોકલ બિલ્ડ ({}) સર્વર બિલ્ડ ({}) કરતાં નવું છે."
 
@@ -367,14 +355,17 @@ msgstr "સ્થાન કોડ"
 msgid "Lucida"
 msgstr "લ્યુસિડા"
 
+msgid "MSN location search result"
+msgstr "MSN સ્થાન શોધ પરિણામ"
+
+msgid "MV Boli"
+msgstr "એમવી બોલી"
+
 msgid "Magenta"
 msgstr "કિરમજી"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "મેટ્રિક સિસ્ટમ"
 
 msgid "Mint"
 msgstr "ટંકશાળ"
@@ -382,20 +373,11 @@ msgstr "ટંકશાળ"
 msgid "Mix1"
 msgstr "મિક્સ1"
 
-msgid "MSN location search result"
-msgstr "MSN સ્થાન શોધ પરિણામ"
-
-msgid "MV Boli"
-msgstr "એમવી બોલી"
-
 msgid "No active providers enabled"
 msgstr "કોઈ સક્રિય પ્રદાતાઓ સક્ષમ નથી"
 
 msgid "No description available for this option."
 msgstr "આ વિકલ્પ માટે કોઈ વર્ણન ઉપલબ્ધ નથી."
-
-msgid "Off"
-msgstr "બંધ"
 
 msgid "OFF"
 msgstr "બંધ"
@@ -412,6 +394,9 @@ msgstr "ચાલુ"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "સબસપોર્ટપ્રો સ્કિન્સ ચાલુ/બંધ."
 
+msgid "Off"
+msgstr "બંધ"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (નવી છબીઓ જૂથ)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi ગ્રુપ)"
 msgid "Orange"
 msgstr "નારંગી"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "ગુલાબી"
-
-msgid "play/show Files"
-msgstr "ફાઇલો ચલાવો/શો"
 
 msgid "Please enter a valid city name."
 msgstr "કૃપા કરીને એક માન્ય શહેરનું નામ દાખલ કરો."
@@ -435,9 +420,6 @@ msgstr "કૃપા કરીને શહેર માટે માન્ય �
 
 msgid "Poster download error: {}"
 msgstr "પોસ્ટર ડાઉનલોડ ભૂલ: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "પોસ્ટર ડાઉનલોડ 2 મિનિટમાં શરૂ થશે.\nતમે સુરક્ષિત રીતે આ મેનૂમાંથી બહાર નીકળી શકો છો."
 
 msgid "Purple"
 msgstr "જાંબલી"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI લાઇટ"
 
+msgid "Select EMC style."
+msgstr "EMC શૈલી પસંદ કરો."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ઇન્ફોબાર માટે PosterX ડિસ્પ્લે મોડ પસંદ કરો. ઉપલબ્ધ પસંદગીઓ પસંદ કરેલ ઇન્ફોબાર શૈલી અને ECM મોડ પર આધારિત છે."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ઇન્ફોબાર માટે XtraEvent ડિસ્પ્લે મોડ પસંદ કરો. ઉપલબ્ધ પસંદગીઓ પસંદ કરેલ ઇન્ફોબાર શૈલી અને ECM મોડ પર આધારિત છે."
+
+msgid "Select Your Font:"
+msgstr "તમારો ફોન્ટ પસંદ કરો:"
+
 msgid "Select channel list event description color."
 msgstr "ચેનલ સૂચિ ઇવેન્ટ વર્ણન રંગ પસંદ કરો."
 
@@ -496,17 +490,11 @@ msgstr "ચેનલ યાદી પસંદ કરેલ ફોરગ્ર�
 msgid "Select channel selection screen style."
 msgstr "ચેનલ પસંદગી સ્ક્રીન શૈલી પસંદ કરો."
 
-msgid "Select EMC style."
-msgstr "EMC શૈલી પસંદ કરો."
-
 msgid "Select event view screen style."
 msgstr "ઇવેન્ટ દૃશ્ય સ્ક્રીન શૈલી પસંદ કરો."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "ઇન્ફોબાર લેઆઉટ પસંદ કરો. Style5 ECM બંધ કરવા દબાણ કરે છે અને માત્ર OFF/CD પોસ્ટર મોડને મંજૂરી આપે છે. Style6 ECM, PosterX અને Xtraevent બંધ કરવા દબાણ કરે છે."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "ઇન્ફોબાર માટે PosterX ડિસ્પ્લે મોડ પસંદ કરો. ઉપલબ્ધ પસંદગીઓ પસંદ કરેલ ઇન્ફોબાર શૈલી અને ECM મોડ પર આધારિત છે."
 
 msgid "Select second infobar layout."
 msgstr "સેકન્ડ ઇન્ફોબાર લેઆઉટ પસંદ કરો."
@@ -538,12 +526,6 @@ msgstr "બીજા ઇન્ફોબાર માટે હવામાન �
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "જ્યારે ત્વચા શોર્ટ માયમુપારાનો ઉપયોગ કરે છે ત્યારે કયા ECM ક્ષેત્રો બતાવવામાં આવે છે તે પસંદ કરો."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "ઇન્ફોબાર માટે XtraEvent ડિસ્પ્લે મોડ પસંદ કરો. ઉપલબ્ધ પસંદગીઓ પસંદ કરેલ ઇન્ફોબાર શૈલી અને ECM મોડ પર આધારિત છે."
-
-msgid "Select Your Font:"
-msgstr "તમારો ફોન્ટ પસંદ કરો:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "બેકડ્રોપ ડાઉનલોડ માટે અમારો - મિનિટનો સમય સેટ કરો"
 
@@ -556,9 +538,6 @@ msgstr "સેટિંગ્સ Apikey સર્વર"
 msgid "Setup Aglare Skin Info"
 msgstr "Aglare ત્વચા માહિતી સેટઅપ"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Lululla @2020\n\n દ્વારા {0} v.{1}\n\n માટે Aglare Skin\n સેટઅપ કરો"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "દરેક ઇવેન્ટની શૈલીનું પ્રતિનિધિત્વ કરતા ચિહ્નો બતાવો (દા.ત., એક્શન, કોમેડી, ડ્રામા)"
 
@@ -568,11 +547,11 @@ msgstr "માહિતી બારમાં ECM માહિતી બતા�
 msgid "Show or hide PosterX in the second infobar."
 msgstr "બીજા ઇન્ફોબારમાં PosterX બતાવો અથવા છુપાવો."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "માહિતી બારમાં તારીખ પેનલ બતાવો અથવા છુપાવો."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "બીજા ઇન્ફોબારમાં XtraEvent બતાવો અથવા છુપાવો."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "માહિતી બારમાં તારીખ પેનલ બતાવો અથવા છુપાવો."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "સામગ્રી રેટિંગ અને વય અનુરૂપતા સૂચવવા માટે ઇવેન્ટ્સ પર પેરેંટલ માર્ગદર્શન ચિહ્નો બતાવો."
@@ -631,29 +610,26 @@ msgstr "શૈલી6"
 msgid "Support E2iplayer Skins:"
 msgstr "E2iplayer સ્કિન્સને સપોર્ટ કરો:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "InfoBar SoftCSA ને સપોર્ટ કરો:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "સપોર્ટ સબસપોર્ટપ્રો સ્કિન્સ:"
 
 msgid "System"
 msgstr "સિસ્ટમ"
 
-msgid "Teal"
-msgstr "ટીલ"
-
 msgid "TEST"
 msgstr "ટેસ્ટ"
+
+msgid "TMDB Only"
+msgstr "માત્ર TMDB"
+
+msgid "Teal"
+msgstr "ટીલ"
 
 msgid "The file %s is empty."
 msgstr "ફાઇલ %s ખાલી છે."
 
 msgid "The file %s was not found."
 msgstr "ફાઇલ %s મળી ન હતી."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "અપડેટ ફાઇલ /tmp.\nમાં મળી ન હતી."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "આ ઑપરેશન ઇમેજ ડાઉનલોડ કરવા માટે ડિવાઇસ પાથ ફોલ્ડરને અસાઇન કરે છે (પોસ્ટર-બેકડ્રોપ)"
@@ -664,11 +640,11 @@ msgstr "આ ઑપરેશન પસંદ કરેલા રેટિંગ �
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "આ ઑપરેશન ફોલ્ડર ઉપકરણમાંથી તમામ png દૂર કરે છે (પોસ્ટર-બેકડ્રોપ)"
 
-msgid "TMDB Only"
-msgstr "માત્ર TMDB"
-
 msgid "Tomato"
 msgstr "ટામેટા"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "અપડેટ URL પ્રારંભ કરેલ નથી - પ્રથમ પ્લગઇન્સ મેનૂમાંથી એકવાર પ્લગઇન ખોલો."
 
 msgid "Update check failed: {}"
 msgstr "અપડેટ ચેક નિષ્ફળ થયું: {}"
@@ -676,17 +652,8 @@ msgstr "અપડેટ ચેક નિષ્ફળ થયું: {}"
 msgid "Update package not found!"
 msgstr "અપડેટ પેકેજ મળ્યું નથી!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "અપડેટ URL પ્રારંભ કરેલ નથી - પ્રથમ પ્લગઇન્સ મેનૂમાંથી એકવાર પ્લગઇન ખોલો."
-
-msgid "volume2"
-msgstr "વોલ્યુમ2"
-
 msgid "VolumeBar Style:"
 msgstr "વોલ્યુમબાર શૈલી:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "ચેતવણી: તમે ડિફૉલ્ટ API કીનો ઉપયોગ કરી રહ્યાં છો!\nઅમે પ્લગઇન સેટિંગ્સમાં તમારી પોતાની API કીને ગોઠવવાની ભારપૂર્વક ભલામણ કરીએ છીએ."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "વેધરપ્લગઇન: એન્ટ્રી સંપાદિત કરો"
@@ -706,3 +673,90 @@ msgstr "તમારી પાસે પહેલેથી જ નવીનત�
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "તમે સ્થાન કોડ શોધી શકો તે પહેલાં તમારે એક માન્ય શહેરનું નામ દાખલ કરવાની જરૂર છે."
 
+msgid "imperial system"
+msgstr "શાહી સિસ્ટમ"
+
+msgid "metric system"
+msgstr "મેટ્રિક સિસ્ટમ"
+
+msgid "play/show Files"
+msgstr "ફાઇલો ચલાવો/શો"
+
+msgid "volume2"
+msgstr "વોલ્યુમ2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[ચેકસ્કીન] આ ઑપરેશન તપાસે છે કે શું ત્વચામાં તેના ઘટકો છે (ગેરંટી નથી)...\n"
+#~ "શું તમે ખરેખર ચાલુ રાખવા માંગો છો?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] આ ઑપરેશન ઉપકરણ ફોલ્ડર (પોસ્ટર-બેકડ્રોપ)માંથી તમામ PNG ને દૂર કરશે...\n"
+#~ "શું તમે ખરેખર ચાલુ રાખવા માંગો છો?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare અપડેટ થઈ ગયું!\n"
+#~ "શું તમે GUI ને હવે પુનઃપ્રારંભ કરવા માંગો છો?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "બેકડ્રોપ ડાઉનલોડ 2 મિનિટમાં શરૂ થશે.\n"
+#~ "તમે સુરક્ષિત રીતે આ મેનૂમાંથી બહાર નીકળી શકો છો."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "નવી સ્કીન લાગુ કરવા માટે GUI ને પુનઃપ્રારંભ કરવાની જરૂર છે.\n"
+#~ "શું તમે GUI ને હમણાં પુનઃપ્રારંભ કરવા માંગો છો?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "પોસ્ટર ડાઉનલોડ 2 મિનિટમાં શરૂ થશે.\n"
+#~ "તમે સુરક્ષિત રીતે આ મેનૂમાંથી બહાર નીકળી શકો છો."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Lululla @2020\n"
+#~ "\n"
+#~ " દ્વારા {0} v.{1}\n"
+#~ "\n"
+#~ " માટે Aglare Skin\n"
+#~ " સેટઅપ કરો"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "InfoBar SoftCSA ને સપોર્ટ કરો:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "અપડેટ ફાઇલ /tmp.\n"
+#~ "માં મળી ન હતી."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "ચેતવણી: તમે ડિફૉલ્ટ API કીનો ઉપયોગ કરી રહ્યાં છો!\n"
+#~ "અમે પ્લગઇન સેટિંગ્સમાં તમારી પોતાની API કીને ગોઠવવાની ભારપૂર્વક ભલામણ કરીએ છીએ."

@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Šī darbība pārbauda, ​​vai ādai ir tās sastāvdaļas (nav garantēta)...\nVai tiešām vēlaties turpināt?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Veicot šo darbību, no ierīces mapes tiks noņemti visi PNG faili (Poster-Backdrop)...\nVai tiešām vēlaties turpināt?"
-
 msgid "%s key imported!"
 msgstr "%s atslēga importēta!"
 
@@ -40,11 +34,11 @@ msgstr "Aktivizējiet vai deaktivizējiet MOLOTOV kā metadatu nodrošinātāju.
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktivizējiet vai deaktivizējiet PROGRAMMETV kā metadatu nodrošinātāju."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Pievienot"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare atjauninājums ir pabeigts!\nVai vēlaties tagad restartēt GUI?"
 
 msgid "All png are removed from folder!"
 msgstr "Visi png ir noņemti no mapes!"
@@ -73,9 +67,6 @@ msgstr "Fons"
 msgid "Backdrop download error: {}"
 msgstr "Fona kolāžas lejupielādes kļūda: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Fona kolāžas lejupielāde sāksies pēc 2 minūtēm.\nVarat droši iziet no šīs izvēlnes."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Zils"
 msgid "Brown"
 msgstr "Brūns"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + protokols + serveris + ECM laiks"
 
@@ -99,9 +93,6 @@ msgstr "Caid + lasītājs + protokols + serveris + ECM laiks"
 
 msgid "Cancel"
 msgstr "Atcelt"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Kanāla apraksta krāsa:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Plakāti"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Izvēles ierīces lejupielādes attēlu mape"
@@ -208,14 +199,14 @@ msgstr "Notiek Aglare lejupielāde..."
 msgid "ECM Short Format:"
 msgstr "ECM īsais formāts:"
 
-msgid "Edit"
-msgstr "Rediģēt"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC ekrāni Stils:"
+
+msgid "Edit"
+msgstr "Rediģēt"
 
 msgid "Enable Display Genre icons:"
 msgstr "Iespējot displeja žanra ikonas:"
@@ -226,23 +217,20 @@ msgstr "Iespējot Display InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Iespējot Display XMC plakātu:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Iespējojiet vai atspējojiet komplektētos E2iPlayer ekrānus."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Iespējojiet vai atspējojiet kešatmiņu notikumu lejupielādes laikā, lai paātrinātu atkārtotu meklēšanu."
-
 msgid "Enable Parental Icons:"
 msgstr "Iespējot vecāku ikonas:"
 
 msgid "Enable Rating Star:"
 msgstr "Iespējot vērtējuma zvaigznīti:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Iespējojiet vai atspējojiet komplektētos E2iPlayer ekrānus."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Iespējojiet vai atspējojiet kešatmiņu notikumu lejupielādes laikā, lai paātrinātu atkārtotu meklēšanu."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Informācijas logrīkā iespējojiet paplašinātas notikumu informācijas rādīšanu, tostarp visu dalībnieku, komandu, sižeta informāciju un citus metadatus."
-
-msgid "Error {0}: {1}"
-msgstr "Kļūda {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Kļūda, apstrādājot ādas failu: {}"
@@ -252,6 +240,9 @@ msgstr "Lejupielādējot failus, radās kļūda!"
 
 msgid "Error loading: {}"
 msgstr "Ielādējot kļūdu: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Kļūda {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Kļūda: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Iziet"
 
-msgid "File {} not found or empty"
-msgstr "Fails {} nav atrasts vai ir tukšs"
-
 msgid "File Commander - Addon"
 msgstr "Failu komandieris — papildinājums"
+
+msgid "File {} not found or empty"
+msgstr "Fails {} nav atrasts vai ir tukšs"
 
 msgid "Green"
 msgstr "Zaļš"
@@ -283,17 +274,11 @@ msgstr "Zaļš2"
 msgid "Greta"
 msgstr "Grēta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI ir jārestartē, lai lietotu jaunu apvalku.\nVai vēlaties restartēt GUI tūlīt?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Attēlu saderības grupa:"
-
-msgid "imperial system"
-msgstr "impēriskā sistēma"
 
 msgid "Import key {0} from {1}?"
 msgstr "Importēt atslēgu {0} no {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Notiek atjauninājumu instalēšana..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Atslēga {} ir veiksmīgi ielādēta!"
-
 msgid "Key empty"
 msgstr "Atslēga tukša"
+
+msgid "Key {} successfully loaded!"
+msgstr "Atslēga {} ir veiksmīgi ielādēta!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Gaiši pelēks"
 msgid "LimeGreen"
 msgstr "Laima zaļš"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Lokālais būvējums ({}) ir jaunāks par servera būvējumu ({})."
 
@@ -367,14 +355,17 @@ msgstr "Vietas kods"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "MSN atrašanās vietas meklēšanas rezultāts"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabits/s (Mb/s)"
-
-msgid "metric system"
-msgstr "metriskā sistēma"
 
 msgid "Mint"
 msgstr "Piparmētra"
@@ -382,20 +373,11 @@ msgstr "Piparmētra"
 msgid "Mix1"
 msgstr "Sajauc 1"
 
-msgid "MSN location search result"
-msgstr "MSN atrašanās vietas meklēšanas rezultāts"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Nav iespējots neviens aktīvs pakalpojumu sniedzējs"
 
 msgid "No description available for this option."
 msgstr "Šai opcijai nav pieejams apraksts."
-
-msgid "Off"
-msgstr "Izslēgts"
 
 msgid "OFF"
 msgstr "IZSLĒGTS"
@@ -412,6 +394,9 @@ msgstr "IESLĒGTS"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "IESLĒGT/IZSLĒGT SubsSupportPro apvalkus."
 
+msgid "Off"
+msgstr "Izslēgts"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (jaunu attēlu grupa)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi/Satlodge (OpenPLi grupa)"
 msgid "Orange"
 msgstr "Oranžs"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Rozā"
-
-msgid "play/show Files"
-msgstr "atskaņot/rādīt failus"
 
 msgid "Please enter a valid city name."
 msgstr "Lūdzu, ievadiet derīgu pilsētas nosaukumu."
@@ -435,9 +420,6 @@ msgstr "Lūdzu, ievadiet derīgu pilsētas atrašanās vietas kodu."
 
 msgid "Poster download error: {}"
 msgstr "Plakāta lejupielādes kļūda: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Plakāta lejupielāde sāksies pēc 2 minūtēm.\nVarat droši iziet no šīs izvēlnes."
 
 msgid "Purple"
 msgstr "Violeta"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI gaisma"
 
+msgid "Select EMC style."
+msgstr "Izvēlieties EMC stilu."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Informācijas joslai atlasiet PosterX displeja režīmu. Pieejamās izvēles ir atkarīgas no atlasītā informācijas joslas stila un ECM režīma."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Informācijas joslai atlasiet XtraEvent displeja režīmu. Pieejamās izvēles ir atkarīgas no atlasītā informācijas joslas stila un ECM režīma."
+
+msgid "Select Your Font:"
+msgstr "Izvēlieties savu fontu:"
+
 msgid "Select channel list event description color."
 msgstr "Atlasiet kanālu saraksta notikumu apraksta krāsu."
 
@@ -496,17 +490,11 @@ msgstr "Atlasiet kanālu sarakstā atlasīto priekšplāna krāsu."
 msgid "Select channel selection screen style."
 msgstr "Izvēlieties kanāla atlases ekrāna stilu."
 
-msgid "Select EMC style."
-msgstr "Izvēlieties EMC stilu."
-
 msgid "Select event view screen style."
 msgstr "Atlasiet notikumu skata ekrāna stilu."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Atlasiet informācijas joslas izkārtojumu. Style5 izslēdz ECM un atļauj tikai OFF/CD plakātu režīmus. Style6 izslēdz ECM, PosterX un Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Informācijas joslai atlasiet PosterX displeja režīmu. Pieejamās izvēles ir atkarīgas no atlasītā informācijas joslas stila un ECM režīma."
 
 msgid "Select second infobar layout."
 msgstr "Atlasiet otro informācijas joslas izkārtojumu."
@@ -538,12 +526,6 @@ msgstr "Atlasiet laikapstākļu nodrošinātāja displeju otrajai informācijas 
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Atlasiet, kuri ECM lauki tiek rādīti, kad āda izmanto Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Informācijas joslai atlasiet XtraEvent displeja režīmu. Pieejamās izvēles ir atkarīgas no atlasītā informācijas joslas stila un ECM režīma."
-
-msgid "Select Your Font:"
-msgstr "Izvēlieties savu fontu:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Iestatīt laiku mūsu fona kolāžas lejupielādei"
 
@@ -556,9 +538,6 @@ msgstr "Iestatījumi Apikey serveris"
 msgid "Setup Aglare Skin Info"
 msgstr "Iestatīt Aglare Skin Info"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Iestatīt Aglare Skin\n priekš {0} v.{1}\n\n by Lululla @2020\n\nAtbalsta forums vietnē linuxsat-support.com\n\nSkinner veidotājs: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Rādīt ikonas, kas atspoguļo katra notikuma žanru (piemēram, asa sižeta, komēdijas, drāmas)"
 
@@ -568,11 +547,11 @@ msgstr "Rādīt vai slēpt ECM informāciju informācijas joslā."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Rādīt vai paslēpt PosterX otrajā informācijas joslā."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Rādīt vai paslēpt datuma paneli informācijas joslā."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Rādīt vai paslēpt XtraEvent otrajā informācijas joslā."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Rādīt vai paslēpt datuma paneli informācijas joslā."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Rādīt vecāku norādījumu ikonas pasākumos, lai norādītu satura vērtējumu un piemērotību vecumam."
@@ -631,29 +610,26 @@ msgstr "Stils 6"
 msgid "Support E2iplayer Skins:"
 msgstr "Atbalstiet E2iplayer apvalkus:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Atbalsta informācijas josla SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Atbalstiet SubsSupportPro apvalkus:"
 
 msgid "System"
 msgstr "Sistēma"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "TESTS"
+
+msgid "TMDB Only"
+msgstr "Tikai TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Fails %s ir tukšs."
 
 msgid "The file %s was not found."
 msgstr "Fails %s netika atrasts."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Atjaunināšanas fails netika atrasts mapē /tmp.\nAtjaunināšana pārtraukta."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Šī darbība piešķir ierīces ceļa mapi, lai lejupielādētu attēlu (plakāta fona kolāža)"
@@ -664,11 +640,11 @@ msgstr "Šī darbība ļauj parādīt notikumu vērtēšanas zvaigznes, pamatojo
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Šī darbība noņem visus png no mapes ierīces (plakāta fona kolāža)"
 
-msgid "TMDB Only"
-msgstr "Tikai TMDB"
-
 msgid "Tomato"
 msgstr "Tomāts"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Atjaunināt URL nav inicializēts — vispirms atveriet spraudni izvēlnē Plugins."
 
 msgid "Update check failed: {}"
 msgstr "Atjaunināšanas pārbaude neizdevās: {}"
@@ -676,17 +652,8 @@ msgstr "Atjaunināšanas pārbaude neizdevās: {}"
 msgid "Update package not found!"
 msgstr "Atjaunināšanas pakotne nav atrasta!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Atjaunināt URL nav inicializēts — vispirms atveriet spraudni izvēlnē Plugins."
-
-msgid "volume2"
-msgstr "apjoms2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar stils:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Brīdinājums: jūs izmantojat noklusējuma API atslēgas!\nStingri iesakām spraudņa iestatījumos konfigurēt savas API atslēgas."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "Weather Plugin: rediģēt ierakstu"
@@ -706,3 +673,92 @@ msgstr "Jums jau ir jaunākā versija ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Lai varētu meklēt atrašanās vietas kodu, jums jāievada derīgs pilsētas nosaukums."
 
+msgid "imperial system"
+msgstr "impēriskā sistēma"
+
+msgid "metric system"
+msgstr "metriskā sistēma"
+
+msgid "play/show Files"
+msgstr "atskaņot/rādīt failus"
+
+msgid "volume2"
+msgstr "apjoms2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Šī darbība pārbauda, ​​vai ādai ir tās sastāvdaļas (nav garantēta)...\n"
+#~ "Vai tiešām vēlaties turpināt?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Veicot šo darbību, no ierīces mapes tiks noņemti visi PNG faili (Poster-Backdrop)...\n"
+#~ "Vai tiešām vēlaties turpināt?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare atjauninājums ir pabeigts!\n"
+#~ "Vai vēlaties tagad restartēt GUI?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Fona kolāžas lejupielāde sāksies pēc 2 minūtēm.\n"
+#~ "Varat droši iziet no šīs izvēlnes."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI ir jārestartē, lai lietotu jaunu apvalku.\n"
+#~ "Vai vēlaties restartēt GUI tūlīt?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Plakāta lejupielāde sāksies pēc 2 minūtēm.\n"
+#~ "Varat droši iziet no šīs izvēlnes."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Iestatīt Aglare Skin\n"
+#~ " priekš {0} v.{1}\n"
+#~ "\n"
+#~ " by Lululla @2020\n"
+#~ "\n"
+#~ "Atbalsta forums vietnē linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner veidotājs: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Atbalsta informācijas josla SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Atjaunināšanas fails netika atrasts mapē /tmp.\n"
+#~ "Atjaunināšana pārtraukta."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Brīdinājums: jūs izmantojat noklusējuma API atslēgas!\n"
+#~ "Stingri iesakām spraudņa iestatījumos konfigurēt savas API atslēgas."

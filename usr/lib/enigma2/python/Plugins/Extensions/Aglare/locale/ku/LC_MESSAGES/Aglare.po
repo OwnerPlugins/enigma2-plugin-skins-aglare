@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Ev operasyon kontrol dike ka çerm pêkhateyên wê hene (ne garantî ne)...\nBi rastî hûn dixwazin berdewam bikin?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Ev kar dê hemî PNG-yan ji peldanka cîhazê rake (Poster-Backdrop)...\nTu bi rastî dixwazî ​​bidomînî?"
-
 msgid "%s key imported!"
 msgstr "Mifteya %s hat importkirin!"
 
@@ -40,11 +34,11 @@ msgstr "MOLOTOV wekî pêşkêşkerek metadata çalak bikin an neçalak bikin."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "PROGRAMMETV wekî pêşkêşkerek metadata çalak bike an neçalak bike."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Lêzêdekirin"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Nûvekirina Aglare qediya!\nHûn dixwazin niha GUI ji nû ve bidin destpêkirin?"
 
 msgid "All png are removed from folder!"
 msgstr "Hemû png ji peldankê têne rakirin!"
@@ -73,9 +67,6 @@ msgstr "Backdrop"
 msgid "Backdrop download error: {}"
 msgstr "Çewtiya dakêşana paşxanê: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Dakêşana paşxanê dê di nav 2 hûrdeman de dest pê bike.\nTu dikarî bi ewlehî ji vê menuyê derkevî."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Şîn"
 msgid "Brown"
 msgstr "Qehweyî"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokol + Server + Dema ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protokol + Server + Dema ECM"
 
 msgid "Cancel"
 msgstr "Bişûndekirin"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Rengê Danasîna Kanalê:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Peldanka wêneyê dakêşana cîhaza bijare"
@@ -208,14 +199,14 @@ msgstr "Daxistina Aglare..."
 msgid "ECM Short Format:"
 msgstr "Forma Kurte ya ECM:"
 
-msgid "Edit"
-msgstr "Weşandin"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Şêweya ekranên EMC:"
+
+msgid "Edit"
+msgstr "Weşandin"
 
 msgid "Enable Display Genre icons:"
 msgstr "Îkonên Genre Display Çalak bike:"
@@ -226,23 +217,20 @@ msgstr "Vebijêrkên Agahdariya Nîşandanê çalak bikin:"
 msgid "Enable Display XMC Poster:"
 msgstr "Display XMC Postera çalak bike:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Ekranên E2iPlayer-ê yên hevgirtî çalak bikin an neçalak bikin."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Di dema dakêşana bûyerê de cachkirinê çalak bikin an neçalak bikin da ku lêgerînên dubare bilezînin."
-
 msgid "Enable Parental Icons:"
 msgstr "Îkonên dêûbav çalak bikin:"
 
 msgid "Enable Rating Star:"
 msgstr "Stêrka Nirxandinê çalak bike:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Ekranên E2iPlayer-ê yên hevgirtî çalak bikin an neçalak bikin."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Di dema dakêşana bûyerê de cachkirinê çalak bikin an neçalak bikin da ku lêgerînên dubare bilezînin."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Nîşandana agahdariya bûyera dirêjkirî, tevî kastê tevahî, ekîb, hûrguliyên komployê, û metadaneyên din, di widgeta agahdariyê de çalak bikin."
-
-msgid "Error {0}: {1}"
-msgstr "Çewtiya {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Xeletî di hilberandina pelê çerm de: {}"
@@ -252,6 +240,9 @@ msgstr "Di daxistina pelan de çewtî!"
 
 msgid "Error loading: {}"
 msgstr "Çewtiya barkirinê: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Çewtiya {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Çewtî: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Derî"
 
-msgid "File {} not found or empty"
-msgstr "Pela {} nehat dîtin an vala"
-
 msgid "File Commander - Addon"
 msgstr "Fermandarê Pelê - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Pela {} nehat dîtin an vala"
 
 msgid "Green"
 msgstr "Kesk"
@@ -283,17 +274,11 @@ msgstr "Kesk2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "Ji bo sepandina çermek nû ji nû ve destpêkirina GUI hewce ye.\nHûn dixwazin niha GUI-yê ji nû ve bidin destpêkirin?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Koma Lihevhatina Wêne:"
-
-msgid "imperial system"
-msgstr "sîstema emperyal"
 
 msgid "Import key {0} from {1}?"
 msgstr "Mifteya {0} ji {1} têxe?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Sazkirina nûvekirinan..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Mifteya {} bi serkeftî hat barkirin!"
-
 msgid "Key empty"
 msgstr "Key vala"
+
+msgid "Key {} successfully loaded!"
+msgstr "Mifteya {} bi serkeftî hat barkirin!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "LightGray"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Avakirina herêmî ({}) ji avakirina serverê ({}) nûtir e."
 
@@ -367,14 +355,17 @@ msgstr "Koda cihan"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Encama lêgerîna cîhê MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "sîstema metrîk"
 
 msgid "Mint"
 msgstr "Mint"
@@ -382,20 +373,11 @@ msgstr "Mint"
 msgid "Mix1"
 msgstr "Mix1"
 
-msgid "MSN location search result"
-msgstr "Encama lêgerîna cîhê MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "No pêşkêşkerên çalak aktîfkirin"
 
 msgid "No description available for this option."
 msgstr "Ji bo vê vebijarkê ravekirin tune."
-
-msgid "Off"
-msgstr "Ji"
 
 msgid "OFF"
 msgstr "JI"
@@ -412,6 +394,9 @@ msgstr "LI"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "Çermên SubsSupportPro ON/OFF."
 
+msgid "Off"
+msgstr "Ji"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Koma Wêneyên Nû)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Koma OpenPLi)"
 msgid "Orange"
 msgstr "Porteqalî"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Pembe"
-
-msgid "play/show Files"
-msgstr "lîstin / Pelan nîşan bide"
 
 msgid "Please enter a valid city name."
 msgstr "Ji kerema xwe navekî bajarekî derbasdar binivîse."
@@ -435,9 +420,6 @@ msgstr "Ji kerema xwe kodek cîhê derbasdar ji bo bajêr binivîse."
 
 msgid "Poster download error: {}"
 msgstr "Çewtiya dakêşana posterê: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Dakêşana posterê dê di nav 2 hûrdeman de dest pê bike.\nHûn dikarin bi ewlehî ji vê menuyê derkevin."
 
 msgid "Purple"
 msgstr "Mor"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Ronahiya UI ya Segoe"
 
+msgid "Select EMC style."
+msgstr "Şêweya EMC hilbijêrin."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ji bo infobarê moda nîşana PosterX hilbijêrin. Vebijarkên berdest bi şêwaza infobarê ya hilbijartî û moda ECM ve girêdayî ye."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ji bo infobarê moda nîşana XtraEvent hilbijêrin. Vebijarkên berdest bi şêwaza infobarê ya hilbijartî û moda ECM ve girêdayî ye."
+
+msgid "Select Your Font:"
+msgstr "Fonta xwe Hilbijêre:"
+
 msgid "Select channel list event description color."
 msgstr "Rengê danasîna bûyera lîsteya kanalê hilbijêrin."
 
@@ -496,17 +490,11 @@ msgstr "Lîsteya kanalê rengê pêşiyê hilbijartî hilbijêre."
 msgid "Select channel selection screen style."
 msgstr "Şêweya ekrana hilbijartina kanalê hilbijêrin."
 
-msgid "Select EMC style."
-msgstr "Şêweya EMC hilbijêrin."
-
 msgid "Select event view screen style."
 msgstr "Şêweya dîmendera dîmenê ya bûyerê hilbijêrin."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Plansaziya infobarê hilbijêrin. Style5 zorê dide ECM-ê û destûrê dide tenê modên posterê OFF/CD. Style6 ECM, PosterX, û Xtraevent neçar dike."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Ji bo infobarê moda nîşana PosterX hilbijêrin. Vebijarkên berdest bi şêwaza infobarê ya hilbijartî û moda ECM ve girêdayî ye."
 
 msgid "Select second infobar layout."
 msgstr "Plansaziya infobarê ya duyemîn hilbijêrin."
@@ -538,12 +526,6 @@ msgstr "Ji bo infobara duyemîn nîşana pêşkêşkarê hewayê hilbijêrin."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Dema ku çerm MYEMUPARA-ya Kurt bikar tîne hilbijêrin kîjan zeviyên ECM têne xuyang kirin."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Ji bo infobarê moda nîşana XtraEvent hilbijêrin. Vebijarkên berdest bi şêwaza infobarê ya hilbijartî û moda ECM ve girêdayî ye."
-
-msgid "Select Your Font:"
-msgstr "Fonta xwe Hilbijêre:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Ji bo dakêşana Backdrop-ê Demjimêra me - hûrdem destnîşan bikin"
 
@@ -556,9 +538,6 @@ msgstr "Mîhengên Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Agahdariya Çermê Aglare saz bikin"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Sazkirina Aglare Skin\nji bo {0} v.{1}\n\nby Lululla @2020\n\nForuma Piştgiriyê li ser linuxsat-support.com\n\n Afirînerê çerm: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Îkonên ku celebê her bûyerê temsîl dikin nîşan bidin (mînak, çalakî, komedî, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Agahdariya ECM di infobarê de nîşan bide an veşêre."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "PosterX di infobara duyemîn de nîşan bide an veşêre."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Panela tarîxê di barika agahdariyê de nîşan bide an veşêre."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "XtraEvent di infobara duyemîn de nîşan bidin an veşêrin."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Panela tarîxê di barika agahdariyê de nîşan bide an veşêre."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Li ser bûyeran îkonên rêberiya dêûbav nîşan bidin da ku rêjeya naverokê û guncanbûna temen destnîşan bikin."
@@ -631,29 +610,26 @@ msgstr "Şêwe6"
 msgid "Support E2iplayer Skins:"
 msgstr "Piştgiriya çermên E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Piştgiriya InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Piştgiriya SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Sîstem"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "ÎMTÎHAN"
+
+msgid "TMDB Only"
+msgstr "Tenê TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Pela %s vala ye."
 
 msgid "The file %s was not found."
 msgstr "Pela %s nehat dîtin."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Pelê nûvekirinê di /tmp de nehat dîtin.\nUpdate betal kirin."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Vê operasyonê peldanka riya cîhazê ji bo dakêşana wêneyê (Poster-Backdrop) destnîşan dike"
@@ -664,11 +640,11 @@ msgstr "Ev operasyon li ser bingeha çavkaniya nirxandinê ya hilbijartî, ji bo
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Vê operasyonê hemî png ji cîhaza peldankê jê dike (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Tenê TMDB"
-
 msgid "Tomato"
 msgstr "Bacanê sor"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL-ya nûvekirinê nehat destpêkirin - Pêşî pêvekê ji pêşeka Plugins vekin."
 
 msgid "Update check failed: {}"
 msgstr "Kontrolkirina nûvekirinê têk çû: {}"
@@ -676,17 +652,8 @@ msgstr "Kontrolkirina nûvekirinê têk çû: {}"
 msgid "Update package not found!"
 msgstr "Pakêta nûvekirinê nehat dîtin!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "URL-ya nûvekirinê nehat destpêkirin - Pêşî pêvekê ji pêşeka Plugins vekin."
-
-msgid "volume2"
-msgstr "cild2"
-
 msgid "VolumeBar Style:"
 msgstr "Şêweya VolumeBar:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Hişyarî: Hûn bişkojkên API-ê yên xwerû bikar tînin!\nEm bi tundî pêşniyar dikin ku bişkojkên API-ya xwe di mîhengên pêvekê de mîheng bikin."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Têketinê biguherîne"
@@ -706,3 +673,92 @@ msgstr "Berê te guhertoya herî dawî ({}) heye."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Berî ku hûn li koda cîhê bigerin divê hûn navek bajarekî derbasdar binivîsin."
 
+msgid "imperial system"
+msgstr "sîstema emperyal"
+
+msgid "metric system"
+msgstr "sîstema metrîk"
+
+msgid "play/show Files"
+msgstr "lîstin / Pelan nîşan bide"
+
+msgid "volume2"
+msgstr "cild2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Ev operasyon kontrol dike ka çerm pêkhateyên wê hene (ne garantî ne)...\n"
+#~ "Bi rastî hûn dixwazin berdewam bikin?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Ev kar dê hemî PNG-yan ji peldanka cîhazê rake (Poster-Backdrop)...\n"
+#~ "Tu bi rastî dixwazî ​​bidomînî?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Nûvekirina Aglare qediya!\n"
+#~ "Hûn dixwazin niha GUI ji nû ve bidin destpêkirin?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Dakêşana paşxanê dê di nav 2 hûrdeman de dest pê bike.\n"
+#~ "Tu dikarî bi ewlehî ji vê menuyê derkevî."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "Ji bo sepandina çermek nû ji nû ve destpêkirina GUI hewce ye.\n"
+#~ "Hûn dixwazin niha GUI-yê ji nû ve bidin destpêkirin?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Dakêşana posterê dê di nav 2 hûrdeman de dest pê bike.\n"
+#~ "Hûn dikarin bi ewlehî ji vê menuyê derkevin."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Sazkirina Aglare Skin\n"
+#~ "ji bo {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Foruma Piştgiriyê li ser linuxsat-support.com\n"
+#~ "\n"
+#~ " Afirînerê çerm: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Piştgiriya InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Pelê nûvekirinê di /tmp de nehat dîtin.\n"
+#~ "Update betal kirin."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Hişyarî: Hûn bişkojkên API-ê yên xwerû bikar tînin!\n"
+#~ "Em bi tundî pêşniyar dikin ku bişkojkên API-ya xwe di mîhengên pêvekê de mîheng bikin."

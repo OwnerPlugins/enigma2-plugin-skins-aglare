@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Ky operacion kontrollon nëse lëkura ka përbërësit e saj (jo të garantuar)...\nDëshiron vërtet të vazhdosh?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Ky operacion do të heqë të gjitha PNG-të nga dosja e pajisjes (Poster-Backdrop)...\nDëshiron vërtet të vazhdosh?"
-
 msgid "%s key imported!"
 msgstr "Çelësi %s u importua!"
 
@@ -40,11 +34,11 @@ msgstr "Aktivizoni ose çaktivizoni MOLOTOV si ofrues të meta të dhënave."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktivizoni ose çaktivizoni PROGRAMMETV si ofrues të meta të dhënave."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Shtoni"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Përditësimi i Aglare u krye!\nDëshiron të rinisni GUI-në tani?"
 
 msgid "All png are removed from folder!"
 msgstr "Të gjitha png janë hequr nga dosja!"
@@ -73,9 +67,6 @@ msgstr "Sfondi"
 msgid "Backdrop download error: {}"
 msgstr "Gabim i shkarkimit të sfondit: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Shkarkimi i sfondit do të fillojë pas 2 minutash.\nMund të dilni me siguri nga kjo meny."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Blu"
 msgid "Brown"
 msgstr "Kafe"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokolli + Server + Koha ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + Ora ECM"
 
 msgid "Cancel"
 msgstr "Anulo"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Përshkrimi i kanalit Ngjyra:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Dosja e imazhit për shkarkimin e pajisjes së zgjedhur"
@@ -208,14 +199,14 @@ msgstr "Po shkarkohet Aglare..."
 msgid "ECM Short Format:"
 msgstr "Formati i shkurtër ECM:"
 
-msgid "Edit"
-msgstr "Redakto"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Stili i ekraneve EMC:"
+
+msgid "Edit"
+msgstr "Redakto"
 
 msgid "Enable Display Genre icons:"
 msgstr "Aktivizo ikonat e Zhanrit të Ekranit:"
@@ -226,23 +217,20 @@ msgstr "Aktivizo Display InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Aktivizo afishimin e posterit XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Aktivizo ose çaktivizo ekranet e bashkuara të E2iPlayer."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Aktivizo ose çaktivizo memorien gjatë shkarkimit të ngjarjeve për të shpejtuar kërkimet e përsëritura."
-
 msgid "Enable Parental Icons:"
 msgstr "Aktivizo ikonat prindërore:"
 
 msgid "Enable Rating Star:"
 msgstr "Aktivizo yllin e vlerësimit:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Aktivizo ose çaktivizo ekranet e bashkuara të E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Aktivizo ose çaktivizo memorien gjatë shkarkimit të ngjarjeve për të shpejtuar kërkimet e përsëritura."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktivizo shfaqjen e informacionit të zgjeruar të ngjarjeve, duke përfshirë kastin e plotë, ekipin, detajet e komplotit dhe të dhëna të tjera meta, në miniaplikacionin e informacionit."
-
-msgid "Error {0}: {1}"
-msgstr "Gabim {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Gabim gjatë përpunimit të skedarit të lëkurës: {}"
@@ -252,6 +240,9 @@ msgstr "Gabim gjatë shkarkimit të skedarëve!"
 
 msgid "Error loading: {}"
 msgstr "Gabim në ngarkim: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Gabim {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Gabim: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Dilni"
 
-msgid "File {} not found or empty"
-msgstr "Skedari {} nuk u gjet ose bosh"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Skedari {} nuk u gjet ose bosh"
 
 msgid "Green"
 msgstr "E gjelbër"
@@ -283,17 +274,11 @@ msgstr "E gjelbër 2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI ka nevojë për një rinisje për të aplikuar një lëkurë të re.\nDëshironi të rinisni GUI-në tani?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Grupi i përputhshmërisë së imazheve:"
-
-msgid "imperial system"
-msgstr "sistemi perandorak"
 
 msgid "Import key {0} from {1}?"
 msgstr "Të importohet çelësi {0} nga {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Po instalon përditësimet..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Çelësi {} u ngarkua me sukses!"
-
 msgid "Key empty"
 msgstr "Çelësi bosh"
+
+msgid "Key {} successfully loaded!"
+msgstr "Çelësi {} u ngarkua me sukses!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Gri e lehtë"
 msgid "LimeGreen"
 msgstr "Gëlqere e Gjelbër"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Ndërtimi lokal ({}) është më i ri se ndërtimi i serverit ({})."
 
@@ -367,14 +355,17 @@ msgstr "Kodi i vendndodhjes"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Rezultati i kërkimit të vendndodhjes MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "sistemi metrik"
 
 msgid "Mint"
 msgstr "Nenexhik"
@@ -382,20 +373,11 @@ msgstr "Nenexhik"
 msgid "Mix1"
 msgstr "Përzierje 1"
 
-msgid "MSN location search result"
-msgstr "Rezultati i kërkimit të vendndodhjes MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Nuk ka ofrues aktivë të aktivizuar"
 
 msgid "No description available for this option."
 msgstr "Nuk ka përshkrim të disponueshëm për këtë opsion."
-
-msgid "Off"
-msgstr "Joaktiv"
 
 msgid "OFF"
 msgstr "FAKT"
@@ -412,6 +394,9 @@ msgstr "AKTIV"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Joaktiv"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Grup i ri i imazheve)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Grupi OpenPLi)"
 msgid "Orange"
 msgstr "portokalli"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Rozë"
-
-msgid "play/show Files"
-msgstr "luaj/shfaq skedarë"
 
 msgid "Please enter a valid city name."
 msgstr "Ju lutemi shkruani një emër të vlefshëm të qytetit."
@@ -435,9 +420,6 @@ msgstr "Fut një kod të vlefshëm vendndodhjeje për qytetin."
 
 msgid "Poster download error: {}"
 msgstr "Gabim i shkarkimit të posterit: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Shkarkimi i posterit do të fillojë pas 2 minutash.\nMund të dilni me siguri nga kjo meny."
 
 msgid "Purple"
 msgstr "Vjollcë"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Drita e ndërfaqes së përdoruesit të Segoe"
 
+msgid "Select EMC style."
+msgstr "Zgjidhni stilin EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Zgjidhni modalitetin e shfaqjes së PosterX për shiritin e informacionit. Zgjedhjet e disponueshme varen nga stili i zgjedhur i shiritit të informacionit dhe modaliteti ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Zgjidhni modalitetin e shfaqjes XtraEvent për shiritin e informacionit. Zgjedhjet e disponueshme varen nga stili i zgjedhur i shiritit të informacionit dhe modaliteti ECM."
+
+msgid "Select Your Font:"
+msgstr "Zgjidhni fontin tuaj:"
+
 msgid "Select channel list event description color."
 msgstr "Zgjidhni ngjyrën e përshkrimit të ngjarjeve të listës së kanaleve."
 
@@ -496,17 +490,11 @@ msgstr "Zgjidhni ngjyrën e përzgjedhur të listës së kanaleve në plan të p
 msgid "Select channel selection screen style."
 msgstr "Zgjidhni stilin e ekranit të zgjedhjes së kanalit."
 
-msgid "Select EMC style."
-msgstr "Zgjidhni stilin EMC."
-
 msgid "Select event view screen style."
 msgstr "Zgjidhni stilin e ekranit të pamjes së ngjarjes."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Zgjidhni paraqitjen e shiritit të informacionit. Style5 e çaktivizon ECM-në dhe lejon vetëm modalitetet e posterit OFF/CD. Style6 fik ECM, PosterX dhe Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Zgjidhni modalitetin e shfaqjes së PosterX për shiritin e informacionit. Zgjedhjet e disponueshme varen nga stili i zgjedhur i shiritit të informacionit dhe modaliteti ECM."
 
 msgid "Select second infobar layout."
 msgstr "Zgjidhni paraqitjen e dytë të shiritit të informacionit."
@@ -538,12 +526,6 @@ msgstr "Zgjidhni ekranin e ofruesit të motit për shiritin e dytë të informac
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Zgjidhni cilat fusha ECM shfaqen kur lëkura përdor Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Zgjidhni modalitetin e shfaqjes XtraEvent për shiritin e informacionit. Zgjedhjet e disponueshme varen nga stili i zgjedhur i shiritit të informacionit dhe modaliteti ECM."
-
-msgid "Select Your Font:"
-msgstr "Zgjidhni fontin tuaj:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Cakto kohën tonë - minutë për shkarkimin e \"Sfondit\"."
 
@@ -556,9 +538,6 @@ msgstr "Cilësimet Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Konfiguro informacionin e lëkurës Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Konfiguro Aglare Skin\nfor {0} v.{1}\n\nnga Lululla @2020\n\nForum mbështetës në linuxsat-support.com\n\n Krijuesi i Skinner: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Shfaq ikonat që përfaqësojnë zhanrin e çdo ngjarjeje (p.sh., aksion, komedi, dramë)"
 
@@ -568,11 +547,11 @@ msgstr "Shfaq ose fshih informacionin ECM në shiritin e informacionit."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Shfaq ose fshih PosterX në shiritin e dytë të informacionit."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Shfaq ose fshih panelin e datës në shiritin e informacionit."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Shfaq ose fshih XtraEvent në shiritin e dytë të informacionit."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Shfaq ose fshih panelin e datës në shiritin e informacionit."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Shfaq ikonat e udhëzimeve prindërore për ngjarjet për të treguar vlerësimin e përmbajtjes dhe përshtatshmërinë e moshës."
@@ -631,29 +610,26 @@ msgstr "Stili 6"
 msgid "Support E2iplayer Skins:"
 msgstr "Mbështetni E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Mbështet InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Mbështetni SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Sistemi"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "TEST"
+
+msgid "TMDB Only"
+msgstr "Vetëm TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Skedari %s është bosh."
 
 msgid "The file %s was not found."
 msgstr "Skedari %s nuk u gjet."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Skedari i përditësimit nuk u gjet në /tmp.\nPërditësimi u ndërpre."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Ky operacion cakton dosjen e shtegut të pajisjes për të shkarkuar imazhin (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Ky operacion mundëson shfaqjen e yjeve të vlerësimit për ngjarjet, b
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ky operacion heq të gjitha png nga pajisja e dosjeve (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Vetëm TMDB"
-
 msgid "Tomato"
 msgstr "Domate"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Përditësimi i URL-së nuk është inicializuar – fillimisht hapni shtesën një herë nga menyja Plugins."
 
 msgid "Update check failed: {}"
 msgstr "Kontrolli i përditësimit dështoi: {}"
@@ -676,17 +652,8 @@ msgstr "Kontrolli i përditësimit dështoi: {}"
 msgid "Update package not found!"
 msgstr "Paketa e përditësimit nuk u gjet!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Përditësimi i URL-së nuk është inicializuar – fillimisht hapni shtesën një herë nga menyja Plugins."
-
-msgid "volume2"
-msgstr "vëllimi 2"
-
 msgid "VolumeBar Style:"
 msgstr "Stili i shiritit të volumit:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Paralajmërim: Po përdorni çelësat e parazgjedhur API!\nNe rekomandojmë fuqimisht të konfiguroni çelësat tuaj API në cilësimet e shtojcave."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Redakto hyrjen"
@@ -706,3 +673,92 @@ msgstr "Ju tashmë keni versionin më të fundit ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Duhet të futni një emër të vlefshëm qyteti përpara se të mund të kërkoni për kodin e vendndodhjes."
 
+msgid "imperial system"
+msgstr "sistemi perandorak"
+
+msgid "metric system"
+msgstr "sistemi metrik"
+
+msgid "play/show Files"
+msgstr "luaj/shfaq skedarë"
+
+msgid "volume2"
+msgstr "vëllimi 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Ky operacion kontrollon nëse lëkura ka përbërësit e saj (jo të garantuar)...\n"
+#~ "Dëshiron vërtet të vazhdosh?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Ky operacion do të heqë të gjitha PNG-të nga dosja e pajisjes (Poster-Backdrop)...\n"
+#~ "Dëshiron vërtet të vazhdosh?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Përditësimi i Aglare u krye!\n"
+#~ "Dëshiron të rinisni GUI-në tani?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Shkarkimi i sfondit do të fillojë pas 2 minutash.\n"
+#~ "Mund të dilni me siguri nga kjo meny."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI ka nevojë për një rinisje për të aplikuar një lëkurë të re.\n"
+#~ "Dëshironi të rinisni GUI-në tani?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Shkarkimi i posterit do të fillojë pas 2 minutash.\n"
+#~ "Mund të dilni me siguri nga kjo meny."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Konfiguro Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "nga Lululla @2020\n"
+#~ "\n"
+#~ "Forum mbështetës në linuxsat-support.com\n"
+#~ "\n"
+#~ " Krijuesi i Skinner: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Mbështet InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Skedari i përditësimit nuk u gjet në /tmp.\n"
+#~ "Përditësimi u ndërpre."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Paralajmërim: Po përdorni çelësat e parazgjedhur API!\n"
+#~ "Ne rekomandojmë fuqimisht të konfiguroni çelësat tuaj API në cilësimet e shtojcave."

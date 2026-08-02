@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Þessi aðgerð athugar hvort húðin hafi hluti sína (ekki tryggt)...\nViltu virkilega halda áfram?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Þessi aðgerð mun fjarlægja allar PNG-myndir úr tækjamöppunni (Poster-Backdrop)...\nViltu virkilega halda áfram?"
-
 msgid "%s key imported!"
 msgstr "%s lykill fluttur inn!"
 
@@ -40,11 +34,11 @@ msgstr "Virkjaðu eða slökktu á MOLOTOV sem lýsigagnaveitu."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Virkjaðu eða slökktu á PROGRAMMETV sem lýsigagnaveitu."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Bæta við"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare uppfærslu var lokið!\nViltu endurræsa GUI núna?"
 
 msgid "All png are removed from folder!"
 msgstr "Öll png eru fjarlægð úr möppunni!"
@@ -73,9 +67,6 @@ msgstr "Baksvið"
 msgid "Backdrop download error: {}"
 msgstr "Villa við niðurhal í bakgrunni: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Niðurhal bakgrunns mun hefjast eftir 2 mínútur.\nÞú getur örugglega farið úr þessari valmynd."
-
 msgid "BebasNeue"
 msgstr "ÓkeypisNeue"
 
@@ -91,6 +82,9 @@ msgstr "Blár"
 msgid "Brown"
 msgstr "Brúnn"
 
+msgid "CD"
+msgstr "geisladiskur"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Server + ECM Time"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 
 msgid "Cancel"
 msgstr "Hætta við"
-
-msgid "CD"
-msgstr "geisladiskur"
 
 msgid "Channel Description Color:"
 msgstr "Rásarlýsing litur:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Myndamöppu fyrir val tæki til að sækja"
@@ -208,14 +199,14 @@ msgstr "Sækir Aglare..."
 msgid "ECM Short Format:"
 msgstr "ECM stutt snið:"
 
-msgid "Edit"
-msgstr "Breyta"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC skjár Stíll:"
+
+msgid "Edit"
+msgstr "Breyta"
 
 msgid "Enable Display Genre icons:"
 msgstr "Virkja skjátegundartákn:"
@@ -226,23 +217,20 @@ msgstr "Virkja birtingarupplýsingar:"
 msgid "Enable Display XMC Poster:"
 msgstr "Virkjaðu að sýna XMC plakat:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Virkja eða slökkva á búntum E2iPlayer skjáum."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Virkjaðu eða slökktu á skyndiminni meðan á niðurhali viðburða stendur til að flýta fyrir endurtekinni leit."
-
 msgid "Enable Parental Icons:"
 msgstr "Virkja foreldratákn:"
 
 msgid "Enable Rating Star:"
 msgstr "Virkja einkunnastjörnu:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Virkja eða slökkva á búntum E2iPlayer skjáum."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Virkjaðu eða slökktu á skyndiminni meðan á niðurhali viðburða stendur til að flýta fyrir endurtekinni leit."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Virkjaðu birtingu á víðtækum viðburðaupplýsingum, þar á meðal fullt leikaralið, mannskap, upplýsingar um söguþráð og önnur lýsigögn, í upplýsingagræjunni."
-
-msgid "Error {0}: {1}"
-msgstr "Villa {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Villa við að vinna skinnskrána: {}"
@@ -252,6 +240,9 @@ msgstr "Villa við að hlaða niður skrám!"
 
 msgid "Error loading: {}"
 msgstr "Villa við að hlaða: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Villa {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Villa: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Hætta"
 
-msgid "File {} not found or empty"
-msgstr "Skrá {} fannst ekki eða tóm"
-
 msgid "File Commander - Addon"
 msgstr "Skráarforingi - viðbót"
+
+msgid "File {} not found or empty"
+msgstr "Skrá {} fannst ekki eða tóm"
 
 msgid "Green"
 msgstr "Grænn"
@@ -283,17 +274,11 @@ msgstr "Grænn 2"
 msgid "Greta"
 msgstr "Gréta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "Endurræsa þarf GUI til að nota nýtt skinn.\nViltu endurræsa GUI núna?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Myndasamhæfishópur:"
-
-msgid "imperial system"
-msgstr "keisarakerfi"
 
 msgid "Import key {0} from {1}?"
 msgstr "Flytja inn lykil {0} frá {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Setur upp uppfærslur..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Lykill {} tókst að hlaða!"
-
 msgid "Key empty"
 msgstr "Lykill tómur"
+
+msgid "Key {} successfully loaded!"
+msgstr "Lykill {} tókst að hlaða!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Ljósgrár"
 msgid "LimeGreen"
 msgstr "Lime Green"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Staðbundin smíði ({}) er nýrri en smíði netþjóns ({})."
 
@@ -367,14 +355,17 @@ msgstr "Staðsetningarkóði"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "MSN staðsetningarleitarniðurstaða"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "metrakerfi"
 
 msgid "Mint"
 msgstr "Myntu"
@@ -382,20 +373,11 @@ msgstr "Myntu"
 msgid "Mix1"
 msgstr "Blanda 1"
 
-msgid "MSN location search result"
-msgstr "MSN staðsetningarleitarniðurstaða"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Engar virkar veitendur virkjaðar"
 
 msgid "No description available for this option."
 msgstr "Engin lýsing tiltæk fyrir þennan valkost."
-
-msgid "Off"
-msgstr "Slökkt"
 
 msgid "OFF"
 msgstr "SLÖKKT"
@@ -412,6 +394,9 @@ msgstr "ON"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Slökkt"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (New Images Group)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Group)"
 msgid "Orange"
 msgstr "Appelsínugult"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Bleikur"
-
-msgid "play/show Files"
-msgstr "spila/sýna skrár"
 
 msgid "Please enter a valid city name."
 msgstr "Vinsamlegast sláðu inn gilt borgarnafn."
@@ -435,9 +420,6 @@ msgstr "Vinsamlegast sláðu inn gildan staðsetningarkóða fyrir borgina."
 
 msgid "Poster download error: {}"
 msgstr "Villa við niðurhal á veggspjaldi: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Niðurhal veggspjalda hefst eftir 2 mínútur.\nÞú getur örugglega farið úr þessari valmynd."
 
 msgid "Purple"
 msgstr "Fjólublátt"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI ljós"
 
+msgid "Select EMC style."
+msgstr "Veldu EMC stíl."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Veldu PosterX skjástillingu fyrir upplýsingastikuna. Tiltækt val fer eftir völdum upplýsingastiku stíl og ECM ham."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Veldu XtraEvent skjástillingu fyrir upplýsingastikuna. Tiltækt val fer eftir völdum upplýsingastiku stíl og ECM ham."
+
+msgid "Select Your Font:"
+msgstr "Veldu leturgerðina þína:"
+
 msgid "Select channel list event description color."
 msgstr "Veldu lit viðburðarlýsingar rásarlista."
 
@@ -496,17 +490,11 @@ msgstr "Veldu ráslista valinn forgrunnslit."
 msgid "Select channel selection screen style."
 msgstr "Veldu skjástíl fyrir val á rás."
 
-msgid "Select EMC style."
-msgstr "Veldu EMC stíl."
-
 msgid "Select event view screen style."
 msgstr "Veldu skjástíl viðburðaskoðunar."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Veldu skipulag upplýsingastikunnar. Style5 neyðir ECM af og leyfir aðeins OFF/CD plakatham. Style6 neyðir ECM, PosterX og Xtraevent af."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Veldu PosterX skjástillingu fyrir upplýsingastikuna. Tiltækt val fer eftir völdum upplýsingastiku stíl og ECM ham."
 
 msgid "Select second infobar layout."
 msgstr "Veldu annað skipulag upplýsingastikunnar."
@@ -538,12 +526,6 @@ msgstr "Veldu skjá veðurþjónustu fyrir seinni upplýsingastikuna."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Veldu hvaða ECM reitir eru sýndir þegar húðin notar Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Veldu XtraEvent skjástillingu fyrir upplýsingastikuna. Tiltækt val fer eftir völdum upplýsingastiku stíl og ECM ham."
-
-msgid "Select Your Font:"
-msgstr "Veldu leturgerðina þína:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Stilltu tíma okkar - mínútu fyrir niðurhal á bakgrunni"
 
@@ -556,9 +538,6 @@ msgstr "Stillingar Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Uppsetning Aglare Skin Info"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Uppsetning Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nStuðningsvettvangur á linuxsat-support.com\n\nSkinner skapari: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Sýna tákn sem tákna tegund hvers atburðar (t.d. hasar, gamanmynd, leiklist)"
 
@@ -568,11 +547,11 @@ msgstr "Sýna eða fela ECM upplýsingar á upplýsingastikunni."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Sýna eða fela PosterX í annarri upplýsingastikunni."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Sýna eða fela dagsetningarspjaldið á upplýsingastikunni."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Sýna eða fela XtraEvent í annarri upplýsingastikunni."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Sýna eða fela dagsetningarspjaldið á upplýsingastikunni."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Sýndu leiðbeiningartákn fyrir foreldra á atburðum til að gefa til kynna efnisflokkun og aldurshæfi."
@@ -631,29 +610,26 @@ msgstr "Stíll 6"
 msgid "Support E2iplayer Skins:"
 msgstr "Stuðningur við E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Stuðningur InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Stuðningur við SubsSupportPro skinn:"
 
 msgid "System"
 msgstr "Kerfi"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "PRÓF"
+
+msgid "TMDB Only"
+msgstr "Aðeins TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Skráin %s er tóm."
 
 msgid "The file %s was not found."
 msgstr "Skráin %s fannst ekki."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Uppfærsluskráin fannst ekki í /tmp.\nUppfærslu hætt."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Þessi aðgerð úthlutar möppu tækisslóðar til að hlaða niður mynd (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Þessi aðgerð gerir kleift að birta einkunnastjörnur fyrir atburði,
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Þessi aðgerð fjarlægir allt png úr möpputæki (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Aðeins TMDB"
-
 msgid "Tomato"
 msgstr "Tómatar"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Uppfærsla vefslóðar ekki frumstillt - opnaðu viðbótina einu sinni úr valmyndinni viðbætur fyrst."
 
 msgid "Update check failed: {}"
 msgstr "Uppfærsluathugun mistókst: {}"
@@ -676,17 +652,8 @@ msgstr "Uppfærsluathugun mistókst: {}"
 msgid "Update package not found!"
 msgstr "Uppfærslupakki fannst ekki!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Uppfærsla vefslóðar ekki frumstillt - opnaðu viðbótina einu sinni úr valmyndinni viðbætur fyrst."
-
-msgid "volume2"
-msgstr "bindi 2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar stíll:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Viðvörun: Þú ert að nota sjálfgefna API lykla!\nVið mælum eindregið með því að stilla eigin API lykla í stillingum viðbótarinnar."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Breyta færslu"
@@ -706,3 +673,92 @@ msgstr "Þú ert nú þegar með nýjustu útgáfuna ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Þú þarft að slá inn gilt borgarnafn áður en þú getur leitað að staðsetningarkóðanum."
 
+msgid "imperial system"
+msgstr "keisarakerfi"
+
+msgid "metric system"
+msgstr "metrakerfi"
+
+msgid "play/show Files"
+msgstr "spila/sýna skrár"
+
+msgid "volume2"
+msgstr "bindi 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Þessi aðgerð athugar hvort húðin hafi hluti sína (ekki tryggt)...\n"
+#~ "Viltu virkilega halda áfram?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Þessi aðgerð mun fjarlægja allar PNG-myndir úr tækjamöppunni (Poster-Backdrop)...\n"
+#~ "Viltu virkilega halda áfram?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare uppfærslu var lokið!\n"
+#~ "Viltu endurræsa GUI núna?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Niðurhal bakgrunns mun hefjast eftir 2 mínútur.\n"
+#~ "Þú getur örugglega farið úr þessari valmynd."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "Endurræsa þarf GUI til að nota nýtt skinn.\n"
+#~ "Viltu endurræsa GUI núna?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Niðurhal veggspjalda hefst eftir 2 mínútur.\n"
+#~ "Þú getur örugglega farið úr þessari valmynd."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Uppsetning Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Stuðningsvettvangur á linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner skapari: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Stuðningur InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Uppfærsluskráin fannst ekki í /tmp.\n"
+#~ "Uppfærslu hætt."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Viðvörun: Þú ert að nota sjálfgefna API lykla!\n"
+#~ "Við mælum eindregið með því að stilla eigin API lykla í stillingum viðbótarinnar."

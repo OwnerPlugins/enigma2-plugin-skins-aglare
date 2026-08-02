@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Այս գործողությունը ստուգում է, թե արդյոք մաշկը ունի իր բաղադրիչները (երաշխավորված չէ)...\nԻսկապե՞ս ցանկանում եք շարունակել:"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Այս գործողությունը կհեռացնի բոլոր PNG-ները սարքի պանակից (Poster-Backdrop)...\n Իսկապե՞ս ուզում եք շարունակել:"
-
 msgid "%s key imported!"
 msgstr "%s բանալի ներմուծվել է:"
 
@@ -40,11 +34,11 @@ msgstr "Ակտիվացրեք կամ անջատեք MOLOTOV-ը որպես մետ�
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Ակտիվացրեք կամ անջատեք PROGRAMMETV-ն որպես մետատվյալների մատակարար:"
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Ավելացնել"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare-ի թարմացումն ավարտված է:\nՈւզու՞մ եք վերագործարկել GUI-ն հիմա:"
 
 msgid "All png are removed from folder!"
 msgstr "Բոլոր png-ները հեռացվել են պանակից:"
@@ -73,9 +67,6 @@ msgstr "Հետին պլան"
 msgid "Backdrop download error: {}"
 msgstr "Հետնաշերտի ներբեռնման սխալ՝ {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Հետնաշերտի ներբեռնումը կսկսվի 2 րոպեից:\nԴուք կարող եք ապահով կերպով դուրս գալ այս ընտրացանկից:"
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Կապույտ"
 msgid "Brown"
 msgstr "Շագանակագույն"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Server + ECM Time"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 
 msgid "Cancel"
 msgstr "Չեղարկել"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Ալիքի նկարագրությունը Գույն:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_պաստառներ"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Ընտրված սարքի ներբեռնման պատկերի պանակ"
@@ -208,14 +199,14 @@ msgstr "Downloading Aglare..."
 msgid "ECM Short Format:"
 msgstr "ECM Կարճ ձևաչափ."
 
-msgid "Edit"
-msgstr "Խմբագրել"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC էկրանների ոճը."
+
+msgid "Edit"
+msgstr "Խմբագրել"
 
 msgid "Enable Display Genre icons:"
 msgstr "Միացնել Ցուցադրման ժանրի պատկերակները."
@@ -226,23 +217,20 @@ msgstr "Միացնել Display InfoEvents-ը."
 msgid "Enable Display XMC Poster:"
 msgstr "Միացնել Display XMC պաստառը՝"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Միացնել կամ անջատել փաթեթավորված E2iPlayer էկրանները:"
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Միջոցառումների ներբեռնման ժամանակ միացրեք կամ անջատեք քեշավորումը՝ կրկնվող որոնումները արագացնելու համար:"
-
 msgid "Enable Parental Icons:"
 msgstr "Միացնել ծնողական պատկերակները."
 
 msgid "Enable Rating Star:"
 msgstr "Միացնել վարկանիշային աստղը."
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Միացնել կամ անջատել փաթեթավորված E2iPlayer էկրանները:"
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Միջոցառումների ներբեռնման ժամանակ միացրեք կամ անջատեք քեշավորումը՝ կրկնվող որոնումները արագացնելու համար:"
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Միացրեք իրադարձությունների ընդլայնված տեղեկատվության ցուցադրումը, ներառյալ ամբողջական դերասանական կազմը, անձնակազմը, սյուժեի մանրամասները և այլ մետատվյալներ, տեղեկատվական վիջեթում:"
-
-msgid "Error {0}: {1}"
-msgstr "Սխալ {0}՝ {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Սխալ՝ մաշկի ֆայլը մշակելիս՝ {}"
@@ -252,6 +240,9 @@ msgstr "Չհաջողվեց ներբեռնել ֆայլերը:"
 
 msgid "Error loading: {}"
 msgstr "Սխալ բեռնելիս՝ {}"
+
+msgid "Error {0}: {1}"
+msgstr "Սխալ {0}՝ {1}"
 
 msgid "Error: {}"
 msgstr "Սխալ՝ {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_պաստառներ"
 msgid "Exit"
 msgstr "Ելք"
 
-msgid "File {} not found or empty"
-msgstr "Ֆայլը {} չի գտնվել կամ դատարկ է"
-
 msgid "File Commander - Addon"
 msgstr "Ֆայլի հրամանատար - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Ֆայլը {} չի գտնվել կամ դատարկ է"
 
 msgid "Green"
 msgstr "Կանաչ"
@@ -283,17 +274,11 @@ msgstr "Կանաչ 2"
 msgid "Greta"
 msgstr "Գրետա"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI-ին անհրաժեշտ է վերագործարկում՝ նոր սքին կիրառելու համար:\nՑանկանու՞մ եք վերագործարկել GUI-ն հիմա:"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Պատկերների համատեղելիության խումբ."
-
-msgid "imperial system"
-msgstr "կայսերական համակարգ"
 
 msgid "Import key {0} from {1}?"
 msgstr "Ներմուծե՞լ {0} բանալին {1}-ից:"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Թարմացումների տեղադրում..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Բանալին {} հաջողությամբ բեռնվեց:"
-
 msgid "Key empty"
 msgstr "Բանալին դատարկ է"
+
+msgid "Key {} successfully loaded!"
+msgstr "Բանալին {} հաջողությամբ բեռնվեց:"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Բաց Մոխրագույն"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Տեղական կառուցվածքը ({}) ավելի նոր է, քան սերվերի կառուցվածքը ({}):"
 
@@ -367,14 +355,17 @@ msgstr "Տեղադրության կոդը"
 msgid "Lucida"
 msgstr "Լյուսիդա"
 
+msgid "MSN location search result"
+msgstr "MSN-ի տեղադրության որոնման արդյունք"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Մագենտա"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Մեգաբիթ/վ (Մբ/վ)"
-
-msgid "metric system"
-msgstr "մետրային համակարգ"
 
 msgid "Mint"
 msgstr "Անանուխ"
@@ -382,20 +373,11 @@ msgstr "Անանուխ"
 msgid "Mix1"
 msgstr "Խառնել 1"
 
-msgid "MSN location search result"
-msgstr "MSN-ի տեղադրության որոնման արդյունք"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Ակտիվ պրովայդերներ միացված չեն"
 
 msgid "No description available for this option."
 msgstr "Այս տարբերակի նկարագրությունը հասանելի չէ:"
-
-msgid "Off"
-msgstr "Անջատված"
 
 msgid "OFF"
 msgstr "ԱՆՋԱՏՎԱԾ"
@@ -412,6 +394,9 @@ msgstr "ՄԻԱՑՎԱԾ"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro երեսվածքները:"
 
+msgid "Off"
+msgstr "Անջատված"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Նոր պատկերների խումբ)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Group)"
 msgid "Orange"
 msgstr "Նարնջագույն"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Վարդագույն"
-
-msgid "play/show Files"
-msgstr "խաղալ/ցուցադրել Ֆայլեր"
 
 msgid "Please enter a valid city name."
 msgstr "Խնդրում ենք մուտքագրել վավեր քաղաքի անունը:"
@@ -435,9 +420,6 @@ msgstr "Խնդրում ենք մուտքագրել քաղաքի վավեր գտ�
 
 msgid "Poster download error: {}"
 msgstr "Պաստառի ներբեռնման սխալ՝ {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Պաստառի ներբեռնումը կսկսվի 2 րոպեից:\nԴուք կարող եք ապահով կերպով դուրս գալ այս ընտրացանկից:"
 
 msgid "Purple"
 msgstr "Մանուշակագույն"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI լույս"
 
+msgid "Select EMC style."
+msgstr "Ընտրեք EMC ոճը:"
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ընտրեք PosterX ցուցադրման ռեժիմը տեղեկատվական տողի համար: Հասանելի ընտրանքները կախված են ընտրված ինֆոգոտի ոճից և ECM ռեժիմից:"
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ընտրեք XtraEvent ցուցադրման ռեժիմը տեղեկատվական տողի համար: Հասանելի ընտրանքները կախված են ընտրված ինֆոգոտի ոճից և ECM ռեժիմից:"
+
+msgid "Select Your Font:"
+msgstr "Ընտրեք ձեր տառատեսակը."
+
 msgid "Select channel list event description color."
 msgstr "Ընտրեք ալիքների ցանկի իրադարձությունների նկարագրության գույնը:"
 
@@ -496,17 +490,11 @@ msgstr "Ընտրեք ալիքների ցանկի ընտրված առաջին պ�
 msgid "Select channel selection screen style."
 msgstr "Ընտրեք ալիքի ընտրության էկրանի ոճը:"
 
-msgid "Select EMC style."
-msgstr "Ընտրեք EMC ոճը:"
-
 msgid "Select event view screen style."
 msgstr "Ընտրեք իրադարձությունների դիտման էկրանի ոճը:"
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Ընտրեք տեղեկատվական տողերի դասավորությունը: Style5-ն անջատում է ECM-ը և թույլ է տալիս միայն OFF/CD պաստառի ռեժիմները: Style6-ը ստիպում է անջատել ECM-ը, PosterX-ը և Xtraevent-ը:"
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Ընտրեք PosterX ցուցադրման ռեժիմը տեղեկատվական տողի համար: Հասանելի ընտրանքները կախված են ընտրված ինֆոգոտի ոճից և ECM ռեժիմից:"
 
 msgid "Select second infobar layout."
 msgstr "Ընտրեք երկրորդ տեղեկատվական տողերի դասավորությունը:"
@@ -538,12 +526,6 @@ msgstr "Երկրորդ տեղեկատվական տողի համար ընտրեք
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Ընտրեք, թե որ ECM դաշտերը կցուցադրվեն, երբ մաշկը օգտագործում է Short MYEMUPARA:"
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Ընտրեք XtraEvent ցուցադրման ռեժիմը տեղեկատվական տողի համար: Հասանելի ընտրանքները կախված են ընտրված ինֆոգոտի ոճից և ECM ռեժիմից:"
-
-msgid "Select Your Font:"
-msgstr "Ընտրեք ձեր տառատեսակը."
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Սահմանեք մեր րոպեն՝ հետնաշերտի ներբեռնման համար"
 
@@ -556,9 +538,6 @@ msgstr "Կարգավորումներ Apikey սերվեր"
 msgid "Setup Aglare Skin Info"
 msgstr "Կարգավորեք Aglare Skin Info-ը"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Կարգավորեք Aglare Skin\n-ի համար {0} v.{1}\n\n by Lululla @2020\n\nԱջակցեք ֆորումին linuxsat-support.com\n\nSkinner-ի ստեղծող՝ Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Ցույց տալ յուրաքանչյուր իրադարձության ժանրը ներկայացնող սրբապատկերներ (օրինակ՝ գործողություն, կատակերգություն, դրամա)"
 
@@ -568,11 +547,11 @@ msgstr "Ցուցադրել կամ թաքցնել ECM-ի տեղեկատվությ
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Ցույց տալ կամ թաքցնել PosterX-ը երկրորդ տեղեկատվական տողում:"
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Ցույց տալ կամ թաքցնել ամսաթվի վահանակը տեղեկատվական տողում:"
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Ցույց տալ կամ թաքցնել XtraEvent-ը երկրորդ տեղեկատվական տողում:"
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Ցույց տալ կամ թաքցնել ամսաթվի վահանակը տեղեկատվական տողում:"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Ցույց տալ ծնողների առաջնորդության պատկերակները իրադարձությունների վերաբերյալ՝ բովանդակության վարկանիշը և տարիքային համապատասխանությունը ցույց տալու համար:"
@@ -631,29 +610,26 @@ msgstr "Ոճ 6"
 msgid "Support E2iplayer Skins:"
 msgstr "Աջակցեք E2iplayer Skins-ին."
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Աջակցեք InfoBar SoftCSA-ին."
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Աջակցեք SubsSupportPro Skins-ին."
 
 msgid "System"
 msgstr "Համակարգ"
 
-msgid "Teal"
-msgstr "Շագանակագույն"
-
 msgid "TEST"
 msgstr "ԹԵՍՏ"
+
+msgid "TMDB Only"
+msgstr "Միայն TMDB"
+
+msgid "Teal"
+msgstr "Շագանակագույն"
 
 msgid "The file %s is empty."
 msgstr "%s ֆայլը դատարկ է:"
 
 msgid "The file %s was not found."
 msgstr "%s ֆայլը չի ​​գտնվել:"
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Թարմացման ֆայլը չի ​​գտնվել /tmp.\nԹարմացումը ընդհատվել է:"
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Այս գործողությամբ սարքի ուղու թղթապանակը վերագրվում է պատկերը ներբեռնելու համար (Պաստառ-Հետնապատկեր)"
@@ -664,11 +640,11 @@ msgstr "Այս գործողությունը հնարավորություն է տ
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Այս գործողությունը հեռացնում է բոլոր png-ները թղթապանակի սարքից (Պաստառ-Հետնապատկեր)"
 
-msgid "TMDB Only"
-msgstr "Միայն TMDB"
-
 msgid "Tomato"
 msgstr "Լոլիկ"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Թարմացրեք URL-ը նախաստորագրված չէ – նախ մի անգամ բացեք plugin-ը «Plugins» ցանկից:"
 
 msgid "Update check failed: {}"
 msgstr "Թարմացման ստուգումը ձախողվեց՝ {}"
@@ -676,17 +652,8 @@ msgstr "Թարմացման ստուգումը ձախողվեց՝ {}"
 msgid "Update package not found!"
 msgstr "Թարմացման փաթեթը չի գտնվել:"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Թարմացրեք URL-ը նախաստորագրված չէ – նախ մի անգամ բացեք plugin-ը «Plugins» ցանկից:"
-
-msgid "volume2"
-msgstr "հատոր 2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar ոճը."
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Զգուշացում. դուք օգտագործում եք լռելյայն API ստեղներ:\nՄենք խստորեն խորհուրդ ենք տալիս կարգավորել ձեր սեփական API ստեղները plugin-ի կարգավորումներում:"
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin. Խմբագրել մուտքը"
@@ -706,3 +673,92 @@ msgstr "Դուք արդեն ունեք վերջին տարբերակը ({}):"
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Տեղադրության կոդը որոնելու համար դուք պետք է մուտքագրեք վավեր քաղաքի անունը:"
 
+msgid "imperial system"
+msgstr "կայսերական համակարգ"
+
+msgid "metric system"
+msgstr "մետրային համակարգ"
+
+msgid "play/show Files"
+msgstr "խաղալ/ցուցադրել Ֆայլեր"
+
+msgid "volume2"
+msgstr "հատոր 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Այս գործողությունը ստուգում է, թե արդյոք մաշկը ունի իր բաղադրիչները (երաշխավորված չէ)...\n"
+#~ "Իսկապե՞ս ցանկանում եք շարունակել:"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Այս գործողությունը կհեռացնի բոլոր PNG-ները սարքի պանակից (Poster-Backdrop)...\n"
+#~ " Իսկապե՞ս ուզում եք շարունակել:"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare-ի թարմացումն ավարտված է:\n"
+#~ "Ուզու՞մ եք վերագործարկել GUI-ն հիմա:"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Հետնաշերտի ներբեռնումը կսկսվի 2 րոպեից:\n"
+#~ "Դուք կարող եք ապահով կերպով դուրս գալ այս ընտրացանկից:"
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI-ին անհրաժեշտ է վերագործարկում՝ նոր սքին կիրառելու համար:\n"
+#~ "Ցանկանու՞մ եք վերագործարկել GUI-ն հիմա:"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Պաստառի ներբեռնումը կսկսվի 2 րոպեից:\n"
+#~ "Դուք կարող եք ապահով կերպով դուրս գալ այս ընտրացանկից:"
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Կարգավորեք Aglare Skin\n"
+#~ "-ի համար {0} v.{1}\n"
+#~ "\n"
+#~ " by Lululla @2020\n"
+#~ "\n"
+#~ "Աջակցեք ֆորումին linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner-ի ստեղծող՝ Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Աջակցեք InfoBar SoftCSA-ին."
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Թարմացման ֆայլը չի ​​գտնվել /tmp.\n"
+#~ "Թարմացումը ընդհատվել է:"
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Զգուշացում. դուք օգտագործում եք լռելյայն API ստեղներ:\n"
+#~ "Մենք խստորեն խորհուրդ ենք տալիս կարգավորել ձեր սեփական API ստեղները plugin-ի կարգավորումներում:"

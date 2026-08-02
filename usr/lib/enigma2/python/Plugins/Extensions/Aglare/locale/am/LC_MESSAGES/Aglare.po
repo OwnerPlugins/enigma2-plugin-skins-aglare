@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] ይህ ቀዶ ጥገና የቆዳ ክፍሎቹ እንዳሉት ይፈትሻል (ዋስትና ያልተሰጠው)...\nበርግጥ መቀጠል ይፈልጋሉ?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] ይህ ክዋኔ ሁሉንም PNG ዎች ከመሳሪያው አቃፊ (ፖስተር-ባክድሮፕ) ያስወግዳል...\nበርግጥ መቀጠል ይፈልጋሉ?"
-
 msgid "%s key imported!"
 msgstr "%s ቁልፍ መጥቷል!"
 
@@ -40,11 +34,11 @@ msgstr "MOLOTOVን እንደ ሜታዳታ አቅራቢ ያግብሩ ወይም �
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "PROGRAMMETVን እንደ ሜታዳታ አቅራቢ ያግብሩ ወይም ያቦዝኑት።"
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "አክል"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "የግርምት ዝማኔ ተከናውኗል!\nአሁን GUI ን እንደገና ማስጀመር ይፈልጋሉ?"
 
 msgid "All png are removed from folder!"
 msgstr "ሁሉም png ከአቃፊ ተወግደዋል!"
@@ -73,9 +67,6 @@ msgstr "Backdrop"
 msgid "Backdrop download error: {}"
 msgstr "የBackdrop ማውረድ ስህተት፡ {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Backdrop ማውረድ በ2 ደቂቃ ውስጥ ይጀምራል።\n በደህና ከዚህ ምናሌ መውጣት ትችላለህ።"
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "ሰማያዊ"
 msgid "Brown"
 msgstr "ብናማ"
 
+msgid "CD"
+msgstr "ሲዲ"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + ፕሮቶኮል + አገልጋይ + ኢሲኤም ጊዜ"
 
@@ -99,9 +93,6 @@ msgstr "ካይድ + አንባቢ + ፕሮቶኮል + አገልጋይ + ኢሲኤ
 
 msgid "Cancel"
 msgstr "ሰርዝ"
-
-msgid "CD"
-msgstr "ሲዲ"
 
 msgid "Channel Description Color:"
 msgstr "የሰርጥ መግለጫ ቀለም፡-"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "የቻናል ምርጫ_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "የቻናል ምርጫ_ትልቅ_ሚኒ_ቲቪ"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "የሰርጥ ምርጫ_NO_ፖስተሮች"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "የሰርጥ ምርጫ_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "የቻናል ምርጫ_ትልቅ_ሚኒ_ቲቪ"
 
 msgid "Choice device download image folder"
 msgstr "ምርጫ መሣሪያ አውርድ ምስል አቃፊ"
@@ -208,14 +199,14 @@ msgstr "Aglareን በማውረድ ላይ..."
 msgid "ECM Short Format:"
 msgstr "ECM አጭር ቅርጸት፡-"
 
-msgid "Edit"
-msgstr "አርትዕ"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "የ EMC ስክሪን ቅጥ፡"
+
+msgid "Edit"
+msgstr "አርትዕ"
 
 msgid "Enable Display Genre icons:"
 msgstr "የማሳያ ዘውግ አዶዎችን አንቃ፡-"
@@ -226,23 +217,20 @@ msgstr "የማሳያ መረጃ ክስተቶችን አንቃ፡-"
 msgid "Enable Display XMC Poster:"
 msgstr "ማሳያ XMC ፖስተር አንቃ፡-"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "የታሸጉ E2iPlayer ስክሪኖችን አንቃ ወይም አሰናክል።"
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "ተደጋጋሚ ፍለጋዎችን ለማፋጠን በክስተቱ በሚወርድበት ጊዜ መሸጎጫን አንቃ ወይም አሰናክል።"
-
 msgid "Enable Parental Icons:"
 msgstr "የወላጅ አዶዎችን አንቃ፡"
 
 msgid "Enable Rating Star:"
 msgstr "የኮከብ ደረጃን አንቃ፡"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "የታሸጉ E2iPlayer ስክሪኖችን አንቃ ወይም አሰናክል።"
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "ተደጋጋሚ ፍለጋዎችን ለማፋጠን በክስተቱ በሚወርድበት ጊዜ መሸጎጫን አንቃ ወይም አሰናክል።"
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "በመረጃ መግብር ውስጥ ሙሉ ተዋናዮችን፣ የቡድን አባላትን፣ የፕላን ዝርዝሮችን እና ሌላ ሜታዳታን ጨምሮ የተራዘመ የክስተት መረጃን ማሳየትን ያንቁ።"
-
-msgid "Error {0}: {1}"
-msgstr "ስህተት {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "የቆዳ ፋይሉን በማስኬድ ላይ ስህተት፦ {}"
@@ -252,6 +240,9 @@ msgstr "ፋይሎችን ማውረድ ላይ ስህተት!"
 
 msgid "Error loading: {}"
 msgstr "በመጫን ላይ ስህተት፡ {}"
+
+msgid "Error {0}: {1}"
+msgstr "ስህተት {0}: {1}"
 
 msgid "Error: {}"
 msgstr "ስህተት፡ {}"
@@ -268,11 +259,11 @@ msgstr "የክስተት እይታ_NO_ፖስተሮች"
 msgid "Exit"
 msgstr "ውጣ"
 
-msgid "File {} not found or empty"
-msgstr "ፋይል {} አልተገኘም ወይም ባዶ ነው።"
-
 msgid "File Commander - Addon"
 msgstr "የፋይል አዛዥ - አዶን"
+
+msgid "File {} not found or empty"
+msgstr "ፋይል {} አልተገኘም ወይም ባዶ ነው።"
 
 msgid "Green"
 msgstr "አረንጓዴ"
@@ -283,17 +274,11 @@ msgstr "አረንጓዴ 2"
 msgid "Greta"
 msgstr "ግሬታ"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI አዲስ ቆዳ ለመተግበር ዳግም ማስጀመር ያስፈልገዋል።\nአሁን GUIን እንደገና ማስጀመር ይፈልጋሉ?"
-
 msgid "HandelGotD"
 msgstr "ሃንዴል ጎትዲ"
 
 msgid "Image Compatibility Group:"
 msgstr "የምስል ተኳኋኝነት ቡድን"
-
-msgid "imperial system"
-msgstr "ኢምፔሪያል ስርዓት"
 
 msgid "Import key {0} from {1}?"
 msgstr "ቁልፍ {0} ከ{1} አስመጣ?"
@@ -340,11 +325,11 @@ msgstr "ኢንስ መስመር"
 msgid "Installing updates..."
 msgstr "ዝማኔዎችን በመጫን ላይ..."
 
-msgid "Key {} successfully loaded!"
-msgstr "ቁልፍ {} በተሳካ ሁኔታ ተጭኗል!"
-
 msgid "Key empty"
 msgstr "ቁልፍ ባዶ"
+
+msgid "Key {} successfully loaded!"
+msgstr "ቁልፍ {} በተሳካ ሁኔታ ተጭኗል!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtbold መደበኛ"
@@ -358,6 +343,9 @@ msgstr "ፈካ ያለ ግራጫ"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "የአካባቢ ግንባታ ({}) ከአገልጋይ ግንባታ ({}) የበለጠ አዲስ ነው።"
 
@@ -367,14 +355,17 @@ msgstr "የአካባቢ ኮድ"
 msgid "Lucida"
 msgstr "ሉሲዳ"
 
+msgid "MSN location search result"
+msgstr "የ MSN አካባቢ ፍለጋ ውጤት"
+
+msgid "MV Boli"
+msgstr "ኤምቪ ቦሊ"
+
 msgid "Magenta"
 msgstr "ማጄንታ"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "ሜጋቢት/ሰ (ሜባ/ሰ)"
-
-msgid "metric system"
-msgstr "የሜትሪክ ስርዓት"
 
 msgid "Mint"
 msgstr "ሚንት"
@@ -382,20 +373,11 @@ msgstr "ሚንት"
 msgid "Mix1"
 msgstr "ቅልቅል1"
 
-msgid "MSN location search result"
-msgstr "የ MSN አካባቢ ፍለጋ ውጤት"
-
-msgid "MV Boli"
-msgstr "ኤምቪ ቦሊ"
-
 msgid "No active providers enabled"
 msgstr "ምንም ንቁ አቅራቢዎች አልነቁም።"
 
 msgid "No description available for this option."
 msgstr "ለዚህ አማራጭ ምንም መግለጫ የለም።"
-
-msgid "Off"
-msgstr "ጠፍቷል"
 
 msgid "OFF"
 msgstr "ጠፍቷል"
@@ -412,6 +394,9 @@ msgstr "በርቷል"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "በርቷል/አጥፋ SubsSupportPro ቆዳዎች።"
 
+msgid "Off"
+msgstr "ጠፍቷል"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH/OpenViX/ TeamBlue (አዲስ ምስሎች ቡድን)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi ቡድን)"
 msgid "Orange"
 msgstr "ብርቱካናማ"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "ሮዝ"
-
-msgid "play/show Files"
-msgstr "ፋይሎችን አጫውት/አሳይ"
 
 msgid "Please enter a valid city name."
 msgstr "እባክዎ ትክክለኛ የከተማ ስም ያስገቡ።"
@@ -435,9 +420,6 @@ msgstr "እባክዎ ለከተማው የሚሰራ የአካባቢ ኮድ ያስ�
 
 msgid "Poster download error: {}"
 msgstr "የፖስተር ማውረድ ስህተት፡ {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "ፖስተር ማውረድ በ2 ደቂቃ ውስጥ ይጀምራል።\n በደህና ከዚህ ምናሌ መውጣት ይችላሉ።"
 
 msgid "Purple"
 msgstr "ሐምራዊ"
@@ -484,6 +466,18 @@ msgstr "ሁለተኛ መረጃ አሞሌ Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI ብርሃን"
 
+msgid "Select EMC style."
+msgstr "የ EMC ዘይቤን ይምረጡ።"
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ለመረጃ አሞሌው የPosterX ማሳያ ሁነታን ይምረጡ። የሚገኙ ምርጫዎች በተመረጠው የኢንፎባር ዘይቤ እና ECM ሁነታ ይወሰናል።"
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "ለመረጃ አሞሌው የXtraEvent ማሳያ ሁነታን ይምረጡ። የሚገኙ ምርጫዎች በተመረጠው የኢንፎባር ዘይቤ እና ECM ሁነታ ይወሰናል።"
+
+msgid "Select Your Font:"
+msgstr "የእርስዎን ፊደል ይምረጡ፡-"
+
 msgid "Select channel list event description color."
 msgstr "የሰርጥ ዝርዝር ክስተት መግለጫ ቀለም ይምረጡ።"
 
@@ -496,17 +490,11 @@ msgstr "የፊት ለፊት ቀለም የተመረጠውን የሰርጥ ዝር�
 msgid "Select channel selection screen style."
 msgstr "የሰርጥ ምርጫ ስክሪን ዘይቤን ይምረጡ።"
 
-msgid "Select EMC style."
-msgstr "የ EMC ዘይቤን ይምረጡ።"
-
 msgid "Select event view screen style."
 msgstr "የክስተት እይታ ስክሪን ቅጥን ይምረጡ።"
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "የመረጃ አሞሌ አቀማመጥ ይምረጡ። Style5 ECM እንዲጠፋ ያስገድዳል እና የ Off/CD ፖስተር ሁነታዎችን ብቻ ይፈቅዳል። Style6 ECM፣ PosterX እና Xtraevent እንዲጠፉ ያስገድዳል።"
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "ለመረጃ አሞሌው የPosterX ማሳያ ሁነታን ይምረጡ። የሚገኙ ምርጫዎች በተመረጠው የኢንፎባር ዘይቤ እና ECM ሁነታ ይወሰናል።"
 
 msgid "Select second infobar layout."
 msgstr "ሁለተኛ የመረጃ አሞሌ አቀማመጥ ይምረጡ።"
@@ -538,12 +526,6 @@ msgstr "ለሁለተኛው የመረጃ አሞሌ የአየር ሁኔታ አቅ�
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "ቆዳው አጭር MYEMUPARA በሚጠቀምበት ጊዜ የትኞቹ ECM መስኮች እንደሚታዩ ይምረጡ።"
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "ለመረጃ አሞሌው የXtraEvent ማሳያ ሁነታን ይምረጡ። የሚገኙ ምርጫዎች በተመረጠው የኢንፎባር ዘይቤ እና ECM ሁነታ ይወሰናል።"
-
-msgid "Select Your Font:"
-msgstr "የእርስዎን ፊደል ይምረጡ፡-"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "ለBackdrop ማውረድ ጊዜያችንን አዘጋጅ"
 
@@ -556,9 +538,6 @@ msgstr "የApikey አገልጋይ ቅንብሮች"
 msgid "Setup Aglare Skin Info"
 msgstr "የAglare የቆዳ መረጃን ያዋቅሩ"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Aglare Skin\nለ {0} v.{1}\n\nበሉሉላ @2020\n\nየድጋፍ መድረክ በlinuxsat-support.com\n\nSkinner ፈጣሪ፡Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "የእያንዳንዱን ክስተት ዘውግ የሚወክሉ አዶዎችን አሳይ (ለምሳሌ፦ ድርጊት፣ አስቂኝ፣ ድራማ)"
 
@@ -568,11 +547,11 @@ msgstr "የኢሲኤም መረጃን በመረጃ አሞሌው ውስጥ አሳ�
 msgid "Show or hide PosterX in the second infobar."
 msgstr "በሁለተኛው የመረጃ አሞሌ ውስጥ PosterXን አሳይ ወይም ደብቅ።"
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "የቀን ፓነልን በመረጃ አሞሌው ውስጥ አሳይ ወይም ደብቅ።"
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "በሁለተኛው የመረጃ አሞሌ ውስጥ XtraEventን አሳይ ወይም ደብቅ።"
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "የቀን ፓነልን በመረጃ አሞሌው ውስጥ አሳይ ወይም ደብቅ።"
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "የይዘት ደረጃን እና የዕድሜን ተስማሚነት ለማመልከት በክስተቶች ላይ የወላጅ መመሪያ አዶዎችን አሳይ።"
@@ -631,29 +610,26 @@ msgstr "ቅጥ 6"
 msgid "Support E2iplayer Skins:"
 msgstr "E2iplayer ቆዳዎችን ይደግፉ፡"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "InfoBar SoftCSA ይደግፉ፡"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "SubsupportPro ቆዳዎችን ይደግፉ፡"
 
 msgid "System"
 msgstr "ስርዓት"
 
-msgid "Teal"
-msgstr "ሻይ"
-
 msgid "TEST"
 msgstr "ሙከራ"
+
+msgid "TMDB Only"
+msgstr "TMDB ብቻ"
+
+msgid "Teal"
+msgstr "ሻይ"
 
 msgid "The file %s is empty."
 msgstr "%s ፋይሉ ባዶ ነው።"
 
 msgid "The file %s was not found."
 msgstr "%s ፋይል አልተገኘም።"
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "የዝማኔው ፋይል በ/tmp.\nUpdate ተቋርጧል ውስጥ አልተገኘም።"
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "ይህ ክዋኔ ምስልን ለማውረድ የመሳሪያ ዱካ አቃፊ ይመድባል (ፖስተር-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "ይህ ክዋኔ በተመረጠው የደረጃ አሰጣጥ ምንጭ 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "ይህ ክዋኔ ሁሉንም png ከአቃፊ መሳሪያ (Poster-Backdrop) ያስወግዳል"
 
-msgid "TMDB Only"
-msgstr "TMDB ብቻ"
-
 msgid "Tomato"
 msgstr "ቲማቲም"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "የዝማኔ ዩአርኤል አልተጀመረም - ፕለጊኑን አንዴ ከፕለጊኖች ሜኑ መጀመሪያ ይክፈቱ።"
 
 msgid "Update check failed: {}"
 msgstr "የዝማኔ ፍተሻ አልተሳካም፦ {}"
@@ -676,17 +652,8 @@ msgstr "የዝማኔ ፍተሻ አልተሳካም፦ {}"
 msgid "Update package not found!"
 msgstr "የዝማኔ ጥቅል አልተገኘም!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "የዝማኔ ዩአርኤል አልተጀመረም - ፕለጊኑን አንዴ ከፕለጊኖች ሜኑ መጀመሪያ ይክፈቱ።"
-
-msgid "volume2"
-msgstr "ጥራዝ 2"
-
 msgid "VolumeBar Style:"
 msgstr "የድምጽ አሞሌ ቅጥ፡"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "ማስጠንቀቂያ፡ ነባሪ የኤፒአይ ቁልፎችን እየተጠቀምክ ነው!\nበፕለጊን ቅንጅቶች ውስጥ የራስህ ኤፒአይ ቁልፎች እንድታዋቅር አበክረን እንመክራለን።"
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin፡ ግቤትን ያርትዑ"
@@ -706,3 +673,92 @@ msgstr "አስቀድመው የቅርብ ጊዜ ስሪት ({}) አልዎት።"
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "የአካባቢ ኮዱን ከመፈለግዎ በፊት የሚሰራ የከተማ ስም ማስገባት ያስፈልግዎታል።"
 
+msgid "imperial system"
+msgstr "ኢምፔሪያል ስርዓት"
+
+msgid "metric system"
+msgstr "የሜትሪክ ስርዓት"
+
+msgid "play/show Files"
+msgstr "ፋይሎችን አጫውት/አሳይ"
+
+msgid "volume2"
+msgstr "ጥራዝ 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] ይህ ቀዶ ጥገና የቆዳ ክፍሎቹ እንዳሉት ይፈትሻል (ዋስትና ያልተሰጠው)...\n"
+#~ "በርግጥ መቀጠል ይፈልጋሉ?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] ይህ ክዋኔ ሁሉንም PNG ዎች ከመሳሪያው አቃፊ (ፖስተር-ባክድሮፕ) ያስወግዳል...\n"
+#~ "በርግጥ መቀጠል ይፈልጋሉ?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "የግርምት ዝማኔ ተከናውኗል!\n"
+#~ "አሁን GUI ን እንደገና ማስጀመር ይፈልጋሉ?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Backdrop ማውረድ በ2 ደቂቃ ውስጥ ይጀምራል።\n"
+#~ " በደህና ከዚህ ምናሌ መውጣት ትችላለህ።"
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI አዲስ ቆዳ ለመተግበር ዳግም ማስጀመር ያስፈልገዋል።\n"
+#~ "አሁን GUIን እንደገና ማስጀመር ይፈልጋሉ?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "ፖስተር ማውረድ በ2 ደቂቃ ውስጥ ይጀምራል።\n"
+#~ " በደህና ከዚህ ምናሌ መውጣት ይችላሉ።"
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Aglare Skin\n"
+#~ "ለ {0} v.{1}\n"
+#~ "\n"
+#~ "በሉሉላ @2020\n"
+#~ "\n"
+#~ "የድጋፍ መድረክ በlinuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner ፈጣሪ፡Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "InfoBar SoftCSA ይደግፉ፡"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "የዝማኔው ፋይል በ/tmp.\n"
+#~ "Update ተቋርጧል ውስጥ አልተገኘም።"
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "ማስጠንቀቂያ፡ ነባሪ የኤፒአይ ቁልፎችን እየተጠቀምክ ነው!\n"
+#~ "በፕለጊን ቅንጅቶች ውስጥ የራስህ ኤፒአይ ቁልፎች እንድታዋቅር አበክረን እንመክራለን።"

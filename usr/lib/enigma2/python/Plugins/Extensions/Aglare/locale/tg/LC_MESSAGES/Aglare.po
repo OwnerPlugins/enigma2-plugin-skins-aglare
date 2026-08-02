@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Чинки] Ин амалиёт тафтиш мекунад, ки оё пӯст ҷузъҳои худро дорад (кафолат дода намешавад)...\nОё шумо воқеан мехоҳед идома диҳед?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Ин амалиёт ҳамаи PNG-ро аз ҷузвдони дастгоҳ нест мекунад (Плакат-Замин)...\nОё шумо дар ҳақиқат мехоҳед идома диҳед?"
-
 msgid "%s key imported!"
 msgstr "%s калид ворид карда шуд!"
 
@@ -40,11 +34,11 @@ msgstr "MOLOTOV-ро ҳамчун провайдери метамаълумот 
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "PROGRAMMETV-ро ҳамчун провайдери метамаълумот фаъол ё ғайрифаъол кунед."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Илова"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Навсозии Aglare анҷом ёфт!\nОё шумо мехоҳед GUI-ро ҳозир бозоғоз намоед?"
 
 msgid "All png are removed from folder!"
 msgstr "Ҳама png аз ҷузвдон хориҷ карда шудаанд!"
@@ -73,9 +67,6 @@ msgstr "Замина"
 msgid "Backdrop download error: {}"
 msgstr "Хатогии зеркашии замина: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Зеркашии пасзамина пас аз 2 дақиқа оғоз мешавад.\nШумо метавонед аз ин меню бехатар берун равед."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Кабуд"
 msgid "Brown"
 msgstr "Браун"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + протокол + сервер + ECM Time"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Протокол + Сервер + Вақти ECM"
 
 msgid "Cancel"
 msgstr "Бекор кардан"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Тавсифи канал Ранги:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "Интихоби Channel_NO_Плакатҳо"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "Интихоби Channel_NO_Picon_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Интихоби дастгоҳи зеркашии ҷузвдони тасвир"
@@ -208,14 +199,14 @@ msgstr "Downloading Aglare..."
 msgid "ECM Short Format:"
 msgstr "Формати кӯтоҳи ECM:"
 
-msgid "Edit"
-msgstr "Таҳрир"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Тарзи экранҳои EMC:"
+
+msgid "Edit"
+msgstr "Таҳрир"
 
 msgid "Enable Display Genre icons:"
 msgstr "Нишонаҳои жанри намоишро фаъол созед:"
@@ -226,23 +217,20 @@ msgstr "Намоиши InfoEvents-ро фаъол созед:"
 msgid "Enable Display XMC Poster:"
 msgstr "Намоиши плакати XMC-ро фаъол созед:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Экранҳои маҷмӯии E2iPlayer-ро фаъол ё ғайрифаъол кунед."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Барои суръат бахшидан ба ҷустуҷӯҳои такрорӣ кэшро ҳангоми зеркашии ҳодиса фаъол ё ғайрифаъол кунед."
-
 msgid "Enable Parental Icons:"
 msgstr "Нишонаҳои волидайнро фаъол созед:"
 
 msgid "Enable Rating Star:"
 msgstr "Ситораи рейтингро фаъол созед:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Экранҳои маҷмӯии E2iPlayer-ро фаъол ё ғайрифаъол кунед."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Барои суръат бахшидан ба ҷустуҷӯҳои такрорӣ кэшро ҳангоми зеркашии ҳодиса фаъол ё ғайрифаъол кунед."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Дар виҷети иттилоот намоиши маълумоти васеъи рӯйдод, аз ҷумла ҳайати пурра, экипаж, тафсилоти сюжет ва дигар метадотаҳоро фаъол созед."
-
-msgid "Error {0}: {1}"
-msgstr "Хатогӣ {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Хатогӣ ҳангоми коркарди файли пӯст: {}"
@@ -252,6 +240,9 @@ msgstr "Хатогӣ ҳангоми зеркашии файлҳо!"
 
 msgid "Error loading: {}"
 msgstr "Хатогии боркунӣ: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Хатогӣ {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Хатогӣ: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Баромадгоҳ"
 
-msgid "File {} not found or empty"
-msgstr "Файли {} ёфт нашуд ё холӣ"
-
 msgid "File Commander - Addon"
 msgstr "Фармондеҳи файл - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Файли {} ёфт нашуд ё холӣ"
 
 msgid "Green"
 msgstr "Сабз"
@@ -283,17 +274,11 @@ msgstr "Сабз 2"
 msgid "Greta"
 msgstr "Грета"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "Барои татбиқ кардани пӯсти нав ба GUI бозоғоз лозим аст.\nОё шумо мехоҳед GUI-ро ҳозир бозоғоз кунед?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Гурӯҳи мутобиқати тасвирҳо:"
-
-msgid "imperial system"
-msgstr "системаи империалистй"
 
 msgid "Import key {0} from {1}?"
 msgstr "Калиди {0} аз {1} ворид карда шавад?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Насб кардани навсозиҳо..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Калиди {} бомуваффақият бор карда шуд!"
-
 msgid "Key empty"
 msgstr "Калид холӣ"
+
+msgid "Key {} successfully loaded!"
+msgstr "Калиди {} бомуваффақият бор карда шуд!"
 
 msgid "KhalidArtboldRegular"
 msgstr "ХолидАртболд Мунтазам"
@@ -358,6 +343,9 @@ msgstr "Хокистари равшан"
 msgid "LimeGreen"
 msgstr "Оҳаки сабз"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Сохтани маҳаллӣ ({}) аз сохтани сервер ({}) навтар аст."
 
@@ -367,14 +355,17 @@ msgstr "Рамзи ҷойгиршавӣ"
 msgid "Lucida"
 msgstr "Лусида"
 
+msgid "MSN location search result"
+msgstr "Натиҷаи ҷустуҷӯи макони MSN"
+
+msgid "MV Boli"
+msgstr "М.В.Боли"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Мегабит/с (Мб/с)"
-
-msgid "metric system"
-msgstr "системаи метрӣ"
 
 msgid "Mint"
 msgstr "пудинагӣ"
@@ -382,20 +373,11 @@ msgstr "пудинагӣ"
 msgid "Mix1"
 msgstr "Омезиши 1"
 
-msgid "MSN location search result"
-msgstr "Натиҷаи ҷустуҷӯи макони MSN"
-
-msgid "MV Boli"
-msgstr "М.В.Боли"
-
 msgid "No active providers enabled"
 msgstr "Ягон провайдери фаъол фаъол нашудааст"
 
 msgid "No description available for this option."
 msgstr "Барои ин хосият тавсифе дастрас нест."
-
-msgid "Off"
-msgstr "Хомӯш"
 
 msgid "OFF"
 msgstr "ХОМӮШ"
@@ -412,6 +394,9 @@ msgstr "ДАР БОРАИ"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "Пӯстҳои SubsSupportPro ON/OFF."
 
+msgid "Off"
+msgstr "Хомӯш"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Гурӯҳи тасвирҳои нав)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Гурӯҳи OpenPLi)"
 msgid "Orange"
 msgstr "норанҷӣ"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Гулобӣ"
-
-msgid "play/show Files"
-msgstr "Файлҳоро бозӣ/намоиш диҳед"
 
 msgid "Please enter a valid city name."
 msgstr "Лутфан номи дурусти шаҳрро ворид кунед."
@@ -435,9 +420,6 @@ msgstr "Лутфан рамзи ҷойгиршавии дурусти шаҳрр
 
 msgid "Poster download error: {}"
 msgstr "Хатои зеркашии плакат: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Зеркашии плакат пас аз 2 дақиқа оғоз мешавад.\nШумо метавонед аз ин меню бехатар хориҷ шавед."
 
 msgid "Purple"
 msgstr "Арғувон"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Нури Segoe UI"
 
+msgid "Select EMC style."
+msgstr "Услуби EMC-ро интихоб кунед."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ҳолати намоиши PosterX-ро барои лавҳаи иттилоот интихоб кунед. Интихобҳои дастрас аз услуби интихобшудаи панели иттилоотӣ ва режими ECM вобастаанд."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Ҳолати намоиши XtraEvent -ро барои лавҳаи иттилоот интихоб кунед. Интихобҳои дастрас аз услуби интихобшудаи панели иттилоотӣ ва режими ECM вобастаанд."
+
+msgid "Select Your Font:"
+msgstr "Шрифти худро интихоб кунед:"
+
 msgid "Select channel list event description color."
 msgstr "Ранги тавсифи рӯйдодҳои рӯйхати каналҳоро интихоб кунед."
 
@@ -496,17 +490,11 @@ msgstr "Рӯйхати каналҳоро интихоб кунед, ки ран
 msgid "Select channel selection screen style."
 msgstr "Услуби экрани интихоби каналро интихоб кунед."
 
-msgid "Select EMC style."
-msgstr "Услуби EMC-ро интихоб кунед."
-
 msgid "Select event view screen style."
 msgstr "Услуби намоиши рӯйдодҳоро интихоб кунед."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Тарҳбандии панели маълумотро интихоб кунед. Style5 ECM-ро хомӯш мекунад ва танҳо ба шеваҳои плакатҳои CD OFF/CD иҷозат медиҳад. Style6 ECM, PosterX ва Xtraeventро хомӯш мекунад."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Ҳолати намоиши PosterX-ро барои лавҳаи иттилоот интихоб кунед. Интихобҳои дастрас аз услуби интихобшудаи панели иттилоотӣ ва режими ECM вобастаанд."
 
 msgid "Select second infobar layout."
 msgstr "Тарҳбандии дуюми панели иттилоотиро интихоб кунед."
@@ -538,12 +526,6 @@ msgstr "Намоиши провайдери обу ҳаворо барои ла�
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Интихоб кунед, ки кадом майдонҳои ECM ҳангоми истифодаи пӯст Short MYEMUPARA нишон дода мешаванд."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Ҳолати намоиши XtraEvent -ро барои лавҳаи иттилоот интихоб кунед. Интихобҳои дастрас аз услуби интихобшудаи панели иттилоотӣ ва режими ECM вобастаанд."
-
-msgid "Select Your Font:"
-msgstr "Шрифти худро интихоб кунед:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Вақти мо - дақиқаро барои зеркашии замина таъин кунед"
 
@@ -556,9 +538,6 @@ msgstr "Танзимоти Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Танзимоти Aglare Skin Info"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Насб кардани Aglare Skin\nfor {0} v.{1}\n\n аз ҷониби Lululla @2020\n\nФоруми дастгирӣ дар linuxsat-support.com\n\nОфарандаи Skinner: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Нишонаҳоеро нишон диҳед, ки жанри ҳар як ҳодисаро намояндагӣ мекунанд (масалан, амал, комедия, драма)"
 
@@ -568,11 +547,11 @@ msgstr "Маълумоти ECM-ро дар лавҳаи иттилоот ниш�
 msgid "Show or hide PosterX in the second infobar."
 msgstr "PosterX-ро дар лавҳаи дуюм нишон диҳед ё пинҳон кунед."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Панели санаро дар лавҳаи маълумот нишон диҳед ё пинҳон кунед."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "XtraEvent -ро дар лавҳаи дуюм нишон диҳед ё пинҳон кунед."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Панели санаро дар лавҳаи маълумот нишон диҳед ё пинҳон кунед."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Нишонаҳои роҳнамоии волидайнро дар рӯйдодҳо нишон диҳед, то рейтинги мундариҷа ва мувофиқати синну солро нишон диҳанд."
@@ -631,29 +610,26 @@ msgstr "Услуб 6"
 msgid "Support E2iplayer Skins:"
 msgstr "Дастгирии пӯстҳои E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Дастгирии InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Дастгирии пӯстҳои SubsSupportPro:"
 
 msgid "System"
 msgstr "Система"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "САНЧИШ"
+
+msgid "TMDB Only"
+msgstr "Танҳо TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Файли %s холӣ аст."
 
 msgid "The file %s was not found."
 msgstr "Файли %s ёфт нашуд."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Файли навсозӣ дар /tmp.\nUpdate қатъ карда нашуд."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Ин амалиёт ҷузвдони роҳи дастгоҳро барои зеркашии тасвир таъин мекунад (Плакат-Замин)"
@@ -664,11 +640,11 @@ msgstr "Ин амалиёт имкон медиҳад, ки ситораҳои �
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ин амалиёт ҳамаи png-ро аз дастгоҳи ҷузвдон нест мекунад (Плакат-Замин)"
 
-msgid "TMDB Only"
-msgstr "Танҳо TMDB"
-
 msgid "Tomato"
 msgstr "Помидор"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL-и навсозӣ оғоз нашудааст - аввал плагинро аз менюи плагинҳо як бор кушоед."
 
 msgid "Update check failed: {}"
 msgstr "Санҷиши навсозӣ ноком шуд: {}"
@@ -676,17 +652,8 @@ msgstr "Санҷиши навсозӣ ноком шуд: {}"
 msgid "Update package not found!"
 msgstr "Бастаи навсозӣ ёфт нашуд!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "URL-и навсозӣ оғоз нашудааст - аввал плагинро аз менюи плагинҳо як бор кушоед."
-
-msgid "volume2"
-msgstr "ҷилди 2"
-
 msgid "VolumeBar Style:"
 msgstr "Услуби VolumeBar:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Огоҳӣ: Шумо калидҳои API-и пешфарзро истифода мебаред!\nМо тавсия медиҳем, ки калидҳои API-и худро дар танзимоти плагин танзим кунед."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Таҳрири вуруд"
@@ -706,3 +673,92 @@ msgstr "Шумо аллакай версияи охирини ({}) доред."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Пеш аз ҷустуҷӯи рамзи ҷойгиршавӣ, шумо бояд номи дурусти шаҳрро ворид кунед."
 
+msgid "imperial system"
+msgstr "системаи империалистй"
+
+msgid "metric system"
+msgstr "системаи метрӣ"
+
+msgid "play/show Files"
+msgstr "Файлҳоро бозӣ/намоиш диҳед"
+
+msgid "volume2"
+msgstr "ҷилди 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Чинки] Ин амалиёт тафтиш мекунад, ки оё пӯст ҷузъҳои худро дорад (кафолат дода намешавад)...\n"
+#~ "Оё шумо воқеан мехоҳед идома диҳед?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Ин амалиёт ҳамаи PNG-ро аз ҷузвдони дастгоҳ нест мекунад (Плакат-Замин)...\n"
+#~ "Оё шумо дар ҳақиқат мехоҳед идома диҳед?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Навсозии Aglare анҷом ёфт!\n"
+#~ "Оё шумо мехоҳед GUI-ро ҳозир бозоғоз намоед?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Зеркашии пасзамина пас аз 2 дақиқа оғоз мешавад.\n"
+#~ "Шумо метавонед аз ин меню бехатар берун равед."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "Барои татбиқ кардани пӯсти нав ба GUI бозоғоз лозим аст.\n"
+#~ "Оё шумо мехоҳед GUI-ро ҳозир бозоғоз кунед?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Зеркашии плакат пас аз 2 дақиқа оғоз мешавад.\n"
+#~ "Шумо метавонед аз ин меню бехатар хориҷ шавед."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Насб кардани Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ " аз ҷониби Lululla @2020\n"
+#~ "\n"
+#~ "Форуми дастгирӣ дар linuxsat-support.com\n"
+#~ "\n"
+#~ "Офарандаи Skinner: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Дастгирии InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Файли навсозӣ дар /tmp.\n"
+#~ "Update қатъ карда нашуд."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Огоҳӣ: Шумо калидҳои API-и пешфарзро истифода мебаред!\n"
+#~ "Мо тавсия медиҳем, ки калидҳои API-и худро дар танзимоти плагин танзим кунед."

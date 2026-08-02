@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Eragiketa honek azalak bere osagaiak dituen egiaztatzen du (ez da bermatuta)... \nBenetan jarraitu nahi duzu?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Eragiketa honek PNG guztiak kenduko ditu gailuko karpetatik (Poster-Backdrop)... \nBenetan jarraitu nahi duzu?"
-
 msgid "%s key imported!"
 msgstr "%s gakoa inportatu da!"
 
@@ -40,11 +34,11 @@ msgstr "Aktibatu edo desaktibatu MOLOTOV metadatuen hornitzaile gisa."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktibatu edo desaktibatu PROGRAMMETV metadatuen hornitzaile gisa."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Gehitu"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Glare eguneratzea egin da! \nGUIa berrabiarazi nahi duzu orain?"
 
 msgid "All png are removed from folder!"
 msgstr "PNG guztiak karpetatik kendu dira!"
@@ -73,9 +67,6 @@ msgstr "Atzealdea"
 msgid "Backdrop download error: {}"
 msgstr "Atzeko planoa deskargatzeko errorea: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Backdrop deskarga 2 minutu barru hasiko da.\nMenu honetatik irten zaitezke seguru."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Urdina"
 msgid "Brown"
 msgstr "Marroia"
 
+msgid "CD"
+msgstr "CDa"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokoloa + Zerbitzaria + ECM Ordua"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Irakurlea + Protokoloa + Zerbitzaria + ECM Ordua"
 
 msgid "Cancel"
 msgstr "Utzi"
-
-msgid "CD"
-msgstr "CDa"
 
 msgid "Channel Description Color:"
 msgstr "Kanalaren deskribapena kolorea:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Aukeratu gailua deskargatzeko irudien karpeta"
@@ -208,14 +199,14 @@ msgstr "Aglare deskargatzen..."
 msgid "ECM Short Format:"
 msgstr "ECM formatu laburra:"
 
-msgid "Edit"
-msgstr "Editatu"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC pantailak Estiloa:"
+
+msgid "Edit"
+msgstr "Editatu"
 
 msgid "Enable Display Genre icons:"
 msgstr "Gaitu bistaratzeko generoaren ikonoak:"
@@ -226,23 +217,20 @@ msgstr "Gaitu bistaratzeko informazio-gertaerak:"
 msgid "Enable Display XMC Poster:"
 msgstr "Gaitu Display XMC Poster:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Gaitu edo desgaitu bildutako E2iPlayer pantailak."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Gaitu edo desgaitu cachea gertaerak deskargatzean behin eta berriz bilaketak bizkortzeko."
-
 msgid "Enable Parental Icons:"
 msgstr "Gaitu gurasoen ikonoak:"
 
 msgid "Enable Rating Star:"
 msgstr "Gaitu balorazio izarra:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Gaitu edo desgaitu bildutako E2iPlayer pantailak."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Gaitu edo desgaitu cachea gertaerak deskargatzean behin eta berriz bilaketak bizkortzeko."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Gaitu gertaeren informazio hedatua bistaratzea, antzezle osoa, lantaldeak, argumentuaren xehetasunak eta bestelako metadatuak barne, informazio widgetean."
-
-msgid "Error {0}: {1}"
-msgstr "Errorea {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Errore bat gertatu da azalaren fitxategia prozesatzen: {}"
@@ -252,6 +240,9 @@ msgstr "Errore bat gertatu da fitxategiak deskargatzean!"
 
 msgid "Error loading: {}"
 msgstr "Errorea kargatzean: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Errorea {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Errorea: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Irten"
 
-msgid "File {} not found or empty"
-msgstr "Ez da {} fitxategia aurkitu edo hutsik"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Gehigarria"
+
+msgid "File {} not found or empty"
+msgstr "Ez da {} fitxategia aurkitu edo hutsik"
 
 msgid "Green"
 msgstr "Berdea"
@@ -283,17 +274,11 @@ msgstr "Berdea2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI berrabiarazi behar da azal berri bat aplikatzeko.\nGUI berrabiarazi nahi duzu orain?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Irudien bateragarritasun taldea:"
-
-msgid "imperial system"
-msgstr "sistema inperiala"
 
 msgid "Import key {0} from {1}?"
 msgstr "{0} {1}tik inportatu nahi duzu?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Eguneratzeak instalatzen..."
 
-msgid "Key {} successfully loaded!"
-msgstr "{} gakoa behar bezala kargatu da!"
-
 msgid "Key empty"
 msgstr "Giltza hutsik"
+
+msgid "Key {} successfully loaded!"
+msgstr "{} gakoa behar bezala kargatu da!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Gris Argia"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Eraikuntza lokala ({}) zerbitzariaren eraikuntza ({}) baino berriagoa da."
 
@@ -367,14 +355,17 @@ msgstr "Kokapen kodea"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "MSN kokapenaren bilaketaren emaitza"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "sistema metrikoa"
 
 msgid "Mint"
 msgstr "Menta"
@@ -382,20 +373,11 @@ msgstr "Menta"
 msgid "Mix1"
 msgstr "Nahasketa 1"
 
-msgid "MSN location search result"
-msgstr "MSN kokapenaren bilaketaren emaitza"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Ez dago gaituta hornitzaile aktiborik"
 
 msgid "No description available for this option."
 msgstr "Aukera honen deskribapenik ez dago eskuragarri."
-
-msgid "Off"
-msgstr "Desaktibatuta"
 
 msgid "OFF"
 msgstr "OFF"
@@ -412,6 +394,9 @@ msgstr "ON"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Desaktibatuta"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (irudi berriak talde)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Taldea)"
 msgid "Orange"
 msgstr "Laranja"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Arrosa"
-
-msgid "play/show Files"
-msgstr "erreproduzitu/erakutsi Fitxategiak"
 
 msgid "Please enter a valid city name."
 msgstr "Mesedez, idatzi baliozko hiri-izen bat."
@@ -435,9 +420,6 @@ msgstr "Mesedez, sartu hiriaren baliozko kokapen-kode bat."
 
 msgid "Poster download error: {}"
 msgstr "Kartela deskargatzeko errorea: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Kartelaren deskarga 2 minutu barru hasiko da.\nMenu honetatik seguru irten zaitezke."
 
 msgid "Purple"
 msgstr "Morea"
@@ -484,6 +466,18 @@ msgstr "Bigarren Infobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI argia"
 
+msgid "Select EMC style."
+msgstr "Hautatu EMC estiloa."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Hautatu PosterX bistaratzeko modua informazio-barrarako. Eskuragarri dauden aukerak hautatutako info-barra estiloaren eta ECM moduaren araberakoak dira."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Hautatu XtraEvent bistaratzeko modua informazio-barrarako. Eskuragarri dauden aukerak hautatutako info-barra estiloaren eta ECM moduaren araberakoak dira."
+
+msgid "Select Your Font:"
+msgstr "Hautatu zure letra-tipoa:"
+
 msgid "Select channel list event description color."
 msgstr "Hautatu kanal-zerrendako gertaeren deskribapenaren kolorea."
 
@@ -496,17 +490,11 @@ msgstr "Hautatu hautatutako lehen planoko kolorea kanal zerrenda."
 msgid "Select channel selection screen style."
 msgstr "Hautatu kanala hautatzeko pantaila-estiloa."
 
-msgid "Select EMC style."
-msgstr "Hautatu EMC estiloa."
-
 msgid "Select event view screen style."
 msgstr "Hautatu gertaera ikusteko pantaila-estiloa."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Hautatu informazio-barraren diseinua. Style5-ek ECM desaktibatzen du eta OFF/CD poster moduak soilik onartzen ditu. Style6-k ECM, PosterX eta Xtraevent desaktibatzen ditu."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Hautatu PosterX bistaratzeko modua informazio-barrarako. Eskuragarri dauden aukerak hautatutako info-barra estiloaren eta ECM moduaren araberakoak dira."
 
 msgid "Select second infobar layout."
 msgstr "Hautatu bigarren informazio-barraren diseinua."
@@ -538,12 +526,6 @@ msgstr "Hautatu eguraldi-hornitzailearen pantaila bigarren informazio-barrarako.
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Hautatu zein ECM eremu erakusten diren azalak MYEMUPARA laburra erabiltzen duenean."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Hautatu XtraEvent bistaratzeko modua informazio-barrarako. Eskuragarri dauden aukerak hautatutako info-barra estiloaren eta ECM moduaren araberakoak dira."
-
-msgid "Select Your Font:"
-msgstr "Hautatu zure letra-tipoa:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Ezarri ordua gure - minutua Backdrop deskargatzeko"
 
@@ -556,9 +538,6 @@ msgstr "Ezarpenak Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Konfiguratu Aglare azalaren informazioa"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Konfiguratu Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nLaguntza foroa linuxsat-support.com-en \n\nSkinner sortzailea: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Erakutsi gertaera bakoitzaren generoa adierazten duten ikonoak (adibidez, akzioa, komedia, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Erakutsi edo ezkutatu ECM informazioa informazio-barran."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Erakutsi edo ezkutatu PosterX bigarren informazio-barran."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Erakutsi edo ezkutatu data-panela informazio-barran."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Erakutsi edo ezkutatu XtraEvent bigarren informazio-barran."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Erakutsi edo ezkutatu data-panela informazio-barran."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Erakutsi gertaeretan gurasoen gidaritza-ikonoak edukiaren balorazioa eta adinaren egokitasuna adierazteko."
@@ -631,29 +610,26 @@ msgstr "Estiloa 6"
 msgid "Support E2iplayer Skins:"
 msgstr "Onartu E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Laguntza InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Laguntza SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Sistema"
 
-msgid "Teal"
-msgstr "Zertzeta"
-
 msgid "TEST"
 msgstr "PROBA"
+
+msgid "TMDB Only"
+msgstr "TMDB soilik"
+
+msgid "Teal"
+msgstr "Zertzeta"
 
 msgid "The file %s is empty."
 msgstr "%s fitxategia hutsik dago."
 
 msgid "The file %s was not found."
 msgstr "%s fitxategia ez da aurkitu."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Eguneratze fitxategia ez da aurkitu /tmp.\nEguneratzea bertan behera utzi da."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Eragiketa honek gailuaren bide-karpeta esleitu irudia deskargatzeko (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Eragiketa honek gertaeren balorazio-izarrak bistaratzea ahalbidetzen du,
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Eragiketa honek png guztiak kendu karpeta gailutik (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "TMDB soilik"
-
 msgid "Tomato"
 msgstr "Tomatea"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Eguneratu URL ez da hasieratu - lehenik eta behin, ireki plugina Pluginak menutik."
 
 msgid "Update check failed: {}"
 msgstr "Eguneratzeko egiaztapenak huts egin du: {}"
@@ -676,17 +652,8 @@ msgstr "Eguneratzeko egiaztapenak huts egin du: {}"
 msgid "Update package not found!"
 msgstr "Ez da eguneratu paketea aurkitu!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Eguneratu URL ez da hasieratu - lehenik eta behin, ireki plugina Pluginak menutik."
-
-msgid "volume2"
-msgstr "bolumena 2"
-
 msgid "VolumeBar Style:"
 msgstr "Bolumen barraren estiloa:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Abisua: API gako lehenetsiak erabiltzen ari zara! \nGomendatzen dugu zure API gakoak konfiguratzea pluginaren ezarpenetan."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Editatu sarrera"
@@ -706,3 +673,92 @@ msgstr "Dagoeneko duzu azken bertsioa ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Baliozko hiri-izen bat sartu behar duzu kokapen-kodea bilatu aurretik."
 
+msgid "imperial system"
+msgstr "sistema inperiala"
+
+msgid "metric system"
+msgstr "sistema metrikoa"
+
+msgid "play/show Files"
+msgstr "erreproduzitu/erakutsi Fitxategiak"
+
+msgid "volume2"
+msgstr "bolumena 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Eragiketa honek azalak bere osagaiak dituen egiaztatzen du (ez da bermatuta)... \n"
+#~ "Benetan jarraitu nahi duzu?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Eragiketa honek PNG guztiak kenduko ditu gailuko karpetatik (Poster-Backdrop)... \n"
+#~ "Benetan jarraitu nahi duzu?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Glare eguneratzea egin da! \n"
+#~ "GUIa berrabiarazi nahi duzu orain?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Backdrop deskarga 2 minutu barru hasiko da.\n"
+#~ "Menu honetatik irten zaitezke seguru."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI berrabiarazi behar da azal berri bat aplikatzeko.\n"
+#~ "GUI berrabiarazi nahi duzu orain?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Kartelaren deskarga 2 minutu barru hasiko da.\n"
+#~ "Menu honetatik seguru irten zaitezke."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Konfiguratu Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Laguntza foroa linuxsat-support.com-en \n"
+#~ "\n"
+#~ "Skinner sortzailea: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Laguntza InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Eguneratze fitxategia ez da aurkitu /tmp.\n"
+#~ "Eguneratzea bertan behera utzi da."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Abisua: API gako lehenetsiak erabiltzen ari zara! \n"
+#~ "Gomendatzen dugu zure API gakoak konfiguratzea pluginaren ezarpenetan."

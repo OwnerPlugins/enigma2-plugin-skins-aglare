@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Ta operacja sprawdza, czy skórka ma swoje składniki (nie jest to gwarantowane)...\nCzy na pewno chcesz kontynuować?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Ta operacja usunie wszystkie pliki PNG z folderu urządzenia (Poster-Tło)...\nCzy na pewno chcesz kontynuować?"
-
 msgid "%s key imported!"
 msgstr "Klucz %s zaimportowany!"
 
@@ -40,11 +34,11 @@ msgstr "Aktywuj lub dezaktywuj MOLOTOV jako dostawcę metadanych."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktywuj lub dezaktywuj PROGRAMMETV jako dostawcę metadanych."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Dodać"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aktualizacja Aglare została wykonana!\nCzy chcesz teraz ponownie uruchomić GUI?"
 
 msgid "All png are removed from folder!"
 msgstr "Wszystkie png zostały usunięte z folderu!"
@@ -73,9 +67,6 @@ msgstr "Zasłona"
 msgid "Backdrop download error: {}"
 msgstr "Błąd pobierania tła: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Pobieranie tła rozpocznie się za 2 minuty.\nMożesz bezpiecznie wyjść z tego menu."
-
 msgid "BebasNeue"
 msgstr "BezpłatneNeue"
 
@@ -91,6 +82,9 @@ msgstr "Niebieski"
 msgid "Brown"
 msgstr "Brązowy"
 
+msgid "CD"
+msgstr "płyta CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokół + Serwer + Czas ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + czytnik + protokół + serwer + czas ECM"
 
 msgid "Cancel"
 msgstr "Anulować"
-
-msgid "CD"
-msgstr "płyta CD"
 
 msgid "Channel Description Color:"
 msgstr "Opis kanału Kolor:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Wybierz folder z obrazami do pobrania na urządzenie"
@@ -208,14 +199,14 @@ msgstr "Pobieram Aglare..."
 msgid "ECM Short Format:"
 msgstr "Krótki format ECM:"
 
-msgid "Edit"
-msgstr "Redagować"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Styl ekranów EMC:"
+
+msgid "Edit"
+msgstr "Redagować"
 
 msgid "Enable Display Genre icons:"
 msgstr "Włącz wyświetlanie ikon gatunku:"
@@ -226,23 +217,20 @@ msgstr "Włącz wyświetlanie zdarzeń informacyjnych:"
 msgid "Enable Display XMC Poster:"
 msgstr "Włącz wyświetlanie plakatu XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Włącz lub wyłącz dołączone ekrany E2iPlayer."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Włącz lub wyłącz buforowanie podczas pobierania zdarzeń, aby przyspieszyć powtarzające się wyszukiwania."
-
 msgid "Enable Parental Icons:"
 msgstr "Włącz ikony rodzicielskie:"
 
 msgid "Enable Rating Star:"
 msgstr "Włącz gwiazdkę oceny:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Włącz lub wyłącz dołączone ekrany E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Włącz lub wyłącz buforowanie podczas pobierania zdarzeń, aby przyspieszyć powtarzające się wyszukiwania."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Włącz wyświetlanie rozszerzonych informacji o wydarzeniu, w tym pełnej obsady, ekipy, szczegółów fabuły i innych metadanych, w widgecie informacyjnym."
-
-msgid "Error {0}: {1}"
-msgstr "Błąd {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Błąd podczas przetwarzania pliku skórki: {}"
@@ -252,6 +240,9 @@ msgstr "Błąd podczas pobierania plików!"
 
 msgid "Error loading: {}"
 msgstr "Błąd ładowania: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Błąd {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Błąd: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Wyjście"
 
-msgid "File {} not found or empty"
-msgstr "Nie znaleziono pliku {} lub jest on pusty"
-
 msgid "File Commander - Addon"
 msgstr "Dowódca plików - dodatek"
+
+msgid "File {} not found or empty"
+msgstr "Nie znaleziono pliku {} lub jest on pusty"
 
 msgid "Green"
 msgstr "Zielony"
@@ -283,17 +274,11 @@ msgstr "Zielony2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI wymaga ponownego uruchomienia, aby zastosować nową skórkę.\nCzy chcesz teraz ponownie uruchomić GUI?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Grupa zgodności obrazu:"
-
-msgid "imperial system"
-msgstr "system imperialny"
 
 msgid "Import key {0} from {1}?"
 msgstr "Zaimportować klucz {0} z {1}?"
@@ -340,11 +325,11 @@ msgstr "Linia Ins"
 msgid "Installing updates..."
 msgstr "Instaluję aktualizacje..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Klucz {} pomyślnie załadowany!"
-
 msgid "Key empty"
 msgstr "Klucz pusty"
+
+msgid "Key {} successfully loaded!"
+msgstr "Klucz {} pomyślnie załadowany!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegularny"
@@ -358,6 +343,9 @@ msgstr "Jasnoszary"
 msgid "LimeGreen"
 msgstr "Limonkowy"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Kompilacja lokalna ({}) jest nowsza niż kompilacja serwerowa ({})."
 
@@ -367,14 +355,17 @@ msgstr "Kod lokalizacji"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Wynik wyszukiwania lokalizacji MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "system metryczny"
 
 msgid "Mint"
 msgstr "Mennica"
@@ -382,20 +373,11 @@ msgstr "Mennica"
 msgid "Mix1"
 msgstr "Mieszanka 1"
 
-msgid "MSN location search result"
-msgstr "Wynik wyszukiwania lokalizacji MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Brak włączonych aktywnych dostawców"
 
 msgid "No description available for this option."
 msgstr "Brak opisu dla tej opcji."
-
-msgid "Off"
-msgstr "Wyłączony"
 
 msgid "OFF"
 msgstr "WYŁĄCZONY"
@@ -412,6 +394,9 @@ msgstr "NA"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "WŁ./WYŁ. Skórki SubSupportPro."
 
+msgid "Off"
+msgstr "Wyłączony"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Grupa nowych obrazów)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Grupa OpenPLi)"
 msgid "Orange"
 msgstr "Pomarańczowy"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Różowy"
-
-msgid "play/show Files"
-msgstr "odtwarzaj/pokaż pliki"
 
 msgid "Please enter a valid city name."
 msgstr "Proszę wprowadzić poprawną nazwę miasta."
@@ -435,9 +420,6 @@ msgstr "Proszę wprowadzić prawidłowy kod lokalizacji dla miasta."
 
 msgid "Poster download error: {}"
 msgstr "Błąd pobierania plakatu: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Pobieranie plakatu rozpocznie się za 2 minuty.\nMożesz bezpiecznie wyjść z tego menu."
 
 msgid "Purple"
 msgstr "Fioletowy"
@@ -484,6 +466,18 @@ msgstr "Drugie wydarzenie Infobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Światło interfejsu użytkownika Segoe"
 
+msgid "Select EMC style."
+msgstr "Wybierz styl EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Wybierz tryb wyświetlania PosterX dla paska informacyjnego. Dostępne opcje zależą od wybranego stylu paska informacyjnego i trybu ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Wybierz tryb wyświetlania XtraEvent dla paska informacyjnego. Dostępne opcje zależą od wybranego stylu paska informacyjnego i trybu ECM."
+
+msgid "Select Your Font:"
+msgstr "Wybierz swoją czcionkę:"
+
 msgid "Select channel list event description color."
 msgstr "Wybierz kolor opisu zdarzenia na liście kanałów."
 
@@ -496,17 +490,11 @@ msgstr "Wybierz listę kanałów z wybranym kolorem pierwszego planu."
 msgid "Select channel selection screen style."
 msgstr "Wybierz styl ekranu wyboru kanału."
 
-msgid "Select EMC style."
-msgstr "Wybierz styl EMC."
-
 msgid "Select event view screen style."
 msgstr "Wybierz styl ekranu widoku zdarzeń."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Wybierz układ paska informacyjnego. Style5 wymusza wyłączenie ECM i umożliwia jedynie tryby plakatu OFF/CD. Style6 wymusza wyłączenie ECM, PosterX i Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Wybierz tryb wyświetlania PosterX dla paska informacyjnego. Dostępne opcje zależą od wybranego stylu paska informacyjnego i trybu ECM."
 
 msgid "Select second infobar layout."
 msgstr "Wybierz drugi układ paska informacyjnego."
@@ -538,12 +526,6 @@ msgstr "Wybierz wyświetlanie dostawcy pogody dla drugiego paska informacyjnego.
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Wybierz, które pola ECM będą wyświetlane, gdy skórka używa krótkiego MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Wybierz tryb wyświetlania XtraEvent dla paska informacyjnego. Dostępne opcje zależą od wybranego stylu paska informacyjnego i trybu ECM."
-
-msgid "Select Your Font:"
-msgstr "Wybierz swoją czcionkę:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Ustaw czas - minuta na pobranie tła"
 
@@ -556,9 +538,6 @@ msgstr "Ustawienia serwera Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Skonfiguruj informacje o skórze Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Skonfiguruj Aglare Skin\ndla {0} v.{1}\n\n autorstwa Lululla @2020\n\nForum pomocy na linuxsat-support.com\n\nTwórca skórki: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Pokaż ikony reprezentujące gatunek każdego wydarzenia (np. akcja, komedia, dramat)"
 
@@ -568,11 +547,11 @@ msgstr "Pokaż lub ukryj informacje ECM na pasku informacyjnym."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Pokaż lub ukryj PosterX na drugim pasku informacyjnym."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Pokaż lub ukryj panel daty na pasku informacyjnym."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Pokaż lub ukryj XtraEvent na drugim pasku informacyjnym."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Pokaż lub ukryj panel daty na pasku informacyjnym."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Wyświetlaj ikony wskazówek dla rodziców podczas wydarzeń, aby wskazać ocenę treści i dostosowanie do wieku."
@@ -631,29 +610,26 @@ msgstr "Styl6"
 msgid "Support E2iplayer Skins:"
 msgstr "Wsparcie skórek E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Wsparcie InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Wsparcie SubsSupportPro Skórki:"
 
 msgid "System"
 msgstr "System"
 
-msgid "Teal"
-msgstr "Cyraneczka"
-
 msgid "TEST"
 msgstr "TEST"
+
+msgid "TMDB Only"
+msgstr "Tylko TMDB"
+
+msgid "Teal"
+msgstr "Cyraneczka"
 
 msgid "The file %s is empty."
 msgstr "Plik %s jest pusty."
 
 msgid "The file %s was not found."
 msgstr "Nie znaleziono pliku %s."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Nie znaleziono pliku aktualizacji w /tmp.\nAktualizacja została przerwana."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Ta operacja przypisuje folder ścieżki urządzenia do pobrania obrazu (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Ta operacja umożliwia wyświetlenie gwiazdek ocen dla wydarzeń w oparc
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ta operacja usuwa wszystkie pliki PNG z urządzenia folderowego (tło plakatu)"
 
-msgid "TMDB Only"
-msgstr "Tylko TMDB"
-
 msgid "Tomato"
 msgstr "Pomidor"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Aktualizuj adres URL nie zainicjowany – najpierw otwórz wtyczkę raz z menu Wtyczki."
 
 msgid "Update check failed: {}"
 msgstr "Sprawdzanie aktualizacji nie powiodło się: {}"
@@ -676,17 +652,8 @@ msgstr "Sprawdzanie aktualizacji nie powiodło się: {}"
 msgid "Update package not found!"
 msgstr "Nie znaleziono pakietu aktualizacji!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Aktualizuj adres URL nie zainicjowany – najpierw otwórz wtyczkę raz z menu Wtyczki."
-
-msgid "volume2"
-msgstr "tom2"
-
 msgid "VolumeBar Style:"
 msgstr "Styl paska głośności:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Uwaga: używasz domyślnych kluczy API!\nZdecydowanie zalecamy skonfigurowanie własnych kluczy API w ustawieniach wtyczki."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Edytuj wpis"
@@ -706,3 +673,92 @@ msgstr "Masz już najnowszą wersję ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Aby móc wyszukać kod lokalizacji, należy wprowadzić prawidłową nazwę miasta."
 
+msgid "imperial system"
+msgstr "system imperialny"
+
+msgid "metric system"
+msgstr "system metryczny"
+
+msgid "play/show Files"
+msgstr "odtwarzaj/pokaż pliki"
+
+msgid "volume2"
+msgstr "tom2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Ta operacja sprawdza, czy skórka ma swoje składniki (nie jest to gwarantowane)...\n"
+#~ "Czy na pewno chcesz kontynuować?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Ta operacja usunie wszystkie pliki PNG z folderu urządzenia (Poster-Tło)...\n"
+#~ "Czy na pewno chcesz kontynuować?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aktualizacja Aglare została wykonana!\n"
+#~ "Czy chcesz teraz ponownie uruchomić GUI?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Pobieranie tła rozpocznie się za 2 minuty.\n"
+#~ "Możesz bezpiecznie wyjść z tego menu."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI wymaga ponownego uruchomienia, aby zastosować nową skórkę.\n"
+#~ "Czy chcesz teraz ponownie uruchomić GUI?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Pobieranie plakatu rozpocznie się za 2 minuty.\n"
+#~ "Możesz bezpiecznie wyjść z tego menu."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Skonfiguruj Aglare Skin\n"
+#~ "dla {0} v.{1}\n"
+#~ "\n"
+#~ " autorstwa Lululla @2020\n"
+#~ "\n"
+#~ "Forum pomocy na linuxsat-support.com\n"
+#~ "\n"
+#~ "Twórca skórki: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Wsparcie InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Nie znaleziono pliku aktualizacji w /tmp.\n"
+#~ "Aktualizacja została przerwana."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Uwaga: używasz domyślnych kluczy API!\n"
+#~ "Zdecydowanie zalecamy skonfigurowanie własnych kluczy API w ustawieniach wtyczki."

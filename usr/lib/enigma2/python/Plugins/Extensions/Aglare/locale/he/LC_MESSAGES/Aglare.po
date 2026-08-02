@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] פעולה זו בודקת אם לעור יש את הרכיבים שלו (לא מובטח)...\nהאם אתה באמת רוצה להמשיך?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] פעולה זו תסיר את כל ה-PNGs מתיקיית המכשיר (Poster-Backdrop)...\nהאם אתה באמת רוצה להמשיך?"
-
 msgid "%s key imported!"
 msgstr "מפתח %s יובא!"
 
@@ -40,11 +34,11 @@ msgstr "הפעל או השבת את MOLOTOV כספק מטא נתונים."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "הפעל או השבת את PROGRAMMETV כספק מטא נתונים."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "לְהוֹסִיף"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "עדכון Aglare נעשה!\nהאם ברצונך להפעיל מחדש את ה-GUI כעת?"
 
 msgid "All png are removed from folder!"
 msgstr "כל ה-png מוסרים מהתיקייה!"
@@ -73,9 +67,6 @@ msgstr "רקע"
 msgid "Backdrop download error: {}"
 msgstr "שגיאת הורדת רקע: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "הורדת הרקע תתחיל בעוד 2 דקות.\nתוכל לצאת בבטחה מתפריט זה."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "כְּחוֹל"
 msgid "Brown"
 msgstr "חוּם"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "זמן Caid + פרוטוקול + שרת + ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + פרוטוקול + שרת + זמן ECM"
 
 msgid "Cancel"
 msgstr "לְבַטֵל"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "צבע תיאור ערוץ:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ערוץ בחירת_NO_פוסטרים"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "Channelsselection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "תיקיית התמונות להורדת מכשיר בחירת"
@@ -208,14 +199,14 @@ msgstr "מוריד את Aglare..."
 msgid "ECM Short Format:"
 msgstr "פורמט קצר של ECM:"
 
-msgid "Edit"
-msgstr "לַעֲרוֹך"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "מסכי EMC סגנון:"
+
+msgid "Edit"
+msgstr "לַעֲרוֹך"
 
 msgid "Enable Display Genre icons:"
 msgstr "אפשר סמלי ז'אנר תצוגה:"
@@ -226,23 +217,20 @@ msgstr "הפעל אירועי מידע לתצוגה:"
 msgid "Enable Display XMC Poster:"
 msgstr "אפשר להציג את פוסטר XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "הפעל או השבת מסכי E2iPlayer מצורפים."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "הפעל או השבת שמירה במטמון במהלך הורדת אירוע כדי להאיץ חיפושים חוזרים."
-
 msgid "Enable Parental Icons:"
 msgstr "אפשר סמלי הורים:"
 
 msgid "Enable Rating Star:"
 msgstr "אפשר כוכב דירוג:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "הפעל או השבת מסכי E2iPlayer מצורפים."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "הפעל או השבת שמירה במטמון במהלך הורדת אירוע כדי להאיץ חיפושים חוזרים."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "אפשר הצגת מידע מורחב על אירוע, כולל צוות מלא, צוות, פרטי עלילה ומטא נתונים אחרים, בווידג'ט המידע."
-
-msgid "Error {0}: {1}"
-msgstr "שגיאה {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "שגיאה בעיבוד קובץ העור: {}"
@@ -252,6 +240,9 @@ msgstr "שגיאה בהורדת קבצים!"
 
 msgid "Error loading: {}"
 msgstr "שגיאה בטעינת: {}"
+
+msgid "Error {0}: {1}"
+msgstr "שגיאה {0}: {1}"
 
 msgid "Error: {}"
 msgstr "שגיאה: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_פוסטרים"
 msgid "Exit"
 msgstr "יְצִיאָה"
 
-msgid "File {} not found or empty"
-msgstr "הקובץ {} לא נמצא או ריק"
-
 msgid "File Commander - Addon"
 msgstr "מפקד קבצים - Addon"
+
+msgid "File {} not found or empty"
+msgstr "הקובץ {} לא נמצא או ריק"
 
 msgid "Green"
 msgstr "יָרוֹק"
@@ -283,17 +274,11 @@ msgstr "ירוק 2"
 msgid "Greta"
 msgstr "גרטה"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "ה-GUI זקוק להפעלה מחדש כדי להחיל עור חדש.\nהאם ברצונך להפעיל מחדש את ה-GUI כעת?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "קבוצת תאימות תמונה:"
-
-msgid "imperial system"
-msgstr "מערכת אימפריאלית"
 
 msgid "Import key {0} from {1}?"
 msgstr "לייבא מפתח {0} מ-{1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "מתקין עדכונים..."
 
-msgid "Key {} successfully loaded!"
-msgstr "מפתח {} נטען בהצלחה!"
-
 msgid "Key empty"
 msgstr "מפתח ריק"
+
+msgid "Key {} successfully loaded!"
+msgstr "מפתח {} נטען בהצלחה!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "אפור בהיר"
 msgid "LimeGreen"
 msgstr "ליים גרין"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "מבנה מקומי ({}) חדש יותר ממבנה שרת ({})."
 
@@ -367,14 +355,17 @@ msgstr "קוד מיקום"
 msgid "Lucida"
 msgstr "לוסידה"
 
+msgid "MSN location search result"
+msgstr "תוצאת חיפוש מיקום MSN"
+
+msgid "MV Boli"
+msgstr "MV בולי"
+
 msgid "Magenta"
 msgstr "מַגֶנטָה"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "מגה-ביט/שנייה (Mb/s)"
-
-msgid "metric system"
-msgstr "מערכת מטרית"
 
 msgid "Mint"
 msgstr "מֶנטָה"
@@ -382,20 +373,11 @@ msgstr "מֶנטָה"
 msgid "Mix1"
 msgstr "מיקס1"
 
-msgid "MSN location search result"
-msgstr "תוצאת חיפוש מיקום MSN"
-
-msgid "MV Boli"
-msgstr "MV בולי"
-
 msgid "No active providers enabled"
 msgstr "לא הופעלו ספקים פעילים"
 
 msgid "No description available for this option."
 msgstr "אין תיאור זמין עבור אפשרות זו."
-
-msgid "Off"
-msgstr "כבוי"
 
 msgid "OFF"
 msgstr "כבוי"
@@ -412,6 +394,9 @@ msgstr "עַל"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "כבוי"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (קבוצת תמונות חדשה)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (קבוצת OpenPLi)"
 msgid "Orange"
 msgstr "כָּתוֹם"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "וָרוֹד"
-
-msgid "play/show Files"
-msgstr "הפעל/הצג קבצים"
 
 msgid "Please enter a valid city name."
 msgstr "נא להזין שם עיר חוקי."
@@ -435,9 +420,6 @@ msgstr "נא להזין קוד מיקום חוקי עבור העיר."
 
 msgid "Poster download error: {}"
 msgstr "שגיאת הורדת פוסטר: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "הורדת הפוסטר תתחיל בעוד 2 דקות.\nאתה יכול לצאת בבטחה מתפריט זה."
 
 msgid "Purple"
 msgstr "סָגוֹל"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "נורית ממשק המשתמש של Segoe"
 
+msgid "Select EMC style."
+msgstr "בחר סגנון EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "בחר במצב תצוגה PosterX עבור סרגל המידע. האפשרויות הזמינות תלויות בסגנון סרגל המידע ובמצב ECM שנבחר."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "בחר במצב תצוגה XtraEvent עבור סרגל המידע. האפשרויות הזמינות תלויות בסגנון סרגל המידע ובמצב ECM שנבחר."
+
+msgid "Select Your Font:"
+msgstr "בחר את הגופן שלך:"
+
 msgid "Select channel list event description color."
 msgstr "בחר את צבע תיאור האירוע ברשימת הערוצים."
 
@@ -496,17 +490,11 @@ msgstr "בחר את צבע הקדמי שנבחר ברשימת הערוצים."
 msgid "Select channel selection screen style."
 msgstr "בחר סגנון מסך בחירת ערוץ."
 
-msgid "Select EMC style."
-msgstr "בחר סגנון EMC."
-
 msgid "Select event view screen style."
 msgstr "בחר סגנון מסך תצוגת אירועים."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "בחר פריסת סרגל המידע. Style5 כופה את ECM ומאפשר רק מצבי OFF/CD פוסטר. Style6 מכריח את ECM, PosterX ו-Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "בחר במצב תצוגה PosterX עבור סרגל המידע. האפשרויות הזמינות תלויות בסגנון סרגל המידע ובמצב ECM שנבחר."
 
 msgid "Select second infobar layout."
 msgstr "בחר פריסת סרגל מידע שנייה."
@@ -538,12 +526,6 @@ msgstr "בחר תצוגת ספק מזג האוויר עבור סרגל המיד�
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "בחר אילו שדות ECM יוצגו כאשר העור משתמש ב-MYEMUPARA קצר."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "בחר במצב תצוגה XtraEvent עבור סרגל המידע. האפשרויות הזמינות תלויות בסגנון סרגל המידע ובמצב ECM שנבחר."
-
-msgid "Select Your Font:"
-msgstr "בחר את הגופן שלך:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "הגדר את הזמן שלנו - דקה להורדה ברקע"
 
@@ -556,9 +538,6 @@ msgstr "הגדרות Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "הגדר מידע על העור של Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "הגדר את Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nפורום תמיכה ב-linuxsat-support.com\n\nSkinner יוצר: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "הצג סמלים המייצגים את הז'אנר של כל אירוע (למשל, פעולה, קומדיה, דרמה)"
 
@@ -568,11 +547,11 @@ msgstr "הצג או הסתר מידע ECM בסרגל המידע."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "הצג או הסתר את PosterX בסרגל המידע השני."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "הצג או הסתר את חלונית התאריך בסרגל המידע."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "הצג או הסתר XtraEvent בסרגל המידע השני."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "הצג או הסתר את חלונית התאריך בסרגל המידע."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "הצג סמלי הנחיית הורים באירועים כדי לציין דירוג תוכן והתאמת גיל."
@@ -631,29 +610,26 @@ msgstr "סגנון6"
 msgid "Support E2iplayer Skins:"
 msgstr "תמיכה ב-E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "תמיכה ב-InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "תמיכה ב-SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "מַעֲרֶכֶת"
 
-msgid "Teal"
-msgstr "צהבהב"
-
 msgid "TEST"
 msgstr "מִבְחָן"
+
+msgid "TMDB Only"
+msgstr "TMDB בלבד"
+
+msgid "Teal"
+msgstr "צהבהב"
 
 msgid "The file %s is empty."
 msgstr "הקובץ %s ריק."
 
 msgid "The file %s was not found."
 msgstr "הקובץ %s לא נמצא."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "קובץ העדכון לא נמצא ב-/tmp.\nהעדכון בוטל."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "פעולה זו הקצה תיקיית נתיב המכשיר להורדת התמונה (פוסטר-רקע)"
@@ -664,11 +640,11 @@ msgstr "פעולה זו מאפשרת הצגת כוכבי דירוג עבור א�
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "פעולה זו הסר את כל ה-png מהתקן התיקיות (פוסטר-רקע)"
 
-msgid "TMDB Only"
-msgstr "TMDB בלבד"
-
 msgid "Tomato"
 msgstr "עַגְבָנִיָה"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "עדכון כתובת אתר לא אתחול - פתח תחילה את התוסף פעם אחת מתפריט התוספים."
 
 msgid "Update check failed: {}"
 msgstr "בדיקת העדכון נכשלה: {}"
@@ -676,17 +652,8 @@ msgstr "בדיקת העדכון נכשלה: {}"
 msgid "Update package not found!"
 msgstr "חבילת העדכון לא נמצאה!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "עדכון כתובת אתר לא אתחול - פתח תחילה את התוסף פעם אחת מתפריט התוספים."
-
-msgid "volume2"
-msgstr "נפח 2"
-
 msgid "VolumeBar Style:"
 msgstr "סגנון סרגל Volume:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "אזהרה: אתה משתמש במפתחות ממשק API!\nאנו ממליצים בחום להגדיר מפתחות API משלך בהגדרות הפלאגין."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: ערוך ערך"
@@ -706,3 +673,92 @@ msgstr "כבר יש לך את הגרסה העדכנית ביותר ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "עליך להזין שם עיר חוקי לפני שתוכל לחפש את קוד המיקום."
 
+msgid "imperial system"
+msgstr "מערכת אימפריאלית"
+
+msgid "metric system"
+msgstr "מערכת מטרית"
+
+msgid "play/show Files"
+msgstr "הפעל/הצג קבצים"
+
+msgid "volume2"
+msgstr "נפח 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] פעולה זו בודקת אם לעור יש את הרכיבים שלו (לא מובטח)...\n"
+#~ "האם אתה באמת רוצה להמשיך?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] פעולה זו תסיר את כל ה-PNGs מתיקיית המכשיר (Poster-Backdrop)...\n"
+#~ "האם אתה באמת רוצה להמשיך?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "עדכון Aglare נעשה!\n"
+#~ "האם ברצונך להפעיל מחדש את ה-GUI כעת?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "הורדת הרקע תתחיל בעוד 2 דקות.\n"
+#~ "תוכל לצאת בבטחה מתפריט זה."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "ה-GUI זקוק להפעלה מחדש כדי להחיל עור חדש.\n"
+#~ "האם ברצונך להפעיל מחדש את ה-GUI כעת?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "הורדת הפוסטר תתחיל בעוד 2 דקות.\n"
+#~ "אתה יכול לצאת בבטחה מתפריט זה."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "הגדר את Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "פורום תמיכה ב-linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner יוצר: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "תמיכה ב-InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "קובץ העדכון לא נמצא ב-/tmp.\n"
+#~ "העדכון בוטל."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "אזהרה: אתה משתמש במפתחות ממשק API!\n"
+#~ "אנו ממליצים בחום להגדיר מפתחות API משלך בהגדרות הפלאגין."

@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Ta operacija preveri, ali ima koža svoje komponente (ni zajamčeno)...\nAli res želite nadaljevati?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Ta operacija bo odstranila vse PNG-je iz mape naprave (Poster-Backdrop)...\nAli res želite nadaljevati?"
-
 msgid "%s key imported!"
 msgstr "%s ključ uvožen!"
 
@@ -40,11 +34,11 @@ msgstr "Aktivirajte ali deaktivirajte MOLOTOV kot ponudnika metapodatkov."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktivirajte ali deaktivirajte PROGRAMMETV kot ponudnika metapodatkov."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Dodaj"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Posodobitev Aglare je bila končana!\nAli želite zdaj znova zagnati GUI?"
 
 msgid "All png are removed from folder!"
 msgstr "Vsi png so odstranjeni iz mape!"
@@ -73,9 +67,6 @@ msgstr "Ozadje"
 msgid "Backdrop download error: {}"
 msgstr "Napaka pri prenosu kulise: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Prenos kulise se bo začel čez 2 minuti.\nTa meni lahko varno zapustite."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Modra"
 msgid "Brown"
 msgstr "Rjava"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + protokol + strežnik + čas ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 
 msgid "Cancel"
 msgstr "Prekliči"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Barva opisa kanala:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Izberite mapo za prenos slik naprave"
@@ -208,14 +199,14 @@ msgstr "Prenašanje Aglare ..."
 msgid "ECM Short Format:"
 msgstr "Kratka oblika ECM:"
 
-msgid "Edit"
-msgstr "Uredi"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC zasloni Slog:"
+
+msgid "Edit"
+msgstr "Uredi"
 
 msgid "Enable Display Genre icons:"
 msgstr "Omogoči ikone zvrsti prikaza:"
@@ -226,23 +217,20 @@ msgstr "Omogoči prikaz informacij o dogodkih:"
 msgid "Enable Display XMC Poster:"
 msgstr "Omogoči plakat Display XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Omogočite ali onemogočite povezane zaslone E2iPlayer."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Omogočite ali onemogočite predpomnjenje med prenosom dogodkov, da pospešite ponavljajoča se iskanja."
-
 msgid "Enable Parental Icons:"
 msgstr "Omogoči starševske ikone:"
 
 msgid "Enable Rating Star:"
 msgstr "Omogoči oceno z zvezdico:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Omogočite ali onemogočite povezane zaslone E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Omogočite ali onemogočite predpomnjenje med prenosom dogodkov, da pospešite ponavljajoča se iskanja."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Omogočite prikaz razširjenih informacij o dogodku, vključno s celotno igralsko zasedbo, posadko, podrobnostmi zapleta in drugimi metapodatki, v informacijskem gradniku."
-
-msgid "Error {0}: {1}"
-msgstr "Napaka {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Napaka pri obdelavi datoteke preobleke: {}"
@@ -252,6 +240,9 @@ msgstr "Napaka pri prenosu datotek!"
 
 msgid "Error loading: {}"
 msgstr "Napaka pri nalaganju: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Napaka {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Napaka: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NI_Plakatov"
 msgid "Exit"
 msgstr "Izhod"
 
-msgid "File {} not found or empty"
-msgstr "Datoteke {} ni mogoče najti ali je prazna"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Datoteke {} ni mogoče najti ali je prazna"
 
 msgid "Green"
 msgstr "zelena"
@@ -283,17 +274,11 @@ msgstr "Zelena2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI potrebuje ponovni zagon za uporabo nove preobleke.\nAli želite zdaj znova zagnati GUI?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Skupina združljivosti slik:"
-
-msgid "imperial system"
-msgstr "imperialni sistem"
 
 msgid "Import key {0} from {1}?"
 msgstr "Uvoziti ključ {0} iz {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Namestitev posodobitev ..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Ključ {} je uspešno naložen!"
-
 msgid "Key empty"
 msgstr "Ključ prazen"
+
+msgid "Key {} successfully loaded!"
+msgstr "Ključ {} je uspešno naložen!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Svetlo siva"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Lokalna zgradba ({}) je novejša od zgradbe strežnika ({})."
 
@@ -367,14 +355,17 @@ msgstr "Koda lokacije"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Rezultat iskanja lokacije MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "metrični sistem"
 
 msgid "Mint"
 msgstr "Kovnica"
@@ -382,20 +373,11 @@ msgstr "Kovnica"
 msgid "Mix1"
 msgstr "Mešanica 1"
 
-msgid "MSN location search result"
-msgstr "Rezultat iskanja lokacije MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Ni omogočenih aktivnih ponudnikov"
 
 msgid "No description available for this option."
 msgstr "Za to možnost ni opisa."
-
-msgid "Off"
-msgstr "Izključeno"
 
 msgid "OFF"
 msgstr "IZKLOP"
@@ -412,6 +394,9 @@ msgstr "VKLOP"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Izključeno"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Nova skupina slik)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi/Satlodge (Skupina OpenPLi)"
 msgid "Orange"
 msgstr "Oranžna"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Roza"
-
-msgid "play/show Files"
-msgstr "predvajaj/prikaži datoteke"
 
 msgid "Please enter a valid city name."
 msgstr "Vnesite veljavno ime mesta."
@@ -435,9 +420,6 @@ msgstr "Vnesite veljavno kodo lokacije za mesto."
 
 msgid "Poster download error: {}"
 msgstr "Napaka pri prenosu plakata: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Prenos plakata se bo začel čez 2 minuti.\nTa meni lahko varno zapustite."
 
 msgid "Purple"
 msgstr "Vijolična"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Luč uporabniškega vmesnika Segoe"
 
+msgid "Select EMC style."
+msgstr "Izberite slog EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Izberite način prikaza PosterX za informacijsko vrstico. Razpoložljive izbire so odvisne od izbranega sloga informacijske vrstice in načina ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Za informacijsko vrstico izberite način prikaza XtraEvent. Razpoložljive izbire so odvisne od izbranega sloga informacijske vrstice in načina ECM."
+
+msgid "Select Your Font:"
+msgstr "Izberite svojo pisavo:"
+
 msgid "Select channel list event description color."
 msgstr "Izberite barvo opisa dogodka seznama kanalov."
 
@@ -496,17 +490,11 @@ msgstr "Izberite seznam kanalov izbrano barvo ospredja."
 msgid "Select channel selection screen style."
 msgstr "Izberite slog zaslona za izbiro kanala."
 
-msgid "Select EMC style."
-msgstr "Izberite slog EMC."
-
 msgid "Select event view screen style."
 msgstr "Izberite slog zaslona pogleda dogodka."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Izberite postavitev vrstice z informacijami. Style5 prisilno izklopi ECM in dovoli samo načine OFF/CD poster. Style6 prisilno izklopi ECM, PosterX in Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Izberite način prikaza PosterX za informacijsko vrstico. Razpoložljive izbire so odvisne od izbranega sloga informacijske vrstice in načina ECM."
 
 msgid "Select second infobar layout."
 msgstr "Izberite drugo postavitev informacijske vrstice."
@@ -538,12 +526,6 @@ msgstr "Izberite prikaz ponudnika vremena za drugo informacijsko vrstico."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Izberite, katera polja ECM so prikazana, ko koža uporablja kratko MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Za informacijsko vrstico izberite način prikaza XtraEvent. Razpoložljive izbire so odvisne od izbranega sloga informacijske vrstice in načina ECM."
-
-msgid "Select Your Font:"
-msgstr "Izberite svojo pisavo:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Nastavite čas - minuto za prenos ozadja"
 
@@ -556,9 +538,6 @@ msgstr "Nastavitve strežnika Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Nastavitev informacij o preobleki Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Nastavitev Aglare Skin\nza {0} v.{1}\n\n avtor Lululla @2020\n\nForum za podporo na linuxsat-support.com\n\nUstvarjalec Skinnerja: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Pokaži ikone, ki predstavljajo žanr vsakega dogodka (npr. akcija, komedija, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Prikaži ali skrij informacije ECM v informacijski vrstici."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Prikaži ali skrij PosterX v drugi vrstici z informacijami."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Prikaži ali skrij datumsko ploščo v informacijski vrstici."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Prikaži ali skrij XtraEvent v drugi vrstici z informacijami."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Prikaži ali skrij datumsko ploščo v informacijski vrstici."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Prikažite ikone za starševski nadzor na dogodkih, ki označujejo oceno vsebine in starostno primernost."
@@ -631,29 +610,26 @@ msgstr "Slog6"
 msgid "Support E2iplayer Skins:"
 msgstr "Podpora za preobleke E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Podpora InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Podpora za preobleke SubsSupportPro:"
 
 msgid "System"
 msgstr "Sistem"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "TEST"
+
+msgid "TMDB Only"
+msgstr "Samo TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Datoteka %s je prazna."
 
 msgid "The file %s was not found."
 msgstr "Datoteke %s ni bilo mogoče najti."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Posodobitvena datoteka ni bila najdena v /tmp.\nPosodobitev je prekinjena."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Ta operacija dodeli mapo poti naprave za prenos slike (poster-ozadje)"
@@ -664,11 +640,11 @@ msgstr "Ta operacija omogoča prikaz zvezdic za dogodke na podlagi izbranega vir
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ta operacija odstrani ves png iz mapne naprave (poster-ozadje)"
 
-msgid "TMDB Only"
-msgstr "Samo TMDB"
-
 msgid "Tomato"
 msgstr "Paradižnik"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL posodobitve ni inicializiran – najprej enkrat odprite vtičnik v meniju Vtičniki."
 
 msgid "Update check failed: {}"
 msgstr "Preverjanje posodobitve ni uspelo: {}"
@@ -676,17 +652,8 @@ msgstr "Preverjanje posodobitve ni uspelo: {}"
 msgid "Update package not found!"
 msgstr "Paket posodobitev ni bil najden!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "URL posodobitve ni inicializiran – najprej enkrat odprite vtičnik v meniju Vtičniki."
-
-msgid "volume2"
-msgstr "obseg2"
-
 msgid "VolumeBar Style:"
 msgstr "Slog vrstice glasnosti:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Opozorilo: uporabljate privzete ključe API!\nMočno priporočamo, da konfigurirate lastne ključe API v nastavitvah vtičnika."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Uredi vnos"
@@ -706,3 +673,92 @@ msgstr "Najnovejšo različico ({}) že imate."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Preden lahko iščete kodo lokacije, morate vnesti veljavno ime mesta."
 
+msgid "imperial system"
+msgstr "imperialni sistem"
+
+msgid "metric system"
+msgstr "metrični sistem"
+
+msgid "play/show Files"
+msgstr "predvajaj/prikaži datoteke"
+
+msgid "volume2"
+msgstr "obseg2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Ta operacija preveri, ali ima koža svoje komponente (ni zajamčeno)...\n"
+#~ "Ali res želite nadaljevati?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Ta operacija bo odstranila vse PNG-je iz mape naprave (Poster-Backdrop)...\n"
+#~ "Ali res želite nadaljevati?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Posodobitev Aglare je bila končana!\n"
+#~ "Ali želite zdaj znova zagnati GUI?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Prenos kulise se bo začel čez 2 minuti.\n"
+#~ "Ta meni lahko varno zapustite."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI potrebuje ponovni zagon za uporabo nove preobleke.\n"
+#~ "Ali želite zdaj znova zagnati GUI?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Prenos plakata se bo začel čez 2 minuti.\n"
+#~ "Ta meni lahko varno zapustite."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Nastavitev Aglare Skin\n"
+#~ "za {0} v.{1}\n"
+#~ "\n"
+#~ " avtor Lululla @2020\n"
+#~ "\n"
+#~ "Forum za podporo na linuxsat-support.com\n"
+#~ "\n"
+#~ "Ustvarjalec Skinnerja: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Podpora InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Posodobitvena datoteka ni bila najdena v /tmp.\n"
+#~ "Posodobitev je prekinjena."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Opozorilo: uporabljate privzete ključe API!\n"
+#~ "Močno priporočamo, da konfigurirate lastne ključe API v nastavitvah vtičnika."

@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Sinusuri ng operasyong ito kung ang balat ay may mga bahagi nito (hindi garantisadong)...\nGusto mo ba talagang magpatuloy?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Aalisin ng operasyong ito ang lahat ng PNG sa folder ng device (Poster-Backdrop)...\nGusto mo ba talagang magpatuloy?"
-
 msgid "%s key imported!"
 msgstr "%s key ang na-import!"
 
@@ -40,11 +34,11 @@ msgstr "I-activate o i-deactivate ang MOLOTOV bilang isang metadata provider."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "I-activate o i-deactivate ang PROGRAMMETV bilang isang metadata provider."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Idagdag"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Tapos na ang Aglare update!\nGusto mo bang i-restart ang GUI ngayon?"
 
 msgid "All png are removed from folder!"
 msgstr "Lahat ng png ay tinanggal sa folder!"
@@ -73,9 +67,6 @@ msgstr "Backdrop"
 msgid "Backdrop download error: {}"
 msgstr "Error sa pag-download ng backdrop: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Magsisimula ang pag-download sa backdrop sa loob ng 2 minuto.\nMaaari kang ligtas na lumabas sa menu na ito."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Asul"
 msgid "Brown"
 msgstr "kayumanggi"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Server + Oras ng ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + Oras ng ECM"
 
 msgid "Cancel"
 msgstr "Kanselahin"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Kulay ng Paglalarawan ng Channel:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Poster"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Pinili na folder ng larawan sa pag-download ng device"
@@ -208,14 +199,14 @@ msgstr "Dina-download ang Aglare..."
 msgid "ECM Short Format:"
 msgstr "Maikling Format ng ECM:"
 
-msgid "Edit"
-msgstr "I-edit"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Mga EMC screen Estilo:"
+
+msgid "Edit"
+msgstr "I-edit"
 
 msgid "Enable Display Genre icons:"
 msgstr "Paganahin ang mga icon ng Display Genre:"
@@ -226,23 +217,20 @@ msgstr "Paganahin ang Display InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Paganahin ang Display XMC Poster:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Paganahin o huwag paganahin ang mga naka-bundle na screen ng E2iPlayer."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Paganahin o huwag paganahin ang pag-cache sa panahon ng pag-download ng kaganapan upang mapabilis ang mga paulit-ulit na paghahanap."
-
 msgid "Enable Parental Icons:"
 msgstr "Paganahin ang Mga Icon ng Magulang:"
 
 msgid "Enable Rating Star:"
 msgstr "Paganahin ang Rating Star:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Paganahin o huwag paganahin ang mga naka-bundle na screen ng E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Paganahin o huwag paganahin ang pag-cache sa panahon ng pag-download ng kaganapan upang mapabilis ang mga paulit-ulit na paghahanap."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Paganahin ang pagpapakita ng pinalawak na impormasyon ng kaganapan, kabilang ang buong cast, crew, mga detalye ng plot, at iba pang metadata, sa widget ng impormasyon."
-
-msgid "Error {0}: {1}"
-msgstr "Error {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Error sa pamamagitan ng pagproseso ng skin file: {}"
@@ -252,6 +240,9 @@ msgstr "Error sa pag-download ng mga file!"
 
 msgid "Error loading: {}"
 msgstr "Error sa paglo-load: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Error {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Error: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Lumabas"
 
-msgid "File {} not found or empty"
-msgstr "Hindi nakita o walang laman ang file {}"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Hindi nakita o walang laman ang file {}"
 
 msgid "Green"
 msgstr "Berde"
@@ -283,17 +274,11 @@ msgstr "Berde2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "Kailangan ng GUI ng pag-restart upang maglapat ng bagong skin.\nGusto mo bang I-restart ang GUI ngayon?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Pangkat ng Pagkatugma ng Larawan:"
-
-msgid "imperial system"
-msgstr "sistemang imperyal"
 
 msgid "Import key {0} from {1}?"
 msgstr "Import key {0} mula sa {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Nag-i-install ng mga update..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Matagumpay na na-load ang key {}!"
-
 msgid "Key empty"
 msgstr "Walang laman ang susi"
+
+msgid "Key {} successfully loaded!"
+msgstr "Matagumpay na na-load ang key {}!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "LightGray"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Ang lokal na build ({}) ay mas bago kaysa sa server build ({})."
 
@@ -367,14 +355,17 @@ msgstr "Code ng lokasyon"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Resulta ng paghahanap sa lokasyon ng MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "sistema ng panukat"
 
 msgid "Mint"
 msgstr "Mint"
@@ -382,20 +373,11 @@ msgstr "Mint"
 msgid "Mix1"
 msgstr "Mix1"
 
-msgid "MSN location search result"
-msgstr "Resulta ng paghahanap sa lokasyon ng MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Walang pinaganang aktibong provider"
 
 msgid "No description available for this option."
 msgstr "Walang available na paglalarawan para sa opsyong ito."
-
-msgid "Off"
-msgstr "Naka-off"
 
 msgid "OFF"
 msgstr "NAKA-OFF"
@@ -412,6 +394,9 @@ msgstr "NAKA-ON"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Naka-off"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Bagong Grupo ng Mga Larawan)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Group)"
 msgid "Orange"
 msgstr "Kahel"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Rosas"
-
-msgid "play/show Files"
-msgstr "i-play/ipakita ang mga File"
 
 msgid "Please enter a valid city name."
 msgstr "Mangyaring magpasok ng wastong pangalan ng lungsod."
@@ -435,9 +420,6 @@ msgstr "Mangyaring magpasok ng wastong code ng lokasyon para sa lungsod."
 
 msgid "Poster download error: {}"
 msgstr "Error sa pag-download ng poster: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Magsisimula ang pag-download ng poster sa loob ng 2 minuto.\nMaaari kang ligtas na lumabas sa menu na ito."
 
 msgid "Purple"
 msgstr "Lila"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI light"
 
+msgid "Select EMC style."
+msgstr "Piliin ang EMC style."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Piliin ang PosterX display mode para sa infobar. Ang mga available na pagpipilian ay nakadepende sa napiling istilo ng infobar at ECM mode."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Piliin ang XtraEvent display mode para sa infobar. Ang mga available na pagpipilian ay nakadepende sa napiling istilo ng infobar at ECM mode."
+
+msgid "Select Your Font:"
+msgstr "Piliin ang Iyong Font:"
+
 msgid "Select channel list event description color."
 msgstr "Piliin ang kulay ng paglalarawan ng kaganapan sa listahan ng channel."
 
@@ -496,17 +490,11 @@ msgstr "Piliin ang listahan ng channel na piniling kulay ng foreground."
 msgid "Select channel selection screen style."
 msgstr "Piliin ang istilo ng screen ng pagpili ng channel."
 
-msgid "Select EMC style."
-msgstr "Piliin ang EMC style."
-
 msgid "Select event view screen style."
 msgstr "Piliin ang istilo ng screen ng view ng kaganapan."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Piliin ang layout ng infobar. Pinipilit ng Style5 na patayin ang ECM at pinapayagan lamang ang mga OFF/CD poster mode. Pinipilit ng Style6 na patayin ang ECM, PosterX, at Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Piliin ang PosterX display mode para sa infobar. Ang mga available na pagpipilian ay nakadepende sa napiling istilo ng infobar at ECM mode."
 
 msgid "Select second infobar layout."
 msgstr "Piliin ang pangalawang layout ng infobar."
@@ -538,12 +526,6 @@ msgstr "Piliin ang weather provider display para sa pangalawang infobar."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Piliin kung aling mga field ng ECM ang ipinapakita kapag gumagamit ang balat ng Maikling MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Piliin ang XtraEvent display mode para sa infobar. Ang mga available na pagpipilian ay nakadepende sa napiling istilo ng infobar at ECM mode."
-
-msgid "Select Your Font:"
-msgstr "Piliin ang Iyong Font:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Itakda ang Oras sa aming - minuto para sa pag-download ng Backdrop"
 
@@ -556,9 +538,6 @@ msgstr "Mga Setting ng Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "I-setup ang Aglare Skin Info"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "I-setup ang Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum sa linuxsat-support.com\n\nSkinner creator: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Ipakita ang mga icon na kumakatawan sa genre ng bawat kaganapan (hal., aksyon, komedya, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Ipakita o itago ang impormasyon ng ECM sa infobar."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Ipakita o itago ang PosterX sa pangalawang infobar."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Ipakita o itago ang panel ng petsa sa infobar."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Ipakita o itago ang XtraEvent sa pangalawang infobar."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Ipakita o itago ang panel ng petsa sa infobar."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Ipakita ang mga icon ng patnubay ng magulang sa mga kaganapan upang isaad ang rating ng nilalaman at pagiging angkop sa edad."
@@ -631,29 +610,26 @@ msgstr "Estilo6"
 msgid "Support E2iplayer Skins:"
 msgstr "Suportahan ang E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Suportahan ang InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Suportahan ang SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Sistema"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "PAGSUSULIT"
+
+msgid "TMDB Only"
+msgstr "TMDB Lang"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Walang laman ang file na %s."
 
 msgid "The file %s was not found."
 msgstr "Hindi nahanap ang file na %s."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Ang update file ay hindi nakita sa /tmp.\nUpdate aborted."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Ang operasyong ito ay nagtatalaga ng folder ng path ng device upang mag-download ng larawan (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Pinapagana ng operasyong ito ang pagpapakita ng mga bituin ng rating par
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Ang operasyong ito ay nag-aalis ng lahat ng png mula sa folder na device (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "TMDB Lang"
-
 msgid "Tomato"
 msgstr "Kamatis"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Hindi sinimulan ang pag-update ng URL – buksan muna ang plugin mula sa menu ng Mga Plugin."
 
 msgid "Update check failed: {}"
 msgstr "Nabigo ang pagsusuri sa pag-update: {}"
@@ -676,17 +652,8 @@ msgstr "Nabigo ang pagsusuri sa pag-update: {}"
 msgid "Update package not found!"
 msgstr "Hindi nahanap ang pag-update ng package!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Hindi sinimulan ang pag-update ng URL – buksan muna ang plugin mula sa menu ng Mga Plugin."
-
-msgid "volume2"
-msgstr "dami2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar Style:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Babala: Gumagamit ka ng mga default na API key!\nLubos naming inirerekomenda ang pag-configure ng sarili mong mga API key sa mga setting ng plugin."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: I-edit ang Entry"
@@ -706,3 +673,92 @@ msgstr "Mayroon ka nang pinakabagong bersyon ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Kailangan mong magpasok ng wastong pangalan ng lungsod bago mo mahanap ang code ng lokasyon."
 
+msgid "imperial system"
+msgstr "sistemang imperyal"
+
+msgid "metric system"
+msgstr "sistema ng panukat"
+
+msgid "play/show Files"
+msgstr "i-play/ipakita ang mga File"
+
+msgid "volume2"
+msgstr "dami2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Sinusuri ng operasyong ito kung ang balat ay may mga bahagi nito (hindi garantisadong)...\n"
+#~ "Gusto mo ba talagang magpatuloy?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Aalisin ng operasyong ito ang lahat ng PNG sa folder ng device (Poster-Backdrop)...\n"
+#~ "Gusto mo ba talagang magpatuloy?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Tapos na ang Aglare update!\n"
+#~ "Gusto mo bang i-restart ang GUI ngayon?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Magsisimula ang pag-download sa backdrop sa loob ng 2 minuto.\n"
+#~ "Maaari kang ligtas na lumabas sa menu na ito."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "Kailangan ng GUI ng pag-restart upang maglapat ng bagong skin.\n"
+#~ "Gusto mo bang I-restart ang GUI ngayon?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Magsisimula ang pag-download ng poster sa loob ng 2 minuto.\n"
+#~ "Maaari kang ligtas na lumabas sa menu na ito."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "I-setup ang Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum sa linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Suportahan ang InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Ang update file ay hindi nakita sa /tmp.\n"
+#~ "Update aborted."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Babala: Gumagamit ka ng mga default na API key!\n"
+#~ "Lubos naming inirerekomenda ang pag-configure ng sarili mong mga API key sa mga setting ng plugin."

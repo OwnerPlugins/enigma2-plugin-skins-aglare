@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Aquesta operació comprova si la pell té els seus components (no garantits)... \nDe veritat voleu continuar?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Aquesta operació eliminarà tots els PNG de la carpeta del dispositiu (Poster-Backdrop)... \nDe veritat voleu continuar?"
-
 msgid "%s key imported!"
 msgstr "S'ha importat la clau %s!"
 
@@ -40,11 +34,11 @@ msgstr "Activa o desactiva MOLOTOV com a proveïdor de metadades."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Activa o desactiva PROGRAMMETV com a proveïdor de metadades."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Afegeix"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "S'ha fet l'actualització d'Aglare! \nVols reiniciar la GUI ara?"
 
 msgid "All png are removed from folder!"
 msgstr "Tots els png s'han eliminat de la carpeta!"
@@ -73,9 +67,6 @@ msgstr "Teló de fons"
 msgid "Backdrop download error: {}"
 msgstr "Error de baixada del fons de pantalla: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "La baixada del fons de pantalla començarà d'aquí a 2 minuts.\nPodeu sortir d'aquest menú amb seguretat."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Blau"
 msgid "Brown"
 msgstr "Marró"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protocol + Servidor + Hora ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Lector + Protocol + Servidor + Hora ECM"
 
 msgid "Cancel"
 msgstr "Cancel·la"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Color de la descripció del canal:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Carpeta d'imatges de descàrrega del dispositiu de selecció"
@@ -208,14 +199,14 @@ msgstr "S'està baixant Aglare..."
 msgid "ECM Short Format:"
 msgstr "Format curt d'ECM:"
 
-msgid "Edit"
-msgstr "Edita"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Estil de pantalles EMC:"
+
+msgid "Edit"
+msgstr "Edita"
 
 msgid "Enable Display Genre icons:"
 msgstr "Activa les icones de gènere de visualització:"
@@ -226,23 +217,20 @@ msgstr "Activa la visualització d'InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Activa la visualització del pòster XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Activa o desactiva les pantalles d'E2iPlayer agrupades."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Activeu o desactiveu la memòria cau durant la descàrrega d'esdeveniments per accelerar les cerques repetides."
-
 msgid "Enable Parental Icons:"
 msgstr "Activa les icones dels pares:"
 
 msgid "Enable Rating Star:"
 msgstr "Activa l'estrella de classificació:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Activa o desactiva les pantalles d'E2iPlayer agrupades."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Activeu o desactiveu la memòria cau durant la descàrrega d'esdeveniments per accelerar les cerques repetides."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Activeu la visualització de la informació ampliada de l'esdeveniment, inclòs el repartiment complet, la tripulació, els detalls de la trama i altres metadades, al giny d'informació."
-
-msgid "Error {0}: {1}"
-msgstr "Error {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "S'ha produït un error en processar el fitxer de la pell: {}"
@@ -252,6 +240,9 @@ msgstr "S'ha produït un error en baixar els fitxers!"
 
 msgid "Error loading: {}"
 msgstr "Error en carregar: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Error {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Error: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Sortida"
 
-msgid "File {} not found or empty"
-msgstr "No s'ha trobat el fitxer {} o està buit"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "No s'ha trobat el fitxer {} o està buit"
 
 msgid "Green"
 msgstr "Verd"
@@ -283,17 +274,11 @@ msgstr "Verd2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "La GUI necessita un reinici per aplicar un aspecte nou.\nVols reiniciar la GUI ara?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Grup de compatibilitat d'imatges:"
-
-msgid "imperial system"
-msgstr "sistema imperial"
 
 msgid "Import key {0} from {1}?"
 msgstr "Importar la clau {0} de {1}?"
@@ -340,11 +325,11 @@ msgstr "Línia Ins"
 msgid "Installing updates..."
 msgstr "S'estan instal·lant actualitzacions..."
 
-msgid "Key {} successfully loaded!"
-msgstr "La clau {} s'ha carregat correctament!"
-
 msgid "Key empty"
 msgstr "Clau buida"
+
+msgid "Key {} successfully loaded!"
+msgstr "La clau {} s'ha carregat correctament!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Gris clar"
 msgid "LimeGreen"
 msgstr "Verd llima"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "La compilació local ({}) és més recent que la compilació del servidor ({})."
 
@@ -367,14 +355,17 @@ msgstr "Codi d'ubicació"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Resultat de la cerca d'ubicació de MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "sistema mètric"
 
 msgid "Mint"
 msgstr "Menta"
@@ -382,20 +373,11 @@ msgstr "Menta"
 msgid "Mix1"
 msgstr "Barreja 1"
 
-msgid "MSN location search result"
-msgstr "Resultat de la cerca d'ubicació de MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "No s'ha activat cap proveïdor actiu"
 
 msgid "No description available for this option."
 msgstr "No hi ha cap descripció disponible per a aquesta opció."
-
-msgid "Off"
-msgstr "Apagat"
 
 msgid "OFF"
 msgstr "OFF"
@@ -412,6 +394,9 @@ msgstr "ON"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Apagat"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (grup d'imatges nous)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Grup OpenPLi)"
 msgid "Orange"
 msgstr "Taronja"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Rosa"
-
-msgid "play/show Files"
-msgstr "reproduir/mostrar fitxers"
 
 msgid "Please enter a valid city name."
 msgstr "Introduïu un nom de ciutat vàlid."
@@ -435,9 +420,6 @@ msgstr "Introduïu un codi d'ubicació vàlid per a la ciutat."
 
 msgid "Poster download error: {}"
 msgstr "Error de baixada del pòster: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "La baixada del pòster començarà d'aquí a 2 minuts.\nPots sortir d'aquest menú amb seguretat."
 
 msgid "Purple"
 msgstr "Lila"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI light"
 
+msgid "Select EMC style."
+msgstr "Seleccioneu l'estil EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Seleccioneu el mode de visualització de PosterX per a la barra d'informació. Les opcions disponibles depenen de l'estil de la barra d'informació seleccionada i del mode ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Seleccioneu el mode de visualització XtraEvent per a la barra d'informació. Les opcions disponibles depenen de l'estil de la barra d'informació seleccionada i del mode ECM."
+
+msgid "Select Your Font:"
+msgstr "Seleccioneu el vostre tipus de lletra:"
+
 msgid "Select channel list event description color."
 msgstr "Seleccioneu el color de la descripció de l'esdeveniment de la llista de canals."
 
@@ -496,17 +490,11 @@ msgstr "Seleccioneu el color de primer pla seleccionat de la llista de canals."
 msgid "Select channel selection screen style."
 msgstr "Seleccioneu l'estil de pantalla de selecció de canals."
 
-msgid "Select EMC style."
-msgstr "Seleccioneu l'estil EMC."
-
 msgid "Select event view screen style."
 msgstr "Seleccioneu l'estil de pantalla de visualització d'esdeveniments."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Seleccioneu el disseny de la barra d'informació. Style5 força l'ECM desactivat i només permet els modes de pòster OFF/CD. Style6 desactiva ECM, PosterX i Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Seleccioneu el mode de visualització de PosterX per a la barra d'informació. Les opcions disponibles depenen de l'estil de la barra d'informació seleccionada i del mode ECM."
 
 msgid "Select second infobar layout."
 msgstr "Seleccioneu la segona disposició de la barra d'informació."
@@ -538,12 +526,6 @@ msgstr "Seleccioneu la pantalla del proveïdor meteorològic per a la segona bar
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Seleccioneu quins camps d'ECM es mostren quan la pell utilitza MYEMUPARA curt."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Seleccioneu el mode de visualització XtraEvent per a la barra d'informació. Les opcions disponibles depenen de l'estil de la barra d'informació seleccionada i del mode ECM."
-
-msgid "Select Your Font:"
-msgstr "Seleccioneu el vostre tipus de lletra:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Estableix l'hora al nostre minut per a la descàrrega de fons"
 
@@ -556,9 +538,6 @@ msgstr "Configuració del servidor Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Configura la informació de la pell d'Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Configura Aglare Skin\nper a {0} v.{1}\n\nby Lululla @2020\n\nFòrum de suport a linuxsat-support.com\n\nSkinner creador: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Mostra icones que representen el gènere de cada esdeveniment (p. ex., acció, comèdia, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Mostra o amaga la informació de l'ECM a la barra d'informació."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Mostra o amaga PosterX a la segona barra d'informació."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Mostra o amaga el tauler de dates a la barra d'informació."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Mostra o amaga XtraEvent a la segona barra d'informació."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Mostra o amaga el tauler de dates a la barra d'informació."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Mostra les icones d'orientació parental als esdeveniments per indicar la classificació del contingut i l'adequació per edat."
@@ -631,29 +610,26 @@ msgstr "Estil 6"
 msgid "Support E2iplayer Skins:"
 msgstr "Suport E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Suport InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Suport SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Sistema"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "PROVA"
+
+msgid "TMDB Only"
+msgstr "Només TMDB"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "El fitxer %s està buit."
 
 msgid "The file %s was not found."
 msgstr "No s'ha trobat el fitxer %s."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "El fitxer d'actualització no s'ha trobat a /tmp.\nActualització avortada."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Aquesta operació assigna la carpeta de ruta del dispositiu per descarregar la imatge (poster-telon de fons)"
@@ -664,11 +640,11 @@ msgstr "Aquesta operació permet visualitzar les estrelles de valoració dels es
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Aquesta operació elimina tots els png del dispositiu de carpeta (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Només TMDB"
-
 msgid "Tomato"
 msgstr "Tomàquet"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Actualitza l'URL no inicialitzat: primer obriu el connector una vegada des del menú Connectors."
 
 msgid "Update check failed: {}"
 msgstr "La comprovació de l'actualització ha fallat: {}"
@@ -676,17 +652,8 @@ msgstr "La comprovació de l'actualització ha fallat: {}"
 msgid "Update package not found!"
 msgstr "No s'ha trobat el paquet d'actualització!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Actualitza l'URL no inicialitzat: primer obriu el connector una vegada des del menú Connectors."
-
-msgid "volume2"
-msgstr "volum 2"
-
 msgid "VolumeBar Style:"
 msgstr "Estil de la barra de volum:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Avís: esteu utilitzant claus API predeterminades! \nUs recomanem que configureu les vostres pròpies claus API a la configuració del connector."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Edita l'entrada"
@@ -706,3 +673,92 @@ msgstr "Ja teniu la darrera versió ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Heu d'introduir un nom de ciutat vàlid abans de poder cercar el codi d'ubicació."
 
+msgid "imperial system"
+msgstr "sistema imperial"
+
+msgid "metric system"
+msgstr "sistema mètric"
+
+msgid "play/show Files"
+msgstr "reproduir/mostrar fitxers"
+
+msgid "volume2"
+msgstr "volum 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Aquesta operació comprova si la pell té els seus components (no garantits)... \n"
+#~ "De veritat voleu continuar?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Aquesta operació eliminarà tots els PNG de la carpeta del dispositiu (Poster-Backdrop)... \n"
+#~ "De veritat voleu continuar?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "S'ha fet l'actualització d'Aglare! \n"
+#~ "Vols reiniciar la GUI ara?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "La baixada del fons de pantalla començarà d'aquí a 2 minuts.\n"
+#~ "Podeu sortir d'aquest menú amb seguretat."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "La GUI necessita un reinici per aplicar un aspecte nou.\n"
+#~ "Vols reiniciar la GUI ara?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "La baixada del pòster començarà d'aquí a 2 minuts.\n"
+#~ "Pots sortir d'aquest menú amb seguretat."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Configura Aglare Skin\n"
+#~ "per a {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Fòrum de suport a linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creador: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Suport InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "El fitxer d'actualització no s'ha trobat a /tmp.\n"
+#~ "Actualització avortada."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Avís: esteu utilitzant claus API predeterminades! \n"
+#~ "Us recomanem que configureu les vostres pròpies claus API a la configuració del connector."

@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Denna operation kontrollerar om huden har sina komponenter (inte garanterad)...\nVill du verkligen fortsätta?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Denna operation tar bort alla PNG-filer från enhetsmappen (Poster-Backdrop)...\nVill du verkligen fortsätta?"
-
 msgid "%s key imported!"
 msgstr "%s nyckel importerad!"
 
@@ -40,11 +34,11 @@ msgstr "Aktivera eller avaktivera MOLOTOV som metadataleverantör."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktivera eller avaktivera PROGRAMMETV som metadataleverantör."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Tillägga"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare-uppdateringen gjordes!\nVill du starta om GUI nu?"
 
 msgid "All png are removed from folder!"
 msgstr "All png tas bort från mappen!"
@@ -73,9 +67,6 @@ msgstr "Bakgrund"
 msgid "Backdrop download error: {}"
 msgstr "Nedladdningsfel i bakgrunden: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Nedladdningen av bakgrunden startar om 2 minuter.\nDu kan säkert lämna den här menyn."
-
 msgid "BebasNeue"
 msgstr "GratisNeue"
 
@@ -91,6 +82,9 @@ msgstr "Blå"
 msgid "Brown"
 msgstr "Brun"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokoll + Server + ECM-tid"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Läsare + Protokoll + Server + ECM-tid"
 
 msgid "Cancel"
 msgstr "Avboka"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Kanalbeskrivning Färg:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Välj enhet för nedladdning av bildmapp"
@@ -208,14 +199,14 @@ msgstr "Laddar ned Aglare..."
 msgid "ECM Short Format:"
 msgstr "ECM kortformat:"
 
-msgid "Edit"
-msgstr "Redigera"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC-skärmar Stil:"
+
+msgid "Edit"
+msgstr "Redigera"
 
 msgid "Enable Display Genre icons:"
 msgstr "Aktivera ikoner för visningsgenre:"
@@ -226,23 +217,20 @@ msgstr "Aktivera Display InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Aktivera Display XMC-affisch:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Aktivera eller inaktivera medföljande E2iPlayer-skärmar."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Aktivera eller inaktivera cachelagring under händelsenedladdning för att påskynda upprepade sökningar."
-
 msgid "Enable Parental Icons:"
 msgstr "Aktivera föräldraikoner:"
 
 msgid "Enable Rating Star:"
 msgstr "Aktivera betygsstjärna:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Aktivera eller inaktivera medföljande E2iPlayer-skärmar."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Aktivera eller inaktivera cachelagring under händelsenedladdning för att påskynda upprepade sökningar."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktivera visning av utökad händelseinformation, inklusive full roll, besättning, plotdetaljer och annan metadata i infowidgeten."
-
-msgid "Error {0}: {1}"
-msgstr "Fel {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Fel vid bearbetning av skalfilen: {}"
@@ -252,6 +240,9 @@ msgstr "Fel vid nedladdning av filer!"
 
 msgid "Error loading: {}"
 msgstr "Fel vid laddning: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Fel {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Fel: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Utgång"
 
-msgid "File {} not found or empty"
-msgstr "Filen {} hittades inte eller tom"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Filen {} hittades inte eller tom"
 
 msgid "Green"
 msgstr "Grön"
@@ -283,17 +274,11 @@ msgstr "Grön 2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI behöver en omstart för att applicera ett nytt skal.\nVill du starta om GUI nu?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Bildkompatibilitetsgrupp:"
-
-msgid "imperial system"
-msgstr "kejserliga systemet"
 
 msgid "Import key {0} from {1}?"
 msgstr "Importera nyckel {0} från {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Installerar uppdateringar..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Nyckeln {} har laddats!"
-
 msgid "Key empty"
 msgstr "Nyckel tom"
+
+msgid "Key {} successfully loaded!"
+msgstr "Nyckeln {} har laddats!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Ljusgrå"
 msgid "LimeGreen"
 msgstr "Limegrön"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Local build ({}) är nyare än serverbuild ({})."
 
@@ -367,14 +355,17 @@ msgstr "Platskod"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Sökresultat för MSN-plats"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "metriskt system"
 
 msgid "Mint"
 msgstr "Mynta"
@@ -382,20 +373,11 @@ msgstr "Mynta"
 msgid "Mix1"
 msgstr "Blanda 1"
 
-msgid "MSN location search result"
-msgstr "Sökresultat för MSN-plats"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Inga aktiva leverantörer aktiverade"
 
 msgid "No description available for this option."
 msgstr "Ingen beskrivning tillgänglig för detta alternativ."
-
-msgid "Off"
-msgstr "Av"
 
 msgid "OFF"
 msgstr "AV"
@@ -412,6 +394,9 @@ msgstr "PÅ"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "PÅ/AV SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Av"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (New Images Group)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Group)"
 msgid "Orange"
 msgstr "Orange"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Rosa"
-
-msgid "play/show Files"
-msgstr "spela upp/visa filer"
 
 msgid "Please enter a valid city name."
 msgstr "Ange ett giltigt stadsnamn."
@@ -435,9 +420,6 @@ msgstr "Ange en giltig platskod för staden."
 
 msgid "Poster download error: {}"
 msgstr "Fel vid nedladdning av affischen: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Nedladdningen av affischen startar om 2 minuter.\nDu kan säkert lämna den här menyn."
 
 msgid "Purple"
 msgstr "Purpur"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI-ljus"
 
+msgid "Select EMC style."
+msgstr "Välj EMC-stil."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Välj PosterX-visningsläge för infofältet. Tillgängliga val beror på vald infofältstil och ECM-läge."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Välj XtraEvent-visningsläge för infofältet. Tillgängliga val beror på vald infofältstil och ECM-läge."
+
+msgid "Select Your Font:"
+msgstr "Välj ditt teckensnitt:"
+
 msgid "Select channel list event description color."
 msgstr "Välj färg för kanallistans händelsebeskrivning."
 
@@ -496,17 +490,11 @@ msgstr "Välj kanallista vald förgrundsfärg."
 msgid "Select channel selection screen style."
 msgstr "Välj skärmstil för kanalval."
 
-msgid "Select EMC style."
-msgstr "Välj EMC-stil."
-
 msgid "Select event view screen style."
 msgstr "Välj skärmstil för händelsevy."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Välj layout för infofältet. Style5 tvingar av ECM och tillåter endast OFF/CD-affischlägen. Style6 tvingar bort ECM, PosterX och Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Välj PosterX-visningsläge för infofältet. Tillgängliga val beror på vald infofältstil och ECM-läge."
 
 msgid "Select second infobar layout."
 msgstr "Välj andra infofältslayout."
@@ -538,12 +526,6 @@ msgstr "Välj väderleverantörsdisplay för det andra infofältet."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Välj vilka ECM-fält som ska visas när huden använder Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Välj XtraEvent-visningsläge för infofältet. Tillgängliga val beror på vald infofältstil och ECM-läge."
-
-msgid "Select Your Font:"
-msgstr "Välj ditt teckensnitt:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Ställ in tid vår - minut för nedladdning av bakgrund"
 
@@ -556,9 +538,6 @@ msgstr "Inställningar Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Konfigurera Aglare Skin Info"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Konfigurera Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupportforum på linuxsat-support.com\n\nSkinner skapare: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Visa ikoner som representerar genren för varje händelse (t.ex. action, komedi, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Visa eller dölj ECM-information i infofältet."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Visa eller dölj PosterX i det andra infofältet."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Visa eller dölj datumpanelen i informationsfältet."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Visa eller dölj XtraEvent i det andra infofältet."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Visa eller dölj datumpanelen i informationsfältet."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Visa ikoner för föräldrars vägledning på händelser för att indikera innehållsklassificering och ålderslämplighet."
@@ -631,29 +610,26 @@ msgstr "Stil6"
 msgid "Support E2iplayer Skins:"
 msgstr "Stöd E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Stöd InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Support SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "System"
 
-msgid "Teal"
-msgstr "Kricka"
-
 msgid "TEST"
 msgstr "TESTA"
+
+msgid "TMDB Only"
+msgstr "Endast TMDB"
+
+msgid "Teal"
+msgstr "Kricka"
 
 msgid "The file %s is empty."
 msgstr "Filen %s är tom."
 
 msgid "The file %s was not found."
 msgstr "Filen %s hittades inte."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Uppdateringsfilen hittades inte i /tmp.\nUppdateringen avbröts."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Den här åtgärden tilldelar enhetssökvägsmappen för att ladda ner bilden (Poster-Backdrop)"
@@ -664,11 +640,11 @@ msgstr "Denna operation möjliggör visning av betygsstjärnor för händelser, 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Denna operation tar bort all png från mappenhet (affischbakgrund)"
 
-msgid "TMDB Only"
-msgstr "Endast TMDB"
-
 msgid "Tomato"
 msgstr "Tomat"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Uppdatera URL inte initierad – öppna plugin-programmet en gång från Plugins-menyn först."
 
 msgid "Update check failed: {}"
 msgstr "Uppdateringskontrollen misslyckades: {}"
@@ -676,17 +652,8 @@ msgstr "Uppdateringskontrollen misslyckades: {}"
 msgid "Update package not found!"
 msgstr "Uppdateringspaketet hittades inte!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Uppdatera URL inte initierad – öppna plugin-programmet en gång från Plugins-menyn först."
-
-msgid "volume2"
-msgstr "volym2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar Style:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Varning: Du använder standard-API-nycklar!\nVi rekommenderar starkt att du konfigurerar dina egna API-nycklar i plugin-inställningarna."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Redigera post"
@@ -706,3 +673,92 @@ msgstr "Du har redan den senaste versionen ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Du måste ange ett giltigt stadsnamn innan du kan söka efter platskoden."
 
+msgid "imperial system"
+msgstr "kejserliga systemet"
+
+msgid "metric system"
+msgstr "metriskt system"
+
+msgid "play/show Files"
+msgstr "spela upp/visa filer"
+
+msgid "volume2"
+msgstr "volym2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Denna operation kontrollerar om huden har sina komponenter (inte garanterad)...\n"
+#~ "Vill du verkligen fortsätta?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Denna operation tar bort alla PNG-filer från enhetsmappen (Poster-Backdrop)...\n"
+#~ "Vill du verkligen fortsätta?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare-uppdateringen gjordes!\n"
+#~ "Vill du starta om GUI nu?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Nedladdningen av bakgrunden startar om 2 minuter.\n"
+#~ "Du kan säkert lämna den här menyn."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI behöver en omstart för att applicera ett nytt skal.\n"
+#~ "Vill du starta om GUI nu?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Nedladdningen av affischen startar om 2 minuter.\n"
+#~ "Du kan säkert lämna den här menyn."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Konfigurera Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Supportforum på linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner skapare: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Stöd InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Uppdateringsfilen hittades inte i /tmp.\n"
+#~ "Uppdateringen avbröts."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Varning: Du använder standard-API-nycklar!\n"
+#~ "Vi rekommenderar starkt att du konfigurerar dina egna API-nycklar i plugin-inställningarna."

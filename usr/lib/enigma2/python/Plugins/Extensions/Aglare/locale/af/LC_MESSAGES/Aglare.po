@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Hierdie operasie kyk of die vel sy komponente het (nie gewaarborg nie)...\nWil jy regtig voortgaan?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Hierdie bewerking sal alle PNG'e uit die toestelvouer (Poster-Backdrop) verwyder...\nWil jy regtig voortgaan?"
-
 msgid "%s key imported!"
 msgstr "%s sleutel ingevoer!"
 
@@ -40,11 +34,11 @@ msgstr "Aktiveer of deaktiveer MOLOTOV as 'n metadataverskaffer."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktiveer of deaktiveer PROGRAMMETV as 'n metadataverskaffer."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Voeg by"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare-opdatering is gedoen!\nWil jy die GUI nou herbegin?"
 
 msgid "All png are removed from folder!"
 msgstr "Alle png is uit vouer verwyder!"
@@ -73,9 +67,6 @@ msgstr "Agtergrond"
 msgid "Backdrop download error: {}"
 msgstr "Agtergrondaflaaifout: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Agtergrondaflaai sal oor 2 minute begin.\nJy kan hierdie kieslys veilig verlaat."
-
 msgid "BebasNeue"
 msgstr "GratisNeue"
 
@@ -91,6 +82,9 @@ msgstr "Blou"
 msgid "Brown"
 msgstr "Bruin"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Protokol + Bediener + ECM Tyd"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protokol + Bediener + ECM Tyd"
 
 msgid "Cancel"
 msgstr "Kanselleer"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Kanaalbeskrywing Kleur:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelectie_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "Channel Selection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "Channel Selection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Keuse toestel aflaai beeld vouer"
@@ -208,14 +199,14 @@ msgstr "Laai tans Aglare af..."
 msgid "ECM Short Format:"
 msgstr "ECM kort formaat:"
 
-msgid "Edit"
-msgstr "Wysig"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC skerms Styl:"
+
+msgid "Edit"
+msgstr "Wysig"
 
 msgid "Enable Display Genre icons:"
 msgstr "Aktiveer Vertoon Genre-ikone:"
@@ -226,23 +217,20 @@ msgstr "Aktiveer vertooninligtinggebeurtenisse:"
 msgid "Enable Display XMC Poster:"
 msgstr "Aktiveer vertoon XMC-plakkaat:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Aktiveer of deaktiveer gebundelde E2iPlayer-skerms."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Aktiveer of deaktiveer kasgeheue tydens gebeurtenisaflaai om herhaalde soektogte te bespoedig."
-
 msgid "Enable Parental Icons:"
 msgstr "Aktiveer ouerlike ikone:"
 
 msgid "Enable Rating Star:"
 msgstr "Aktiveer graderingster:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Aktiveer of deaktiveer gebundelde E2iPlayer-skerms."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Aktiveer of deaktiveer kasgeheue tydens gebeurtenisaflaai om herhaalde soektogte te bespoedig."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktiveer die vertoon van uitgebreide gebeurtenisinligting, insluitend volle rolverdeling, span, plotbesonderhede en ander metadata, in die inligtinglegstuk."
-
-msgid "Error {0}: {1}"
-msgstr "Fout {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Fout met die verwerking van die vellêer: {}"
@@ -252,6 +240,9 @@ msgstr "Kon nie lêers aflaai nie!"
 
 msgid "Error loading: {}"
 msgstr "Kon nie laai nie: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Fout {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Fout: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Verlaat"
 
-msgid "File {} not found or empty"
-msgstr "Lêer {} nie gevind nie of leeg"
-
 msgid "File Commander - Addon"
 msgstr "Lêerbevelvoerder - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Lêer {} nie gevind nie of leeg"
 
 msgid "Green"
 msgstr "Groen"
@@ -283,17 +274,11 @@ msgstr "Groen 2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI moet herbegin om 'n nuwe vel toe te pas.\nWil jy die GUI nou herbegin?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Beeldversoenbaarheidsgroep:"
-
-msgid "imperial system"
-msgstr "imperiale stelsel"
 
 msgid "Import key {0} from {1}?"
 msgstr "Voer sleutel {0} vanaf {1} in?"
@@ -340,11 +325,11 @@ msgstr "Ins lyn"
 msgid "Installing updates..."
 msgstr "Installeer tans opdaterings..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Sleutel {} suksesvol gelaai!"
-
 msgid "Key empty"
 msgstr "Sleutel leeg"
+
+msgid "Key {} successfully loaded!"
+msgstr "Sleutel {} suksesvol gelaai!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtbold Gereelde"
@@ -358,6 +343,9 @@ msgstr "Liggrys"
 msgid "LimeGreen"
 msgstr "Lemmetjiegroen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Plaaslike bou ({}) is nuwer as bedienerbou ({})."
 
@@ -367,14 +355,17 @@ msgstr "Ligging kode"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "MSN ligging soekresultaat"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "metrieke stelsel"
 
 msgid "Mint"
 msgstr "Munt"
@@ -382,20 +373,11 @@ msgstr "Munt"
 msgid "Mix1"
 msgstr "Meng1"
 
-msgid "MSN location search result"
-msgstr "MSN ligging soekresultaat"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Geen aktiewe verskaffers geaktiveer nie"
 
 msgid "No description available for this option."
 msgstr "Geen beskrywing beskikbaar vir hierdie opsie nie."
-
-msgid "Off"
-msgstr "Af"
 
 msgid "OFF"
 msgstr "AF"
@@ -412,6 +394,9 @@ msgstr "AAN"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "AAN/UIT SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Af"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (New Images Group)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Groep)"
 msgid "Orange"
 msgstr "Oranje"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Pienk"
-
-msgid "play/show Files"
-msgstr "speel/wys lêers"
 
 msgid "Please enter a valid city name."
 msgstr "Voer asseblief 'n geldige stadnaam in."
@@ -435,9 +420,6 @@ msgstr "Voer asseblief 'n geldige liggingkode vir die stad in."
 
 msgid "Poster download error: {}"
 msgstr "Plakkaataflaaifout: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Plakkaataflaai sal oor 2 minute begin.\nJy kan hierdie kieslys veilig verlaat."
 
 msgid "Purple"
 msgstr "Pers"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI-lig"
 
+msgid "Select EMC style."
+msgstr "Kies EMC-styl."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Kies PosterX-vertoonmodus vir die inligtingbalk. Beskikbare keuses hang af van die gekose inligtingbalkstyl en ECM-modus."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Kies XtraEvent-vertoonmodus vir die inligtingbalk. Beskikbare keuses hang af van die gekose inligtingbalkstyl en ECM-modus."
+
+msgid "Select Your Font:"
+msgstr "Kies jou lettertipe:"
+
 msgid "Select channel list event description color."
 msgstr "Kies kanaallys gebeurtenis beskrywing kleur."
 
@@ -496,17 +490,11 @@ msgstr "Kies kanaallys geselekteerde voorgrondkleur."
 msgid "Select channel selection screen style."
 msgstr "Kies kanaalkeuse skermstyl."
 
-msgid "Select EMC style."
-msgstr "Kies EMC-styl."
-
 msgid "Select event view screen style."
 msgstr "Kies gebeurtenisaansigskermstyl."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Kies inligtingbalkuitleg. Style5 dwing ECM af en laat slegs AF/CD-plakkaatmodusse toe. Style6 dwing ECM, PosterX en Xtraevent af."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Kies PosterX-vertoonmodus vir die inligtingbalk. Beskikbare keuses hang af van die gekose inligtingbalkstyl en ECM-modus."
 
 msgid "Select second infobar layout."
 msgstr "Kies tweede inligtingbalkuitleg."
@@ -538,12 +526,6 @@ msgstr "Kies weerverskaffer-vertoning vir die tweede inligtingbalk."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Kies watter ECM-velde gewys word wanneer die vel Kort MYEMUPARA gebruik."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Kies XtraEvent-vertoonmodus vir die inligtingbalk. Beskikbare keuses hang af van die gekose inligtingbalkstyl en ECM-modus."
-
-msgid "Select Your Font:"
-msgstr "Kies jou lettertipe:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Stel Tyd ons - minuut vir Agtergrond aflaai"
 
@@ -556,9 +538,6 @@ msgstr "Instellings Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Stel Aglare Skin Info op"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Stel Aglare Skin\nvir {0} v.{1}\n\nby Lululla @2020\n\nOndersteuningsforum op linuxsat-support.com\n\nSkinner-skepper op: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Wys ikone wat die genre van elke gebeurtenis verteenwoordig (bv. aksie, komedie, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Wys of versteek ECM-inligting in die inligtingbalk."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Wys of versteek PosterX in die tweede inligtingbalk."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Wys of versteek die datumpaneel in die inligtingbalk."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Wys of versteek XtraEvent in die tweede inligtingbalk."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Wys of versteek die datumpaneel in die inligtingbalk."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Wys ouerleiding-ikone op gebeurtenisse om inhoudgradering en ouderdomsgeskiktheid aan te dui."
@@ -631,29 +610,26 @@ msgstr "Styl6"
 msgid "Support E2iplayer Skins:"
 msgstr "Ondersteun E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Ondersteun InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Ondersteun SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Stelsel"
 
-msgid "Teal"
-msgstr "Blauwgroen"
-
 msgid "TEST"
 msgstr "TOETS"
+
+msgid "TMDB Only"
+msgstr "Slegs TMDB"
+
+msgid "Teal"
+msgstr "Blauwgroen"
 
 msgid "The file %s is empty."
 msgstr "Die lêer %s is leeg."
 
 msgid "The file %s was not found."
 msgstr "Die lêer %s is nie gevind nie."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Die opdateringlêer is nie gevind in /tmp.\nOpdatering is afgelas nie."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Hierdie bewerking ken toestelpadvouer toe om prent af te laai (Plakaat-agtergrond)"
@@ -664,11 +640,11 @@ msgstr "Hierdie bewerking aktiveer die vertoon van graderingsterre vir gebeurten
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Hierdie bewerking verwyder alle png uit vouertoestel (Plakaat-agtergrond)"
 
-msgid "TMDB Only"
-msgstr "Slegs TMDB"
-
 msgid "Tomato"
 msgstr "Tamatie"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Dateer URL nie geïnitialiseer nie – maak eers die inprop een keer vanaf die Inprop-kieslys oop."
 
 msgid "Update check failed: {}"
 msgstr "Opdateerkontrole het misluk: {}"
@@ -676,17 +652,8 @@ msgstr "Opdateerkontrole het misluk: {}"
 msgid "Update package not found!"
 msgstr "Opdateringspakket nie gevind nie!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Dateer URL nie geïnitialiseer nie – maak eers die inprop een keer vanaf die Inprop-kieslys oop."
-
-msgid "volume2"
-msgstr "volume 2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar Styl:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Waarskuwing: Jy gebruik verstek API-sleutels!\nOns beveel sterk aan dat jy jou eie API-sleutels in die inpropinstellings konfigureer."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Wysig inskrywing"
@@ -706,3 +673,92 @@ msgstr "Jy het reeds die nuutste weergawe ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Jy moet 'n geldige stadnaam invoer voordat jy die liggingkode kan soek."
 
+msgid "imperial system"
+msgstr "imperiale stelsel"
+
+msgid "metric system"
+msgstr "metrieke stelsel"
+
+msgid "play/show Files"
+msgstr "speel/wys lêers"
+
+msgid "volume2"
+msgstr "volume 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Hierdie operasie kyk of die vel sy komponente het (nie gewaarborg nie)...\n"
+#~ "Wil jy regtig voortgaan?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Hierdie bewerking sal alle PNG'e uit die toestelvouer (Poster-Backdrop) verwyder...\n"
+#~ "Wil jy regtig voortgaan?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare-opdatering is gedoen!\n"
+#~ "Wil jy die GUI nou herbegin?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Agtergrondaflaai sal oor 2 minute begin.\n"
+#~ "Jy kan hierdie kieslys veilig verlaat."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI moet herbegin om 'n nuwe vel toe te pas.\n"
+#~ "Wil jy die GUI nou herbegin?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Plakkaataflaai sal oor 2 minute begin.\n"
+#~ "Jy kan hierdie kieslys veilig verlaat."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Stel Aglare Skin\n"
+#~ "vir {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Ondersteuningsforum op linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner-skepper op: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Ondersteun InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Die opdateringlêer is nie gevind in /tmp.\n"
+#~ "Opdatering is afgelas nie."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Waarskuwing: Jy gebruik verstek API-sleutels!\n"
+#~ "Ons beveel sterk aan dat jy jou eie API-sleutels in die inpropinstellings konfigureer."

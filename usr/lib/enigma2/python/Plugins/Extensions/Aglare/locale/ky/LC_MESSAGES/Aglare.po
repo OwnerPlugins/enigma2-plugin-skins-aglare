@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Бул операция теринин анын компоненттеринин бар-жоктугун текшерет (кепилдик жок)...\nЧын эле уланткыңыз келеби?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Бул операция бардык PNG файлдарын түзмөк папкасынан (Плакат-фон) жок кылат...\nЧын эле уланткыңыз келеби?"
-
 msgid "%s key imported!"
 msgstr "%s ачкычы импорттолду!"
 
@@ -40,11 +34,11 @@ msgstr "MOLOTOVди метадайындарды камсыздоочу ката
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "PROGRAMMETVди метадайындарды камсыздоочу катары иштетиңиз же өчүрүңүз."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "кошуу"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Aglare жаңыртылды!\nGUIди азыр кайра иштеткиңиз келеби?"
 
 msgid "All png are removed from folder!"
 msgstr "Бардык PNG папкадан алынып салынды!"
@@ -73,9 +67,6 @@ msgstr "Фон"
 msgid "Backdrop download error: {}"
 msgstr "Көшөгө жүктөп алуу катасы: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Көшөгө жүктөп алуу 2 мүнөттөн кийин башталат.\nСиз бул менюдан коопсуз чыксаңыз болот."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Көк"
 msgid "Brown"
 msgstr "Күрөң"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Протокол + Server + ECM убакыты"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Протокол + Server + ECM убакыты"
 
 msgid "Cancel"
 msgstr "Жокко чыгаруу"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Канал сүрөттөмөсү Түсү:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Plakers"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Picon_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Тандалган түзмөк жүктөө сүрөт папкасы"
@@ -208,14 +199,14 @@ msgstr "Aglare жүктөлүүдө..."
 msgid "ECM Short Format:"
 msgstr "ECM Кыска форматы:"
 
-msgid "Edit"
-msgstr "Түзөтүү"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "EMC экрандарынын стили:"
+
+msgid "Edit"
+msgstr "Түзөтүү"
 
 msgid "Enable Display Genre icons:"
 msgstr "Дисплей жанрынын сүрөтчөлөрүн иштетүү:"
@@ -226,23 +217,20 @@ msgstr "Display InfoEvents иштетүү:"
 msgid "Enable Display XMC Poster:"
 msgstr "XMC плакаттарын көрсөтүүнү иштетүү:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Топтолгон E2iPlayer экрандарын иштетүү же өчүрүү."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Кайталануучу издөөлөрдү тездетүү үчүн окуяны жүктөө учурунда кэштөө иштетиңиз же өчүрүңүз."
-
 msgid "Enable Parental Icons:"
 msgstr "Ата-эненин сүрөтчөлөрүн иштетүү:"
 
 msgid "Enable Rating Star:"
 msgstr "Рейтинг жылдызын иштетүү:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Топтолгон E2iPlayer экрандарын иштетүү же өчүрүү."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Кайталануучу издөөлөрдү тездетүү үчүн окуяны жүктөө учурунда кэштөө иштетиңиз же өчүрүңүз."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Маалымат виджетинде кеңейтилген окуя маалыматын, анын ичинде толук актерлор, экипаж, сюжеттин чоо-жайы жана башка метадайындарды көрсөтүүнү иштетүү."
-
-msgid "Error {0}: {1}"
-msgstr "Ката {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Тери файлын иштетүүдө ката кетти: {}"
@@ -252,6 +240,9 @@ msgstr "Файлдарды жүктөөдө ката кетти!"
 
 msgid "Error loading: {}"
 msgstr "Жүктөө катасы: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Ката {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Ката: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Чыгыңыз"
 
-msgid "File {} not found or empty"
-msgstr "{} файлы табылган жок же бош"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "{} файлы табылган жок же бош"
 
 msgid "Green"
 msgstr "Жашыл"
@@ -283,17 +274,11 @@ msgstr "Жашыл 2"
 msgid "Greta"
 msgstr "Грета"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "Жаңы скверди колдонуу үчүн GUI кайра иштетүү керек.\nGUIди азыр өчүрүп күйгүзгүңүз келеби?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Сүрөттүн шайкештик тобу:"
-
-msgid "imperial system"
-msgstr "империялык система"
 
 msgid "Import key {0} from {1}?"
 msgstr "{0} ачкычын {1}ден импорттоо?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Жаңыртуулар орнотулууда..."
 
-msgid "Key {} successfully loaded!"
-msgstr "{} ачкычы ийгиликтүү жүктөлдү!"
-
 msgid "Key empty"
 msgstr "Ачкыч бош"
+
+msgid "Key {} successfully loaded!"
+msgstr "{} ачкычы ийгиликтүү жүктөлдү!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Ачык боз"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Жергиликтүү түзүлүш ({}) сервердин түзүлүшүнөн ({}) жаңыраак."
 
@@ -367,14 +355,17 @@ msgstr "Жайгашкан жер коду"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "MSN жайгашкан жерди издөө натыйжасы"
+
+msgid "MV Boli"
+msgstr "MV Боли"
+
 msgid "Magenta"
 msgstr "Кызыл"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Мегабит/с (Мб/с)"
-
-msgid "metric system"
-msgstr "метрикалык система"
 
 msgid "Mint"
 msgstr "Mint"
@@ -382,20 +373,11 @@ msgstr "Mint"
 msgid "Mix1"
 msgstr "Mix1"
 
-msgid "MSN location search result"
-msgstr "MSN жайгашкан жерди издөө натыйжасы"
-
-msgid "MV Boli"
-msgstr "MV Боли"
-
 msgid "No active providers enabled"
 msgstr "Активдүү провайдерлер иштетилген жок"
 
 msgid "No description available for this option."
 msgstr "Бул параметр үчүн эч кандай сүрөттөмө жок."
-
-msgid "Off"
-msgstr "Өчүк"
 
 msgid "OFF"
 msgstr "ӨЧҮРҮҮ"
@@ -412,6 +394,9 @@ msgstr "КҮЙҮК"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Өчүк"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Жаңы сүрөттөр тобу)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (OpenPLi Group)"
 msgid "Orange"
 msgstr "Ачык күрөң"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Кызгылт"
-
-msgid "play/show Files"
-msgstr "Файлдарды ойнотуу/көрсөтүү"
 
 msgid "Please enter a valid city name."
 msgstr "Жарактуу шаардын атын киргизиңиз."
@@ -435,9 +420,6 @@ msgstr "Сураныч, шаар үчүн жарактуу жайгашкан ж
 
 msgid "Poster download error: {}"
 msgstr "Постер жүктөө катасы: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Плакаттарды жүктөп алуу 2 мүнөттөн кийин башталат.\nСиз бул менюдан коопсуз чыксаңыз болот."
 
 msgid "Purple"
 msgstr "Кызгылт көк"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI жарыгы"
 
+msgid "Select EMC style."
+msgstr "EMC стилин тандаңыз."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Маалымат тилкеси үчүн PosterX дисплей режимин тандаңыз. Жеткиликтүү тандоолор тандалган маалымат тилкесинин стилине жана ECM режимине жараша болот."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Маалымат тилкеси үчүн XtraEvent дисплей режимин тандаңыз. Жеткиликтүү тандоолор тандалган маалымат тилкесинин стилине жана ECM режимине жараша болот."
+
+msgid "Select Your Font:"
+msgstr "Арипиңизди тандаңыз:"
+
 msgid "Select channel list event description color."
 msgstr "Канал тизмеси окуянын сүрөттөмө түсүн тандаңыз."
 
@@ -496,17 +490,11 @@ msgstr "Тандалган каналдардын тизмеси алдыңкы 
 msgid "Select channel selection screen style."
 msgstr "Канал тандоо экранынын стилин тандаңыз."
 
-msgid "Select EMC style."
-msgstr "EMC стилин тандаңыз."
-
 msgid "Select event view screen style."
 msgstr "Окуяны көрүү экран стилин тандаңыз."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Маалымат тилкесинин жайгашуусун тандаңыз. Style5 ECMди өчүрүүгө мажбурлап, OFF/CD плакат режимдерине гана уруксат берет. Style6 ECM, PosterX жана Xtraeventти өчүрүүгө мажбурлайт."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Маалымат тилкеси үчүн PosterX дисплей режимин тандаңыз. Жеткиликтүү тандоолор тандалган маалымат тилкесинин стилине жана ECM режимине жараша болот."
 
 msgid "Select second infobar layout."
 msgstr "Экинчи маалымат тилкесинин жайгашуусун тандаңыз."
@@ -538,12 +526,6 @@ msgstr "Экинчи маалымат тилкеси үчүн аба ырайы 
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Тери Short MYEMUPARA колдонгондо кайсы ECM талаалары көрсөтүлөрүн тандаңыз."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Маалымат тилкеси үчүн XtraEvent дисплей режимин тандаңыз. Жеткиликтүү тандоолор тандалган маалымат тилкесинин стилине жана ECM режимине жараша болот."
-
-msgid "Select Your Font:"
-msgstr "Арипиңизди тандаңыз:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Көшөгө жүктөп алуу үчүн убакытты биздин мүнөткө коюңуз"
 
@@ -556,9 +538,6 @@ msgstr "Орнотуулар Apikey Server"
 msgid "Setup Aglare Skin Info"
 msgstr "Aglare Skin Info-ну орнотуу"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Aglare Skin\n for {0} v.{1}\n\n тарабынан Lululla @2020\n\nКолдоо форумун linuxsat-support.com\n\nSkinner жаратуучусу: Odem2014 орнотуңуз"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Ар бир окуянын жанрын чагылдырган иконаларды көрсөтүү (мис., экшн, комедия, драма)"
 
@@ -568,11 +547,11 @@ msgstr "Маалымат тилкесинде ECM маалыматын көрс�
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Экинчи маалымат тилкесинде PosterX көрсөтүңүз же жашырыңыз."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Маалымат тилкесинде күн панелин көрсөтүү же жашыруу."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Экинчи маалымат тилкесинде XtraEventти көрсөтүү же жашыруу."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Маалымат тилкесинде күн панелин көрсөтүү же жашыруу."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Мазмун рейтингин жана куракка ылайыктуулугун көрсөтүү үчүн окуяларда ата-эненин көзөмөлүнүн сүрөтчөлөрүн көрсөтүңүз."
@@ -631,29 +610,26 @@ msgstr "Style6"
 msgid "Support E2iplayer Skins:"
 msgstr "E2iplayer терилерин колдоо:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "InfoBar SoftCSA колдоо:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "SubsSupportPro терилерин колдоо:"
 
 msgid "System"
 msgstr "Система"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "СЫНОО"
+
+msgid "TMDB Only"
+msgstr "TMDB гана"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "%s файлы бош."
 
 msgid "The file %s was not found."
 msgstr "%s файлы табылган жок."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Жаңыртуу файлы табылган жок /tmp.\nUpdate токтотулду."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Бул операция сүрөттү жүктөө үчүн түзмөктүн жол папкасын дайындайт (Плакат-фон)"
@@ -664,11 +640,11 @@ msgstr "Бул операция тандалган рейтинг булагын
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Бул операция папка түзмөгүнөн бардык PNG файлдарын жок кылат (Плакат Фон)"
 
-msgid "TMDB Only"
-msgstr "TMDB гана"
-
 msgid "Tomato"
 msgstr "Помидор"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "URL жаңыртуу инициализацияланган жок – адегенде Plugins менюсунан плагинди бир жолу ачыңыз."
 
 msgid "Update check failed: {}"
 msgstr "Жаңыртуу текшерилбей калды: {}"
@@ -676,17 +652,8 @@ msgstr "Жаңыртуу текшерилбей калды: {}"
 msgid "Update package not found!"
 msgstr "Жаңыртуу топтому табылган жок!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "URL жаңыртуу инициализацияланган жок – адегенде Plugins менюсунан плагинди бир жолу ачыңыз."
-
-msgid "volume2"
-msgstr "том2"
-
 msgid "VolumeBar Style:"
 msgstr "VolumeBar стили:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Эскертүү: Сиз демейки API ачкычтарын колдонуп жатасыз!\nПлагин жөндөөлөрүндө өзүңүздүн API ачкычтарыңызды конфигурациялоону сунуштайбыз."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Жазууну түзөтүү"
@@ -706,3 +673,92 @@ msgstr "Сизде мурунтан эле акыркы версия бар ({})
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Жайгашкан жердин кодун издөөдөн мурун жарактуу шаардын атын киргизишиңиз керек."
 
+msgid "imperial system"
+msgstr "империялык система"
+
+msgid "metric system"
+msgstr "метрикалык система"
+
+msgid "play/show Files"
+msgstr "Файлдарды ойнотуу/көрсөтүү"
+
+msgid "volume2"
+msgstr "том2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Бул операция теринин анын компоненттеринин бар-жоктугун текшерет (кепилдик жок)...\n"
+#~ "Чын эле уланткыңыз келеби?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Бул операция бардык PNG файлдарын түзмөк папкасынан (Плакат-фон) жок кылат...\n"
+#~ "Чын эле уланткыңыз келеби?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Aglare жаңыртылды!\n"
+#~ "GUIди азыр кайра иштеткиңиз келеби?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Көшөгө жүктөп алуу 2 мүнөттөн кийин башталат.\n"
+#~ "Сиз бул менюдан коопсуз чыксаңыз болот."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "Жаңы скверди колдонуу үчүн GUI кайра иштетүү керек.\n"
+#~ "GUIди азыр өчүрүп күйгүзгүңүз келеби?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Плакаттарды жүктөп алуу 2 мүнөттөн кийин башталат.\n"
+#~ "Сиз бул менюдан коопсуз чыксаңыз болот."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Aglare Skin\n"
+#~ " for {0} v.{1}\n"
+#~ "\n"
+#~ " тарабынан Lululla @2020\n"
+#~ "\n"
+#~ "Колдоо форумун linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner жаратуучусу: Odem2014 орнотуңуз"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "InfoBar SoftCSA колдоо:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Жаңыртуу файлы табылган жок /tmp.\n"
+#~ "Update токтотулду."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Эскертүү: Сиз демейки API ачкычтарын колдонуп жатасыз!\n"
+#~ "Плагин жөндөөлөрүндө өзүңүздүн API ачкычтарыңызды конфигурациялоону сунуштайбыз."

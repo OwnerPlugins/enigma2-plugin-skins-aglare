@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Αυτή η λειτουργία ελέγχει εάν το δέρμα έχει τα εξαρτήματά του (δεν είναι εγγυημένο)...\nΘέλετε πραγματικά να συνεχίσετε;"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Αυτή η λειτουργία θα αφαιρέσει όλα τα PNG από το φάκελο της συσκευής (Poster-Backdrop)...\nΘέλετε πραγματικά να συνεχίσετε;"
-
 msgid "%s key imported!"
 msgstr "Έγινε εισαγωγή του κλειδιού %s!"
 
@@ -40,11 +34,11 @@ msgstr "Ενεργοποιήστε ή απενεργοποιήστε το MOLOTO
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Ενεργοποιήστε ή απενεργοποιήστε το PROGRAMMETV ως πάροχο μεταδεδομένων."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Προσθέτω"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Η ενημέρωση του Aglare ολοκληρώθηκε!\nΘέλετε να επανεκκινήσετε το γραφικό περιβάλλον τώρα;"
 
 msgid "All png are removed from folder!"
 msgstr "Όλα τα png αφαιρούνται από το φάκελο!"
@@ -73,9 +67,6 @@ msgstr "σκηνικό"
 msgid "Backdrop download error: {}"
 msgstr "Σφάλμα λήψης φόντου: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Η λήψη του Backdrop θα ξεκινήσει σε 2 λεπτά.\nΜπορείτε να βγείτε με ασφάλεια από αυτό το μενού."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Μπλε"
 msgid "Brown"
 msgstr "Καστανός"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Πρωτόκολλο + Διακομιστής + Ώρα ECM"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Αναγνώστης + Πρωτόκολλο + Διακομιστ�
 
 msgid "Cancel"
 msgstr "Ματαίωση"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Περιγραφή καναλιού Χρώμα:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Posters"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Φάκελος εικόνων λήψης συσκευής επιλογής"
@@ -208,14 +199,14 @@ msgstr "Λήψη Aglare..."
 msgid "ECM Short Format:"
 msgstr "Σύντομη μορφή ECM:"
 
-msgid "Edit"
-msgstr "Εκδίδω"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Στυλ οθονών EMC:"
+
+msgid "Edit"
+msgstr "Εκδίδω"
 
 msgid "Enable Display Genre icons:"
 msgstr "Ενεργοποίηση εικονιδίων Είδος εμφάνισης:"
@@ -226,23 +217,20 @@ msgstr "Ενεργοποίηση Display InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Ενεργοποίηση αφίσας Display XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Ενεργοποίηση ή απενεργοποίηση ομαδοποιημένων οθονών E2iPlayer."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Ενεργοποιήστε ή απενεργοποιήστε την προσωρινή αποθήκευση κατά τη λήψη συμβάντων για να επιταχύνετε τις επαναλαμβανόμενες αναζητήσεις."
-
 msgid "Enable Parental Icons:"
 msgstr "Ενεργοποίηση γονικών εικονιδίων:"
 
 msgid "Enable Rating Star:"
 msgstr "Ενεργοποίηση Rating Star:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Ενεργοποίηση ή απενεργοποίηση ομαδοποιημένων οθονών E2iPlayer."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Ενεργοποιήστε ή απενεργοποιήστε την προσωρινή αποθήκευση κατά τη λήψη συμβάντων για να επιταχύνετε τις επαναλαμβανόμενες αναζητήσεις."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ενεργοποιήστε την εμφάνιση εκτεταμένων πληροφοριών συμβάντων, συμπεριλαμβανομένων των πλήρους καστ, του πληρώματος, των λεπτομερειών της πλοκής και άλλων μεταδεδομένων, στο γραφικό στοιχείο πληροφοριών."
-
-msgid "Error {0}: {1}"
-msgstr "Σφάλμα {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Σφάλμα κατά την επεξεργασία του αρχείου δέρματος: {}"
@@ -252,6 +240,9 @@ msgstr "Σφάλμα κατά τη λήψη αρχείων!"
 
 msgid "Error loading: {}"
 msgstr "Σφάλμα φόρτωσης: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Σφάλμα {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Σφάλμα: {}"
@@ -268,11 +259,11 @@ msgstr "EventView_NO_Posters"
 msgid "Exit"
 msgstr "Εξοδος"
 
-msgid "File {} not found or empty"
-msgstr "Το αρχείο {} δεν βρέθηκε ή κενό"
-
 msgid "File Commander - Addon"
 msgstr "File Commander - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Το αρχείο {} δεν βρέθηκε ή κενό"
 
 msgid "Green"
 msgstr "Πράσινος"
@@ -283,17 +274,11 @@ msgstr "Πράσινο2"
 msgid "Greta"
 msgstr "Γκρέτα"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "Το GUI χρειάζεται επανεκκίνηση για να εφαρμόσει ένα νέο δέρμα.\nΘέλετε να κάνετε επανεκκίνηση του GUI τώρα;"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Ομάδα συμβατότητας εικόνων:"
-
-msgid "imperial system"
-msgstr "αυτοκρατορικό σύστημα"
 
 msgid "Import key {0} from {1}?"
 msgstr "Εισαγωγή κλειδιού {0} από {1};"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Εγκατάσταση ενημερώσεων..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Το κλειδί {} φορτώθηκε με επιτυχία!"
-
 msgid "Key empty"
 msgstr "Κλειδί κενό"
+
+msgid "Key {} successfully loaded!"
+msgstr "Το κλειδί {} φορτώθηκε με επιτυχία!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "Ανοιχτό Γκρι"
 msgid "LimeGreen"
 msgstr "Ασβεστοπράσινο"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Η τοπική έκδοση ({}) είναι νεότερη από την έκδοση διακομιστή ({})."
 
@@ -367,14 +355,17 @@ msgstr "Κωδικός τοποθεσίας"
 msgid "Lucida"
 msgstr "Λουσίδα"
 
+msgid "MSN location search result"
+msgstr "Αποτέλεσμα αναζήτησης τοποθεσίας MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Πορφύρα βαφή"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "μετρικό σύστημα"
 
 msgid "Mint"
 msgstr "Μέντα"
@@ -382,20 +373,11 @@ msgstr "Μέντα"
 msgid "Mix1"
 msgstr "Ανακατεύουμε 1"
 
-msgid "MSN location search result"
-msgstr "Αποτέλεσμα αναζήτησης τοποθεσίας MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Δεν έχουν ενεργοποιηθεί ενεργοί πάροχοι"
 
 msgid "No description available for this option."
 msgstr "Δεν υπάρχει διαθέσιμη περιγραφή για αυτήν την επιλογή."
-
-msgid "Off"
-msgstr "Μακριά από"
 
 msgid "OFF"
 msgstr "ΜΑΚΡΙΑ ΑΠΟ"
@@ -412,6 +394,9 @@ msgstr "ΕΠΙ"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Μακριά από"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Νέα Ομάδα εικόνων)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Ομάδα OpenPLi)"
 msgid "Orange"
 msgstr "Πορτοκάλι"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Ροζ"
-
-msgid "play/show Files"
-msgstr "αναπαραγωγή/εμφάνιση Αρχείων"
 
 msgid "Please enter a valid city name."
 msgstr "Εισαγάγετε ένα έγκυρο όνομα πόλης."
@@ -435,9 +420,6 @@ msgstr "Εισαγάγετε έναν έγκυρο κωδικό τοποθεσί
 
 msgid "Poster download error: {}"
 msgstr "Σφάλμα λήψης αφίσας: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Η λήψη της αφίσας θα ξεκινήσει σε 2 λεπτά.\nΜπορείτε να βγείτε με ασφάλεια από αυτό το μενού."
 
 msgid "Purple"
 msgstr "Μωβ"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Φως διεπαφής χρήστη Segoe"
 
+msgid "Select EMC style."
+msgstr "Επιλέξτε στυλ EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Επιλέξτε λειτουργία εμφάνισης PosterX για τη γραμμή πληροφοριών. Οι διαθέσιμες επιλογές εξαρτώνται από το επιλεγμένο στυλ γραμμής πληροφοριών και τη λειτουργία ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Επιλέξτε λειτουργία εμφάνισης XtraEvent για τη γραμμή πληροφοριών. Οι διαθέσιμες επιλογές εξαρτώνται από το επιλεγμένο στυλ γραμμής πληροφοριών και τη λειτουργία ECM."
+
+msgid "Select Your Font:"
+msgstr "Επιλέξτε τη γραμματοσειρά σας:"
+
 msgid "Select channel list event description color."
 msgstr "Επιλέξτε χρώμα περιγραφής συμβάντος λίστας καναλιών."
 
@@ -496,17 +490,11 @@ msgstr "Επιλέξτε τη λίστα καναλιών επιλεγμένο �
 msgid "Select channel selection screen style."
 msgstr "Επιλέξτε στυλ οθόνης επιλογής καναλιού."
 
-msgid "Select EMC style."
-msgstr "Επιλέξτε στυλ EMC."
-
 msgid "Select event view screen style."
 msgstr "Επιλέξτε στυλ οθόνης προβολής συμβάντος."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Επιλέξτε διάταξη γραμμής πληροφοριών. Το Style5 απενεργοποιεί την ECM και επιτρέπει μόνο τις λειτουργίες OFF/CD αφίσας. Το Style6 απενεργοποιεί τα ECM, PosterX και Xtraevent."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Επιλέξτε λειτουργία εμφάνισης PosterX για τη γραμμή πληροφοριών. Οι διαθέσιμες επιλογές εξαρτώνται από το επιλεγμένο στυλ γραμμής πληροφοριών και τη λειτουργία ECM."
 
 msgid "Select second infobar layout."
 msgstr "Επιλέξτε δεύτερη διάταξη γραμμής πληροφοριών."
@@ -538,12 +526,6 @@ msgstr "Επιλέξτε εμφάνιση παρόχου καιρού για τ�
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Επιλέξτε ποια πεδία ECM θα εμφανίζονται όταν το δέρμα χρησιμοποιεί Short MYEMUPARA."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Επιλέξτε λειτουργία εμφάνισης XtraEvent για τη γραμμή πληροφοριών. Οι διαθέσιμες επιλογές εξαρτώνται από το επιλεγμένο στυλ γραμμής πληροφοριών και τη λειτουργία ECM."
-
-msgid "Select Your Font:"
-msgstr "Επιλέξτε τη γραμματοσειρά σας:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Ορίστε την ώρα μας - λεπτό για λήψη Backdrop"
 
@@ -556,9 +538,6 @@ msgstr "Ρυθμίσεις Διακομιστής Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Ρύθμιση Aglare Skin Info"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Ρύθμιση Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nΦόρουμ υποστήριξης στο linuxsat-support.com\n\nΔημιουργός Skinner: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Εμφάνιση εικονιδίων που αντιπροσωπεύουν το είδος κάθε εκδήλωσης (π.χ. δράση, κωμωδία, δράμα)"
 
@@ -568,11 +547,11 @@ msgstr "Εμφάνιση ή απόκρυψη πληροφοριών ECM στη �
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Εμφάνιση ή απόκρυψη του PosterX στη δεύτερη γραμμή πληροφοριών."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Εμφάνιση ή απόκρυψη του πλαισίου ημερομηνίας στη γραμμή πληροφοριών."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Εμφάνιση ή απόκρυψη του XtraEvent στη δεύτερη γραμμή πληροφοριών."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Εμφάνιση ή απόκρυψη του πλαισίου ημερομηνίας στη γραμμή πληροφοριών."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Εμφάνιση εικονιδίων γονικής καθοδήγησης σε συμβάντα για να υποδείξετε τη βαθμολογία περιεχομένου και την καταλληλότητα ηλικίας."
@@ -631,29 +610,26 @@ msgstr "Στυλ6"
 msgid "Support E2iplayer Skins:"
 msgstr "Υποστήριξη E2iplayer Skins:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Υποστήριξη InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Υποστήριξη SubsSupportPro Skins:"
 
 msgid "System"
 msgstr "Σύστημα"
 
-msgid "Teal"
-msgstr "Βάσκας"
-
 msgid "TEST"
 msgstr "ΔΟΚΙΜΗ"
+
+msgid "TMDB Only"
+msgstr "Μόνο TMDB"
+
+msgid "Teal"
+msgstr "Βάσκας"
 
 msgid "The file %s is empty."
 msgstr "Το αρχείο %s είναι κενό."
 
 msgid "The file %s was not found."
 msgstr "Το αρχείο %s δεν βρέθηκε."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Το αρχείο ενημέρωσης δεν βρέθηκε στο /tmp.\nΗ ενημέρωση ματαιώθηκε."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Αυτή η λειτουργία εκχωρεί το φάκελο διαδρομής συσκευής για λήψη εικόνας (Αφίσα-Φόντο)"
@@ -664,11 +640,11 @@ msgstr "Αυτή η λειτουργία επιτρέπει την εμφάνι�
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Αυτή η λειτουργία αφαιρεί όλα τα png από τη συσκευή φακέλου (Poster-Backdrop)"
 
-msgid "TMDB Only"
-msgstr "Μόνο TMDB"
-
 msgid "Tomato"
 msgstr "Ντομάτα"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Η ενημέρωση URL δεν έχει αρχικοποιηθεί – ανοίξτε πρώτα την προσθήκη μία φορά από το μενού Προσθήκες."
 
 msgid "Update check failed: {}"
 msgstr "Ο έλεγχος ενημέρωσης απέτυχε: {}"
@@ -676,17 +652,8 @@ msgstr "Ο έλεγχος ενημέρωσης απέτυχε: {}"
 msgid "Update package not found!"
 msgstr "Το πακέτο ενημέρωσης δεν βρέθηκε!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Η ενημέρωση URL δεν έχει αρχικοποιηθεί – ανοίξτε πρώτα την προσθήκη μία φορά από το μενού Προσθήκες."
-
-msgid "volume2"
-msgstr "τόμος 2"
-
 msgid "VolumeBar Style:"
 msgstr "Στυλ VolumeBar:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Προειδοποίηση: Χρησιμοποιείτε προεπιλεγμένα κλειδιά API!\nΣυνιστούμε ανεπιφύλακτα να διαμορφώσετε τα δικά σας κλειδιά API στις ρυθμίσεις της προσθήκης."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Επεξεργασία καταχώρισης"
@@ -706,3 +673,92 @@ msgstr "Έχετε ήδη την πιο πρόσφατη έκδοση ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Πρέπει να εισαγάγετε ένα έγκυρο όνομα πόλης για να μπορέσετε να αναζητήσετε τον κωδικό τοποθεσίας."
 
+msgid "imperial system"
+msgstr "αυτοκρατορικό σύστημα"
+
+msgid "metric system"
+msgstr "μετρικό σύστημα"
+
+msgid "play/show Files"
+msgstr "αναπαραγωγή/εμφάνιση Αρχείων"
+
+msgid "volume2"
+msgstr "τόμος 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Αυτή η λειτουργία ελέγχει εάν το δέρμα έχει τα εξαρτήματά του (δεν είναι εγγυημένο)...\n"
+#~ "Θέλετε πραγματικά να συνεχίσετε;"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Αυτή η λειτουργία θα αφαιρέσει όλα τα PNG από το φάκελο της συσκευής (Poster-Backdrop)...\n"
+#~ "Θέλετε πραγματικά να συνεχίσετε;"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Η ενημέρωση του Aglare ολοκληρώθηκε!\n"
+#~ "Θέλετε να επανεκκινήσετε το γραφικό περιβάλλον τώρα;"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Η λήψη του Backdrop θα ξεκινήσει σε 2 λεπτά.\n"
+#~ "Μπορείτε να βγείτε με ασφάλεια από αυτό το μενού."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "Το GUI χρειάζεται επανεκκίνηση για να εφαρμόσει ένα νέο δέρμα.\n"
+#~ "Θέλετε να κάνετε επανεκκίνηση του GUI τώρα;"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Η λήψη της αφίσας θα ξεκινήσει σε 2 λεπτά.\n"
+#~ "Μπορείτε να βγείτε με ασφάλεια από αυτό το μενού."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Ρύθμιση Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Φόρουμ υποστήριξης στο linuxsat-support.com\n"
+#~ "\n"
+#~ "Δημιουργός Skinner: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Υποστήριξη InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Το αρχείο ενημέρωσης δεν βρέθηκε στο /tmp.\n"
+#~ "Η ενημέρωση ματαιώθηκε."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Προειδοποίηση: Χρησιμοποιείτε προεπιλεγμένα κλειδιά API!\n"
+#~ "Συνιστούμε ανεπιφύλακτα να διαμορφώσετε τα δικά σας κλειδιά API στις ρυθμίσεις της προσθήκης."

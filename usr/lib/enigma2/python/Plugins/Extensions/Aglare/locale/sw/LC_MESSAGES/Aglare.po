@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"
-msgstr "[Checkskin] Operesheni hii hukagua ikiwa ngozi ina vijenzi vyake (haijahakikishiwa)...\nJe, kweli unataka kuendelea?"
-
-msgid "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"
-msgstr "[RemovePng] Operesheni hii itaondoa PNG zote kwenye folda ya kifaa (Bango-Nyuma)...\nJe, kweli unataka kuendelea?"
-
 msgid "%s key imported!"
 msgstr "Kitufe %s kimeingizwa!"
 
@@ -40,11 +34,11 @@ msgstr "Washa au zima MOLOTOV kama mtoaji wa metadata."
 msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Washa au uzime PROGRAMMETV kama mtoaji wa metadata."
 
+msgid "Activate/Deactivate {}"
+msgstr ""
+
 msgid "Add"
 msgstr "Ongeza"
-
-msgid "Aglare update was done!\nDo you want to restart the GUI now?"
-msgstr "Usasisho wa Aglare ulifanyika!\nJe, unataka kuwasha upya GUI sasa?"
 
 msgid "All png are removed from folder!"
 msgstr "Png zote zimeondolewa kwenye folda!"
@@ -73,9 +67,6 @@ msgstr "Mandhari"
 msgid "Backdrop download error: {}"
 msgstr "Hitilafu ya upakuaji wa mandhari: {}"
 
-msgid "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Upakuaji wa mandhari utaanza baada ya dakika 2.\nUnaweza kuondoka kwa menyu hii kwa usalama."
-
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
@@ -91,6 +82,9 @@ msgstr "Bluu"
 msgid "Brown"
 msgstr "Brown"
 
+msgid "CD"
+msgstr "CD"
+
 msgid "Caid + Protocol + Server + ECM Time"
 msgstr "Caid + Itifaki + Seva + ECM Saa"
 
@@ -99,9 +93,6 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 
 msgid "Cancel"
 msgstr "Ghairi"
-
-msgid "CD"
-msgstr "CD"
 
 msgid "Channel Description Color:"
 msgstr "Rangi ya Maelezo ya Kituo:"
@@ -151,14 +142,14 @@ msgstr "ChannelSelection_BackDrop_V_EX"
 msgid "ChannelSelection_BackDrop_V_PX"
 msgstr "ChannelSelection_BackDrop_V_PX"
 
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
 msgid "ChannelSelection_NO_Posters"
 msgstr "ChannelSelection_NO_Mabango"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
 msgstr "ChannelSelection_NO_Posters_NO_Picon"
+
+msgid "ChannelSelection_big_mini_tv"
+msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
 msgstr "Chagua folda ya picha ya upakuaji wa kifaa"
@@ -208,14 +199,14 @@ msgstr "Inapakua Aglare..."
 msgid "ECM Short Format:"
 msgstr "Muundo mfupi wa ECM:"
 
-msgid "Edit"
-msgstr "Hariri"
-
 msgid "EMC PX"
 msgstr "EMC PX"
 
 msgid "EMC screens Style:"
 msgstr "Mtindo wa skrini za EMC:"
+
+msgid "Edit"
+msgstr "Hariri"
 
 msgid "Enable Display Genre icons:"
 msgstr "Washa aikoni za Aina ya Maonyesho:"
@@ -226,23 +217,20 @@ msgstr "Washa Display InfoEvents:"
 msgid "Enable Display XMC Poster:"
 msgstr "Washa Bango la Onyesho la XMC:"
 
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Washa au uzime skrini za E2iPlayer zilizounganishwa."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Washa au lemaza uhifadhi wakati wa upakuaji wa tukio ili kuharakisha utafutaji unaorudiwa."
-
 msgid "Enable Parental Icons:"
 msgstr "Washa Aikoni za Wazazi:"
 
 msgid "Enable Rating Star:"
 msgstr "Washa Nyota ya Ukadiriaji:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr "Washa au uzime skrini za E2iPlayer zilizounganishwa."
+
+msgid "Enable or disable caching during event download to speed up repeated searches."
+msgstr "Washa au lemaza uhifadhi wakati wa upakuaji wa tukio ili kuharakisha utafutaji unaorudiwa."
+
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Washa onyesho la maelezo marefu ya tukio, ikijumuisha waigizaji kamili, wafanyakazi, maelezo ya njama na metadata nyingine, katika wijeti ya maelezo."
-
-msgid "Error {0}: {1}"
-msgstr "Hitilafu {0}: {1}"
 
 msgid "Error by processing the skin file: {}"
 msgstr "Hitilafu katika kuchakata faili ya ngozi: {}"
@@ -252,6 +240,9 @@ msgstr "Hitilafu katika kupakua faili!"
 
 msgid "Error loading: {}"
 msgstr "Hitilafu katika upakiaji: {}"
+
+msgid "Error {0}: {1}"
+msgstr "Hitilafu {0}: {1}"
 
 msgid "Error: {}"
 msgstr "Hitilafu: {}"
@@ -268,11 +259,11 @@ msgstr "Mabango ya EventView_NO_"
 msgid "Exit"
 msgstr "Utgång"
 
-msgid "File {} not found or empty"
-msgstr "Faili {} haijapatikana au haina chochote"
-
 msgid "File Commander - Addon"
 msgstr "Kamanda wa faili - Addon"
+
+msgid "File {} not found or empty"
+msgstr "Faili {} haijapatikana au haina chochote"
 
 msgid "Green"
 msgstr "Kijani"
@@ -283,17 +274,11 @@ msgstr "Kijani2"
 msgid "Greta"
 msgstr "Greta"
 
-msgid "GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?"
-msgstr "GUI inahitaji kuanzishwa upya ili kutumia ngozi mpya.\nJe, ungependa Kuanzisha Upya GUI sasa?"
-
 msgid "HandelGotD"
 msgstr "HandelGotD"
 
 msgid "Image Compatibility Group:"
 msgstr "Kikundi cha Upatanifu wa Picha:"
-
-msgid "imperial system"
-msgstr "mfumo wa kifalme"
 
 msgid "Import key {0} from {1}?"
 msgstr "Ufunguo wa kuleta {0} kutoka {1}?"
@@ -340,11 +325,11 @@ msgstr "Ins Line"
 msgid "Installing updates..."
 msgstr "Inasakinisha masasisho..."
 
-msgid "Key {} successfully loaded!"
-msgstr "Ufunguo {} umepakiwa!"
-
 msgid "Key empty"
 msgstr "Kitufe tupu"
+
+msgid "Key {} successfully loaded!"
+msgstr "Ufunguo {} umepakiwa!"
 
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
@@ -358,6 +343,9 @@ msgstr "LightGray"
 msgid "LimeGreen"
 msgstr "LimeGreen"
 
+msgid "Load from /tmp/{}key.txt"
+msgstr ""
+
 msgid "Local build ({}) is newer than server build ({})."
 msgstr "Ubunifu wa ndani ({}) ni mpya zaidi kuliko uundaji wa seva ({})."
 
@@ -367,14 +355,17 @@ msgstr "Msimbo wa eneo"
 msgid "Lucida"
 msgstr "Lucida"
 
+msgid "MSN location search result"
+msgstr "Matokeo ya utafutaji wa eneo la MSN"
+
+msgid "MV Boli"
+msgstr "MV Boli"
+
 msgid "Magenta"
 msgstr "Magenta"
 
 msgid "Megabit/s (Mb/s)"
 msgstr "Megabit/s (Mb/s)"
-
-msgid "metric system"
-msgstr "mfumo wa metric"
 
 msgid "Mint"
 msgstr "Mint"
@@ -382,20 +373,11 @@ msgstr "Mint"
 msgid "Mix1"
 msgstr "Mchanganyiko 1"
 
-msgid "MSN location search result"
-msgstr "Matokeo ya utafutaji wa eneo la MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
 msgid "No active providers enabled"
 msgstr "Hakuna watoa huduma amilifu waliowezeshwa"
 
 msgid "No description available for this option."
 msgstr "Hakuna maelezo yanayopatikana kwa chaguo hili."
-
-msgid "Off"
-msgstr "Imezimwa"
 
 msgid "OFF"
 msgstr "ZIMWA"
@@ -412,6 +394,9 @@ msgstr "WASHA"
 msgid "ON/OFF SubsSupportPro Skins."
 msgstr "ON/OFF SubsSupportPro Skins."
 
+msgid "Off"
+msgstr "Imezimwa"
+
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
 msgstr "OpenBH / OpenViX / TeamBlue (Kikundi kipya cha Picha)"
 
@@ -421,11 +406,11 @@ msgstr "OpenPLi / Satlodge (Kikundi cha OpenPLi)"
 msgid "Orange"
 msgstr "Chungwa"
 
+msgid "Personal API key for {}"
+msgstr ""
+
 msgid "Pink"
 msgstr "Pink"
-
-msgid "play/show Files"
-msgstr "cheza/onyesha Faili"
 
 msgid "Please enter a valid city name."
 msgstr "Tafadhali weka jina halali la jiji."
@@ -435,9 +420,6 @@ msgstr "Tafadhali weka msimbo halali wa eneo wa jiji."
 
 msgid "Poster download error: {}"
 msgstr "Hitilafu ya kupakua bango: {}"
-
-msgid "Poster download will start in 2 minutes.\nYou can safely exit this menu."
-msgstr "Upakuaji wa bango utaanza baada ya dakika 2.\nUnaweza kutoka kwa menyu hii kwa usalama."
 
 msgid "Purple"
 msgstr "Zambarau"
@@ -484,6 +466,18 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI mwanga"
 
+msgid "Select EMC style."
+msgstr "Chagua mtindo wa EMC."
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Chagua hali ya onyesho la PosterX kwa upau wa habari. Chaguo zinazopatikana hutegemea mtindo uliochaguliwa wa upau wa habari na hali ya ECM."
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr "Chagua hali ya onyesho la XtraEvent kwa upau wa habari. Chaguo zinazopatikana hutegemea mtindo uliochaguliwa wa upau wa habari na hali ya ECM."
+
+msgid "Select Your Font:"
+msgstr "Chagua Fonti Yako:"
+
 msgid "Select channel list event description color."
 msgstr "Chagua rangi ya maelezo ya tukio la orodha ya kituo."
 
@@ -496,17 +490,11 @@ msgstr "Chagua rangi ya mandhari-mbele iliyochaguliwa iliyochaguliwa."
 msgid "Select channel selection screen style."
 msgstr "Chagua mtindo wa skrini ya kuchagua kituo."
 
-msgid "Select EMC style."
-msgstr "Chagua mtindo wa EMC."
-
 msgid "Select event view screen style."
 msgstr "Chagua mtindo wa skrini ya kutazama tukio."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
 msgstr "Chagua mpangilio wa upau wa habari. Style5 inalazimisha ECM kuzima na inaruhusu hali za bango za OFF/CD pekee. Style6 inalazimisha ECM, PosterX, na Xtraevent kuzimwa."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Chagua hali ya onyesho la PosterX kwa upau wa habari. Chaguo zinazopatikana hutegemea mtindo uliochaguliwa wa upau wa habari na hali ya ECM."
 
 msgid "Select second infobar layout."
 msgstr "Chagua mpangilio wa pili wa upau wa habari."
@@ -538,12 +526,6 @@ msgstr "Chagua onyesho la mtoaji wa hali ya hewa kwa upau wa habari wa pili."
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
 msgstr "Chagua ni sehemu zipi za ECM zitaonyeshwa ngozi inapotumia MYEMUPARA Fupi."
 
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Chagua hali ya onyesho la XtraEvent kwa upau wa habari. Chaguo zinazopatikana hutegemea mtindo uliochaguliwa wa upau wa habari na hali ya ECM."
-
-msgid "Select Your Font:"
-msgstr "Chagua Fonti Yako:"
-
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Weka Muda - dakika yetu kwa upakuaji wa Mandhari"
 
@@ -556,9 +538,6 @@ msgstr "Mipangilio Seva ya Apikey"
 msgid "Setup Aglare Skin Info"
 msgstr "Sanidi Maelezo ya Ngozi ya Aglare"
 
-msgid "Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014"
-msgstr "Sanidi Aglare Skin\nkwa {0} v.{1}\n\nna Lululla @2020\n\nJukwaa la Usaidizi kwenye linuxsat-support.com\n\nSkinner creator: Odem2014"
-
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Onyesha aikoni zinazowakilisha aina ya kila tukio (k.m., hatua, vichekesho, drama)"
 
@@ -568,11 +547,11 @@ msgstr "Onyesha au ufiche maelezo ya ECM kwenye upau wa taarifa."
 msgid "Show or hide PosterX in the second infobar."
 msgstr "Onyesha au ufiche PosterX kwenye upau wa habari wa pili."
 
-msgid "Show or hide the date panel in the infobar."
-msgstr "Onyesha au ufiche kidirisha cha tarehe kwenye upau wa maelezo."
-
 msgid "Show or hide XtraEvent in the second infobar."
 msgstr "Onyesha au ufiche XtraEvent kwenye upau wa habari wa pili."
+
+msgid "Show or hide the date panel in the infobar."
+msgstr "Onyesha au ufiche kidirisha cha tarehe kwenye upau wa maelezo."
 
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Onyesha aikoni za mwongozo wa wazazi kwenye matukio ili kuonyesha daraja la maudhui na ufaafu wa umri."
@@ -631,29 +610,26 @@ msgstr "Mtindo6"
 msgid "Support E2iplayer Skins:"
 msgstr "Msaada wa Ngozi za E2iplayer:"
 
-msgid "Support InfoBar SoftCSA:"
-msgstr "Msaada wa InfoBar SoftCSA:"
-
 msgid "Support SubsSupportPro Skins:"
 msgstr "Saidia SubsSupportPro Ngozi:"
 
 msgid "System"
 msgstr "Mfumo"
 
-msgid "Teal"
-msgstr "Teal"
-
 msgid "TEST"
 msgstr "JARIBU"
+
+msgid "TMDB Only"
+msgstr "TMDB Pekee"
+
+msgid "Teal"
+msgstr "Teal"
 
 msgid "The file %s is empty."
 msgstr "Faili %s ni tupu."
 
 msgid "The file %s was not found."
 msgstr "Faili %s haikupatikana."
-
-msgid "The update file was not found in /tmp.\nUpdate aborted."
-msgstr "Faili ya kusasisha haikupatikana katika /tmp.\nUpdate imeghairiwa."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
 msgstr "Operesheni hii itakabidhi folda ya njia ya kifaa ili kupakua picha (Bango-Nyuma)"
@@ -664,11 +640,11 @@ msgstr "Uendeshaji huu huwezesha uonyeshaji wa nyota za ukadiriaji kwa matukio, 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
 msgstr "Operesheni hii ondoa png zote kutoka kwa kifaa cha folda (Bango-Nyuma)"
 
-msgid "TMDB Only"
-msgstr "TMDB Pekee"
-
 msgid "Tomato"
 msgstr "Nyanya"
+
+msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
+msgstr "Sasisha URL haijaanzishwa - fungua programu-jalizi mara moja kutoka kwa menyu ya programu-jalizi kwanza."
 
 msgid "Update check failed: {}"
 msgstr "Ukaguzi wa kusasisha haukufaulu: {}"
@@ -676,17 +652,8 @@ msgstr "Ukaguzi wa kusasisha haukufaulu: {}"
 msgid "Update package not found!"
 msgstr "Kifurushi cha kusasisha hakijapatikana!"
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Sasisha URL haijaanzishwa - fungua programu-jalizi mara moja kutoka kwa menyu ya programu-jalizi kwanza."
-
-msgid "volume2"
-msgstr "juzuu ya 2"
-
 msgid "VolumeBar Style:"
 msgstr "Mtindo wa VolumeBar:"
-
-msgid "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."
-msgstr "Onyo: Unatumia vitufe chaguo-msingi vya API!\nTunapendekeza sana kusanidi funguo zako za API katika mipangilio ya programu-jalizi."
 
 msgid "WeatherPlugin: Edit Entry"
 msgstr "WeatherPlugin: Badilisha Ingizo"
@@ -706,3 +673,92 @@ msgstr "Tayari una toleo jipya zaidi ({})."
 msgid "You need to enter a valid city name before you can search for the location code."
 msgstr "Unahitaji kuingiza jina halali la jiji kabla ya kutafuta msimbo wa eneo."
 
+msgid "imperial system"
+msgstr "mfumo wa kifalme"
+
+msgid "metric system"
+msgstr "mfumo wa metric"
+
+msgid "play/show Files"
+msgstr "cheza/onyesha Faili"
+
+msgid "volume2"
+msgstr "juzuu ya 2"
+
+#~ msgid ""
+#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[Checkskin] Operesheni hii hukagua ikiwa ngozi ina vijenzi vyake (haijahakikishiwa)...\n"
+#~ "Je, kweli unataka kuendelea?"
+
+#~ msgid ""
+#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
+#~ "Do you really want to continue?"
+#~ msgstr ""
+#~ "[RemovePng] Operesheni hii itaondoa PNG zote kwenye folda ya kifaa (Bango-Nyuma)...\n"
+#~ "Je, kweli unataka kuendelea?"
+
+#~ msgid ""
+#~ "Aglare update was done!\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Usasisho wa Aglare ulifanyika!\n"
+#~ "Je, unataka kuwasha upya GUI sasa?"
+
+#~ msgid ""
+#~ "Backdrop download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Upakuaji wa mandhari utaanza baada ya dakika 2.\n"
+#~ "Unaweza kuondoka kwa menyu hii kwa usalama."
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin.\n"
+#~ "Do you want to Restart the GUI now?"
+#~ msgstr ""
+#~ "GUI inahitaji kuanzishwa upya ili kutumia ngozi mpya.\n"
+#~ "Je, ungependa Kuanzisha Upya GUI sasa?"
+
+#~ msgid ""
+#~ "Poster download will start in 2 minutes.\n"
+#~ "You can safely exit this menu."
+#~ msgstr ""
+#~ "Upakuaji wa bango utaanza baada ya dakika 2.\n"
+#~ "Unaweza kutoka kwa menyu hii kwa usalama."
+
+#~ msgid ""
+#~ "Setup Aglare Skin\n"
+#~ "for {0} v.{1}\n"
+#~ "\n"
+#~ "by Lululla @2020\n"
+#~ "\n"
+#~ "Support forum on linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+#~ msgstr ""
+#~ "Sanidi Aglare Skin\n"
+#~ "kwa {0} v.{1}\n"
+#~ "\n"
+#~ "na Lululla @2020\n"
+#~ "\n"
+#~ "Jukwaa la Usaidizi kwenye linuxsat-support.com\n"
+#~ "\n"
+#~ "Skinner creator: Odem2014"
+
+#~ msgid "Support InfoBar SoftCSA:"
+#~ msgstr "Msaada wa InfoBar SoftCSA:"
+
+#~ msgid ""
+#~ "The update file was not found in /tmp.\n"
+#~ "Update aborted."
+#~ msgstr ""
+#~ "Faili ya kusasisha haikupatikana katika /tmp.\n"
+#~ "Update imeghairiwa."
+
+#~ msgid ""
+#~ "Warning: You are using default API keys!\n"
+#~ "We strongly recommend configuring your own API keys in the plugin settings."
+#~ msgstr ""
+#~ "Onyo: Unatumia vitufe chaguo-msingi vya API!\n"
+#~ "Tunapendekeza sana kusanidi funguo zako za API katika mipangilio ya programu-jalizi."
