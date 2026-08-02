@@ -119,7 +119,8 @@ class AglareNextEpgInfo2(Renderer, VariableText):
         return Renderer.applySkin(self, desktop, parent)
 
     def hex2strColor(self, rgb):
-        # FIXED: Generates strict 8-character valid hex digits (e.g., '00ffff00')
+        # FIXED: Generates strict 8-character valid hex digits (e.g.,
+        # '00ffff00')
         return '%08x' % rgb
 
     def formatColorString(self, color):

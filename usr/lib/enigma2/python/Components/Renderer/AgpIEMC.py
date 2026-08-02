@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__created_by__ = "MNASR"       ##
+## __author__ = "Lululla"         ##
+## __copyright__ = "AGP Team"     ##
+## __created_by__ = "MNASR"       ##
 ###################################
 from __future__ import absolute_import, print_function
 from json import load as json_load, dump as json_dump
@@ -33,6 +33,7 @@ try:
     lng = config.osd.language.value[:-3]
 except BaseException:
     lng = 'en'
+
 
 class AgpIEMC(Renderer, VariableText):
     GUI_WIDGET = eLabel
@@ -122,7 +123,9 @@ class AgpIEMC(Renderer, VariableText):
             self._clear_display()
             self.start_data_fetch(movie_path)
         except Exception as e:
-            logger.error("AgpIEMC changed error: {}".format(str(e)), exc_info=True)
+            logger.error(
+                "AgpIEMC changed error: {}".format(
+                    str(e)), exc_info=True)
             self._clear_display()
 
     def _clear_display(self):
@@ -140,7 +143,9 @@ class AgpIEMC(Renderer, VariableText):
         if self.current_request_key == request_key and self.current_request and self.current_request.is_alive():
             return
         self.current_request_key = request_key
-        self.current_request = Thread(target=self.fetch_event_data, args=(movie_path, request_key))
+        self.current_request = Thread(
+            target=self.fetch_event_data, args=(
+                movie_path, request_key))
         self.current_request.daemon = True
         self.current_request.start()
 
@@ -170,7 +175,9 @@ class AgpIEMC(Renderer, VariableText):
                 else:
                     self._clear_display()
             except Exception as e:
-                logger.error("AgpIEMC Data fetch error: {}".format(str(e)), exc_info=True)
+                logger.error(
+                    "AgpIEMC Data fetch error: {}".format(
+                        str(e)), exc_info=True)
                 self._clear_display()
 
     def fetch_tmdb_data(self, title, year, movie_path):
@@ -179,15 +186,18 @@ class AgpIEMC(Renderer, VariableText):
             if not api_key:
                 return None
             search_kind = "tv" if is_emc_episode(movie_path) else "multi"
-            search_url = "https://api.themoviedb.org/3/search/{}?api_key={}&language={}&query={}".format(search_kind, api_key, lng, quoteEventName(title))
+            search_url = "https://api.themoviedb.org/3/search/{}?api_key={}&language={}&query={}".format(
+                search_kind, api_key, lng, quoteEventName(title))
             if year and search_kind != "tv":
                 search_url += "&year={}".format(year)
             with urlopen(search_url) as response:
                 search_data = json_load(response)
             if not search_data.get("results"):
                 return None
-            result = self.select_best_result(search_data["results"], title, year)
-            content_type = result.get("media_type") or ("tv" if search_kind == "tv" else "movie")
+            result = self.select_best_result(
+                search_data["results"], title, year)
+            content_type = result.get("media_type") or (
+                "tv" if search_kind == "tv" else "movie")
             if content_type not in ("movie", "tv"):
                 content_type = "movie"
             content_id = result["id"]
@@ -196,7 +206,8 @@ class AgpIEMC(Renderer, VariableText):
                 append_parts.append("release_dates")
             else:
                 append_parts.append("content_ratings")
-            details_url = "https://api.themoviedb.org/3/{}/{}?api_key={}&language={}&append_to_response={}".format(content_type, content_id, api_key, lng, ",".join(append_parts))
+            details_url = "https://api.themoviedb.org/3/{}/{}?api_key={}&language={}&append_to_response={}".format(
+                content_type, content_id, api_key, lng, ",".join(append_parts))
             with urlopen(details_url) as response:
                 return json_load(response)
         except Exception as e:
@@ -208,7 +219,8 @@ class AgpIEMC(Renderer, VariableText):
             api_key = api_key_manager.get_api_key('omdb')
             if not api_key:
                 return None
-            url = "http://www.omdbapi.com/?apikey={}&t={}&plot=full".format(api_key, quoteEventName(title))
+            url = "http://www.omdbapi.com/?apikey={}&t={}&plot=full".format(
+                api_key, quoteEventName(title))
             if year:
                 url += "&y={}".format(year)
             with urlopen(url) as response:
@@ -224,9 +236,12 @@ class AgpIEMC(Renderer, VariableText):
             media_type = result.get('media_type', '')
             if media_type and media_type not in ('movie', 'tv'):
                 continue
-            name = (result.get('title') or result.get('name') or "").strip().lower()
-            original_name = (result.get('original_title') or result.get('original_name') or "").strip().lower()
-            result_year = (result.get('release_date') or result.get('first_air_date') or "")[:4]
+            name = (result.get('title') or result.get(
+                'name') or "").strip().lower()
+            original_name = (result.get('original_title') or result.get(
+                'original_name') or "").strip().lower()
+            result_year = (result.get('release_date')
+                           or result.get('first_air_date') or "")[:4]
             score = 0
             if name == target:
                 score += 500
@@ -253,19 +268,30 @@ class AgpIEMC(Renderer, VariableText):
 
     def process_data(self, data):
         try:
-            title = (data.get('title') or data.get('name') or data.get('Title') or "").strip()
+            title = (data.get('title') or data.get('name')
+                     or data.get('Title') or "").strip()
             year = ""
-            value = data.get('release_date') or data.get('first_air_date') or data.get('Year') or ""
+            value = data.get('release_date') or data.get(
+                'first_air_date') or data.get('Year') or ""
             if value:
                 year = str(value).split('-')[0].strip()
             runtime = data.get('runtime') or data.get('Runtime') or ""
-            runtime_text = "%s min" % runtime if isinstance(runtime, int) and runtime > 0 else str(runtime).strip()
+            runtime_text = "%s min" % runtime if isinstance(
+                runtime, int) and runtime > 0 else str(runtime).strip()
             genres = ""
             if data.get('genres'):
-                names = [x.get("name", "").strip() for x in data.get('genres', []) if x.get("name", "").strip()]
+                names = [
+                    x.get(
+                        "name",
+                        "").strip() for x in data.get(
+                        'genres',
+                        []) if x.get(
+                        "name",
+                        "").strip()]
                 genres = " • ".join(names[:3])
             elif data.get('Genre'):
-                genres = " • ".join([x.strip() for x in str(data.get('Genre')).split(',') if x.strip()][:3])
+                genres = " • ".join([x.strip() for x in str(
+                    data.get('Genre')).split(',') if x.strip()][:3])
             rating = ""
             tmdb_rating = data.get('vote_average')
             imdb_rating = data.get('imdbRating')

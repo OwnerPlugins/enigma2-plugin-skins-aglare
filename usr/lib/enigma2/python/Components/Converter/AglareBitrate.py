@@ -50,7 +50,7 @@ def _log(msg, append=True):
                 f.seek(0)
                 f.writelines(lines[10:])
                 f.truncate()
-    except:
+    except BaseException:
         pass
 
 
@@ -85,7 +85,7 @@ class AglareBitrate(Converter, object):
             return ""
         try:
             unit = config.plugins.Aglare.bitrate_unit.value
-        except:
+        except BaseException:
             unit = "kb"
         if unit == "mb":
             return f"{prefix}: {value / 1000.0:.2f} Mb/s"
@@ -120,7 +120,9 @@ class AglareBitrate(Converter, object):
         even when the infobar is hidden.
         """
         if DBG:
-            _log(f"[AglareBitrate] suspend={suspended}, current={self.is_suspended}")
+            _log(
+                f"[AglareBitrate] suspend={suspended}, current={
+                    self.is_suspended}")
         self.is_suspended = suspended
         # Do NOT kill the process, do NOT clear values
         # The bitrate process continues running in background
@@ -187,7 +189,9 @@ class AglareBitrate(Converter, object):
 
     def on_app_closed(self, retval):
         if DBG:
-            _log(f"[AglareBitrate] app closed, retval={retval}, suspended={self.is_suspended}")
+            _log(
+                f"[AglareBitrate] app closed, retval={retval}, suspended={
+                    self.is_suspended}")
         self.is_running = False
         # If process ended and we're not suspended, restart it
         if not self.is_suspended:
@@ -197,7 +201,8 @@ class AglareBitrate(Converter, object):
     def on_data_available(self, data):
         if DBG:
             _log(f"[AglareBitrate] data: {data}")
-        text = self.remaining_data + (str(data) if six.PY2 else str(data, 'utf-8', 'ignore'))
+        text = self.remaining_data + \
+            (str(data) if six.PY2 else str(data, 'utf-8', 'ignore'))
         lines = text.split('\n')
         self.remaining_data = lines[-1] if lines[-1] else ''
         lines = lines[:-1] if lines[-1] else lines
@@ -206,12 +211,13 @@ class AglareBitrate(Converter, object):
             try:
                 v = self.data_lines[0].split()
                 if len(v) >= 4:
-                    self.vmin, self.vmax, self.vavg, self.vcur = map(int, v[:4])
+                    self.vmin, self.vmax, self.vavg, self.vcur = map(
+                        int, v[:4])
                 a = self.data_lines[1].split()
                 if len(a) >= 4:
-                    self.amin, self.amax, self.aavg, self.acur = map(int, a[:4])
-            except:
+                    self.amin, self.amax, self.aavg, self.acur = map(
+                        int, a[:4])
+            except BaseException:
                 pass
             self.data_lines = []
             Converter.changed(self, (self.CHANGED_POLL,))
-

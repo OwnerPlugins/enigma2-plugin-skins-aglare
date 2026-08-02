@@ -31,7 +31,14 @@ def detect_image_group():
             with open('/etc/issue', 'r') as f:
                 issue = f.read().lower()
                 # Add keywords for the "new images group"
-                if any(img in issue for img in ['openbh', 'openvix', 'teamblue', 'openatv', 'egami', 'pure2']):
+                if any(
+                    img in issue for img in [
+                        'openbh',
+                        'openvix',
+                        'teamblue',
+                        'openatv',
+                        'egami',
+                        'pure2']):
                     group = 'new_images'
     except Exception:
         pass
@@ -46,7 +53,16 @@ cur_skin = config.skin.primary_skin.value.replace("/skin.xml", "").strip()
 
 def calcTime(hours, minutes):
     now_time = localtime()
-    ret_time = mktime((now_time.tm_year, now_time.tm_mon, now_time.tm_mday, hours, minutes, 0, now_time.tm_wday, now_time.tm_yday, now_time.tm_isdst))
+    ret_time = mktime(
+        (now_time.tm_year,
+         now_time.tm_mon,
+         now_time.tm_mday,
+         hours,
+         minutes,
+         0,
+         now_time.tm_wday,
+         now_time.tm_yday,
+         now_time.tm_isdst))
     return ret_time
 
 
@@ -90,7 +106,8 @@ class ApiKeyManager:
     def init_paths(self):
         """Initialize skin file paths"""
         for api, cfg in self.API_CONFIG.items():
-            setattr(self, f"{api}_skin", f"{mvi}enigma2/{cur_skin}/{cfg['skin_file']}")
+            setattr(self, f"{api}_skin",
+                    f"{mvi}enigma2/{cur_skin}/{cfg['skin_file']}")
 
     def _coerce_enabled(self, entry):
         """Return a safe bool from ConfigElement-like entries or raw booleans.
@@ -109,7 +126,8 @@ class ApiKeyManager:
 
         # Providers that require API keys
         for api, cfg in self.API_CONFIG.items():
-            enabled = self._coerce_enabled(getattr(config.plugins.Aglare, api, False))
+            enabled = self._coerce_enabled(
+                getattr(config.plugins.Aglare, api, False))
             api_value = cfg['config_entry'].value
             key_valid = bool(api_value)
 
@@ -117,8 +135,17 @@ class ApiKeyManager:
                 active[api] = True
 
         # Providers that do not require API keys
-        for provider in ("elcinema", "google", "imdb", "programmetv", "molotov"):
-            if self._coerce_enabled(getattr(config.plugins.Aglare, provider, False)):
+        for provider in (
+            "elcinema",
+            "google",
+            "imdb",
+            "programmetv",
+                "molotov"):
+            if self._coerce_enabled(
+                getattr(
+                    config.plugins.Aglare,
+                    provider,
+                    False)):
                 active[provider] = True
         return active
 
@@ -168,7 +195,8 @@ class ApiKeyManager:
                 if key_value:
                     cfg['config_entry'].value = key_value
                     cfg['config_entry'].save()
-                    return True, _("Key {} successfully loaded!").format(api.upper())
+                    return True, _("Key {} successfully loaded!").format(
+                        api.upper())
             return False, _("File {} not found or empty").format(tmp_file)
 
         except Exception as e:
@@ -192,24 +220,35 @@ config.plugins.Aglare.xpath = ConfigSelection(
 )
 
 config.plugins.Aglare.download_now_poster = NoSave(ConfigYesNo(default=False))
-config.plugins.Aglare.download_now_backdrop = NoSave(ConfigYesNo(default=False))
+config.plugins.Aglare.download_now_backdrop = NoSave(
+    ConfigYesNo(default=False))
 
 config.plugins.Aglare.actapi = ConfigOnOff(default=True)
 config.plugins.Aglare.tmdb = ConfigOnOff(default=True)
 config.plugins.Aglare.load_tmdb_api = ConfigYesNo(default=False)
-config.plugins.Aglare.tmdb_api = ConfigText(default="3c3efcf47c3577558812bb9d64019d65", visible_width=50, fixed_size=False)
+config.plugins.Aglare.tmdb_api = ConfigText(
+    default="3c3efcf47c3577558812bb9d64019d65",
+    visible_width=50,
+    fixed_size=False)
 
 config.plugins.Aglare.fanart = ConfigOnOff(default=False)
 config.plugins.Aglare.load_fanart_api = ConfigYesNo(default=False)
-config.plugins.Aglare.fanart_api = ConfigText(default="6d231536dea4318a88cb2520ce89473b", visible_width=50, fixed_size=False)
+config.plugins.Aglare.fanart_api = ConfigText(
+    default="6d231536dea4318a88cb2520ce89473b",
+    visible_width=50,
+    fixed_size=False)
 
 config.plugins.Aglare.thetvdb = ConfigOnOff(default=False)
 config.plugins.Aglare.load_thetvdb_api = ConfigYesNo(default=False)
-config.plugins.Aglare.thetvdb_api = ConfigText(default="a99d487bb3426e5f3a60dea6d3d3c7ef", visible_width=50, fixed_size=False)
+config.plugins.Aglare.thetvdb_api = ConfigText(
+    default="a99d487bb3426e5f3a60dea6d3d3c7ef",
+    visible_width=50,
+    fixed_size=False)
 
 config.plugins.Aglare.omdb = ConfigOnOff(default=False)
 config.plugins.Aglare.load_omdb_api = ConfigYesNo(default=False)
-config.plugins.Aglare.omdb_api = ConfigText(default="4ca6ea60", visible_width=50, fixed_size=False)
+config.plugins.Aglare.omdb_api = ConfigText(
+    default="4ca6ea60", visible_width=50, fixed_size=False)
 
 config.plugins.Aglare.elcinema = ConfigOnOff(default=True)
 config.plugins.Aglare.google = ConfigOnOff(default=True)
@@ -253,11 +292,14 @@ config.plugins.Aglare.xemc_poster = ConfigOnOff(default=False)
 # remove png
 config.plugins.Aglare.png = NoSave(ConfigYesNo(default=False))
 
-# SKIN STYLE MANAGEMENT =========================================================
-config.plugins.Aglare.ImageGroup = ConfigSelection(default=detect_image_group(), choices=[
-    ('openpli', _('OpenPLi / Satlodge (OpenPLi Group)')),
-    ('new_images', _('OpenBH / OpenViX / TeamBlue (New Images Group)'))
-])
+# SKIN STYLE MANAGEMENT ==================================================
+config.plugins.Aglare.ImageGroup = ConfigSelection(
+    default=detect_image_group(),
+    choices=[
+        ('openpli',
+         _('OpenPLi / Satlodge (OpenPLi Group)')),
+        ('new_images',
+         _('OpenBH / OpenViX / TeamBlue (New Images Group)'))])
 config.plugins.Aglare.colorSelector = ConfigSelection(default='color0', choices=[
     ('color0', _('Default')),
     ('color1', _('Black')),
@@ -291,53 +333,83 @@ config.plugins.Aglare.InfobarStyle = ConfigSelection(default='infobar_base1', ch
     ('infobar_base5', _('Style5 CD')),
     ('infobar_base6', _('Style6'))
 ])
-config.plugins.Aglare.InfobarECM = ConfigSelection(default='infobar_ecm_off', choices=[
-    ('infobar_ecm_off', _('OFF')),
-    ('infobar_ecm_on', _('ON'))
-])
-config.plugins.Aglare.InfobarPosterx = ConfigSelection(default='infobar_posters_posterx_off', choices=[
-    ('infobar_posters_posterx_off', _('OFF')),
-    ('infobar_posters_posterx_on', _('ON')),
-    ('infobar_posters_posterx_on_all', _('TEST')),
-    ('infobar_posters_posterx_cd', _('CD')),
-    ('infobar_posters_posterx_ecm', _('1 poster'))
-])
-config.plugins.Aglare.InfobarXtraevent = ConfigSelection(default='infobar_posters_xtraevent_off', choices=[
-    ('infobar_posters_xtraevent_off', _('OFF')),
-    ('infobar_posters_xtraevent_on', _('ON')),
-    ('infobar_posters_xtraevent_cd', _('CD')),
-    ('infobar_posters_xtraevent_info', _('Backdrop')),
-    ('infobar_posters_xtraevent_ecm', _('1 poster'))
-])
+config.plugins.Aglare.InfobarECM = ConfigSelection(
+    default='infobar_ecm_off', choices=[
+        ('infobar_ecm_off', _('OFF')), ('infobar_ecm_on', _('ON'))])
+config.plugins.Aglare.InfobarPosterx = ConfigSelection(
+    default='infobar_posters_posterx_off',
+    choices=[
+        ('infobar_posters_posterx_off',
+         _('OFF')),
+        ('infobar_posters_posterx_on',
+         _('ON')),
+        ('infobar_posters_posterx_on_all',
+         _('TEST')),
+        ('infobar_posters_posterx_cd',
+         _('CD')),
+        ('infobar_posters_posterx_ecm',
+         _('1 poster'))])
+config.plugins.Aglare.InfobarXtraevent = ConfigSelection(
+    default='infobar_posters_xtraevent_off',
+    choices=[
+        ('infobar_posters_xtraevent_off',
+         _('OFF')),
+        ('infobar_posters_xtraevent_on',
+         _('ON')),
+        ('infobar_posters_xtraevent_cd',
+         _('CD')),
+        ('infobar_posters_xtraevent_info',
+         _('Backdrop')),
+        ('infobar_posters_xtraevent_ecm',
+         _('1 poster'))])
 config.plugins.Aglare.InfobarDate = ConfigSelection(default='infobar_no_date', choices=[
     ('infobar_no_date', _('Infobar_NO_Date')),
     ('infobar_date', _('Infobar_Date'))
 ])
 
-config.plugins.Aglare.InfobarWeather = ConfigSelection(default='infobar_no_weather', choices=[
-    ('infobar_no_weather', _('Infobar_NO_Weather')),
-    ('infobar_MSNweather', _('Infobar_MSNWeather')),
-    ('infobar_OAweather', _('Infobar_OAWeather'))
-])
-config.plugins.Aglare.SecondInfobarStyle = ConfigSelection(default='secondinfobar_base1', choices=[
-    ('secondinfobar_base1', _('Default')),
-    ('secondinfobar_base2', _('Style2')),
-    ('secondinfobar_base3', _('Style3')),
-    ('secondinfobar_base4', _('Style4'))
-])
-config.plugins.Aglare.SecondInfobarWeather = ConfigSelection(default='secondinfobar_no_weather', choices=[
-    ('secondinfobar_no_weather', _('Second Infobar_NO_Weather')),
-    ('secondinfobar_MSNweather', _('Second Infobar_MSNWeather')),
-    ('secondinfobar_OAweather', _('Second Infobar_OAWeather'))
-])
-config.plugins.Aglare.SecondInfobarPosterx = ConfigSelection(default='secondinfobar_posters_posterx_off', choices=[
-    ('secondinfobar_posters_posterx_off', _('OFF')),
-    ('secondinfobar_posters_posterx_on', _('ON'))
-])
-config.plugins.Aglare.SecondInfobarXtraevent = ConfigSelection(default='secondinfobar_posters_xtraevent_off', choices=[
-    ('secondinfobar_posters_xtraevent_off', _('OFF')),
-    ('secondinfobar_posters_xtraevent_on', _('ON'))
-])
+config.plugins.Aglare.InfobarWeather = ConfigSelection(
+    default='infobar_no_weather',
+    choices=[
+        ('infobar_no_weather',
+         _('Infobar_NO_Weather')),
+        ('infobar_MSNweather',
+         _('Infobar_MSNWeather')),
+        ('infobar_OAweather',
+         _('Infobar_OAWeather'))])
+config.plugins.Aglare.SecondInfobarStyle = ConfigSelection(
+    default='secondinfobar_base1',
+    choices=[
+        ('secondinfobar_base1',
+         _('Default')),
+        ('secondinfobar_base2',
+         _('Style2')),
+        ('secondinfobar_base3',
+         _('Style3')),
+        ('secondinfobar_base4',
+         _('Style4'))])
+config.plugins.Aglare.SecondInfobarWeather = ConfigSelection(
+    default='secondinfobar_no_weather',
+    choices=[
+        ('secondinfobar_no_weather',
+         _('Second Infobar_NO_Weather')),
+        ('secondinfobar_MSNweather',
+         _('Second Infobar_MSNWeather')),
+        ('secondinfobar_OAweather',
+         _('Second Infobar_OAWeather'))])
+config.plugins.Aglare.SecondInfobarPosterx = ConfigSelection(
+    default='secondinfobar_posters_posterx_off',
+    choices=[
+        ('secondinfobar_posters_posterx_off',
+         _('OFF')),
+        ('secondinfobar_posters_posterx_on',
+         _('ON'))])
+config.plugins.Aglare.SecondInfobarXtraevent = ConfigSelection(
+    default='secondinfobar_posters_xtraevent_off',
+    choices=[
+        ('secondinfobar_posters_xtraevent_off',
+         _('OFF')),
+        ('secondinfobar_posters_xtraevent_on',
+         _('ON'))])
 config.plugins.Aglare.ChannSelector = ConfigSelection(default='channellist_no_posters', choices=[
     ('channellist_no_posters', _('ChannelSelection_NO_Posters')),
     ('channellist_no_posters_no_picon', _('ChannelSelection_NO_Posters_NO_Picon')),
@@ -354,10 +426,13 @@ config.plugins.Aglare.ChannSelector = ConfigSelection(default='channellist_no_po
     ('channellist_6_posters_EX', _('ChannelSelection_6_Posters_EX')),
     ('channellist_big_mini_tv', _('ChannelSelection_big_mini_tv'))
 ])
-config.plugins.Aglare.EventView = ConfigSelection(default='eventview_no_posters', choices=[
-    ('eventview_no_posters', _('EventView_NO_Posters')),
-    ('eventview_7_posters', _('EventView_7_Posters'))
-])
+config.plugins.Aglare.EventView = ConfigSelection(
+    default='eventview_no_posters',
+    choices=[
+        ('eventview_no_posters',
+         _('EventView_NO_Posters')),
+        ('eventview_7_posters',
+         _('EventView_7_Posters'))])
 config.plugins.Aglare.VolumeBar = ConfigSelection(default='volume1', choices=[
     ('volume1', _('Default')),
     ('volume2', _('volume2'))
@@ -370,14 +445,12 @@ config.plugins.Aglare.bitrate_unit = ConfigSelection(default='kb', choices=[
     ('kb', _('Kilobit/s (Kb/s)')),
     ('mb', _('Megabit/s (Mb/s)'))
 ])
-config.plugins.Aglare.Subssupportproskins = ConfigSelection(default='subssupportpro_skin_off', choices=[
-    ('subssupportpro_skin_off', _('OFF')),
-    ('subssupportpro_skin_on', _('ON'))
-])
-config.plugins.Aglare.E2iplayerskins = ConfigSelection(default='e2iplayer_skin_off', choices=[
-    ('e2iplayer_skin_off', _('OFF')),
-    ('e2iplayer_skin_on', _('ON'))
-])
+config.plugins.Aglare.Subssupportproskins = ConfigSelection(
+    default='subssupportpro_skin_off', choices=[
+        ('subssupportpro_skin_off', _('OFF')), ('subssupportpro_skin_on', _('ON'))])
+config.plugins.Aglare.E2iplayerskins = ConfigSelection(
+    default='e2iplayer_skin_off', choices=[
+        ('e2iplayer_skin_off', _('OFF')), ('e2iplayer_skin_on', _('ON'))])
 config.plugins.Aglare.ChannForegroundColor = ConfigSelection(default='white', choices=[
     ('white', _('White')),
     ('#77ca5b', _('Mint')),
