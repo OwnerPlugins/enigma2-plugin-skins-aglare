@@ -51,7 +51,7 @@ def agb_debug(my_text=None, append=True, debug_file=DEBUG_FILE):
         try:
             with open(debug_file, 'a') as f:
                 f.write(f'Exception: {e}\n')
-        except:
+        except BaseException:
             pass
 
 
@@ -73,10 +73,11 @@ def isImageType(img_name=''):
                         _image_type = 'openatv'
                         if '/5.3/' in content:
                             _image_type += '5.3'
-            except:
+            except BaseException:
                 pass
         if _image_type is None:
-            if path.exists('/usr/lib/enigma2/python/Plugins/SystemPlugins/VTIPanel/'):
+            if path.exists(
+                    '/usr/lib/enigma2/python/Plugins/SystemPlugins/VTIPanel/'):
                 _image_type = 'vti'
             elif path.exists('/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/'):
                 _image_type = 'openatv'
@@ -178,7 +179,9 @@ class AglareBitrate(Converter, object):
 
     def doSuspend(self, suspended):
         if DBG:
-            agb_debug(f"[AglareBitrate:suspended] self.is_suspended={self.is_suspended}, suspended={suspended}")
+            agb_debug(
+                f"[AglareBitrate:suspended] self.is_suspended={
+                    self.is_suspended}, suspended={suspended}")
         if not suspended:
             self.is_suspended = False
             self.start_timer.start(100, True)
@@ -210,7 +213,8 @@ class AglareBitrate(Converter, object):
             stream = self.source.service.stream()
             if stream:
                 if DBG:
-                    agb_debug("[AglareBitrate:run_bitrate] Collecting stream data...")
+                    agb_debug(
+                        "[AglareBitrate:run_bitrate] Collecting stream data...")
                 stream_data = stream.getStreamingData()
                 if stream_data:
                     demux = max(stream_data.get('demux', 0), 0)
@@ -263,7 +267,9 @@ class AglareBitrate(Converter, object):
 
     def app_closed(self, retval):
         if DBG:
-            agb_debug(f"[AglareBitrate:app_closed] retval={retval}, is_suspended={self.is_suspended}")
+            agb_debug(
+                f"[AglareBitrate:app_closed] retval={retval}, is_suspended={
+                    self.is_suspended}")
         self.is_running = False
         if self.is_suspended:
             self.clear_values()
@@ -274,7 +280,8 @@ class AglareBitrate(Converter, object):
         if DBG:
             agb_debug(f"[AglareBitrate:data_avail] data '{data}'")
 
-        data_str = self.remaining_data + (str(data) if six.PY2 else str(data, 'utf-8', 'ignore'))
+        data_str = self.remaining_data + \
+            (str(data) if six.PY2 else str(data, 'utf-8', 'ignore'))
         lines = data_str.split('\n')
 
         self.remaining_data = lines[-1] if lines[-1] else ''
@@ -284,8 +291,10 @@ class AglareBitrate(Converter, object):
 
         if len(self.data_lines) >= 2:
             try:
-                self.vmin, self.vmax, self.vavg, self.vcur = map(int, self.data_lines[0].split())
-                self.amin, self.amax, self.aavg, self.acur = map(int, self.data_lines[1].split())
+                self.vmin, self.vmax, self.vavg, self.vcur = map(
+                    int, self.data_lines[0].split())
+                self.amin, self.amax, self.aavg, self.acur = map(
+                    int, self.data_lines[1].split())
                 if DBG:
                     agb_debug(f"[AglareBitrate] V={self.vcur}, A={self.acur}")
             except ValueError:

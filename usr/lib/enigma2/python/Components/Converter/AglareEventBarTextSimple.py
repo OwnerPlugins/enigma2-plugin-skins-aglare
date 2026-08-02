@@ -217,4 +217,4 @@ class AglareEventBarTextSimple(Converter):
         parts.append(last)
         return self._joinColored(parts)
 
-	text = property(getText)
+    text = property(getText)

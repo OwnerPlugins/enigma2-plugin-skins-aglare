@@ -775,4 +775,3 @@ class AglareServiceInfoEX(Poll, Converter, object):
             Converter.changed(self, what)
         elif what[0] == self.CHANGED_POLL:
             self.downstream_elements.changed(what)
-

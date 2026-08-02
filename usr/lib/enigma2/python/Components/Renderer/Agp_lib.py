@@ -64,20 +64,26 @@ REGEX = compile(
     r'/.*|'                                # Everything after a slash
     r'\|\s?\d+\+|'                         # Pipe followed by number and plus sign
     r'\d+\+|'                              # Number followed by plus sign
-    r'\s\*\d{4}\Z|'                        # Asterisk followed by a 4-digit year
-    r'[\(\[\|].*?[\)\]\|]|'                # Round, square brackets or pipe with content
+    # Asterisk followed by a 4-digit year
+    r'\s\*\d{4}\Z|'
+    # Round, square brackets or pipe with content
+    r'[\(\[\|].*?[\)\]\|]|'
     r'(?:\"[\.|\,]?\s.*|\")|'               # Text in quotes
     r'Премьера\.\s|'                       # "Premiere." (specific to Russian)
     r'[хмтдХМТД]/[фс]\s|'                  # Russian pattern with /ф or /с
     r'\s[сС](?:езон|ерия|-н|-я)\s.*|'      # Season or episode in Russian
     r'\s\d{1,3}\s[чсЧС]\.?\s.*|'           # Part/episode number in Russian
-    r'\.\s\d{1,3}\s[чсЧС]\.?\s.*|'         # Part/episode number in Russian with leading dot
-    r'\s[чсЧС]\.?\s\d{1,3}.*|'             # Russian part/episode marker followed by number
-    r'\d{1,3}-(?:я|й)\s?с-н.*', DOTALL)    # Ending with number and Russian suffix
+    # Part/episode number in Russian with leading dot
+    r'\.\s\d{1,3}\s[чсЧС]\.?\s.*|'
+    # Russian part/episode marker followed by number
+    r'\s[чсЧС]\.?\s\d{1,3}.*|'
+    # Ending with number and Russian suffix
+    r'\d{1,3}-(?:я|й)\s?с-н.*', DOTALL)
 
 
 REGEX_ = compile(
-    r'\s+-\s+(?:Prima\s*TV|primatv|First\s*Run|HDTV)\b|'  # Solo "- PrimaTv", "- HDTV"
+    # Solo "- PrimaTv", "- HDTV"
+    r'\s+-\s+(?:Prima\s*TV|primatv|First\s*Run|HDTV)\b|'
     r'\b(?:720p|1080p|4K|UHD|HDTV)\b|'                    # Qualità video
     r'\b(?:WEB[-]?DL|WEBRip|DVDRip|BluRay)\b|'            # Formati
     r'\s+[Ss]\d{1,2}[Ee]\d{1,2}\b|'                       # S01E01
@@ -149,8 +155,7 @@ def sanitize_filename(name):
         r"\b(?:XviD|DivX|x264|H\.264|x265|HEVC|AVC|10bits)\b",
         " ",
         name,
-        flags=IGNORECASE
-    )
+        flags=IGNORECASE)
 
     # 3A) Remove year ONLY if inside () or []
     name = sub(r"\s*[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]\s*", " ", name)
@@ -167,7 +172,8 @@ def sanitize_filename(name):
     for char in '*?"<>|,':
         name = name.replace(char, "")
 
-    # 6) Replace any remaining non-word (except space, underscore, dash) with space
+    # 6) Replace any remaining non-word (except space, underscore, dash) with
+    # space
     name = sub(r"[^\w\s\-_]", " ", name)
 
     # 7) Final whitespace cleanup
@@ -178,7 +184,6 @@ def sanitize_filename(name):
         name = name[:50].rstrip()
 
     return name
-
 
 
 def strip_trailing_series_markers(title):
@@ -245,8 +250,7 @@ def strip_polish_episode_markers(title):
             r"\s+(?:sezon\s*)?\d{1,2}\s*[:._\- ]+\s*odc(?:inek)?\.?\s*\d+\b.*$",
             "",
             title,
-            flags=IGNORECASE
-        )
+            flags=IGNORECASE)
 
         title = sub(
             r"\s+s\d{1,2}\s*[:._\- ]+\s*odc(?:inek)?\.?\s*\d+\b.*$",
@@ -392,7 +396,9 @@ def apply_aka_rule(title):
         aka_title = safe_str(match.group(1))
         aka_title = sub(r'\s+', ' ', aka_title).strip(" _-")
         if aka_title and not aka_title.endswith("?"):
-            if compile(r'^(qui|who|what|when|where|why|how)\b', IGNORECASE).match(aka_title):
+            if compile(
+                r'^(qui|who|what|when|where|why|how)\b',
+                    IGNORECASE).match(aka_title):
                 aka_title += "?"
         return aka_title or title
     except Exception:
@@ -579,10 +585,14 @@ def clean_search_title(title):
         for pattern in english_patterns:
             title = sub(pattern, '', title, flags=IGNORECASE).strip()
         title = title.lower().strip()
-        logger.info("clean_search_title after lower | original='{}' | lowered='{}'".format(original_title, title))
+        logger.info(
+            "clean_search_title after lower | original='{}' | lowered='{}'".format(
+                original_title, title))
         title = apply_title_substitutions(title)
         title = apply_char_replacements(title)
-        logger.info("clean_search_title after replacements | original='{}' | replaced='{}'".format(original_title, title))
+        logger.info(
+            "clean_search_title after replacements | original='{}' | replaced='{}'".format(
+                original_title, title))
         # title = sub(r'^(live:\s*|uzivo:\s*|uzivo\s+|live\s+)', '', title, flags=IGNORECASE).strip()
 
         title = preserve_franchise_dash_subtitle(title)
@@ -625,7 +635,9 @@ def clean_search_title(title):
         title = finalize_known_aliases(title)
         title = sub(r'\s{2,}', ' ', title).strip(" _-.")
         if DEBUG:
-            logger.info("clean_search_title end cleaning | original='{}' | cleaned='{}'".format(original_title, title))
+            logger.info(
+                "clean_search_title end cleaning | original='{}' | cleaned='{}'".format(
+                    original_title, title))
         return smart_capitalize_title(title)
     except Exception:
         return smart_capitalize_title(safe_str(title))

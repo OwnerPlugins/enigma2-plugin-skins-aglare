@@ -259,8 +259,12 @@ class AglDownloadThread(Thread):
             forced_year = ""
             split_title = clean_input_title
             try:
-                split_title, forced_year = split_title_and_year(clean_input_title)
-                # logger.info("[tmdb-logo] year flow | step='split_title_and_year' | split_title='{}' | forced_year='{}'".format(str(split_title or ""), str(forced_year or "")year flow))
+                split_title, forced_year = split_title_and_year(
+                    clean_input_title)
+                # logger.info("[tmdb-logo] year flow |
+                # step='split_title_and_year' | split_title='{}' |
+                # forced_year='{}'".format(str(split_title or ""),
+                # str(forced_year or "")year flow))
             except Exception as e:
                 # logger.info("[tmdb-logo] year flow | step='split_title_and_year_error' | error='{}'".format(str(e)))
                 forced_year = ""
@@ -277,10 +281,7 @@ class AglDownloadThread(Thread):
             search_language = self._get_tmdb_search_language(local_title_safe)
 
             logger.info("[tmdb-logo] language flow | title='{}' | language='{}' | srch='{}'".format(
-                str(local_title_safe or ""),
-                str(search_language or ""),
-                str(srch or "")
-            ))
+                str(local_title_safe or ""), str(search_language or ""), str(srch or "")))
             desc_year = ""
             if not year:
                 year = self._extract_year(fd)
@@ -291,23 +292,19 @@ class AglDownloadThread(Thread):
                 year = forced_year
                 # logger.info("[tmdb-logo] year flow | step='apply_forced_year' | applied_year='{}'".format(str(year or "")))
             else:
-                logger.info("[tmdb-logo] year flow | step='skip_forced_year' | forced_year='{}' | final_year_before_search='{}'".format(str(forced_year or ""), str(year or "")))
+                logger.info("[tmdb-logo] year flow | step='skip_forced_year' | forced_year='{}' | final_year_before_search='{}'".format(
+                    str(forced_year or ""), str(year or "")))
 
             local_search_year = year or ""
             # logger.info("[tmdb-logo] year flow | step='final_search_parts' | title_safe='{}' | search_year='{}'".format(str(local_title_safe or ""), str(local_search_year or "")))
 
             request_url = "https://api.themoviedb.org/3/search/{}?api_key={}&language={}&query={}".format(
-                srch,
-                tmdb_api_key,
-                search_language,
-                quoteEventName(local_title_safe)
-            )
+                srch, tmdb_api_key, search_language, quoteEventName(local_title_safe))
             if year and srch in ("movie", "multi"):
                 request_url += "&year={}".format(year)
 
             logger.info("[tmdb-logo] title flow | original='{}' | final='{}' | year='{}' | channel='{}'".format(
-                str(title or ""), str(local_title_safe or ""), str(year or ""), str(channel or "")
-            ))
+                str(title or ""), str(local_title_safe or ""), str(year or ""), str(channel or "")))
             logger.info("[tmdb-logo] search link | url={}".format(request_url))
 
             retries = Retry(
@@ -361,8 +358,7 @@ class AglDownloadThread(Thread):
 
             # First try: filtered by preferred languages
             images_url = "https://api.themoviedb.org/3/{}/{}/images?api_key={}&include_image_language={}".format(
-                media_type, item_id, tmdb_api_key, ",".join(preferred_langs)
-            )
+                media_type, item_id, tmdb_api_key, ",".join(preferred_langs))
             logger.info("[tmdb-logo] images link | url={}".format(images_url))
 
             img_response = http.get(
@@ -373,9 +369,9 @@ class AglDownloadThread(Thread):
             logos = images_data.get("logos", [])
 
             if not logos:
-                logger.warning("[tmdb-logo] no logos with language filter | langs='{}' | retrying without language filter".format(
-                    ",".join(preferred_langs)
-                ))
+                logger.warning(
+                    "[tmdb-logo] no logos with language filter | langs='{}' | retrying without language filter".format(
+                        ",".join(preferred_langs)))
 
                 # Second try: no language filter at all
                 fallback_images_url = "https://api.themoviedb.org/3/{}/{}/images?api_key={}&include_image_language=".format(

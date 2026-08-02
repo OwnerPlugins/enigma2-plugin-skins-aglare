@@ -113,8 +113,27 @@ class AglareEventName2(Converter, object):
         return ''
 
     def getTweakedEventName(self, event):
-        description = '%s %s' % (event.getEventName().strip(), event.getShortDescription().strip())
-        return description.replace('DOLBY, 16:9', '').replace('(', '').replace(')', '').replace('|', '').replace('0+', '').replace('16+', '').replace('6+', '').replace('12+', '').replace('18+', '')
+        description = '%s %s' % (event.getEventName(
+        ).strip(), event.getShortDescription().strip())
+        return description.replace(
+            'DOLBY, 16:9',
+            '').replace(
+            '(',
+            '').replace(
+            ')',
+            '').replace(
+                '|',
+                '').replace(
+                    '0+',
+                    '').replace(
+                        '16+',
+                        '').replace(
+                            '6+',
+                            '').replace(
+                                '12+',
+                                '').replace(
+                                    '18+',
+            '')
 
     def getExtendedDescription(self, event):
         text = event.getShortDescription()
@@ -124,7 +143,11 @@ class AglareEventName2(Converter, object):
 
     def getCompactTimeFormat(self, event):
         start = strftime('%H:%M', localtime(event.getBeginTime()))
-        end = strftime('%H:%M', localtime(event.getBeginTime() + event.getDuration()))
+        end = strftime(
+            '%H:%M',
+            localtime(
+                event.getBeginTime() +
+                event.getDuration()))
         return f"{start}→{end} {event.getEventName()}"
 
     def getAgeRating(self, event):
@@ -132,8 +155,14 @@ class AglareEventName2(Converter, object):
             return ''
 
         # Ensure we have valid methods to call
-        if not all(hasattr(event, method) for method in ['getParentalData', 'getEventName',
-                                                         'getShortDescription', 'getExtendedDescription']):
+        if not all(
+            hasattr(
+                event,
+                method) for method in [
+                'getParentalData',
+                'getEventName',
+                'getShortDescription',
+                'getExtendedDescription']):
             return ''
         # First try official EPG rating data
         rating = event.getParentalData()
@@ -174,7 +203,8 @@ class AglareEventName2(Converter, object):
             return ""
 
         # Use same lookup method as getNextEventList()
-        events = self.epgcache.lookupEvent(['IBDCT', (reference.toString(), 0, -1, -1)])
+        events = self.epgcache.lookupEvent(
+            ['IBDCT', (reference.toString(), 0, -1, -1)])
         if not events:
             return ""
 
@@ -220,7 +250,11 @@ class AglareEventName2(Converter, object):
         if current_event:
             now = localtime(time())
             dt = datetime(now.tm_year, now.tm_mon, now.tm_mday, 20, 15)
-            self.epgcache.startTimeQuery(eServiceReference(reference.toString()), int(mktime(dt.timetuple())))
+            self.epgcache.startTimeQuery(
+                eServiceReference(
+                    reference.toString()), int(
+                    mktime(
+                        dt.timetuple())))
             next_event = self.epgcache.getNextTimeEntry()
             if next_event and next_event.getBeginTime() <= int(mktime(dt.timetuple())):
                 return self.formatPrimeTimeEvent(next_event)
@@ -228,7 +262,11 @@ class AglareEventName2(Converter, object):
 
     def formatPrimeTimeEvent(self, event):
         begin = strftime('%H:%M', localtime(event.getBeginTime()))
-        end = strftime('%H:%M', localtime(event.getBeginTime() + event.getDuration()))
+        end = strftime(
+            '%H:%M',
+            localtime(
+                event.getBeginTime() +
+                event.getDuration()))
         title = event.getEventName()
         duration = _('%d min') % (event.getDuration() / 60)
         return f"{begin} - {end} ({duration}) {title}"
@@ -237,14 +275,16 @@ class AglareEventName2(Converter, object):
         reference = self.source.service
         info = reference and self.source.info
         if info:
-            eventNext = self.epgcache.lookupEvent([EVENT_REFERENCE, (reference.toString(), 1, -1)])
+            eventNext = self.epgcache.lookupEvent(
+                [EVENT_REFERENCE, (reference.toString(), 1, -1)])
             if eventNext:
                 return self.formatNextEvent(eventNext[0])
         return ''
 
     def formatNextEvent(self, event):
         t = localtime(event[1])
-        duration = _('%d min') % (int(0 if event[2] is None else event[2]) / 60)
+        duration = _('%d min') % (
+            int(0 if event[2] is None else event[2]) / 60)
         if len(event) > 4 and event[4]:
             return f'{t[3]:02d}:{t[4]:02d} ({duration}) {event[4]}'
         return ''
@@ -253,13 +293,15 @@ class AglareEventName2(Converter, object):
         reference = self.source.service
         info = reference and self.source.info
         if info:
-            eventNext = self.epgcache.lookupEvent(['IBDCTSERNX', (reference.toString(), 0, -1, -1)])
+            eventNext = self.epgcache.lookupEvent(
+                ['IBDCTSERNX', (reference.toString(), 0, -1, -1)])
             if eventNext:
                 listEpg = []
                 for i, x in enumerate(eventNext):
                     if 0 < i < 10 and x[4]:
 
-                        duration = _('%d min') % (int(0 if x[2] is None else x[2]) / 60)
+                        duration = _('%d min') % (
+                            int(0 if x[2] is None else x[2]) / 60)
                         t = localtime(x[1])
 
                         # Get age rating using proper event object
@@ -272,11 +314,14 @@ class AglareEventName2(Converter, object):
                         elif self.type == self.NEXT_EVENT_LISTWT2:
                             listEpg.append(f'{x[4]} ({duration})')
                         elif self.type == self.NEXT_EVENT_LIST2:
-                            listEpg.append(f'{t[3]:02d}:{t[4]:02d} - {x[4]} ({duration})')
+                            listEpg.append(
+                                f'{t[3]:02d}:{t[4]:02d} - {x[4]} ({duration})')
                         elif self.type == self.NEXT_EVENT_LIST3:
-                            listEpg.append(f'{t[3]:02d}:{t[4]:02d} - {x[4]}{" " + age_rating if age_rating else ""} ({duration})')
+                            listEpg.append(
+                                f'{t[3]:02d}:{t[4]:02d} - {x[4]}{" " + age_rating if age_rating else ""} ({duration})')
                         else:
-                            listEpg.append(f'{t[3]:02d}:{t[4]:02d} ({duration}) {x[4]}')
+                            listEpg.append(
+                                f'{t[3]:02d}:{t[4]:02d} ({duration}) {x[4]}')
                 return '\n'.join(listEpg)
         return ''
 
