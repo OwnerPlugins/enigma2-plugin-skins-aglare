@@ -15,19 +15,23 @@ msgstr "%s gakoa inportatu da!"
 msgid "1 poster"
 msgstr "1 kartel"
 
-msgid "Activate/Deactivate ELCINEMA"
+#, fuzzy
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
 msgstr "Aktibatu/Desaktibatu ELCINEMA"
 
-msgid "Activate/Deactivate GOOGLE"
+#, fuzzy
+msgid "Activate or deactivate GOOGLE as a metadata provider."
 msgstr "Aktibatu/Desaktibatu GOOGLE"
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Aktibatu/Desaktibatu IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr ""
 
-msgid "Activate/Deactivate MOLOTOV"
+#, fuzzy
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
 msgstr "Aktibatu/Desaktibatu MOLOTOV"
 
-msgid "Activate/Deactivate PROGRAMMETV"
+#, fuzzy
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktibatu/Desaktibatu PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
@@ -66,6 +70,9 @@ msgstr "Atzeko planoa deskargatzeko errorea: {}"
 msgid "BebasNeue"
 msgstr "FreeNeue"
 
+msgid "Bitrate Unit:"
+msgstr ""
+
 msgid "Black"
 msgstr "Beltza"
 
@@ -74,6 +81,15 @@ msgstr "Urdina"
 
 msgid "Brown"
 msgstr "Marroia"
+
+msgid "CD"
+msgstr ""
+
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr ""
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr ""
 
 msgid "Cancel"
 msgstr "Utzi"
@@ -96,20 +112,27 @@ msgstr "Kanala hautatzeko estiloa:"
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
 
-msgid "ChannelSelection_1_Poster_X"
-msgstr ""
+#, fuzzy
+msgid "ChannelSelection_1_Poster_PX"
+msgstr "Kanala hautatzeko estiloa:"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr ""
 
-msgid "ChannelSelection_4_Posters_X"
-msgstr ""
+#, fuzzy
+msgid "ChannelSelection_4_Posters_PX"
+msgstr "Kanala hautatzeko estiloa:"
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr ""
 
-msgid "ChannelSelection_6_Posters_X"
-msgstr ""
+#, fuzzy
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "Kanala hautatzeko estiloa:"
+
+#, fuzzy
+msgid "ChannelSelection_6_Posters_PX_test"
+msgstr "Kanala hautatzeko estiloa:"
 
 msgid "ChannelSelection_BackDrop_H_EX"
 msgstr ""
@@ -132,6 +155,12 @@ msgstr ""
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
+msgid "Choice device download image folder"
+msgstr ""
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr ""
+
 msgid "City"
 msgstr "Hiria"
 
@@ -146,9 +175,6 @@ msgstr "Carmesi"
 
 msgid "Customization tool for %s Skin"
 msgstr "%s Skin pertsonalizatzeko tresna"
-
-msgid "Dark Green"
-msgstr "Berde Iluna"
 
 msgid "Default"
 msgstr "Lehenetsia"
@@ -175,6 +201,16 @@ msgstr "Deskargatu orain kartela"
 msgid "Downloading Aglare..."
 msgstr "Aglare deskargatzen..."
 
+msgid "ECM Short Format:"
+msgstr ""
+
+msgid "EMC PX"
+msgstr ""
+
+#, fuzzy
+msgid "EMC screens Style:"
+msgstr "Kolore-estiloa:"
+
 msgid "Edit"
 msgstr "Editatu"
 
@@ -193,11 +229,17 @@ msgstr "Gaitu gurasoen ikonoak:"
 msgid "Enable Rating Star:"
 msgstr "Gaitu balorazio izarra:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr ""
+
 msgid "Enable or disable caching during event download to speed up repeated searches."
 msgstr "Gaitu edo desgaitu cachea gertaerak deskargatzean behin eta berriz bilaketak bizkortzeko."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Gaitu gertaeren informazio hedatua bistaratzea, antzezle osoa, lantaldeak, argumentuaren xehetasunak eta bestelako metadatuak barne, informazio widgetean."
+
+msgid "Error by processing the skin file: {}"
+msgstr ""
 
 msgid "Error downloading files!"
 msgstr "Errore bat gertatu da fitxategiak deskargatzean!"
@@ -232,10 +274,17 @@ msgstr "Ez da {} fitxategia aurkitu edo hutsik"
 msgid "Green"
 msgstr "Berdea"
 
+#, fuzzy
+msgid "Green2"
+msgstr "Berdea"
+
 msgid "Greta"
 msgstr ""
 
 msgid "HandelGotD"
+msgstr ""
+
+msgid "Image Compatibility Group:"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
@@ -292,6 +341,9 @@ msgstr "{} gakoa behar bezala kargatu da!"
 msgid "KhalidArtboldRegular"
 msgstr ""
 
+msgid "Kilobit/s (Kb/s)"
+msgstr ""
+
 msgid "LightGray"
 msgstr "Gris Argia"
 
@@ -307,6 +359,9 @@ msgstr "Eraikuntza lokala ({}) zerbitzariaren eraikuntza ({}) baino berriagoa da
 msgid "Location code"
 msgstr "Kokapen kodea"
 
+msgid "Lucida"
+msgstr ""
+
 msgid "MSN location search result"
 msgstr "MSN kokapenaren bilaketaren emaitza"
 
@@ -316,11 +371,20 @@ msgstr ""
 msgid "Magenta"
 msgstr ""
 
+msgid "Megabit/s (Mb/s)"
+msgstr ""
+
 msgid "Mint"
 msgstr "Menta"
 
+msgid "Mix1"
+msgstr ""
+
 msgid "No active providers enabled"
 msgstr "Ez dago gaituta hornitzaile aktiborik"
+
+msgid "No description available for this option."
+msgstr ""
 
 msgid "OFF"
 msgstr ""
@@ -334,8 +398,17 @@ msgstr "OMDB soilik"
 msgid "ON"
 msgstr ""
 
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr ""
+
 msgid "Off"
 msgstr "Desaktibatuta"
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr ""
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr ""
 
 msgid "Orange"
 msgstr "Laranja"
@@ -400,8 +473,71 @@ msgstr "Bigarren Infobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI argia"
 
+msgid "Select EMC style."
+msgstr ""
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr ""
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr ""
+
 msgid "Select Your Font:"
 msgstr "Hautatu zure letra-tipoa:"
+
+#, fuzzy
+msgid "Select channel list event description color."
+msgstr "Hautatutako kanala Deskribapen Kolorea:"
+
+#, fuzzy
+msgid "Select channel list foreground color."
+msgstr "Kanalaren lehen planoko kolorea:"
+
+#, fuzzy
+msgid "Select channel list selected foreground color."
+msgstr "Hautatutako kanala lehen planoko kolorea:"
+
+#, fuzzy
+msgid "Select channel selection screen style."
+msgstr "Kanala hautatzeko estiloa:"
+
+msgid "Select event view screen style."
+msgstr ""
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr ""
+
+msgid "Select second infobar layout."
+msgstr ""
+
+#, fuzzy
+msgid "Select selected channel event description color."
+msgstr "Hautatutako kanala Deskribapen Kolorea:"
+
+msgid "Select the base skin layout file."
+msgstr ""
+
+msgid "Select the font package used by the generated skin."
+msgstr ""
+
+msgid "Select the main color preset used by the skin."
+msgstr ""
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr ""
+
+#, fuzzy
+msgid "Select volume bar style."
+msgstr "Bolumen barraren estiloa:"
+
+msgid "Select weather provider display for the infobar."
+msgstr ""
+
+msgid "Select weather provider display for the second infobar."
+msgstr ""
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Ezarri ordua gure - minutua Backdrop deskargatzeko"
@@ -418,6 +554,18 @@ msgstr "Konfiguratu Aglare azalaren informazioa"
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Erakutsi gertaera bakoitzaren generoa adierazten duten ikonoak (adibidez, akzioa, komedia, drama)"
 
+msgid "Show or hide ECM information in the infobar."
+msgstr ""
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr ""
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr ""
+
+msgid "Show or hide the date panel in the infobar."
+msgstr ""
+
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Erakutsi gertaeretan gurasoen gidaritza-ikonoak edukiaren balorazioa eta adinaren egokitasuna adierazteko."
 
@@ -431,6 +579,21 @@ msgid "Skin Style:"
 msgstr "Azalaren estiloa:"
 
 msgid "SnowWhite"
+msgstr ""
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr ""
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
 msgstr ""
 
 msgid "Start downloading backdrop immediately"
@@ -451,11 +614,26 @@ msgstr "Estiloa 3"
 msgid "Style4"
 msgstr "Estiloa 4"
 
+#, fuzzy
+msgid "Style5 CD"
+msgstr "Estiloa 2"
+
+#, fuzzy
+msgid "Style6"
+msgstr "Estiloa 2"
+
 msgid "Support E2iplayer Skins:"
+msgstr "Onartu E2iplayer Skins:"
+
+#, fuzzy
+msgid "Support SubsSupportPro Skins:"
 msgstr "Onartu E2iplayer Skins:"
 
 msgid "System"
 msgstr "Sistema"
+
+msgid "TEST"
+msgstr ""
 
 msgid "TMDB Only"
 msgstr "TMDB soilik"
@@ -468,6 +646,10 @@ msgstr "%s fitxategia hutsik dago."
 
 msgid "The file %s was not found."
 msgstr "%s fitxategia ez da aurkitu."
+
+#, fuzzy
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Eragiketa honek png guztiak kendu karpeta gailutik (Poster-Backdrop)"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Eragiketa honek gertaeren balorazio-izarrak bistaratzea ahalbidetzen du, hautatutako balorazio-iturriaren arabera."
@@ -520,3 +702,9 @@ msgstr "erreproduzitu/erakutsi Fitxategiak"
 
 msgid "volume2"
 msgstr "bolumena 2"
+
+#~ msgid "Activate/Deactivate IMDB"
+#~ msgstr "Aktibatu/Desaktibatu IMDB"
+
+#~ msgid "Dark Green"
+#~ msgstr "Berde Iluna"

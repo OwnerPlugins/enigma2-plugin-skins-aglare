@@ -17,19 +17,23 @@ msgstr "%s key imported!"
 msgid "1 poster"
 msgstr "1 poster"
 
-msgid "Activate/Deactivate ELCINEMA"
+#, fuzzy
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
 msgstr "Activate/Deactivate ELCINEMA"
 
-msgid "Activate/Deactivate GOOGLE"
+#, fuzzy
+msgid "Activate or deactivate GOOGLE as a metadata provider."
 msgstr "Activate/Deactivate GOOGLE"
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Activate/Deactivate IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr ""
 
-msgid "Activate/Deactivate MOLOTOV"
+#, fuzzy
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
 msgstr "Activate/Deactivate MOLOTOV"
 
-msgid "Activate/Deactivate PROGRAMMETV"
+#, fuzzy
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Activate/Deactivate PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
@@ -68,6 +72,9 @@ msgstr "Backdrop download error: {}"
 msgid "BebasNeue"
 msgstr "BebasNeue"
 
+msgid "Bitrate Unit:"
+msgstr ""
+
 msgid "Black"
 msgstr "Black"
 
@@ -76,6 +83,15 @@ msgstr "Blue"
 
 msgid "Brown"
 msgstr "Brown"
+
+msgid "CD"
+msgstr ""
+
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr ""
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr ""
 
 msgid "Cancel"
 msgstr "Cancel"
@@ -98,19 +114,26 @@ msgstr "ChannelSelection Style:"
 msgid "ChannelSelection_1_Poster_EX"
 msgstr "ChannelSelection_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
+#, fuzzy
+msgid "ChannelSelection_1_Poster_PX"
 msgstr "ChannelSelection_1_Poster_X"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr "ChannelSelection_4_Posters_EX"
 
-msgid "ChannelSelection_4_Posters_X"
+#, fuzzy
+msgid "ChannelSelection_4_Posters_PX"
 msgstr "ChannelSelection_4_Posters_X"
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr "ChannelSelection_6_Posters_EX"
 
-msgid "ChannelSelection_6_Posters_X"
+#, fuzzy
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "ChannelSelection_6_Posters_X"
+
+#, fuzzy
+msgid "ChannelSelection_6_Posters_PX_test"
 msgstr "ChannelSelection_6_Posters_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
@@ -134,6 +157,12 @@ msgstr "ChannelSelection_NO_Posters_NO_Picon"
 msgid "ChannelSelection_big_mini_tv"
 msgstr "ChannelSelection_big_mini_tv"
 
+msgid "Choice device download image folder"
+msgstr ""
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr ""
+
 msgid "City"
 msgstr "City"
 
@@ -148,9 +177,6 @@ msgstr "Crimson"
 
 msgid "Customization tool for %s Skin"
 msgstr "Customization tool for %s Skin"
-
-msgid "Dark Green"
-msgstr "Dark Green"
 
 msgid "Default"
 msgstr "Default"
@@ -177,6 +203,16 @@ msgstr "Download now poster"
 msgid "Downloading Aglare..."
 msgstr "Downloading Aglare..."
 
+msgid "ECM Short Format:"
+msgstr ""
+
+msgid "EMC PX"
+msgstr ""
+
+#, fuzzy
+msgid "EMC screens Style:"
+msgstr "Color Style:"
+
 msgid "Edit"
 msgstr "Edit"
 
@@ -195,11 +231,17 @@ msgstr "Enable Parental Icons:"
 msgid "Enable Rating Star:"
 msgstr "Enable Rating Star:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr ""
+
 msgid "Enable or disable caching during event download to speed up repeated searches."
 msgstr "Enable or disable caching during event download to speed up repeated searches."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
+
+msgid "Error by processing the skin file: {}"
+msgstr ""
 
 msgid "Error downloading files!"
 msgstr "Error downloading files!"
@@ -234,11 +276,18 @@ msgstr "File {} not found or empty"
 msgid "Green"
 msgstr "Green"
 
+#, fuzzy
+msgid "Green2"
+msgstr "Green"
+
 msgid "Greta"
 msgstr "Greta"
 
 msgid "HandelGotD"
 msgstr "HandelGotD"
+
+msgid "Image Compatibility Group:"
+msgstr ""
 
 msgid "Import key {0} from {1}?"
 msgstr "Import key {0} from {1}?"
@@ -294,6 +343,9 @@ msgstr "Key {} successfully loaded!"
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldRegular"
 
+msgid "Kilobit/s (Kb/s)"
+msgstr ""
+
 msgid "LightGray"
 msgstr "LightGray"
 
@@ -309,6 +361,9 @@ msgstr "Local build ({}) is newer than server build ({})."
 msgid "Location code"
 msgstr "Location code"
 
+msgid "Lucida"
+msgstr ""
+
 msgid "MSN location search result"
 msgstr "MSN location search result"
 
@@ -318,11 +373,20 @@ msgstr "MV Boli"
 msgid "Magenta"
 msgstr "Magenta"
 
+msgid "Megabit/s (Mb/s)"
+msgstr ""
+
 msgid "Mint"
 msgstr "Mint"
 
+msgid "Mix1"
+msgstr ""
+
 msgid "No active providers enabled"
 msgstr "No active providers enabled"
+
+msgid "No description available for this option."
+msgstr ""
 
 msgid "OFF"
 msgstr "OFF"
@@ -336,8 +400,17 @@ msgstr "OMDB Only"
 msgid "ON"
 msgstr "ON"
 
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr ""
+
 msgid "Off"
 msgstr "Off"
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr ""
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr ""
 
 msgid "Orange"
 msgstr "Orange"
@@ -402,8 +475,71 @@ msgstr "SecondInfobar Xtraevent:"
 msgid "Segoe UI light"
 msgstr "Segoe UI light"
 
+msgid "Select EMC style."
+msgstr ""
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr ""
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr ""
+
 msgid "Select Your Font:"
 msgstr "Select Your Font:"
+
+#, fuzzy
+msgid "Select channel list event description color."
+msgstr "Channel Selected Description Color:"
+
+#, fuzzy
+msgid "Select channel list foreground color."
+msgstr "Channel Foreground Color:"
+
+#, fuzzy
+msgid "Select channel list selected foreground color."
+msgstr "Channel Selected Foreground Color:"
+
+#, fuzzy
+msgid "Select channel selection screen style."
+msgstr "ChannelSelection Style:"
+
+msgid "Select event view screen style."
+msgstr ""
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr ""
+
+msgid "Select second infobar layout."
+msgstr ""
+
+#, fuzzy
+msgid "Select selected channel event description color."
+msgstr "Channel Selected Description Color:"
+
+msgid "Select the base skin layout file."
+msgstr ""
+
+msgid "Select the font package used by the generated skin."
+msgstr ""
+
+msgid "Select the main color preset used by the skin."
+msgstr ""
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr ""
+
+#, fuzzy
+msgid "Select volume bar style."
+msgstr "VolumeBar Style:"
+
+msgid "Select weather provider display for the infobar."
+msgstr ""
+
+msgid "Select weather provider display for the second infobar."
+msgstr ""
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Set Time our - minute for Backdrop download"
@@ -420,6 +556,18 @@ msgstr "Setup Aglare Skin Info"
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 
+msgid "Show or hide ECM information in the infobar."
+msgstr ""
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr ""
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr ""
+
+msgid "Show or hide the date panel in the infobar."
+msgstr ""
+
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Show parental guidance icons on events to indicate content rating and age suitability."
 
@@ -434,6 +582,21 @@ msgstr "Skin Style:"
 
 msgid "SnowWhite"
 msgstr "SnowWhite"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr ""
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
 msgstr "Start downloading backdrop immediately"
@@ -453,11 +616,26 @@ msgstr "Style3"
 msgid "Style4"
 msgstr "Style4"
 
+#, fuzzy
+msgid "Style5 CD"
+msgstr "Style2"
+
+#, fuzzy
+msgid "Style6"
+msgstr "Style2"
+
 msgid "Support E2iplayer Skins:"
+msgstr "Support E2iplayer Skins:"
+
+#, fuzzy
+msgid "Support SubsSupportPro Skins:"
 msgstr "Support E2iplayer Skins:"
 
 msgid "System"
 msgstr "System"
+
+msgid "TEST"
+msgstr ""
 
 msgid "TMDB Only"
 msgstr "TMDB Only"
@@ -470,6 +648,10 @@ msgstr "The file %s is empty."
 
 msgid "The file %s was not found."
 msgstr "The file %s was not found."
+
+#, fuzzy
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "This operation remove all png from folder device (Poster-Backdrop)"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "This operation enable the display of rating stars for events, based on the selected rating source."
@@ -522,3 +704,9 @@ msgstr "play/show Files"
 
 msgid "volume2"
 msgstr "volume2"
+
+#~ msgid "Activate/Deactivate IMDB"
+#~ msgstr "Activate/Deactivate IMDB"
+
+#~ msgid "Dark Green"
+#~ msgstr "Dark Green"
