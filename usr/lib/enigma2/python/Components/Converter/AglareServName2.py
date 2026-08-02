@@ -78,7 +78,7 @@ class AglareServName2(Converter, object):
         self.timer = eTimer()
         try:
             self.timer.callback.append(self.neededChange)
-        except:
+        except BaseException:
             self.timer_conn = self.timer.timeout.connect(self.neededChange)
 
     def _is_stream_service(self, refstr):
@@ -89,7 +89,11 @@ class AglareServName2(Converter, object):
         """Get the stream type from the reference string."""
         if self._is_stream_service(refstr):
             if refstr.startswith('1:0:'):
-                if any(x in refstr for x in ('0.0.0.0:', '127.0.0.1:', 'localhost:')):
+                if any(
+                    x in refstr for x in (
+                        '0.0.0.0:',
+                        '127.0.0.1:',
+                        'localhost:')):
                     return 'Stream Relay'
                 else:
                     return 'GStreamer'
@@ -107,7 +111,7 @@ class AglareServName2(Converter, object):
         """Extract and decode the stream URL from reference string."""
         if not self._is_stream_service(refstr):
             return ''
-            
+
         try:
             # Extract the URL part (after the 10th colon)
             if '%3a//' in refstr:
@@ -118,7 +122,7 @@ class AglareServName2(Converter, object):
             elif '://' in refstr:
                 stream_url = ' '.join(refstr.split(':')[10:])
                 return stream_url
-        except:
+        except BaseException:
             # If extraction fails, try to find http in the raw refstr
             http_index = refstr.find('http')
             if http_index >= 0:
@@ -129,14 +133,15 @@ class AglareServName2(Converter, object):
     def _extract_stream_host(self, refstr):
         """Extract the stream host from reference string."""
         stream_url = self._extract_stream_url(refstr)
-        
+
         if stream_url:
             try:
+                                                 
                 # Parse the URL to extract host part
                 parsed_url = urlparse(stream_url)
                 if parsed_url.scheme and parsed_url.netloc:
                     return f"{parsed_url.scheme}://{parsed_url.netloc}"
-            except:
+            except BaseException:
                 # Fallback: try to extract host manually
                 if '://' in stream_url:
                     parts = stream_url.split('://', 1)
@@ -153,7 +158,8 @@ class AglareServName2(Converter, object):
                     s = servicelist.getNext()
                     if not s.valid():
                         break
-                    if not (s.flags & (eServiceReference.isMarker | eServiceReference.isDirectory)):
+                    if not (s.flags & (eServiceReference.isMarker |
+                            eServiceReference.isDirectory)):
                         num += 1
                         if s == ref:
                             return s, num
@@ -172,7 +178,7 @@ class AglareServName2(Converter, object):
                 return 0, 'N/A'
             try:
                 acount = config.plugins.NumberZapExt.enable.value and config.plugins.NumberZapExt.acount.value or config.usage.alternative_number_mode.value
-            except:
+            except BaseException:
                 acount = False
             rootstr = ''
             for x in lastpath.split(';'):
@@ -197,7 +203,8 @@ class AglareServName2(Converter, object):
                         if not bouquet.valid():
                             break
                         if bouquet.flags & eServiceReference.isDirectory:
-                            service, number = searchHelper(serviceHandler, number, bouquet)
+                            service, number = searchHelper(
+                                serviceHandler, number, bouquet)
                             if service is not None and cur == bouquet:
                                 break
             if service is not None:
@@ -209,9 +216,11 @@ class AglareServName2(Converter, object):
     def getProviderName(self, ref):
         if isinstance(ref, eServiceReference):
             from Screens.ChannelSelection import service_types_radio, service_types_tv
-            typestr = ref.getData(0) in (2, 10) and service_types_radio or service_types_tv
+            typestr = ref.getData(0) in (
+                2, 10) and service_types_radio or service_types_tv
             pos = typestr.rfind(':')
-            rootstr = '%s (channelID == %08x%04x%04x) && %s FROM PROVIDERS ORDER BY name' % (typestr[:pos + 1], ref.getUnsignedData(4), ref.getUnsignedData(2), ref.getUnsignedData(3), typestr[pos + 1:])
+            rootstr = '%s (channelID == %08x%04x%04x) && %s FROM PROVIDERS ORDER BY name' % (
+                typestr[:pos + 1], ref.getUnsignedData(4), ref.getUnsignedData(2), ref.getUnsignedData(3), typestr[pos + 1:])
             provider_root = eServiceReference(rootstr)
             serviceHandler = eServiceCenter.getInstance()
             providerlist = serviceHandler.list(provider_root)
@@ -229,16 +238,19 @@ class AglareServName2(Converter, object):
                                     break
                                 if service == ref:
                                     info = serviceHandler.info(provider)
-                                    return info and info.getName(provider) or "Unknown"
+                                    return info and info.getName(
+                                        provider) or "Unknown"
         return ""
 
     def getTransponderInfo(self, info, ref, fmt):
         result = ""
         if self.tpdata is None:
             if ref:
-                self.tpdata = ref and info.getInfoObject(ref, iServiceInformation.sTransponderData)
+                self.tpdata = ref and info.getInfoObject(
+                    ref, iServiceInformation.sTransponderData)
             else:
-                self.tpdata = info.getInfoObject(iServiceInformation.sTransponderData)
+                self.tpdata = info.getInfoObject(
+                    iServiceInformation.sTransponderData)
             if not isinstance(self.tpdata, dict):
                 self.tpdata = None
                 return result
@@ -249,24 +261,30 @@ class AglareServName2(Converter, object):
         if not fmt or fmt == 'T':
             if DreamOS():
                 if type == iDVBFrontend.feCable:
-                    fmt = ["t ", "F ", "Y ", "i ", "f ", "M"]  # (type frequency symbol_rate inversion fec modulation)
+                    # (type frequency symbol_rate inversion fec modulation)
+                    fmt = ["t ", "F ", "Y ", "i ", "f ", "M"]
                 elif type == iDVBFrontend.feTerrestrial:
                     if ref:
-                        fmt = ["O ", "F ", "c ", "l ", "h ", "m ", "g "]   # (orbital_position code_rate_hp transmission_mode guard_interval constellation)
+                        # (orbital_position code_rate_hp transmission_mode guard_interval constellation)
+                        fmt = ["O ", "F ", "c ", "l ", "h ", "m ", "g "]
                     else:
-                        fmt = ["t ", "F ", "c ", "l ", "h ", "m ", "g "]   # (type frequency code_rate_hp transmission_mode guard_interval constellation)
+                        # (type frequency code_rate_hp transmission_mode guard_interval constellation)
+                        fmt = ["t ", "F ", "c ", "l ", "h ", "m ", "g "]
                 elif type == 'IP-TV':
                     return _("Streaming")
                 else:
                     fmt = ["O ", "F", "p ", "Y ", "f"]
             else:
                 if type == 'DVB-C':
-                    fmt = ["t ", "F ", "Y ", "i ", "f ", "M"]  # (type frequency symbol_rate inversion fec modulation)
+                    # (type frequency symbol_rate inversion fec modulation)
+                    fmt = ["t ", "F ", "Y ", "i ", "f ", "M"]
                 elif type == 'DVB-T':
                     if ref:
-                        fmt = ["O ", "F ", "c ", "l ", "h ", "m ", "g "]   # (orbital_position code_rate_hp transmission_mode guard_interval constellation)
+                        # (orbital_position code_rate_hp transmission_mode guard_interval constellation)
+                        fmt = ["O ", "F ", "c ", "l ", "h ", "m ", "g "]
                     else:
-                        fmt = ["t ", "F ", "c ", "l ", "h ", "m ", "g "]   # (type frequency code_rate_hp transmission_mode guard_interval constellation)
+                        # (type frequency code_rate_hp transmission_mode guard_interval constellation)
+                        fmt = ["t ", "F ", "c ", "l ", "h ", "m ", "g "]
                 elif type == 'IP-TV':
                     return _("Streaming")
                 else:
@@ -300,58 +318,105 @@ class AglareServName2(Converter, object):
                 if DreamOS():
                     if type == iDVBFrontend.feSatellite:
                         x = self.tpdata.get('system', 0)
-                        result += x in list(range(2)) and {0: 'DVB-S', 1: 'DVB-S2'}[x] or ''
+                        result += x in list(range(2)
+                                            ) and {0: 'DVB-S', 1: 'DVB-S2'}[x] or ''
                     else:
                         result += 'N/A'  # str(type)
                 else:
                     if type == 'DVB-S':
                         x = self.tpdata.get('system', 0)
-                        result += x in list(range(2)) and {0: 'DVB-S', 1: 'DVB-S2'}[x] or ''
+                        result += x in list(range(2)
+                                            ) and {0: 'DVB-S', 1: 'DVB-S2'}[x] or ''
                     else:
                         result += 'N/A'
             elif f == 'F':  # %F - frequency (dvb-s/s2/c/t) in KHz
                 if DreamOS():
                     result += '%d' % (self.tpdata.get('frequency', 0) / 1000)
                 else:
-                    if type in ('DVB-S', 'DVB-C') and self.tpdata.get('frequency', 0) > 0:
+                    if type in ('DVB-S',
+                                'DVB-C') and self.tpdata.get('frequency',
+                                                             0) > 0:
                         result += '%d' % (self.tpdata.get('frequency', 0) / 1000)
                     if type in ('DVB-T'):
-                        result += '%.3f' % (((self.tpdata.get('frequency', 0) + 500) / 1000) / 1000.0)
+                        result += '%.3f' % (
+                            ((self.tpdata.get('frequency', 0) + 500) / 1000) / 1000.0)
                         # result += '%.3f'%(((self.tpdata.get('frequency', 0) / 1000) +1) / 1000.0)
             elif f == 'f':  # %f - fec_inner (dvb-s/s2/c/t)
                 if DreamOS():
                     if type == iDVBFrontend.feCable or type == iDVBFrontend.feSatellite:
                         x = self.tpdata.get('fec_inner', 15)
-                        result += x in list(range(10)) + [15] and {0: 'Auto', 1: '1/2', 2: '2/3', 3: '3/4', 4: '5/6', 5: '7/8', 6: '8/9', 7: '3/5', 8: '4/5', 9: '9/10', 15: 'None'}[x] or ''
+                        result += x in list(
+                            range(10)) + [15] and {
+                            0: 'Auto',
+                            1: '1/2',
+                            2: '2/3',
+                            3: '3/4',
+                            4: '5/6',
+                            5: '7/8',
+                            6: '8/9',
+                            7: '3/5',
+                            8: '4/5',
+                            9: '9/10',
+                            15: 'None'}[x] or ''
                     elif type == iDVBFrontend.feTerrestrial:
                         x = self.tpdata.get('code_rate_lp', 5)
-                        result += x in list(range(6)) and {0: '1/2', 1: '2/3', 2: '3/4', 3: '5/6', 4: '7/8', 5: 'Auto'}[x] or ''
+                        result += x in list(
+                            range(6)) and {
+                            0: '1/2',
+                            1: '2/3',
+                            2: '3/4',
+                            3: '5/6',
+                            4: '7/8',
+                            5: 'Auto'}[x] or ''
                 else:
                     if type in ('DVB-S', 'DVB-C'):
                         x = self.tpdata.get('fec_inner', 15)
-                        result += x in list(range(10)) + [15] and {0: 'Auto', 1: '1/2', 2: '2/3', 3: '3/4', 4: '5/6', 5: '7/8', 6: '8/9', 7: '3/5', 8: '4/5', 9: '9/10', 15: 'None'}[x] or ''
+                        result += x in list(
+                            range(10)) + [15] and {
+                            0: 'Auto',
+                            1: '1/2',
+                            2: '2/3',
+                            3: '3/4',
+                            4: '5/6',
+                            5: '7/8',
+                            6: '8/9',
+                            7: '3/5',
+                            8: '4/5',
+                            9: '9/10',
+                            15: 'None'}[x] or ''
                     elif type == 'DVB-T':
                         x = self.tpdata.get('code_rate_lp', 5)
-                        result += x in list(range(6)) and {0: '1/2', 1: '2/3', 2: '3/4', 3: '5/6', 4: '7/8', 5: 'Auto'}[x] or ''
+                        result += x in list(
+                            range(6)) and {
+                            0: '1/2',
+                            1: '2/3',
+                            2: '3/4',
+                            3: '5/6',
+                            4: '7/8',
+                            5: 'Auto'}[x] or ''
             elif f == 'i':  # %i - inversion (dvb-s/s2/c/t)
                 if DreamOS():
                     x = self.tpdata.get('inversion', 2)
-                    result += x in list(range(3)) and {0: 'On', 1: 'Off', 2: 'Auto'}[x] or ''
+                    result += x in list(range(3)
+                                        ) and {0: 'On', 1: 'Off', 2: 'Auto'}[x] or ''
                 else:
                     if type in ('DVB-S', 'DVB-C', 'DVB-T'):
                         x = self.tpdata.get('inversion', 2)
-                        result += x in list(range(3)) and {0: 'On', 1: 'Off', 2: 'Auto'}[x] or ''
+                        result += x in list(range(3)
+                                            ) and {0: 'On', 1: 'Off', 2: 'Auto'}[x] or ''
             elif f == 'O':  # %O - orbital_position (dvb-s/s2)
                 if DreamOS():
                     if type == iDVBFrontend.feSatellite:
                         x = self.tpdata.get('orbital_position', 0)
-                        result += x > 1800 and "%d.%d°W" % ((3600 - x) / 10, (3600 - x) % 10) or "%d.%d°E" % (x / 10, x % 10)
+                        result += x > 1800 and "%d.%d°W" % (
+                            (3600 - x) / 10, (3600 - x) % 10) or "%d.%d°E" % (x / 10, x % 10)
                     elif type == 'Iptv':
                         result += 'Stream'
                 else:
                     if type == 'DVB-S':
                         x = self.tpdata.get('orbital_position', 0)
-                        result += x > 1800 and "%d.%d°W" % ((3600 - x) / 10, (3600 - x) % 10) or "%d.%d°E" % (x / 10, x % 10)
+                        result += x > 1800 and "%d.%d°W" % (
+                            (3600 - x) / 10, (3600 - x) % 10) or "%d.%d°E" % (x / 10, x % 10)
                         result = result.replace("°", "°")
                     elif type == 'DVB-T':
                         result += 'DVB-T'
@@ -582,10 +647,10 @@ class AglareServName2(Converter, object):
             refstr = info.getInfoString(iServiceInformation.sServiceref)
         if refstr is None:
             refstr = ''
-            
+
         # Check if it's a stream service
         self.isStream = self._is_stream_service(refstr)
-        
+
         if self.type == self.NAME:
             name = ref and (info.getName(ref) or 'N/A') or (info.getName() or 'N/A')
             prefix = ''

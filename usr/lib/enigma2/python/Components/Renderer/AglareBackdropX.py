@@ -314,13 +314,8 @@ class AglareBackdropX(Renderer):
             skip_title, skip_word = should_skip_title(self.pstcanal)
             if skip_title:
                 logger.info(
-                    "Skipping before queue: original='%s' | final_search_title='%s' | matched_exclusion='%s' | channel='%s'"
-                    % (
-                        self.canal[2],
-                        self.pstcanal,
-                        skip_word,
-                        self.canal[0]
-                    ))
+                    "Skipping before queue: original='%s' | final_search_title='%s' | matched_exclusion='%s' | channel='%s'" %
+                    (self.canal[2], self.pstcanal, skip_word, self.canal[0]))
                 return
 
             if self.pstcanal in self.backdrop_cache:
@@ -501,6 +496,7 @@ class AglareBackdropX(Renderer):
 class BackdropDB(AgbDownloadThread):
 
     """Handles Backdrop downloading and database management"""
+
     def __init__(self, providers=None):
         # AgbDownloadThread.__init__()
 
@@ -563,8 +559,8 @@ class BackdropDB(AgbDownloadThread):
             skip_title, skip_word = should_skip_title(self.pstcanal)
             if skip_title:
                 logger.info(
-                    "Skipping title: original='%s' | final_search_title='%s' | matched_exclusion='%s' | channel='%s'"
-                    % (canal[2], self.pstcanal, skip_word, canal[0]))
+                    "Skipping title: original='%s' | final_search_title='%s' | matched_exclusion='%s' | channel='%s'" %
+                    (canal[2], self.pstcanal, skip_word, canal[0]))
                 return
 
             backdrop_path = join(BACKDROP_FOLDER, "%s.jpg" % self.pstcanal)
@@ -587,13 +583,9 @@ class BackdropDB(AgbDownloadThread):
                     return
 
                 logger.info(
-                    "Starting download: original='%s' | clean_for_tvdb='%s' | final_search_title='%s' | channel='%s'"
-                    % (
-                        canal[2],
-                        clean_for_tvdb(canal[5]),
-                        self.pstcanal,
-                        canal[0]
-                    ))
+                    "Starting download: original='%s' | clean_for_tvdb='%s' | final_search_title='%s' | channel='%s'" %
+                    (canal[2], clean_for_tvdb(
+                        canal[5]), self.pstcanal, canal[0]))
 
                 # Sort providers by configured priority
                 sorted_providers = sorted(
@@ -1053,13 +1045,8 @@ class BackdropAutoDB(AgbDownloadThread):
         skip_title, skip_word = should_skip_title(self.pstcanal)
         if skip_title:
             logger.info(
-                "Skipping auto-download: original='%s' | final_search_title='%s' | matched_exclusion='%s' | channel='%s'"
-                % (
-                    canal[2],
-                    self.pstcanal,
-                    skip_word,
-                    canal[0]
-                ))
+                "Skipping auto-download: original='%s' | final_search_title='%s' | matched_exclusion='%s' | channel='%s'" %
+                (canal[2], self.pstcanal, skip_word, canal[0]))
             return False
 
         if self.backdrop_download_count >= self.max_backdrops:

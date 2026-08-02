@@ -15,19 +15,23 @@ msgstr "Kunci %s diimpor!"
 msgid "1 poster"
 msgstr ""
 
-msgid "Activate/Deactivate ELCINEMA"
+#, fuzzy
+msgid "Activate or deactivate ELCINEMA as a metadata provider."
 msgstr "Aktifkan/Nonaktifkan ELCINEMA"
 
-msgid "Activate/Deactivate GOOGLE"
+#, fuzzy
+msgid "Activate or deactivate GOOGLE as a metadata provider."
 msgstr "Aktifkan/Nonaktifkan GOOGLE"
 
-msgid "Activate/Deactivate IMDB"
-msgstr "Aktifkan/Nonaktifkan IMDB"
+msgid "Activate or deactivate IMDB as a metadata provider."
+msgstr ""
 
-msgid "Activate/Deactivate MOLOTOV"
+#, fuzzy
+msgid "Activate or deactivate MOLOTOV as a metadata provider."
 msgstr "Aktifkan/Nonaktifkan MOLOTOV"
 
-msgid "Activate/Deactivate PROGRAMMETV"
+#, fuzzy
+msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
 msgstr "Aktifkan/Nonaktifkan PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
@@ -66,6 +70,9 @@ msgstr "Kesalahan pengunduhan latar belakang: {}"
 msgid "BebasNeue"
 msgstr ""
 
+msgid "Bitrate Unit:"
+msgstr ""
+
 msgid "Black"
 msgstr "Hitam"
 
@@ -74,6 +81,15 @@ msgstr "Biru"
 
 msgid "Brown"
 msgstr "Cokelat"
+
+msgid "CD"
+msgstr ""
+
+msgid "Caid + Protocol + Server + ECM Time"
+msgstr ""
+
+msgid "Caid + Reader + Protocol + Server + ECM Time"
+msgstr ""
 
 msgid "Cancel"
 msgstr "Membatalkan"
@@ -96,19 +112,26 @@ msgstr "Gaya Pemilihan Saluran:"
 msgid "ChannelSelection_1_Poster_EX"
 msgstr "Pilihan Saluran_1_Poster_EX"
 
-msgid "ChannelSelection_1_Poster_X"
+#, fuzzy
+msgid "ChannelSelection_1_Poster_PX"
 msgstr "Pemilihan Saluran_1_Poster_X"
 
 msgid "ChannelSelection_4_Posters_EX"
 msgstr "Pilihan Saluran_4_Poster_EX"
 
-msgid "ChannelSelection_4_Posters_X"
+#, fuzzy
+msgid "ChannelSelection_4_Posters_PX"
 msgstr "Pilihan Saluran_4_Poster_X"
 
 msgid "ChannelSelection_6_Posters_EX"
 msgstr "Pilihan Saluran_6_Poster_EX"
 
-msgid "ChannelSelection_6_Posters_X"
+#, fuzzy
+msgid "ChannelSelection_6_Posters_PX"
+msgstr "Pilihan Saluran_6_Poster_X"
+
+#, fuzzy
+msgid "ChannelSelection_6_Posters_PX_test"
 msgstr "Pilihan Saluran_6_Poster_X"
 
 msgid "ChannelSelection_BackDrop_H_EX"
@@ -132,6 +155,12 @@ msgstr "Pilihan Saluran_NO_Poster_NO_Picon"
 msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
+msgid "Choice device download image folder"
+msgstr ""
+
+msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
+msgstr ""
+
 msgid "City"
 msgstr "Kota"
 
@@ -146,9 +175,6 @@ msgstr "Merah tua"
 
 msgid "Customization tool for %s Skin"
 msgstr "Alat penyesuaian untuk %s Skin"
-
-msgid "Dark Green"
-msgstr "Hijau Tua"
 
 msgid "Default"
 msgstr "Bawaan"
@@ -175,6 +201,16 @@ msgstr "Unduh sekarang posternya"
 msgid "Downloading Aglare..."
 msgstr "Mengunduh Aglare..."
 
+msgid "ECM Short Format:"
+msgstr ""
+
+msgid "EMC PX"
+msgstr ""
+
+#, fuzzy
+msgid "EMC screens Style:"
+msgstr "Gaya Warna:"
+
 msgid "Edit"
 msgstr "Sunting"
 
@@ -193,11 +229,17 @@ msgstr "Aktifkan Ikon Orang Tua:"
 msgid "Enable Rating Star:"
 msgstr "Aktifkan Peringkat Bintang:"
 
+msgid "Enable or disable bundled E2iPlayer screens."
+msgstr ""
+
 msgid "Enable or disable caching during event download to speed up repeated searches."
 msgstr "Mengaktifkan atau menonaktifkan caching selama pengunduhan acara untuk mempercepat pencarian berulang."
 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktifkan tampilan informasi acara tambahan, termasuk pemeran lengkap, kru, detail plot, dan metadata lainnya, di widget info."
+
+msgid "Error by processing the skin file: {}"
+msgstr ""
 
 msgid "Error downloading files!"
 msgstr "Kesalahan saat mengunduh file!"
@@ -232,10 +274,17 @@ msgstr "File {} tidak ditemukan atau kosong"
 msgid "Green"
 msgstr "Hijau"
 
+#, fuzzy
+msgid "Green2"
+msgstr "Hijau"
+
 msgid "Greta"
 msgstr ""
 
 msgid "HandelGotD"
+msgstr ""
+
+msgid "Image Compatibility Group:"
 msgstr ""
 
 msgid "Import key {0} from {1}?"
@@ -292,6 +341,9 @@ msgstr "Kunci {} berhasil dimuat!"
 msgid "KhalidArtboldRegular"
 msgstr "KhalidArtboldReguler"
 
+msgid "Kilobit/s (Kb/s)"
+msgstr ""
+
 msgid "LightGray"
 msgstr "Abu-abu Muda"
 
@@ -307,6 +359,9 @@ msgstr "Build lokal ({}) lebih baru dari build server ({})."
 msgid "Location code"
 msgstr "Kode lokasi"
 
+msgid "Lucida"
+msgstr ""
+
 msgid "MSN location search result"
 msgstr "Hasil pencarian lokasi MSN"
 
@@ -316,11 +371,20 @@ msgstr ""
 msgid "Magenta"
 msgstr "ungu"
 
+msgid "Megabit/s (Mb/s)"
+msgstr ""
+
 msgid "Mint"
 msgstr "daun mint"
 
+msgid "Mix1"
+msgstr ""
+
 msgid "No active providers enabled"
 msgstr "Tidak ada penyedia aktif yang diaktifkan"
+
+msgid "No description available for this option."
+msgstr ""
 
 msgid "OFF"
 msgstr "MATI"
@@ -334,8 +398,17 @@ msgstr "Hanya OMDB"
 msgid "ON"
 msgstr "PADA"
 
+msgid "ON/OFF SubsSupportPro Skins."
+msgstr ""
+
 msgid "Off"
 msgstr "Mati"
+
+msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
+msgstr ""
+
+msgid "OpenPLi / Satlodge (OpenPLi Group)"
+msgstr ""
 
 msgid "Orange"
 msgstr "Oranye"
@@ -400,8 +473,71 @@ msgstr "Acara XtraInfobar Kedua:"
 msgid "Segoe UI light"
 msgstr "Lampu Segoe UI"
 
+msgid "Select EMC style."
+msgstr ""
+
+msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr ""
+
+msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
+msgstr ""
+
 msgid "Select Your Font:"
 msgstr "Pilih Font Anda:"
+
+#, fuzzy
+msgid "Select channel list event description color."
+msgstr "Warna Deskripsi Saluran yang Dipilih:"
+
+#, fuzzy
+msgid "Select channel list foreground color."
+msgstr "Warna Latar Depan Saluran:"
+
+#, fuzzy
+msgid "Select channel list selected foreground color."
+msgstr "Warna Latar Depan Pilihan Saluran:"
+
+#, fuzzy
+msgid "Select channel selection screen style."
+msgstr "Gaya Pemilihan Saluran:"
+
+msgid "Select event view screen style."
+msgstr ""
+
+msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
+msgstr ""
+
+msgid "Select second infobar layout."
+msgstr ""
+
+#, fuzzy
+msgid "Select selected channel event description color."
+msgstr "Warna Deskripsi Saluran yang Dipilih:"
+
+msgid "Select the base skin layout file."
+msgstr ""
+
+msgid "Select the font package used by the generated skin."
+msgstr ""
+
+msgid "Select the main color preset used by the skin."
+msgstr ""
+
+msgid "Select the target image base group (OpenPLi vs Others)."
+msgstr ""
+
+#, fuzzy
+msgid "Select volume bar style."
+msgstr "Gaya Bilah Volume:"
+
+msgid "Select weather provider display for the infobar."
+msgstr ""
+
+msgid "Select weather provider display for the second infobar."
+msgstr ""
+
+msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
+msgstr ""
 
 msgid "Set Time our - minute for Backdrop download"
 msgstr "Tetapkan Waktu - menit untuk pengunduhan Latar Belakang"
@@ -418,6 +554,18 @@ msgstr "Siapkan Info Kulit Aglare"
 msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
 msgstr "Tampilkan ikon yang mewakili genre setiap acara (misalnya aksi, komedi, drama)"
 
+msgid "Show or hide ECM information in the infobar."
+msgstr ""
+
+msgid "Show or hide PosterX in the second infobar."
+msgstr ""
+
+msgid "Show or hide XtraEvent in the second infobar."
+msgstr ""
+
+msgid "Show or hide the date panel in the infobar."
+msgstr ""
+
 msgid "Show parental guidance icons on events to indicate content rating and age suitability."
 msgstr "Tampilkan ikon panduan orang tua di acara untuk menunjukkan rating konten dan kesesuaian usia."
 
@@ -432,6 +580,21 @@ msgstr "Gaya Kulit:"
 
 msgid "SnowWhite"
 msgstr "Putri Salju"
+
+msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
+msgstr ""
+
+msgid "Source + Caid + Reader + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
+msgstr ""
+
+msgid "Source + Prov + Caid + Server + Port + ECM Time"
+msgstr ""
 
 msgid "Start downloading backdrop immediately"
 msgstr "Mulai unduh latar belakang segera"
@@ -451,11 +614,26 @@ msgstr "Gaya3"
 msgid "Style4"
 msgstr "Gaya4"
 
+#, fuzzy
+msgid "Style5 CD"
+msgstr "Gaya2"
+
+#, fuzzy
+msgid "Style6"
+msgstr "Gaya2"
+
 msgid "Support E2iplayer Skins:"
+msgstr "Mendukung Kulit E2iplayer:"
+
+#, fuzzy
+msgid "Support SubsSupportPro Skins:"
 msgstr "Mendukung Kulit E2iplayer:"
 
 msgid "System"
 msgstr "Sistem"
+
+msgid "TEST"
+msgstr ""
 
 msgid "TMDB Only"
 msgstr "Hanya TMDB"
@@ -468,6 +646,10 @@ msgstr "Berkas %s kosong."
 
 msgid "The file %s was not found."
 msgstr "Berkas %s tidak ditemukan."
+
+#, fuzzy
+msgid "This operation assign device path folder to download image (Poster-Backdrop)"
+msgstr "Operasi ini menghapus semua png dari perangkat folder (Poster-Backdrop)"
 
 msgid "This operation enable the display of rating stars for events, based on the selected rating source."
 msgstr "Operasi ini mengaktifkan tampilan bintang peringkat untuk acara, berdasarkan sumber peringkat yang dipilih."
@@ -520,3 +702,9 @@ msgstr "memutar/menampilkan File"
 
 msgid "volume2"
 msgstr ""
+
+#~ msgid "Activate/Deactivate IMDB"
+#~ msgstr "Aktifkan/Nonaktifkan IMDB"
+
+#~ msgid "Dark Green"
+#~ msgstr "Hijau Tua"

@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 ###################################
-##__author__ = "Lululla"         ##
-##__copyright__ = "AGP Team"     ##
-##__modified_by__ = "MNASR"      ##
+## __author__ = "Lululla"         ##
+## __copyright__ = "AGP Team"     ##
+## __modified_by__ = "MNASR"      ##
 ###################################
 from __future__ import absolute_import, print_function
 
@@ -73,7 +73,8 @@ class AgpParentalX(Renderer):
 
     def get_search_title(self, title, shortdesc="", fulldesc=""):
         try:
-            result = build_search_title(title or "", shortdesc or "", fulldesc or "")
+            result = build_search_title(
+                title or "", shortdesc or "", fulldesc or "")
             return smart_capitalize_title(result)
         except Exception:
             return smart_capitalize_title(clean_search_title(title or ""))
@@ -115,22 +116,29 @@ class AgpParentalX(Renderer):
         with self.lock:
             try:
                 clean_title = self.get_search_title(
-                    (self.event.getEventName() or "").replace('\xc2\x86', '').replace('\xc2\x87', ''),
+                    (self.event.getEventName() or "").replace(
+                        '\xc2\x86',
+                        '').replace(
+                        '\xc2\x87',
+                        ''),
                     self.event.getShortDescription() or "",
-                    self.event.getExtendedDescription() or ""
-                )
+                    self.event.getExtendedDescription() or "")
 
                 skip_title, skip_word = should_skip_title(clean_title)
                 if skip_title:
-                    logger.info("AgpParentalX skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}'".format(
-                        self.event.getEventName(), clean_title, skip_word
-                    ))
+                    logger.info(
+                        "AgpParentalX skipping title: original='{}' | final_search_title='{}' | matched_exclusion='{}'".format(
+                            self.event.getEventName(), clean_title, skip_word))
                     if self.instance:
                         self.instance.hide()
                     return
 
-                parent_json_file = join(self.storage_path, "{} parental.json".format(clean_title))
-                info_json_file = join(self.storage_path, "{}.json".format(clean_title))
+                parent_json_file = join(
+                    self.storage_path,
+                    "{} parental.json".format(clean_title))
+                info_json_file = join(
+                    self.storage_path,
+                    "{}.json".format(clean_title))
                 year = self.extract_year(self.event)
 
                 data = None
@@ -138,17 +146,22 @@ class AgpParentalX(Renderer):
                 if exists(parent_json_file) and getsize(parent_json_file) > 0:
                     with open(parent_json_file, "r") as f:
                         data = json_load(f)
-                    logger.info("AgpParentalX loaded cached parental json | file='{}' | rated='{}'".format(
-                        parent_json_file, str(data.get('Rated', ''))
-                    ))
+                    logger.info(
+                        "AgpParentalX loaded cached parental json | file='{}' | rated='{}'".format(
+                            parent_json_file, str(
+                                data.get(
+                                    'Rated', ''))))
                     self.process_data(data)
                     return
 
-                # use info json only as a hint / fallback title presence, but parental requires explicit certification endpoint
+                # use info json only as a hint / fallback title presence, but
+                # parental requires explicit certification endpoint
                 if exists(info_json_file):
-                    logger.info("AgpParentalX info json present | file='{}'".format(info_json_file))
+                    logger.info(
+                        "AgpParentalX info json present | file='{}'".format(info_json_file))
 
-                if PARENT_SOURCE == "tmdb" or (PARENT_SOURCE == "auto" and api_key_manager.get_api_key('tmdb')):
+                if PARENT_SOURCE == "tmdb" or (
+                        PARENT_SOURCE == "auto" and api_key_manager.get_api_key('tmdb')):
                     data = self.fetch_tmdb_parental(clean_title, year)
                 else:
                     data = self.fetch_omdb_data(clean_title, year)
@@ -156,13 +169,17 @@ class AgpParentalX(Renderer):
                 if data:
                     with open(parent_json_file, "w") as f:
                         json_dump(data, f, indent=2)
-                    logger.info("AgpParentalX saved parental json | file='{}' | rated='{}'".format(
-                        parent_json_file, str(data.get('Rated', ''))
-                    ))
+                    logger.info(
+                        "AgpParentalX saved parental json | file='{}' | rated='{}'".format(
+                            parent_json_file, str(
+                                data.get(
+                                    'Rated', ''))))
                     self.process_data(data)
 
             except Exception as e:
-                logger.error("AgpParentalX Data fetch error: {}".format(str(e)), exc_info=True)
+                logger.error(
+                    "AgpParentalX Data fetch error: {}".format(
+                        str(e)), exc_info=True)
 
     def fetch_tmdb_parental(self, title, year):
         try:
@@ -176,7 +193,15 @@ class AgpParentalX(Renderer):
                 self.event.getShortDescription() or "",
                 self.event.getExtendedDescription() or ""
             ).lower()
-            if any(x in desc for x in ["season", "episode", "series", "serie", "s.", "ep.", "episod"]):
+            if any(
+                x in desc for x in [
+                    "season",
+                    "episode",
+                    "series",
+                    "serie",
+                    "s.",
+                    "ep.",
+                    "episod"]):
                 search_kind = "tv"
 
             search_url = (
@@ -184,7 +209,8 @@ class AgpParentalX(Renderer):
                     search_kind, api_key, lng, quoteEventName(title)
                 ) + ("&year={}".format(year) if year and search_kind != "tv" else "")
             )
-            logger.info("AgpParentalX TMDB search link | url={}".format(search_url))
+            logger.info(
+                "AgpParentalX TMDB search link | url={}".format(search_url))
             with urlopen(search_url) as response:
                 search_data = json_load(response)
 
@@ -204,10 +230,14 @@ class AgpParentalX(Renderer):
             rated = ""
 
             if media_type == "movie":
-                details_url = "https://api.themoviedb.org/3/movie/{}?api_key={}&language={}".format(content_id, api_key, lng)
-                cert_url = "https://api.themoviedb.org/3/movie/{}/release_dates?api_key={}".format(content_id, api_key)
-                logger.info("AgpParentalX TMDB details link | url={}".format(details_url))
-                logger.info("AgpParentalX TMDB parental link | url={}".format(cert_url))
+                details_url = "https://api.themoviedb.org/3/movie/{}?api_key={}&language={}".format(
+                    content_id, api_key, lng)
+                cert_url = "https://api.themoviedb.org/3/movie/{}/release_dates?api_key={}".format(
+                    content_id, api_key)
+                logger.info(
+                    "AgpParentalX TMDB details link | url={}".format(details_url))
+                logger.info(
+                    "AgpParentalX TMDB parental link | url={}".format(cert_url))
                 with urlopen(details_url) as response:
                     details = json_load(response)
                 with urlopen(cert_url) as response:
@@ -226,10 +256,14 @@ class AgpParentalX(Renderer):
                 return details
 
             else:
-                details_url = "https://api.themoviedb.org/3/tv/{}?api_key={}&language={}".format(content_id, api_key, lng)
-                cert_url = "https://api.themoviedb.org/3/tv/{}/content_ratings?api_key={}".format(content_id, api_key)
-                logger.info("AgpParentalX TMDB details link | url={}".format(details_url))
-                logger.info("AgpParentalX TMDB parental link | url={}".format(cert_url))
+                details_url = "https://api.themoviedb.org/3/tv/{}?api_key={}&language={}".format(
+                    content_id, api_key, lng)
+                cert_url = "https://api.themoviedb.org/3/tv/{}/content_ratings?api_key={}".format(
+                    content_id, api_key)
+                logger.info(
+                    "AgpParentalX TMDB details link | url={}".format(details_url))
+                logger.info(
+                    "AgpParentalX TMDB parental link | url={}".format(cert_url))
                 with urlopen(details_url) as response:
                     details = json_load(response)
                 with urlopen(cert_url) as response:
@@ -255,7 +289,8 @@ class AgpParentalX(Renderer):
                 quoteEventName(title),
                 "&y={}".format(year) if year else ""
             )
-            url = "http://www.omdbapi.com/?apikey={}&{}".format(api_key, params)
+            url = "http://www.omdbapi.com/?apikey={}&{}".format(
+                api_key, params)
             logger.info("AgpParentalX OMDB request link | url={}".format(url))
             with urlopen(url) as response:
                 return json_load(response)
@@ -266,25 +301,28 @@ class AgpParentalX(Renderer):
     def process_data(self, data):
         try:
             rated = (data.get("Rated", "") or "").strip().upper()
-            logger.info("AgpParentalX parental extracted | title='{}' | rated='{}'".format(
-                self.get_search_title(
-                    self.event.getEventName() or "",
-                    self.event.getShortDescription() or "",
-                    self.event.getExtendedDescription() or ""
-                ), rated
-            ))
+            logger.info(
+                "AgpParentalX parental extracted | title='{}' | rated='{}'".format(
+                    self.get_search_title(
+                        self.event.getEventName() or "",
+                        self.event.getShortDescription() or "",
+                        self.event.getExtendedDescription() or ""),
+                    rated))
             rating_code = RATING_MAP.get(rated, DEFAULT_RATING)
             icon_file = "FSK_" + rating_code + ".png"
             self.icon_path = join(PARENTAL_ICON_PATH, icon_file)
 
             if not exists(self.icon_path):
-                logger.debug("AgpParentalX Rated icon not found for: {}, using default".format(rated))
+                logger.debug(
+                    "AgpParentalX Rated icon not found for: {}, using default".format(rated))
                 self.icon_path = join(PARENTAL_ICON_PATH, DEFAULT_ICON)
 
             self.update_icon(self.icon_path)
 
         except Exception as e:
-            logger.error("AgpParentalX Error processing data for event: " + str(e))
+            logger.error(
+                "AgpParentalX Error processing data for event: " +
+                str(e))
             self.icon_path = join(PARENTAL_ICON_PATH, DEFAULT_ICON)
             self.update_icon(self.icon_path)
 

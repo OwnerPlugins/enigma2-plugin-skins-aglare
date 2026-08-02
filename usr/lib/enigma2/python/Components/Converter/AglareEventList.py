@@ -91,14 +91,15 @@ class AglareEventList(Converter, object):
             next_event = self.epgcache.lookupEventTime(
                 eServiceReference(ref.toString()), next_start_time
             )
-            
-            # Failsafe: if EPG overlaps and returns the exact same event, push the time forward 1 minute
+
+            # Failsafe: if EPG overlaps and returns the exact same event, push
+            # the time forward 1 minute
             if next_event and next_event.getBeginTime() == begin:
                 next_start_time += 60
                 next_event = self.epgcache.lookupEventTime(
                     eServiceReference(ref.toString()), next_start_time
                 )
-                
+
             event = next_event
 
         # Primetime logic
@@ -114,7 +115,8 @@ class AglareEventList(Converter, object):
             )
             if event:
                 bt = event.getBeginTime()
-                # Ensure the primetime event is valid AND hasn't already been added
+                # Ensure the primetime event is valid AND hasn't already been
+                # added
                 if bt is not None and bt <= primeTime and bt not in seen_begins:
                     contentList.append(self.getEventTuple(event))
 

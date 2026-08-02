@@ -138,7 +138,7 @@ class AglareBitrate(Converter, object):
             return ""
         try:
             unit = config.plugins.Aglare.bitrate_unit.value
-        except:
+        except BaseException:
             unit = "kb"
         if unit == "mb":
             return f"{prefix}: {value / 1000.0:.2f} Mb/s"
