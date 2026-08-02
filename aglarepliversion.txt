@@ -1,1 +1,1 @@
-5.1#https://raw.githubusercontent.com/Belfagor2005/enigma2-plugin-skins-aglare/refs/heads/main/usr.tar
+7.1#https://raw.githubusercontent.com/OwnerPlugins/enigma2-plugin-skins-aglare/refs/heads/main/usr.tar
