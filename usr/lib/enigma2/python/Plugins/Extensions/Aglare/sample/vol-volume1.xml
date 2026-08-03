@@ -1,6 +1,0 @@
-<screen name="Volume" position="center,110" size="704,70" backgroundColor="transparent" flags="wfNoBorder" zPosition="100" transparent="0">
-  <widget name="VolumeText" position="634,0" size="66,65" font="Regular; 34" backgroundColor="background" foregroundColor="white" halign="center" valign="center" zPosition="99" transparent="1" />
-  <widget name="Volume" position="68,24" size="564,20" backgroundColor="progbg" foregroundColor="green,yellow,red,horizontal" cornerRadius="10" zPosition="88" />
-  <eLabel name="" position="0,2" size="66,65" font="icomoon; 44" text="" transparent="1" valign="center" halign="center" />
-  <eLabel backgroundColor="igsd,igsl,igsd,vertical" cornerRadius="30" position="0,0" size="704,70" zPosition="-99" />
-</screen>

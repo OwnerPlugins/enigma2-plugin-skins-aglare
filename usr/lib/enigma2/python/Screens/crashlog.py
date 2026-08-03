@@ -26,7 +26,7 @@ from Tools.LoadPixmap import LoadPixmap
 import gettext
 _ = gettext.gettext
 
-version = '1.3'
+version = '1.4'
 
 
 def isMountReadonly(mnt):
@@ -249,6 +249,7 @@ class CrashLogScreen(Screen):
         self["Greenkey"] = StaticText(_("View"))
         self["Yellowkey"] = StaticText(_("Remove"))
         self["Bluekey"] = StaticText(_("Remove All"))
+        # self["Title"] = StaticText(_("View or Remove Crashlog files"))
         self.list = []
         self["menu"] = List(self.list)
         self.CfgMenu()
@@ -319,13 +320,19 @@ class CrashLogScreen(Screen):
     def Ok(self):
         if self.in_confirm_mode:
             return
-
         item = self["menu"].getCurrent()
+        print("DEBUG: item =", item, "type =", type(item))
+        if item:
+            print("DEBUG: len(item) =", len(item) if hasattr(item, '__len__') else 'N/A')
         try:
-            if item and item[3]:
+            if item and len(item) >= 4 and item[3]:
                 Crashfile = str(item[3])
+                print("DEBUG: Crashfile =", Crashfile)
                 self.session.openWithCallback(
-                    self.CfgMenu, LogScreen, Crashfile)
+                    self.CfgMenu, CrashLogView, Crashfile)
+            else:
+                print("DEBUG: item non valido o senza 4 elementi")
+                self.showTempMessage(_("Invalid selection"))
         except Exception as e:
             print("Error opening log:", e)
             self.showTempMessage(_("Cannot open this file"))
@@ -577,14 +584,14 @@ class CrashLogScreen(Screen):
             self.close()
 
 
-class LogScreen(Screen):
+class CrashLogView(Screen):
     def __init__(self, session, Crashfile):
         self.session = session
         self.crashfile = Crashfile
         sz_w = getDesktop(0).size().width()
         if sz_w == 1920:
             self.skin = """
-                <screen name="LogScreen" position="center,center" size="1880,980" title="View Crashlog file">
+                <screen name="CrashLogView" position="center,center" size="1880,980" title="View Crashlog file">
                     <widget source="Redkey" render="Label" position="16,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
                     <widget source="Greenkey" render="Label" position="266,919" size="250,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
                     <eLabel backgroundColor="#00ff0000" position="20,963" size="250,6" zPosition="12" />
@@ -593,7 +600,7 @@ class LogScreen(Screen):
                 </screen>"""
         else:
             self.skin = """
-                <screen name="LogScreen" position="center,center" size="1253,653" title="View Crashlog file">
+                <screen name="CrashLogView" position="center,center" size="1253,653" title="View Crashlog file">
                     <widget source="Redkey" render="Label" position="19,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
                     <widget source="Greenkey" render="Label" position="191,609" size="172,33" zPosition="11" font="Regular; 22" valign="center" halign="center" backgroundColor="#050c101b" transparent="1" foregroundColor="white" />
                     <eLabel backgroundColor="#00ff0000" position="20,643" size="172,6" zPosition="12" />
@@ -606,8 +613,10 @@ class LogScreen(Screen):
         self.current_view = "full"
         self.full_text = ""
         self.error_text = ""
-        self["text"].setText(self.full_text)
-        self["Greenkey"].setText(_("Error Only"))
+
+        self["text"] = ScrollLabel("")
+        self["text2"] = ScrollLabel("")
+
         self["actions"] = ActionMap(
             ["DirectionActions", "ColorActions", "OkCancelActions"],
             {
@@ -623,7 +632,6 @@ class LogScreen(Screen):
         )
         self["Redkey"] = StaticText(_("Close"))
         self["Greenkey"] = StaticText(_("Switch View"))
-        self["text"] = ScrollLabel("")
         self.onLayoutFinish.append(self.listcrah)
 
     def pageUp(self):
@@ -633,7 +641,6 @@ class LogScreen(Screen):
         self["text"].pageDown()
 
     def switchView(self):
-        """Switch between full log and error only"""
         if self.current_view == "full":
             self.current_view = "error"
             self["text"].setText(self.error_text)
@@ -642,8 +649,6 @@ class LogScreen(Screen):
             self.current_view = "full"
             self["text"].setText(self.full_text)
             self["Greenkey"].setText(_("Error Only"))
-
-        # Scroll to top
         self["text"].lastPage()
 
     def exit(self):

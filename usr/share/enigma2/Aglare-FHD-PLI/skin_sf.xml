@@ -1,5 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
+    <screen name="ScreenPath" flags="wfNoBorder">
+        <widget source="ScreenPath" render="Label" position="36,5" size="1380,22" backgroundColor="background" transparent="1" zPosition="1" font="Regular;19" valign="center" halign="left"/>
+    </screen>
+    <screen name="ScreenTemplateAllColorButtons_menu">
+        <!--#####red####/-->
+        <ePixmap pixmap="buttons/redbutton.png" position="32,1064" size="300,6" alphatest="blend" objectTypes="key_red,Button,Label" transparent="1"/>
+        <widget source="key_red" render="Pixmap" pixmap="buttons/redbutton.png" position="32,1064" size="300,6" alphatest="blend" objectTypes="key_red,StaticText" transparent="1">
+            <convert type="ConditionalShowHide"/>
+        </widget>
+        <widget name="key_red" position="27,1016" size="310,45" zPosition="11" font="Regular; 30" noWrap="1" valign="center" halign="center" backgroundColor="background" objectTypes="key_red,Button,Label" transparent="1"/>
+        <widget source="key_red" render="Label" position="27,1016" size="310,45" zPosition="11" font="Regular; 30" noWrap="1" valign="center" halign="center" backgroundColor="background" objectTypes="key_red,StaticText" transparent="1"/>
+        <!--#####green####/-->
+        <ePixmap pixmap="buttons/greenbutton.png" position="342,1064" size="300,6" alphatest="blend" objectTypes="key_green,Button,Label" transparent="1"/>
+        <widget source="key_green" render="Pixmap" pixmap="buttons/greenbutton.png" position="342,1064" size="300,6" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
+            <convert type="ConditionalShowHide"/>
+        </widget>
+        <widget name="key_green" position="337,1016" size="310,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" objectTypes="key_green,Button,Label" transparent="1"/>
+        <widget source="key_green" render="Label" position="337,1016" size="310,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" objectTypes="key_green,StaticText" transparent="1"/>
+        <!--#####yellow####/-->
+        <ePixmap pixmap="buttons/yellowbutton.png" position="652,1064" size="300,6" alphatest="blend" objectTypes="key_yellow,Button,Label" transparent="1"/>
+        <widget source="key_yellow" render="Pixmap" pixmap="buttons/yellowbutton.png" position="652,1064" size="300,6" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
+            <convert type="ConditionalShowHide"/>
+        </widget>
+        <widget name="key_yellow" position="647,1016" size="310,45" zPosition="11" font="Regular; 30" noWrap="1" valign="center" halign="center" backgroundColor="background" objectTypes="key_yellow,Button,Label" transparent="1"/>
+        <widget source="key_yellow" render="Label" position="647,1016" size="310,45" zPosition="11" font="Regular; 30" noWrap="1" valign="center" halign="center" backgroundColor="background" objectTypes="key_yellow,StaticText" transparent="1"/>
+        <!--#####blue####/-->
+        <ePixmap pixmap="buttons/bluebutton.png" position="962,1064" size="300,6" alphatest="blend" objectTypes="key_blue,Button,Label" transparent="1"/>
+        <widget source="key_blue" render="Pixmap" pixmap="buttons/bluebutton.png" position="962,1064" size="300,6" alphatest="blend" objectTypes="key_blue,StaticText" transparent="1">
+            <convert type="ConditionalShowHide"/>
+        </widget>
+        <widget name="key_blue" position="957,1016" size="310,45" zPosition="11" font="Regular; 30" noWrap="1" valign="center" halign="center" backgroundColor="background" objectTypes="key_blue,Button,Label" transparent="1"/>
+        <widget source="key_blue" render="Label" position="957,1016" size="310,45" zPosition="11" font="Regular; 30" noWrap="1" valign="center" halign="center" backgroundColor="background" objectTypes="key_blue,StaticText" transparent="1"/>
+    </screen>
     <!-- *************************************** -->
     <!--  APSATTV PANELS                           * -->
     <!-- *************************************** -->
@@ -7,10 +40,21 @@
         <widget name="category" position="939,614" size="456,192" zPosition="3" backgroundColor="#30000000" transparent="1" font="Regular;38" halign="center" foregroundColor="#f4b700"/>
         <widget name="name" position="56,111" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <eLabel position="61,853" size="830,150" backgroundColor="#30000000" zPosition="1"/>
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/plugin.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/skin/pic/PayPal.png" scale="1" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Apsattv/skin/pic/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
@@ -29,10 +73,21 @@
     <!--  FILMON PANELS                           * -->
     <!-- *************************************** -->
     <screen name="filmon" position="center,center" size="1920,1080" backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="name" position="51,124" size="850,60" noWrap="1" zPosition="1" transparent="1" font="Regular;33" valign="center" halign="left" backgroundColor="#30000000" foregroundColor="#00ffffff"/>
         <widget name="menulist" position="52,192" size="838,600" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColor="#00ffffff"/>
         <widget name="text" position="43,800" size="885,204" zPosition="1" backgroundColor="#30000000" transparent="1" font="Regular;33" halign="center" foregroundColor="#f4b700"/>
@@ -45,10 +100,21 @@
         <widget name="category" position="939,614" size="456,192" zPosition="3" backgroundColor="#30000000" transparent="1" font="Regular;38" halign="center" foregroundColor="#f4b700"/>
         <widget name="name" position="56,111" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <eLabel position="61,853" size="830,150" backgroundColor="#30000000" zPosition="1"/>
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/plugin.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/skin/pic/PayPal.png" scale="1" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/freearhey/skin/pic/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
@@ -67,10 +133,21 @@
     <!--  HASBAHCA PANELS                           * -->
     <!-- *************************************** -->
     <screen name="MainHasBahCa" position="center,center" size="1920,1080" title="..::HasBahCa::.." backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="info" position="51,116" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <widget name="progress" position="563,949" size="300,50" foregroundColor="#2a70a4" backgroundColor="#10000000" transparent="1" zPosition="5"/>
         <widget source="progresstext" render="Label" font="Regular;20" position="562,950" size="300,50" backgroundColor="#202020" transparent="1" halign="center" zPosition="6"/>
@@ -88,10 +165,21 @@
     <!--  TVDREAM PANELS                           * -->
     <!-- *************************************** -->
     <screen name="MainSetting" position="center,center" size="1920,1080" title="..::TiVuDream::.." backgroundColor="transparent" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <!-- Menu List -->
         <widget name="info" position="51,119" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <widget name="text" position="49,191" size="850,650" scrollbarMode="showOnDemand" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" foregroundColorSelected="#ffffff" backgroundColor="#20000000" backgroundColorSelected="#0b2049"/>
@@ -118,10 +206,21 @@
         <panel name="MainSetting"/>
     </screen>
     <screen name="Playstream1" position="center,center" size="1920,1080" title="TiVuDream" backgroundColor="#FF000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="info" position="51,119" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <widget name="list" position="49,191" size="850,650" scrollbarMode="showOnDemand" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" foregroundColorSelected="#ffffff" backgroundColor="#20000000" backgroundColorSelected="#0b2049"/>
     </screen>
@@ -129,10 +228,21 @@
     <!--  PARSATV PANELS                           * -->
     <!-- *************************************** -->
     <screen name="MainParsa" position="center,center" size="1920,1080" title="..::parsatv::.." backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/plugin.png" scale="1" alphatest="blend" position="736,35" size="191,67" zPosition="5"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/res/pics/PayPal.png" scale="1" position="1238,889" size="156,75" zPosition="5" alphatest="on"/>
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/parsatv/res/pics/qr-code.png" scale="1" position="1444,640" size="318,318" zPosition="2" alphatest="on"/>
@@ -157,10 +267,21 @@
     <!--  MMPICONS PANELS                           * -->
     <!-- *************************************** -->
     <screen name="SelectPicons" position="center,center" size="1920,1080" title="..::mmPicons::.." backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="info" position="51,116" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <widget name="progress" position="563,949" size="300,50" foregroundColor="#2a70a4" backgroundColor="#10000000" transparent="1" zPosition="5"/>
         <widget source="progresstext" render="Label" font="Regular;20" position="562,950" size="300,50" backgroundColor="#202020" transparent="1" halign="center" zPosition="6"/>
@@ -181,10 +302,21 @@
         <panel name="SelectPicons"/>
     </screen>
     <screen name="mmConfig" position="center,center" size="1920,1080" title="..::mmPicons::.." backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="config" position="55,206" size="838,640" font="Regular;30" itemHeight="50" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColor="#00ffffff"/>
         <widget name="info" position="51,119" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <widget name="description" position="61,878" size="845,113" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
@@ -202,10 +334,21 @@
     <!-- *************************************** -->
     <!-- ************* CAM Manager ************* -->
     <screen name="tvManager" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Cams Manager">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <eLabel name="" position="1660,826" size="180,180" font="icomoon; 100" text="" halign="center" zPosition="99" transparent="1"/>
         <eLabel backgroundColor="sidec2" cornerRadius="90" position="1600,788" size="500,180"/>
         <widget name="infocam" position="1018,608" size="858,68" font="Regular; 22" halign="center" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="7"/>
@@ -235,40 +378,86 @@
         <widget name="description" position="60,100" size="850,64" font="Regular; 32" halign="left" valign="center" foregroundColor="#002a79b8" backgroundColor="black" transparent="1" zPosition="5"/>
     </screen>
     <screen name="InfoCfg" position="center,center" size="1920,1080" title="Softcam Manager" backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
-        <ePixmap name="" position="1525,902" size="350,70" pixmap="sf/logo.png" alphatest="blend" zPosition="1" transparent="1"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
+
         <widget name="list" position="49,109" size="850,863" font="Regular;32" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" backgroundColor="#20000000" scrollbarMode="showNever"/>
         <widget name="description" position="998,620" size="875,266" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
+        <panel name="Logo"/>
     </screen>
     <screen name="tv_config" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Addon Manager">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
-        <ePixmap name="" position="1525,902" size="350,70" pixmap="sf/logo.png" alphatest="blend" zPosition="1" transparent="1"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="config" position="36,165" size="890,800" itemHeight="50" enableWrapAround="1" transparent="1" font="Regular; 30" itemCornerRadius="8" valign="center" scrollbarMode="showNever"/>
         <widget name="info" position="997,608" size="884,80" font="Regular; 32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="background" transparent="1" zPosition="5"/>
         <widget name="description" position="41,95" size="882,59" font="Regular;30" halign="left" valign="center" foregroundColor="yellow" backgroundColor="background" transparent="1" zPosition="5"/>
+    <panel name="Logo"/>
     </screen>
     <!-- *************************************** -->
     <!-- Addon Manager                         * -->
     <!-- *************************************** -->
     <screen name="InfoScreen" position="center,center" size="1920,1080" title="Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
-        <ePixmap name="" position="1525,902" size="350,70" pixmap="sf/logo.png" alphatest="blend" zPosition="1" transparent="1"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="text" position="49,109" size="850,863" font="Regular;32" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" backgroundColor="#20000000"/>
+        <panel name="Logo"/>
+        <panel name="bLogo"/>
     </screen>
     <screen name="GetipklistTv" position="center,center" size="1920,1080" title="Get Server" backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="list" position="49,118" size="850,723" scrollbarMode="showOnDemand" font="Regular;38" itemHeight="50" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" foregroundColorSelected="#ffffff" backgroundColor="#20000000" backgroundColorSelected="#0b2049"/>
         <widget name="description" position="61,878" size="845,113" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
     </screen>
@@ -276,10 +465,21 @@
         <panel name="GetipklistTv"/>
     </screen>
     <screen name="Hometv" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Addons Panels">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <eLabel name="" position="1734,1016" size="55,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="MENU"/>
         <widget name="info" position="41,93" size="884,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
         <widget name="statusgreen" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tvaddon/res/pics/status-on.png" alphatest="blend" position="1300,1020" size="40,40" zPosition="5"/>
@@ -329,10 +529,21 @@
         </widget>
     </screen>
     <screen name="Categories" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Addons Panels">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <panel name="boxdata1"/>
         <widget name="list" position="43,158" size="869,826" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1"/>
         <eLabel name="" position="1734,1016" size="55,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="MENU"/>
@@ -398,10 +609,21 @@
         <panel name="Categories"/>
     </screen>
     <screen name="tvIPK" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Addons Panels">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="info" position="42,109" size="1030,70" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
         <widget name="info1" position="41,183" size="1030,100" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
         <widget name="list" position="43,296" size="869,688" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1"/>
@@ -447,10 +669,21 @@
         </widget>
     </screen>
     <screen name="tvConfig" position="center,center" size="1920,1080" title="Config" backgroundColor="#ff000000" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <widget name="config" position="49,191" size="850,650" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" foregroundColorSelected="#ffffff" backgroundColor="#20000000" backgroundColorSelected="#0b2049"/>
         <widget name="description" position="61,878" size="845,113" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
         <widget name="info" position="51,119" size="850,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5"/>
@@ -507,9 +740,14 @@
     <!--  RADIO M                              * -->
     <!-- *************************************** -->
     <screen name="radiom1" position="center,center" size="1920,1080" title="Radio Stream Live by Lululla" backgroundColor="background" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="timedate"/>
-        <panel name="pigscreen885"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
         <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
@@ -546,67 +784,78 @@
         <eLabel backgroundColor="#0000ff00" position="615,1055" size="210,6" zPosition="12"/>
         <eLabel backgroundColor="#000000ff" position="835,1055" size="210,6" zPosition="12"/>
     </screen>
-    <!-- ************* NSS Panels ************* -->
-    <screen name="menu_Menu" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Menu Fenice">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
-        <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="pigscreen885"/>
-        <panel name="boxdata1"/>
-        <ePixmap name="" position="1638,719" size="220,136" pixmap="sf/logo.png" alphatest="blend" zPosition="1" transparent="1"/>
-        <widget source="list" render="Listbox" position="43,96" size="869,830" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1">
-            <convert type="TemplatedMultiContent">
-				{"template": [
-					MultiContentEntryText(pos = (90, 3), size = (700, 30), font=0, flags = RT_HALIGN_LEFT | RT_HALIGN_LEFT, text = 1),
-					MultiContentEntryText(pos = (100, 33), size = (640, 50), font=0, color=0x64ccfe, flags = RT_VALIGN_CENTER, text = 2),
-					MultiContentEntryPixmapAlphaTest(pos=(5, 1), size=(72, 72), png = 3),
-					],
-					"fonts": [gFont("Regular", 30)],
-					"itemHeight": 80
-				}
-			</convert>
-        </widget>
-        <widget source="conn" render="Label" position="33,941" size="878,64" font="Regular;32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1"/>
-    </screen>
     <!-- *************************************** -->
     <!--  MenuSat PANELS                           * -->
     <!-- *************************************** -->
     <screen name="Menu" position="center,center" size="1920,1080" title="Menu Fenice" backgroundColor="black" flags="wfNoBorder">
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
-        <panel name="menulistpli"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
+        <!-- /* list -->
+        <widget source="menu" render="Listbox" position="36,110" size="890,770" enableWrapAround="1" zPosition="44" itemHeight="70" scrollbarMode="showNever" itemCornerRadius="20">
+            <convert type="TemplatedMultiContent">
+				{"template": [ MultiContentEntryText(pos = (30,0),size = (900,70),flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,text = 0) ],
+		"fonts": [gFont("Regular",36)],
+		"itemHeight": 70
+	}
+			</convert>
+        </widget>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
-        <panel name="menudesc"/>
-        <panel name="menusep"/>
+        <widget source="description" render="Label" position="36,941" size="890,60" conditional="description" font="Regular; 24" valign="center" halign="left" backgroundColor="background" transparent="1" zPosition="44">
+            <convert type="ConditionalShowHide"/>
+        </widget>
+        <eLabel backgroundColor="mcolor3" cornerRadius="3" position="36,932" size="400,3" zPosition="99"/>
+        <eLabel backgroundColor="mcolor3" cornerRadius="3" position="524,932" size="400,3" zPosition="99"/>
+        <eLabel name="" position="416,916" size="132,40" font="icomoon; 36" text="" transparent="1" valign="center" halign="center" zPosition="99"/>
         <panel name="boxdata1"/>
-        <panel name="pigscreen885"/>
-        <ePixmap name="" position="1638,719" size="220,136" pixmap="sf/logo.png" alphatest="blend" zPosition="1" transparent="1"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
         <eLabel name="" position="1658,1018" size="55,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="MENU"/>
         <eLabel name="" position="1718,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="HELP"/>
+        <panel name="Logo"/>
+        <panel name="bLogo"/>
     </screen>
     <!-- *************************************** -->
     <!--  QuitMainloopScreen                   * -->
     <!-- *************************************** -->
     <screen name="QuitMainloopScreen" position="center,center" size="1920,1080" backgroundColor="#ff000000" flags="wfNoBorder">
-        <ePixmap pixmap="sf/welcome.png" position="center,center" size="1920,1080" scale="1" zPosition="1" transparent="1"/>
-        <widget name="text" position="78,12" size="1770,60" font="Regular; 50" halign="center" valign="center" backgroundColor="#ffffffff" foregroundColor="gold" zPosition="2"/>
-        <eLabel name="" position="7,957" size="321,121" font="Regular; 34" backgroundColor="background" text="Welcome to ...  Satellite-Forum.com @Lululla" zPosition="2" transparent="1" halign="center" foregroundColor="yellow"/>
+        <ePixmap pixmap="sf/welcome.png" position="center,center" size="1920,1080" scale="1" zPosition="1" transparent="1" />
+        <widget name="text" position="78,12" size="1770,60" font="Regular; 50" halign="center" valign="center" backgroundColor="#ffffffff" foregroundColor="gold" zPosition="2" />
+        <eLabel name="" position="7,957" size="321,121" font="Regular; 34" backgroundColor="background" text="Welcome from ...  @Lululla" zPosition="2" transparent="1" halign="center" foregroundColor="yellow" />
     </screen>
     <!-- bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb -->
     <screen name="Logo">
-        <ePixmap name="" position="1525,902" size="350,70" pixmap="sf/logo.png" alphatest="blend" zPosition="1" transparent="1"/>
+        <ePixmap name="" position="1525,585" size="350,300" pixmap="sf/imagelogo.png" alphatest="blend" zPosition="1" transparent="1" scale="1" />
     </screen>
     <screen name="bLogo">
-        <ePixmap name="" position="1525,902" size="350,70" pixmap="sf/logo.png" alphatest="blend" zPosition="1" transparent="1"/>
+        <ePixmap name="" position="1525,902" size="350,100" pixmap="sf/boximage.png" alphatest="blend" zPosition="1" transparent="1" scale="1"/>
     </screen>
     <!-- *************************************** -->
     <!--  SetPiconPath Folder                              * -->
     <!-- *************************************** -->
     <screen name="SetPiconPath" position="center,center" size="1920,1080" title="Select path for Picons" backgroundColor="background" flags="wfNoBorder">
         <widget name="target" position="997,607" size="885,180" font="Regular; 28" halign="left" valign="top" backgroundColor="background" transparent="1" zPosition="55"/>
-        <panel name="pigscreen885"/>
-        <panel name="titletemp"/>
-        <panel name="menutemp"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <!-- /* time -->
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <widget name="filelist" position="40,100" size="890,900" font="Regular;34" itemHeight="50" transparent="1" itemCornerRadius="8" valign="center" sscrollbarMode="showOnDemand" scrollbarSliderForegroundColor="mcolor5" scrollbarSliderBorderColor="mcolor2" scrollbarWidth="10" scrollbarSliderBorderWidth="1" scrollbarMode="showNever"/>
         <!-- <panel name="bLogo" /> -->
@@ -615,5 +864,101 @@
     </screen>
     <screen name="piconPath" position="center,center" size="1920,1080" title="Select path for Picons" backgroundColor="transparent" flags="wfNoBorder">
         <panel name="SetPiconPath"/>
+    </screen>
+    <!-- *************************************** -->
+    <!--  CrashLogView                         * -->
+    <!-- *************************************** -->
+    <screen name="CrashLogScreen" position="0,0" size="1920,1080" title="View or Remove Crashlog files" backgroundColor="background" flags="wfNoBorder">
+        <widget source="Title" render="Label" position="90,34" size="850,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="0" zPosition="98"/>
+        <!-- /* time -->
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="wpmc" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="890,3" zPosition="99"/>
+        <widget source="session.VideoPicture" render="Pig" position="1019,100" zPosition="20" size="836,470" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
+        <ePixmap pixmap="buttons/redbutton.png" position="32,1064" size="300,6" alphatest="blend" transparent="1"/>
+        <ePixmap pixmap="buttons/greenbutton.png" position="342,1064" size="300,6" alphatest="blend" transparent="1"/>
+        <ePixmap pixmap="buttons/yellowbutton.png" position="652,1064" size="300,6" alphatest="blend" transparent="1"/>
+        <ePixmap pixmap="buttons/bluebutton.png" position="962,1064" size="300,6" alphatest="blend" transparent="1"/>
+        <widget source="Redkey" render="Label" position="32,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <widget source="Greenkey" render="Label" position="342,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <widget source="Yellowkey" render="Label" position="652,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <widget source="Bluekey" render="Label" position="962,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <widget source="menu" render="Listbox" position="36,98" size="890,840" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="mcolor5" scrollbarSliderBorderColor="mcolor2" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" itemHeight="70" itemCornerRadius="8">
+            <convert type="TemplatedMultiContent">
+        {"template": [
+    MultiContentEntryText(pos = (70, 2), size = (700, 34), font=0, flags = RT_HALIGN_LEFT, text = 0),
+    MultiContentEntryText(pos = (80, 29), size = (700, 30), font=1, flags = RT_HALIGN_LEFT, text = 1),
+    MultiContentEntryPixmapAlphaTest(pos = (5, 15), size = (51, 40), png = 2),
+            ],
+    "fonts": [gFont("Regular", 30),gFont("Regular", 26)],
+    "itemHeight": 70
+    }
+        </convert>
+        </widget>
+        <eLabel name="" position="1778,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO"/>
+    
+        <panel name="Logo"/>
+        <panel name="bLogo"/>
+    </screen>
+    <!-- =================================================== -->
+    <screen name="CrashLogView" position="0,0" size="1920,1080" title="View Crashlog file" backgroundColor="transparent" flags="wfNoBorder">
+        <widget font="Bold; 34" halign="right" position="1440,40" render="Label" size="450,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <widget source="Title" render="Label" position="90,34" size="1340,52" font="Regular; 32" noWrap="1" transparent="1" valign="center" zPosition="1" halign="left" textOffset="44,0"/>
+        <eLabel backgroundColor="wpmc" cornerRadius="0" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="20,30" size="1880,977" zPosition="-90" cornerRadius="30" backgroundColor="mcolor2" foregroundColor="mcolor2"/>
+        <eLabel name="" position="1838,1018" size="52,52" backgroundColor="mcolor4" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="EXIT"/>
+        <panel name="ScreenPath"/>
+        <ePixmap pixmap="top_logo.png" position="42,39" size="40,40" alphatest="on" transparent="1" zPosition="98"/>
+        <eLabel backgroundColor="buttonsc" cornerRadius="3" position="36,90" size="1860,3" zPosition="99"/>
+        <eLabel backgroundColor="#fe0000" cornerRadius="3" position="32,1064" size="300,6" zPosition="-11"/>
+        <widget source="Greenkey" render="Label" position="342,1014" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <ePixmap pixmap="buttons/greenbutton.png" position="342,1064" size="300,6" alphatest="blend" transparent="1"/>
+        <widget source="Redkey" render="Label" position="32,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <ePixmap pixmap="buttons/redbutton.png" position="32,1064" size="300,6" alphatest="blend" transparent="1"/>
+        <widget name="text" position="50,130" size="1822,534" font="Console; 24" text="text" transparent="1" zPosition="1" backgroundColor="background" valign="top" halign="left"/>
+        <widget name="text2" position="50,841" size="1822,153" font="Console; 26" text="text2" foregroundColor="red" transparent="1" zPosition="1" valign="top" halign="left"/>
+        <eLabel backgroundColor="mcolor3" cornerRadius="3" position="40,816" size="850,3" zPosition="99"/>
+        <eLabel backgroundColor="mcolor3" cornerRadius="3" position="1030,816" size="850,3" zPosition="99"/>
+        <eLabel name="" position="895,800" size="132,40" font="icomoon; 36" text="" transparent="1" valign="center" halign="center" zPosition="99"/>
+    </screen>
+    <!-- *************************************** -->
+    <!--  Achescript                         * -->
+    <!-- *************************************** -->
+    <screen name="OpenScript" position="center,center" size="1920,1080" Title="Acherone Script" backgroundColor="transparent" flags="wfNoBorder">
+        <widget source="list" render="Listbox" position="56,151" size="838,695" font="Regular;34" itemHeight="50" scrollbarMode="showOnDemand" transparent="1" zPosition="5" foregroundColor="#00a0a0a0" foregroundColorSelected="#ffffff" backgroundColor="#20000000" backgroundColorSelected="#0b2049">
+            <convert type="TemplatedMultiContent">
+                    {"template": [
+                        MultiContentEntryText(pos=(0, 0), size=(800, 50), font=0, flags=RT_HALIGN_LEFT, text=1),  # Script name
+                    ],
+                    "fonts": [gFont("Regular", 34)],
+                    "itemHeight": 50}
+                </convert>
+        </widget>
+        <widget name="line1" position="134,34" size="776,80" font="Regular;42" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="1"/>
+        <widget name="description" position="42,856" size="877,141" font="Regular; 36" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="1"/>
+        <widget font="Regular; 30" halign="right" position="1401,20" render="Label" size="500,40" source="global.CurrentTime" transparent="1">
+            <convert type="ClockToText">Format:%a %d.%m. | %H:%M</convert>
+        </widget>
+        <eLabel backgroundColor="red" cornerRadius="3" position="34,1064" size="296,6" zPosition="11"/>
+        <eLabel backgroundColor="green" cornerRadius="3" position="342,1064" size="300,6" zPosition="11"/>
+        <eLabel backgroundColor="yellow" cornerRadius="3" position="652,1064" size="300,6" zPosition="11"/>
+        <widget name="key_red" render="Label" position="32,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <widget name="key_green" render="Label" position="342,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <widget name="key_yellow" render="Label" position="652,1016" size="300,45" zPosition="11" font="Regular; 30" valign="center" halign="center" backgroundColor="background" transparent="1" foregroundColor="white"/>
+        <eLabel backgroundColor="#002d3d5b" cornerRadius="20" position="0,0" size="1920,1080" zPosition="-99"/>
+        <eLabel backgroundColor="#001a2336" cornerRadius="30" position="20,1014" size="1880,60" zPosition="-80"/>
+        <eLabel name="" position="31,30" size="901,977" zPosition="-90" cornerRadius="18" backgroundColor="#00171a1c" foregroundColor="#00171a1c"/>
+        <widget source="session.VideoPicture" render="Pig" position="997,100" zPosition="19" size="880,499" backgroundColor="transparent" transparent="0" cornerRadius="14"/>
+        <panel name="Logo"/>
+        <panel name="bLogo"/>
     </screen>
 </skin>

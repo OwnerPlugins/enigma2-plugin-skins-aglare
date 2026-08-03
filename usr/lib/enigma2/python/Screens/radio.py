@@ -7,7 +7,7 @@ from Lululla to Mmark
 """
 from __future__ import print_function
 from datetime import datetime as dt
-from os import remove, replace, walk
+from os import remove, replace, walk, makedirs
 from os.path import dirname, exists, getsize
 from sys import version_info
 from time import time
@@ -44,6 +44,7 @@ from Screens.InfoBarGenerics import (
 )
 from Screens.Screen import Screen
 from Tools.Directories import resolveFilename
+import hashlib
 
 import gettext
 _ = gettext.gettext
@@ -67,18 +68,26 @@ from Lululla to Mmark 2020
 """
 
 # constant
-version = '1.1'
+version = '1.5'
 HD = getDesktop(0).size()
 PY3 = version_info.major >= 3
 screenWidth = getDesktop(0).size().width()
 cur_skin = config.skin.primary_skin.value.replace('/skin.xml', '')
 path_png = dirname(resolveFilename(SCOPE_SKIN, str(cur_skin))) + "/radio/"
 sc = AVSwitch().getFramebufferScale()
+
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Language": "de,en-US;q=0.7,en;q=0.3",
-    "Accept-Encoding": "gzip, deflate"}
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1"
+}
 
 
 def ReadUrl2(url, referer):
@@ -271,6 +280,30 @@ def titlesong(url):
         return {"error": str(e)}
 
 
+def download_image(url, cache_path="/tmp/radiom_cache/"):
+    """Scarica un'immagine da URL e restituisce il percorso locale."""
+    try:
+        if not exists(cache_path):
+            makedirs(cache_path)
+
+        filename = hashlib.md5(url.encode('utf-8')).hexdigest() + ".jpg"
+        local_file = cache_path + filename
+
+        if exists(local_file):
+            return local_file
+
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        if response.status_code == 200:
+            with open(local_file, 'wb') as f:
+                f.write(response.content)
+            return local_file
+
+    except Exception as e:
+        print("Download error:", e)
+
+    return None
+
+
 class radiom1(Screen):
     def __init__(self, session):
         Screen.__init__(self, session)
@@ -318,55 +351,70 @@ class radiom1(Screen):
         self.picload.setPara((x, y, sc[0], sc[1], 0, 1, "#00000000"))
         self.picload.addCallback(self.showback)
         self.picload.startDecode(pic)
-        self["setupActions"] = ActionMap(["HotkeyActions",
-                                          "OkCancelActions",
-                                          "TimerEditActions",
-                                          "DirectionActions"],
-                                         {"red": self.close,
-                                          "green": self.okClicked,
-                                          "cancel": self.close,
-                                          "up": self.up,
-                                          "down": self.down,
-                                          "left": self.left,
-                                          "right": self.right,
-                                          "ok": self.okClicked},
-                                         -2)
+        self["setupActions"] = ActionMap(
+            [
+                "HotkeyActions",
+                "OkCancelActions",
+                "TimerEditActions",
+                "DirectionActions"
+            ],
+            {
+                "red": self.close,
+                "green": self.okClicked,
+                "cancel": self.close,
+                "up": self.up,
+                "down": self.down,
+                "left": self.left,
+                "right": self.right,
+                "ok": self.okClicked
+            }, -2
+        )
         self.onLayoutFinish.append(self.openTest)
 
     def openTest(self):
         self.names = []
         self.urls = []
         self.pics = []
-        self.names.append('PLAYLIST')
-        self.urls.append('http://75.119.158.76:8090/radio.mp3')
-        self.pics.append(path_png + "ft.jpg")
-        self.names.append('RADIO 80')
-        self.urls.append('http://laut.fm/fm-api/stations/soloanni80')
-        self.pics.append(path_png + "80s.png")
-        self.names.append('80ER')
-        self.urls.append('http://laut.fm/fm-api/stations/80er')
-        self.pics.append(path_png + "80er.png")
-        self.names.append('SCHLAGER-RADIO')
-        self.urls.append('http://laut.fm/fm-api/stations/schlager-radio')
-        self.pics.append(path_png + "shclager.png")
-        self.names.append('1000OLDIES')
-        self.urls.append('http://laut.fm/fm-api/stations/1000oldies')
-        self.pics.append(path_png + "1000oldies.png")
-        self.names.append('REGGAETON')
-        self.urls.append('https://laut.fm/fm-api/stations/reggaeton')
-        self.pics.append(path_png + "reggaeton.png")
-        self.names.append('FLASHBASS-FM')
-        self.urls.append('https://laut.fm/fm-api/stations/flashbass-fm')
-        self.pics.append(path_png + "flashbass.png")
-        self.names.append('1000GOLD')
-        self.urls.append('https://laut.fm/fm-api/stations/1000goldschlager')
-        self.pics.append(path_png + "1000gold.png")
-        self.names.append('SIMLIVERADIO')
-        self.urls.append('https://laut.fm/fm-api/stations/simliveradio')
-        self.pics.append(path_png + "simliveradio.png")
-        self.names.append('RADIO CYRUS')
-        self.urls.append('http://75.119.158.76:8090/radio.mp3')
-        self.pics.append(path_png + "ft.jpg")
+        self.descriptions = []
+
+        all_stations = []
+        page = 1
+        while True:
+            api_url = f"https://api.laut.fm/stations?limit=50&page={page}&order=click&reverse=1"
+            try:
+                resp = requests.get(api_url, headers=HEADERS, timeout=10)
+                if resp.status_code != 200:
+                    break
+                data = resp.json()
+                stations = data if isinstance(data, list) else data.get("stations", [])
+                if not stations:
+                    break
+                all_stations.extend(stations)
+                page += 1
+                if page > 25:
+                    break
+            except Exception as e:
+                print(f"Error: {e}")
+                break
+
+        for station in all_stations:
+            name = station.get("display_name") or station.get("name")
+            if name:
+                self.names.append(str(name))
+                self.urls.append(str(station.get("stream_url", "")))
+                pics = station.get("images", {})
+                pic_url = pics.get("station_120x120", "") or pics.get("station", "")
+                self.pics.append(pic_url if pic_url else path_png + "/ft.jpg")
+                self.descriptions.append(station.get("description", ""))
+
+        self.names.insert(0, 'PLAYLIST')
+        self.urls.insert(0, 'http://75.119.158.76:8090/radio.mp3')
+        self.pics.insert(0, path_png + "/ft.jpg")
+
+        self.names.insert(1, 'RADIO CYRUS')
+        self.urls.insert(1, 'http://75.119.158.76:8090/radio.mp3')
+        self.pics.insert(1, path_png + "/ft.jpg")
+
         showlist(self.names, self['list'])
 
     def okClicked(self):
@@ -387,9 +435,16 @@ class radiom1(Screen):
         idx = self['list'].getSelectionIndex()
         if idx is None:
             return
+
         pic = self.pics[idx]
+
+        if isinstance(pic, str) and pic.startswith('http'):
+            local_pic = download_image(pic)
+            pic = local_pic if local_pic else path_png + "/ft.jpg"
+        else:
+            pic = path_png + "/ft.jpg"
+
         self.picload = PicLoader()
-        resizePoster(x, y, pic)
         self.picload.setPara((x, y, sc[0], sc[1], 0, 1, "#00000000"))
         self.picload.addCallback(self.showback)
         self.picload.startDecode(pic)
@@ -704,10 +759,28 @@ class radiom80(Screen):
         self.player = '1'
         self.picload = PicLoader()
         global x, y
+        # pic = pic.replace("\n", "").replace("\r", "")
+        # x = 340
+        # y = 340
+        # resizePoster(x, y, pic)
+
         pic = pic.replace("\n", "").replace("\r", "")
-        x = 340
-        y = 340
+        x = 430
+        y = 430
+        if screenWidth == 1920:
+            x = 340
+            y = 340
+        if screenWidth == 2560:
+            x = 640
+            y = 640
+
+        if pic.startswith('http'):
+            local_pic = download_image(pic)
+            pic = local_pic if local_pic else path_png + "/ft.jpg"
+        else:
+            pic = path_png + "/ft.jpg"
         resizePoster(x, y, pic)
+
         self.picload.setPara((x, y, sc[0], sc[1], 0, 1, "#00000000"))
         self.picload.addCallback(self.showback)
         self.picload.startDecode(self.pic)
@@ -735,21 +808,25 @@ class radiom80(Screen):
         self['key_blue'] = Label("Player 1-2-3")
         self['key_green'] = Button(_('Select'))
         self['key_green'].hide()
-        self["actions"] = ActionMap(["OkActions",
-                                     "SetupActions",
-                                     "ColorActions",
-                                     "EPGSelectActions",
-                                     "InfoActions",
-                                     "CancelActions"],
-                                    {"red": self.cancel,
-                                     "back": self.cancel,
-                                     "blue": self.typeplayer,
-                                     "green": self.openPlay,
-                                     "info": self.countdown,
-                                     "cancel": self.cancel,
-                                     "ok": self.openPlay,
-                                     },
-                                    -2)
+        self["actions"] = ActionMap(
+            [
+                "OkActions",
+                "SetupActions",
+                "ColorActions",
+                "EPGSelectActions",
+                "InfoActions",
+                "CancelActions"
+            ],
+            {
+                "red": self.cancel,
+                "back": self.cancel,
+                "blue": self.typeplayer,
+                "green": self.openPlay,
+                "info": self.countdown,
+                "cancel": self.cancel,
+                "ok": self.openPlay,
+            }, -2
+        )
         self.onShow.append(self.openTest)
 
     def typeplayer(self):
@@ -874,103 +951,71 @@ class radiom80(Screen):
         except Exception as e:
             print("Error download:", str(e))
 
+    def loadPlaylist(self):
+        """Carica i dati della stazione da API laut.fm (versione corretta)."""
+        try:
+            station_name = self.name.lower().replace(" ", "-")
+            station_url = f"https://api.laut.fm/station/{station_name}"
+            data_station = titlesong2(station_url)
+
+            if "error" in data_station:
+                print("Station error:", data_station["error"])
+                return
+
+            display_name = data_station.get("display_name", self.name)
+            stream_url = data_station.get("stream_url", "")
+            listeners = data_station.get("listeners", 0)
+            fmt = data_station.get("format", "")
+            description = data_station.get("description", "")
+            djs = data_station.get("djs", "")
+
+            # Current song
+            song_url = f"https://api.laut.fm/station/{station_name}/current_song"
+            data_song = titlesong2(song_url)
+
+            if "error" in data_song:
+                current_song = _("No song")
+            else:
+                artist = data_song.get("artist", {}).get("name", "")
+                title = data_song.get("title", "")
+                current_song = f"{artist} - {title}".strip(" -")
+                if not current_song:
+                    current_song = _("Unknown")
+
+                # Aggiorna cover se cambiata
+                if hasattr(self, 'last_song') and self.last_song != current_song:
+                    self.downloadCover(current_song)
+                    self.selectpic()
+                elif not hasattr(self, 'last_song'):
+                    self.downloadCover(current_song)
+                    self.selectpic()
+                self.last_song = current_song
+
+            self['current_song'].setText(current_song)
+            self['listeners'].setText(_('Online: ') + str(listeners))
+            self['format'].setText(fmt)
+            self['description'].setText(description)
+            self['djs'].setText(_('Dj: ') + str(djs))
+
+            self.names = [display_name]
+            self.urls = [stream_url]
+            self['info'].setText(_('Select and Play'))
+            self['key_green'].show()
+            showlist(self.names, self['list'])
+
+        except Exception as e:
+            print("Error in loadPlaylist:", e)
+            import traceback
+            traceback.print_exc()
+
     def openTest(self):
+        """Avvia il caricamento della playlist con timer."""
         self.timer = eTimer()
         try:
             self.timer_conn = self.timer.timeout.connect(self.loadPlaylist)
         except BaseException:
             self.timer.callback.append(self.loadPlaylist)
         self.timer.start(250, True)
-
-    def loadPlaylist(self):
-        try:
-            self.names = []
-            self.urls = []
-            display_name = ''
-            page_url = ''
-            stream_url = ''
-            current_song = ''
-            listeners = ''
-            format = ''
-            description = ''
-            djs = ''
-            data = titlesong2(self.url)
-            if "error" in data:
-                print("Errore:", data["error"])
-                self.okcoverdown = 'failed'
-                return
-            for cat in data:
-                if "stream_url" in cat:
-                    if "display_name" in cat:
-                        display_name = str(cat["display_name"])
-
-                    if "page_url" in cat:
-                        page_url = str(cat["page_url"])
-                        print('page_url = ', page_url)
-
-                    if "stream_url" in cat:
-                        stream_url = str(cat["stream_url"])
-                        print('stream_url = ', stream_url)
-
-                    if "current_song" in cat["api_urls"]:
-                        urla = cat["api_urls"]["current_song"]
-                        self.backing = str(urla)
-                        print('url song = ', self.backing)
-                        current_song_data = titlesong2(urla)
-                        if "error" in current_song_data:
-                            print(
-                                'Errore nel recuperare la canzone:',
-                                current_song_data["error"])
-                            current_song = _("Error retrieving song")
-                        else:
-                            current_song = current_song_data.get(
-                                "title", _("Unknown Title"))
-                            print('current_song =', current_song)
-
-                            if hasattr(self, 'last_song'):
-                                if self.last_song != current_song:
-                                    self.downloadCover(current_song)
-                                    self.selectpic()
-                            else:
-                                self.downloadCover(current_song)
-                                self.selectpic()
-
-                            self.last_song = current_song
-
-                    if "listeners" in cat["api_urls"]:
-                        urlb = str(cat["api_urls"]["listeners"])
-                        print("Type of data listeners:", type(urlb))
-                        listeners = self.listener(urlb)
-                        print('listeners = ', listeners)
-
-                    if "format" in cat:
-                        format = str(cat["format"])
-                        print('format = ', format)
-
-                    if "description" in cat:
-                        description = str(cat["description"])
-
-                    if "djs" in cat:
-                        djs = str(cat["djs"])
-                        print('djs = ', djs)
-
-                    self['current_song'].setText(str(current_song))
-                    self['listeners'].setText(_('Online: ') + str(listeners))
-                    self['format'].setText(_(format))
-                    self['description'].setText(_(description))
-                    self['djs'].setText(_('Dj: ') + str(djs))
-
-                    self.names.append(display_name)
-                    self.urls.append(stream_url)
-
-                self.countdown()
-                print('current_song = ', current_song)
-                self['info'].setText(_('Select and Play'))
-                self['key_green'].show()
-                showlist(self.names, self['list'])
-        except Exception as e:
-            print("Error loadPlaylist:", str(e))
-            self.okcoverdown = 'failed'
 
     def countdown(self):
         try:
@@ -999,19 +1044,6 @@ class radiom80(Screen):
 
         except Exception as e:
             print("Error countdown:", e)
-
-    def openTest2(self):
-        print('duration mmm: ', self.duration)
-        print(type(self.duration))
-        if self.duration > 0:
-            duration_seconds = int(self.duration)
-            print("Timer in sec:", duration_seconds)
-            self.timer = eTimer()
-            try:
-                self.timer_conn = self.timer.timeout.connect(self.countdown)
-            except BaseException:
-                self.timer.callback.append(self.countdown)
-            self.timer.start(duration_seconds * 1000, False)
 
     def openPlay(self):
         idx = self["list"].getSelectionIndex()
