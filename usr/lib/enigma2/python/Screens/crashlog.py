@@ -323,7 +323,11 @@ class CrashLogScreen(Screen):
         item = self["menu"].getCurrent()
         print("DEBUG: item =", item, "type =", type(item))
         if item:
-            print("DEBUG: len(item) =", len(item) if hasattr(item, '__len__') else 'N/A')
+            print(
+                "DEBUG: len(item) =",
+                len(item) if hasattr(
+                    item,
+                    '__len__') else 'N/A')
         try:
             if item and len(item) >= 4 and item[3]:
                 Crashfile = str(item[3])
