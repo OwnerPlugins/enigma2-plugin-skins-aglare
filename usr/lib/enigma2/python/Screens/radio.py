@@ -86,8 +86,7 @@ HEADERS = {
     "Sec-Fetch-Dest": "document",
     "Sec-Fetch-Mode": "navigate",
     "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1"
-}
+    "Sec-Fetch-User": "?1"}
 
 
 def ReadUrl2(url, referer):
@@ -386,7 +385,9 @@ class radiom1(Screen):
                 if resp.status_code != 200:
                     break
                 data = resp.json()
-                stations = data if isinstance(data, list) else data.get("stations", [])
+                stations = data if isinstance(
+                    data, list) else data.get(
+                    "stations", [])
                 if not stations:
                     break
                 all_stations.extend(stations)
@@ -403,7 +404,9 @@ class radiom1(Screen):
                 self.names.append(str(name))
                 self.urls.append(str(station.get("stream_url", "")))
                 pics = station.get("images", {})
-                pic_url = pics.get("station_120x120", "") or pics.get("station", "")
+                pic_url = pics.get(
+                    "station_120x120", "") or pics.get(
+                    "station", "")
                 self.pics.append(pic_url if pic_url else path_png + "/ft.jpg")
                 self.descriptions.append(station.get("description", ""))
 
@@ -983,7 +986,9 @@ class radiom80(Screen):
                     current_song = _("Unknown")
 
                 # Aggiorna cover se cambiata
-                if hasattr(self, 'last_song') and self.last_song != current_song:
+                if hasattr(
+                        self,
+                        'last_song') and self.last_song != current_song:
                     self.downloadCover(current_song)
                     self.selectpic()
                 elif not hasattr(self, 'last_song'):
