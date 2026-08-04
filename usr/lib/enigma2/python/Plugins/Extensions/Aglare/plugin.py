@@ -1063,7 +1063,10 @@ class AglareSetup(ConfigListScreen, Screen):
         elif cur_skin == "Aglare-FHD":
             version_file = "/usr/share/enigma2/Aglare-FHD/.Aglare-FHD"
         else:
-            self.session.open(MessageBox, _("Skin not supported."), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox,
+                _("Skin not supported."),
+                MessageBox.TYPE_ERROR)
             self.close()
             return
 
@@ -1074,7 +1077,9 @@ class AglareSetup(ConfigListScreen, Screen):
                     f.write(version)   # 'version' is defined globally as '7.1'
                 print("Version file created:", version_file)
             except Exception as e:
-                self.session.open(MessageBox, _("Cannot create version file: {}").format(str(e)), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox, _("Cannot create version file: {}").format(
+                        str(e)), MessageBox.TYPE_ERROR)
                 self.close()
                 return
 
@@ -1131,7 +1136,11 @@ class AglareSetup(ConfigListScreen, Screen):
 
             # Load all files up to secondinfobar
             for filename in xml_files[:12]:
-                skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + filename + '.xml'))
+                skin_lines.extend(
+                    load_xml_to_skin_lines(
+                        self.previewFiles +
+                        filename +
+                        '.xml'))
 
             # Special management for channellists
             cur_skin = config.skin.primary_skin.value.replace("/skin.xml", "")
@@ -1151,27 +1160,45 @@ class AglareSetup(ConfigListScreen, Screen):
                                 try:
                                     shutil.copy2(w_src_file, w_dest_file)
                                 except Exception as e:
-                                    print(f"Error copying {w_src_file} to {w_dest_file}: {e}")
+                                    print(
+                                        f"Error copying {w_src_file} to {w_dest_file}: {e}")
                     else:
-                        print(f"Source directory does not exist: {window_color_dir}")
+                        print(
+                            f"Source directory does not exist: {window_color_dir}")
 
-                channellist_file = self.previewFiles + 'channellist-' + cfg.ChannSelector.value + '.xml'
+                channellist_file = self.previewFiles + \
+                    'channellist-' + cfg.ChannSelector.value + '.xml'
                 try:
                     with open(channellist_file, 'r') as f:
                         channellist_content = f.read()
-                    channellist_content = self.modify_channel_colors(channellist_content)
+                    channellist_content = self.modify_channel_colors(
+                        channellist_content)
                     skin_lines.extend(channellist_content.splitlines(True))
                 except FileNotFoundError:
-                    print("Channel selection file not found:", channellist_file)
+                    print(
+                        "Channel selection file not found:",
+                        channellist_file)
             else:
-                skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + 'channellist-' + cfg.ChannSelector.value + '.xml'))
+                skin_lines.extend(
+                    load_xml_to_skin_lines(
+                        self.previewFiles +
+                        'channellist-' +
+                        cfg.ChannSelector.value +
+                        '.xml'))
 
             # Load the remaining files
             for filename in xml_files[12:]:
-                skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + filename + '.xml'))
+                skin_lines.extend(
+                    load_xml_to_skin_lines(
+                        self.previewFiles +
+                        filename +
+                        '.xml'))
 
             base_file = 'base1.xml' if cfg.skinSelector.value == 'base1' else 'base.xml'
-            skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + base_file))
+            skin_lines.extend(
+                load_xml_to_skin_lines(
+                    self.previewFiles +
+                    base_file))
 
             print("Writing to file: {}".format(self.skinFile))
             with open(self.skinFile, 'w') as xFile:
@@ -1190,15 +1217,16 @@ class AglareSetup(ConfigListScreen, Screen):
                         print("Error copying {}: {}".format(extra_file, e))
 
         except Exception as e:
-            self.session.open(MessageBox, _('Error processing skin file: {}').format(str(e)), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _('Error processing skin file: {}').format(
+                    str(e)), MessageBox.TYPE_ERROR)
 
         # Ask to restart GUI
         restartbox = self.session.openWithCallback(
             self.restartGUI,
             MessageBox,
             _('GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?'),
-            MessageBox.TYPE_YESNO
-        )
+            MessageBox.TYPE_YESNO)
         restartbox.setTitle(_('Restart GUI now?'))
 
     def restartGUI(self, answer):
