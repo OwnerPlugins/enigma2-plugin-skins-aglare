@@ -153,7 +153,7 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr "ChannelSelection_big_mini_tv"
 
 msgid "Choice device download image folder"
-msgstr "Scelta della cartella delle immagini per il download del dispositivo"
+msgstr "Scelta cartella immagini download"
 
 msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
 msgstr "Scegli se il bitrate viene mostrato in Kb/s o Mb/s."

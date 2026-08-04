@@ -1055,15 +1055,30 @@ class AglareSetup(ConfigListScreen, Screen):
 
     def keySave(self):
         self._sync_infobar_dependents_for_style()
-        if not skinversion:
-            self.session.open(
-                MessageBox,
-                "Skin version file missing or invalid.",
-                MessageBox.TYPE_ERROR)
+
+        # --- Determine version file path from active skin ---
+        cur_skin = config.skin.primary_skin.value.replace("/skin.xml", "")
+        if cur_skin == "Aglare-FHD-PLI":
+            version_file = "/usr/share/enigma2/Aglare-FHD-PLI/.Aglare-FHD-PLI"
+        elif cur_skin == "Aglare-FHD":
+            version_file = "/usr/share/enigma2/Aglare-FHD/.Aglare-FHD"
+        else:
+            self.session.open(MessageBox, _("Skin not supported."), MessageBox.TYPE_ERROR)
             self.close()
             return
 
-        self.version = skinversion
+        # If version file doesn't exist, create it with current version
+        if not fileExists(version_file):
+            try:
+                with open(version_file, 'w') as f:
+                    f.write(version)   # 'version' is defined globally as '7.1'
+                print("Version file created:", version_file)
+            except Exception as e:
+                self.session.open(MessageBox, _("Cannot create version file: {}").format(str(e)), MessageBox.TYPE_ERROR)
+                self.close()
+                return
+
+        self.version = version_file
         print("version skin: {}".format(self.version))
 
         # Update the path depending on the image group selected
@@ -1079,18 +1094,9 @@ class AglareSetup(ConfigListScreen, Screen):
             except FileNotFoundError:
                 return []
 
-        if not fileExists(self.version):
-            print("File not found: {}".format(self.version))
-            for x in self['config'].list:
-                if len(x) > 1:
-                    print("Cancelling {}".format(x[1]))
-                    x[1].cancel()
-            self.close()
-            return
-
         print("File exists, proceeding with saving...")
         for x in self['config'].list:
-            if len(x) > 1:  # Check if x has at least two elements
+            if len(x) > 1:
                 print("Saving {}".format(x[1]))
                 x[1].save()
 
@@ -1116,7 +1122,6 @@ class AglareSetup(ConfigListScreen, Screen):
                 'secondinfobar-' + cfg.SecondInfobarPosterx.value,
                 'secondinfobar-' + cfg.SecondInfobarXtraevent.value,
 
-                # Channel list managed separately after this point
                 'eventview-' + cfg.EventView.value,
                 'vol-' + cfg.VolumeBar.value,
                 'emc-' + cfg.Emc.value,
@@ -1125,13 +1130,8 @@ class AglareSetup(ConfigListScreen, Screen):
             ]
 
             # Load all files up to secondinfobar
-            # The first 12 elements (up to secondinfobar)
             for filename in xml_files[:12]:
-                skin_lines.extend(
-                    load_xml_to_skin_lines(
-                        self.previewFiles +
-                        filename +
-                        '.xml'))
+                skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + filename + '.xml'))
 
             # Special management for channellists
             cur_skin = config.skin.primary_skin.value.replace("/skin.xml", "")
@@ -1151,53 +1151,33 @@ class AglareSetup(ConfigListScreen, Screen):
                                 try:
                                     shutil.copy2(w_src_file, w_dest_file)
                                 except Exception as e:
-                                    print(
-                                        f"Error copying {w_src_file} to {w_dest_file}: {e}")
+                                    print(f"Error copying {w_src_file} to {w_dest_file}: {e}")
                     else:
-                        print(
-                            f"Source directory does not exist: {window_color_dir}")
+                        print(f"Source directory does not exist: {window_color_dir}")
 
-                channellist_file = self.previewFiles + \
-                    'channellist-' + cfg.ChannSelector.value + '.xml'
+                channellist_file = self.previewFiles + 'channellist-' + cfg.ChannSelector.value + '.xml'
                 try:
                     with open(channellist_file, 'r') as f:
                         channellist_content = f.read()
-                    channellist_content = self.modify_channel_colors(
-                        channellist_content)
-                    # Divide into rows and add
+                    channellist_content = self.modify_channel_colors(channellist_content)
                     skin_lines.extend(channellist_content.splitlines(True))
                 except FileNotFoundError:
-                    print(
-                        "Channel selection file not found:",
-                        channellist_file)
-            else:  # Aglare-FHD-PLI
-                skin_lines.extend(
-                    load_xml_to_skin_lines(
-                        self.previewFiles +
-                        'channellist-' +
-                        cfg.ChannSelector.value +
-                        '.xml'))
+                    print("Channel selection file not found:", channellist_file)
+            else:
+                skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + 'channellist-' + cfg.ChannSelector.value + '.xml'))
 
-            # Load the remaining files (eventview, vol, emc, subssupportpro,
-            # e2iplayer)
+            # Load the remaining files
             for filename in xml_files[12:]:
-                skin_lines.extend(
-                    load_xml_to_skin_lines(
-                        self.previewFiles +
-                        filename +
-                        '.xml'))
+                skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + filename + '.xml'))
 
             base_file = 'base1.xml' if cfg.skinSelector.value == 'base1' else 'base.xml'
-            skin_lines.extend(
-                load_xml_to_skin_lines(
-                    self.previewFiles +
-                    base_file))
+            skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + base_file))
 
             print("Writing to file: {}".format(self.skinFile))
             with open(self.skinFile, 'w') as xFile:
                 xFile.writelines(skin_lines)
 
-            # --- NEW CODE: Copy skin_sf.xml and skin_templates.xml ---
+            # Copy skin_sf.xml and skin_templates.xml
             dest_dir = "/usr/share/enigma2/" + cur_skin + "/"
             for extra_file in ['skin_sf.xml', 'skin_templates.xml']:
                 src_path = join(self.previewFiles, extra_file)
@@ -1209,144 +1189,16 @@ class AglareSetup(ConfigListScreen, Screen):
                     except Exception as e:
                         print("Error copying {}: {}".format(extra_file, e))
 
-            """
-            xml_files = [
-                'head-' + cfg.colorSelector.value,
-                'font-' + cfg.FontStyle.value,
-                'infobar-' + cfg.InfobarStyle.value,
-                'infobar-' + cfg.InfobarECM.value,
-                'infobar-' + cfg.InfobarPosterx.value,
-                'infobar-' + cfg.InfobarXtraevent.value,
-                'infobar-' + cfg.InfobarDate.value,
-                'infobar-' + cfg.InfobarWeather.value,
-                'secondinfobar-' + cfg.SecondInfobarStyle.value,
-                'secondinfobar-' + cfg.SecondInfobarWeather.value,
-                'secondinfobar-' + cfg.SecondInfobarPosterx.value,
-                'secondinfobar-' + cfg.SecondInfobarXtraevent.value,
-                # 'channellist-' + cfg.ChannSelector.value,
-                'eventview-' + cfg.EventView.value,
-                'vol-' + cfg.VolumeBar.value,
-                'emc-' + cfg.Emc.value,
-                'e2iplayer-' + cfg.E2iplayerskins.value
-            ]
-
-            for filename in xml_files:
-                skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + filename + '.xml'))
-
-            base_file = 'base1.xml' if cfg.skinSelector.value == 'base1' else 'base.xml'
-            skin_lines.extend(load_xml_to_skin_lines(self.previewFiles + base_file))
-
-            print("Writing to file: {}".format(self.skinFile))
-            with open(self.skinFile, 'w') as xFile:
-                xFile.writelines(skin_lines)
-            """
         except Exception as e:
-            self.session.open(
-                MessageBox,
-                _('Error by processing the skin file: {}').format(
-                    str(e)),
-                MessageBox.TYPE_ERROR)
+            self.session.open(MessageBox, _('Error processing skin file: {}').format(str(e)), MessageBox.TYPE_ERROR)
 
-        #  control softCSA
-        # tmpl = "/usr/share/enigma2/Aglare-FHD/skin_templates.xml"
-
-        # def _skip_ws_left(s, i):
-            # while i >= 0 and s[i] in " \t\r\n":
-            # i -= 1
-            # return i
-
-        # def _skip_ws_right(s, i):
-            # n = len(s)
-            # while i < n and s[i] in " \t\r\n":
-            # i += 1
-            # return i
-
-        # def toggle_softcsa_widgets_by_scan(xml_text, enable):
-            # s = xml_text
-            # out = []
-            # i = 0
-            # n = len(s)
-
-            # while True:
-            # start = s.find("<widget", i)
-            # if start == -1:
-            # out.append(s[i:])
-            # break
-
-            # end = s.find("</widget>", start)
-            # if end == -1:
-            # # malformed file; keep rest unchanged
-            # out.append(s[i:])
-            # break
-            # end_close = end + len("</widget>")
-
-            # block = s[start:end_close]
-            # has_key = ("IsSoftCSA" in block)
-
-            # # append text before this widget (or before its comment start if we remove it)
-            # out.append(s[i:start])
-
-            # if not has_key:
-            # out.append(block)
-            # i = end_close
-            # continue
-
-            # # detect wrappers: <!-- right before <widget and --> right after </widget>
-            # l = _skip_ws_left(s, start - 1)
-            # commented_left = (l >= 3 and s[l - 3:l + 1] == "<!--")
-
-            # r = _skip_ws_right(s, end_close)
-            # commented_right = (r + 2 < n and s[r:r + 3] == "-->")
-
-            # is_commented = commented_left and commented_right
-
-            # if enable:
-            # if is_commented:
-            # # remove wrappers
-            # comment_start = (l - 3)
-            # comment_end = (r + 3)
-            # # we already appended s[i:start], but start is inside the comment; fix it:
-            # out.pop()
-            # out.append(s[i:comment_start])
-            # out.append(block)
-            # i = comment_end
-            # else:
-            # out.append(block)
-            # i = end_close
-            # else:
-            # if is_commented:
-            # # keep as-is (including wrappers)
-            # comment_start = (l - 3)
-            # comment_end = (r + 3)
-            # out.pop()
-            # out.append(s[i:comment_start])
-            # out.append(s[comment_start:comment_end])
-            # i = comment_end
-            # else:
-            # out.append("<!--" + block + "-->")
-            # i = end_close
-
-            # return "".join(out)
-
-        # try:
-            # if fileExists(tmpl):
-            # with open(tmpl, "r") as f:
-            # txt = f.read()
-
-            # newtxt = toggle_softcsa_widgets_by_scan(txt, enable=cfg.InfobarSoftCSA.value)
-
-            # if newtxt != txt:
-            # with open(tmpl, "w") as f:
-            # f.write(newtxt)
-        # except Exception as e:
-            # print("[Aglare] SoftCSA patch failed:", e)
-
-        # control softCSA
+        # Ask to restart GUI
         restartbox = self.session.openWithCallback(
             self.restartGUI,
             MessageBox,
             _('GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?'),
-            MessageBox.TYPE_YESNO)
+            MessageBox.TYPE_YESNO
+        )
         restartbox.setTitle(_('Restart GUI now?'))
 
     def restartGUI(self, answer):
