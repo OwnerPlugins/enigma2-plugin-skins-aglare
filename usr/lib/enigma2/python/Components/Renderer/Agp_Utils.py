@@ -261,12 +261,12 @@ def verify_backdrop_integrity(self):
 
 try:
     from .Agp_lib import convtext
-    # from .Converlib import convtext
-except ImportError:
-    logger.warning("AGP Utils ImportError convtext not found, using fallback")
+except Exception as e:
+    import traceback
+    traceback.print_exc()
+    logger.exception("Agp_lib import failed: %s", e)
 
     def convtext(x):
-        """Fallback text conversion function"""
         return x
 
 
