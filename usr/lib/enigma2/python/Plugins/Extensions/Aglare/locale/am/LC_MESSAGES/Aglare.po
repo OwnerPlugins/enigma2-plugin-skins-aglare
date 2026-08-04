@@ -94,6 +94,9 @@ msgstr "ካይድ + አንባቢ + ፕሮቶኮል + አገልጋይ + ኢሲኤ
 msgid "Cancel"
 msgstr "ሰርዝ"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "የሰርጥ መግለጫ ቀለም፡-"
 
@@ -232,14 +235,15 @@ msgstr "ተደጋጋሚ ፍለጋዎችን ለማፋጠን በክስተቱ በ�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "በመረጃ መግብር ውስጥ ሙሉ ተዋናዮችን፣ የቡድን አባላትን፣ የፕላን ዝርዝሮችን እና ሌላ ሜታዳታን ጨምሮ የተራዘመ የክስተት መረጃን ማሳየትን ያንቁ።"
 
-msgid "Error by processing the skin file: {}"
-msgstr "የቆዳ ፋይሉን በማስኬድ ላይ ስህተት፦ {}"
-
 msgid "Error downloading files!"
 msgstr "ፋይሎችን ማውረድ ላይ ስህተት!"
 
 msgid "Error loading: {}"
 msgstr "በመጫን ላይ ስህተት፡ {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "የቆዳ ፋይሉን በማስኬድ ላይ ስህተት፦ {}"
 
 msgid "Error {0}: {1}"
 msgstr "ስህተት {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "ሲና"
 
 msgid "Skin Style:"
 msgstr "የቆዳ ዘይቤ፡"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "በረዶ ነጭ"

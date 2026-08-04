@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokoll + Server + ECM-aeg"
 msgid "Cancel"
 msgstr "Tühista"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanali kirjelduse värv:"
 
@@ -232,14 +235,15 @@ msgstr "Korduvate otsingute kiirendamiseks lubage või keelake sündmuste allala
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Lubage teabevidinas sündmuste laiendatud teabe kuvamine, sealhulgas kogu näitlejate, meeskonna, süžee üksikasjade ja muude metaandmete kuvamine."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Viga nahafaili töötlemisel: {}"
-
 msgid "Error downloading files!"
 msgstr "Viga failide allalaadimisel!"
 
 msgid "Error loading: {}"
 msgstr "Viga laadimisel: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Viga nahafaili töötlemisel: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Viga {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Naha stiil:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Lumivalgeke"

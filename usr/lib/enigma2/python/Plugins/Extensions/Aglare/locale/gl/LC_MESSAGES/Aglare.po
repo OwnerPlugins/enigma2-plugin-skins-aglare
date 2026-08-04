@@ -94,6 +94,9 @@ msgstr "Caid + Lector + Protocolo + Servidor + Hora ECM"
 msgid "Cancel"
 msgstr "Cancelar"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Cor descrición da canle:"
 
@@ -232,14 +235,15 @@ msgstr "Activa ou desactiva o caché durante a descarga do evento para acelerar 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Activa a visualización da información ampliada do evento, incluíndo reparto completo, equipo, detalles da trama e outros metadatos, no widget de información."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Produciuse un erro ao procesar o ficheiro de skin: {}"
-
 msgid "Error downloading files!"
 msgstr "Produciuse un erro ao descargar os ficheiros!"
 
 msgid "Error loading: {}"
 msgstr "Erro ao cargar: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Produciuse un erro ao procesar o ficheiro de skin: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Erro {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Siena"
 
 msgid "Skin Style:"
 msgstr "Estilo de pel:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Brancaneves"

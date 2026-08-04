@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokol + Bediener + ECM Tyd"
 msgid "Cancel"
 msgstr "Kanselleer"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanaalbeskrywing Kleur:"
 
@@ -232,14 +235,15 @@ msgstr "Aktiveer of deaktiveer kasgeheue tydens gebeurtenisaflaai om herhaalde s
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktiveer die vertoon van uitgebreide gebeurtenisinligting, insluitend volle rolverdeling, span, plotbesonderhede en ander metadata, in die inligtinglegstuk."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Fout met die verwerking van die vellêer: {}"
-
 msgid "Error downloading files!"
 msgstr "Kon nie lêers aflaai nie!"
 
 msgid "Error loading: {}"
 msgstr "Kon nie laai nie: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Fout met die verwerking van die vellêer: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Fout {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Velstyl:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Sneeuwitjie"

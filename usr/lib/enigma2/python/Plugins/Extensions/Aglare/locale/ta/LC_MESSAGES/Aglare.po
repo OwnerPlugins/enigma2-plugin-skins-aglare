@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM நேரம்"
 msgid "Cancel"
 msgstr "ரத்து செய்"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "சேனல் விளக்கம் நிறம்:"
 
@@ -232,14 +235,15 @@ msgstr "தொடர்ச்சியான தேடல்களை விர�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "தகவல் விட்ஜெட்டில் முழு நடிகர்கள், குழுவினர், சதி விவரங்கள் மற்றும் பிற மெட்டாடேட்டா உட்பட நீட்டிக்கப்பட்ட நிகழ்வுத் தகவலைக் காட்டுவதை இயக்கவும்."
 
-msgid "Error by processing the skin file: {}"
-msgstr "தோல் கோப்பை செயலாக்குவதில் பிழை: {}"
-
 msgid "Error downloading files!"
 msgstr "கோப்புகளைப் பதிவிறக்குவதில் பிழை!"
 
 msgid "Error loading: {}"
 msgstr "ஏற்றுவதில் பிழை: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "தோல் கோப்பை செயலாக்குவதில் பிழை: {}"
 
 msgid "Error {0}: {1}"
 msgstr "பிழை {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "சியன்னா"
 
 msgid "Skin Style:"
 msgstr "தோல் உடை:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "ஸ்னோவைட்"

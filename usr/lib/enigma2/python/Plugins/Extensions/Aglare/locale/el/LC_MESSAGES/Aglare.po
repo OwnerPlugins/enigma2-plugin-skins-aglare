@@ -94,6 +94,9 @@ msgstr "Caid + Αναγνώστης + Πρωτόκολλο + Διακομιστ�
 msgid "Cancel"
 msgstr "Ματαίωση"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Περιγραφή καναλιού Χρώμα:"
 
@@ -232,14 +235,15 @@ msgstr "Ενεργοποιήστε ή απενεργοποιήστε την πρ
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ενεργοποιήστε την εμφάνιση εκτεταμένων πληροφοριών συμβάντων, συμπεριλαμβανομένων των πλήρους καστ, του πληρώματος, των λεπτομερειών της πλοκής και άλλων μεταδεδομένων, στο γραφικό στοιχείο πληροφοριών."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Σφάλμα κατά την επεξεργασία του αρχείου δέρματος: {}"
-
 msgid "Error downloading files!"
 msgstr "Σφάλμα κατά τη λήψη αρχείων!"
 
 msgid "Error loading: {}"
 msgstr "Σφάλμα φόρτωσης: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Σφάλμα κατά την επεξεργασία του αρχείου δέρματος: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Σφάλμα {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Χώμα σιένης"
 
 msgid "Skin Style:"
 msgstr "Στυλ δέρματος:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Χιονάτη"

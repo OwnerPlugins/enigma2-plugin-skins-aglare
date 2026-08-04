@@ -94,6 +94,9 @@ msgstr "Caid + রিডার + প্রোটোকল + সার্ভা�
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "চ্যানেল বর্ণনা রঙ:"
 
@@ -232,14 +235,15 @@ msgstr "বারবার অনুসন্ধানের গতি বাড
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "তথ্য উইজেটে সম্পূর্ণ কাস্ট, ক্রু, প্লটের বিবরণ এবং অন্যান্য মেটাডেটা সহ বর্ধিত ইভেন্ট তথ্য প্রদর্শন সক্ষম করুন।"
 
-msgid "Error by processing the skin file: {}"
-msgstr "স্কিন ফাইল প্রক্রিয়াকরণে ত্রুটি: {}"
-
 msgid "Error downloading files!"
 msgstr "ফাইল ডাউনলোড করার সময় ত্রুটি!"
 
 msgid "Error loading: {}"
 msgstr "লোড করার সময় ত্রুটি: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "স্কিন ফাইল প্রক্রিয়াকরণে ত্রুটি: {}"
 
 msgid "Error {0}: {1}"
 msgstr "ত্রুটি {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "সিয়েনা"
 
 msgid "Skin Style:"
 msgstr "ত্বকের ধরন:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "স্নোহোয়াইট"

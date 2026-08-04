@@ -94,6 +94,9 @@ msgstr "Caid + Reader + פרוטוקול + שרת + זמן ECM"
 msgid "Cancel"
 msgstr "לְבַטֵל"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "צבע תיאור ערוץ:"
 
@@ -232,14 +235,15 @@ msgstr "הפעל או השבת שמירה במטמון במהלך הורדת א�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "אפשר הצגת מידע מורחב על אירוע, כולל צוות מלא, צוות, פרטי עלילה ומטא נתונים אחרים, בווידג'ט המידע."
 
-msgid "Error by processing the skin file: {}"
-msgstr "שגיאה בעיבוד קובץ העור: {}"
-
 msgid "Error downloading files!"
 msgstr "שגיאה בהורדת קבצים!"
 
 msgid "Error loading: {}"
 msgstr "שגיאה בטעינת: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "שגיאה בעיבוד קובץ העור: {}"
 
 msgid "Error {0}: {1}"
 msgstr "שגיאה {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "סיינה"
 
 msgid "Skin Style:"
 msgstr "סגנון עור:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "שלגיה"

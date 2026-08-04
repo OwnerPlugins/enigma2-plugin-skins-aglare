@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM സമയം"
 msgid "Cancel"
 msgstr "റദ്ദാക്കുക"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "ചാനൽ വിവരണം നിറം:"
 
@@ -232,14 +235,15 @@ msgstr "ആവർത്തിച്ചുള്ള തിരയലുകൾ വ�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "വിവര വിജറ്റിൽ പൂർണ്ണ അഭിനേതാക്കൾ, ജോലിക്കാർ, പ്ലോട്ട് വിശദാംശങ്ങൾ, മറ്റ് മെറ്റാഡാറ്റ എന്നിവയുൾപ്പെടെ വിപുലമായ ഇവൻ്റ് വിവരങ്ങളുടെ പ്രദർശനം പ്രവർത്തനക്ഷമമാക്കുക."
 
-msgid "Error by processing the skin file: {}"
-msgstr "സ്കിൻ ഫയൽ പ്രോസസ്സ് ചെയ്യുന്നതിൽ പിശക്: {}"
-
 msgid "Error downloading files!"
 msgstr "ഫയലുകൾ ഡൗൺലോഡ് ചെയ്യുന്നതിൽ പിശക്!"
 
 msgid "Error loading: {}"
 msgstr "ലോഡുചെയ്യുന്നതിൽ പിശക്: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "സ്കിൻ ഫയൽ പ്രോസസ്സ് ചെയ്യുന്നതിൽ പിശക്: {}"
 
 msgid "Error {0}: {1}"
 msgstr "പിശക് {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "സിയന്ന"
 
 msgid "Skin Style:"
 msgstr "ചർമ്മ ശൈലി:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "മഞ്ഞുപോലെ വെളുത്ത"

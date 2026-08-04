@@ -94,6 +94,9 @@ msgstr "Caid + Reader + โปรโตคอล + เซิร์ฟเวอ�
 msgid "Cancel"
 msgstr "ยกเลิก"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "คำอธิบายช่องสี:"
 
@@ -232,14 +235,15 @@ msgstr "เปิดหรือปิดใช้งานการแคชร
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "เปิดใช้งานการแสดงข้อมูลเหตุการณ์เพิ่มเติม รวมถึงนักแสดงทั้งหมด ทีมงาน รายละเอียดโครงเรื่อง และข้อมูลเมตาอื่น ๆ ในวิดเจ็ตข้อมูล"
 
-msgid "Error by processing the skin file: {}"
-msgstr "เกิดข้อผิดพลาดโดยการประมวลผลไฟล์สกิน: {}"
-
 msgid "Error downloading files!"
 msgstr "เกิดข้อผิดพลาดในการดาวน์โหลดไฟล์!"
 
 msgid "Error loading: {}"
 msgstr "เกิดข้อผิดพลาดในการโหลด: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "เกิดข้อผิดพลาดโดยการประมวลผลไฟล์สกิน: {}"
 
 msgid "Error {0}: {1}"
 msgstr "ข้อผิดพลาด {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "เซียนน่า"
 
 msgid "Skin Style:"
 msgstr "ลักษณะผิว:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "สโนว์ไวท์"

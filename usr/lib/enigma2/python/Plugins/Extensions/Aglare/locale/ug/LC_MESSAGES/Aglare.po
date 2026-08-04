@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM ۋاقتى"
 msgid "Cancel"
 msgstr "بىكار قىلىش"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "قانال چۈشەندۈرۈش رەڭگى:"
 
@@ -232,14 +235,15 @@ msgstr "قايتا-قايتا ئىزدەشنى تېزلىتىش ئۈچۈن پا�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "ئۇچۇر كىچىك قورالىدا تولۇق ئارتىس ، خىزمەت ئەترىتى ، پىلان تەپسىلاتلىرى ۋە باشقا مېتا سانلىق مەلۇماتلارنى ئۆز ئىچىگە ئالغان كېڭەيتىلگەن پائالىيەت ئۇچۇرلىرىنى كۆرسىتىشنى قوزغىتىڭ."
 
-msgid "Error by processing the skin file: {}"
-msgstr "تېرە ھۆججىتىنى بىر تەرەپ قىلىشتىكى خاتالىق: {}"
-
 msgid "Error downloading files!"
 msgstr "ھۆججەتلەرنى چۈشۈرۈشتە خاتالىق!"
 
 msgid "Error loading: {}"
 msgstr "يۈكلەشتە خاتالىق: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "تېرە ھۆججىتىنى بىر تەرەپ قىلىشتىكى خاتالىق: {}"
 
 msgid "Error {0}: {1}"
 msgstr "خاتالىق {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "تېرە ئۇسلۇبى:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

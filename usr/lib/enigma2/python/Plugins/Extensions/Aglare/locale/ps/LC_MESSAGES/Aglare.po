@@ -94,6 +94,9 @@ msgstr "Caid + لوستونکی + پروتوکول + سرور + ECM وخت"
 msgid "Cancel"
 msgstr "لغوه کړئ"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "د چینل تفصیل رنګ:"
 
@@ -232,14 +235,15 @@ msgstr "د بار بار لټونونو ګړندي کولو لپاره د پیښ
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "د معلوماتو ویجټ کې د بشپړ کاسټ ، عملې ، پلاټ توضیحاتو ، او نورو میټاډاټا په شمول د غزیدلي پیښې معلوماتو ښودل فعال کړئ."
 
-msgid "Error by processing the skin file: {}"
-msgstr "د پوستکي دوتنې پروسس کولو کې تېروتنه: {}"
-
 msgid "Error downloading files!"
 msgstr "د فایلونو ډاونلوډ کولو کې تېروتنه!"
 
 msgid "Error loading: {}"
 msgstr "د بارولو تېروتنه: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "د پوستکي دوتنې پروسس کولو کې تېروتنه: {}"
 
 msgid "Error {0}: {1}"
 msgstr "تېروتنه {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "سینا"
 
 msgid "Skin Style:"
 msgstr "د پوستکي سټایل:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "واوره سپینه"

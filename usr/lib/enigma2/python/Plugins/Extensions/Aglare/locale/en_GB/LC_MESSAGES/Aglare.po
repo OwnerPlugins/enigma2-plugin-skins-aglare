@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "Cancel"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Channel Description Color:"
 
@@ -232,14 +235,15 @@ msgstr "Enable or disable caching during event download to speed up repeated sea
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Error by processing the skin file: {}"
-
 msgid "Error downloading files!"
 msgstr "Error downloading files!"
 
 msgid "Error loading: {}"
 msgstr "Error loading: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Error by processing the skin file: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Error {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Skin Style:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + Ora ECM"
 msgid "Cancel"
 msgstr "Anulo"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Përshkrimi i kanalit Ngjyra:"
 
@@ -232,14 +235,15 @@ msgstr "Aktivizo ose çaktivizo memorien gjatë shkarkimit të ngjarjeve për t�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktivizo shfaqjen e informacionit të zgjeruar të ngjarjeve, duke përfshirë kastin e plotë, ekipin, detajet e komplotit dhe të dhëna të tjera meta, në miniaplikacionin e informacionit."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Gabim gjatë përpunimit të skedarit të lëkurës: {}"
-
 msgid "Error downloading files!"
 msgstr "Gabim gjatë shkarkimit të skedarëve!"
 
 msgid "Error loading: {}"
 msgstr "Gabim në ngarkim: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Gabim gjatë përpunimit të skedarit të lëkurës: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Gabim {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Siena"
 
 msgid "Skin Style:"
 msgstr "Stili i lëkurës:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Borëbardha"

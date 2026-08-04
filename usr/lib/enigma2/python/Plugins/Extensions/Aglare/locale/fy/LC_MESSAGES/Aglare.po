@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokol + Server + ECM Tiid"
 msgid "Cancel"
 msgstr "Ofbrekke"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanaalbeskriuwing Kleur:"
 
@@ -232,14 +235,15 @@ msgstr "Skeakelje caching yn of útskeakelje by it downloaden fan eveneminten om
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktivearje de werjefte fan útwreide evenemintynformaasje, ynklusyf folsleine cast, bemanning, plotdetails en oare metadata, yn 'e ynfo-widget."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Flater by it ferwurkjen fan it skinbestân: {}"
-
 msgid "Error downloading files!"
 msgstr "Flater by it ynladen fan bestannen!"
 
 msgid "Error loading: {}"
 msgstr "Flater by it laden: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Flater by it ferwurkjen fan it skinbestân: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Flater {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Skin Style:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Snie wyt"

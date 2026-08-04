@@ -94,6 +94,9 @@ msgstr "Caid + Đầu đọc + Giao thức + Máy chủ + Thời gian ECM"
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Màu mô tả kênh:"
 
@@ -232,14 +235,15 @@ msgstr "Bật hoặc tắt bộ nhớ đệm trong quá trình tải xuống s�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Cho phép hiển thị thông tin sự kiện mở rộng, bao gồm toàn bộ dàn diễn viên, đoàn làm phim, chi tiết cốt truyện và siêu dữ liệu khác trong tiện ích thông tin."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Lỗi khi xử lý tệp giao diện: {}"
-
 msgid "Error downloading files!"
 msgstr "Lỗi tải file xuống!"
 
 msgid "Error loading: {}"
 msgstr "Lỗi tải: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Lỗi khi xử lý tệp giao diện: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Lỗi {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Phong cách da:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Bạch Tuyết"

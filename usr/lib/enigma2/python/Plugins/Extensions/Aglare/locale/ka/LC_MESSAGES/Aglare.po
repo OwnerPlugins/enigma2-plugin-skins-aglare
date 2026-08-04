@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "გაუქმება"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "არხის აღწერა ფერი:"
 
@@ -232,14 +235,15 @@ msgstr "ჩართეთ ან გამორთეთ ქეშირებ
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "ჩართეთ მოვლენის გაფართოებული ინფორმაციის ჩვენება, მათ შორის სრული მსახიობები, ეკიპაჟი, სიუჟეტის დეტალები და სხვა მეტამონაცემები, ინფორმაციის ვიჯეტში."
 
-msgid "Error by processing the skin file: {}"
-msgstr "შეცდომა კანის ფაილის დამუშავებისას: {}"
-
 msgid "Error downloading files!"
 msgstr "შეცდომა ფაილების ჩამოტვირთვისას!"
 
 msgid "Error loading: {}"
 msgstr "შეცდომა ჩატვირთვისას: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "შეცდომა კანის ფაილის დამუშავებისას: {}"
 
 msgid "Error {0}: {1}"
 msgstr "შეცდომა {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "სიენა"
 
 msgid "Skin Style:"
 msgstr "კანის სტილი:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "ფიფქია"

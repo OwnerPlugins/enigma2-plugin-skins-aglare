@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokoll + Szerver + ECM idő"
 msgid "Cancel"
 msgstr "Mégsem"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Csatorna leírás színe:"
 
@@ -232,14 +235,15 @@ msgstr "Az ismételt keresések felgyorsítása érdekében engedélyezze vagy t
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Engedélyezze a kiterjesztett eseményinformációk megjelenítését, beleértve a teljes szereplőket, a stábot, a cselekmény részleteit és egyéb metaadatokat az információs widgetben."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Hiba a skin-fájl feldolgozása során: {}"
-
 msgid "Error downloading files!"
 msgstr "Hiba a fájlok letöltése közben!"
 
 msgid "Error loading: {}"
 msgstr "Hiba a betöltés során: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Hiba a skin-fájl feldolgozása során: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Hiba {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Bőrstílus:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Hófehér"

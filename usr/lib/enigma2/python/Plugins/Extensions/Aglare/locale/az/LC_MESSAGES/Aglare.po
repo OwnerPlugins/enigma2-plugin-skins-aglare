@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokol + Server + ECM vaxtı"
 msgid "Cancel"
 msgstr "Ləğv et"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanal Təsviri Rəng:"
 
@@ -232,14 +235,15 @@ msgstr "Təkrar axtarışları sürətləndirmək üçün hadisə endirilməsi z
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Məlumat vidcetində tam heyət, ekipaj, süjet təfərrüatları və digər metadata daxil olmaqla genişləndirilmiş tədbir məlumatının göstərilməsini aktivləşdirin."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Dəri faylını emal edərkən xəta: {}"
-
 msgid "Error downloading files!"
 msgstr "Faylları endirərkən xəta baş verdi!"
 
 msgid "Error loading: {}"
 msgstr "Yükləmə xətası: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Dəri faylını emal edərkən xəta: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Xəta {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Dəri Stili:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Протокол + Сервер + Вақти ECM"
 msgid "Cancel"
 msgstr "Бекор кардан"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Тавсифи канал Ранги:"
 
@@ -232,14 +235,15 @@ msgstr "Барои суръат бахшидан ба ҷустуҷӯҳои та�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Дар виҷети иттилоот намоиши маълумоти васеъи рӯйдод, аз ҷумла ҳайати пурра, экипаж, тафсилоти сюжет ва дигар метадотаҳоро фаъол созед."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Хатогӣ ҳангоми коркарди файли пӯст: {}"
-
 msgid "Error downloading files!"
 msgstr "Хатогӣ ҳангоми зеркашии файлҳо!"
 
 msgid "Error loading: {}"
 msgstr "Хатогии боркунӣ: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Хатогӣ ҳангоми коркарди файли пӯст: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Хатогӣ {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Сиена"
 
 msgid "Skin Style:"
 msgstr "Услуби пӯст:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Сафеди барфи"

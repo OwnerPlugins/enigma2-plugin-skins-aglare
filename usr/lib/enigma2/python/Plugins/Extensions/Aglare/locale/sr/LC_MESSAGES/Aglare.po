@@ -94,6 +94,9 @@ msgstr "Цаид + Реадер + Протоцол + Сервер + ЕЦМ Ти�
 msgid "Cancel"
 msgstr "Откажи"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Боја описа канала:"
 
@@ -232,14 +235,15 @@ msgstr "Омогућите или онемогућите кеширање ток
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Омогућите приказ проширених информација о догађајима, укључујући комплетну глумачку екипу, екипу, детаље радње и друге метаподатке, у виџету са информацијама."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Грешка при обради датотеке коже: {}"
-
 msgid "Error downloading files!"
 msgstr "Грешка при преузимању датотека!"
 
 msgid "Error loading: {}"
 msgstr "Грешка при учитавању: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Грешка при обради датотеке коже: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Грешка __ЦСХ_0__: __ЦСХ_1__"
@@ -564,6 +568,9 @@ msgstr "Сиенна"
 
 msgid "Skin Style:"
 msgstr "Стил коже:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "СновВхите"

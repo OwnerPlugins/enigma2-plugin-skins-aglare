@@ -94,6 +94,9 @@ msgstr "କେଡ୍ + ରିଡର୍ + ପ୍ରୋଟୋକଲ୍ + ସର୍
 msgid "Cancel"
 msgstr "ବାତିଲ୍ କରନ୍ତୁ |"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "ଚ୍ୟାନେଲ ବର୍ଣ୍ଣନା ରଙ୍ଗ:"
 
@@ -232,14 +235,15 @@ msgstr "ବାରମ୍ବାର ସନ୍ଧାନକୁ ତ୍ୱରାନ୍�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "ସୂଚନା ୱିଜେଟରେ ପୂର୍ଣ୍ଣ କାଷ୍ଟ, କ୍ରୁ, ପ୍ଲଟ୍ ବିବରଣୀ ଏବଂ ଅନ୍ୟାନ୍ୟ ମେଟାଡାଟା ଅନ୍ତର୍ଭୂକ୍ତ କରି ବିସ୍ତୃତ ଇଭେଣ୍ଟ ସୂଚନାର ପ୍ରଦର୍ଶନକୁ ସକ୍ଷମ କରନ୍ତୁ |"
 
-msgid "Error by processing the skin file: {}"
-msgstr "ଚର୍ମ ଫାଇଲ୍ ପ୍ରକ୍ରିୟାକରଣରେ ତ୍ରୁଟି: {}"
-
 msgid "Error downloading files!"
 msgstr "ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରିବାରେ ତ୍ରୁଟି!"
 
 msgid "Error loading: {}"
 msgstr "ତ୍ରୁଟି ଧାରଣ: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "ଚର୍ମ ଫାଇଲ୍ ପ୍ରକ୍ରିୟାକରଣରେ ତ୍ରୁଟି: {}"
 
 msgid "Error {0}: {1}"
 msgstr "ତ୍ରୁଟି {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "ସାଇନା |"
 
 msgid "Skin Style:"
 msgstr "ଚର୍ମ ଶ Style ଳୀ:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "ତୁଷାର"

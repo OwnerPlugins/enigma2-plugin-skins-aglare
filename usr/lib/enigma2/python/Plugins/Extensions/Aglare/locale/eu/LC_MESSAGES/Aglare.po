@@ -94,6 +94,9 @@ msgstr "Caid + Irakurlea + Protokoloa + Zerbitzaria + ECM Ordua"
 msgid "Cancel"
 msgstr "Utzi"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanalaren deskribapena kolorea:"
 
@@ -232,14 +235,15 @@ msgstr "Gaitu edo desgaitu cachea gertaerak deskargatzean behin eta berriz bilak
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Gaitu gertaeren informazio hedatua bistaratzea, antzezle osoa, lantaldeak, argumentuaren xehetasunak eta bestelako metadatuak barne, informazio widgetean."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Errore bat gertatu da azalaren fitxategia prozesatzen: {}"
-
 msgid "Error downloading files!"
 msgstr "Errore bat gertatu da fitxategiak deskargatzean!"
 
 msgid "Error loading: {}"
 msgstr "Errorea kargatzean: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Errore bat gertatu da azalaren fitxategia prozesatzen: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Errorea {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Siena"
 
 msgid "Skin Style:"
 msgstr "Azalaren estiloa:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

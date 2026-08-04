@@ -94,6 +94,9 @@ msgstr "कैड + रीडर + प्रोटोकॉल + सर्वर
 msgid "Cancel"
 msgstr "रद्द करना"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "चैनल विवरण रंग:"
 
@@ -232,14 +235,15 @@ msgstr "बार-बार होने वाली खोजों को त
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "सूचना विजेट में पूर्ण कलाकारों, क्रू, प्लॉट विवरण और अन्य मेटाडेटा सहित विस्तारित घटना जानकारी के प्रदर्शन को सक्षम करें।"
 
-msgid "Error by processing the skin file: {}"
-msgstr "त्वचा फ़ाइल को संसाधित करने में त्रुटि: {}"
-
 msgid "Error downloading files!"
 msgstr "फ़ाइलें डाउनलोड करने में त्रुटि!"
 
 msgid "Error loading: {}"
 msgstr "लोड होने मे त्रुटि: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "त्वचा फ़ाइल को संसाधित करने में त्रुटि: {}"
 
 msgid "Error {0}: {1}"
 msgstr "त्रुटि {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "सिएना"
 
 msgid "Skin Style:"
 msgstr "त्वचा शैली:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "स्नो व्हाइट"

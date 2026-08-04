@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "បោះបង់"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "ពណ៌​ពិពណ៌នា​ឆានែល៖"
 
@@ -232,14 +235,15 @@ msgstr "បើក ឬបិទឃ្លាំងសម្ងាត់កំឡ�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "បើកការបង្ហាញព័ត៌មានព្រឹត្តិការណ៍បន្ថែម រួមទាំងការសម្ដែងពេញលេញ ក្រុមនាវិក ព័ត៌មានលម្អិតនៃគ្រោង និងទិន្នន័យមេតាផ្សេងទៀតនៅក្នុងធាតុក្រាហ្វិកព័ត៌មាន។"
 
-msgid "Error by processing the skin file: {}"
-msgstr "កំហុសដោយដំណើរការឯកសារស្បែក៖ {}"
-
 msgid "Error downloading files!"
 msgstr "កំហុសក្នុងការទាញយកឯកសារ!"
 
 msgid "Error loading: {}"
 msgstr "កំហុសក្នុងការផ្ទុក៖ {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "កំហុសដោយដំណើរការឯកសារស្បែក៖ {}"
 
 msgid "Error {0}: {1}"
 msgstr "កំហុស {0}៖ {1}"
@@ -564,6 +568,9 @@ msgstr "សៀនណា"
 
 msgid "Skin Style:"
 msgstr "រចនាប័ទ្មស្បែក៖"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "ព្រិលស"

@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Протокол + Server + ECM убакыты"
 msgid "Cancel"
 msgstr "Жокко чыгаруу"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Канал сүрөттөмөсү Түсү:"
 
@@ -232,14 +235,15 @@ msgstr "Кайталануучу издөөлөрдү тездетүү үчүн 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Маалымат виджетинде кеңейтилген окуя маалыматын, анын ичинде толук актерлор, экипаж, сюжеттин чоо-жайы жана башка метадайындарды көрсөтүүнү иштетүү."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Тери файлын иштетүүдө ката кетти: {}"
-
 msgid "Error downloading files!"
 msgstr "Файлдарды жүктөөдө ката кетти!"
 
 msgid "Error loading: {}"
 msgstr "Жүктөө катасы: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Тери файлын иштетүүдө ката кетти: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Ката {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Сиенна"
 
 msgid "Skin Style:"
 msgstr "Тери стили:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

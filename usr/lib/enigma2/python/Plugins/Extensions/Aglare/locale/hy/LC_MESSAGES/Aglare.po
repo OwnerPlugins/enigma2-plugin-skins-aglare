@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "Չեղարկել"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Ալիքի նկարագրությունը Գույն:"
 
@@ -232,14 +235,15 @@ msgstr "Միջոցառումների ներբեռնման ժամանակ միա�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Միացրեք իրադարձությունների ընդլայնված տեղեկատվության ցուցադրումը, ներառյալ ամբողջական դերասանական կազմը, անձնակազմը, սյուժեի մանրամասները և այլ մետատվյալներ, տեղեկատվական վիջեթում:"
 
-msgid "Error by processing the skin file: {}"
-msgstr "Սխալ՝ մաշկի ֆայլը մշակելիս՝ {}"
-
 msgid "Error downloading files!"
 msgstr "Չհաջողվեց ներբեռնել ֆայլերը:"
 
 msgid "Error loading: {}"
 msgstr "Սխալ բեռնելիս՝ {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Սխալ՝ մաշկի ֆայլը մշակելիս՝ {}"
 
 msgid "Error {0}: {1}"
 msgstr "Սխալ {0}՝ {1}"
@@ -564,6 +568,9 @@ msgstr "Սիեննա"
 
 msgid "Skin Style:"
 msgstr "Մաշկի ոճը."
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

@@ -94,6 +94,9 @@ msgstr "Caid + Okuyucu + Protokol + Sunucu + ECM Zamanı"
 msgid "Cancel"
 msgstr "İptal etmek"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanal Açıklaması Renk:"
 
@@ -232,14 +235,15 @@ msgstr "Tekrarlanan aramaları hızlandırmak için etkinlik indirme sırasında
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Bilgi widget'ında tüm oyuncular, ekip, olay örgüsü ayrıntıları ve diğer meta veriler dahil olmak üzere genişletilmiş etkinlik bilgilerinin görüntülenmesini etkinleştirin."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Dış görünüm dosyası işlenirken hata oluştu: {}"
-
 msgid "Error downloading files!"
 msgstr "Dosyalar indirilirken hata oluştu!"
 
 msgid "Error loading: {}"
 msgstr "Yükleme hatası: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Dış görünüm dosyası işlenirken hata oluştu: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Hata {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Siena"
 
 msgid "Skin Style:"
 msgstr "Cilt Stili:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Karbeyaz"

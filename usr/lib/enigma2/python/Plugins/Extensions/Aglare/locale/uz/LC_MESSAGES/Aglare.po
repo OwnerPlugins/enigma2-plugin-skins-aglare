@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokol + Server + ECM vaqti"
 msgid "Cancel"
 msgstr "Bekor qilish"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanal tavsifi rangi:"
 
@@ -232,14 +235,15 @@ msgstr "Takroriy qidiruvlarni tezlashtirish uchun hodisani yuklab olish paytida 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Axborot vidjetida kengaytirilgan tadbir maʼlumotlarini, jumladan, toʻliq aktyorlar, ekipaj, syujet tafsilotlari va boshqa metamaʼlumotlarni koʻrsatishni yoqing."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Teri faylini qayta ishlashda xatolik yuz berdi: {}"
-
 msgid "Error downloading files!"
 msgstr "Fayllarni yuklab olishda xatolik yuz berdi!"
 
 msgid "Error loading: {}"
 msgstr "Yuklashda xatolik: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Teri faylini qayta ishlashda xatolik yuz berdi: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Xato {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Teri uslubi:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Oppoq oy"

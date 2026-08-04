@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Протокол + Сервер + ECM уақыты"
 msgid "Cancel"
 msgstr "Болдырмау"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Арна сипаттамасы Түс:"
 
@@ -232,14 +235,15 @@ msgstr "Қайталанатын іздеулерді жылдамдату үш�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ақпарат виджетінде толық құрам, экипаж, сюжет мәліметтері және басқа метадеректерді қоса, кеңейтілген оқиға ақпаратын көрсетуді қосыңыз."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Тері файлын өңдеу қатесі: {}"
-
 msgid "Error downloading files!"
 msgstr "Файлдарды жүктеп алу қатесі!"
 
 msgid "Error loading: {}"
 msgstr "Жүктеу қатесі: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Тері файлын өңдеу қатесі: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Қате {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Сиена"
 
 msgid "Skin Style:"
 msgstr "Тері стилі:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Қардай ақ"

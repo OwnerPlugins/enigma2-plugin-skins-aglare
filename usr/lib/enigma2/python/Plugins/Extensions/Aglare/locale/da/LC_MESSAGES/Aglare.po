@@ -94,6 +94,9 @@ msgstr "Caid + Læser + Protokol + Server + ECM-tid"
 msgid "Cancel"
 msgstr "Ophæve"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanalbeskrivelse Farve:"
 
@@ -232,14 +235,15 @@ msgstr "Aktiver eller deaktiver caching under download af hændelser for at frem
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktiver visning af udvidede begivenhedsoplysninger, inklusive fuld rollebesætning, besætning, plotdetaljer og andre metadata, i info-widgetten."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Fejl ved behandling af skin-filen: {}"
-
 msgid "Error downloading files!"
 msgstr "Fejl ved download af filer!"
 
 msgid "Error loading: {}"
 msgstr "Fejl ved indlæsning: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Fejl ved behandling af skin-filen: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Fejl {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Hudstil:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Snehvide"

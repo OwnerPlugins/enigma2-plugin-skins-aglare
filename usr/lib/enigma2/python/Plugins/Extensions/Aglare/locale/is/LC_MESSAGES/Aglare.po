@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "Hætta við"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Rásarlýsing litur:"
 
@@ -232,14 +235,15 @@ msgstr "Virkjaðu eða slökktu á skyndiminni meðan á niðurhali viðburða s
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Virkjaðu birtingu á víðtækum viðburðaupplýsingum, þar á meðal fullt leikaralið, mannskap, upplýsingar um söguþráð og önnur lýsigögn, í upplýsingagræjunni."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Villa við að vinna skinnskrána: {}"
-
 msgid "Error downloading files!"
 msgstr "Villa við að hlaða niður skrám!"
 
 msgid "Error loading: {}"
 msgstr "Villa við að hlaða: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Villa við að vinna skinnskrána: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Villa {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Húðstíll:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Mjallhvít"

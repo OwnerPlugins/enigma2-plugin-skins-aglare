@@ -94,6 +94,9 @@ msgstr "Caid + Qarrej + Protokoll + Server + Ħin ECM"
 msgid "Cancel"
 msgstr "Ikkanċella"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Deskrizzjoni tal-Kanal Kulur:"
 
@@ -232,14 +235,15 @@ msgstr "Ippermetti jew iddiżattiva l-caching waqt it-tniżżil tal-avvenimenti 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ippermetti l-wiri ta' informazzjoni estiża dwar l-avveniment, inkluż cast sħiħ, ekwipaġġ, dettalji tal-plott, u metadejta oħra, fil-widget tal-informazzjoni."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Żball billi tipproċessa l-fajl tal-ġilda: {}"
-
 msgid "Error downloading files!"
 msgstr "Żball fit-tniżżil tal-fajls!"
 
 msgid "Error loading: {}"
 msgstr "Żball fit-tagħbija: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Żball billi tipproċessa l-fajl tal-ġilda: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Żball {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Stil tal-ġilda:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

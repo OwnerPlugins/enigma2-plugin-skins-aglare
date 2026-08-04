@@ -94,6 +94,9 @@ msgstr "קאַיד + רידער + פּראָטאָקאָל + סערווירער 
 msgid "Cancel"
 msgstr "באָטל מאַכן"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "קאַנאַל באַשרייַבונג קאָליר:"
 
@@ -232,14 +235,15 @@ msgstr "געבן אָדער דיסייבאַל קאַטשינג בעשאַס ג�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "געבן די אַרויסווייַזן פון עקסטענדעד געשעעניש אינפֿאָרמאַציע, אַרייַנגערעכנט פול וואַרפן, קאָמאַנדע, פּלאַנעווען דעטאַילס און אנדערע מעטאַדאַטאַ, אין די אינפֿאָרמאַציע ווידזשיט."
 
-msgid "Error by processing the skin file: {}"
-msgstr "טעות דורך פּראַסעסינג די הויט טעקע: {}"
-
 msgid "Error downloading files!"
 msgstr "טעות דאַונלאָודינג טעקעס!"
 
 msgid "Error loading: {}"
 msgstr "טעות לאָודינג: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "טעות דורך פּראַסעסינג די הויט טעקע: {}"
 
 msgid "Error {0}: {1}"
 msgstr "טעות {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "סיענאַ"
 
 msgid "Skin Style:"
 msgstr "הויט סטייל:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "שניי ווייסע"

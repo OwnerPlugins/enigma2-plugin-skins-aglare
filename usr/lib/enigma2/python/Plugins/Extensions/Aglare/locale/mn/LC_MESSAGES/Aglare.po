@@ -94,6 +94,9 @@ msgstr "Caid + Уншигч + Протокол + Сервер + ECM цаг"
 msgid "Cancel"
 msgstr "Цуцлах"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Сувгийн тайлбар өнгө:"
 
@@ -232,14 +235,15 @@ msgstr "Давтан хайлтыг хурдасгахын тулд үйл яв�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Мэдээллийн виджет дотор бүрэн бүрэлдэхүүн, багийнхан, үйл явдлын дэлгэрэнгүй мэдээлэл болон бусад мета өгөгдлийг багтаасан өргөтгөсөн үйл явдлын мэдээллийг харуулахыг идэвхжүүлнэ үү."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Арьсны файлыг боловсруулахад алдаа гарлаа: {}"
-
 msgid "Error downloading files!"
 msgstr "Файлуудыг татаж авахад алдаа гарлаа!"
 
 msgid "Error loading: {}"
 msgstr "Ачаалахад алдаа: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Арьсны файлыг боловсруулахад алдаа гарлаа: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Алдаа {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Сиенна"
 
 msgid "Skin Style:"
 msgstr "Арьсны хэв маяг:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Цасан цагаан"

@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM වේලාව"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "නාලිකා විස්තරය වර්ණය:"
 
@@ -232,14 +235,15 @@ msgstr "නැවත නැවත සෙවීම් වේගවත් කි�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "තොරතුරු විජට් තුළ සම්පූර්ණ නළු නිළියන්, කාර්ය මණ්ඩලය, කුමන්ත්‍රණ විස්තර, සහ අනෙකුත් පාර-දත්ත ඇතුළුව, විස්තීරණ සිදුවීම් තොරතුරු සංදර්ශනය සක්‍රීය කරන්න."
 
-msgid "Error by processing the skin file: {}"
-msgstr "සම ගොනුව සැකසීමේ දෝෂයකි: {}"
-
 msgid "Error downloading files!"
 msgstr "ගොනු බාගැනීමේ දෝෂයකි!"
 
 msgid "Error loading: {}"
 msgstr "පූරණය කිරීමේ දෝෂයකි: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "සම ගොනුව සැකසීමේ දෝෂයකි: {}"
 
 msgid "Error {0}: {1}"
 msgstr "දෝෂය {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "සියෙනා"
 
 msgid "Skin Style:"
 msgstr "සම විලාසය:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "හිම සුදු"

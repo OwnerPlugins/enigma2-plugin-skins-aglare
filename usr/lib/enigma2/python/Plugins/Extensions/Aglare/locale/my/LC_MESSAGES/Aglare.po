@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM အချိန်"
 msgid "Cancel"
 msgstr "မလုပ်တော့"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "ချန်နယ်ဖော်ပြချက် အရောင်-"
 
@@ -232,14 +235,15 @@ msgstr "ထပ်ခါတလဲလဲ ရှာဖွေမှုများ�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "အချက်အလက်ဝစ်ဂျက်တွင် ကာစ်၊ အဖွဲ့သား၊ ဇာတ်ကွက်အသေးစိတ်နှင့် အခြားမက်တာဒေတာများ အပါအဝင် တိုးချဲ့ဖြစ်ရပ်အချက်အလက်ပြသမှုကို ဖွင့်ပါ။"
 
-msgid "Error by processing the skin file: {}"
-msgstr "အရေပြားဖိုင်ကို လုပ်ဆောင်ခြင်းဖြင့် အမှားအယွင်းရှိပါသည်- {}"
-
 msgid "Error downloading files!"
 msgstr "ဖိုင်များကိုဒေါင်းလုဒ်လုပ်ရာတွင် အမှားအယွင်းရှိနေသည်။"
 
 msgid "Error loading: {}"
 msgstr "တင်ရာတွင် အမှားအယွင်းရှိသည်- {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "အရေပြားဖိုင်ကို လုပ်ဆောင်ခြင်းဖြင့် အမှားအယွင်းရှိပါသည်- {}"
 
 msgid "Error {0}: {1}"
 msgstr "အမှား {0}- {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "အရေပြားပုံစံ-"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "စနိုးဝှိုက်"

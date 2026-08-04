@@ -94,6 +94,9 @@ msgstr "Caid + skaitytuvas + protokolas + serveris + ECM laikas"
 msgid "Cancel"
 msgstr "Atšaukti"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanalo aprašymo spalva:"
 
@@ -232,14 +235,15 @@ msgstr "Įgalinkite arba išjunkite talpyklą atsisiunčiant įvykį, kad paspar
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Informacijos valdiklyje įgalinkite išplėstinės įvykio informacijos, įskaitant visus aktorius, komandą, siužeto detales ir kitus metaduomenis, rodymą."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Klaida apdorojant odos failą: {}"
-
 msgid "Error downloading files!"
 msgstr "Klaida atsisiunčiant failus!"
 
 msgid "Error loading: {}"
 msgstr "Įkeliant įvyko klaida: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Klaida apdorojant odos failą: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Klaida {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Odos stilius:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Snieguolė"

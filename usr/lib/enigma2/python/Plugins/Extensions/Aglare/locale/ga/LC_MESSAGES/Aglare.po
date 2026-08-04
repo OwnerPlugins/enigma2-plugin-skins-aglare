@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Prótacal + Freastalaí + Am ECM"
 msgid "Cancel"
 msgstr "Cealaigh"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Dath Cur Síos Cainéal:"
 
@@ -232,14 +235,15 @@ msgstr "Cumasaigh nó díchumasaigh taisceadh le linn íoslódála imeachtaí ch
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Cumasaigh taispeáint na faisnéise teagmhais leathnaithe, lena n-áirítear teilgthe iomlán, criú, sonraí ceapa, agus meiteashonraí eile, sa ghiuirléid faisnéise."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Earráid agus an comhad craiceann á phróiseáil: {}"
-
 msgid "Error downloading files!"
 msgstr "Earráid agus comhaid á n-íoslódáil!"
 
 msgid "Error loading: {}"
 msgstr "Earráid agus é á lódáil: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Earráid agus an comhad craiceann á phróiseáil: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Earráid {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Stíl Craicinn:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Sneachta Bán"

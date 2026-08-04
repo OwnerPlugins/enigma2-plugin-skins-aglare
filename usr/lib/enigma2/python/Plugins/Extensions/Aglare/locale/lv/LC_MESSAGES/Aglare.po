@@ -94,6 +94,9 @@ msgstr "Caid + lasītājs + protokols + serveris + ECM laiks"
 msgid "Cancel"
 msgstr "Atcelt"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanāla apraksta krāsa:"
 
@@ -232,14 +235,15 @@ msgstr "Iespējojiet vai atspējojiet kešatmiņu notikumu lejupielādes laikā,
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Informācijas logrīkā iespējojiet paplašinātas notikumu informācijas rādīšanu, tostarp visu dalībnieku, komandu, sižeta informāciju un citus metadatus."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Kļūda, apstrādājot ādas failu: {}"
-
 msgid "Error downloading files!"
 msgstr "Lejupielādējot failus, radās kļūda!"
 
 msgid "Error loading: {}"
 msgstr "Ielādējot kļūdu: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Kļūda, apstrādājot ādas failu: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Kļūda {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sjenna"
 
 msgid "Skin Style:"
 msgstr "Ādas stils:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Sniegbaltīte"

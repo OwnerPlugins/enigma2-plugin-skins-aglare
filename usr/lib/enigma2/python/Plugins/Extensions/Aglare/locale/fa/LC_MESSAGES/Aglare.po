@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "لغو کنید"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "رنگ توضیحات کانال:"
 
@@ -232,14 +235,15 @@ msgstr "برای سرعت بخشیدن به جستجوهای مکرر، حافظ
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "نمایش اطلاعات رویداد گسترده، از جمله بازیگران کامل، خدمه، جزئیات طرح و سایر ابرداده‌ها را در ویجت اطلاعات فعال کنید."
 
-msgid "Error by processing the skin file: {}"
-msgstr "خطا در پردازش فایل پوسته: {}"
-
 msgid "Error downloading files!"
 msgstr "خطا در دانلود فایل ها!"
 
 msgid "Error loading: {}"
 msgstr "خطا در بارگیری: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "خطا در پردازش فایل پوسته: {}"
 
 msgid "Error {0}: {1}"
 msgstr "خطای {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "سینا"
 
 msgid "Skin Style:"
 msgstr "سبک پوست:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "سفید برفی"

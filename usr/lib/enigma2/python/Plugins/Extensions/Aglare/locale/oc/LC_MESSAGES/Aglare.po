@@ -94,6 +94,9 @@ msgstr "Caid + Lector + Protocòl + Servidor + Temps ECM"
 msgid "Cancel"
 msgstr "Anullar"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Descripcion del canal Color:"
 
@@ -232,14 +235,15 @@ msgstr "Activar o desactivar lo cache pendent lo telecargament d'eveniments per 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Activar l'afichatge d'informacions d'eveniments estendudas, inclusent lo cast complet, l'equipa, los detalhs de l'intriga e d'autras metadonadas, dins lo widget d'informacions."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Error al moment del tractament del fichièr skin : {}"
-
 msgid "Error downloading files!"
 msgstr "Error al moment de telecargar de fichièrs !"
 
 msgid "Error loading: {}"
 msgstr "Error de cargament : {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Error al moment del tractament del fichièr skin : {}"
 
 msgid "Error {0}: {1}"
 msgstr "Error {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Estil de pèl:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Blancanèu"

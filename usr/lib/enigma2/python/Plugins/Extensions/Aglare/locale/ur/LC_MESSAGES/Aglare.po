@@ -94,6 +94,9 @@ msgstr "Caid + ریڈر + پروٹوکول + سرور + ECM ٹائم"
 msgid "Cancel"
 msgstr "منسوخ کریں۔"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "چینل کی تفصیل کا رنگ:"
 
@@ -232,14 +235,15 @@ msgstr "بار بار کی تلاش کو تیز کرنے کے لیے ایونٹ 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "معلوماتی ویجیٹ میں ایونٹ کی توسیعی معلومات، بشمول مکمل کاسٹ، عملہ، پلاٹ کی تفصیلات اور دیگر میٹا ڈیٹا کے ڈسپلے کو فعال کریں۔"
 
-msgid "Error by processing the skin file: {}"
-msgstr "جلد کی فائل پر کارروائی کرتے ہوئے خرابی: {}"
-
 msgid "Error downloading files!"
 msgstr "فائلیں ڈاؤن لوڈ کرنے میں خرابی!"
 
 msgid "Error loading: {}"
 msgstr "لوڈ کرنے میں خرابی: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "جلد کی فائل پر کارروائی کرتے ہوئے خرابی: {}"
 
 msgid "Error {0}: {1}"
 msgstr "خرابی {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "سینا"
 
 msgid "Skin Style:"
 msgstr "جلد کا انداز:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "سنو وائٹ"

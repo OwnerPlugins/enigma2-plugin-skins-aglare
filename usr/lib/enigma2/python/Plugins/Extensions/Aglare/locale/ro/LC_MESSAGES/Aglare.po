@@ -94,6 +94,9 @@ msgstr "Caid + Cititor + Protocol + Server + Ora ECM"
 msgid "Cancel"
 msgstr "Anula"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Culoare descriere canal:"
 
@@ -232,14 +235,15 @@ msgstr "Activați sau dezactivați memorarea în cache în timpul descărcării 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Activați afișarea informațiilor extinse despre eveniment, inclusiv distribuția completă, echipajul, detaliile complotului și alte metadate, în widgetul de informații."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Eroare la procesarea fișierului skin: {}"
-
 msgid "Error downloading files!"
 msgstr "Eroare la descărcarea fișierelor!"
 
 msgid "Error loading: {}"
 msgstr "Eroare la încărcare: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Eroare la procesarea fișierului skin: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Eroare {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Stilul pielii:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Albă ca Zăpada"

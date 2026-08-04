@@ -94,6 +94,9 @@ msgstr "Caid + 阅读器 + 协议 + 服务器 + ECM 时间"
 msgid "Cancel"
 msgstr "取消"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "通道描述颜色："
 
@@ -232,14 +235,15 @@ msgstr "在事件下载期间启用或禁用缓存以加快重复搜索的速度
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "在信息小部件中启用扩展事件信息的显示，包括完整演员表、工作人员、情节详细信息和其他元数据。"
 
-msgid "Error by processing the skin file: {}"
-msgstr "处理外观文件时出错：{}"
-
 msgid "Error downloading files!"
 msgstr "下载文件时出错！"
 
 msgid "Error loading: {}"
 msgstr "加载错误：{}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "处理外观文件时出错：{}"
 
 msgid "Error {0}: {1}"
 msgstr "错误 {0}：{1}"
@@ -564,6 +568,9 @@ msgstr "赭色"
 
 msgid "Skin Style:"
 msgstr "皮肤风格："
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "白雪公主"

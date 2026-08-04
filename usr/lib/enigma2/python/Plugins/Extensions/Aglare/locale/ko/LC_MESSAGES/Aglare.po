@@ -94,6 +94,9 @@ msgstr "Caid + 리더 + 프로토콜 + 서버 + ECM 시간"
 msgid "Cancel"
 msgstr "취소"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "채널 설명 색상:"
 
@@ -232,14 +235,15 @@ msgstr "이벤트 다운로드 중에 캐싱을 활성화하거나 비활성화�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "정보 위젯에서 전체 출연진, 제작진, 플롯 세부 정보 및 기타 메타데이터를 포함한 확장 이벤트 정보 표시를 활성화합니다."
 
-msgid "Error by processing the skin file: {}"
-msgstr "스킨 파일 처리 중 오류 발생: {}"
-
 msgid "Error downloading files!"
 msgstr "파일을 다운로드하는 중 오류가 발생했습니다."
 
 msgid "Error loading: {}"
 msgstr "로드 중 오류 발생: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "스킨 파일 처리 중 오류 발생: {}"
 
 msgid "Error {0}: {1}"
 msgstr "오류 {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "시에나"
 
 msgid "Skin Style:"
 msgstr "스킨 스타일:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "스노우화이트"

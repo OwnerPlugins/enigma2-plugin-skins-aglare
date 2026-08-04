@@ -94,6 +94,9 @@ msgstr "Caid + リーダー + プロトコル + サーバー + ECM 時間"
 msgid "Cancel"
 msgstr "キャンセル"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "チャンネル説明の色:"
 
@@ -232,14 +235,15 @@ msgstr "イベントのダウンロード中のキャッシュを有効または
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "情報ウィジェットで、全キャスト、スタッフ、プロットの詳細、その他のメタデータを含む拡張イベント情報の表示を有効にします。"
 
-msgid "Error by processing the skin file: {}"
-msgstr "スキン ファイルの処理中にエラーが発生しました: {}"
-
 msgid "Error downloading files!"
 msgstr "ファイルのダウンロード中にエラーが発生しました!"
 
 msgid "Error loading: {}"
 msgstr "読み込みエラー: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "スキン ファイルの処理中にエラーが発生しました: {}"
 
 msgid "Error {0}: {1}"
 msgstr "エラー {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "シエナ"
 
 msgid "Skin Style:"
 msgstr "スキンスタイル:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "白雪姫"

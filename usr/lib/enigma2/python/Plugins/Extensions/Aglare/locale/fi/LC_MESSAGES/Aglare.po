@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokolla + palvelin + ECM-aika"
 msgid "Cancel"
 msgstr "Peruuttaa"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanavan kuvauksen väri:"
 
@@ -232,14 +235,15 @@ msgstr "Ota välimuisti käyttöön tai poista se käytöstä tapahtuman latauks
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ota käyttöön laajennetut tapahtumatiedot, mukaan lukien kaikki näyttelijät, miehistö, juonen tiedot ja muut metatiedot, tietowidgetissä."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Virhe ihotiedoston käsittelyssä: {}"
-
 msgid "Error downloading files!"
 msgstr "Virhe tiedostojen lataamisessa!"
 
 msgid "Error loading: {}"
 msgstr "Virhe latauksessa: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Virhe ihotiedoston käsittelyssä: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Virhe {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Ihon tyyli:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Lumikki"

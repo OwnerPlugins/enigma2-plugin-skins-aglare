@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokol + Server + Dema ECM"
 msgid "Cancel"
 msgstr "Bişûndekirin"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Rengê Danasîna Kanalê:"
 
@@ -232,14 +235,15 @@ msgstr "Di dema dakêşana bûyerê de cachkirinê çalak bikin an neçalak biki
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Nîşandana agahdariya bûyera dirêjkirî, tevî kastê tevahî, ekîb, hûrguliyên komployê, û metadaneyên din, di widgeta agahdariyê de çalak bikin."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Xeletî di hilberandina pelê çerm de: {}"
-
 msgid "Error downloading files!"
 msgstr "Di daxistina pelan de çewtî!"
 
 msgid "Error loading: {}"
 msgstr "Çewtiya barkirinê: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Xeletî di hilberandina pelê çerm de: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Çewtiya {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Şêweya Çermê:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

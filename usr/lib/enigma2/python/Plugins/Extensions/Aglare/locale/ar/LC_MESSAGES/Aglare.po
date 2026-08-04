@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "يلغي"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "لون وصف القناة:"
 
@@ -232,14 +235,15 @@ msgstr "قم بتمكين أو تعطيل التخزين المؤقت أثناء
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "قم بتمكين عرض معلومات الحدث الموسعة، بما في ذلك الممثلون الكاملون وطاقم العمل وتفاصيل الحبكة وبيانات التعريف الأخرى، في أداة المعلومات."
 
-msgid "Error by processing the skin file: {}"
-msgstr "خطأ أثناء معالجة ملف السطح: {}"
-
 msgid "Error downloading files!"
 msgstr "خطأ في تنزيل الملفات!"
 
 msgid "Error loading: {}"
 msgstr "خطأ في التحميل: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "خطأ أثناء معالجة ملف السطح: {}"
 
 msgid "Error {0}: {1}"
 msgstr "الخطأ {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "سيينا"
 
 msgid "Skin Style:"
 msgstr "نمط الجلد:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "سنو وايت"

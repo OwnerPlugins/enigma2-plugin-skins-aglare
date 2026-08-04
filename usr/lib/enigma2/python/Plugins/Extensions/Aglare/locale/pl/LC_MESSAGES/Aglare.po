@@ -94,6 +94,9 @@ msgstr "Caid + czytnik + protokół + serwer + czas ECM"
 msgid "Cancel"
 msgstr "Anulować"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Opis kanału Kolor:"
 
@@ -232,14 +235,15 @@ msgstr "Włącz lub wyłącz buforowanie podczas pobierania zdarzeń, aby przysp
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Włącz wyświetlanie rozszerzonych informacji o wydarzeniu, w tym pełnej obsady, ekipy, szczegółów fabuły i innych metadanych, w widgecie informacyjnym."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Błąd podczas przetwarzania pliku skórki: {}"
-
 msgid "Error downloading files!"
 msgstr "Błąd podczas pobierania plików!"
 
 msgid "Error loading: {}"
 msgstr "Błąd ładowania: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Błąd podczas przetwarzania pliku skórki: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Błąd {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Styl skóry:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Śnieżka"

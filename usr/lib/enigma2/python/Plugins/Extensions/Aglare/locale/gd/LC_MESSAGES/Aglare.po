@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + Ùine ECM"
 msgid "Cancel"
 msgstr "Sguir dheth"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Dath Tuairisgeul an t-Sianail:"
 
@@ -232,14 +235,15 @@ msgstr "Dèan comas no cuir à comas tasgadan aig àm luchdachadh sìos tacharta
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Dèan comas air taisbeanadh fiosrachadh tachartais leudaichte, a’ toirt a-steach làn sgioba, sgioba, mion-fhiosrachadh cuilbheart, agus meata-dàta eile, anns a’ widget fiosrachaidh."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Mearachd le bhith a' làimhseachadh an fhaidhle craiceann: {}"
-
 msgid "Error downloading files!"
 msgstr "Thachair mearachd le luchdachadh sìos faidhlichean!"
 
 msgid "Error loading: {}"
 msgstr "Thachair mearachd le luchdachadh: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Mearachd le bhith a' làimhseachadh an fhaidhle craiceann: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Mearachd {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sìne"
 
 msgid "Skin Style:"
 msgstr "Stoidhle Craicinn:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Sneachda Geal"

@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "Скасувати"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Колір опису каналу:"
 
@@ -232,14 +235,15 @@ msgstr "Увімкніть або вимкніть кешування під ч�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Увімкніть відображення розширеної інформації про подію, включаючи повний акторський склад, команду, деталі сюжету та інші метадані, у інформаційному віджеті."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Помилка обробки файлу шкіри: {}"
-
 msgid "Error downloading files!"
 msgstr "Помилка завантаження файлів!"
 
 msgid "Error loading: {}"
 msgstr "Помилка завантаження: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Помилка обробки файлу шкіри: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Помилка {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Сієнна"
 
 msgid "Skin Style:"
 msgstr "Стиль шкіри:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Білосніжка"

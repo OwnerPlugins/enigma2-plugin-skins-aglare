@@ -5,6 +5,7 @@
 
 
 
+
 msgid "%s key imported!"
 msgstr ""
 
@@ -84,6 +85,9 @@ msgid "Caid + Reader + Protocol + Server + ECM Time"
 msgstr ""
 
 msgid "Cancel"
+msgstr ""
+
+msgid "Cannot create version file: {}"
 msgstr ""
 
 msgid "Channel Description Color:"
@@ -224,13 +228,13 @@ msgstr ""
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr ""
 
-msgid "Error by processing the skin file: {}"
-msgstr ""
-
 msgid "Error downloading files!"
 msgstr ""
 
 msgid "Error loading: {}"
+msgstr ""
+
+msgid "Error processing skin file: {}"
 msgstr ""
 
 msgid "Error {0}: {1}"
@@ -555,6 +559,9 @@ msgid "Sienna"
 msgstr ""
 
 msgid "Skin Style:"
+msgstr ""
+
+msgid "Skin not supported."
 msgstr ""
 
 msgid "SnowWhite"

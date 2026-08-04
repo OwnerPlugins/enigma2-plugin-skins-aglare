@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "Otkaži"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Boja opisa kanala:"
 
@@ -232,14 +235,15 @@ msgstr "Omogućite ili onemogućite keširanje tokom preuzimanja događaja da bi
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Omogućite prikaz proširenih informacija o događajima, uključujući kompletnu glumačku ekipu, ekipu, detalje radnje i druge metapodatke, u widgetu za informacije."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Greška prilikom obrade skin fajla: {}"
-
 msgid "Error downloading files!"
 msgstr "Greška pri preuzimanju fajlova!"
 
 msgid "Error loading: {}"
 msgstr "Greška pri učitavanju: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Greška prilikom obrade skin fajla: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Greška {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Stil kože:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"

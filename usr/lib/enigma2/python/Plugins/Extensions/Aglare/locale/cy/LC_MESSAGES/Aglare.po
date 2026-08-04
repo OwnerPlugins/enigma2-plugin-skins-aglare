@@ -94,6 +94,9 @@ msgstr "Caid + Darllenydd + Protocol + Gweinydd + Amser ECM"
 msgid "Cancel"
 msgstr "Canslo"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Lliw Disgrifiad o'r Sianel:"
 
@@ -232,14 +235,15 @@ msgstr "Galluogi neu analluogi caching yn ystod lawrlwytho digwyddiadau i gyflym
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Galluogi arddangos gwybodaeth digwyddiad estynedig, gan gynnwys cast llawn, criw, manylion plot, a metadata eraill, yn y teclyn gwybodaeth."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Gwall wrth brosesu'r ffeil croen: {}"
-
 msgid "Error downloading files!"
 msgstr "Gwall wrth lawrlwytho ffeiliau!"
 
 msgid "Error loading: {}"
 msgstr "Gwall wrth lwytho: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Gwall wrth brosesu'r ffeil croen: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Gwall {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Arddull Croen:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "EiraGwyn"

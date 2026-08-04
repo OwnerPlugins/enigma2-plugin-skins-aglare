@@ -94,6 +94,9 @@ msgstr "Caid + Leganto + Protokolo + Servilo + ECM-Tempo"
 msgid "Cancel"
 msgstr "Nuligi"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanala Priskribo Koloro:"
 
@@ -232,14 +235,15 @@ msgstr "Ebligu aŭ malŝaltu kaŝmemoron dum evento-elŝuto por akceli ripetajn 
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Ebligu la montradon de plilongigitaj evento-informoj, inkluzive de plena rolantaro, skipo, intrigo-detaloj kaj aliaj metadatenoj, en la informa fenestraĵo."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Eraro pro procesado de la haŭta dosiero: {}"
-
 msgid "Error downloading files!"
 msgstr "Eraro dum elŝuto de dosieroj!"
 
 msgid "Error loading: {}"
 msgstr "Eraro dum ŝarĝo: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Eraro pro procesado de la haŭta dosiero: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Eraro {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Haŭta Stilo:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Neĝulino"

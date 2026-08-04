@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM Time"
 msgid "Cancel"
 msgstr "Ghairi"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Rangi ya Maelezo ya Kituo:"
 
@@ -232,14 +235,15 @@ msgstr "Washa au lemaza uhifadhi wakati wa upakuaji wa tukio ili kuharakisha uta
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Washa onyesho la maelezo marefu ya tukio, ikijumuisha waigizaji kamili, wafanyakazi, maelezo ya njama na metadata nyingine, katika wijeti ya maelezo."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Hitilafu katika kuchakata faili ya ngozi: {}"
-
 msgid "Error downloading files!"
 msgstr "Hitilafu katika kupakua faili!"
 
 msgid "Error loading: {}"
 msgstr "Hitilafu katika upakiaji: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Hitilafu katika kuchakata faili ya ngozi: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Hitilafu {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Mtindo wa Ngozi:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Theluji Nyeupe"

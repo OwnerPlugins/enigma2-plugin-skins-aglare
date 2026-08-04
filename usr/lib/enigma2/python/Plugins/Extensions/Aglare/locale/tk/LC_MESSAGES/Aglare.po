@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protokol + Serwer + ECM Wagty"
 msgid "Cancel"
 msgstr "Elatyr"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Kanalyň beýany Reňk:"
 
@@ -232,14 +235,15 @@ msgstr "Gaýtadan gözlegleri çaltlaşdyrmak üçin hadysany göçürip alanyň
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Maglumat widjetinde doly rol oýnaýanlar, ekipa .lar, sýu plotet jikme-jiklikleri we beýleki metadatalary goşmak bilen giňeldilen waka maglumatlaryny görkezmäge mümkinçilik beriň."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Deriniň faýlyny gaýtadan işlemekde ýalňyşlyk: {}"
-
 msgid "Error downloading files!"
 msgstr "Faýllary göçürip almakda ýalňyşlyk!"
 
 msgid "Error loading: {}"
 msgstr "Adingüklemekde säwlik: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Deriniň faýlyny gaýtadan işlemekde ýalňyşlyk: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Roralňyşlyk {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Deriniň stili:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Gar"

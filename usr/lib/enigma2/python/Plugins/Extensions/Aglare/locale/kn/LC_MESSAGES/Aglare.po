@@ -94,6 +94,9 @@ msgstr "ಕೈಡ್ + ರೀಡರ್ + ಪ್ರೋಟೋಕಾಲ್ + ಸರ
 msgid "Cancel"
 msgstr "ರದ್ದುಮಾಡಿ"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "ಚಾನಲ್ ವಿವರಣೆ ಬಣ್ಣ:"
 
@@ -232,14 +235,15 @@ msgstr "ಪುನರಾವರ್ತಿತ ಹುಡುಕಾಟಗಳನ್ನ�
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "ಮಾಹಿತಿ ವಿಜೆಟ್‌ನಲ್ಲಿ ಪೂರ್ಣ ಪಾತ್ರವರ್ಗ, ಸಿಬ್ಬಂದಿ, ಕಥಾವಸ್ತುವಿನ ವಿವರಗಳು ಮತ್ತು ಇತರ ಮೆಟಾಡೇಟಾ ಸೇರಿದಂತೆ ವಿಸ್ತೃತ ಈವೆಂಟ್ ಮಾಹಿತಿಯ ಪ್ರದರ್ಶನವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
 
-msgid "Error by processing the skin file: {}"
-msgstr "ಸ್ಕಿನ್ ಫೈಲ್ ಅನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಲ್ಲಿ ದೋಷ: {}"
-
 msgid "Error downloading files!"
 msgstr "ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ!"
 
 msgid "Error loading: {}"
 msgstr "ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "ಸ್ಕಿನ್ ಫೈಲ್ ಅನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಲ್ಲಿ ದೋಷ: {}"
 
 msgid "Error {0}: {1}"
 msgstr "ದೋಷ {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "ಸಿಯೆನ್ನಾ"
 
 msgid "Skin Style:"
 msgstr "ಚರ್ಮದ ಶೈಲಿ:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "ಸ್ನೋವೈಟ್"

@@ -94,6 +94,9 @@ msgstr "Caid + Lector + Protocol + Servidor + Hora ECM"
 msgid "Cancel"
 msgstr "Cancel·la"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Color de la descripció del canal:"
 
@@ -232,14 +235,15 @@ msgstr "Activeu o desactiveu la memòria cau durant la descàrrega d'esdevenimen
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Activeu la visualització de la informació ampliada de l'esdeveniment, inclòs el repartiment complet, la tripulació, els detalls de la trama i altres metadades, al giny d'informació."
 
-msgid "Error by processing the skin file: {}"
-msgstr "S'ha produït un error en processar el fitxer de la pell: {}"
-
 msgid "Error downloading files!"
 msgstr "S'ha produït un error en baixar els fitxers!"
 
 msgid "Error loading: {}"
 msgstr "Error en carregar: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "S'ha produït un error en processar el fitxer de la pell: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Error {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Siena"
 
 msgid "Skin Style:"
 msgstr "Estil de pell:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Blancaneus"

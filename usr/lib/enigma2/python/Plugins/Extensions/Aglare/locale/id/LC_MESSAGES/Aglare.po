@@ -94,6 +94,9 @@ msgstr "Caid + Pembaca + Protokol + Server + Waktu ECM"
 msgid "Cancel"
 msgstr "Membatalkan"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Warna Deskripsi Saluran:"
 
@@ -232,14 +235,15 @@ msgstr "Mengaktifkan atau menonaktifkan cache selama pengunduhan acara untuk mem
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Aktifkan tampilan informasi acara tambahan, termasuk pemeran lengkap, kru, detail plot, dan metadata lainnya, di widget info."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Kesalahan saat memproses file skin: {}"
-
 msgid "Error downloading files!"
 msgstr "Kesalahan saat mengunduh file!"
 
 msgid "Error loading: {}"
 msgstr "Kesalahan saat memuat: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Kesalahan saat memproses file skin: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Kesalahan {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Gaya Kulit:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "Putri Salju"

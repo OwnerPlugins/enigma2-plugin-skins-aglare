@@ -94,6 +94,9 @@ msgstr "Caid + Reader + Protocol + Server + ECM čas"
 msgid "Cancel"
 msgstr "Zrušiť"
 
+msgid "Cannot create version file: {}"
+msgstr ""
+
 msgid "Channel Description Color:"
 msgstr "Farba popisu kanála:"
 
@@ -232,14 +235,15 @@ msgstr "Povoľte alebo zakážte ukladanie do vyrovnávacej pamäte počas sťah
 msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
 msgstr "Povoľte zobrazenie rozšírených informácií o udalosti vrátane celého obsadenia, štábu, podrobností o sprisahaní a ďalších metadát v informačnom widgete."
 
-msgid "Error by processing the skin file: {}"
-msgstr "Chyba pri spracovaní súboru vzhľadu: {}"
-
 msgid "Error downloading files!"
 msgstr "Chyba pri sťahovaní súborov!"
 
 msgid "Error loading: {}"
 msgstr "Chyba pri načítavaní: {}"
+
+#, fuzzy
+msgid "Error processing skin file: {}"
+msgstr "Chyba pri spracovaní súboru vzhľadu: {}"
 
 msgid "Error {0}: {1}"
 msgstr "Chyba {0}: {1}"
@@ -564,6 +568,9 @@ msgstr "Sienna"
 
 msgid "Skin Style:"
 msgstr "Štýl pleti:"
+
+msgid "Skin not supported."
+msgstr ""
 
 msgid "SnowWhite"
 msgstr "SnowWhite"
