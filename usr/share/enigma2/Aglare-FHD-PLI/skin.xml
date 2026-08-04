@@ -274,6 +274,8 @@
         <alias name="HelpMenuList" font="OpenSans" size="20" height="50"/>
         <alias name="Dreamexplorer" font="Regular" size="28" height="36"/>
     </fonts>
+    <include filename="skin_templates.xml"/>
+    <include filename="skin_sf.xml"/>
     <screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" flags="wfNoBorder" backgroundColor="transparent">
         <panel name="infobartemp3"/>
         <!--ecm-->
@@ -542,8 +544,7 @@
         <widget source="ServiceEvent" render="AglareNxtEvnt" nxtEvents="" snglEvent="2" font="Regular; 18" halign="left" backgroundColor="background" position="1444,622" size="220,50" zPosition="5" transparent="1"/>
         <widget source="ServiceEvent" render="AglareNxtEvnt" nxtEvents="" snglEvent="3" font="Regular; 18" halign="left" backgroundColor="background" position="1676,622" size="220,50" zPosition="5" transparent="1"/>
     </screen>
-    <include filename="skin_templates.xml"/>
-    <include filename="skin_sf.xml"/>
+
     <screen name="SlimChannelSelection" position="0,0" size="1920,1080" title="Channel Selection" flags="wfNoBorder" backgroundColor="transparent">
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <panel name="infobartimedate"/>

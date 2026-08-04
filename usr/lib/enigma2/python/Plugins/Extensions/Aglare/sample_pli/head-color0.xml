@@ -248,4 +248,6 @@
       <pixmap pos="bpBottomRight" filename="Aglare-FHD-PLI/window/b_br_shadow.png" />
     </borderset>
   </windowstyle>
-
+    <include filename="skin_templates.xml"/>
+    <include filename="skin_sf.xml"/>
+    

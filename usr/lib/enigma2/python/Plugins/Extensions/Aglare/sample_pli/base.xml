@@ -1,6 +1,4 @@
 
-    <include filename="skin_templates.xml"/>
-    <include filename="skin_sf.xml"/>
     <screen name="SlimChannelSelection" position="0,0" size="1920,1080" title="Channel Selection" flags="wfNoBorder" backgroundColor="transparent">
         <panel name="ScreenTemplateAllColorButtons_menu"/>
         <panel name="infobartimedate"/>
