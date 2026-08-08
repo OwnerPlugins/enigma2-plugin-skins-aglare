@@ -21,19 +21,22 @@ except ImportError:
     from urllib2 import urlopen, Request
     from urllib import quote
 
-# Initialize Global Configuration for the backup folder, search method, and title preference
+# Initialize Global Configuration for the backup folder, search method,
+# and title preference
 if not hasattr(config.misc, "AglareSubstitute"):
     config.misc.AglareSubstitute = ConfigSubsection()
     config.misc.AglareSubstitute.backup_dir = ConfigText(
         default="/etc/enigma2/aglare", fixed_size=False)
-    config.misc.AglareSubstitute.search_method = ConfigSelection(default="web", choices=[
-        ("web", _("Default Search (No API)")),
-        ("api", _("API Key Search"))
-    ])
-    config.misc.AglareSubstitute.name_preference = ConfigSelection(default="original_name", choices=[
-        ("name", _("Standard Name (Translated)")),
-        ("original_name", _("Original Name (Native)"))
-    ])
+    config.misc.AglareSubstitute.search_method = ConfigSelection(
+        default="web", choices=[
+            ("web", _("Default Search (No API)")), ("api", _("API Key Search"))])
+    config.misc.AglareSubstitute.name_preference = ConfigSelection(
+        default="original_name",
+        choices=[
+            ("name",
+             _("Standard Name (Translated)")),
+            ("original_name",
+             _("Original Name (Native)"))])
 
 
 def write_sub_log(msg):
@@ -91,8 +94,12 @@ class AglareSubSettingsScreen(ConfigListScreen, Screen):
     def keyOK(self):
         current = self["config"].getCurrent()
         if current and current[1] == self.folder_config:
-            self.session.openWithCallback(self.locationCallback, LocationBox, windowTitle=_(
-                "Select Backup Folder"), text=_("Select Folder"), currDir=self.folder_config.value)
+            self.session.openWithCallback(
+                self.locationCallback,
+                LocationBox,
+                windowTitle=_("Select Backup Folder"),
+                text=_("Select Folder"),
+                currDir=self.folder_config.value)
 
     def locationCallback(self, path):
         if path is not None:
@@ -233,8 +240,11 @@ class AglareTitleSubstituteScreen(Screen):
         self.session.open(AglareSubSettingsScreen)
 
     def openKeyboard(self):
-        self.session.openWithCallback(self.keyboardCallback, VirtualKeyBoard, title=_(
-            "Edit Search Query"), text=self.editable_title)
+        self.session.openWithCallback(
+            self.keyboardCallback,
+            VirtualKeyBoard,
+            title=_("Edit Search Query"),
+            text=self.editable_title)
 
     def keyboardCallback(self, res):
         if res is not None:
@@ -257,19 +267,20 @@ class AglareTitleSubstituteScreen(Screen):
         if search_mode == "api":
             url = "https://api.themoviedb.org/3/search/multi?api_key={}&query={}".format(
                 self.tmdb_api_key, quote(self.editable_title))
-            write_sub_log("Initiating TMDb API Key search for query: '{}'".format(
-                self.editable_title))
+            write_sub_log(
+                "Initiating TMDb API Key search for query: '{}'".format(
+                    self.editable_title))
             headers = {'User-Agent': 'Mozilla/5.0'}
         else:
             url = "https://www.themoviedb.org/search/trending?query={}".format(
                 quote(self.editable_title))
-            write_sub_log("Initiating TMDb Web Search (No API) for query: '{}'".format(
-                self.editable_title))
+            write_sub_log(
+                "Initiating TMDb Web Search (No API) for query: '{}'".format(
+                    self.editable_title))
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
                 'Accept': 'application/json, text/javascript, */*; q=0.01',
-                'X-Requested-With': 'XMLHttpRequest'
-            }
+                'X-Requested-With': 'XMLHttpRequest'}
 
         try:
             req = Request(url, headers=headers)
@@ -304,16 +315,18 @@ class AglareTitleSubstituteScreen(Screen):
                         display_list.append(display_text)
                         self.search_results.append((title, year))
 
-                        write_sub_log("Result Discovered | Title: '{}' | Year: '{}' | Type: '{}'".format(
-                            title, year, media_type))
+                        write_sub_log(
+                            "Result Discovered | Title: '{}' | Year: '{}' | Type: '{}'".format(
+                                title, year, media_type))
 
             if display_list:
                 self["results_list"].setList(display_list)
             else:
                 self["results_list"].setList(["No results found"])
                 self.search_results = []
-                write_sub_log("No matching movie or TV results found for query: '{}'".format(
-                    self.editable_title))
+                write_sub_log(
+                    "No matching movie or TV results found for query: '{}'".format(
+                        self.editable_title))
 
         except Exception as e:
             write_sub_log("Search Error: {}".format(str(e)))
@@ -355,8 +368,11 @@ class AglareTitleSubstituteScreen(Screen):
                 write_sub_log("Duplicate check error: " + str(e))
 
         if duplicate_found:
-            self.session.openWithCallback(self.overrideCallback, MessageBox, _(
-                "This event name already exists in substitutions.json.\nDo you want to override it?"), MessageBox.TYPE_YESNO)
+            self.session.openWithCallback(
+                self.overrideCallback,
+                MessageBox,
+                _("This event name already exists in substitutions.json.\nDo you want to override it?"),
+                MessageBox.TYPE_YESNO)
         else:
             self.writeToJson(override=False)
 
@@ -374,8 +390,11 @@ class AglareTitleSubstituteScreen(Screen):
             try:
                 os.makedirs(backup_dir)
             except Exception as e:
-                self.session.open(MessageBox, _(
-                    "Directory creation error: ") + str(e), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("Directory creation error: ") +
+                    str(e),
+                    MessageBox.TYPE_ERROR)
                 return
 
         json_path = os.path.join(backup_dir, "substitutions.json")
@@ -396,11 +415,13 @@ class AglareTitleSubstituteScreen(Screen):
                     item[2] = method
                     break
             write_sub_log(
-                "Overrode entry in JSON -> Original: '{}' | Target: '{}' | Method: '{}'".format(orig, replacement, method))
+                "Overrode entry in JSON -> Original: '{}' | Target: '{}' | Method: '{}'".format(
+                    orig, replacement, method))
         else:
             data.append([orig, replacement, method])
             write_sub_log(
-                "Saved entry to JSON -> Original: '{}' | Target: '{}' | Method: '{}'".format(orig, replacement, method))
+                "Saved entry to JSON -> Original: '{}' | Target: '{}' | Method: '{}'".format(
+                    orig, replacement, method))
 
         try:
             with codecs.open(json_path, "w", encoding="utf-8") as f:
@@ -410,8 +431,10 @@ class AglareTitleSubstituteScreen(Screen):
                 else:
                     json.dump(data, f, indent=4)
 
-            self.session.open(MessageBox, _(
-                "Substitution saved to JSON successfully!\nYou can continue adding more."), MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox,
+                _("Substitution saved to JSON successfully!\nYou can continue adding more."),
+                MessageBox.TYPE_INFO)
         except Exception as e:
             self.session.open(MessageBox, _(
                 "JSON Write Error: ") + str(e), MessageBox.TYPE_ERROR)

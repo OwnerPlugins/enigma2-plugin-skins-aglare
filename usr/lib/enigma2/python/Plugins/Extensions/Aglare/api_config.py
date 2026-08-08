@@ -31,7 +31,14 @@ def detect_image_group():
             with open('/etc/issue', 'r') as f:
                 issue = f.read().lower()
                 # Add keywords for the "new images group"
-                if any(img in issue for img in ['openbh', 'openvix', 'teamblue', 'openatv', 'egami', 'pure2']):
+                if any(
+                    img in issue for img in [
+                        'openbh',
+                        'openvix',
+                        'teamblue',
+                        'openatv',
+                        'egami',
+                        'pure2']):
                     group = 'new_images'
     except Exception:
         pass
@@ -46,8 +53,16 @@ cur_skin = config.skin.primary_skin.value.replace("/skin.xml", "").strip()
 
 def calcTime(hours, minutes):
     now_time = localtime()
-    ret_time = mktime((now_time.tm_year, now_time.tm_mon, now_time.tm_mday,
-                      hours, minutes, 0, now_time.tm_wday, now_time.tm_yday, now_time.tm_isdst))
+    ret_time = mktime(
+        (now_time.tm_year,
+         now_time.tm_mon,
+         now_time.tm_mday,
+         hours,
+         minutes,
+         0,
+         now_time.tm_wday,
+         now_time.tm_yday,
+         now_time.tm_isdst))
     return ret_time
 
 
@@ -121,8 +136,17 @@ class ApiKeyManager:
                 active[api] = True
 
         # Providers that do not require API keys
-        for provider in ("elcinema", "google", "imdb", "programmetv", "molotov"):
-            if self._coerce_enabled(getattr(config.plugins.Aglare, provider, False)):
+        for provider in (
+            "elcinema",
+            "google",
+            "imdb",
+            "programmetv",
+                "molotov"):
+            if self._coerce_enabled(
+                getattr(
+                    config.plugins.Aglare,
+                    provider,
+                    False)):
                 active[provider] = True
 
         return active
@@ -173,7 +197,8 @@ class ApiKeyManager:
                 if key_value:
                     cfg['config_entry'].value = key_value
                     cfg['config_entry'].save()
-                    return True, _("Key {} successfully loaded!").format(api.upper())
+                    return True, _("Key {} successfully loaded!").format(
+                        api.upper())
             return False, _("File {} not found or empty").format(tmp_file)
 
         except Exception as e:
@@ -201,17 +226,23 @@ config.plugins.Aglare.actapi = ConfigOnOff(default=True)
 config.plugins.Aglare.tmdb = ConfigOnOff(default=True)
 config.plugins.Aglare.load_tmdb_api = ConfigYesNo(default=False)
 config.plugins.Aglare.tmdb_api = ConfigText(
-    default="3c3efcf47c3577558812bb9d64019d65", visible_width=50, fixed_size=False)
+    default="3c3efcf47c3577558812bb9d64019d65",
+    visible_width=50,
+    fixed_size=False)
 
 config.plugins.Aglare.fanart = ConfigOnOff(default=False)
 config.plugins.Aglare.load_fanart_api = ConfigYesNo(default=False)
 config.plugins.Aglare.fanart_api = ConfigText(
-    default="6d231536dea4318a88cb2520ce89473b", visible_width=50, fixed_size=False)
+    default="6d231536dea4318a88cb2520ce89473b",
+    visible_width=50,
+    fixed_size=False)
 
 config.plugins.Aglare.thetvdb = ConfigOnOff(default=False)
 config.plugins.Aglare.load_thetvdb_api = ConfigYesNo(default=False)
 config.plugins.Aglare.thetvdb_api = ConfigText(
-    default="a99d487bb3426e5f3a60dea6d3d3c7ef", visible_width=50, fixed_size=False)
+    default="a99d487bb3426e5f3a60dea6d3d3c7ef",
+    visible_width=50,
+    fixed_size=False)
 
 config.plugins.Aglare.omdb = ConfigOnOff(default=False)
 config.plugins.Aglare.load_omdb_api = ConfigYesNo(default=False)
@@ -268,11 +299,14 @@ config.plugins.Aglare.xemc_parental = ConfigOnOff(default=True)
 # remove png
 config.plugins.Aglare.png = NoSave(ConfigYesNo(default=False))
 
-# SKIN STYLE MANAGEMENT =========================================================
-config.plugins.Aglare.ImageGroup = ConfigSelection(default=detect_image_group(), choices=[
-    ('openpli', _('OpenPLi / Satlodge (OpenPLi Group)')),
-    ('new_images', _('OpenBH / OpenViX / TeamBlue (New Images Group)'))
-])
+# SKIN STYLE MANAGEMENT ==================================================
+config.plugins.Aglare.ImageGroup = ConfigSelection(
+    default=detect_image_group(),
+    choices=[
+        ('openpli',
+         _('OpenPLi / Satlodge (OpenPLi Group)')),
+        ('new_images',
+         _('OpenBH / OpenViX / TeamBlue (New Images Group)'))])
 config.plugins.Aglare.colorSelector = ConfigSelection(default='color0', choices=[
     ('color0', _('Default')),
     ('color1', _('Black')),
@@ -462,86 +496,198 @@ TRANSPARENCY_CHOICES = [
     ('E6', _('90%'))
 ]
 
-config.plugins.Aglare.odem1 = ConfigText(default="#00080b11", visible_width=12, fixed_size=False)   # wpuc
-config.plugins.Aglare.odem2 = ConfigText(default="#002d3d5b", visible_width=12, fixed_size=False)   # wpmc
-config.plugins.Aglare.odem3 = ConfigText(default="#00222e47", visible_width=12, fixed_size=False)   # wplc
-config.plugins.Aglare.odem4 = ConfigText(default="#001a2336", visible_width=12, fixed_size=False)   # buttonsc
-config.plugins.Aglare.odem5 = ConfigText(default="#00171a1c", visible_width=12, fixed_size=False)   # mcolor2
-config.plugins.Aglare.odem6 = ConfigText(default="#0028343b", visible_width=12, fixed_size=False)   # mcolor3
-config.plugins.Aglare.odem7 = ConfigText(default="#003e4b53", visible_width=12, fixed_size=False)   # mcolor4
-config.plugins.Aglare.odem8 = ConfigText(default="#00283752", visible_width=12, fixed_size=False)   # mcolor5
-config.plugins.Aglare.odem9 = ConfigText(default="#004d5e7c", visible_width=12, fixed_size=False)   # mcolor6
-config.plugins.Aglare.odem10 = ConfigText(default="#001d283c", visible_width=12, fixed_size=False)   # igsd
-config.plugins.Aglare.odem11 = ConfigText(default="#441d283c", visible_width=12, fixed_size=False)  # igsdt
-config.plugins.Aglare.odem12 = ConfigText(default="#10171a1c", visible_width=12, fixed_size=False)   # mcolor7
-config.plugins.Aglare.odem13 = ConfigText(default="#005a5a5a", visible_width=12, fixed_size=False)  # progbg
-config.plugins.Aglare.odem14 = ConfigText(default="#0023314c", visible_width=12, fixed_size=False)  # sidec1
-config.plugins.Aglare.odem15 = ConfigText(default="#000c101b", visible_width=12, fixed_size=False)  # sidec2
-config.plugins.Aglare.odem16 = ConfigText(default="#00ededed", visible_width=12, fixed_size=False)  # wdcolor
-config.plugins.Aglare.odem1_color1 = ConfigText(default='080b11', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem1_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem2_color1 = ConfigText(default='2d3d5b', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem2_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem3_color1 = ConfigText(default='222e47', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem3_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem4_color1 = ConfigText(default='1a2336', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem4_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem5_color1 = ConfigText(default='171a1c', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem5_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem6_color1 = ConfigText(default='28343b', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem6_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem7_color1 = ConfigText(default='3e4b53', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem7_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem8_color1 = ConfigText(default='283752', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem8_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem9_color1 = ConfigText(default='4d5e7c', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem9_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem10_color1 = ConfigText(default='1d283c', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem10_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem11_color1 = ConfigText(default='1d283c', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem11_alpha1 = ConfigText(default='26', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem12_color1 = ConfigText(default='171a1c', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem12_alpha1 = ConfigText(default='6', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem13_color1 = ConfigText(default='5a5a5a', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem13_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem14_color1 = ConfigText(default='23314c', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem14_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem15_color1 = ConfigText(default='0c101b', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem15_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem16_color1 = ConfigText(default='ededed', visible_width=8, fixed_size=False)
-config.plugins.Aglare.odem16_alpha1 = ConfigText(default='0', visible_width=4, fixed_size=False)
-config.plugins.Aglare.odem1_color2 = ConfigSelection(default='080b11', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem1_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem2_color2 = ConfigSelection(default='2d3d5b', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem2_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem3_color2 = ConfigSelection(default='222e47', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem3_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem4_color2 = ConfigSelection(default='1a2336', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem4_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem5_color2 = ConfigSelection(default='171a1c', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem5_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem6_color2 = ConfigSelection(default='28343b', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem6_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem7_color2 = ConfigSelection(default='3e4b53', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem7_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem8_color2 = ConfigSelection(default='283752', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem8_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem9_color2 = ConfigSelection(default='4d5e7c', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem9_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem10_color2 = ConfigSelection(default='1d283c', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem10_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem11_color2 = ConfigSelection(default='1d283c', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem11_alpha2 = ConfigSelection(default='33', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem12_color2 = ConfigSelection(default='171a1c', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem12_alpha2 = ConfigSelection(default='1A', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem13_color2 = ConfigSelection(default='5a5a5a', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem13_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem14_color2 = ConfigSelection(default='23314c', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem14_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem15_color2 = ConfigSelection(default='0c101b', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem15_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
-config.plugins.Aglare.odem16_color2 = ConfigSelection(default='ededed', choices=BG_COLOR_CHOICES)
-config.plugins.Aglare.odem16_alpha2 = ConfigSelection(default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem1 = ConfigText(
+    default="#00080b11",
+    visible_width=12,
+    fixed_size=False)   # wpuc
+config.plugins.Aglare.odem2 = ConfigText(
+    default="#002d3d5b",
+    visible_width=12,
+    fixed_size=False)   # wpmc
+config.plugins.Aglare.odem3 = ConfigText(
+    default="#00222e47",
+    visible_width=12,
+    fixed_size=False)   # wplc
+config.plugins.Aglare.odem4 = ConfigText(
+    default="#001a2336",
+    visible_width=12,
+    fixed_size=False)   # buttonsc
+config.plugins.Aglare.odem5 = ConfigText(
+    default="#00171a1c",
+    visible_width=12,
+    fixed_size=False)   # mcolor2
+config.plugins.Aglare.odem6 = ConfigText(
+    default="#0028343b",
+    visible_width=12,
+    fixed_size=False)   # mcolor3
+config.plugins.Aglare.odem7 = ConfigText(
+    default="#003e4b53",
+    visible_width=12,
+    fixed_size=False)   # mcolor4
+config.plugins.Aglare.odem8 = ConfigText(
+    default="#00283752",
+    visible_width=12,
+    fixed_size=False)   # mcolor5
+config.plugins.Aglare.odem9 = ConfigText(
+    default="#004d5e7c",
+    visible_width=12,
+    fixed_size=False)   # mcolor6
+config.plugins.Aglare.odem10 = ConfigText(
+    default="#001d283c",
+    visible_width=12,
+    fixed_size=False)   # igsd
+config.plugins.Aglare.odem11 = ConfigText(
+    default="#441d283c",
+    visible_width=12,
+    fixed_size=False)  # igsdt
+config.plugins.Aglare.odem12 = ConfigText(
+    default="#10171a1c",
+    visible_width=12,
+    fixed_size=False)   # mcolor7
+config.plugins.Aglare.odem13 = ConfigText(
+    default="#005a5a5a",
+    visible_width=12,
+    fixed_size=False)  # progbg
+config.plugins.Aglare.odem14 = ConfigText(
+    default="#0023314c",
+    visible_width=12,
+    fixed_size=False)  # sidec1
+config.plugins.Aglare.odem15 = ConfigText(
+    default="#000c101b",
+    visible_width=12,
+    fixed_size=False)  # sidec2
+config.plugins.Aglare.odem16 = ConfigText(
+    default="#00ededed",
+    visible_width=12,
+    fixed_size=False)  # wdcolor
+config.plugins.Aglare.odem1_color1 = ConfigText(
+    default='080b11', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem1_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem2_color1 = ConfigText(
+    default='2d3d5b', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem2_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem3_color1 = ConfigText(
+    default='222e47', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem3_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem4_color1 = ConfigText(
+    default='1a2336', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem4_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem5_color1 = ConfigText(
+    default='171a1c', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem5_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem6_color1 = ConfigText(
+    default='28343b', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem6_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem7_color1 = ConfigText(
+    default='3e4b53', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem7_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem8_color1 = ConfigText(
+    default='283752', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem8_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem9_color1 = ConfigText(
+    default='4d5e7c', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem9_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem10_color1 = ConfigText(
+    default='1d283c', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem10_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem11_color1 = ConfigText(
+    default='1d283c', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem11_alpha1 = ConfigText(
+    default='26', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem12_color1 = ConfigText(
+    default='171a1c', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem12_alpha1 = ConfigText(
+    default='6', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem13_color1 = ConfigText(
+    default='5a5a5a', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem13_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem14_color1 = ConfigText(
+    default='23314c', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem14_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem15_color1 = ConfigText(
+    default='0c101b', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem15_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem16_color1 = ConfigText(
+    default='ededed', visible_width=8, fixed_size=False)
+config.plugins.Aglare.odem16_alpha1 = ConfigText(
+    default='0', visible_width=4, fixed_size=False)
+config.plugins.Aglare.odem1_color2 = ConfigSelection(
+    default='080b11', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem1_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem2_color2 = ConfigSelection(
+    default='2d3d5b', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem2_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem3_color2 = ConfigSelection(
+    default='222e47', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem3_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem4_color2 = ConfigSelection(
+    default='1a2336', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem4_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem5_color2 = ConfigSelection(
+    default='171a1c', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem5_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem6_color2 = ConfigSelection(
+    default='28343b', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem6_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem7_color2 = ConfigSelection(
+    default='3e4b53', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem7_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem8_color2 = ConfigSelection(
+    default='283752', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem8_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem9_color2 = ConfigSelection(
+    default='4d5e7c', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem9_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem10_color2 = ConfigSelection(
+    default='1d283c', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem10_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem11_color2 = ConfigSelection(
+    default='1d283c', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem11_alpha2 = ConfigSelection(
+    default='33', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem12_color2 = ConfigSelection(
+    default='171a1c', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem12_alpha2 = ConfigSelection(
+    default='1A', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem13_color2 = ConfigSelection(
+    default='5a5a5a', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem13_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem14_color2 = ConfigSelection(
+    default='23314c', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem14_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem15_color2 = ConfigSelection(
+    default='0c101b', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem15_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
+config.plugins.Aglare.odem16_color2 = ConfigSelection(
+    default='ededed', choices=BG_COLOR_CHOICES)
+config.plugins.Aglare.odem16_alpha2 = ConfigSelection(
+    default='00', choices=TRANSPARENCY_CHOICES)
 
 config.plugins.Aglare.FontStyle = ConfigSelection(default='basic', choices=[
     ('basic', _('Default')),
@@ -564,10 +710,9 @@ config.plugins.Aglare.InfobarStyle = ConfigSelection(default='infobar_base1', ch
     ('infobar_base5', _('Style5 CD')),
     ('infobar_base6', _('Style6'))
 ])
-config.plugins.Aglare.InfobarECM = ConfigSelection(default='infobar_ecm_off', choices=[
-    ('infobar_ecm_off', _('OFF')),
-    ('infobar_ecm_on', _('ON'))
-])
+config.plugins.Aglare.InfobarECM = ConfigSelection(
+    default='infobar_ecm_off', choices=[
+        ('infobar_ecm_off', _('OFF')), ('infobar_ecm_on', _('ON'))])
 config.plugins.Aglare.InfobarPosterx = ConfigSelection(default='infobar_posters_posterx_off', choices=[
     ('infobar_posters_posterx_off', _('OFF')),
     ('infobar_posters_posterx_on', _('ON')),
@@ -577,13 +722,19 @@ config.plugins.Aglare.InfobarPosterx = ConfigSelection(default='infobar_posters_
     ('infobar_posters_posterx_cd2', _('CD2')),
     ('infobar_posters_posterx_ecm', _('1 poster'))
 ])
-config.plugins.Aglare.InfobarXtraevent = ConfigSelection(default='infobar_posters_xtraevent_off', choices=[
-    ('infobar_posters_xtraevent_off', _('OFF')),
-    ('infobar_posters_xtraevent_on', _('ON')),
-    ('infobar_posters_xtraevent_cd', _('CD')),
-    ('infobar_posters_xtraevent_info', _('Backdrop')),
-    ('infobar_posters_xtraevent_ecm', _('1 poster'))
-])
+config.plugins.Aglare.InfobarXtraevent = ConfigSelection(
+    default='infobar_posters_xtraevent_off',
+    choices=[
+        ('infobar_posters_xtraevent_off',
+         _('OFF')),
+        ('infobar_posters_xtraevent_on',
+         _('ON')),
+        ('infobar_posters_xtraevent_cd',
+         _('CD')),
+        ('infobar_posters_xtraevent_info',
+         _('Backdrop')),
+        ('infobar_posters_xtraevent_ecm',
+         _('1 poster'))])
 config.plugins.Aglare.InfobarDate = ConfigSelection(default='infobar_no_date', choices=[
     ('infobar_no_date', _('Infobar_NO_Date')),
     ('infobar_date1', _('Infobar_Date1')),
@@ -593,31 +744,51 @@ config.plugins.Aglare.InfobarDate = ConfigSelection(default='infobar_no_date', c
     ('infobar_date5', _('Infobar_Date5')),
 ])
 
-config.plugins.Aglare.InfobarWeather = ConfigSelection(default='infobar_no_weather', choices=[
-    ('infobar_no_weather', _('Infobar_NO_Weather')),
-    ('infobar_MSNweather', _('Infobar_MSNWeather')),
-    ('infobar_OAweather', _('Infobar_OAWeather'))
-])
-config.plugins.Aglare.SecondInfobarStyle = ConfigSelection(default='secondinfobar_base1', choices=[
-    ('secondinfobar_base1', _('Default')),
-    ('secondinfobar_base2', _('Style2')),
-    ('secondinfobar_base3', _('Style3')),
-    ('secondinfobar_base4', _('Style4'))
-])
-config.plugins.Aglare.SecondInfobarWeather = ConfigSelection(default='secondinfobar_no_weather', choices=[
-    ('secondinfobar_no_weather', _('Second Infobar_NO_Weather')),
-    ('secondinfobar_MSNweather', _('Second Infobar_MSNWeather')),
-    ('secondinfobar_OAweather', _('Second Infobar_OAWeather'))
-])
-config.plugins.Aglare.SecondInfobarPosterx = ConfigSelection(default='secondinfobar_posters_posterx_off', choices=[
-    ('secondinfobar_posters_posterx_off', _('OFF')),
-    ('secondinfobar_posters_posterx_on', _('ON')),
-    ('secondinfobar_posters_posterx_on_all1', _('ALL1'))
-])
-config.plugins.Aglare.SecondInfobarXtraevent = ConfigSelection(default='secondinfobar_posters_xtraevent_off', choices=[
-    ('secondinfobar_posters_xtraevent_off', _('OFF')),
-    ('secondinfobar_posters_xtraevent_on', _('ON'))
-])
+config.plugins.Aglare.InfobarWeather = ConfigSelection(
+    default='infobar_no_weather',
+    choices=[
+        ('infobar_no_weather',
+         _('Infobar_NO_Weather')),
+        ('infobar_MSNweather',
+         _('Infobar_MSNWeather')),
+        ('infobar_OAweather',
+         _('Infobar_OAWeather'))])
+config.plugins.Aglare.SecondInfobarStyle = ConfigSelection(
+    default='secondinfobar_base1',
+    choices=[
+        ('secondinfobar_base1',
+         _('Default')),
+        ('secondinfobar_base2',
+         _('Style2')),
+        ('secondinfobar_base3',
+         _('Style3')),
+        ('secondinfobar_base4',
+         _('Style4'))])
+config.plugins.Aglare.SecondInfobarWeather = ConfigSelection(
+    default='secondinfobar_no_weather',
+    choices=[
+        ('secondinfobar_no_weather',
+         _('Second Infobar_NO_Weather')),
+        ('secondinfobar_MSNweather',
+         _('Second Infobar_MSNWeather')),
+        ('secondinfobar_OAweather',
+         _('Second Infobar_OAWeather'))])
+config.plugins.Aglare.SecondInfobarPosterx = ConfigSelection(
+    default='secondinfobar_posters_posterx_off',
+    choices=[
+        ('secondinfobar_posters_posterx_off',
+         _('OFF')),
+        ('secondinfobar_posters_posterx_on',
+         _('ON')),
+        ('secondinfobar_posters_posterx_on_all1',
+         _('ALL1'))])
+config.plugins.Aglare.SecondInfobarXtraevent = ConfigSelection(
+    default='secondinfobar_posters_xtraevent_off',
+    choices=[
+        ('secondinfobar_posters_xtraevent_off',
+         _('OFF')),
+        ('secondinfobar_posters_xtraevent_on',
+         _('ON'))])
 config.plugins.Aglare.ChannSelector = ConfigSelection(default='channellist_no_posters', choices=[
     ('channellist_no_posters', _('ChannelSelection_NO_Posters')),
     ('channellist_no_posters_no_picon', _('ChannelSelection_NO_Posters_NO_Picon')),
@@ -634,11 +805,15 @@ config.plugins.Aglare.ChannSelector = ConfigSelection(default='channellist_no_po
     ('channellist_6_posters_EX', _('ChannelSelection_6_Posters_EX')),
     ('channellist_big_mini_tv', _('ChannelSelection_big_mini_tv'))
 ])
-config.plugins.Aglare.EventView = ConfigSelection(default='eventview_no_posters', choices=[
-    ('eventview_no_posters', _('EventView_NO_Posters')),
-    ('eventview_7_posters', _('EventView_7_Posters')),
-    ('eventview_7_posters_all1', _('EventView_7_Posters_ALL1'))
-])
+config.plugins.Aglare.EventView = ConfigSelection(
+    default='eventview_no_posters',
+    choices=[
+        ('eventview_no_posters',
+         _('EventView_NO_Posters')),
+        ('eventview_7_posters',
+         _('EventView_7_Posters')),
+        ('eventview_7_posters_all1',
+         _('EventView_7_Posters_ALL1'))])
 config.plugins.Aglare.VolumeBar = ConfigSelection(default='volume1', choices=[
     ('volume1', _('Default')),
     ('volume2', _('volume2'))
@@ -651,10 +826,9 @@ config.plugins.Aglare.bitrate_unit = ConfigSelection(default='kb', choices=[
     ('kb', _('Kilobit/s (Kb/s)')),
     ('mb', _('Megabit/s (Mb/s)'))
 ])
-config.plugins.Aglare.E2iplayerskins = ConfigSelection(default='e2iplayer_skin_off', choices=[
-    ('e2iplayer_skin_off', _('OFF')),
-    ('e2iplayer_skin_on', _('ON'))
-])
+config.plugins.Aglare.E2iplayerskins = ConfigSelection(
+    default='e2iplayer_skin_off', choices=[
+        ('e2iplayer_skin_off', _('OFF')), ('e2iplayer_skin_on', _('ON'))])
 config.plugins.Aglare.ChannForegroundColor = ConfigSelection(default='white', choices=[
     ('white', _('White')),
     ('#77ca5b', _('Mint')),
