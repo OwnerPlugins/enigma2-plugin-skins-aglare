@@ -309,7 +309,23 @@ class AglareSetup(ConfigListScreen, Screen):
             self, "_current_config_key") else None
         current_text = self["config"].getCurrent()[1].value
 
-        if key in ('odem1', 'odem2', 'odem3', 'odem4', 'odem5', 'odem6', 'odem7', 'odem8', 'odem9', 'odem10', 'odem11', 'odem12', 'odem13', 'odem14', 'odem15', 'odem16'):
+        if key in (
+            'odem1',
+            'odem2',
+            'odem3',
+            'odem4',
+            'odem5',
+            'odem6',
+            'odem7',
+            'odem8',
+            'odem9',
+            'odem10',
+            'odem11',
+            'odem12',
+            'odem13',
+            'odem14',
+            'odem15',
+                'odem16'):
             current_text = (current_text or '').strip()
             if current_text:
                 current_text = self._normalize_color_input(current_text)
@@ -400,15 +416,30 @@ class AglareSetup(ConfigListScreen, Screen):
         old_value = current[1].value
         value = callback
 
-        if key in ('odem1', 'odem2', 'odem3', 'odem4', 'odem5', 'odem6', 'odem7', 'odem8', 'odem9', 'odem10', 'odem11', 'odem12', 'odem13', 'odem14', 'odem15', 'odem16'):
+        if key in (
+            'odem1',
+            'odem2',
+            'odem3',
+            'odem4',
+            'odem5',
+            'odem6',
+            'odem7',
+            'odem8',
+            'odem9',
+            'odem10',
+            'odem11',
+            'odem12',
+            'odem13',
+            'odem14',
+            'odem15',
+                'odem16'):
             value = self._normalize_color_input(callback)
             if not self._is_valid_color_input(value):
                 self.session.open(
                     MessageBox,
                     _('Invalid color value. Use #RRGGBB or #AARRGGBB, for example ff0000 or #80ff0000'),
                     MessageBox.TYPE_ERROR,
-                    timeout=5
-                )
+                    timeout=5)
                 try:
                     current[1].value = old_value
                     self["config"].invalidate(current)
@@ -424,8 +455,7 @@ class AglareSetup(ConfigListScreen, Screen):
                     MessageBox,
                     _('Invalid color value. Use exactly 6 hex digits, for example ff0000'),
                     MessageBox.TYPE_ERROR,
-                    timeout=5
-                )
+                    timeout=5)
                 try:
                     current[1].value = old_value
                     self["config"].invalidate(current)
@@ -444,7 +474,23 @@ class AglareSetup(ConfigListScreen, Screen):
             pass
         self["config"].invalidate(current)
 
-        if key in ('odem1', 'odem2', 'odem3', 'odem4', 'odem5', 'odem6', 'odem7', 'odem8', 'odem9', 'odem10', 'odem11', 'odem12', 'odem13', 'odem14', 'odem15', 'odem16') and cfg.colorSelector.value == 'colorcustom':
+        if key in (
+            'odem1',
+            'odem2',
+            'odem3',
+            'odem4',
+            'odem5',
+            'odem6',
+            'odem7',
+            'odem8',
+            'odem9',
+            'odem10',
+            'odem11',
+            'odem12',
+            'odem13',
+            'odem14',
+            'odem15',
+                'odem16') and cfg.colorSelector.value == 'colorcustom':
             self.ShowPicture()
             try:
                 self.previewRefreshTimer.start(50, True)
@@ -547,7 +593,10 @@ class AglareSetup(ConfigListScreen, Screen):
         return '#{}{}'.format(alpha_hex, rgb_hex)
 
     def _custom2_combined_value(self, idx):
-        return self._combine_argb(getattr(cfg, self._custom2_alpha_key(idx)).value, getattr(cfg, self._custom2_color_key(idx)).value)
+        return self._combine_argb(
+            getattr(
+                cfg, self._custom2_alpha_key(idx)).value, getattr(
+                cfg, self._custom2_color_key(idx)).value)
 
     def _sync_custom2_hex_values(self):
         if cfg.colorSelector.value != 'colorcustom2':
@@ -558,9 +607,22 @@ class AglareSetup(ConfigListScreen, Screen):
 
     def _custom_color_keys(self):
         return [
-            'odem1', 'odem2', 'odem3', 'odem4', 'odem5', 'odem6', 'odem7', 'odem8',
-            'odem9', 'odem10', 'odem11', 'odem12', 'odem13', 'odem14', 'odem15', 'odem16'
-        ]
+            'odem1',
+            'odem2',
+            'odem3',
+            'odem4',
+            'odem5',
+            'odem6',
+            'odem7',
+            'odem8',
+            'odem9',
+            'odem10',
+            'odem11',
+            'odem12',
+            'odem13',
+            'odem14',
+            'odem15',
+            'odem16']
 
     def _ensure_color_preset_dir(self):
         try:
@@ -621,7 +683,8 @@ class AglareSetup(ConfigListScreen, Screen):
             if payload_mode:
                 return payload_mode == mode
             if mode == 'colorcustom2':
-                return bool(payload.get('custom2_values') or payload.get('custom2'))
+                return bool(payload.get('custom2_values')
+                            or payload.get('custom2'))
             return bool(payload.get('custom1') or payload.get('colors'))
         except Exception:
             return False
@@ -629,16 +692,19 @@ class AglareSetup(ConfigListScreen, Screen):
     def _get_color_preset_choices(self, mode):
         try:
             if not exists(self.colorPresetDir):
-                return [('', _('No saved {} color styles').format(self._preset_mode_label(mode)))]
-            files = sorted(
-                [x for x in listdir(self.colorPresetDir) if x.lower().endswith('.json')])
+                return [('', _('No saved {} color styles').format(
+                    self._preset_mode_label(mode)))]
+            files = sorted([x for x in listdir(
+                self.colorPresetDir) if x.lower().endswith('.json')])
             matching = [x for x in files if self._preset_matches_mode(
                 join(self.colorPresetDir, x), mode)]
             if not matching:
-                return [('', _('No saved {} color styles').format(self._preset_mode_label(mode)))]
+                return [('', _('No saved {} color styles').format(
+                    self._preset_mode_label(mode)))]
             return [(join(self.colorPresetDir, f), f) for f in matching]
         except Exception:
-            return [('', _('No saved {} color styles').format(self._preset_mode_label(mode)))]
+            return [('', _('No saved {} color styles').format(
+                self._preset_mode_label(mode)))]
 
     def _build_current_color_payload(self):
         data = {}
@@ -831,9 +897,10 @@ class AglareSetup(ConfigListScreen, Screen):
                 'version': 3,
                 'mode': 'colorcustom2',
                 'colors': self._build_current_color_payload(),
-                'custom2': self._build_current_custom2_payload(use_display_names=True),
-                'custom2_values': self._build_current_custom2_payload(use_display_names=False)
-            }
+                'custom2': self._build_current_custom2_payload(
+                    use_display_names=True),
+                'custom2_values': self._build_current_custom2_payload(
+                    use_display_names=False)}
         else:
             self._sync_custom1_hex_values()
             payload = {
@@ -951,8 +1018,9 @@ class AglareSetup(ConfigListScreen, Screen):
                     payload.get('colors', payload), mode)
 
             if not imported:
-                raise ValueError(_('{} preset data was not found in this file.').format(
-                    self._preset_mode_label(mode)))
+                raise ValueError(
+                    _('{} preset data was not found in this file.').format(
+                        self._preset_mode_label(mode)))
 
             self._save_imported_color_values(mode)
             self.createSetup()
@@ -981,21 +1049,86 @@ class AglareSetup(ConfigListScreen, Screen):
         entry = current[1]
         for key in (
             'colorSelector',
-            'odem1', 'odem2', 'odem3', 'odem4', 'odem5',
-            'odem6', 'odem7', 'odem8', 'odem9', 'odem10', 'odem11', 'odem12', 'odem13', 'odem14', 'odem15', 'odem16',
-            'odem1_color1', 'odem1_alpha1', 'odem2_color1', 'odem2_alpha1', 'odem3_color1', 'odem3_alpha1',
-            'odem4_color1', 'odem4_alpha1', 'odem5_color1', 'odem5_alpha1', 'odem6_color1', 'odem6_alpha1',
-            'odem7_color1', 'odem7_alpha1', 'odem8_color1', 'odem8_alpha1', 'odem9_color1', 'odem9_alpha1',
-            'odem10_color1', 'odem10_alpha1', 'odem11_color1', 'odem11_alpha1', 'odem12_color1', 'odem12_alpha1',
-            'odem13_color1', 'odem13_alpha1', 'odem14_color1', 'odem14_alpha1', 'odem15_color1', 'odem15_alpha1',
-            'odem16_color1', 'odem16_alpha1',
-            'odem1_color2', 'odem1_alpha2', 'odem2_color2', 'odem2_alpha2', 'odem3_color2', 'odem3_alpha2',
-            'odem4_color2', 'odem4_alpha2', 'odem5_color2', 'odem5_alpha2', 'odem6_color2', 'odem6_alpha2',
-            'odem7_color2', 'odem7_alpha2', 'odem8_color2', 'odem8_alpha2', 'odem9_color2', 'odem9_alpha2',
-            'odem10_color2', 'odem10_alpha2', 'odem11_color2', 'odem11_alpha2', 'odem12_color2', 'odem12_alpha2',
-            'odem13_color2', 'odem13_alpha2', 'odem14_color2', 'odem14_alpha2', 'odem15_color2', 'odem15_alpha2',
-            'odem16_color2', 'odem16_alpha2'
-        ):
+            'odem1',
+            'odem2',
+            'odem3',
+            'odem4',
+            'odem5',
+            'odem6',
+            'odem7',
+            'odem8',
+            'odem9',
+            'odem10',
+            'odem11',
+            'odem12',
+            'odem13',
+            'odem14',
+            'odem15',
+            'odem16',
+            'odem1_color1',
+            'odem1_alpha1',
+            'odem2_color1',
+            'odem2_alpha1',
+            'odem3_color1',
+            'odem3_alpha1',
+            'odem4_color1',
+            'odem4_alpha1',
+            'odem5_color1',
+            'odem5_alpha1',
+            'odem6_color1',
+            'odem6_alpha1',
+            'odem7_color1',
+            'odem7_alpha1',
+            'odem8_color1',
+            'odem8_alpha1',
+            'odem9_color1',
+            'odem9_alpha1',
+            'odem10_color1',
+            'odem10_alpha1',
+            'odem11_color1',
+            'odem11_alpha1',
+            'odem12_color1',
+            'odem12_alpha1',
+            'odem13_color1',
+            'odem13_alpha1',
+            'odem14_color1',
+            'odem14_alpha1',
+            'odem15_color1',
+            'odem15_alpha1',
+            'odem16_color1',
+            'odem16_alpha1',
+            'odem1_color2',
+            'odem1_alpha2',
+            'odem2_color2',
+            'odem2_alpha2',
+            'odem3_color2',
+            'odem3_alpha2',
+            'odem4_color2',
+            'odem4_alpha2',
+            'odem5_color2',
+            'odem5_alpha2',
+            'odem6_color2',
+            'odem6_alpha2',
+            'odem7_color2',
+            'odem7_alpha2',
+            'odem8_color2',
+            'odem8_alpha2',
+            'odem9_color2',
+            'odem9_alpha2',
+            'odem10_color2',
+            'odem10_alpha2',
+            'odem11_color2',
+            'odem11_alpha2',
+            'odem12_color2',
+            'odem12_alpha2',
+            'odem13_color2',
+            'odem13_alpha2',
+            'odem14_color2',
+            'odem14_alpha2',
+            'odem15_color2',
+            'odem15_alpha2',
+            'odem16_color2',
+                'odem16_alpha2'):
             try:
                 if getattr(cfg, key) is entry:
                     return key
@@ -1007,21 +1140,86 @@ class AglareSetup(ConfigListScreen, Screen):
         key = self._current_config_key()
         return key in (
             'colorSelector',
-            'odem1', 'odem2', 'odem3', 'odem4', 'odem5',
-            'odem6', 'odem7', 'odem8', 'odem9', 'odem10', 'odem11', 'odem12', 'odem13', 'odem14', 'odem15', 'odem16',
-            'odem1_color1', 'odem1_alpha1', 'odem2_color1', 'odem2_alpha1', 'odem3_color1', 'odem3_alpha1',
-            'odem4_color1', 'odem4_alpha1', 'odem5_color1', 'odem5_alpha1', 'odem6_color1', 'odem6_alpha1',
-            'odem7_color1', 'odem7_alpha1', 'odem8_color1', 'odem8_alpha1', 'odem9_color1', 'odem9_alpha1',
-            'odem10_color1', 'odem10_alpha1', 'odem11_color1', 'odem11_alpha1', 'odem12_color1', 'odem12_alpha1',
-            'odem13_color1', 'odem13_alpha1', 'odem14_color1', 'odem14_alpha1', 'odem15_color1', 'odem15_alpha1',
-            'odem16_color1', 'odem16_alpha1',
-            'odem1_color2', 'odem1_alpha2', 'odem2_color2', 'odem2_alpha2', 'odem3_color2', 'odem3_alpha2',
-            'odem4_color2', 'odem4_alpha2', 'odem5_color2', 'odem5_alpha2', 'odem6_color2', 'odem6_alpha2',
-            'odem7_color2', 'odem7_alpha2', 'odem8_color2', 'odem8_alpha2', 'odem9_color2', 'odem9_alpha2',
-            'odem10_color2', 'odem10_alpha2', 'odem11_color2', 'odem11_alpha2', 'odem12_color2', 'odem12_alpha2',
-            'odem13_color2', 'odem13_alpha2', 'odem14_color2', 'odem14_alpha2', 'odem15_color2', 'odem15_alpha2',
-            'odem16_color2', 'odem16_alpha2'
-        )
+            'odem1',
+            'odem2',
+            'odem3',
+            'odem4',
+            'odem5',
+            'odem6',
+            'odem7',
+            'odem8',
+            'odem9',
+            'odem10',
+            'odem11',
+            'odem12',
+            'odem13',
+            'odem14',
+            'odem15',
+            'odem16',
+            'odem1_color1',
+            'odem1_alpha1',
+            'odem2_color1',
+            'odem2_alpha1',
+            'odem3_color1',
+            'odem3_alpha1',
+            'odem4_color1',
+            'odem4_alpha1',
+            'odem5_color1',
+            'odem5_alpha1',
+            'odem6_color1',
+            'odem6_alpha1',
+            'odem7_color1',
+            'odem7_alpha1',
+            'odem8_color1',
+            'odem8_alpha1',
+            'odem9_color1',
+            'odem9_alpha1',
+            'odem10_color1',
+            'odem10_alpha1',
+            'odem11_color1',
+            'odem11_alpha1',
+            'odem12_color1',
+            'odem12_alpha1',
+            'odem13_color1',
+            'odem13_alpha1',
+            'odem14_color1',
+            'odem14_alpha1',
+            'odem15_color1',
+            'odem15_alpha1',
+            'odem16_color1',
+            'odem16_alpha1',
+            'odem1_color2',
+            'odem1_alpha2',
+            'odem2_color2',
+            'odem2_alpha2',
+            'odem3_color2',
+            'odem3_alpha2',
+            'odem4_color2',
+            'odem4_alpha2',
+            'odem5_color2',
+            'odem5_alpha2',
+            'odem6_color2',
+            'odem6_alpha2',
+            'odem7_color2',
+            'odem7_alpha2',
+            'odem8_color2',
+            'odem8_alpha2',
+            'odem9_color2',
+            'odem9_alpha2',
+            'odem10_color2',
+            'odem10_alpha2',
+            'odem11_color2',
+            'odem11_alpha2',
+            'odem12_color2',
+            'odem12_alpha2',
+            'odem13_color2',
+            'odem13_alpha2',
+            'odem14_color2',
+            'odem14_alpha2',
+            'odem15_color2',
+            'odem15_alpha2',
+            'odem16_color2',
+            'odem16_alpha2')
 
     def _normalize_preview_color(self, value, fallback):
         value = (value or '').strip()
@@ -1057,7 +1255,9 @@ class AglareSetup(ConfigListScreen, Screen):
         except Exception:
             return None
 
-    def _draw_preview_text_center(self, draw, text, y, width=498, fill=(255, 255, 255), size=24):
+    def _draw_preview_text_center(
+        self, draw, text, y, width=498, fill=(
+            255, 255, 255), size=24):
         font = self._load_preview_font(size)
         try:
             bbox = draw.textbbox((0, 0), text, font=font)
@@ -1092,14 +1292,19 @@ class AglareSetup(ConfigListScreen, Screen):
         }
 
         if key in fallback_map:
-            return self._normalize_preview_color(getattr(cfg, key).value, fallback_map[key]), key
+            return self._normalize_preview_color(
+                getattr(cfg, key).value, fallback_map[key]), key
 
         for idx in self._custom1_slots():
-            if key in (self._custom1_color_key(idx), self._custom1_alpha_key(idx)):
+            if key in (
+                    self._custom1_color_key(idx),
+                    self._custom1_alpha_key(idx)):
                 return self._custom1_combined_value(idx), 'odem{}'.format(idx)
 
         for idx in self._custom2_slots():
-            if key in (self._custom2_color_key(idx), self._custom2_alpha_key(idx)):
+            if key in (
+                    self._custom2_color_key(idx),
+                    self._custom2_alpha_key(idx)):
                 return self._custom2_combined_value(idx), 'odem{}'.format(idx)
 
         if cfg.colorSelector.value == 'colorcustom':
@@ -1107,7 +1312,8 @@ class AglareSetup(ConfigListScreen, Screen):
         if cfg.colorSelector.value == 'colorcustom2':
             return self._custom2_combined_value(1), 'odem1'
 
-        return self._normalize_preview_color(cfg.odem1.value, '#00080b11'), 'odem1'
+        return self._normalize_preview_color(
+            cfg.odem1.value, '#00080b11'), 'odem1'
 
     def _get_dynamic_preview_path(self):
         preview_path = '/tmp/aglare_dynamic_preview.png'
@@ -1131,7 +1337,11 @@ class AglareSetup(ConfigListScreen, Screen):
         self._draw_preview_text_center(draw, 'Transparency: {}%'.format(
             alpha_percent), 194, width=498, size=26)
         self._draw_preview_text_center(
-            draw, '0% = fully visible, 100% = max alpha', 226, width=498, size=18)
+            draw,
+            '0% = fully visible, 100% = max alpha',
+            226,
+            width=498,
+            size=18)
 
         image.save(preview_path, 'PNG')
         return preview_path
@@ -1169,9 +1379,14 @@ class AglareSetup(ConfigListScreen, Screen):
             cfg.InfobarXtraevent.value = 'infobar_posters_xtraevent_off'
         elif current_style == 'infobar_base5':
             cfg.InfobarECM.value = 'infobar_ecm_off'
-            if cfg.InfobarPosterx.value not in ('infobar_posters_posterx_off', 'infobar_posters_posterx_cd1', 'infobar_posters_posterx_cd2'):
+            if cfg.InfobarPosterx.value not in (
+                'infobar_posters_posterx_off',
+                'infobar_posters_posterx_cd1',
+                    'infobar_posters_posterx_cd2'):
                 cfg.InfobarPosterx.value = 'infobar_posters_posterx_off'
-            if cfg.InfobarXtraevent.value not in ('infobar_posters_xtraevent_off', 'infobar_posters_xtraevent_cd'):
+            if cfg.InfobarXtraevent.value not in (
+                'infobar_posters_xtraevent_off',
+                    'infobar_posters_xtraevent_cd'):
                 cfg.InfobarXtraevent.value = 'infobar_posters_xtraevent_off'
 
     def createSetup(self):
@@ -1238,7 +1453,8 @@ class AglareSetup(ConfigListScreen, Screen):
                     xtraevent_choices.append(
                         ('infobar_posters_xtraevent_info', _('Backdrop')))
 
-            if cfg.InfobarXtraevent.value not in [v for v, _ in xtraevent_choices]:
+            if cfg.InfobarXtraevent.value not in [
+                    v for v, _ in xtraevent_choices]:
                 cfg.InfobarXtraevent.value = xtraevent_choices[0][0]
             cfg.InfobarXtraevent.setChoices(xtraevent_choices)
 
@@ -1260,25 +1476,42 @@ class AglareSetup(ConfigListScreen, Screen):
             # --- GENERAL SKIN SETUP ---
             section = '-------------------------( GENERAL SKIN  SETUP )------------------------'
             list.append((_(section), NoSave(ConfigNothing())))
-            list.append(getConfigListEntry(_('Image Compatibility Group:'), cfg.ImageGroup, _(
-                'Select the target image base group (OpenPLi vs Others).')))
-            list.append(getConfigListEntry(_('Color Style:'), cfg.colorSelector, _(
-                'Select the main color preset used by the skin.')))
+            list.append(
+                getConfigListEntry(
+                    _('Image Compatibility Group:'),
+                    cfg.ImageGroup,
+                    _('Select the target image base group (OpenPLi vs Others).')))
+            list.append(
+                getConfigListEntry(
+                    _('Color Style:'),
+                    cfg.colorSelector,
+                    _('Select the main color preset used by the skin.')))
 
             desc_map = self._color_description_map()
             if cfg.colorSelector.value == 'colorcustom':
                 section = ' ----------( Start Of Colors )----------'
                 list.append((_(section), NoSave(ConfigNothing())))
                 for idx in self._custom1_slots():
-                    list.append(getConfigListEntry(_('  odem{} color').format(idx), getattr(
-                        cfg, self._custom1_color_key(idx)), desc_map.get(idx, '')))
-                    list.append(getConfigListEntry(_('  odem{} transparency %').format(idx), getattr(cfg, self._custom1_alpha_key(
-                        idx)), _('Transparency percent for odem{}. 0 = OFF, 100 = fully transparent.').format(idx)))
+                    list.append(
+                        getConfigListEntry(
+                            _('  odem{} color').format(idx), getattr(
+                                cfg, self._custom1_color_key(idx)), desc_map.get(
+                                idx, '')))
+                    list.append(
+                        getConfigListEntry(
+                            _('  odem{} transparency %').format(idx),
+                            getattr(
+                                cfg,
+                                self._custom1_alpha_key(idx)),
+                            _('Transparency percent for odem{}. 0 = OFF, 100 = fully transparent.').format(idx)))
                 self.export_custom1_colors_action = NoSave(ConfigNothing())
                 self.import_custom1_colors_choice = ConfigSelection(
                     default='', choices=self._get_color_preset_choices('colorcustom'))
-                list.append(getConfigListEntry(_('  Export Custom1 colors (OK)'), self.export_custom1_colors_action, _(
-                    'Export Custom1 color values to /etc/enigma2/aglare as <name>_custum1_color.json.')))
+                list.append(
+                    getConfigListEntry(
+                        _('  Export Custom1 colors (OK)'),
+                        self.export_custom1_colors_action,
+                        _('Export Custom1 color values to /etc/enigma2/aglare as <name>_custum1_color.json.')))
                 list.append(getConfigListEntry(_('  Import Custom1 colors'), self.import_custom1_colors_choice, _(
                     'Select a saved Custom1 JSON color style from /etc/enigma2/aglare, then press OK to import it.')))
                 section = ' ----------( End Of Colors )----------'
@@ -1287,10 +1520,18 @@ class AglareSetup(ConfigListScreen, Screen):
                 section = ' ----------( Start Of Colors )----------'
                 list.append((_(section), NoSave(ConfigNothing())))
                 for idx in self._custom2_slots():
-                    list.append(getConfigListEntry(_('  odem{} color').format(idx), getattr(
-                        cfg, self._custom2_color_key(idx)), desc_map.get(idx, '')))
-                    list.append(getConfigListEntry(_('  odem{} transparency').format(idx), getattr(
-                        cfg, self._custom2_alpha_key(idx)), _('Select transparency for odem{}.').format(idx)))
+                    list.append(
+                        getConfigListEntry(
+                            _('  odem{} color').format(idx), getattr(
+                                cfg, self._custom2_color_key(idx)), desc_map.get(
+                                idx, '')))
+                    list.append(
+                        getConfigListEntry(
+                            _('  odem{} transparency').format(idx),
+                            getattr(
+                                cfg,
+                                self._custom2_alpha_key(idx)),
+                            _('Select transparency for odem{}.').format(idx)))
                 self.export_custom2_colors_action = NoSave(ConfigNothing())
                 self.import_custom2_colors_choice = ConfigSelection(
                     default='', choices=self._get_color_preset_choices('colorcustom2'))
@@ -1301,100 +1542,193 @@ class AglareSetup(ConfigListScreen, Screen):
                 section = ' ----------( End Of Colors )----------'
                 list.append((_(section), NoSave(ConfigNothing())))
 
-            list.append(getConfigListEntry(_('Select Your Font:'), cfg.FontStyle, _(
-                'Select the font package used by the generated skin.')))
-            list.append(getConfigListEntry(_('Skin Style:'), cfg.skinSelector, _(
-                'Select the base skin layout file.')))
+            list.append(
+                getConfigListEntry(
+                    _('Select Your Font:'),
+                    cfg.FontStyle,
+                    _('Select the font package used by the generated skin.')))
+            list.append(
+                getConfigListEntry(
+                    _('Skin Style:'),
+                    cfg.skinSelector,
+                    _('Select the base skin layout file.')))
             list.append(getConfigListEntry(_('InfoBar Style:'), cfg.InfobarStyle, _(
                 'Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off.')))
-            list.append(getConfigListEntry(_('InfoBar ECM:'), cfg.InfobarECM, _(
-                'Show or hide ECM information in the infobar.')))
-            list.append(getConfigListEntry(_('InfoBar PosterX:'), cfg.InfobarPosterx, _(
-                'Select PosterX display mode for the infobar.')))
-            list.append(getConfigListEntry(_('InfoBar Xtraevent:'), cfg.InfobarXtraevent, _(
-                'Select XtraEvent display mode for the infobar.')))
-            list.append(getConfigListEntry(_('InfoBar Date:'), cfg.InfobarDate, _(
-                'Show or hide the date panel in the infobar.')))
-            list.append(getConfigListEntry(_('InfoBar Weather:'), cfg.InfobarWeather, _(
-                'Select weather provider display for the infobar.')))
-            list.append(getConfigListEntry(_('SecondInfobar Style:'),
-                        cfg.SecondInfobarStyle, _('Select second infobar layout.')))
-            list.append(getConfigListEntry(_('SecondInfobar Weather:'), cfg.SecondInfobarWeather, _(
-                'Select weather provider display for the second infobar.')))
-            list.append(getConfigListEntry(_('SecondInfobar Posterx:'), cfg.SecondInfobarPosterx, _(
-                'Show or hide PosterX in the second infobar.')))
-            list.append(getConfigListEntry(_('SecondInfobar Xtraevent:'), cfg.SecondInfobarXtraevent, _(
-                'Show or hide XtraEvent in the second infobar.')))
-            list.append(getConfigListEntry(_('ChannelSelection Style:'), cfg.ChannSelector, _(
-                'Select channel selection screen style.')))
+            list.append(
+                getConfigListEntry(
+                    _('InfoBar ECM:'),
+                    cfg.InfobarECM,
+                    _('Show or hide ECM information in the infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('InfoBar PosterX:'),
+                    cfg.InfobarPosterx,
+                    _('Select PosterX display mode for the infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('InfoBar Xtraevent:'),
+                    cfg.InfobarXtraevent,
+                    _('Select XtraEvent display mode for the infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('InfoBar Date:'),
+                    cfg.InfobarDate,
+                    _('Show or hide the date panel in the infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('InfoBar Weather:'),
+                    cfg.InfobarWeather,
+                    _('Select weather provider display for the infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('SecondInfobar Style:'),
+                    cfg.SecondInfobarStyle,
+                    _('Select second infobar layout.')))
+            list.append(
+                getConfigListEntry(
+                    _('SecondInfobar Weather:'),
+                    cfg.SecondInfobarWeather,
+                    _('Select weather provider display for the second infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('SecondInfobar Posterx:'),
+                    cfg.SecondInfobarPosterx,
+                    _('Show or hide PosterX in the second infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('SecondInfobar Xtraevent:'),
+                    cfg.SecondInfobarXtraevent,
+                    _('Show or hide XtraEvent in the second infobar.')))
+            list.append(
+                getConfigListEntry(
+                    _('ChannelSelection Style:'),
+                    cfg.ChannSelector,
+                    _('Select channel selection screen style.')))
             list.append(getConfigListEntry(_('EventView Style:'),
                         cfg.EventView, _('Select event view screen style.')))
             list.append(getConfigListEntry(_('VolumeBar Style:'),
                         cfg.VolumeBar, _('Select volume bar style.')))
-            list.append(getConfigListEntry(_('Enable Poster:'), cfg.show_poster, _(
-                "Enable or disable the display of posters.")))
-            list.append(getConfigListEntry(_('Enable Backdrop:'), cfg.show_backdrop, _(
-                "Enable or disable the display of backdrops.")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Poster:'),
+                    cfg.show_poster,
+                    _("Enable or disable the display of posters.")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Backdrop:'),
+                    cfg.show_backdrop,
+                    _("Enable or disable the display of backdrops.")))
             list.append(getConfigListEntry(_('Enable Logo:'), cfg.show_logo, _(
                 "Enable or disable the display of channel/event logos.")))
-            list.append(getConfigListEntry(_('Enable Rating Star:'), cfg.rating_source, _(
-                "Enable the display of rating stars for events.")))
-            list.append(getConfigListEntry(_('Enable Parental Icons:'), cfg.info_parental_mode, _(
-                "Show parental guidance icons on events.")))
-            list.append(getConfigListEntry(_('Enable Display InfoEvents:'), cfg.info_display_mode, _(
-                "Enable extended event information (cast, crew, plot) in the info widget.")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Rating Star:'),
+                    cfg.rating_source,
+                    _("Enable the display of rating stars for events.")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Parental Icons:'),
+                    cfg.info_parental_mode,
+                    _("Show parental guidance icons on events.")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display InfoEvents:'),
+                    cfg.info_display_mode,
+                    _("Enable extended event information (cast, crew, plot) in the info widget.")))
             list.append(getConfigListEntry(_('Enable Display Genre icons:'),
                         cfg.genre_source, _("Show genre icons for events.")))
 
             # --- Special Appearance ---
             section = '--------------------------( Special Appearance )-----------------------'
             list.append((_(section), NoSave(ConfigNothing())))
-            list.append(getConfigListEntry(_('Channel Foreground Color:'),
-                        cfg.ChannForegroundColor, _('Select channel list foreground color.')))
-            list.append(getConfigListEntry(_('Channel Selected Foreground Color:'),
-                        cfg.ChannForegroundColorSelected, _('Select channel list selected foreground color.')))
-            list.append(getConfigListEntry(_('Channel Description Color:'), cfg.ChannServiceDescriptionColor, _(
-                'Select channel list event description color.')))
-            list.append(getConfigListEntry(_('Channel Selected Description Color:'),
-                        cfg.ChannServiceDescriptionColorSelected, _('Select selected channel event description color.')))
+            list.append(
+                getConfigListEntry(
+                    _('Channel Foreground Color:'),
+                    cfg.ChannForegroundColor,
+                    _('Select channel list foreground color.')))
+            list.append(
+                getConfigListEntry(
+                    _('Channel Selected Foreground Color:'),
+                    cfg.ChannForegroundColorSelected,
+                    _('Select channel list selected foreground color.')))
+            list.append(
+                getConfigListEntry(
+                    _('Channel Description Color:'),
+                    cfg.ChannServiceDescriptionColor,
+                    _('Select channel list event description color.')))
+            list.append(
+                getConfigListEntry(
+                    _('Channel Selected Description Color:'),
+                    cfg.ChannServiceDescriptionColorSelected,
+                    _('Select selected channel event description color.')))
             list.append(getConfigListEntry(_('ECM Short Format:'), cfg.myemupara, _(
                 'Select which ECM fields are shown when the skin uses Short MYEMUPARA.')))
-            list.append(getConfigListEntry(_('Bitrate Unit:'), cfg.bitrate_unit, _(
-                'Choose whether bitrate is shown in Kb/s or Mb/s.')))
+            list.append(
+                getConfigListEntry(
+                    _('Bitrate Unit:'),
+                    cfg.bitrate_unit,
+                    _('Choose whether bitrate is shown in Kb/s or Mb/s.')))
 
             # --- Special Plugins ---
             section = '--------------------------( Special Plugins )-----------------------'
             list.append((_(section), NoSave(ConfigNothing())))
-            list.append(getConfigListEntry(_('Support E2iplayer Skins:'), cfg.E2iplayerskins, _(
-                'Enable or disable bundled E2iPlayer screens.')))
+            list.append(
+                getConfigListEntry(
+                    _('Support E2iplayer Skins:'),
+                    cfg.E2iplayerskins,
+                    _('Enable or disable bundled E2iPlayer screens.')))
 
             # --- EMC DISPLAY TOGGLES ---
             section = '--------------------------( EMC DISPLAY TOGGLES )-----------------------'
             list.append((_(section), NoSave(ConfigNothing())))
             list.append(getConfigListEntry(_('EMC screens Style:'),
                         cfg.Emc, _('Select EMC style.')))
-            list.append(getConfigListEntry(_('Enable Display XMC Poster:'),
-                        cfg.xemc_poster, _("Show poster from movie in local folder")))
-            list.append(getConfigListEntry(_('Enable Display XMC Backdrop:'),
-                        cfg.xemc_backdrop, _("Show backdrop from movie in local folder")))
-            list.append(getConfigListEntry(_('Enable Display XMC Logo:'),
-                        cfg.xemc_logo, _("Show logo from movie in local folder")))
-            list.append(getConfigListEntry(_('Enable Display XMC Info:'),
-                        cfg.xemc_info, _("Show info from movie in local folder")))
-            list.append(getConfigListEntry(_('Enable Display XMC Star:'),
-                        cfg.xemc_star, _("Show star from movie in local folder")))
-            list.append(getConfigListEntry(_('Enable Display XMC Cast:'),
-                        cfg.xemc_cast, _("Show cast from movie in local folder")))
-            list.append(getConfigListEntry(_('Enable Display XMC Parental:'),
-                        cfg.xemc_parental, _("Show parental from movie in local folder")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display XMC Poster:'),
+                    cfg.xemc_poster,
+                    _("Show poster from movie in local folder")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display XMC Backdrop:'),
+                    cfg.xemc_backdrop,
+                    _("Show backdrop from movie in local folder")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display XMC Logo:'),
+                    cfg.xemc_logo,
+                    _("Show logo from movie in local folder")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display XMC Info:'),
+                    cfg.xemc_info,
+                    _("Show info from movie in local folder")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display XMC Star:'),
+                    cfg.xemc_star,
+                    _("Show star from movie in local folder")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display XMC Cast:'),
+                    cfg.xemc_cast,
+                    _("Show cast from movie in local folder")))
+            list.append(
+                getConfigListEntry(
+                    _('Enable Display XMC Parental:'),
+                    cfg.xemc_parental,
+                    _("Show parental from movie in local folder")))
 
             # --- UTILITY SKIN SETUP ---
             section = '--------------------------( UTILITY SKIN SETUP )------------------------'
             list.append((_(section), NoSave(ConfigNothing())))
             list.append(getConfigListEntry(_('Choice device download image folder'), cfg.xpath, _(
                 "This operation assign device path folder to download image (Poster-Backdrop)")))
-            list.append(getConfigListEntry(_('Remove all png (poster - backdrop) (OK)'), cfg.png,
-                        _("This operation remove all png from folder device (Poster-Backdrop)")))
+            list.append(
+                getConfigListEntry(
+                    _('Remove all png (poster - backdrop) (OK)'),
+                    cfg.png,
+                    _("This operation remove all png from folder device (Poster-Backdrop)")))
 
             # --- APIKEY SKIN SETUP ---
             section = '---------------------------( APIKEY SKIN SETUP )------------------------'
@@ -1411,44 +1745,72 @@ class AglareSetup(ConfigListScreen, Screen):
                     ))
                     if getattr(cfg, api).value:
                         cfg_ap = api_key_manager.API_CONFIG[api]
-                        list.append(getConfigListEntry(
-                            "-- Load Key {}".format(upper), cfg_ap['load_action'], _(
-                                "Load from /tmp/{}key.txt".format(api))
-                        ))
-                        list.append(getConfigListEntry(
-                            "-- Set key {}".format(upper), cfg_ap['config_entry'], _(
-                                "Personal API key for {}".format(upper))
-                        ))
+                        list.append(
+                            getConfigListEntry(
+                                "-- Load Key {}".format(upper),
+                                cfg_ap['load_action'],
+                                _(
+                                    "Load from /tmp/{}key.txt".format(api))))
+                        list.append(
+                            getConfigListEntry(
+                                "-- Set key {}".format(upper),
+                                cfg_ap['config_entry'],
+                                _(
+                                    "Personal API key for {}".format(upper))))
 
-                list.append(getConfigListEntry(
-                    "ELCINEMA:", cfg.elcinema, _("Activate/Deactivate ELCINEMA")))
+                list.append(
+                    getConfigListEntry(
+                        "ELCINEMA:",
+                        cfg.elcinema,
+                        _("Activate/Deactivate ELCINEMA")))
                 list.append(getConfigListEntry(
                     "GOOGLE:", cfg.google, _("Activate/Deactivate GOOGLE")))
                 list.append(getConfigListEntry(
                     "IMDB:", cfg.imdb, _("Activate/Deactivate IMDB")))
                 list.append(getConfigListEntry(
                     "MOLOTOV:", cfg.molotov, _("Activate/Deactivate MOLOTOV")))
-                list.append(getConfigListEntry(
-                    "PROGRAMMETV:", cfg.programmetv, _("Activate/Deactivate PROGRAMMETV")))
+                list.append(
+                    getConfigListEntry(
+                        "PROGRAMMETV:",
+                        cfg.programmetv,
+                        _("Activate/Deactivate PROGRAMMETV")))
                 section = '------------------------------------------------------------------------'
                 list.append((_(section), NoSave(ConfigNothing())))
                 if cfg.actapi.value:
                     list.append(getConfigListEntry("Use Cache on download:", cfg.cache, _(
                         "Enable or disable caching during event download to speed up repeated searches.")))
-                    list.append(getConfigListEntry(_('Download now poster'), cfg.download_now_poster, _(
-                        "Start downloading poster immediately")))
-                    list.append(getConfigListEntry(_('Automatic download of poster'), cfg.pstdown, _(
-                        "Automatically fetch posters for favorite events based on EPG")))
+                    list.append(
+                        getConfigListEntry(
+                            _('Download now poster'),
+                            cfg.download_now_poster,
+                            _("Start downloading poster immediately")))
+                    list.append(
+                        getConfigListEntry(
+                            _('Automatic download of poster'),
+                            cfg.pstdown,
+                            _("Automatically fetch posters for favorite events based on EPG")))
                     if cfg.pstdown.value is True:
-                        list.append(getConfigListEntry(_('Set Time our - minute for Poster download'), cfg.pscan_time, _(
-                            "Configure the delay time (in minutes) before starting the automatic poster download")))
-                    list.append(getConfigListEntry(_('Download now backdrop'), cfg.download_now_backdrop, _(
-                        "Start downloading backdrop immediately")))
-                    list.append(getConfigListEntry(_('Automatic download of backdrop'), cfg.bkddown, _(
-                        "Automatically fetch backdrop for favorite events based on EPG")))
+                        list.append(
+                            getConfigListEntry(
+                                _('Set Time our - minute for Poster download'),
+                                cfg.pscan_time,
+                                _("Configure the delay time (in minutes) before starting the automatic poster download")))
+                    list.append(
+                        getConfigListEntry(
+                            _('Download now backdrop'),
+                            cfg.download_now_backdrop,
+                            _("Start downloading backdrop immediately")))
+                    list.append(
+                        getConfigListEntry(
+                            _('Automatic download of backdrop'),
+                            cfg.bkddown,
+                            _("Automatically fetch backdrop for favorite events based on EPG")))
                     if cfg.bkddown.value is True:
-                        list.append(getConfigListEntry(_('Set Time our - minute for Backdrop download'), cfg.bscan_time, _(
-                            "Configure the delay time (in minutes) before starting the automatic poster download")))
+                        list.append(
+                            getConfigListEntry(
+                                _('Set Time our - minute for Backdrop download'),
+                                cfg.bscan_time,
+                                _("Configure the delay time (in minutes) before starting the automatic poster download")))
 
             self["config"].list = list
             self["config"].l.setList(list)
@@ -1461,8 +1823,7 @@ class AglareSetup(ConfigListScreen, Screen):
             self.Checkskin2,
             MessageBox,
             _("[Checkskin] This operation checks if the skin has its components (not guaranteed)...\nDo you really want to continue?"),
-            MessageBox.TYPE_YESNO
-        )
+            MessageBox.TYPE_YESNO)
 
     def Checkskin2(self, answer):
         if answer:
@@ -1486,7 +1847,8 @@ class AglareSetup(ConfigListScreen, Screen):
     def GetPicturePath(self):
         PicturePath = '/usr/lib/enigma2/python/Plugins/Extensions/Aglare/screens/default.jpg'
 
-        if self._is_custom_color_preview_entry() and cfg.colorSelector.value in ('colorcustom', 'colorcustom2'):
+        if self._is_custom_color_preview_entry() and cfg.colorSelector.value in (
+                'colorcustom', 'colorcustom2'):
             custom_screen = self._get_screen_preview_for_current_color()
             if custom_screen:
                 return custom_screen
@@ -1546,9 +1908,9 @@ class AglareSetup(ConfigListScreen, Screen):
         aboutbox = self.session.open(
             MessageBox,
             _("Setup Aglare Skin\nfor {0} v.{1}\n\nby Lululla @2020\n\nSupport forum on linuxsat-support.com\n\nSkinner creator: Odem2014 ").format(
-                cur_skin, version),
-            MessageBox.TYPE_INFO
-        )
+                cur_skin,
+                version),
+            MessageBox.TYPE_INFO)
         aboutbox.setTitle(_("Setup Aglare Skin Info"))
 
     def removPng(self):
@@ -1556,8 +1918,7 @@ class AglareSetup(ConfigListScreen, Screen):
             self.removPng2,
             MessageBox,
             _("[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\nDo you really want to continue?"),
-            MessageBox.TYPE_YESNO
-        )
+            MessageBox.TYPE_YESNO)
 
     def removPng2(self, result):
         if result:
@@ -1601,7 +1962,25 @@ class AglareSetup(ConfigListScreen, Screen):
 
         key = self._current_config_key() if hasattr(
             self, "_current_config_key") else None
-        if key in ('odem1', 'odem2', 'odem3', 'odem4', 'odem5', 'odem6', 'odem7', 'odem8', 'odem9', 'odem10', 'odem11', 'odem12', 'odem13', 'odem14', 'odem15', 'odem16') or (key and (key.endswith('_color1') or key.endswith('_alpha1'))):
+        if key in (
+            'odem1',
+            'odem2',
+            'odem3',
+            'odem4',
+            'odem5',
+            'odem6',
+            'odem7',
+            'odem8',
+            'odem9',
+            'odem10',
+            'odem11',
+            'odem12',
+            'odem13',
+            'odem14',
+            'odem15',
+            'odem16') or (
+            key and (
+                key.endswith('_color1') or key.endswith('_alpha1'))):
             self.KeyText()
 
     def handle_download_now_poster(self):
@@ -1631,15 +2010,13 @@ class AglareSetup(ConfigListScreen, Screen):
                     MessageBox,
                     _("Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."),
                     MessageBox.TYPE_INFO,
-                    timeout=5
-                )
+                    timeout=5)
 
             current_session.open(
                 MessageBox,
                 _("Poster download will start in 2 minutes.\nYou can safely exit this menu."),
                 MessageBox.TYPE_INFO,
-                timeout=5
-            )
+                timeout=5)
 
             def _start_download(session_ref=current_session):
                 try:
@@ -1650,8 +2027,9 @@ class AglareSetup(ConfigListScreen, Screen):
 
             reactor.callLater(120, reactor.callInThread, _start_download)
         except Exception as e:
-            self.session.open(MessageBox, _("Poster download error: {}").format(
-                str(e)), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("Poster download error: {}").format(
+                    str(e)), MessageBox.TYPE_ERROR)
 
     def handle_download_now_backdrop(self):
         try:
@@ -1676,10 +2054,16 @@ class AglareSetup(ConfigListScreen, Screen):
                 raise ValueError(_("No active providers enabled"))
 
             if using_default_keys:
-                current_session.open(MessageBox, _(
-                    "Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."), MessageBox.TYPE_INFO, timeout=5)
-            current_session.open(MessageBox, _(
-                "Backdrop download will start in 2 minutes.\nYou can safely exit this menu."), MessageBox.TYPE_INFO, timeout=5)
+                current_session.open(
+                    MessageBox,
+                    _("Warning: You are using default API keys!\nWe strongly recommend configuring your own API keys in the plugin settings."),
+                    MessageBox.TYPE_INFO,
+                    timeout=5)
+            current_session.open(
+                MessageBox,
+                _("Backdrop download will start in 2 minutes.\nYou can safely exit this menu."),
+                MessageBox.TYPE_INFO,
+                timeout=5)
 
             def _start_download(session_ref=current_session):
                 try:
@@ -1690,8 +2074,9 @@ class AglareSetup(ConfigListScreen, Screen):
 
             reactor.callLater(120, reactor.callInThread, _start_download)
         except Exception as e:
-            self.session.open(MessageBox, _("Backdrop download error: {}").format(
-                str(e)), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("Backdrop download error: {}").format(
+                    str(e)), MessageBox.TYPE_ERROR)
 
     def handle_api_load(self, api, answer=None):
         cfg = api_key_manager.API_CONFIG[api]
@@ -1770,9 +2155,14 @@ class AglareSetup(ConfigListScreen, Screen):
             return
 
         reset_map = {
-            cfg.png: (cfg.png, self.handle_png),
-            **{getattr(cfg, "load_%s_api" % api): (getattr(cfg, "load_%s_api" % api), self.make_api_handler(api)) for api in api_key_manager.API_CONFIG}
-        }
+            cfg.png: (
+                cfg.png, self.handle_png), **{
+                getattr(
+                    cfg, "load_%s_api" %
+                    api): (
+                    getattr(
+                        cfg, "load_%s_api" %
+                        api), self.make_api_handler(api)) for api in api_key_manager.API_CONFIG}}
 
         entry_data = reset_map.get(sel)
         if entry_data:
@@ -1826,12 +2216,14 @@ class AglareSetup(ConfigListScreen, Screen):
             x()
 
     def getCurrentValue(self):
-        if self["config"].getCurrent() and len(self["config"].getCurrent()) > 0:
+        if self["config"].getCurrent() and len(
+                self["config"].getCurrent()) > 0:
             return str(self["config"].getCurrent()[1].getText())
         return ""
 
     def getCurrentEntry(self):
-        return self["config"].getCurrent() and self["config"].getCurrent()[0] or ""
+        return self["config"].getCurrent() and self["config"].getCurrent()[
+            0] or ""
 
     def createSummary(self):
         from Screens.Setup import SetupSummary
@@ -1897,11 +2289,17 @@ class AglareSetup(ConfigListScreen, Screen):
         block = re.sub(
             r'foregroundColor="[^"]*"', f'foregroundColor="{fg_color}"', block)
         block = re.sub(
-            r'foregroundColorSelected="[^"]*"', f'foregroundColorSelected="{fg_selected_color}"', block)
+            r'foregroundColorSelected="[^"]*"',
+            f'foregroundColorSelected="{fg_selected_color}"',
+            block)
         block = re.sub(
-            r'colorServiceDescription="[^"]*"', f'colorServiceDescription="{desc_color}"', block)
+            r'colorServiceDescription="[^"]*"',
+            f'colorServiceDescription="{desc_color}"',
+            block)
         block = re.sub(
-            r'colorServiceDescriptionSelected="[^"]*"', f'colorServiceDescriptionSelected="{desc_selected_color}"', block)
+            r'colorServiceDescriptionSelected="[^"]*"',
+            f'colorServiceDescriptionSelected="{desc_selected_color}"',
+            block)
 
         return content[:block_start] + block + content[second:]
 
@@ -2034,10 +2432,16 @@ class AglareSetup(ConfigListScreen, Screen):
                         channellist_content)
                     skin_lines.extend(channellist_content.splitlines(True))
                 except FileNotFoundError:
-                    print("Channel selection file not found:", channellist_file)
+                    print(
+                        "Channel selection file not found:",
+                        channellist_file)
             else:
-                skin_lines.extend(load_xml_to_skin_lines(
-                    self.previewFiles + 'channellist-' + cfg.ChannSelector.value + '.xml'))
+                skin_lines.extend(
+                    load_xml_to_skin_lines(
+                        self.previewFiles +
+                        'channellist-' +
+                        cfg.ChannSelector.value +
+                        '.xml'))
 
             for filename in xml_files[11:]:
                 skin_lines.extend(load_xml_to_skin_lines(
@@ -2063,15 +2467,17 @@ class AglareSetup(ConfigListScreen, Screen):
                         print("Error copying {}: {}".format(extra_file, e))
 
         except Exception as e:
-            self.session.open(MessageBox, _('Error by processing the skin file: {}').format(
-                str(e)), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox,
+                _('Error by processing the skin file: {}').format(
+                    str(e)),
+                MessageBox.TYPE_ERROR)
 
         restartbox = self.session.openWithCallback(
             self.restartGUI,
             MessageBox,
             _('GUI needs a restart to apply a new skin.\nDo you want to Restart the GUI now?'),
-            MessageBox.TYPE_YESNO
-        )
+            MessageBox.TYPE_YESNO)
         restartbox.setTitle(_('Restart GUI now?'))
 
     def restartGUI(self, answer):
@@ -2113,19 +2519,22 @@ class AglareSetup(ConfigListScreen, Screen):
                 raise ValueError(f"Malformed version string: {line}")
 
             if version_server == version:
-                self.session.open(MessageBox, _("You already have the latest version ({}).").format(
-                    version), MessageBox.TYPE_INFO)
+                self.session.open(
+                    MessageBox,
+                    _("You already have the latest version ({}).").format(version),
+                    MessageBox.TYPE_INFO)
             elif version_server > version:
                 self.session.openWithCallback(
                     self.update,
                     MessageBox,
                     _("Server version: {}\nInstalled version: {}\n\n A newer build is available – update now?").format(
-                        version_server, version),
-                    MessageBox.TYPE_YESNO
-                )
+                        version_server,
+                        version),
+                    MessageBox.TYPE_YESNO)
             else:
-                self.session.open(MessageBox, _("Local build ({}) is newer than server build ({}).").format(
-                    version, version_server), MessageBox.TYPE_INFO)
+                self.session.open(
+                    MessageBox, _("Local build ({}) is newer than server build ({}).").format(
+                        version, version_server), MessageBox.TYPE_INFO)
         except Exception as e:
             self.session.open(MessageBox, _("Update check failed: {}").format(
                 str(e)), MessageBox.TYPE_ERROR)
@@ -2191,8 +2600,7 @@ class AglareUpdater(Screen):
                 self.restartGUI,
                 MessageBox,
                 _("Aglare update was done!\nDo you want to restart the GUI now?"),
-                MessageBox.TYPE_YESNO
-            )
+                MessageBox.TYPE_YESNO)
             restartbox.setTitle(_("Restart GUI now?"))
         else:
             self["status"].setText(_("Update package not found!"))
