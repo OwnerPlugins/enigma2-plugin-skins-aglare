@@ -356,6 +356,7 @@ msgstr "Directory creation error:"
 msgid "Download error: {}"
 msgstr "Download error: {}"
 
+#, fuzzy
 msgid "Download in progress"
 msgstr "Download in progress"
 
@@ -1343,6 +1344,7 @@ msgstr "Transparency percent for odem{}. 0 = OFF, 100 = fully transparent."
 msgid "Twilight Blue"
 msgstr "Twilight Blue"
 
+#, fuzzy
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
 msgstr "Update URL not initialised  open the plugin once from the Plugins menu first."
 
