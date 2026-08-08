@@ -1,3 +1,7 @@
 <screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" flags="wfNoBorder" backgroundColor="transparent">
+  <widget name="key_red" position="0,1100" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="background" transparent="1" />
+  <widget name="key_green" position="0,1100" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="background" transparent="1" />
+  <widget name="key_yellow" position="0,1100" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="background" transparent="1" />
+  <widget name="key_blue" position="0,1100" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="background" transparent="1" />
     <panel name="infobartemp3" />
 

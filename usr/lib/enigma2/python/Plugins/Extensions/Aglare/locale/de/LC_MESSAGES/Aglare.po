@@ -1,771 +1,604 @@
-# de translations
-# Copyright (C) 2026 Lululla Team
-#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: de <ekekaz@gmail.com>\n"
-"Language: de\n"
+"Project-Id-Version: Aglare\n"
+"POT-Creation-Date: 2025-05-24 16:03+0200\n"
+"PO-Revision-Date: 2025-05-24 16:03+0200\n"
+"Last-Translator: Masta2002\n"
+"Language-Team: lululla\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-SearchPath-0: api_config.py\n"
+"X-Poedit-SearchPath-1: DownloadControl.py\n"
+"X-Poedit-SearchPath-2: plugin.py\n"
 
-msgid "%s key imported!"
-msgstr "%s Schlüssel importiert!"
+#: DownloadControl.py:83 DownloadControl.py:112
+msgid "Download error: {}"
+msgstr ""
 
-msgid "1 poster"
-msgstr "1 Poster"
+#: api_config.py:168
+msgid "Key {} successfully loaded!"
+msgstr ""
 
-msgid "Activate or deactivate ELCINEMA as a metadata provider."
-msgstr "Aktivieren oder deaktivieren Sie ELCINEMA als Metadatenanbieter."
+#: api_config.py:169
+msgid "File {} not found or empty"
+msgstr ""
 
-msgid "Activate or deactivate GOOGLE as a metadata provider."
-msgstr "Aktivieren oder deaktivieren Sie GOOGLE als Metadatenanbieter."
+#: api_config.py:172
+msgid "Error loading: {}"
+msgstr ""
 
-msgid "Activate or deactivate IMDB as a metadata provider."
-msgstr "Aktivieren oder deaktivieren Sie IMDB als Metadatenanbieter."
+#: api_config.py:217 api_config.py:225
+msgid "Automatic"
+msgstr ""
 
-msgid "Activate or deactivate MOLOTOV as a metadata provider."
-msgstr "Aktivieren oder deaktivieren Sie MOLOTOV als Metadatenanbieter."
+#: api_config.py:218 api_config.py:226
+msgid "TMDB Only"
+msgstr ""
 
-msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
-msgstr "Aktivieren oder deaktivieren Sie PROGRAMMETV als Metadatenanbieter."
+#: api_config.py:219 api_config.py:227
+msgid "OMDB Only"
+msgstr ""
 
+#: api_config.py:220 api_config.py:228
+msgid "Off"
+msgstr ""
+
+#: api_config.py:242 api_config.py:254 api_config.py:264 api_config.py:268
+#: api_config.py:299 api_config.py:335
+msgid "Default"
+msgstr ""
+
+#: api_config.py:243
+msgid "Black"
+msgstr ""
+
+#: api_config.py:244
+msgid "Brown"
+msgstr ""
+
+#: api_config.py:245
+msgid "Green"
+msgstr ""
+
+#: api_config.py:246
+msgid "Magenta"
+msgstr ""
+
+#: api_config.py:247
+msgid "Blue"
+msgstr ""
+
+#: api_config.py:248
+#, fuzzy
+#| msgid "Read"
+msgid "Red"
+msgstr "Lesen"
+
+#: api_config.py:249
+msgid "Purple"
+msgstr ""
+
+#: api_config.py:250
+msgid "Green2"
+msgstr ""
+
+#: api_config.py:255
+msgid "HandelGotD"
+msgstr ""
+
+#: api_config.py:256
+msgid "KhalidArtboldRegular"
+msgstr ""
+
+#: api_config.py:257
+msgid "BebasNeue"
+msgstr ""
+
+#: api_config.py:258
+msgid "Greta"
+msgstr ""
+
+#: api_config.py:259
+msgid "Segoe UI light"
+msgstr ""
+
+#: api_config.py:260
+msgid "MV Boli"
+msgstr ""
+
+#: api_config.py:269 api_config.py:300
+msgid "Style2"
+msgstr ""
+
+#: api_config.py:270 api_config.py:301
+msgid "Style3"
+msgstr ""
+
+#: api_config.py:271 api_config.py:302
+msgid "Style4"
+msgstr ""
+
+#: api_config.py:272
+msgid "Style5 CD"
+msgstr ""
+
+#: api_config.py:276 api_config.py:282 api_config.py:306 api_config.py:311
+#: api_config.py:340 plugin.py:231 plugin.py:256
+msgid "OFF"
+msgstr ""
+
+#: api_config.py:277 api_config.py:283 api_config.py:307 api_config.py:312
+#: api_config.py:341 plugin.py:232 plugin.py:257
+msgid "ON"
+msgstr ""
+
+#: api_config.py:278 api_config.py:284 plugin.py:237 plugin.py:267
+msgid "CD"
+msgstr ""
+
+#: api_config.py:285 plugin.py:263
+msgid "Backdrop"
+msgstr ""
+
+#: api_config.py:289
+msgid "Infobar_NO_Date"
+msgstr ""
+
+#: api_config.py:290
+#, fuzzy
+#| msgid "Information"
+msgid "Infobar_Date"
+msgstr "Information"
+
+#: api_config.py:294
+msgid "Infobar_NO_Weather"
+msgstr ""
+
+#: api_config.py:295
+msgid "Infobar_Weather"
+msgstr ""
+
+#: api_config.py:316
+msgid "ChannelSelection_NO_Posters"
+msgstr ""
+
+#: api_config.py:317
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr ""
+
+#: api_config.py:318
+msgid "ChannelSelection_BackDrop_V"
+msgstr ""
+
+#: api_config.py:319
+msgid "ChannelSelection_BackDrop_H"
+msgstr ""
+
+#: api_config.py:320
+msgid "ChannelSelection_1_Poster_X"
+msgstr ""
+
+#: api_config.py:321
+msgid "ChannelSelection_1_Poster_EX"
+msgstr ""
+
+#: api_config.py:322
+msgid "ChannelSelection_4_Posters_X"
+msgstr ""
+
+#: api_config.py:323
+msgid "ChannelSelection_4_Posters_EX"
+msgstr ""
+
+#: api_config.py:324
+msgid "ChannelSelection_6_Posters_X"
+msgstr ""
+
+#: api_config.py:325
+msgid "ChannelSelection_6_Posters_EX"
+msgstr ""
+
+#: api_config.py:326
+msgid "ChannelSelection_big_mini_tv"
+msgstr ""
+
+#: api_config.py:330
+msgid "EventView_NO_Posters"
+msgstr ""
+
+#: api_config.py:331
+msgid "EventView_7_Posters"
+msgstr ""
+
+#: api_config.py:336
+msgid "volume2"
+msgstr ""
+
+#: plugin.py:286
+msgid "Color Style:"
+msgstr ""
+
+#: plugin.py:287
+msgid "Select Your Font:"
+msgstr ""
+
+#: plugin.py:288
+msgid "Skin Style:"
+msgstr ""
+
+#: plugin.py:289
+msgid "InfoBar Style:"
+msgstr ""
+
+#: plugin.py:290
+msgid "InfoBar PosterX:"
+msgstr ""
+
+#: plugin.py:291
+msgid "InfoBar Xtraevent:"
+msgstr ""
+
+#: plugin.py:292
+msgid "InfoBar Date:"
+msgstr ""
+
+#: plugin.py:293
+msgid "InfoBar Weather:"
+msgstr ""
+
+#: plugin.py:294
+msgid "SecondInfobar Style:"
+msgstr ""
+
+#: plugin.py:295
+msgid "SecondInfobar Posterx:"
+msgstr ""
+
+#: plugin.py:296
+msgid "SecondInfobar Xtraevent:"
+msgstr ""
+
+#: plugin.py:297
+msgid "ChannelSelection Style:"
+msgstr ""
+
+#: plugin.py:298
+msgid "EventView Style:"
+msgstr ""
+
+#: plugin.py:299
+msgid "VolumeBar Style:"
+msgstr ""
+
+#: plugin.py:300
+msgid "Support E2iplayer Skins:"
+msgstr ""
+
+#: plugin.py:304
+msgid "Remove all png (poster - backdrop) (OK)"
+msgstr ""
+
+#: plugin.py:304
+msgid "This operation remove all png from folder device (Poster-Backdrop)"
+msgstr ""
+
+#: plugin.py:308
+msgid "Enable Rating Star:"
+msgstr ""
+
+#: plugin.py:308
+msgid ""
+"This operation enable the display of rating stars for events, based on the "
+"selected rating source."
+msgstr ""
+
+#: plugin.py:309
+msgid "Enable Parental Icons:"
+msgstr ""
+
+#: plugin.py:309
+msgid ""
+"Show parental guidance icons on events to indicate content rating and age "
+"suitability."
+msgstr ""
+
+#: plugin.py:310
+msgid "Enable Display InfoEvents:"
+msgstr ""
+
+#: plugin.py:310
+msgid ""
+"Enable the display of extended event information, including full cast, crew, "
+"plot details, and other metadata, in the info widget."
+msgstr ""
+
+#: plugin.py:311
+msgid "Enable Display Genre icons:"
+msgstr ""
+
+#: plugin.py:311
+msgid ""
+"Show icons representing the genre of each event (e.g., action, comedy, drama)"
+msgstr ""
+
+#: plugin.py:312
+msgid "Enable Display XMC Poster:"
+msgstr ""
+
+#: plugin.py:312
+msgid "Show poster from movie in local folder"
+msgstr ""
+
+#: plugin.py:314
+msgid "Settings Apikey Server"
+msgstr ""
+
+#: plugin.py:322
 msgid "Activate/Deactivate {}"
 msgstr ""
 
-msgid "Add"
-msgstr "Hinzufügen"
-
-msgid "All png are removed from folder!"
-msgstr "Alle PNGs werden aus dem Ordner entfernt!"
-
-msgid "Automatic"
-msgstr "Automatisch"
-
-msgid "Automatic download of backdrop"
-msgstr "Automatischer Download des Hintergrunds"
-
-msgid "Automatic download of poster"
-msgstr "Automatischer Download des Posters"
-
-msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Rufen Sie automatisch Hintergrundinformationen für Lieblingsveranstaltungen basierend auf dem EPG ab"
-
-msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "Rufen Sie automatisch Poster für Lieblingsveranstaltungen basierend auf EPG ab"
-
-msgid "Back"
-msgstr "Zurück"
-
-msgid "Backdrop"
-msgstr "Hintergrund"
-
-msgid "Backdrop download error: {}"
-msgstr "Fehler beim Hintergrund-Download: {}"
-
-msgid "BebasNeue"
-msgstr "FreeNeue"
-
-msgid "Bitrate Unit:"
-msgstr "Bitrateneinheit:"
-
-msgid "Black"
-msgstr "Schwarz"
-
-msgid "Blue"
-msgstr "Blau"
-
-msgid "Brown"
-msgstr "Braun"
-
-msgid "CD"
-msgstr "CD"
-
-msgid "Caid + Protocol + Server + ECM Time"
-msgstr "Caid + Protokoll + Server + ECM-Zeit"
-
-msgid "Caid + Reader + Protocol + Server + ECM Time"
-msgstr "Caid + Reader + Protokoll + Server + ECM-Zeit"
-
-msgid "Cancel"
-msgstr "Stornieren"
-
-msgid "Cannot create version file: {}"
-msgstr ""
-
-msgid "Channel Description Color:"
-msgstr "Farbe der Kanalbeschreibung:"
-
-msgid "Channel Foreground Color:"
-msgstr "Vordergrundfarbe des Kanals:"
-
-msgid "Channel Selected Description Color:"
-msgstr "Ausgewählter Kanal Beschreibung Farbe:"
-
-msgid "Channel Selected Foreground Color:"
-msgstr "Kanalausgewählte Vordergrundfarbe:"
-
-msgid "ChannelSelection Style:"
-msgstr "Kanalauswahlstil:"
-
-msgid "ChannelSelection_1_Poster_EX"
-msgstr "ChannelSelection_1_Poster_EX"
-
-msgid "ChannelSelection_1_Poster_PX"
-msgstr "ChannelSelection_1_Poster_PX"
-
-msgid "ChannelSelection_4_Posters_EX"
-msgstr "ChannelSelection_4_Posters_EX"
-
-msgid "ChannelSelection_4_Posters_PX"
-msgstr "ChannelSelection_4_Posters_PX"
-
-msgid "ChannelSelection_6_Posters_EX"
-msgstr "ChannelSelection_6_Posters_EX"
-
-msgid "ChannelSelection_6_Posters_PX"
-msgstr "ChannelSelection_6_Posters_PX"
-
-msgid "ChannelSelection_6_Posters_PX_test"
-msgstr "ChannelSelection_6_Posters_PX_test"
-
-msgid "ChannelSelection_BackDrop_H_EX"
-msgstr "ChannelSelection_BackDrop_H_EX"
-
-msgid "ChannelSelection_BackDrop_H_PX"
-msgstr "ChannelSelection_BackDrop_H_PX"
-
-msgid "ChannelSelection_BackDrop_V_EX"
-msgstr "ChannelSelection_BackDrop_V_EX"
-
-msgid "ChannelSelection_BackDrop_V_PX"
-msgstr "ChannelSelection_BackDrop_V_PX"
-
-msgid "ChannelSelection_NO_Posters"
-msgstr "ChannelSelection_NO_Posters"
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr "ChannelSelection_NO_Posters_NO_Picon"
-
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
-msgid "Choice device download image folder"
-msgstr "Auswahl des Bildordners zum Herunterladen des Geräts"
-
-msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
-msgstr "Wählen Sie, ob die Bitrate in Kb/s oder Mb/s angezeigt wird."
-
-msgid "City"
-msgstr "Stadt"
-
-msgid "Color Style:"
-msgstr "Farbstil:"
-
-msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "Konfigurieren Sie die Verzögerungszeit (in Minuten), bevor der automatische Poster-Download gestartet wird"
-
-msgid "Crimson"
-msgstr "Purpur"
-
-msgid "Customization tool for %s Skin"
-msgstr "Anpassungstool für %s Skin"
-
-msgid "Default"
-msgstr "Standard"
-
-msgid "Del Line"
-msgstr "Del Line"
-
-msgid "Delete"
-msgstr "Löschen"
-
-msgid "Download error: {}"
-msgstr "Download-Fehler: {}"
-
-msgid "Download in progress…"
-msgstr "Download läuft…"
-
-msgid "Download now backdrop"
-msgstr "Laden Sie jetzt den Hintergrund herunter"
-
-msgid "Download now poster"
-msgstr "Jetzt Poster herunterladen"
-
-msgid "Downloading Aglare..."
-msgstr "Aglare wird heruntergeladen..."
-
-msgid "ECM Short Format:"
-msgstr "ECM-Kurzformat:"
-
-msgid "EMC PX"
-msgstr "EMV PX"
-
-msgid "EMC screens Style:"
-msgstr "EMV-Schirme Typ:"
-
-msgid "Edit"
-msgstr "Bearbeiten"
-
-msgid "Enable Display Genre icons:"
-msgstr "Aktivieren Sie die Anzeige von Genresymbolen:"
-
-msgid "Enable Display InfoEvents:"
-msgstr "InfoEvents anzeigen aktivieren:"
-
-msgid "Enable Display XMC Poster:"
-msgstr "XMC-Poster anzeigen aktivieren:"
-
-msgid "Enable Parental Icons:"
-msgstr "Aktivieren Sie die Kindersicherungssymbole:"
-
-msgid "Enable Rating Star:"
-msgstr "Bewertungsstern aktivieren:"
-
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Aktivieren oder deaktivieren Sie die gebündelten E2iPlayer-Bildschirme."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Aktivieren oder deaktivieren Sie das Caching während des Ereignis-Downloads, um wiederholte Suchvorgänge zu beschleunigen."
-
-msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "Aktivieren Sie die Anzeige erweiterter Veranstaltungsinformationen, einschließlich Besetzung, Crew, Handlungsdetails und anderer Metadaten, im Info-Widget."
-
-msgid "Error downloading files!"
-msgstr "Fehler beim Herunterladen der Dateien!"
-
-msgid "Error loading: {}"
-msgstr "Fehler beim Laden: {}"
-
-#, fuzzy
-msgid "Error processing skin file: {}"
-msgstr "Fehler beim Verarbeiten der Skin-Datei: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Fehler {0}: {1}"
-
-msgid "Error: {}"
-msgstr "Fehler: {}"
-
-msgid "EventView Style:"
-msgstr "EventView-Stil:"
-
-msgid "EventView_7_Posters"
-msgstr "EventView_7_Posters"
-
-msgid "EventView_NO_Posters"
-msgstr "EventView_NO_Posters"
-
-msgid "Exit"
-msgstr "Ausfahrt"
-
-msgid "File Commander - Addon"
-msgstr "File Commander – Add-on"
-
-msgid "File {} not found or empty"
-msgstr "Datei {} nicht gefunden oder leer"
-
-msgid "Green"
-msgstr "Grün"
-
-msgid "Green2"
-msgstr "Grün2"
-
-msgid "Greta"
-msgstr "Greta"
-
-msgid "HandelGotD"
-msgstr "HandelGotD"
-
-msgid "Image Compatibility Group:"
-msgstr "Bildkompatibilitätsgruppe:"
-
-msgid "Import key {0} from {1}?"
-msgstr "Schlüssel {0} aus {1} importieren?"
-
-msgid "Info..."
-msgstr "Info..."
-
-msgid "InfoBar Date:"
-msgstr "InfoBar-Datum:"
-
-msgid "InfoBar ECM:"
-msgstr "InfoBar ECM:"
-
-msgid "InfoBar PosterX:"
-msgstr "InfoBar PosterX:"
-
-msgid "InfoBar Style:"
-msgstr "InfoBar-Stil:"
-
-msgid "InfoBar Weather:"
-msgstr "InfoBar Wetter:"
-
-msgid "InfoBar Xtraevent:"
-msgstr "InfoBar Xtraevent:"
-
-msgid "Infobar_Date"
-msgstr "Infobar_Datum"
-
-msgid "Infobar_MSNWeather"
-msgstr "Infobar_MSNWeather"
-
-msgid "Infobar_NO_Date"
-msgstr "Infobar_NO_Date"
-
-msgid "Infobar_NO_Weather"
-msgstr "Infobar_NO_Weather"
-
-msgid "Infobar_OAWeather"
-msgstr "Infobar_OAWeather"
-
-msgid "Ins Line"
-msgstr "Ins-Linie"
-
-msgid "Installing updates..."
-msgstr "Updates werden installiert..."
-
-msgid "Key empty"
-msgstr "Schlüssel leer"
-
-msgid "Key {} successfully loaded!"
-msgstr "Schlüssel {} erfolgreich geladen!"
-
-msgid "KhalidArtboldRegular"
-msgstr "KhalidArtboldRegular"
-
-msgid "Kilobit/s (Kb/s)"
-msgstr "Kilobit/s (Kb/s)"
-
-msgid "LightGray"
-msgstr "Hellgrau"
-
-msgid "LimeGreen"
-msgstr "Limettengrün"
-
+#: plugin.py:330
 msgid "Load from /tmp/{}key.txt"
 msgstr ""
 
-msgid "Local build ({}) is newer than server build ({})."
-msgstr "Der lokale Build ({}) ist neuer als der Server-Build ({})."
-
-msgid "Location code"
-msgstr "Standortcode"
-
-msgid "Lucida"
-msgstr "Lucida"
-
-msgid "MSN location search result"
-msgstr "MSN-Standortsuchergebnis"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
-msgid "Magenta"
-msgstr "Magenta"
-
-msgid "Megabit/s (Mb/s)"
-msgstr "Megabit/s (Mbit/s)"
-
-msgid "Mint"
-msgstr "Minze"
-
-msgid "Mix1"
-msgstr "Mix1"
-
-msgid "No active providers enabled"
-msgstr "Keine aktiven Anbieter aktiviert"
-
-msgid "No description available for this option."
-msgstr "Für diese Option ist keine Beschreibung verfügbar."
-
-msgid "OFF"
-msgstr "AUS"
-
-msgid "OK"
-msgstr "OK"
-
-msgid "OMDB Only"
-msgstr "Nur OMDB"
-
-msgid "ON"
-msgstr "AN"
-
-msgid "ON/OFF SubsSupportPro Skins."
-msgstr "SubsSupportPro-Skins ein-/ausschalten."
-
-msgid "Off"
-msgstr "Aus"
-
-msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
-msgstr "OpenBH / OpenViX / TeamBlue (Neue Bildergruppe)"
-
-msgid "OpenPLi / Satlodge (OpenPLi Group)"
-msgstr "OpenPLi / Satlodge (OpenPLi-Gruppe)"
-
-msgid "Orange"
-msgstr "Orange"
-
+#: plugin.py:335
 msgid "Personal API key for {}"
 msgstr ""
 
-msgid "Pink"
-msgstr "Rosa"
-
-msgid "Please enter a valid city name."
-msgstr "Bitte geben Sie einen gültigen Städtenamen ein."
-
-msgid "Please enter a valid location code for the city."
-msgstr "Bitte geben Sie einen gültigen Standortcode für die Stadt ein."
-
-msgid "Poster download error: {}"
-msgstr "Fehler beim Herunterladen des Posters: {}"
-
-msgid "Purple"
-msgstr "Lila"
-
-msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Diesen WeatherPlugin-Eintrag wirklich löschen?"
-
-msgid "Red"
-msgstr "Rot"
-
-msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "Alle PNGs entfernen (Poster – Hintergrund) (OK)"
-
-msgid "Restart GUI now?"
-msgstr "GUI jetzt neu starten?"
-
-msgid "Save"
-msgstr "Speichern"
-
-msgid "Search Code"
-msgstr "Suchcode"
-
-msgid "Second Infobar_MSNWeather"
-msgstr "Zweite Infobar_MSNWeather"
-
-msgid "Second Infobar_NO_Weather"
-msgstr "Zweite Infobar_NO_Weather"
-
-msgid "Second Infobar_OAWeather"
-msgstr "Zweite Infobar_OAWeather"
-
-msgid "SecondInfobar Posterx:"
-msgstr "SecondInfobar Posterx:"
-
-msgid "SecondInfobar Style:"
-msgstr "SecondInfobar-Stil:"
-
-msgid "SecondInfobar Weather:"
-msgstr "SecondInfobar Wetter:"
-
-msgid "SecondInfobar Xtraevent:"
-msgstr "ZweitesInfobar Xtraevent:"
-
-msgid "Segoe UI light"
-msgstr "Segoe-UI-Licht"
-
-msgid "Select EMC style."
-msgstr "Wählen Sie den EMC-Stil."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Wählen Sie den PosterX-Anzeigemodus für die Infoleiste. Die verfügbaren Optionen hängen vom ausgewählten Infobar-Stil und ECM-Modus ab."
-
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Wählen Sie den XtraEvent-Anzeigemodus für die Infoleiste. Die verfügbaren Optionen hängen vom ausgewählten Infobar-Stil und ECM-Modus ab."
-
-msgid "Select Your Font:"
-msgstr "Wählen Sie Ihre Schriftart:"
-
-msgid "Select channel list event description color."
-msgstr "Wählen Sie die Farbe für die Ereignisbeschreibung der Kanalliste aus."
-
-msgid "Select channel list foreground color."
-msgstr "Wählen Sie die Vordergrundfarbe der Kanalliste aus."
-
-msgid "Select channel list selected foreground color."
-msgstr "Wählen Sie die ausgewählte Vordergrundfarbe der Kanalliste aus."
-
-msgid "Select channel selection screen style."
-msgstr "Wählen Sie den Bildschirmstil für die Kanalauswahl aus."
-
-msgid "Select event view screen style."
-msgstr "Wählen Sie den Bildschirmstil für die Ereignisansicht aus."
-
-msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
-msgstr "Wählen Sie das Infobar-Layout. Style5 erzwingt die Deaktivierung von ECM und erlaubt nur die Postermodi OFF/CD. Style6 erzwingt die Deaktivierung von ECM, PosterX und Xtraevent."
-
-msgid "Select second infobar layout."
-msgstr "Wählen Sie das zweite Infobar-Layout."
-
-msgid "Select selected channel event description color."
-msgstr "Wählen Sie die Farbe der Ereignisbeschreibung des ausgewählten Kanals aus."
-
-msgid "Select the base skin layout file."
-msgstr "Wählen Sie die Basis-Skin-Layoutdatei aus."
-
-msgid "Select the font package used by the generated skin."
-msgstr "Wählen Sie das Schriftartenpaket aus, das vom generierten Skin verwendet wird."
-
-msgid "Select the main color preset used by the skin."
-msgstr "Wählen Sie die Hauptfarbvoreinstellung aus, die von der Skin verwendet wird."
-
-msgid "Select the target image base group (OpenPLi vs Others)."
-msgstr "Wählen Sie die Ziel-Image-Basisgruppe aus (OpenPLi vs. Andere)."
-
-msgid "Select volume bar style."
-msgstr "Wählen Sie den Stil der Lautstärkeleiste."
-
-msgid "Select weather provider display for the infobar."
-msgstr "Wählen Sie die Anzeige des Wetteranbieters für die Infoleiste aus."
-
-msgid "Select weather provider display for the second infobar."
-msgstr "Wählen Sie die Anzeige des Wetteranbieters für die zweite Infoleiste aus."
-
-msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
-msgstr "Wählen Sie aus, welche ECM-Felder angezeigt werden, wenn der Skin Short MYEMUPARA verwendet."
-
-msgid "Set Time our - minute for Backdrop download"
-msgstr "Stellen Sie die Zeit für den Hintergrund-Download ein"
-
-msgid "Set Time our - minute for Poster download"
-msgstr "Legen Sie die Zeit für den Poster-Download fest"
-
-msgid "Settings Apikey Server"
-msgstr "Einstellungen Apikey-Server"
-
-msgid "Setup Aglare Skin Info"
-msgstr "Richten Sie Aglare Skin Info ein"
-
-msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "Zeigen Sie Symbole an, die das Genre jedes Ereignisses repräsentieren (z. B. Action, Komödie, Drama)."
-
-msgid "Show or hide ECM information in the infobar."
-msgstr "ECM-Informationen in der Infoleiste ein- oder ausblenden."
-
-msgid "Show or hide PosterX in the second infobar."
-msgstr "PosterX in der zweiten Infoleiste ein- oder ausblenden."
-
-msgid "Show or hide XtraEvent in the second infobar."
-msgstr "XtraEvent in der zweiten Infoleiste ein- oder ausblenden."
-
-msgid "Show or hide the date panel in the infobar."
-msgstr "Datumsbereich in der Infoleiste ein- oder ausblenden."
-
-msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Zeigen Sie bei Veranstaltungen Symbole zur elterlichen Anleitung an, um die Inhaltsbewertung und Alterseignung anzuzeigen."
-
-msgid "Show poster from movie in local folder"
-msgstr "Poster aus dem Film im lokalen Ordner anzeigen"
-
-msgid "Sienna"
-msgstr "Siena"
-
-msgid "Skin Style:"
-msgstr "Hautstil:"
-
-msgid "Skin not supported."
+#: plugin.py:338
+msgid "Activate/Deactivate ELCINEMA"
 msgstr ""
 
-msgid "SnowWhite"
-msgstr "Schneewittchen"
+#: plugin.py:339
+msgid "Activate/Deactivate GOOGLE"
+msgstr ""
 
-msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
-msgstr "Quelle + Caid + Leser + Protokoll + Server + Port + ECM-Zeit"
+#: plugin.py:340
+msgid "Activate/Deactivate IMDB"
+msgstr ""
 
-msgid "Source + Caid + Reader + ECM Time"
-msgstr "Quelle + Caid + Reader + ECM-Zeit"
+#: plugin.py:341
+msgid "Activate/Deactivate MOLOTOV"
+msgstr ""
 
-msgid "Source + Prov + Caid + ECM Time"
-msgstr "Quelle + Prov + Caid + ECM-Zeit"
+#: plugin.py:342
+msgid "Activate/Deactivate PROGRAMMETV"
+msgstr ""
 
-msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
-msgstr "Quelle + Prov + Caid + Protokoll + Server + Port + ECM-Zeit"
+#: plugin.py:346
+msgid ""
+"Enable or disable caching during event download to speed up repeated "
+"searches."
+msgstr ""
 
-msgid "Source + Prov + Caid + Server + Port + ECM Time"
-msgstr "Quelle + Prov + Caid + Server + Port + ECM-Zeit"
+#: plugin.py:347
+msgid "Download now poster"
+msgstr ""
 
-msgid "Start downloading backdrop immediately"
-msgstr "Beginnen Sie sofort mit dem Herunterladen von Hintergrund"
-
+#: plugin.py:347
 msgid "Start downloading poster immediately"
-msgstr "Beginnen Sie sofort mit dem Herunterladen des Posters"
+msgstr ""
 
-msgid "SteelBlue"
-msgstr "Stahlblau"
+#: plugin.py:348
+msgid "Automatic download of poster"
+msgstr ""
 
-msgid "Style2"
-msgstr "Stil2"
+#: plugin.py:348
+msgid "Automatically fetch posters for favorite events based on EPG"
+msgstr ""
 
-msgid "Style3"
-msgstr "Stil3"
+#: plugin.py:350
+msgid "Set Time our - minute for Poster download"
+msgstr ""
 
-msgid "Style4"
-msgstr "Stil4"
+#: plugin.py:350 plugin.py:354
+msgid ""
+"Configure the delay time (in minutes) before starting the automatic poster "
+"download"
+msgstr ""
 
-msgid "Style5 CD"
-msgstr "Style5-CD"
+#: plugin.py:351
+msgid "Download now backdrop"
+msgstr ""
 
-msgid "Style6"
-msgstr "Stil6"
+#: plugin.py:351
+msgid "Start downloading backdrop immediately"
+msgstr ""
 
-msgid "Support E2iplayer Skins:"
-msgstr "Unterstützen Sie E2iplayer-Skins:"
+#: plugin.py:352
+msgid "Automatic download of backdrop"
+msgstr ""
 
-msgid "Support SubsSupportPro Skins:"
-msgstr "Unterstützen Sie SubsSupportPro-Skins:"
+#: plugin.py:352
+msgid "Automatically fetch backdrop for favorite events based on EPG"
+msgstr ""
 
-msgid "System"
-msgstr "System"
+#: plugin.py:354
+msgid "Set Time our - minute for Backdrop download"
+msgstr ""
 
-msgid "TEST"
-msgstr "PRÜFEN"
+#: plugin.py:365
+msgid ""
+"[Checkskin] This operation checks if the skin has its components (not "
+"guaranteed)...\n"
+"Do you really want to continue?"
+msgstr ""
 
-msgid "TMDB Only"
-msgstr "Nur TMDB"
+#: plugin.py:428
+#, python-format
+msgid ""
+"Setup Aglare Skin\n"
+"for %s v.%s\n"
+"\n"
+"by Lululla @2020\n"
+"\n"
+"Support forum on linuxsat-support.com\n"
+"\n"
+"Skinner creator: Odem2014 "
+msgstr ""
 
-msgid "Teal"
-msgstr "Blaugrün"
+#: plugin.py:431
+msgid "Setup Aglare Skin Info"
+msgstr ""
 
+#: plugin.py:437
+msgid ""
+"[RemovePng] This operation will remove all PNGs from the device folder "
+"(Poster-Backdrop)...\n"
+"Do you really want to continue?"
+msgstr ""
+
+#: plugin.py:446
+msgid "All png are removed from folder!"
+msgstr ""
+
+#: plugin.py:447
+msgid "Info..."
+msgstr ""
+
+#: plugin.py:496 plugin.py:555
+msgid "No active providers enabled"
+msgstr ""
+
+#: plugin.py:501 plugin.py:560
+msgid ""
+"Warning: You are using default API keys!\n"
+"We strongly recommend configuring your own API keys in the plugin settings."
+msgstr ""
+
+#: plugin.py:508
+msgid ""
+"Poster download will start in 2 minutes.\n"
+"You can safely exit this menu."
+msgstr ""
+
+#: plugin.py:520 plugin.py:579
+msgid "Error: {}"
+msgstr ""
+
+#: plugin.py:529
+msgid "Poster download error: {}"
+msgstr ""
+
+#: plugin.py:567
+msgid ""
+"Backdrop download will start in 2 minutes.\n"
+"You can safely exit this menu."
+msgstr ""
+
+#: plugin.py:588
+msgid "Backdrop download error: {}"
+msgstr ""
+
+#: plugin.py:604
+#, python-format
+msgid "Import key %s from %s?"
+msgstr ""
+
+#: plugin.py:609
+#, python-format
 msgid "The file %s is empty."
-msgstr "Die Datei %s ist leer."
+msgstr ""
 
+#: plugin.py:616
+#, python-format
 msgid "The file %s was not found."
-msgstr "Die Datei %s wurde nicht gefunden."
+msgstr ""
 
-msgid "This operation assign device path folder to download image (Poster-Backdrop)"
-msgstr "Bei diesem Vorgang wird der Gerätepfadordner zum Herunterladen des Bildes (Poster-Hintergrund) zugewiesen."
+#: plugin.py:626
+msgid "Key empty"
+msgstr ""
 
-msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "Dieser Vorgang ermöglicht die Anzeige von Bewertungssternen für Ereignisse basierend auf der ausgewählten Bewertungsquelle."
+#: plugin.py:636
+#, python-format
+msgid "%s key imported!"
+msgstr ""
 
-msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "Dieser Vorgang entfernt alle PNGs aus dem Ordner „Device“ (Poster-Backdrop)."
+#: plugin.py:644
+#, python-format
+msgid "Error %s: %s"
+msgstr ""
 
-msgid "Tomato"
-msgstr "Tomate"
+#: plugin.py:786
+msgid "Error by processing the skin file: {}"
+msgstr ""
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Aktualisierungs-URL nicht initialisiert – Öffnen Sie das Plugin zunächst einmal über das Plugins-Menü."
+#: plugin.py:791
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
 
-msgid "Update check failed: {}"
-msgstr "Update-Überprüfung fehlgeschlagen: {}"
+#: plugin.py:794 plugin.py:926
+msgid "Restart GUI now?"
+msgstr ""
 
-msgid "Update package not found!"
-msgstr "Update-Paket nicht gefunden!"
+#: plugin.py:807
+msgid ""
+"Update URL not initialised – open the plugin once from the Plugins menu "
+"first."
+msgstr ""
 
-msgid "VolumeBar Style:"
-msgstr "VolumeBar-Stil:"
-
-msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: Eintrag bearbeiten"
-
-msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: Liste der Einträge"
-
-msgid "White"
-msgstr "Weiß"
-
-msgid "YellowGreen"
-msgstr "GelbGrün"
-
+#: plugin.py:839
 msgid "You already have the latest version ({})."
-msgstr "Sie haben bereits die neueste Version ({})."
+msgstr ""
 
-msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "Sie müssen einen gültigen Stadtnamen eingeben, bevor Sie nach dem Standortcode suchen können."
+#: plugin.py:847
+msgid ""
+"Server version: {}\n"
+"Installed version: {}\n"
+"\n"
+"A newer build is available – update now?"
+msgstr ""
 
-msgid "imperial system"
-msgstr "imperiales System"
+#: plugin.py:855
+msgid "Local build ({}) is newer than server build ({})."
+msgstr ""
 
-msgid "metric system"
-msgstr "metrisches System"
+#: plugin.py:860
+msgid "Update check failed: {}"
+msgstr ""
 
-msgid "play/show Files"
-msgstr "Dateien abspielen/anzeigen"
+#: plugin.py:898
+msgid "Downloading Aglare..."
+msgstr ""
 
-msgid "volume2"
-msgstr "Band2"
+#: plugin.py:906
+msgid "Installing updates..."
+msgstr ""
 
-#~ msgid ""
-#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
-#~ "Do you really want to continue?"
-#~ msgstr ""
-#~ "[Skin prüfen] Dieser Vorgang prüft, ob der Skin seine Komponenten enthält (nicht garantiert)...\n"
-#~ "Möchten Sie wirklich fortfahren?"
+#: plugin.py:923
+msgid ""
+"Aglare update was done!\n"
+"Do you want to restart the GUI now?"
+msgstr ""
 
-#~ msgid ""
-#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
-#~ "Do you really want to continue?"
-#~ msgstr ""
-#~ "[RemovePng] Dieser Vorgang entfernt alle PNGs aus dem Geräteordner (Poster-Backdrop)...\n"
-#~ "Möchten Sie wirklich fortfahren?"
+#: plugin.py:928
+msgid "Update package not found!"
+msgstr ""
 
-#~ msgid ""
-#~ "Aglare update was done!\n"
-#~ "Do you want to restart the GUI now?"
-#~ msgstr ""
-#~ "Das Aglare-Update wurde durchgeführt!\n"
-#~ "Möchten Sie die GUI jetzt neu starten?"
+#: plugin.py:931
+msgid ""
+"The update file was not found in /tmp.\n"
+"Update aborted."
+msgstr ""
 
-#~ msgid ""
-#~ "Backdrop download will start in 2 minutes.\n"
-#~ "You can safely exit this menu."
-#~ msgstr ""
-#~ "Der Hintergrund-Download beginnt in 2 Minuten.\n"
-#~ "Sie können dieses Menü bedenkenlos verlassen."
+#: plugin.py:936
+msgid "Error downloading files!"
+msgstr ""
 
-#~ msgid ""
-#~ "GUI needs a restart to apply a new skin.\n"
-#~ "Do you want to Restart the GUI now?"
-#~ msgstr ""
-#~ "Die GUI muss neu gestartet werden, um einen neuen Skin anzuwenden.\n"
-#~ "Möchten Sie die GUI jetzt neu starten?"
+#: plugin.py:950
+msgid "Download in progress…"
+msgstr ""
 
-#~ msgid ""
-#~ "Poster download will start in 2 minutes.\n"
-#~ "You can safely exit this menu."
-#~ msgstr ""
-#~ "Der Download des Posters beginnt in 2 Minuten.\n"
-#~ "Sie können dieses Menü sicher verlassen."
-
-#~ msgid ""
-#~ "Setup Aglare Skin\n"
-#~ "for {0} v.{1}\n"
-#~ "\n"
-#~ "by Lululla @2020\n"
-#~ "\n"
-#~ "Support forum on linuxsat-support.com\n"
-#~ "\n"
-#~ "Skinner creator: Odem2014"
-#~ msgstr ""
-#~ "Setup Aglare Skin\n"
-#~ "für {0} v.{1}\n"
-#~ "\n"
-#~ "von Lululla @2020\n"
-#~ "\n"
-#~ "Support-Forum auf linuxsat-support.com\n"
-#~ "\n"
-#~ "Skinner-Ersteller: Odem2014"
-
-#~ msgid "Support InfoBar SoftCSA:"
-#~ msgstr "Support InfoBar SoftCSA:"
-
-#~ msgid ""
-#~ "The update file was not found in /tmp.\n"
-#~ "Update aborted."
-#~ msgstr ""
-#~ "Die Update-Datei wurde in /tmp.\n"
-#~ " nicht gefunden. Update abgebrochen."
-
-#~ msgid ""
-#~ "Warning: You are using default API keys!\n"
-#~ "We strongly recommend configuring your own API keys in the plugin settings."
-#~ msgstr ""
-#~ "Warnung: Sie verwenden Standard-API-Schlüssel!\n"
-#~ "Wir empfehlen dringend, Ihre eigenen API-Schlüssel in den Plugin-Einstellungen zu konfigurieren."
+#: plugin.py:1032
+#, python-format
+msgid "Customization tool for %s Skin"
+msgstr ""

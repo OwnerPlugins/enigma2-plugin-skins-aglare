@@ -1,0 +1,11 @@
+
+    <!--posters-->
+   <widget source="session.Event_Now" render="AglarePosterX" position="40,422" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="igsd" />
+  <widget source="session.Event_Now" render="AglarePosterX" nexts="1" position="1640,422" size="240,360" cornerRadius="14" zPosition="1" borderWidth="1" borderColor="igsd" />
+  <widget source="session.Event_Now" render="AglareLogoX" position="40,296" size="240,120" zPosition="95" />
+  <widget source="session.Event_Now" render="AglareLogoX" position="1640,296" size="240,120" nexts="1" zPosition="95" />
+  <widget source="session.Event_Now" render="AgpStarX" position="60,784" size="200,20" transparent="1" zPosition="22" />
+  <widget source="session.Event_Next" render="AgpStarX" position="1660,784" size="200,20" transparent="1" zPosition="22" />
+  <widget source="session.Event_Now" render="AgpParentalX" position="224,730" size="50,50" zPosition="99" transparent="1" alphatest="blend" />
+  <widget source="session.Event_Next" render="AgpParentalX" position="1646,730" size="50,50" zPosition="99" transparent="1" alphatest="blend" />
+  <widget source="session.Event_Now" render="AgpInfoEvents" position="300,607" size="580,193" font="Regular;20" transparent="1" zPosition="5" />

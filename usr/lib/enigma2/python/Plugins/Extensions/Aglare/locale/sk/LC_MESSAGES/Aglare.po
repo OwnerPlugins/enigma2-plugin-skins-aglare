@@ -1,771 +1,704 @@
-# sk translations
-# Copyright (C) 2026 Lululla Team
-#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: sk <ekekaz@gmail.com>\n"
+"Project-Id-Version: Aglare\n"
+"POT-Creation-Date: 2025-05-24 16:09+0200\n"
+"PO-Revision-Date: 2025-05-24 16:09+0200\n"
+"Last-Translator: Warder <ciksa@seznam.cz>\n"
+"Language-Team: lululla\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-SearchPath-0: .\n"
 
-msgid "%s key imported!"
-msgstr "%s kľúč importovaný!"
+#: DownloadControl.py:83 DownloadControl.py:112
+msgid "Download error: {}"
+msgstr ""
 
-msgid "1 poster"
-msgstr "1 plagát"
+#: addons/File_Commander.py:28 addons/type_utils.py:23
+msgid "File Commander - Addon"
+msgstr ""
 
-msgid "Activate or deactivate ELCINEMA as a metadata provider."
-msgstr "Aktivujte alebo deaktivujte ELCINEMA ako poskytovateľa metadát."
+#: addons/File_Commander.py:29 addons/type_utils.py:24
+msgid "play/show Files"
+msgstr ""
 
-msgid "Activate or deactivate GOOGLE as a metadata provider."
-msgstr "Aktivujte alebo deaktivujte GOOGLE ako poskytovateľa metadát."
+#: addons/File_Commander.py:91 addons/type_utils.py:86
+msgid "Exit"
+msgstr ""
 
-msgid "Activate or deactivate IMDB as a metadata provider."
-msgstr "Aktivujte alebo deaktivujte IMDB ako poskytovateľa metadát."
+#: addons/File_Commander.py:92 addons/type_utils.py:87
+msgid "Save"
+msgstr ""
 
-msgid "Activate or deactivate MOLOTOV as a metadata provider."
-msgstr "Aktivujte alebo deaktivujte MOLOTOV ako poskytovateľa metadát."
+#: addons/File_Commander.py:93 addons/type_utils.py:88
+msgid "Del Line"
+msgstr ""
 
-msgid "Activate or deactivate PROGRAMMETV as a metadata provider."
-msgstr "Aktivujte alebo deaktivujte PROGRAMMETV ako poskytovateľa metadát."
+#: addons/File_Commander.py:94 addons/type_utils.py:89
+msgid "Ins Line"
+msgstr ""
 
+#: addons/WeatherSearch.py:32
+msgid "metric system"
+msgstr ""
+
+#: addons/WeatherSearch.py:32
+msgid "imperial system"
+msgstr ""
+
+#: addons/WeatherSearch.py:79
+msgid "WeatherPlugin: List of Entries"
+msgstr ""
+
+#: addons/WeatherSearch.py:80 addons/WeatherSearch.py:258
+msgid "City"
+msgstr ""
+
+#: addons/WeatherSearch.py:81 addons/WeatherSearch.py:258
+msgid "System"
+msgstr ""
+
+#: addons/WeatherSearch.py:82 addons/WeatherSearch.py:376
+msgid "Back"
+msgstr ""
+
+#: addons/WeatherSearch.py:83
+msgid "Add"
+msgstr ""
+
+#: addons/WeatherSearch.py:84
+msgid "Edit"
+msgstr ""
+
+#: addons/WeatherSearch.py:85 addons/WeatherSearch.py:250
+msgid "Delete"
+msgstr ""
+
+#: addons/WeatherSearch.py:142 addons/WeatherSearch.py:313
+msgid "Really delete this WeatherPlugin Entry?"
+msgstr ""
+
+#: addons/WeatherSearch.py:238
+msgid "WeatherPlugin: Edit Entry"
+msgstr ""
+
+#: addons/WeatherSearch.py:248
+msgid "Cancel"
+msgstr ""
+
+#: addons/WeatherSearch.py:249 addons/WeatherSearch.py:377
+msgid "OK"
+msgstr ""
+
+#: addons/WeatherSearch.py:251
+msgid "Search Code"
+msgstr ""
+
+#: addons/WeatherSearch.py:258
+msgid "Location code"
+msgstr ""
+
+#: addons/WeatherSearch.py:272
+msgid ""
+"You need to enter a valid city name before you can search for the location "
+"code."
+msgstr ""
+
+#: addons/WeatherSearch.py:284 addons/WeatherSearch.py:296
+msgid "Please enter a valid city name."
+msgstr ""
+
+#: addons/WeatherSearch.py:286 addons/WeatherSearch.py:299
+msgid "Please enter a valid location code for the city."
+msgstr ""
+
+#: addons/WeatherSearch.py:375
+msgid "MSN location search result"
+msgstr ""
+
+#: api_config.py:168
+msgid "Key {} successfully loaded!"
+msgstr ""
+
+#: api_config.py:169
+msgid "File {} not found or empty"
+msgstr ""
+
+#: api_config.py:172
+msgid "Error loading: {}"
+msgstr ""
+
+#: api_config.py:217 api_config.py:225
+msgid "Automatic"
+msgstr ""
+
+#: api_config.py:218 api_config.py:226
+msgid "TMDB Only"
+msgstr ""
+
+#: api_config.py:219 api_config.py:227
+msgid "OMDB Only"
+msgstr ""
+
+#: api_config.py:220 api_config.py:228
+msgid "Off"
+msgstr ""
+
+#: api_config.py:242 api_config.py:254 api_config.py:264 api_config.py:268
+#: api_config.py:299 api_config.py:335
+msgid "Default"
+msgstr ""
+
+#: api_config.py:243
+msgid "Black"
+msgstr ""
+
+#: api_config.py:244
+msgid "Brown"
+msgstr ""
+
+#: api_config.py:245
+msgid "Green"
+msgstr ""
+
+#: api_config.py:246
+msgid "Magenta"
+msgstr ""
+
+#: api_config.py:247
+msgid "Blue"
+msgstr ""
+
+#: api_config.py:248
+msgid "Red"
+msgstr ""
+
+#: api_config.py:249
+msgid "Purple"
+msgstr ""
+
+#: api_config.py:250
+msgid "Green2"
+msgstr ""
+
+#: api_config.py:255
+msgid "HandelGotD"
+msgstr ""
+
+#: api_config.py:256
+msgid "KhalidArtboldRegular"
+msgstr ""
+
+#: api_config.py:257
+msgid "BebasNeue"
+msgstr ""
+
+#: api_config.py:258
+msgid "Greta"
+msgstr ""
+
+#: api_config.py:259
+msgid "Segoe UI light"
+msgstr ""
+
+#: api_config.py:260
+msgid "MV Boli"
+msgstr ""
+
+#: api_config.py:269 api_config.py:300
+msgid "Style2"
+msgstr ""
+
+#: api_config.py:270 api_config.py:301
+msgid "Style3"
+msgstr ""
+
+#: api_config.py:271 api_config.py:302
+msgid "Style4"
+msgstr ""
+
+#: api_config.py:272
+msgid "Style5 CD"
+msgstr ""
+
+#: api_config.py:276 api_config.py:282 api_config.py:306 api_config.py:311
+#: api_config.py:340 plugin.py:231 plugin.py:256
+msgid "OFF"
+msgstr ""
+
+#: api_config.py:277 api_config.py:283 api_config.py:307 api_config.py:312
+#: api_config.py:341 plugin.py:232 plugin.py:257
+#, fuzzy
+#| msgid "LION"
+msgid "ON"
+msgstr "LEV"
+
+#: api_config.py:278 api_config.py:284 plugin.py:237 plugin.py:267
+msgid "CD"
+msgstr ""
+
+#: api_config.py:285 plugin.py:263
+msgid "Backdrop"
+msgstr ""
+
+#: api_config.py:289
+msgid "Infobar_NO_Date"
+msgstr ""
+
+#: api_config.py:290
+#, fuzzy
+#| msgid "Information"
+msgid "Infobar_Date"
+msgstr "Informácie"
+
+#: api_config.py:294
+msgid "Infobar_NO_Weather"
+msgstr ""
+
+#: api_config.py:295
+msgid "Infobar_Weather"
+msgstr ""
+
+#: api_config.py:316
+msgid "ChannelSelection_NO_Posters"
+msgstr ""
+
+#: api_config.py:317
+msgid "ChannelSelection_NO_Posters_NO_Picon"
+msgstr ""
+
+#: api_config.py:318
+msgid "ChannelSelection_BackDrop_V"
+msgstr ""
+
+#: api_config.py:319
+msgid "ChannelSelection_BackDrop_H"
+msgstr ""
+
+#: api_config.py:320
+msgid "ChannelSelection_1_Poster_X"
+msgstr ""
+
+#: api_config.py:321
+msgid "ChannelSelection_1_Poster_EX"
+msgstr ""
+
+#: api_config.py:322
+msgid "ChannelSelection_4_Posters_X"
+msgstr ""
+
+#: api_config.py:323
+msgid "ChannelSelection_4_Posters_EX"
+msgstr ""
+
+#: api_config.py:324
+msgid "ChannelSelection_6_Posters_X"
+msgstr ""
+
+#: api_config.py:325
+msgid "ChannelSelection_6_Posters_EX"
+msgstr ""
+
+#: api_config.py:326
+msgid "ChannelSelection_big_mini_tv"
+msgstr ""
+
+#: api_config.py:330
+msgid "EventView_NO_Posters"
+msgstr ""
+
+#: api_config.py:331
+msgid "EventView_7_Posters"
+msgstr ""
+
+#: api_config.py:336
+msgid "volume2"
+msgstr ""
+
+#: plugin.py:286
+msgid "Color Style:"
+msgstr ""
+
+#: plugin.py:287
+msgid "Select Your Font:"
+msgstr ""
+
+#: plugin.py:288
+msgid "Skin Style:"
+msgstr ""
+
+#: plugin.py:289
+msgid "InfoBar Style:"
+msgstr ""
+
+#: plugin.py:290
+msgid "InfoBar PosterX:"
+msgstr ""
+
+#: plugin.py:291
+msgid "InfoBar Xtraevent:"
+msgstr ""
+
+#: plugin.py:292
+msgid "InfoBar Date:"
+msgstr ""
+
+#: plugin.py:293
+msgid "InfoBar Weather:"
+msgstr ""
+
+#: plugin.py:294
+msgid "SecondInfobar Style:"
+msgstr ""
+
+#: plugin.py:295
+msgid "SecondInfobar Posterx:"
+msgstr ""
+
+#: plugin.py:296
+msgid "SecondInfobar Xtraevent:"
+msgstr ""
+
+#: plugin.py:297
+msgid "ChannelSelection Style:"
+msgstr ""
+
+#: plugin.py:298
+msgid "EventView Style:"
+msgstr ""
+
+#: plugin.py:299
+msgid "VolumeBar Style:"
+msgstr ""
+
+#: plugin.py:300
+msgid "Support E2iplayer Skins:"
+msgstr ""
+
+#: plugin.py:304
+msgid "Remove all png (poster - backdrop) (OK)"
+msgstr ""
+
+#: plugin.py:304
+msgid "This operation remove all png from folder device (Poster-Backdrop)"
+msgstr ""
+
+#: plugin.py:308
+msgid "Enable Rating Star:"
+msgstr ""
+
+#: plugin.py:308
+msgid ""
+"This operation enable the display of rating stars for events, based on the "
+"selected rating source."
+msgstr ""
+
+#: plugin.py:309
+msgid "Enable Parental Icons:"
+msgstr ""
+
+#: plugin.py:309
+msgid ""
+"Show parental guidance icons on events to indicate content rating and age "
+"suitability."
+msgstr ""
+
+#: plugin.py:310
+msgid "Enable Display InfoEvents:"
+msgstr ""
+
+#: plugin.py:310
+msgid ""
+"Enable the display of extended event information, including full cast, crew, "
+"plot details, and other metadata, in the info widget."
+msgstr ""
+
+#: plugin.py:311
+msgid "Enable Display Genre icons:"
+msgstr ""
+
+#: plugin.py:311
+msgid ""
+"Show icons representing the genre of each event (e.g., action, comedy, drama)"
+msgstr ""
+
+#: plugin.py:312
+msgid "Enable Display XMC Poster:"
+msgstr ""
+
+#: plugin.py:312
+msgid "Show poster from movie in local folder"
+msgstr ""
+
+#: plugin.py:314
+msgid "Settings Apikey Server"
+msgstr ""
+
+#: plugin.py:322
 msgid "Activate/Deactivate {}"
 msgstr ""
 
-msgid "Add"
-msgstr "Pridať"
-
-msgid "All png are removed from folder!"
-msgstr "Všetky png sú odstránené z priečinka!"
-
-msgid "Automatic"
-msgstr "Automaticky"
-
-msgid "Automatic download of backdrop"
-msgstr "Automatické sťahovanie pozadia"
-
-msgid "Automatic download of poster"
-msgstr "Automatické stiahnutie plagátu"
-
-msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr "Automaticky získajte pozadie pre obľúbené udalosti na základe EPG"
-
-msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr "Automaticky načítajte plagáty k obľúbeným udalostiam na základe EPG"
-
-msgid "Back"
-msgstr "Späť"
-
-msgid "Backdrop"
-msgstr "Pozadie"
-
-msgid "Backdrop download error: {}"
-msgstr "Chyba sťahovania kulisy: {}"
-
-msgid "BebasNeue"
-msgstr "FreeNeue"
-
-msgid "Bitrate Unit:"
-msgstr "Jednotka bitovej rýchlosti:"
-
-msgid "Black"
-msgstr "Čierna"
-
-msgid "Blue"
-msgstr "Modrá"
-
-msgid "Brown"
-msgstr "Hnedá"
-
-msgid "CD"
-msgstr "CD"
-
-msgid "Caid + Protocol + Server + ECM Time"
-msgstr "Caid + Protokol + Server + Čas ECM"
-
-msgid "Caid + Reader + Protocol + Server + ECM Time"
-msgstr "Caid + Reader + Protocol + Server + ECM čas"
-
-msgid "Cancel"
-msgstr "Zrušiť"
-
-msgid "Cannot create version file: {}"
-msgstr ""
-
-msgid "Channel Description Color:"
-msgstr "Farba popisu kanála:"
-
-msgid "Channel Foreground Color:"
-msgstr "Farba popredia kanála:"
-
-msgid "Channel Selected Description Color:"
-msgstr "Farba popisu vybraného kanála:"
-
-msgid "Channel Selected Foreground Color:"
-msgstr "Farba popredia vybratého kanála:"
-
-msgid "ChannelSelection Style:"
-msgstr "Štýl výberu kanála:"
-
-msgid "ChannelSelection_1_Poster_EX"
-msgstr "ChannelSelection_1_Poster_EX"
-
-msgid "ChannelSelection_1_Poster_PX"
-msgstr "ChannelSelection_1_Poster_PX"
-
-msgid "ChannelSelection_4_Posters_EX"
-msgstr "ChannelSelection_4_Posters_EX"
-
-msgid "ChannelSelection_4_Posters_PX"
-msgstr "ChannelSelection_4_Posters_PX"
-
-msgid "ChannelSelection_6_Posters_EX"
-msgstr "ChannelSelection_6_Posters_EX"
-
-msgid "ChannelSelection_6_Posters_PX"
-msgstr "ChannelSelection_6_Posters_PX"
-
-msgid "ChannelSelection_6_Posters_PX_test"
-msgstr "ChannelSelection_6_Posters_PX_test"
-
-msgid "ChannelSelection_BackDrop_H_EX"
-msgstr "ChannelSelection_BackDrop_H_EX"
-
-msgid "ChannelSelection_BackDrop_H_PX"
-msgstr "ChannelSelection_BackDrop_H_PX"
-
-msgid "ChannelSelection_BackDrop_V_EX"
-msgstr "ChannelSelection_BackDrop_V_EX"
-
-msgid "ChannelSelection_BackDrop_V_PX"
-msgstr "ChannelSelection_BackDrop_V_PX"
-
-msgid "ChannelSelection_NO_Posters"
-msgstr "ChannelSelection_NO_Posters"
-
-msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr "ChannelSelection_NO_Posters_NO_Picon"
-
-msgid "ChannelSelection_big_mini_tv"
-msgstr "ChannelSelection_big_mini_tv"
-
-msgid "Choice device download image folder"
-msgstr "Vyberte priečinok s obrázkami na stiahnutie zariadenia"
-
-msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
-msgstr "Vyberte, či sa má bitová rýchlosť zobrazovať v Kb/s alebo Mb/s."
-
-msgid "City"
-msgstr "Mesto"
-
-msgid "Color Style:"
-msgstr "Farebný štýl:"
-
-msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr "Pred spustením automatického sťahovania plagátu nakonfigurujte čas oneskorenia (v minútach)."
-
-msgid "Crimson"
-msgstr "Crimson"
-
-msgid "Customization tool for %s Skin"
-msgstr "Nástroj na prispôsobenie pre vzhľad %s"
-
-msgid "Default"
-msgstr "Predvolené"
-
-msgid "Del Line"
-msgstr "Del Line"
-
-msgid "Delete"
-msgstr "Odstrániť"
-
-msgid "Download error: {}"
-msgstr "Chyba sťahovania: {}"
-
-msgid "Download in progress…"
-msgstr "Prebieha sťahovanie…"
-
-msgid "Download now backdrop"
-msgstr "Stiahnite si teraz pozadie"
-
-msgid "Download now poster"
-msgstr "Stiahnite si teraz plagát"
-
-msgid "Downloading Aglare..."
-msgstr "Sťahuje sa Aglare..."
-
-msgid "ECM Short Format:"
-msgstr "Krátky formát ECM:"
-
-msgid "EMC PX"
-msgstr "EMC PX"
-
-msgid "EMC screens Style:"
-msgstr "Štýl EMC obrazoviek:"
-
-msgid "Edit"
-msgstr "Upraviť"
-
-msgid "Enable Display Genre icons:"
-msgstr "Povoliť ikony žánru zobrazenia:"
-
-msgid "Enable Display InfoEvents:"
-msgstr "Povoliť zobrazovanie informačných udalostí:"
-
-msgid "Enable Display XMC Poster:"
-msgstr "Povoliť zobrazenie XMC plagátu:"
-
-msgid "Enable Parental Icons:"
-msgstr "Povoliť ikony rodičov:"
-
-msgid "Enable Rating Star:"
-msgstr "Povoliť hviezdičku hodnotenia:"
-
-msgid "Enable or disable bundled E2iPlayer screens."
-msgstr "Povoliť alebo zakázať pribalené obrazovky E2iPlayer."
-
-msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr "Povoľte alebo zakážte ukladanie do vyrovnávacej pamäte počas sťahovania udalosti, aby ste urýchlili opakované vyhľadávanie."
-
-msgid "Enable the display of extended event information, including full cast, crew, plot details, and other metadata, in the info widget."
-msgstr "Povoľte zobrazenie rozšírených informácií o udalosti vrátane celého obsadenia, štábu, podrobností o sprisahaní a ďalších metadát v informačnom widgete."
-
-msgid "Error downloading files!"
-msgstr "Chyba pri sťahovaní súborov!"
-
-msgid "Error loading: {}"
-msgstr "Chyba pri načítavaní: {}"
-
-#, fuzzy
-msgid "Error processing skin file: {}"
-msgstr "Chyba pri spracovaní súboru vzhľadu: {}"
-
-msgid "Error {0}: {1}"
-msgstr "Chyba {0}: {1}"
-
-msgid "Error: {}"
-msgstr "Chyba: {}"
-
-msgid "EventView Style:"
-msgstr "Štýl zobrazenia udalosti:"
-
-msgid "EventView_7_Posters"
-msgstr "EventView_7_Posters"
-
-msgid "EventView_NO_Posters"
-msgstr "EventView_NO_Posters"
-
-msgid "Exit"
-msgstr "VÝCHOD"
-
-msgid "File Commander - Addon"
-msgstr "File Commander - Addon"
-
-msgid "File {} not found or empty"
-msgstr "Súbor {} sa nenašiel alebo je prázdny"
-
-msgid "Green"
-msgstr "Zelená"
-
-msgid "Green2"
-msgstr "Zelená2"
-
-msgid "Greta"
-msgstr "Greta"
-
-msgid "HandelGotD"
-msgstr "HandelGotD"
-
-msgid "Image Compatibility Group:"
-msgstr "Skupina kompatibility obrázkov:"
-
-msgid "Import key {0} from {1}?"
-msgstr "Importovať kľúč {0} z {1}?"
-
-msgid "Info..."
-msgstr "Info..."
-
-msgid "InfoBar Date:"
-msgstr "Dátum informačného panela:"
-
-msgid "InfoBar ECM:"
-msgstr "InfoBar ECM:"
-
-msgid "InfoBar PosterX:"
-msgstr "InfoBar PosterX:"
-
-msgid "InfoBar Style:"
-msgstr "Štýl informačného panela:"
-
-msgid "InfoBar Weather:"
-msgstr "InfoBar počasie:"
-
-msgid "InfoBar Xtraevent:"
-msgstr "InfoBar Xtraevent:"
-
-msgid "Infobar_Date"
-msgstr "Infobar_Date"
-
-msgid "Infobar_MSNWeather"
-msgstr "Infobar_MSNPočasie"
-
-msgid "Infobar_NO_Date"
-msgstr "Infobar_NO_Date"
-
-msgid "Infobar_NO_Weather"
-msgstr "Infobar_NO_Weather"
-
-msgid "Infobar_OAWeather"
-msgstr "Infobar_OAWeather"
-
-msgid "Ins Line"
-msgstr "Ins Line"
-
-msgid "Installing updates..."
-msgstr "Inštalujú sa aktualizácie..."
-
-msgid "Key empty"
-msgstr "Kľúč prázdny"
-
-msgid "Key {} successfully loaded!"
-msgstr "Kľúč {} bol úspešne načítaný!"
-
-msgid "KhalidArtboldRegular"
-msgstr "KhalidArtboldRegular"
-
-msgid "Kilobit/s (Kb/s)"
-msgstr "Kilobit/s (Kb/s)"
-
-msgid "LightGray"
-msgstr "LightGray"
-
-msgid "LimeGreen"
-msgstr "LimeGreen"
-
+#: plugin.py:330
 msgid "Load from /tmp/{}key.txt"
 msgstr ""
 
-msgid "Local build ({}) is newer than server build ({})."
-msgstr "Lokálna zostava ({}) je novšia ako zostava servera ({})."
-
-msgid "Location code"
-msgstr "Kód miesta"
-
-msgid "Lucida"
-msgstr "Lucida"
-
-msgid "MSN location search result"
-msgstr "Výsledok vyhľadávania polohy MSN"
-
-msgid "MV Boli"
-msgstr "MV Boli"
-
-msgid "Magenta"
-msgstr "purpurová"
-
-msgid "Megabit/s (Mb/s)"
-msgstr "Megabit/s (Mb/s)"
-
-msgid "Mint"
-msgstr "Mincovňa"
-
-msgid "Mix1"
-msgstr "Mix1"
-
-msgid "No active providers enabled"
-msgstr "Nie sú aktivovaní žiadni aktívni poskytovatelia"
-
-msgid "No description available for this option."
-msgstr "Pre túto možnosť nie je k dispozícii žiadny popis."
-
-msgid "OFF"
-msgstr "VYPNUTÉ"
-
-msgid "OK"
-msgstr "OK"
-
-msgid "OMDB Only"
-msgstr "Iba OMDB"
-
-msgid "ON"
-msgstr "ON"
-
-msgid "ON/OFF SubsSupportPro Skins."
-msgstr "ON/OFF SubsSupportPro skiny."
-
-msgid "Off"
-msgstr "Vypnuté"
-
-msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
-msgstr "OpenBH / OpenViX / TeamBlue (skupina nových obrázkov)"
-
-msgid "OpenPLi / Satlodge (OpenPLi Group)"
-msgstr "OpenPLi / Satlodge (OpenPLi Group)"
-
-msgid "Orange"
-msgstr "Oranžová"
-
+#: plugin.py:335
 msgid "Personal API key for {}"
 msgstr ""
 
-msgid "Pink"
-msgstr "Ružová"
-
-msgid "Please enter a valid city name."
-msgstr "Zadajte platný názov mesta."
-
-msgid "Please enter a valid location code for the city."
-msgstr "Zadajte platný kód miesta pre mesto."
-
-msgid "Poster download error: {}"
-msgstr "Chyba sťahovania plagátu: {}"
-
-msgid "Purple"
-msgstr "Fialová"
-
-msgid "Really delete this WeatherPlugin Entry?"
-msgstr "Naozaj odstrániť túto položku WeatherPlugin?"
-
-msgid "Red"
-msgstr "Červená"
-
-msgid "Remove all png (poster - backdrop) (OK)"
-msgstr "Odstrániť všetky png (plagát - pozadie) (OK)"
-
-msgid "Restart GUI now?"
-msgstr "Reštartovať GUI teraz?"
-
-msgid "Save"
-msgstr "Uložiť"
-
-msgid "Search Code"
-msgstr "Vyhľadávací kód"
-
-msgid "Second Infobar_MSNWeather"
-msgstr "Druhý informačný panel_MSNPočasie"
-
-msgid "Second Infobar_NO_Weather"
-msgstr "Druhý informačný panel_NO_Weather"
-
-msgid "Second Infobar_OAWeather"
-msgstr "Druhý informačný panel_OAWeather"
-
-msgid "SecondInfobar Posterx:"
-msgstr "SecondInfobar Posterx:"
-
-msgid "SecondInfobar Style:"
-msgstr "Štýl druhého informačného panela:"
-
-msgid "SecondInfobar Weather:"
-msgstr "Počasie na druhom informačnom paneli:"
-
-msgid "SecondInfobar Xtraevent:"
-msgstr "SecondInfobar Xtraevent:"
-
-msgid "Segoe UI light"
-msgstr "Segoe UI svetlo"
-
-msgid "Select EMC style."
-msgstr "Vyberte štýl EMC."
-
-msgid "Select PosterX display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Vyberte režim zobrazenia PosterX pre informačný panel. Dostupné možnosti závisia od zvoleného štýlu informačného panela a režimu ECM."
-
-msgid "Select XtraEvent display mode for the infobar. Available choices depend on the selected infobar style and ECM mode."
-msgstr "Vyberte režim zobrazenia XtraEvent pre informačný panel. Dostupné možnosti závisia od zvoleného štýlu informačného panela a režimu ECM."
-
-msgid "Select Your Font:"
-msgstr "Vyberte si svoje písmo:"
-
-msgid "Select channel list event description color."
-msgstr "Vyberte farbu popisu udalosti zoznamu kanálov."
-
-msgid "Select channel list foreground color."
-msgstr "Vyberte farbu popredia zoznamu kanálov."
-
-msgid "Select channel list selected foreground color."
-msgstr "Vybrať zoznam kanálov vybratú farbu popredia."
-
-msgid "Select channel selection screen style."
-msgstr "Vyberte štýl obrazovky výberu kanála."
-
-msgid "Select event view screen style."
-msgstr "Vyberte štýl obrazovky zobrazenia udalosti."
-
-msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
-msgstr "Vyberte rozloženie informačného panela. Style5 vynúti ECM vypnutie a umožňuje len režimy plagátu OFF/CD. Style6 vynúti ECM, PosterX a Xtraevent vypnutie."
-
-msgid "Select second infobar layout."
-msgstr "Vyberte rozloženie druhého informačného panela."
-
-msgid "Select selected channel event description color."
-msgstr "Vyberte farbu popisu udalosti kanála."
-
-msgid "Select the base skin layout file."
-msgstr "Vyberte súbor rozloženia základného vzhľadu."
-
-msgid "Select the font package used by the generated skin."
-msgstr "Vyberte balík písiem, ktorý používa vygenerovaný vzhľad."
-
-msgid "Select the main color preset used by the skin."
-msgstr "Vyberte hlavnú predvoľbu farieb, ktorú používa vzhľad."
-
-msgid "Select the target image base group (OpenPLi vs Others)."
-msgstr "Vyberte cieľovú základnú skupinu obrázkov (OpenPLi vs. Ostatné)."
-
-msgid "Select volume bar style."
-msgstr "Vyberte štýl panela hlasitosti."
-
-msgid "Select weather provider display for the infobar."
-msgstr "Vyberte zobrazenie poskytovateľa počasia pre informačný panel."
-
-msgid "Select weather provider display for the second infobar."
-msgstr "Vyberte zobrazenie poskytovateľa počasia pre druhý informačný panel."
-
-msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
-msgstr "Vyberte, ktoré polia ECM sa zobrazia, keď vzhľad používa Short MYEMUPARA."
-
-msgid "Set Time our - minute for Backdrop download"
-msgstr "Nastavte čas našej minúty na stiahnutie kulisy"
-
-msgid "Set Time our - minute for Poster download"
-msgstr "Nastavte čas našej minúty na stiahnutie plagátu"
-
-msgid "Settings Apikey Server"
-msgstr "Nastavenia Apikey Server"
-
-msgid "Setup Aglare Skin Info"
-msgstr "Nastavte Aglare Skin Info"
-
-msgid "Show icons representing the genre of each event (e.g., action, comedy, drama)"
-msgstr "Zobraziť ikony predstavujúce žáner každej udalosti (napr. akcia, komédia, dráma)"
-
-msgid "Show or hide ECM information in the infobar."
-msgstr "Zobraziť alebo skryť informácie ECM v informačnom paneli."
-
-msgid "Show or hide PosterX in the second infobar."
-msgstr "Zobraziť alebo skryť PosterX v druhom informačnom paneli."
-
-msgid "Show or hide XtraEvent in the second infobar."
-msgstr "Zobraziť alebo skryť XtraEvent v druhom informačnom paneli."
-
-msgid "Show or hide the date panel in the infobar."
-msgstr "Zobraziť alebo skryť panel dátumu na informačnom paneli."
-
-msgid "Show parental guidance icons on events to indicate content rating and age suitability."
-msgstr "Zobrazovať ikony rodičovského dozoru pri udalostiach na označenie obsahu a vhodnosti podľa veku."
-
-msgid "Show poster from movie in local folder"
-msgstr "Zobraziť plagát z filmu v lokálnom priečinku"
-
-msgid "Sienna"
-msgstr "Sienna"
-
-msgid "Skin Style:"
-msgstr "Štýl pleti:"
-
-msgid "Skin not supported."
+#: plugin.py:338
+msgid "Activate/Deactivate ELCINEMA"
 msgstr ""
 
-msgid "SnowWhite"
-msgstr "SnowWhite"
+#: plugin.py:339
+msgid "Activate/Deactivate GOOGLE"
+msgstr ""
 
-msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
-msgstr "Zdroj + Caid + Čítačka + Protokol + Server + Port + Čas ECM"
+#: plugin.py:340
+msgid "Activate/Deactivate IMDB"
+msgstr ""
 
-msgid "Source + Caid + Reader + ECM Time"
-msgstr "Zdroj + Caid + Čítačka + Čas ECM"
+#: plugin.py:341
+msgid "Activate/Deactivate MOLOTOV"
+msgstr ""
 
-msgid "Source + Prov + Caid + ECM Time"
-msgstr "Zdroj + Prov + Caid + Čas ECM"
+#: plugin.py:342
+msgid "Activate/Deactivate PROGRAMMETV"
+msgstr ""
 
-msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
-msgstr "Zdroj + Prov + Caid + Protokol + Server + Port + Čas ECM"
+#: plugin.py:346
+msgid ""
+"Enable or disable caching during event download to speed up repeated "
+"searches."
+msgstr ""
 
-msgid "Source + Prov + Caid + Server + Port + ECM Time"
-msgstr "Zdroj + Prov + Caid + Server + Port + Čas ECM"
+#: plugin.py:347
+msgid "Download now poster"
+msgstr ""
 
-msgid "Start downloading backdrop immediately"
-msgstr "Okamžite začnite sťahovať kulisu"
-
+#: plugin.py:347
 msgid "Start downloading poster immediately"
-msgstr "Okamžite začnite sťahovať plagát"
+msgstr ""
 
-msgid "SteelBlue"
-msgstr "SteelBlue"
+#: plugin.py:348
+msgid "Automatic download of poster"
+msgstr ""
 
-msgid "Style2"
-msgstr "Štýl2"
+#: plugin.py:348
+msgid "Automatically fetch posters for favorite events based on EPG"
+msgstr ""
 
-msgid "Style3"
-msgstr "Štýl3"
+#: plugin.py:350
+msgid "Set Time our - minute for Poster download"
+msgstr ""
 
-msgid "Style4"
-msgstr "Štýl4"
+#: plugin.py:350 plugin.py:354
+msgid ""
+"Configure the delay time (in minutes) before starting the automatic poster "
+"download"
+msgstr ""
 
-msgid "Style5 CD"
-msgstr "CD Style5"
+#: plugin.py:351
+msgid "Download now backdrop"
+msgstr ""
 
-msgid "Style6"
-msgstr "Štýl6"
+#: plugin.py:351
+msgid "Start downloading backdrop immediately"
+msgstr ""
 
-msgid "Support E2iplayer Skins:"
-msgstr "Podpora vzhľadov E2iplayer:"
+#: plugin.py:352
+msgid "Automatic download of backdrop"
+msgstr ""
 
-msgid "Support SubsSupportPro Skins:"
-msgstr "Podpora vzhľadov SubsSupportPro:"
+#: plugin.py:352
+msgid "Automatically fetch backdrop for favorite events based on EPG"
+msgstr ""
 
-msgid "System"
-msgstr "Systém"
+#: plugin.py:354
+msgid "Set Time our - minute for Backdrop download"
+msgstr ""
 
-msgid "TEST"
-msgstr "TEST"
+#: plugin.py:365
+msgid ""
+"[Checkskin] This operation checks if the skin has its components (not "
+"guaranteed)...\n"
+"Do you really want to continue?"
+msgstr ""
 
-msgid "TMDB Only"
-msgstr "Iba TMDB"
+#: plugin.py:428
+#, python-format
+msgid ""
+"Setup Aglare Skin\n"
+"for %s v.%s\n"
+"\n"
+"by Lululla @2020\n"
+"\n"
+"Support forum on linuxsat-support.com\n"
+"\n"
+"Skinner creator: Odem2014 "
+msgstr ""
 
-msgid "Teal"
-msgstr "Teal"
+#: plugin.py:431
+msgid "Setup Aglare Skin Info"
+msgstr ""
 
+#: plugin.py:437
+msgid ""
+"[RemovePng] This operation will remove all PNGs from the device folder "
+"(Poster-Backdrop)...\n"
+"Do you really want to continue?"
+msgstr ""
+
+#: plugin.py:446
+msgid "All png are removed from folder!"
+msgstr ""
+
+#: plugin.py:447
+msgid "Info..."
+msgstr ""
+
+#: plugin.py:496 plugin.py:555
+msgid "No active providers enabled"
+msgstr ""
+
+#: plugin.py:501 plugin.py:560
+msgid ""
+"Warning: You are using default API keys!\n"
+"We strongly recommend configuring your own API keys in the plugin settings."
+msgstr ""
+
+#: plugin.py:508
+msgid ""
+"Poster download will start in 2 minutes.\n"
+"You can safely exit this menu."
+msgstr ""
+
+#: plugin.py:520 plugin.py:579
+msgid "Error: {}"
+msgstr ""
+
+#: plugin.py:529
+msgid "Poster download error: {}"
+msgstr ""
+
+#: plugin.py:567
+msgid ""
+"Backdrop download will start in 2 minutes.\n"
+"You can safely exit this menu."
+msgstr ""
+
+#: plugin.py:588
+msgid "Backdrop download error: {}"
+msgstr ""
+
+#: plugin.py:604
+#, python-format
+msgid "Import key %s from %s?"
+msgstr ""
+
+#: plugin.py:609
+#, python-format
 msgid "The file %s is empty."
-msgstr "Súbor %s je prázdny."
+msgstr ""
 
+#: plugin.py:616
+#, python-format
 msgid "The file %s was not found."
-msgstr "Súbor %s sa nenašiel."
+msgstr ""
 
-msgid "This operation assign device path folder to download image (Poster-Backdrop)"
-msgstr "Táto operácia priradí priečinok cesty k zariadeniu na stiahnutie obrázku (Poster-Backdrop)"
+#: plugin.py:626
+msgid "Key empty"
+msgstr ""
 
-msgid "This operation enable the display of rating stars for events, based on the selected rating source."
-msgstr "Táto operácia umožňuje zobrazenie hviezdičkami hodnotenia udalostí na základe zvoleného zdroja hodnotenia."
+#: plugin.py:636
+#, python-format
+msgid "%s key imported!"
+msgstr ""
 
-msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr "Táto operácia odstráni všetky png zo zariadenia priečinkov (plagát-pozadie)"
+#: plugin.py:644
+#, python-format
+msgid "Error %s: %s"
+msgstr ""
 
-msgid "Tomato"
-msgstr "Paradajka"
+#: plugin.py:786
+msgid "Error by processing the skin file: {}"
+msgstr ""
 
-msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr "Aktualizácia URL nie je inicializovaná – najprv raz otvorte plugin z ponuky Pluginy."
+#: plugin.py:791
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
 
-msgid "Update check failed: {}"
-msgstr "Kontrola aktualizácie zlyhala: {}"
+#: plugin.py:794 plugin.py:926
+msgid "Restart GUI now?"
+msgstr ""
 
-msgid "Update package not found!"
-msgstr "Aktualizačný balík sa nenašiel!"
+#: plugin.py:807
+msgid ""
+"Update URL not initialised – open the plugin once from the Plugins menu "
+"first."
+msgstr ""
 
-msgid "VolumeBar Style:"
-msgstr "Štýl panela hlasitosti:"
-
-msgid "WeatherPlugin: Edit Entry"
-msgstr "WeatherPlugin: Upravte položku"
-
-msgid "WeatherPlugin: List of Entries"
-msgstr "WeatherPlugin: Zoznam záznamov"
-
-msgid "White"
-msgstr "Biela"
-
-msgid "YellowGreen"
-msgstr "Žltozelená"
-
+#: plugin.py:839
 msgid "You already have the latest version ({})."
-msgstr "Už máte najnovšiu verziu ({})."
+msgstr ""
 
-msgid "You need to enter a valid city name before you can search for the location code."
-msgstr "Pred vyhľadávaním kódu lokality musíte zadať platný názov mesta."
+#: plugin.py:847
+msgid ""
+"Server version: {}\n"
+"Installed version: {}\n"
+"\n"
+"A newer build is available – update now?"
+msgstr ""
 
-msgid "imperial system"
-msgstr "imperiálny systém"
+#: plugin.py:855
+msgid "Local build ({}) is newer than server build ({})."
+msgstr ""
 
-msgid "metric system"
-msgstr "metrický systém"
+#: plugin.py:860
+msgid "Update check failed: {}"
+msgstr ""
 
-msgid "play/show Files"
-msgstr "prehrať/zobraziť súbory"
+#: plugin.py:898
+msgid "Downloading Aglare..."
+msgstr ""
 
-msgid "volume2"
-msgstr "zväzok 2"
+#: plugin.py:906
+msgid "Installing updates..."
+msgstr ""
 
-#~ msgid ""
-#~ "[Checkskin] This operation checks if the skin has its components (not guaranteed)...\n"
-#~ "Do you really want to continue?"
-#~ msgstr ""
-#~ "[Skontrolovať vzhľad] Táto operácia skontroluje, či má vzhľad svoje komponenty (nie je zaručené)...\n"
-#~ "Naozaj chcete pokračovať?"
+#: plugin.py:923
+msgid ""
+"Aglare update was done!\n"
+"Do you want to restart the GUI now?"
+msgstr ""
 
-#~ msgid ""
-#~ "[RemovePng] This operation will remove all PNGs from the device folder (Poster-Backdrop)...\n"
-#~ "Do you really want to continue?"
-#~ msgstr ""
-#~ "[RemovePng] Táto operácia odstráni všetky PNG z priečinka zariadenia (Poster-Backdrop)...\n"
-#~ "Naozaj chcete pokračovať?"
+#: plugin.py:928
+msgid "Update package not found!"
+msgstr ""
 
-#~ msgid ""
-#~ "Aglare update was done!\n"
-#~ "Do you want to restart the GUI now?"
-#~ msgstr ""
-#~ "Aktualizácia Aglare bola dokončená!\n"
-#~ "Chcete teraz reštartovať GUI?"
+#: plugin.py:931
+msgid ""
+"The update file was not found in /tmp.\n"
+"Update aborted."
+msgstr ""
 
-#~ msgid ""
-#~ "Backdrop download will start in 2 minutes.\n"
-#~ "You can safely exit this menu."
-#~ msgstr ""
-#~ "Sťahovanie kulisy sa spustí o 2 minúty.\n"
-#~ "Túto ponuku môžete bezpečne opustiť."
+#: plugin.py:936
+msgid "Error downloading files!"
+msgstr ""
 
-#~ msgid ""
-#~ "GUI needs a restart to apply a new skin.\n"
-#~ "Do you want to Restart the GUI now?"
-#~ msgstr ""
-#~ "GUI potrebuje reštart na použitie nového vzhľadu.\n"
-#~ "Chcete reštartovať GUI teraz?"
+#: plugin.py:950
+msgid "Download in progress…"
+msgstr ""
 
-#~ msgid ""
-#~ "Poster download will start in 2 minutes.\n"
-#~ "You can safely exit this menu."
-#~ msgstr ""
-#~ "Sťahovanie plagátu sa spustí o 2 minúty.\n"
-#~ "Toto menu môžete bezpečne opustiť."
-
-#~ msgid ""
-#~ "Setup Aglare Skin\n"
-#~ "for {0} v.{1}\n"
-#~ "\n"
-#~ "by Lululla @2020\n"
-#~ "\n"
-#~ "Support forum on linuxsat-support.com\n"
-#~ "\n"
-#~ "Skinner creator: Odem2014"
-#~ msgstr ""
-#~ "Nastavenie Aglare Skin\n"
-#~ "for {0} v.{1}\n"
-#~ "\n"
-#~ " od Lululla @2020\n"
-#~ "\n"
-#~ "Fórum podpory na linuxsat-support.com\n"
-#~ "\n"
-#~ "Skinner Creator: Odem2014"
-
-#~ msgid "Support InfoBar SoftCSA:"
-#~ msgstr "Podpora InfoBar SoftCSA:"
-
-#~ msgid ""
-#~ "The update file was not found in /tmp.\n"
-#~ "Update aborted."
-#~ msgstr ""
-#~ "Aktualizačný súbor sa nenašiel v /tmp.\n"
-#~ "Aktualizácia bola prerušená."
-
-#~ msgid ""
-#~ "Warning: You are using default API keys!\n"
-#~ "We strongly recommend configuring your own API keys in the plugin settings."
-#~ msgstr ""
-#~ "Upozornenie: Používate predvolené API kľúče!\n"
-#~ "Dôrazne odporúčame nakonfigurovať si vlastné API kľúče v nastaveniach pluginu."
+#: plugin.py:1032
+#, python-format
+msgid "Customization tool for %s Skin"
+msgstr ""
