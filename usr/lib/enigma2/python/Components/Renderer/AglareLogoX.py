@@ -32,10 +32,10 @@ from .Agp_Utils import (
     LOGO_FOLDER,
     check_disk_space,
     clean_for_tvdb,
-    logger,
     create_secure_log_dir,
     validate_media_path
 )
+from .Agp_Logger import logger
 from .Agp_lib import build_search_title, clean_search_title, smart_capitalize_title, should_skip_title
 
 secure_log_dir = create_secure_log_dir()

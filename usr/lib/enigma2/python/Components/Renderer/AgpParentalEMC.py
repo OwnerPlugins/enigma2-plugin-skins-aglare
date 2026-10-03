@@ -17,7 +17,7 @@ from Components.Sources.CurrentService import CurrentService
 from Components.Sources.ServiceEvent import ServiceEvent
 import NavigationInstance
 
-from .Agp_Utils import logger
+from .Agp_Logger import logger
 from .AgpEMCBase import EMC_ROOT, EMC_INFO_FOLDER, ensure_emc_dirs, build_emc_search_title, is_video_file
 
 cur_skin = config.skin.primary_skin.value.replace('/skin.xml', '')

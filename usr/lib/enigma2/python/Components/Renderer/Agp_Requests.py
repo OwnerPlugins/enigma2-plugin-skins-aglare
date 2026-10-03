@@ -23,7 +23,7 @@ from PIL import Image
 import socket
 
 # Local imports
-from .Agp_Utils import logger
+from .Agp_Logger import logger
 
 # ========================
 # DISABLE URLLIB3 DEBUG LOGS

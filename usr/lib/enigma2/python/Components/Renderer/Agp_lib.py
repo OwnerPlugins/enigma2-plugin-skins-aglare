@@ -11,7 +11,7 @@ from unicodedata import normalize, category
 import sys
 from Components.config import config
 from .Agp_list import CHAR_REPLACEMENTS, TITLE_SUBSTITUTIONS, PREDEFINED_SKIP_WORDS, FINAL_KNOWN_ALIASES
-from .Agp_Utils import logger
+from .Agp_Logger import logger
 
 convtext_cache = {}
 DEBUG = False  # active for show text cleaned in debug

@@ -23,7 +23,7 @@ from Components.Sources.ServiceEvent import ServiceEvent
 import NavigationInstance
 
 from Plugins.Extensions.Aglare.api_config import cfg, ApiKeyManager
-from .Agp_Utils import logger
+from .Agp_Logger import logger
 from .Agp_lib import quoteEventName
 from .AgpEMCBase import EMC_ROOT, EMC_INFO_FOLDER, ensure_emc_dirs, build_emc_search_title, extract_emc_year, is_emc_episode, is_video_file
 

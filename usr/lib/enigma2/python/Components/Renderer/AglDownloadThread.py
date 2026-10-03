@@ -23,7 +23,7 @@ from functools import lru_cache
 
 from Components.config import config
 from .Agp_apikeys import tmdb_api
-from .Agp_Utils import logger
+from .Agp_Logger import logger
 from .Agp_lib import split_title_and_year, quoteEventName
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

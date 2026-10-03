@@ -22,7 +22,7 @@ import NavigationInstance
 from Plugins.Extensions.Aglare.api_config import ApiKeyManager
 from Components.Renderer.AgbDownloadThread import AgbDownloadThread
 
-from .Agp_Utils import logger
+from .Agp_Logger import logger
 from .AgpEMCBase import EMC_ROOT, EMC_BACKDROP_FOLDER, ensure_emc_dirs, build_emc_search_title, extract_emc_year, extract_emc_episode_marker, is_emc_episode, is_video_file
 
 bemc_queue = Queue()

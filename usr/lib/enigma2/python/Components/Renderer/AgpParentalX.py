@@ -21,7 +21,8 @@ from urllib.request import urlopen
 from Plugins.Extensions.Aglare.api_config import cfg
 from Plugins.Extensions.Aglare.api_config import ApiKeyManager
 
-from .Agp_Utils import IMOVIE_FOLDER, clean_for_tvdb, logger
+from .Agp_Utils import IMOVIE_FOLDER, clean_for_tvdb
+from .Agp_Logger import logger
 from .Agp_lib import build_search_title, quoteEventName, clean_search_title, smart_capitalize_title, should_skip_title
 
 if not IMOVIE_FOLDER.endswith("/"):
