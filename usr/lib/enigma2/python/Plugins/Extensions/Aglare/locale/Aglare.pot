@@ -1,7 +1,5 @@
 #, fuzzy
 
-
-
 msgid "%s key imported!"
 msgstr ""
 
