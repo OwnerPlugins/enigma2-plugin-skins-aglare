@@ -19,142 +19,142 @@ msgstr ""
 "X-Poedit-SearchPath-2: plugin.py\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s Schlüssel importiert!"
 
 msgid "1 poster"
-msgstr ""
+msgstr "1 Poster"
 
 msgid "ALL1"
-msgstr ""
+msgstr "ALLE1"
 
 msgid "ALL2"
-msgstr ""
+msgstr "ALLE2"
 
 msgid "API Key Search"
-msgstr ""
+msgstr "API-Schlüsselsuche"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA aktivieren/deaktivieren"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE aktivieren/deaktivieren"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB aktivieren/deaktivieren"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV aktivieren/deaktivieren"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV aktivieren/deaktivieren"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "Aktivieren/Deaktivieren {}"
 
 msgid "Add"
-msgstr ""
+msgstr "Hinzufügen"
 
 msgid "Aero Slate"
-msgstr ""
+msgstr "Aero-Schiefer"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "Alle PNGs werden aus dem Ordner entfernt!"
 
 msgid "Anthracite Blue"
-msgstr ""
+msgstr "Anthrazitblau"
 
 msgid "Arctic Blue Gray"
-msgstr ""
+msgstr "Arktisches Blaugrau"
 
 msgid "Ash Fog"
-msgstr ""
+msgstr "Aschenebel"
 
 msgid "Asphalt Blue"
-msgstr ""
+msgstr "Asphaltblau"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisch"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "Automatischer Download des Hintergrunds"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "Automatischer Download des Posters"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "Rufen Sie automatisch Hintergrundinformationen für Lieblingsereignisse basierend auf dem EPG ab"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "Rufen Sie automatisch Poster für Lieblingsveranstaltungen basierend auf EPG ab"
 
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "Hintergrund"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "Fehler beim Hintergrund-Download: {}"
 
 msgid "Backup Folder (Press OK to change)"
-msgstr ""
+msgstr "Sicherungsordner (Zum Ändern OK drücken)"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Bitrate Unit:"
-msgstr ""
+msgstr "Bitrateneinheit:"
 
 msgid "Black"
-msgstr ""
+msgstr "Schwarz"
 
 msgid "Blue"
-msgstr ""
+msgstr "Blau"
 
 msgid "Blue Ash"
-msgstr ""
+msgstr "Blaue Asche"
 
 msgid "Blue Charcoal"
-msgstr ""
+msgstr "Blaue Kohle"
 
 msgid "Blue Fog"
-msgstr ""
+msgstr "Blauer Nebel"
 
 msgid "Blue Granite"
-msgstr ""
+msgstr "Blauer Granit"
 
 msgid "Blue Gray"
-msgstr ""
+msgstr "Blaugrau"
 
 msgid "Blue Gray 700"
-msgstr ""
+msgstr "Blaugrau 700"
 
 msgid "Blue Haze"
-msgstr ""
+msgstr "Blauer Dunst"
 
 msgid "Blue Mist"
-msgstr ""
+msgstr "Blauer Nebel"
 
 msgid "Blue Smoke"
-msgstr ""
+msgstr "Blauer Rauch"
 
 msgid "Brick Red"
-msgstr ""
+msgstr "Ziegelrot"
 
 msgid "Bronze Night"
-msgstr ""
+msgstr "Bronzene Nacht"
 
 msgid "Brown"
-msgstr ""
+msgstr "Braun"
 
 msgid "Brown Night"
-msgstr ""
+msgstr "Braune Nacht"
 
 msgid "Burgundy Night"
-msgstr ""
+msgstr "Burgundernacht"
 
 msgid "Buttons background color."
-msgstr ""
+msgstr "Hintergrundfarbe der Schaltflächen."
 
 msgid "CD"
 msgstr ""
@@ -166,34 +166,34 @@ msgid "CD2"
 msgstr ""
 
 msgid "Caid + Protocol + Server + ECM Time"
-msgstr ""
+msgstr "Caid + Protokoll + Server + ECM-Zeit"
 
 msgid "Caid + Reader + Protocol + Server + ECM Time"
-msgstr ""
+msgstr "Caid + Reader + Protokoll + Server + ECM-Zeit"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Stornieren"
 
 msgid "Cannot create version file: {}"
-msgstr ""
+msgstr "Versionsdatei kann nicht erstellt werden: {}"
 
 msgid "Carbon Gray"
-msgstr ""
+msgstr "Carbongrau"
 
 msgid "Channel Description Color:"
-msgstr ""
+msgstr "Farbe der Kanalbeschreibung:"
 
 msgid "Channel Foreground Color:"
-msgstr ""
+msgstr "Vordergrundfarbe des Kanals:"
 
 msgid "Channel Selected Description Color:"
-msgstr ""
+msgstr "Ausgewählter Kanal Beschreibung Farbe:"
 
 msgid "Channel Selected Foreground Color:"
-msgstr ""
+msgstr "Vordergrundfarbe des ausgewählten Kanals:"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "Kanalauswahlstil:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -238,274 +238,274 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "Charcoal"
-msgstr ""
+msgstr "Holzkohle"
 
 msgid "Chestnut"
-msgstr ""
+msgstr "Kastanie"
 
 msgid "Choice device download image folder"
-msgstr ""
+msgstr "Auswahl des Geräte-Download-Bildordners"
 
 msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
-msgstr ""
+msgstr "Wählen Sie, ob die Bitrate in Kb/s oder Mb/s angezeigt wird."
 
 msgid "City"
-msgstr ""
+msgstr "Stadt"
 
 msgid "Classic Gray"
-msgstr ""
+msgstr "Klassisches Grau"
 
 msgid "Cloud Blue"
-msgstr ""
+msgstr "Wolkenblau"
 
 msgid "Cloud Navy"
-msgstr ""
+msgstr "Wolkenmarine"
 
 msgid "Clouded Steel"
-msgstr ""
+msgstr "Bewölkter Stahl"
 
 msgid "Coal"
-msgstr ""
+msgstr "Kohle"
 
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 msgid "Coffee Brown"
-msgstr ""
+msgstr "Kaffeebraun"
 
 msgid "Cold Fog"
-msgstr ""
+msgstr "Kalter Nebel"
 
 msgid "Cold Mist"
-msgstr ""
+msgstr "Kalter Nebel"
 
 msgid "Cold Steel"
-msgstr ""
+msgstr "Kalter Stahl"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "Farbstil:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "Konfigurieren Sie die Verzögerungszeit (in Minuten), bevor der automatische Poster-Download gestartet wird"
 
 msgid "Could not create preset folder: {}"
-msgstr ""
+msgstr "Der voreingestellte Ordner konnte nicht erstellt werden: {}"
 
 msgid "Crimson"
-msgstr ""
+msgstr "Purpur"
 
 msgid "Custom"
-msgstr ""
+msgstr "Brauch"
 
 msgid "Custom2"
-msgstr ""
+msgstr "Benutzerdefiniert2"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "Anpassungstool für %s Skin"
 
 msgid "Dark Amber"
-msgstr ""
+msgstr "Dunkler Bernstein"
 
 msgid "Dark Frost"
-msgstr ""
+msgstr "Dunkler Frost"
 
 msgid "Dark Silver Blue"
-msgstr ""
+msgstr "Dunkles Silberblau"
 
 msgid "Dark Steel Blue"
-msgstr ""
+msgstr "Dunkles Stahlblau"
 
 msgid "Dark Teal Gray"
-msgstr ""
+msgstr "Dunkles Blaugrüngrau"
 
 msgid "Dark Walnut"
-msgstr ""
+msgstr "Dunkler Walnuss"
 
 msgid "Deep Indigo"
-msgstr ""
+msgstr "Tiefes Indigo"
 
 msgid "Deep Ochre"
-msgstr ""
+msgstr "Tiefer Ocker"
 
 msgid "Deep Olive Green"
-msgstr ""
+msgstr "Tiefes Olivgrün"
 
 msgid "Deep Purple"
-msgstr ""
+msgstr "Tiefviolett"
 
 msgid "Deep Slate"
-msgstr ""
+msgstr "Tiefer Schiefer"
 
 msgid "Deep Wine"
-msgstr ""
+msgstr "Tiefgründiger Wein"
 
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 msgid "Default Search (No API)"
-msgstr ""
+msgstr "Standardsuche (keine API)"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 msgid "Dim Mist"
-msgstr ""
+msgstr "Schwacher Nebel"
 
 msgid "Dim Navy"
-msgstr ""
+msgstr "Dunkles Marineblau"
 
 msgid "Directory creation error:"
-msgstr ""
+msgstr "Fehler bei der Verzeichniserstellung:"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "Download-Fehler: {}"
 
 msgid "Download in progress…"
-msgstr ""
+msgstr "Download läuft…"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "Laden Sie jetzt den Hintergrund herunter"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "Jetzt Poster herunterladen"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare wird heruntergeladen..."
 
 msgid "Dusk Gray"
-msgstr ""
+msgstr "Dämmerungsgrau"
 
 msgid "Dust Blue"
-msgstr ""
+msgstr "Staubblau"
 
 msgid "Dust Gold"
-msgstr ""
+msgstr "Staubgold"
 
 msgid "Dust Haze"
-msgstr ""
+msgstr "Staubdunst"
 
 msgid "Dust Purple"
-msgstr ""
+msgstr "Staubviolett"
 
 msgid "Dust Slate"
-msgstr ""
+msgstr "Staubschiefer"
 
 msgid "Dusty Red"
-msgstr ""
+msgstr "Staubiges Rot"
 
 msgid "Dusty Teal"
-msgstr ""
+msgstr "Staubiges Blaugrün"
 
 msgid "ECM Short Format:"
-msgstr ""
+msgstr "ECM-Kurzformat:"
 
 msgid "EMC PX"
-msgstr ""
+msgstr "EMV PX"
 
 msgid "EMC screens Style:"
-msgstr ""
+msgstr "EMV-Schirme Typ:"
 
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 msgid "Edit Event Name"
-msgstr ""
+msgstr "Bearbeiten Sie den Ereignisnamen"
 
 msgid "Edit Search Query"
-msgstr ""
+msgstr "Suchabfrage bearbeiten"
 
 msgid "Enable Backdrop:"
-msgstr ""
+msgstr "Hintergrund aktivieren:"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "Genre-Symbole anzeigen aktivieren:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "InfoEvents anzeigen aktivieren:"
 
 msgid "Enable Display XMC Backdrop:"
-msgstr ""
+msgstr "XMC-Hintergrund anzeigen aktivieren:"
 
 msgid "Enable Display XMC Cast:"
-msgstr ""
+msgstr "XMC-Cast anzeigen aktivieren:"
 
 msgid "Enable Display XMC Info:"
-msgstr ""
+msgstr "XMC-Info anzeigen aktivieren:"
 
 msgid "Enable Display XMC Logo:"
-msgstr ""
+msgstr "Anzeige des XMC-Logos aktivieren:"
 
 msgid "Enable Display XMC Parental:"
-msgstr ""
+msgstr "Aktivieren Sie die XMC-Kindersicherung für die Anzeige:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "XMC-Poster anzeigen aktivieren:"
 
 msgid "Enable Display XMC Star:"
-msgstr ""
+msgstr "Anzeige XMC Star aktivieren:"
 
 msgid "Enable Logo:"
-msgstr ""
+msgstr "Logo aktivieren:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "Aktivieren Sie die Kindersicherungssymbole:"
 
 msgid "Enable Poster:"
-msgstr ""
+msgstr "Poster aktivieren:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "Bewertungsstern aktivieren:"
 
 msgid "Enable extended event information (cast, crew, plot) in the info widget."
-msgstr ""
+msgstr "Aktivieren Sie erweiterte Eventinformationen (Besetzung, Crew, Handlung) im Info-Widget."
 
 msgid "Enable or disable bundled E2iPlayer screens."
-msgstr ""
+msgstr "Aktivieren oder deaktivieren Sie die gebündelten E2iPlayer-Bildschirme."
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "Aktivieren oder deaktivieren Sie das Caching während des Ereignis-Downloads, um wiederholte Suchvorgänge zu beschleunigen."
 
 msgid "Enable or disable the display of backdrops."
-msgstr ""
+msgstr "Aktivieren oder deaktivieren Sie die Anzeige von Hintergründen."
 
 msgid "Enable or disable the display of channel/event logos."
-msgstr ""
+msgstr "Aktivieren oder deaktivieren Sie die Anzeige von Kanal-/Event-Logos."
 
 msgid "Enable or disable the display of posters."
-msgstr ""
+msgstr "Aktivieren oder deaktivieren Sie die Anzeige von Postern."
 
 msgid "Enable the display of rating stars for events."
-msgstr ""
+msgstr "Aktivieren Sie die Anzeige von Bewertungssternen für Veranstaltungen."
 
 msgid "Enter {} color style name"
-msgstr ""
+msgstr "Geben Sie den Namen des Farbstils {} ein"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "Fehler beim Verarbeiten der Skin-Datei: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "Fehler beim Herunterladen der Dateien!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "Fehler beim Laden: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "Fehler {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Fehler: {}"
 
 msgid "Espresso Brown"
-msgstr ""
+msgstr "Espressobraun"
 
 msgid "Event Name (< / >):"
-msgstr ""
+msgstr "Veranstaltungsname (< / >):"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "EventView-Stil:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -517,97 +517,97 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Evergreen"
-msgstr ""
+msgstr "Immergrün"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ausfahrt"
 
 msgid "Export Custom1 color values to /etc/enigma2/aglare as <name>_custum1_color.json."
-msgstr ""
+msgstr "Exportieren Sie benutzerdefinierte1 Farbwerte nach /etc/enigma2/aglare als <name>_custum1_color.json."
 
 msgid "Export Custom1 colors (OK)"
-msgstr ""
+msgstr "Benutzerdefinierte1 Farben exportieren (OK)"
 
 msgid "Export Custom2 colors (OK)"
-msgstr ""
+msgstr "Benutzerdefinierte2 Farben exportieren (OK)"
 
 msgid "Export Custom2 named color and transparency selections to /etc/enigma2/aglare as <name>_custum2_color.json."
-msgstr ""
+msgstr "Exportieren Sie die benannten Farb- und Transparenzauswahlen von Custom2 nach /etc/enigma2/aglare als <name>_custum2_color.json."
 
 msgid "Export failed: {}"
-msgstr ""
+msgstr "Export fehlgeschlagen: {}"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "File Commander – Add-on"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "Datei {} nicht gefunden oder leer"
 
 msgid "Fjord Gray"
-msgstr ""
+msgstr "Fjordgrau"
 
 msgid "Fog Blue"
-msgstr ""
+msgstr "Nebelblau"
 
 msgid "Forest Night"
-msgstr ""
+msgstr "Waldnacht"
 
 msgid "Gentle Haze"
-msgstr ""
+msgstr "Sanfter Dunst"
 
 msgid "Granite Blue"
-msgstr ""
+msgstr "Granitblau"
 
 msgid "Graphite"
-msgstr ""
+msgstr "Graphit"
 
 msgid "Graphite Blue"
-msgstr ""
+msgstr "Graphitblau"
 
 msgid "Green"
-msgstr ""
+msgstr "Grün"
 
 msgid "Green2"
-msgstr ""
+msgstr "Grün2"
 
 msgid "Greta"
 msgstr ""
 
 msgid "Gunmetal"
-msgstr ""
+msgstr "Rotguss"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Honey Bronze"
-msgstr ""
+msgstr "Honigbronze"
 
 msgid "Image Compatibility Group:"
-msgstr ""
+msgstr "Bildkompatibilitätsgruppe:"
 
 msgid "Import Custom1 colors"
-msgstr ""
+msgstr "Importieren Sie benutzerdefinierte1 Farben"
 
 msgid "Import Custom2 colors"
-msgstr ""
+msgstr "Importieren Sie benutzerdefinierte2 Farben"
 
 msgid "Import failed: {}"
-msgstr ""
+msgstr "Import fehlgeschlagen: {}"
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "Schlüssel {0} aus {1} importieren?"
 
 msgid "Imported {} color style: {}"
-msgstr ""
+msgstr "Importierter {} Farbstil: {}"
 
 msgid "Indigo Plum"
-msgstr ""
+msgstr "Indigo-Pflaume"
 
 msgid "Info..."
 msgstr ""
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "InfoBar-Datum:"
 
 msgid "InfoBar ECM:"
 msgstr ""
@@ -616,19 +616,19 @@ msgid "InfoBar PosterX:"
 msgstr ""
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "InfoBar-Stil:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "InfoBar Wetter:"
 
 msgid "InfoBar Xtraevent:"
 msgstr ""
 
 msgid "Infobar lower color."
-msgstr ""
+msgstr "Untere Farbe der Infoleiste."
 
 msgid "Infobar upper color."
-msgstr ""
+msgstr "Obere Farbe der Infoleiste."
 
 #, fuzzy
 msgid "Infobar_Date1"
@@ -665,40 +665,40 @@ msgid "Infobar_OAWeather"
 msgstr "Information"
 
 msgid "Ink Steel"
-msgstr ""
+msgstr "Tintenstahl"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins-Linie"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "Updates werden installiert..."
 
 msgid "Invalid color value. Use #RRGGBB or #AARRGGBB, for example ff0000 or #80ff0000"
-msgstr ""
+msgstr "Ungültiger Farbwert. Verwenden Sie #RRGGBB oder #AARRGGBB, zum Beispiel ff0000 oder #80ff0000"
 
 msgid "Invalid color value. Use exactly 6 hex digits, for example ff0000"
-msgstr ""
+msgstr "Ungültiger Farbwert. Verwenden Sie genau 6 Hexadezimalziffern, zum Beispiel ff0000"
 
 msgid "Invalid preset name."
-msgstr ""
+msgstr "Ungültiger Preset-Name."
 
 msgid "Iron Blue"
-msgstr ""
+msgstr "Eisenblau"
 
 msgid "Iron Mist"
-msgstr ""
+msgstr "Eisennebel"
 
 msgid "JSON Write Error:"
-msgstr ""
+msgstr "JSON-Schreibfehler:"
 
 msgid "Jade Smoke"
-msgstr ""
+msgstr "Jaderauch"
 
 msgid "Key empty"
-msgstr ""
+msgstr "Schlüssel leer"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "Schlüssel {} erfolgreich geladen!"
 
 msgid "KhalidArtboldRegular"
 msgstr ""
@@ -707,40 +707,40 @@ msgid "Kilobit/s (Kb/s)"
 msgstr ""
 
 msgid "Lavender Smoke"
-msgstr ""
+msgstr "Lavendelrauch"
 
 msgid "Lead Blue"
-msgstr ""
+msgstr "Bleiblau"
 
 msgid "Leaf Green"
-msgstr ""
+msgstr "Blattgrün"
 
 msgid "LightGray"
-msgstr ""
+msgstr "Hellgrau"
 
 msgid "LimeGreen"
-msgstr ""
+msgstr "Limettengrün"
 
 msgid "List background color."
-msgstr ""
+msgstr "Hintergrundfarbe auflisten."
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "Von /tmp/{}key.txt laden"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "Der lokale Build ({}) ist neuer als der Server-Build ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "Standortcode"
 
 msgid "Lucida"
 msgstr ""
 
 msgid "MENU: Settings"
-msgstr ""
+msgstr "MENÜ: Einstellungen"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN-Standortsuchergebnis"
 
 msgid "MV Boli"
 msgstr ""
@@ -749,272 +749,272 @@ msgid "Magenta"
 msgstr ""
 
 msgid "Marine Gray"
-msgstr ""
+msgstr "Marinegrau"
 
 msgid "Medium Gray"
-msgstr ""
+msgstr "Mittelgrau"
 
 msgid "Megabit/s (Mb/s)"
-msgstr ""
+msgstr "Megabit/s (Mbit/s)"
 
 msgid "Menu selector middle color."
-msgstr ""
+msgstr "Mittlere Farbe der Menüauswahl."
 
 msgid "Menu selector upper and lower color."
-msgstr ""
+msgstr "Obere und untere Farbe der Menüauswahl."
 
 msgid "Midnight Ink"
-msgstr ""
+msgstr "Mitternachtstinte"
 
 msgid "Midnight Navy"
-msgstr ""
+msgstr "Mitternachtsmarine"
 
 msgid "Mild Steel"
-msgstr ""
+msgstr "Weichstahl"
 
 msgid "Mint"
-msgstr ""
+msgstr "Minze"
 
 msgid "Mist Blue"
-msgstr ""
+msgstr "Nebelblau"
 
 msgid "Mix1"
 msgstr ""
 
 msgid "Moss Green"
-msgstr ""
+msgstr "Moosgrün"
 
 msgid "Muted Brown"
-msgstr ""
+msgstr "Gedämpftes Braun"
 
 msgid "Muted Crimson"
-msgstr ""
+msgstr "Gedämpftes Purpur"
 
 msgid "Muted Denim"
-msgstr ""
+msgstr "Gedämpfter Denim"
 
 msgid "Muted Emerald"
-msgstr ""
+msgstr "Gedämpfter Smaragd"
 
 msgid "Muted Fog"
-msgstr ""
+msgstr "Gedämpfter Nebel"
 
 msgid "Muted Gold"
-msgstr ""
+msgstr "Gedämpftes Gold"
 
 msgid "Muted Graphite"
-msgstr ""
+msgstr "Gedämpftes Graphit"
 
 msgid "Muted Green"
-msgstr ""
+msgstr "Gedämpftes Grün"
 
 msgid "Muted Haze"
-msgstr ""
+msgstr "Gedämpfter Dunst"
 
 msgid "Muted Indigo Gray"
-msgstr ""
+msgstr "Gedämpftes Indigograu"
 
 msgid "Muted Navy"
-msgstr ""
+msgstr "Gedämpfte Marine"
 
 msgid "Muted Purple"
-msgstr ""
+msgstr "Gedämpftes Lila"
 
 msgid "Muted Purple Gray"
-msgstr ""
+msgstr "Gedämpftes Lilagrau"
 
 msgid "Muted Rose"
-msgstr ""
+msgstr "Gedämpfte Rose"
 
 msgid "Muted Saffron"
-msgstr ""
+msgstr "Gedämpfter Safran"
 
 msgid "Muted Slate"
-msgstr ""
+msgstr "Gedämpfter Schiefer"
 
 msgid "Muted Storm"
-msgstr ""
+msgstr "Gedämpfter Sturm"
 
 msgid "Muted Violet"
-msgstr ""
+msgstr "Gedämpftes Violett"
 
 msgid "Navy Slate"
-msgstr ""
+msgstr "Marineblauer Schiefer"
 
 msgid "Near Black Blue"
-msgstr ""
+msgstr "In der Nähe von Schwarzblau"
 
 msgid "Neutral Gray"
-msgstr ""
+msgstr "Neutrales Grau"
 
 msgid "Night Navy"
-msgstr ""
+msgstr "Nachtmarine"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "Keine aktiven Anbieter aktiviert"
 
 msgid "No description available for this option."
-msgstr ""
+msgstr "Für diese Option ist keine Beschreibung verfügbar."
 
 msgid "No saved {} color style available to import."
-msgstr ""
+msgstr "Kein gespeicherter {}-Farbstil zum Importieren verfügbar."
 
 msgid "No saved {} color styles"
-msgstr ""
+msgstr "Keine gespeicherten {} Farbstile"
 
 msgid "Nord Blue Gray"
-msgstr ""
+msgstr "Nordblaugrau"
 
 msgid "Nord Gray"
-msgstr ""
+msgstr "Nordgrau"
 
 msgid "OFF"
-msgstr ""
+msgstr "AUS"
 
 msgid "OK"
 msgstr ""
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "Nur OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "AN"
 
 msgid "Obsidian Blue"
-msgstr ""
+msgstr "Obsidianblau"
 
 msgid "Ocean Mist"
-msgstr ""
+msgstr "Ozeannebel"
 
 msgid "Ocean Steel"
-msgstr ""
+msgstr "Ozeanstahl"
 
 msgid "Off"
-msgstr ""
+msgstr "Aus"
 
 msgid "Old Gold"
-msgstr ""
+msgstr "Altgold"
 
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
-msgstr ""
+msgstr "OpenBH / OpenViX / TeamBlue (Neue Bildergruppe)"
 
 msgid "OpenPLi / Satlodge (OpenPLi Group)"
-msgstr ""
+msgstr "OpenPLi / Satlodge (OpenPLi-Gruppe)"
 
 msgid "Orange"
 msgstr ""
 
 msgid "Original Name (Native)"
-msgstr ""
+msgstr "Ursprünglicher Name (Einheimisch)"
 
 msgid "Oxblood"
-msgstr ""
+msgstr "Ochsenblut"
 
 msgid "Pale Slate"
-msgstr ""
+msgstr "Heller Schiefer"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "Persönlicher API-Schlüssel für {}"
 
 msgid "Petrol Blue"
-msgstr ""
+msgstr "Petrolblau"
 
 msgid "Pine Night"
-msgstr ""
+msgstr "Kiefernnacht"
 
 msgid "Pink"
-msgstr ""
+msgstr "Rosa"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "Bitte geben Sie einen gültigen Städtenamen ein."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "Bitte geben Sie einen gültigen Standortcode für die Stadt ein."
 
 msgid "Plum Smoke"
-msgstr ""
+msgstr "Pflaumenrauch"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "Fehler beim Herunterladen des Posters: {}"
 
 msgid "Progress bar background color."
-msgstr ""
+msgstr "Hintergrundfarbe des Fortschrittsbalkens."
 
 msgid "Purple"
-msgstr ""
+msgstr "Lila"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "Diesen WeatherPlugin-Eintrag wirklich löschen?"
 
 #, fuzzy
 msgid "Red"
 msgstr "Lesen"
 
 msgid "Red Night"
-msgstr ""
+msgstr "Rote Nacht"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "Alle PNGs entfernen (Poster – Hintergrund) (OK)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "GUI jetzt neu starten?"
 
 msgid "Rosewood"
-msgstr ""
+msgstr "Rosenholz"
 
 msgid "Rounded icon background lower color."
-msgstr ""
+msgstr "Abgerundete Hintergrundfarbe des Symbols."
 
 msgid "Rounded icon background upper color."
-msgstr ""
+msgstr "Abgerundete obere Hintergrundfarbe des Symbols."
 
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 msgid "Save Selected"
-msgstr ""
+msgstr "Ausgewählte speichern"
 
 msgid "Screen background lower color."
-msgstr ""
+msgstr "Untere Farbe des Bildschirmhintergrunds."
 
 msgid "Screen background middle color."
-msgstr ""
+msgstr "Mittlere Farbe des Bildschirmhintergrunds."
 
 msgid "Screen background upper color."
-msgstr ""
+msgstr "Obere Farbe des Bildschirmhintergrunds."
 
 msgid "Screen icon background left color."
-msgstr ""
+msgstr "Linke Hintergrundfarbe des Bildschirmsymbols."
 
 msgid "Screen icon background right color."
-msgstr ""
+msgstr "Rechte Farbe des Hintergrunds des Bildschirmsymbols."
 
 msgid "Sea Ash"
-msgstr ""
+msgstr "Meerasche"
 
 msgid "Sea Slate"
-msgstr ""
+msgstr "Meeresschiefer"
 
 msgid "Search Code"
-msgstr ""
+msgstr "Suchcode"
 
 msgid "Search Method"
-msgstr ""
+msgstr "Suchmethode"
 
 msgid "Search Query:"
-msgstr ""
+msgstr "Suchanfrage:"
 
 msgid "Search TMDb"
-msgstr ""
+msgstr "Durchsuchen Sie TMDb"
 
 msgid "Second Infobar background color."
-msgstr ""
+msgstr "Zweite Hintergrundfarbe der Infoleiste."
 
 msgid "Second Infobar_MSNWeather"
-msgstr ""
+msgstr "Zweite Infobar_MSNWeather"
 
 msgid "Second Infobar_NO_Weather"
-msgstr ""
+msgstr "Zweite Infobar_NO_Weather"
 
 #, fuzzy
 msgid "Second Infobar_OAWeather"
@@ -1024,409 +1024,409 @@ msgid "SecondInfobar Posterx:"
 msgstr ""
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "SecondInfobar-Stil:"
 
 msgid "SecondInfobar Weather:"
-msgstr ""
+msgstr "SecondInfobar Wetter:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "ZweitesInfobar Xtraevent:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "Segoe-UI-Licht"
 
 msgid "Select Backup Folder"
-msgstr ""
+msgstr "Wählen Sie den Sicherungsordner"
 
 msgid "Select EMC style."
-msgstr ""
+msgstr "Wählen Sie den EMC-Stil."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Wählen Sie Ordner aus"
 
 msgid "Select PosterX display mode for the infobar."
-msgstr ""
+msgstr "Wählen Sie den PosterX-Anzeigemodus für die Infoleiste."
 
 msgid "Select XtraEvent display mode for the infobar."
-msgstr ""
+msgstr "Wählen Sie den XtraEvent-Anzeigemodus für die Infoleiste."
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "Wählen Sie Ihre Schriftart:"
 
 msgid "Select a saved Custom1 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr ""
+msgstr "Wählen Sie einen gespeicherten JSON-Farbstil „Custom1“ aus /etc/enigma2/aglare aus und drücken Sie dann OK, um ihn zu importieren."
 
 msgid "Select a saved Custom2 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr ""
+msgstr "Wählen Sie einen gespeicherten Custom2-JSON-Farbstil aus /etc/enigma2/aglare aus und drücken Sie dann OK, um ihn zu importieren."
 
 msgid "Select channel list event description color."
-msgstr ""
+msgstr "Wählen Sie die Farbe für die Ereignisbeschreibung der Kanalliste aus."
 
 msgid "Select channel list foreground color."
-msgstr ""
+msgstr "Wählen Sie die Vordergrundfarbe der Kanalliste aus."
 
 msgid "Select channel list selected foreground color."
-msgstr ""
+msgstr "Wählen Sie die ausgewählte Vordergrundfarbe der Kanalliste aus."
 
 msgid "Select channel selection screen style."
-msgstr ""
+msgstr "Wählen Sie den Stil des Kanalauswahlbildschirms aus."
 
 msgid "Select event view screen style."
-msgstr ""
+msgstr "Wählen Sie den Bildschirmstil für die Ereignisansicht aus."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
-msgstr ""
+msgstr "Wählen Sie das Infobar-Layout. Style5 erzwingt die Deaktivierung von ECM und erlaubt nur die Postermodi OFF/CD. Style6 erzwingt die Deaktivierung von ECM, PosterX und Xtraevent."
 
 msgid "Select second infobar layout."
-msgstr ""
+msgstr "Wählen Sie das zweite Infobar-Layout."
 
 msgid "Select selected channel event description color."
-msgstr ""
+msgstr "Wählen Sie die Farbe der Ereignisbeschreibung des ausgewählten Kanals aus."
 
 msgid "Select the base skin layout file."
-msgstr ""
+msgstr "Wählen Sie die Basis-Skin-Layoutdatei aus."
 
 msgid "Select the font package used by the generated skin."
-msgstr ""
+msgstr "Wählen Sie das Schriftartenpaket aus, das vom generierten Skin verwendet wird."
 
 msgid "Select the main color preset used by the skin."
-msgstr ""
+msgstr "Wählen Sie die vom Skin verwendete Hauptfarbvoreinstellung aus."
 
 msgid "Select the target image base group (OpenPLi vs Others)."
-msgstr ""
+msgstr "Wählen Sie die Ziel-Image-Basisgruppe aus (OpenPLi vs. Andere)."
 
 msgid "Select transparency for odem{}."
-msgstr ""
+msgstr "Wählen Sie Transparenz für odem{}."
 
 msgid "Select volume bar style."
-msgstr ""
+msgstr "Wählen Sie den Stil der Lautstärkeleiste."
 
 msgid "Select weather provider display for the infobar."
-msgstr ""
+msgstr "Wählen Sie die Anzeige des Wetteranbieters für die Infoleiste aus."
 
 msgid "Select weather provider display for the second infobar."
-msgstr ""
+msgstr "Wählen Sie die Anzeige des Wetteranbieters für die zweite Infoleiste aus."
 
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
-msgstr ""
+msgstr "Wählen Sie aus, welche ECM-Felder angezeigt werden, wenn der Skin Short MYEMUPARA verwendet."
 
 msgid "Select {} color style to import"
-msgstr ""
+msgstr "Wählen Sie den zu importierenden Farbstil {} aus"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "Stellen Sie die Zeit für den Hintergrund-Download ein"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "Legen Sie die Zeit für den Poster-Download fest"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "Einstellungen Apikey-Server"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Richten Sie Aglare Skin Info ein"
 
 msgid "Shadow Blue"
-msgstr ""
+msgstr "Schattenblau"
 
 msgid "Show backdrop from movie in local folder"
-msgstr ""
+msgstr "Hintergrund aus Film im lokalen Ordner anzeigen"
 
 msgid "Show cast from movie in local folder"
-msgstr ""
+msgstr "Besetzung aus Film im lokalen Ordner anzeigen"
 
 msgid "Show genre icons for events."
-msgstr ""
+msgstr "Genresymbole für Ereignisse anzeigen."
 
 msgid "Show info from movie in local folder"
-msgstr ""
+msgstr "Informationen aus dem Film im lokalen Ordner anzeigen"
 
 msgid "Show logo from movie in local folder"
-msgstr ""
+msgstr "Logo des Films im lokalen Ordner anzeigen"
 
 msgid "Show or hide ECM information in the infobar."
-msgstr ""
+msgstr "ECM-Informationen in der Infoleiste ein- oder ausblenden."
 
 msgid "Show or hide PosterX in the second infobar."
-msgstr ""
+msgstr "PosterX in der zweiten Infoleiste ein- oder ausblenden."
 
 msgid "Show or hide XtraEvent in the second infobar."
-msgstr ""
+msgstr "XtraEvent in der zweiten Infoleiste ein- oder ausblenden."
 
 msgid "Show or hide the date panel in the infobar."
-msgstr ""
+msgstr "Datumsbereich in der Infoleiste ein- oder ausblenden."
 
 msgid "Show parental from movie in local folder"
-msgstr ""
+msgstr "Elternschutz aus Film im lokalen Ordner anzeigen"
 
 msgid "Show parental guidance icons on events."
-msgstr ""
+msgstr "Zeigen Sie bei Veranstaltungen Symbole zur elterlichen Anleitung an."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "Poster aus dem Film im lokalen Ordner anzeigen"
 
 msgid "Show star from movie in local folder"
-msgstr ""
+msgstr "Stern aus Film im lokalen Ordner anzeigen"
 
 msgid "Sienna"
-msgstr ""
+msgstr "Siena"
 
 msgid "Silver Haze"
-msgstr ""
+msgstr "Silberner Dunst"
 
 msgid "Silver Slate"
-msgstr ""
+msgstr "Silberner Schiefer"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "Hautstil:"
 
 msgid "Skin not supported."
-msgstr ""
+msgstr "Skin wird nicht unterstützt."
 
 msgid "Slate Carbon"
-msgstr ""
+msgstr "Schieferkohlenstoff"
 
 msgid "Slate Dust"
-msgstr ""
+msgstr "Schieferstaub"
 
 msgid "Slate Fog"
-msgstr ""
+msgstr "Schiefernebel"
 
 msgid "Slate Haze"
-msgstr ""
+msgstr "Schieferhaze"
 
 msgid "Slate Mist"
-msgstr ""
+msgstr "Schiefernebel"
 
 msgid "Slate Night"
-msgstr ""
+msgstr "Schieferabend"
 
 msgid "Slate Ocean"
-msgstr ""
+msgstr "Schieferozean"
 
 msgid "Smoke Slate"
-msgstr ""
+msgstr "Rauchschiefer"
 
 msgid "Smoky Blue"
-msgstr ""
+msgstr "Rauchiges Blau"
 
 msgid "Smoky Steel"
-msgstr ""
+msgstr "Rauchiger Stahl"
 
 msgid "SnowWhite"
-msgstr ""
+msgstr "Schneewittchen"
 
 msgid "Soft Black"
-msgstr ""
+msgstr "Weiches Schwarz"
 
 msgid "Soft Brown"
-msgstr ""
+msgstr "Weiches Braun"
 
 msgid "Soft Green"
-msgstr ""
+msgstr "Sanftes Grün"
 
 msgid "Soft Haze"
-msgstr ""
+msgstr "Sanfter Dunst"
 
 msgid "Soft Indigo"
-msgstr ""
+msgstr "Weiches Indigo"
 
 msgid "Soft Lavender"
-msgstr ""
+msgstr "Sanfter Lavendel"
 
 msgid "Soft Mustard"
-msgstr ""
+msgstr "Weicher Senf"
 
 msgid "Soft Red"
-msgstr ""
+msgstr "Weiches Rot"
 
 msgid "Soft Steel"
-msgstr ""
+msgstr "Weicher Stahl"
 
 msgid "Soft White"
-msgstr ""
+msgstr "Weiches Weiß"
 
 msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
-msgstr ""
+msgstr "Quelle + Caid + Leser + Protokoll + Server + Port + ECM-Zeit"
 
 msgid "Source + Caid + Reader + ECM Time"
-msgstr ""
+msgstr "Quelle + Caid + Reader + ECM-Zeit"
 
 msgid "Source + Prov + Caid + ECM Time"
-msgstr ""
+msgstr "Quelle + Prov + Caid + ECM-Zeit"
 
 msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
-msgstr ""
+msgstr "Quelle + Prov + Caid + Protokoll + Server + Port + ECM-Zeit"
 
 msgid "Source + Prov + Caid + Server + Port + ECM Time"
-msgstr ""
+msgstr "Quelle + Prov + Caid + Server + Port + ECM-Zeit"
 
 msgid "Standard Name (Translated)"
-msgstr ""
+msgstr "Standardname (übersetzt)"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "Beginnen Sie sofort mit dem Herunterladen von Hintergrund"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "Beginnen Sie sofort mit dem Herunterladen des Posters"
 
 msgid "Steel Fog"
-msgstr ""
+msgstr "Stahlnebel"
 
 msgid "Steel Gray"
-msgstr ""
+msgstr "Stahlgrau"
 
 msgid "Steel Mist"
-msgstr ""
+msgstr "Stahlnebel"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "Stahlblau"
 
 msgid "Stone Blue"
-msgstr ""
+msgstr "Steinblau"
 
 msgid "Stone Gray"
-msgstr ""
+msgstr "Steingrau"
 
 msgid "Storm Blue"
-msgstr ""
+msgstr "Sturmblau"
 
 msgid "Storm Fog"
-msgstr ""
+msgstr "Sturmnebel"
 
 msgid "Storm Gray"
-msgstr ""
+msgstr "Sturmgrau"
 
 msgid "Storm Haze"
-msgstr ""
+msgstr "Sturmdunst"
 
 msgid "Storm Mist"
-msgstr ""
+msgstr "Sturmnebel"
 
 msgid "Style2"
-msgstr ""
+msgstr "Stil2"
 
 msgid "Style3"
-msgstr ""
+msgstr "Stil3"
 
 msgid "Style4"
-msgstr ""
+msgstr "Stil4"
 
 msgid "Style5 CD"
-msgstr ""
+msgstr "Style5-CD"
 
 msgid "Style6"
-msgstr ""
+msgstr "Stil6"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "Unterstützen Sie E2iplayer-Skins:"
 
 msgid "System"
 msgstr ""
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "Nur TMDB"
 
 msgid "Tailwind Gray"
-msgstr ""
+msgstr "Rückenwind Grau"
 
 msgid "Teal"
-msgstr ""
+msgstr "Blaugrün"
 
 msgid "Teal Smoke"
-msgstr ""
+msgstr "Blaugrüner Rauch"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "Die Datei %s ist leer."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "Die Datei %s wurde nicht gefunden."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
-msgstr ""
+msgstr "Dieser Vorgang weist den Gerätepfadordner zum Herunterladen des Bildes (Poster-Hintergrund) zu."
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "Dieser Vorgang entfernt alle PNGs aus dem Ordner „Device“ (Poster-Backdrop)."
 
 msgid "Title Preference"
-msgstr ""
+msgstr "Titelpräferenz"
 
 msgid "Tomato"
-msgstr ""
+msgstr "Tomate"
 
 msgid "Transparency percent for odem{}. 0 = OFF, 100 = fully transparent."
-msgstr ""
+msgstr "Transparenzprozentsatz für odem{}. 0 = AUS, 100 = vollständig transparent."
 
 msgid "Twilight Blue"
-msgstr ""
+msgstr "Dämmerungsblau"
 
 msgid "Update URL not initialised – open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "Aktualisierungs-URL nicht initialisiert – Öffnen Sie das Plugin zunächst einmal über das Plugins-Menü."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "Update-Überprüfung fehlgeschlagen: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "Update-Paket nicht gefunden!"
 
 msgid "Violet Night"
-msgstr ""
+msgstr "Violette Nacht"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "VolumeBar-Stil:"
 
 msgid "Walnut"
-msgstr ""
+msgstr "Nussbaum"
 
 msgid "Warm Brass"
-msgstr ""
+msgstr "Warmes Messing"
 
 msgid "Warm Brown"
-msgstr ""
+msgstr "Warmes Braun"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: Eintrag bearbeiten"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: Liste der Einträge"
 
 msgid "White"
-msgstr ""
+msgstr "Weiß"
 
 msgid "YellowGreen"
-msgstr ""
+msgstr "GelbGrün"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "Sie haben bereits die neueste Version ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "Sie müssen einen gültigen Städtenamen eingeben, bevor Sie nach dem Standortcode suchen können."
 
 msgid "imperial system"
-msgstr ""
+msgstr "imperiales System"
 
 msgid "metric system"
-msgstr ""
+msgstr "metrisches System"
 
 msgid "odem{} color"
-msgstr ""
+msgstr "odem{} Farbe"
 
 msgid "odem{} transparency"
-msgstr ""
+msgstr "odem{} Transparenz"
 
 msgid "odem{} transparency %"
-msgstr ""
+msgstr "odem{} Transparenz %"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "Dateien abspielen/anzeigen"
 
 msgid "volume2"
-msgstr ""
+msgstr "Band2"
 
 msgid "window title foreground."
-msgstr ""
+msgstr "Fenstertitel im Vordergrund."
 
 msgid "{} color style exported to {}"
-msgstr ""
+msgstr "{} Farbstil exportiert nach {}"
 
 msgid "{} preset data was not found in this file."
-msgstr ""
+msgstr "{} Voreingestellte Daten wurden in dieser Datei nicht gefunden."

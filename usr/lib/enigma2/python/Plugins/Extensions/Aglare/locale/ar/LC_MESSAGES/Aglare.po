@@ -10,145 +10,145 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "تم استيراد مفتاح %s!"
 
 msgid "1 poster"
-msgstr ""
+msgstr "1 ملصق"
 
 msgid "ALL1"
-msgstr ""
+msgstr "الكل1"
 
 msgid "ALL2"
-msgstr ""
+msgstr "الكل2"
 
 msgid "API Key Search"
-msgstr ""
+msgstr "بحث مفتاح واجهة برمجة التطبيقات"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "تنشيط/إلغاء تنشيط ELCINEMA"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "تفعيل/إلغاء تنشيط جوجل"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "تفعيل/إلغاء تنشيط IMDB"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "تفعيل/تعطيل مولوتوف"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "تنشيط/إلغاء تنشيط PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "تنشيط/إلغاء تنشيط {}"
 
 msgid "Add"
-msgstr ""
+msgstr "يضيف"
 
 msgid "Aero Slate"
-msgstr ""
+msgstr "ايرو سليت"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "تتم إزالة جميع ملفات png من المجلد!"
 
 msgid "Anthracite Blue"
-msgstr ""
+msgstr "أنثراسايت الأزرق"
 
 msgid "Arctic Blue Gray"
-msgstr ""
+msgstr "القطب الشمالي الأزرق الرمادي"
 
 msgid "Ash Fog"
-msgstr ""
+msgstr "ضباب الرماد"
 
 msgid "Asphalt Blue"
-msgstr ""
+msgstr "الأسفلت الأزرق"
 
 msgid "Automatic"
-msgstr ""
+msgstr "تلقائي"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "التنزيل التلقائي للخلفية"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "التنزيل التلقائي للملصق"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "جلب الخلفية تلقائيًا للأحداث المفضلة بناءً على دليل البرامج الإلكتروني"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "جلب الملصقات للأحداث المفضلة تلقائيًا بناءً على دليل البرامج الإلكتروني (EPG)."
 
 msgid "Back"
-msgstr ""
+msgstr "خلف"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "الخلفية"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "خطأ في تنزيل الخلفية: {}"
 
 msgid "Backup Folder (Press OK to change)"
-msgstr ""
+msgstr "مجلد النسخ الاحتياطي (اضغط على \\\"موافق\\\" للتغيير)"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "FreeNeue"
 
 msgid "Bitrate Unit:"
-msgstr ""
+msgstr "وحدة معدل البت:"
 
 msgid "Black"
-msgstr ""
+msgstr "أسود"
 
 msgid "Blue"
-msgstr ""
+msgstr "أزرق"
 
 msgid "Blue Ash"
-msgstr ""
+msgstr "الرماد الأزرق"
 
 msgid "Blue Charcoal"
-msgstr ""
+msgstr "الفحم الأزرق"
 
 msgid "Blue Fog"
-msgstr ""
+msgstr "الضباب الأزرق"
 
 msgid "Blue Granite"
-msgstr ""
+msgstr "الجرانيت الأزرق"
 
 msgid "Blue Gray"
-msgstr ""
+msgstr "أزرق رمادي"
 
 msgid "Blue Gray 700"
-msgstr ""
+msgstr "بلو جراي 700"
 
 msgid "Blue Haze"
-msgstr ""
+msgstr "الضباب الأزرق"
 
 msgid "Blue Mist"
-msgstr ""
+msgstr "الضباب الأزرق"
 
 msgid "Blue Smoke"
-msgstr ""
+msgstr "الدخان الأزرق"
 
 msgid "Brick Red"
-msgstr ""
+msgstr "الطوب الأحمر"
 
 msgid "Bronze Night"
-msgstr ""
+msgstr "ليلة برونزية"
 
 msgid "Brown"
-msgstr ""
+msgstr "بني"
 
 msgid "Brown Night"
-msgstr ""
+msgstr "ليلة بنية"
 
 msgid "Burgundy Night"
-msgstr ""
+msgstr "ليلة بورجوندي"
 
 msgid "Buttons background color."
-msgstr ""
+msgstr "لون الخلفية للأزرار."
 
 msgid "CD"
-msgstr ""
+msgstr "قرص مضغوط"
 
 msgid "CD1"
 msgstr ""
@@ -163,28 +163,28 @@ msgid "Caid + Reader + Protocol + Server + ECM Time"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "يلغي"
 
 msgid "Cannot create version file: {}"
-msgstr ""
+msgstr "لا يمكن إنشاء ملف الإصدار: {}"
 
 msgid "Carbon Gray"
-msgstr ""
+msgstr "رمادي كربوني"
 
 msgid "Channel Description Color:"
-msgstr ""
+msgstr "لون وصف القناة:"
 
 msgid "Channel Foreground Color:"
-msgstr ""
+msgstr "اللون الأمامي للقناة:"
 
 msgid "Channel Selected Description Color:"
-msgstr ""
+msgstr "لون وصف القناة المحددة:"
 
 msgid "Channel Selected Foreground Color:"
-msgstr ""
+msgstr "اللون الأمامي المحدد للقناة:"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "نمط اختيار القناة:"
 
 msgid "ChannelSelection_1_Poster_EX"
 msgstr ""
@@ -229,274 +229,274 @@ msgid "ChannelSelection_big_mini_tv"
 msgstr ""
 
 msgid "Charcoal"
-msgstr ""
+msgstr "فحم"
 
 msgid "Chestnut"
-msgstr ""
+msgstr "كستناء"
 
 msgid "Choice device download image folder"
-msgstr ""
+msgstr "اختيار مجلد تحميل صورة الجهاز"
 
 msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
-msgstr ""
+msgstr "اختر ما إذا كان سيتم عرض معدل البت بوحدة Kb/s أو Mb/s."
 
 msgid "City"
-msgstr ""
+msgstr "مدينة"
 
 msgid "Classic Gray"
-msgstr ""
+msgstr "رمادي كلاسيكي"
 
 msgid "Cloud Blue"
-msgstr ""
+msgstr "السحابة الزرقاء"
 
 msgid "Cloud Navy"
-msgstr ""
+msgstr "سحابة البحرية"
 
 msgid "Clouded Steel"
-msgstr ""
+msgstr "الصلب الغائم"
 
 msgid "Coal"
-msgstr ""
+msgstr "الفحم"
 
 msgid "Cocoa"
-msgstr ""
+msgstr "الكاكاو"
 
 msgid "Coffee Brown"
-msgstr ""
+msgstr "بني القهوة"
 
 msgid "Cold Fog"
-msgstr ""
+msgstr "الضباب البارد"
 
 msgid "Cold Mist"
-msgstr ""
+msgstr "ضباب بارد"
 
 msgid "Cold Steel"
-msgstr ""
+msgstr "الصلب البارد"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "نمط اللون:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "قم بتكوين وقت التأخير (بالدقائق) قبل بدء تنزيل الملصق التلقائي"
 
 msgid "Could not create preset folder: {}"
-msgstr ""
+msgstr "لا يمكن إنشاء مجلد محدد مسبقًا: {}"
 
 msgid "Crimson"
-msgstr ""
+msgstr "قرمزي"
 
 msgid "Custom"
-msgstr ""
+msgstr "مخصص"
 
 msgid "Custom2"
-msgstr ""
+msgstr "مخصص2"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "أداة التخصيص لـ %s Skin"
 
 msgid "Dark Amber"
-msgstr ""
+msgstr "العنبر الداكن"
 
 msgid "Dark Frost"
-msgstr ""
+msgstr "الصقيع الداكن"
 
 msgid "Dark Silver Blue"
-msgstr ""
+msgstr "الأزرق الفضي الداكن"
 
 msgid "Dark Steel Blue"
-msgstr ""
+msgstr "الأزرق الصلب الداكن"
 
 msgid "Dark Teal Gray"
-msgstr ""
+msgstr "رمادي داكن داكن"
 
 msgid "Dark Walnut"
-msgstr ""
+msgstr "الجوز الداكن"
 
 msgid "Deep Indigo"
-msgstr ""
+msgstr "النيلي العميق"
 
 msgid "Deep Ochre"
-msgstr ""
+msgstr "مغرة عميقة"
 
 msgid "Deep Olive Green"
-msgstr ""
+msgstr "زيتوني أخضر عميق"
 
 msgid "Deep Purple"
-msgstr ""
+msgstr "ديب بيربل"
 
 msgid "Deep Slate"
-msgstr ""
+msgstr "لائحة عميقة"
 
 msgid "Deep Wine"
-msgstr ""
+msgstr "النبيذ العميق"
 
 msgid "Default"
-msgstr ""
+msgstr "تقصير"
 
 msgid "Default Search (No API)"
-msgstr ""
+msgstr "البحث الافتراضي (بدون واجهة برمجة التطبيقات)"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ديل لاين"
 
 msgid "Delete"
-msgstr ""
+msgstr "يمسح"
 
 msgid "Dim Mist"
-msgstr ""
+msgstr "ضباب خافت"
 
 msgid "Dim Navy"
-msgstr ""
+msgstr "البحرية الخافتة"
 
 msgid "Directory creation error:"
-msgstr ""
+msgstr "خطأ في إنشاء الدليل:"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "خطأ في التنزيل: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "التنزيل قيد التقدم"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "قم بتنزيل الخلفية الآن"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "قم بتنزيل الملصق الآن"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "تحميل جلاير..."
 
 msgid "Dusk Gray"
-msgstr ""
+msgstr "الغسق الرمادي"
 
 msgid "Dust Blue"
-msgstr ""
+msgstr "الغبار الأزرق"
 
 msgid "Dust Gold"
-msgstr ""
+msgstr "غبار الذهب"
 
 msgid "Dust Haze"
-msgstr ""
+msgstr "ضباب الغبار"
 
 msgid "Dust Purple"
-msgstr ""
+msgstr "الغبار الأرجواني"
 
 msgid "Dust Slate"
-msgstr ""
+msgstr "لائحة الغبار"
 
 msgid "Dusty Red"
-msgstr ""
+msgstr "الأحمر المغبر"
 
 msgid "Dusty Teal"
-msgstr ""
+msgstr "المتربة البط البري"
 
 msgid "ECM Short Format:"
-msgstr ""
+msgstr "تنسيق ECM القصير:"
 
 msgid "EMC PX"
-msgstr ""
+msgstr "إي إم سي بي إكس"
 
 msgid "EMC screens Style:"
-msgstr ""
+msgstr "شاشات EMC النمط:"
 
 msgid "Edit"
-msgstr ""
+msgstr "يحرر"
 
 msgid "Edit Event Name"
-msgstr ""
+msgstr "تحرير اسم الحدث"
 
 msgid "Edit Search Query"
-msgstr ""
+msgstr "تحرير استعلام البحث"
 
 msgid "Enable Backdrop:"
-msgstr ""
+msgstr "تمكين الخلفية:"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "تمكين أيقونات نوع العرض:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "تمكين عرض أحداث المعلومات:"
 
 msgid "Enable Display XMC Backdrop:"
-msgstr ""
+msgstr "تمكين عرض خلفية XMC:"
 
 msgid "Enable Display XMC Cast:"
-msgstr ""
+msgstr "تمكين عرض XMC Cast:"
 
 msgid "Enable Display XMC Info:"
-msgstr ""
+msgstr "تمكين عرض معلومات XMC:"
 
 msgid "Enable Display XMC Logo:"
-msgstr ""
+msgstr "تمكين عرض شعار XMC:"
 
 msgid "Enable Display XMC Parental:"
-msgstr ""
+msgstr "تمكين عرض XMC Parental:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "تمكين عرض ملصق XMC:"
 
 msgid "Enable Display XMC Star:"
-msgstr ""
+msgstr "تمكين عرض XMC Star:"
 
 msgid "Enable Logo:"
-msgstr ""
+msgstr "تمكين الشعار:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "تمكين الرموز الأبوية:"
 
 msgid "Enable Poster:"
-msgstr ""
+msgstr "تمكين الملصق:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "تمكين نجمة التقييم:"
 
 msgid "Enable extended event information (cast, crew, plot) in the info widget."
-msgstr ""
+msgstr "قم بتمكين معلومات الحدث الموسعة (الممثلين وطاقم العمل والمؤامرة) في أداة المعلومات."
 
 msgid "Enable or disable bundled E2iPlayer screens."
-msgstr ""
+msgstr "تمكين أو تعطيل شاشات E2iPlayer المجمعة."
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "قم بتمكين أو تعطيل التخزين المؤقت أثناء تنزيل الحدث لتسريع عمليات البحث المتكررة."
 
 msgid "Enable or disable the display of backdrops."
-msgstr ""
+msgstr "تمكين أو تعطيل عرض الخلفيات."
 
 msgid "Enable or disable the display of channel/event logos."
-msgstr ""
+msgstr "تمكين أو تعطيل عرض شعارات القناة/الحدث."
 
 msgid "Enable or disable the display of posters."
-msgstr ""
+msgstr "تمكين أو تعطيل عرض الملصقات."
 
 msgid "Enable the display of rating stars for events."
-msgstr ""
+msgstr "تفعيل عرض تصنيف النجوم للأحداث."
 
 msgid "Enter {} color style name"
-msgstr ""
+msgstr "أدخل {} اسم نمط اللون"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "خطأ أثناء معالجة ملف السطح: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "خطأ في تنزيل الملفات!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "خطأ في التحميل: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "الخطأ {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "خطأ: {}"
 
 msgid "Espresso Brown"
-msgstr ""
+msgstr "اسبريسو براون"
 
 msgid "Event Name (< / >):"
-msgstr ""
+msgstr "اسم الحدث (< / >):"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "نمط عرض الحدث:"
 
 msgid "EventView_7_Posters"
 msgstr ""
@@ -508,118 +508,118 @@ msgid "EventView_NO_Posters"
 msgstr ""
 
 msgid "Evergreen"
-msgstr ""
+msgstr "دائمة الخضرة"
 
 msgid "Exit"
-msgstr ""
+msgstr "مخرج"
 
 msgid "Export Custom1 color values to /etc/enigma2/aglare as <name>_custum1_color.json."
-msgstr ""
+msgstr "قم بتصدير قيم الألوان Custom1 إلى /etc/enigma2/aglare كـ <name>_custum1_color.json."
 
 msgid "Export Custom1 colors (OK)"
-msgstr ""
+msgstr "تصدير ألوان Custom1 (موافق)"
 
 msgid "Export Custom2 colors (OK)"
-msgstr ""
+msgstr "تصدير ألوان مخصصة 2 (موافق)"
 
 msgid "Export Custom2 named color and transparency selections to /etc/enigma2/aglare as <name>_custum2_color.json."
-msgstr ""
+msgstr "قم بتصدير تحديدات اللون والشفافية المسماة Custom2 إلى /etc/enigma2/aglare كـ <name>_custum2_color.json."
 
 msgid "Export failed: {}"
-msgstr ""
+msgstr "فشل التصدير: {}"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "قائد الملف - الملحق"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "الملف {} غير موجود أو فارغ"
 
 msgid "Fjord Gray"
-msgstr ""
+msgstr "المضيق الرمادي"
 
 msgid "Fog Blue"
-msgstr ""
+msgstr "الضباب الأزرق"
 
 msgid "Forest Night"
-msgstr ""
+msgstr "ليلة الغابة"
 
 msgid "Gentle Haze"
-msgstr ""
+msgstr "ضباب لطيف"
 
 msgid "Granite Blue"
-msgstr ""
+msgstr "الجرانيت الأزرق"
 
 msgid "Graphite"
-msgstr ""
+msgstr "الجرافيت"
 
 msgid "Graphite Blue"
-msgstr ""
+msgstr "الجرافيت الأزرق"
 
 msgid "Green"
-msgstr ""
+msgstr "أخضر"
 
 msgid "Green2"
-msgstr ""
+msgstr "الأخضر2"
 
 msgid "Greta"
-msgstr ""
+msgstr "غريتا"
 
 msgid "Gunmetal"
-msgstr ""
+msgstr "جونميتال"
 
 msgid "HandelGotD"
-msgstr ""
+msgstr "هاندل جوت د"
 
 msgid "Honey Bronze"
-msgstr ""
+msgstr "العسل البرونزي"
 
 msgid "Image Compatibility Group:"
-msgstr ""
+msgstr "مجموعة توافق الصور:"
 
 msgid "Import Custom1 colors"
-msgstr ""
+msgstr "استيراد Custom1 الألوان"
 
 msgid "Import Custom2 colors"
-msgstr ""
+msgstr "استيراد Custom2 الألوان"
 
 msgid "Import failed: {}"
-msgstr ""
+msgstr "فشل الاستيراد: {}"
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "هل تريد استيراد المفتاح {0} من {1}؟"
 
 msgid "Imported {} color style: {}"
-msgstr ""
+msgstr "نمط اللون {} المستورد: {}"
 
 msgid "Indigo Plum"
-msgstr ""
+msgstr "البرقوق النيلي"
 
 msgid "Info..."
-msgstr ""
+msgstr "معلومات..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "تاريخ شريط المعلومات:"
 
 msgid "InfoBar ECM:"
-msgstr ""
+msgstr "إدارة المحتوى في شريط المعلومات:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "ملصق شريط المعلوماتX:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "نمط شريط المعلومات:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "شريط المعلومات الطقس:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "حدث شريط المعلومات Xtraevent:"
 
 msgid "Infobar lower color."
-msgstr ""
+msgstr "شريط المعلومات باللون السفلي."
 
 msgid "Infobar upper color."
-msgstr ""
+msgstr "اللون العلوي لشريط المعلومات."
 
 msgid "Infobar_Date1"
 msgstr ""
@@ -628,7 +628,7 @@ msgid "Infobar_Date2"
 msgstr ""
 
 msgid "Infobar_Date3"
-msgstr ""
+msgstr "شريط المعلومات_التاريخ3"
 
 msgid "Infobar_Date4"
 msgstr ""
@@ -640,7 +640,7 @@ msgid "Infobar_MSNWeather"
 msgstr ""
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "شريط المعلومات_NO_Date"
 
 msgid "Infobar_NO_Weather"
 msgstr ""
@@ -649,766 +649,766 @@ msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ink Steel"
-msgstr ""
+msgstr "الحبر الصلب"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "خط إنس"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "جارٍ تثبيت التحديثات..."
 
 msgid "Invalid color value. Use #RRGGBB or #AARRGGBB, for example ff0000 or #80ff0000"
-msgstr ""
+msgstr "قيمة اللون غير صالحة. استخدم #RRGGBB أو #AARRGGBB، على سبيل المثال ff0000 أو #80ff0000"
 
 msgid "Invalid color value. Use exactly 6 hex digits, for example ff0000"
-msgstr ""
+msgstr "قيمة اللون غير صالحة. استخدم بالضبط 6 أرقام سداسية، على سبيل المثال ff0000"
 
 msgid "Invalid preset name."
-msgstr ""
+msgstr "الاسم المعين مسبقًا غير صالح."
 
 msgid "Iron Blue"
-msgstr ""
+msgstr "الحديد الأزرق"
 
 msgid "Iron Mist"
-msgstr ""
+msgstr "ضباب الحديد"
 
 msgid "JSON Write Error:"
-msgstr ""
+msgstr "خطأ في كتابة JSON:"
 
 msgid "Jade Smoke"
-msgstr ""
+msgstr "اليشم الدخان"
 
 msgid "Key empty"
-msgstr ""
+msgstr "المفتاح فارغ"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "تم تحميل المفتاح {} بنجاح!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "خالد ارتبولد منتظم"
 
 msgid "Kilobit/s (Kb/s)"
-msgstr ""
+msgstr "كيلوبت/ثانية (كيلوبت/ثانية)"
 
 msgid "Lavender Smoke"
-msgstr ""
+msgstr "دخان الخزامى"
 
 msgid "Lead Blue"
-msgstr ""
+msgstr "الرصاص الأزرق"
 
 msgid "Leaf Green"
-msgstr ""
+msgstr "الورقة الخضراء"
 
 msgid "LightGray"
-msgstr ""
+msgstr "رمادي فاتح"
 
 msgid "LimeGreen"
-msgstr ""
+msgstr "ليموني جرين"
 
 msgid "List background color."
-msgstr ""
+msgstr "قائمة لون الخلفية."
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "التحميل من /tmp/{}key.txt"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "البناء المحلي ({}) أحدث من بناء الخادم ({})."
 
 msgid "Location code"
-msgstr ""
+msgstr "رمز الموقع"
 
 msgid "Lucida"
-msgstr ""
+msgstr "لوسيدا"
 
 msgid "MENU: Settings"
-msgstr ""
+msgstr "القائمة: الإعدادات"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "نتيجة بحث موقع MSN"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "إم في بولي"
 
 msgid "Magenta"
-msgstr ""
+msgstr "أرجواني"
 
 msgid "Marine Gray"
-msgstr ""
+msgstr "رمادي بحري"
 
 msgid "Medium Gray"
-msgstr ""
+msgstr "رمادي متوسط"
 
 msgid "Megabit/s (Mb/s)"
-msgstr ""
+msgstr "ميجابت/ثانية (ميجابايت/ثانية)"
 
 msgid "Menu selector middle color."
-msgstr ""
+msgstr "محدد القائمة اللون الأوسط."
 
 msgid "Menu selector upper and lower color."
-msgstr ""
+msgstr "محدد القائمة اللون العلوي والسفلي."
 
 msgid "Midnight Ink"
-msgstr ""
+msgstr "حبر منتصف الليل"
 
 msgid "Midnight Navy"
-msgstr ""
+msgstr "منتصف الليل البحرية"
 
 msgid "Mild Steel"
-msgstr ""
+msgstr "الفولاذ الطري"
 
 msgid "Mint"
-msgstr ""
+msgstr "نعناع"
 
 msgid "Mist Blue"
-msgstr ""
+msgstr "ضباب أزرق"
 
 msgid "Mix1"
-msgstr ""
+msgstr "مزيج1"
 
 msgid "Moss Green"
-msgstr ""
+msgstr "موس جرين"
 
 msgid "Muted Brown"
-msgstr ""
+msgstr "بني مكتوم"
 
 msgid "Muted Crimson"
-msgstr ""
+msgstr "قرمزي صامت"
 
 msgid "Muted Denim"
-msgstr ""
+msgstr "الدنيم مكتوما"
 
 msgid "Muted Emerald"
-msgstr ""
+msgstr "زمرد مكتوم"
 
 msgid "Muted Fog"
-msgstr ""
+msgstr "ضباب مكتوم"
 
 msgid "Muted Gold"
-msgstr ""
+msgstr "الذهب مكتوما"
 
 msgid "Muted Graphite"
-msgstr ""
+msgstr "الجرافيت مكتوما"
 
 msgid "Muted Green"
-msgstr ""
+msgstr "أخضر مكتوم"
 
 msgid "Muted Haze"
-msgstr ""
+msgstr "ضباب مكتوم"
 
 msgid "Muted Indigo Gray"
-msgstr ""
+msgstr "رمادي نيلي صامت"
 
 msgid "Muted Navy"
-msgstr ""
+msgstr "البحرية الصامتة"
 
 msgid "Muted Purple"
-msgstr ""
+msgstr "أرجواني مكتوم"
 
 msgid "Muted Purple Gray"
-msgstr ""
+msgstr "رمادي أرجواني صامت"
 
 msgid "Muted Rose"
-msgstr ""
+msgstr "روز مكتومة"
 
 msgid "Muted Saffron"
-msgstr ""
+msgstr "زعفران مكتوم"
 
 msgid "Muted Slate"
-msgstr ""
+msgstr "لائحة صامتة"
 
 msgid "Muted Storm"
-msgstr ""
+msgstr "العاصفة الصامتة"
 
 msgid "Muted Violet"
-msgstr ""
+msgstr "البنفسجي الصامت"
 
 msgid "Navy Slate"
-msgstr ""
+msgstr "لائحة البحرية"
 
 msgid "Near Black Blue"
-msgstr ""
+msgstr "بالقرب من بلاك بلو"
 
 msgid "Neutral Gray"
-msgstr ""
+msgstr "رمادي محايد"
 
 msgid "Night Navy"
-msgstr ""
+msgstr "البحرية الليلية"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "لم يتم تمكين أي مقدمي خدمات نشطين"
 
 msgid "No description available for this option."
-msgstr ""
+msgstr "لا يوجد وصف متاح لهذا الخيار."
 
 msgid "No saved {} color style available to import."
-msgstr ""
+msgstr "لا يتوفر نمط لون {} محفوظ للاستيراد."
 
 msgid "No saved {} color styles"
-msgstr ""
+msgstr "لا يوجد {} أنماط ألوان محفوظة"
 
 msgid "Nord Blue Gray"
-msgstr ""
+msgstr "نورد بلو جراي"
 
 msgid "Nord Gray"
-msgstr ""
+msgstr "نورد جراي"
 
 msgid "OFF"
-msgstr ""
+msgstr "عن"
 
 msgid "OK"
-msgstr ""
+msgstr "نعم"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "او ام دي بي فقط"
 
 msgid "ON"
-msgstr ""
+msgstr "على"
 
 msgid "Obsidian Blue"
-msgstr ""
+msgstr "سبج الأزرق"
 
 msgid "Ocean Mist"
-msgstr ""
+msgstr "ضباب المحيط"
 
 msgid "Ocean Steel"
-msgstr ""
+msgstr "المحيط الصلب"
 
 msgid "Off"
-msgstr ""
+msgstr "عن"
 
 msgid "Old Gold"
-msgstr ""
+msgstr "الذهب القديم"
 
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
-msgstr ""
+msgstr "OpenBH / OpenViX / TeamBlue (مجموعة الصور الجديدة)"
 
 msgid "OpenPLi / Satlodge (OpenPLi Group)"
-msgstr ""
+msgstr "OpenPLi / Satlodge (مجموعة OpenPLi)"
 
 msgid "Orange"
-msgstr ""
+msgstr "البرتقالي"
 
 msgid "Original Name (Native)"
-msgstr ""
+msgstr "الاسم الأصلي (الأصلي)"
 
 msgid "Oxblood"
-msgstr ""
+msgstr "دم الثور"
 
 msgid "Pale Slate"
-msgstr ""
+msgstr "شاحب لائحة"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "مفتاح API الشخصي لـ {}"
 
 msgid "Petrol Blue"
-msgstr ""
+msgstr "أزرق بنزين"
 
 msgid "Pine Night"
-msgstr ""
+msgstr "ليلة الصنوبر"
 
 msgid "Pink"
-msgstr ""
+msgstr "لون القرنفل"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "الرجاء إدخال اسم مدينة صالح."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "الرجاء إدخال رمز موقع صالح للمدينة."
 
 msgid "Plum Smoke"
-msgstr ""
+msgstr "دخان البرقوق"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "خطأ في تنزيل الملصق: {}"
 
 msgid "Progress bar background color."
-msgstr ""
+msgstr "لون خلفية شريط التقدم."
 
 msgid "Purple"
-msgstr ""
+msgstr "أرجواني"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "هل تريد حقًا حذف إدخال WeatherPlugin هذا؟"
 
 msgid "Red"
-msgstr ""
+msgstr "أحمر"
 
 msgid "Red Night"
-msgstr ""
+msgstr "ليلة حمراء"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "إزالة جميع ملفات png (الملصق - الخلفية) (موافق)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "هل تريد إعادة تشغيل واجهة المستخدم الرسومية الآن؟"
 
 msgid "Rosewood"
-msgstr ""
+msgstr "روزوود"
 
 msgid "Rounded icon background lower color."
-msgstr ""
+msgstr "خلفية أيقونة مستديرة اللون السفلي."
 
 msgid "Rounded icon background upper color."
-msgstr ""
+msgstr "اللون العلوي لخلفية الأيقونة المستديرة."
 
 msgid "Save"
-msgstr ""
+msgstr "يحفظ"
 
 msgid "Save Selected"
-msgstr ""
+msgstr "حفظ المحدد"
 
 msgid "Screen background lower color."
-msgstr ""
+msgstr "خلفية الشاشة ذات لون سفلي."
 
 msgid "Screen background middle color."
-msgstr ""
+msgstr "خلفية الشاشة باللون الأوسط."
 
 msgid "Screen background upper color."
-msgstr ""
+msgstr "خلفية الشاشة اللون العلوي."
 
 msgid "Screen icon background left color."
-msgstr ""
+msgstr "خلفية أيقونة الشاشة اللون الأيسر."
 
 msgid "Screen icon background right color."
-msgstr ""
+msgstr "خلفية أيقونة الشاشة اللون الصحيح."
 
 msgid "Sea Ash"
-msgstr ""
+msgstr "رماد البحر"
 
 msgid "Sea Slate"
-msgstr ""
+msgstr "لائحة البحر"
 
 msgid "Search Code"
-msgstr ""
+msgstr "كود البحث"
 
 msgid "Search Method"
-msgstr ""
+msgstr "طريقة البحث"
 
 msgid "Search Query:"
-msgstr ""
+msgstr "استعلام البحث:"
 
 msgid "Search TMDb"
-msgstr ""
+msgstr "بحث TMDB"
 
 msgid "Second Infobar background color."
-msgstr ""
+msgstr "لون خلفية شريط المعلومات الثاني."
 
 msgid "Second Infobar_MSNWeather"
-msgstr ""
+msgstr "شريط المعلومات الثاني_MSNWeather"
 
 msgid "Second Infobar_NO_Weather"
-msgstr ""
+msgstr "شريط المعلومات الثاني_NO_Weather"
 
 msgid "Second Infobar_OAWeather"
-msgstr ""
+msgstr "شريط المعلومات الثاني_OAWeather"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "ملصق شريط المعلومات الثانيx:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "نمط شريط المعلومات الثاني:"
 
 msgid "SecondInfobar Weather:"
-msgstr ""
+msgstr "الطقس في شريط المعلومات الثاني:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "الحدث الثاني لشريط المعلومات:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "ضوء واجهة المستخدم Segoe"
 
 msgid "Select Backup Folder"
-msgstr ""
+msgstr "حدد مجلد النسخ الاحتياطي"
 
 msgid "Select EMC style."
-msgstr ""
+msgstr "حدد نمط EMC."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "حدد المجلد"
 
 msgid "Select PosterX display mode for the infobar."
-msgstr ""
+msgstr "حدد وضع عرض PosterX لشريط المعلومات."
 
 msgid "Select XtraEvent display mode for the infobar."
-msgstr ""
+msgstr "حدد وضع عرض XtraEvent لشريط المعلومات."
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "حدد الخط الخاص بك:"
 
 msgid "Select a saved Custom1 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr ""
+msgstr "حدد نمط ألوان Custom1 JSON محفوظًا من /etc/enigma2/aglare، ثم اضغط على \\\"موافق\\\" لاستيراده."
 
 msgid "Select a saved Custom2 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr ""
+msgstr "حدد نمط ألوان Custom2 JSON محفوظًا من /etc/enigma2/aglare، ثم اضغط على \\\"موافق\\\" لاستيراده."
 
 msgid "Select channel list event description color."
-msgstr ""
+msgstr "حدد لون وصف حدث قائمة القنوات."
 
 msgid "Select channel list foreground color."
-msgstr ""
+msgstr "حدد اللون الأمامي لقائمة القنوات."
 
 msgid "Select channel list selected foreground color."
-msgstr ""
+msgstr "حدد قائمة القنوات المحددة اللون الأمامي."
 
 msgid "Select channel selection screen style."
-msgstr ""
+msgstr "حدد نمط شاشة اختيار القناة."
 
 msgid "Select event view screen style."
-msgstr ""
+msgstr "حدد نمط شاشة عرض الحدث."
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
-msgstr ""
+msgstr "حدد تخطيط شريط المعلومات. يفرض Style5 إيقاف تشغيل ECM ويسمح فقط بأوضاع الملصقات OFF/CD. يفرض Style6 إيقاف تشغيل ECM وPosterX وXtraevent."
 
 msgid "Select second infobar layout."
-msgstr ""
+msgstr "حدد تخطيط شريط المعلومات الثاني."
 
 msgid "Select selected channel event description color."
-msgstr ""
+msgstr "حدد لون وصف حدث القناة المحدد."
 
 msgid "Select the base skin layout file."
-msgstr ""
+msgstr "حدد ملف تخطيط الجلد الأساسي."
 
 msgid "Select the font package used by the generated skin."
-msgstr ""
+msgstr "حدد حزمة الخط التي يستخدمها الجلد الذي تم إنشاؤه."
 
 msgid "Select the main color preset used by the skin."
-msgstr ""
+msgstr "حدد اللون الأساسي الذي يستخدمه الجلد مسبقًا."
 
 msgid "Select the target image base group (OpenPLi vs Others)."
-msgstr ""
+msgstr "حدد المجموعة الأساسية للصورة المستهدفة (OpenPLi مقابل Others)."
 
 msgid "Select transparency for odem{}."
-msgstr ""
+msgstr "حدد الشفافية للموديم{}."
 
 msgid "Select volume bar style."
-msgstr ""
+msgstr "حدد نمط شريط الصوت."
 
 msgid "Select weather provider display for the infobar."
-msgstr ""
+msgstr "حدد عرض موفر الطقس لشريط المعلومات."
 
 msgid "Select weather provider display for the second infobar."
-msgstr ""
+msgstr "حدد عرض موفر الطقس لشريط المعلومات الثاني."
 
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
-msgstr ""
+msgstr "حدد حقول ECM التي تظهر عندما يستخدم الجلد Short MYEMUPARA."
 
 msgid "Select {} color style to import"
-msgstr ""
+msgstr "حدد {} نمط اللون لاستيراده"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "اضبط الوقت - دقيقة واحدة لتنزيل الصور الخلفية"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "اضبط الوقت لدينا - دقيقة لتنزيل الملصق"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "إعدادات خادم Apikey"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "إعداد معلومات الجلد الوهج"
 
 msgid "Shadow Blue"
-msgstr ""
+msgstr "الظل الأزرق"
 
 msgid "Show backdrop from movie in local folder"
-msgstr ""
+msgstr "إظهار الخلفية من الفيلم في المجلد المحلي"
 
 msgid "Show cast from movie in local folder"
-msgstr ""
+msgstr "عرض الممثلين من الفيلم في المجلد المحلي"
 
 msgid "Show genre icons for events."
-msgstr ""
+msgstr "إظهار أيقونات النوع للأحداث."
 
 msgid "Show info from movie in local folder"
-msgstr ""
+msgstr "عرض المعلومات من الفيلم في المجلد المحلي"
 
 msgid "Show logo from movie in local folder"
-msgstr ""
+msgstr "إظهار الشعار من الفيلم في المجلد المحلي"
 
 msgid "Show or hide ECM information in the infobar."
-msgstr ""
+msgstr "إظهار أو إخفاء معلومات ECM في شريط المعلومات."
 
 msgid "Show or hide PosterX in the second infobar."
-msgstr ""
+msgstr "إظهار أو إخفاء PosterX في شريط المعلومات الثاني."
 
 msgid "Show or hide XtraEvent in the second infobar."
-msgstr ""
+msgstr "إظهار أو إخفاء XtraEvent في شريط المعلومات الثاني."
 
 msgid "Show or hide the date panel in the infobar."
-msgstr ""
+msgstr "إظهار أو إخفاء لوحة التاريخ في شريط المعلومات."
 
 msgid "Show parental from movie in local folder"
-msgstr ""
+msgstr "إظهار الوالدين من الفيلم في المجلد المحلي"
 
 msgid "Show parental guidance icons on events."
-msgstr ""
+msgstr "إظهار أيقونات توجيه الوالدين في الأحداث."
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "إظهار الملصق من الفيلم في المجلد المحلي"
 
 msgid "Show star from movie in local folder"
-msgstr ""
+msgstr "إظهار النجمة من الفيلم في المجلد المحلي"
 
 msgid "Sienna"
-msgstr ""
+msgstr "سيينا"
 
 msgid "Silver Haze"
-msgstr ""
+msgstr "الضباب الفضي"
 
 msgid "Silver Slate"
-msgstr ""
+msgstr "لائحة الفضة"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "نمط الجلد:"
 
 msgid "Skin not supported."
-msgstr ""
+msgstr "الجلد غير مدعوم."
 
 msgid "Slate Carbon"
-msgstr ""
+msgstr "لائحة الكربون"
 
 msgid "Slate Dust"
-msgstr ""
+msgstr "غبار الأردواز"
 
 msgid "Slate Fog"
-msgstr ""
+msgstr "ضباب لائحة"
 
 msgid "Slate Haze"
-msgstr ""
+msgstr "ضباب لائحة"
 
 msgid "Slate Mist"
-msgstr ""
+msgstr "ضباب لائحة"
 
 msgid "Slate Night"
-msgstr ""
+msgstr "ليلة سليت"
 
 msgid "Slate Ocean"
-msgstr ""
+msgstr "سليت المحيط"
 
 msgid "Smoke Slate"
-msgstr ""
+msgstr "لائحة الدخان"
 
 msgid "Smoky Blue"
-msgstr ""
+msgstr "سموكي بلو"
 
 msgid "Smoky Steel"
-msgstr ""
+msgstr "سموكي ستيل"
 
 msgid "SnowWhite"
-msgstr ""
+msgstr "سنو وايت"
 
 msgid "Soft Black"
-msgstr ""
+msgstr "أسود ناعم"
 
 msgid "Soft Brown"
-msgstr ""
+msgstr "بني ناعم"
 
 msgid "Soft Green"
-msgstr ""
+msgstr "أخضر ناعم"
 
 msgid "Soft Haze"
-msgstr ""
+msgstr "ضباب ناعم"
 
 msgid "Soft Indigo"
-msgstr ""
+msgstr "النيلي الناعم"
 
 msgid "Soft Lavender"
-msgstr ""
+msgstr "لافندر ناعم"
 
 msgid "Soft Mustard"
-msgstr ""
+msgstr "خردل ناعم"
 
 msgid "Soft Red"
-msgstr ""
+msgstr "أحمر ناعم"
 
 msgid "Soft Steel"
-msgstr ""
+msgstr "الصلب الناعم"
 
 msgid "Soft White"
-msgstr ""
+msgstr "أبيض ناعم"
 
 msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
-msgstr ""
+msgstr "المصدر + Caid + Reader + Protocol + Server + Port + ECM Time"
 
 msgid "Source + Caid + Reader + ECM Time"
-msgstr ""
+msgstr "المصدر + القائد + القارئ + وقت ECM"
 
 msgid "Source + Prov + Caid + ECM Time"
-msgstr ""
+msgstr "المصدر + Prov + Caid + ECM Time"
 
 msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
-msgstr ""
+msgstr "المصدر + Prov + Caid + Protocol + Server + Port + ECM Time"
 
 msgid "Source + Prov + Caid + Server + Port + ECM Time"
-msgstr ""
+msgstr "المصدر + Prov + Caid + Server + Port + ECM Time"
 
 msgid "Standard Name (Translated)"
-msgstr ""
+msgstr "الاسم القياسي (مترجم)"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "ابدأ بتنزيل الخلفية على الفور"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "ابدأ بتنزيل الملصق على الفور"
 
 msgid "Steel Fog"
-msgstr ""
+msgstr "الضباب الصلب"
 
 msgid "Steel Gray"
-msgstr ""
+msgstr "رمادي فولاذي"
 
 msgid "Steel Mist"
-msgstr ""
+msgstr "ضباب الصلب"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "ستيل بلو"
 
 msgid "Stone Blue"
-msgstr ""
+msgstr "الحجر الأزرق"
 
 msgid "Stone Gray"
-msgstr ""
+msgstr "حجر رمادي"
 
 msgid "Storm Blue"
-msgstr ""
+msgstr "العاصفة الزرقاء"
 
 msgid "Storm Fog"
-msgstr ""
+msgstr "ضباب العاصفة"
 
 msgid "Storm Gray"
-msgstr ""
+msgstr "العاصفة الرمادية"
 
 msgid "Storm Haze"
-msgstr ""
+msgstr "ضباب العاصفة"
 
 msgid "Storm Mist"
-msgstr ""
+msgstr "ضباب العاصفة"
 
 msgid "Style2"
-msgstr ""
+msgstr "النمط2"
 
 msgid "Style3"
-msgstr ""
+msgstr "النمط3"
 
 msgid "Style4"
-msgstr ""
+msgstr "النمط4"
 
 msgid "Style5 CD"
-msgstr ""
+msgstr "قرص ستايل5"
 
 msgid "Style6"
-msgstr ""
+msgstr "النمط6"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "دعم جلود E2iplayer:"
 
 msgid "System"
-msgstr ""
+msgstr "نظام"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "TMDB فقط"
 
 msgid "Tailwind Gray"
-msgstr ""
+msgstr "الريح الخلفية رمادية"
 
 msgid "Teal"
-msgstr ""
+msgstr "البط البري"
 
 msgid "Teal Smoke"
-msgstr ""
+msgstr "دخان أزرق مخضر"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "الملف %s فارغ."
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "لم يتم العثور على الملف %s."
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
-msgstr ""
+msgstr "تقوم هذه العملية بتعيين مجلد مسار الجهاز لتنزيل الصورة (خلفية الملصق)"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "تقوم هذه العملية بإزالة جميع ملفات png من جهاز المجلد (خلفية الملصق)"
 
 msgid "Title Preference"
-msgstr ""
+msgstr "تفضيل العنوان"
 
 msgid "Tomato"
-msgstr ""
+msgstr "طماطم"
 
 msgid "Transparency percent for odem{}. 0 = OFF, 100 = fully transparent."
-msgstr ""
+msgstr "نسبة الشفافية لـ odem{}. 0 = إيقاف، 100 = شفاف بالكامل."
 
 msgid "Twilight Blue"
-msgstr ""
+msgstr "الشفق الأزرق"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "لم تتم تهيئة عنوان URL للتحديث، افتح المكون الإضافي مرة واحدة من قائمة المكونات الإضافية أولاً."
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "فشل التحقق من التحديث: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "لم يتم العثور على حزمة التحديث!"
 
 msgid "Violet Night"
-msgstr ""
+msgstr "ليلة البنفسج"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "نمط شريط الصوت:"
 
 msgid "Walnut"
-msgstr ""
+msgstr "الجوز"
 
 msgid "Warm Brass"
-msgstr ""
+msgstr "النحاس الدافئ"
 
 msgid "Warm Brown"
-msgstr ""
+msgstr "بني دافئ"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: تحرير الإدخال"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: قائمة الإدخالات"
 
 msgid "White"
-msgstr ""
+msgstr "أبيض"
 
 msgid "YellowGreen"
-msgstr ""
+msgstr "أصفرأخضر"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "لديك بالفعل أحدث إصدار ({})."
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "تحتاج إلى إدخال اسم مدينة صالح قبل أن تتمكن من البحث عن رمز الموقع."
 
 msgid "imperial system"
-msgstr ""
+msgstr "النظام الإمبراطوري"
 
 msgid "metric system"
-msgstr ""
+msgstr "النظام المتري"
 
 msgid "odem{} color"
-msgstr ""
+msgstr "أوديم {} اللون"
 
 msgid "odem{} transparency"
-msgstr ""
+msgstr "أوديم {} الشفافية"
 
 msgid "odem{} transparency %"
-msgstr ""
+msgstr "أوديم {} الشفافية٪"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "تشغيل/إظهار الملفات"
 
 msgid "volume2"
-msgstr ""
+msgstr "حجم2"
 
 msgid "window title foreground."
-msgstr ""
+msgstr "مقدمة عنوان النافذة."
 
 msgid "{} color style exported to {}"
-msgstr ""
+msgstr "{} تم تصدير نمط اللون إلى {}"
 
 msgid "{} preset data was not found in this file."
-msgstr ""
+msgstr "{} لم يتم العثور على البيانات المعدة مسبقًا في هذا الملف."

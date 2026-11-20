@@ -10,10 +10,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s key imported!"
-msgstr ""
+msgstr "%s কী আমদানি করা হয়েছে!"
 
 msgid "1 poster"
-msgstr ""
+msgstr "1টি পোস্টার"
 
 msgid "ALL1"
 msgstr ""
@@ -22,133 +22,133 @@ msgid "ALL2"
 msgstr ""
 
 msgid "API Key Search"
-msgstr ""
+msgstr "API কী অনুসন্ধান"
 
 msgid "Activate/Deactivate ELCINEMA"
-msgstr ""
+msgstr "ELCINEMA সক্রিয়/নিষ্ক্রিয় করুন"
 
 msgid "Activate/Deactivate GOOGLE"
-msgstr ""
+msgstr "GOOGLE সক্রিয়/নিষ্ক্রিয় করুন"
 
 msgid "Activate/Deactivate IMDB"
-msgstr ""
+msgstr "IMDB সক্রিয়/নিষ্ক্রিয় করুন"
 
 msgid "Activate/Deactivate MOLOTOV"
-msgstr ""
+msgstr "MOLOTOV সক্রিয়/নিষ্ক্রিয় করুন"
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "PROGRAMMETV সক্রিয়/নিষ্ক্রিয় করুন"
 
 msgid "Activate/Deactivate {}"
-msgstr ""
+msgstr "সক্রিয়/নিষ্ক্রিয় করুন {}"
 
 msgid "Add"
-msgstr ""
+msgstr "যোগ করুন"
 
 msgid "Aero Slate"
-msgstr ""
+msgstr "অ্যারো স্লেট"
 
 msgid "All png are removed from folder!"
-msgstr ""
+msgstr "সমস্ত png ফোল্ডার থেকে সরানো হয়!"
 
 msgid "Anthracite Blue"
-msgstr ""
+msgstr "অ্যানথ্রাসাইট নীল"
 
 msgid "Arctic Blue Gray"
-msgstr ""
+msgstr "আর্কটিক নীল ধূসর"
 
 msgid "Ash Fog"
-msgstr ""
+msgstr "ছাই কুয়াশা"
 
 msgid "Asphalt Blue"
-msgstr ""
+msgstr "অ্যাসফল্ট ব্লু"
 
 msgid "Automatic"
-msgstr ""
+msgstr "স্বয়ংক্রিয়"
 
 msgid "Automatic download of backdrop"
-msgstr ""
+msgstr "ব্যাকড্রপের স্বয়ংক্রিয় ডাউনলোড"
 
 msgid "Automatic download of poster"
-msgstr ""
+msgstr "পোস্টার স্বয়ংক্রিয় ডাউনলোড"
 
 msgid "Automatically fetch backdrop for favorite events based on EPG"
-msgstr ""
+msgstr "EPG ভিত্তিক প্রিয় ইভেন্টগুলির জন্য স্বয়ংক্রিয়ভাবে ব্যাকড্রপ আনুন"
 
 msgid "Automatically fetch posters for favorite events based on EPG"
-msgstr ""
+msgstr "EPG ভিত্তিক প্রিয় ইভেন্টের জন্য স্বয়ংক্রিয়ভাবে পোস্টার আনুন"
 
 msgid "Back"
-msgstr ""
+msgstr "ফিরে"
 
 msgid "Backdrop"
-msgstr ""
+msgstr "ব্যাকড্রপ"
 
 msgid "Backdrop download error: {}"
-msgstr ""
+msgstr "ব্যাকড্রপ ডাউনলোড ত্রুটি: {}"
 
 msgid "Backup Folder (Press OK to change)"
-msgstr ""
+msgstr "ব্যাকআপ ফোল্ডার (পরিবর্তন করতে ঠিক আছে টিপুন)"
 
 msgid "BebasNeue"
-msgstr ""
+msgstr "ফ্রিনিউ"
 
 msgid "Bitrate Unit:"
-msgstr ""
+msgstr "বিটরেট ইউনিট:"
 
 msgid "Black"
-msgstr ""
+msgstr "কালো"
 
 msgid "Blue"
-msgstr ""
+msgstr "নীল"
 
 msgid "Blue Ash"
-msgstr ""
+msgstr "নীল ছাই"
 
 msgid "Blue Charcoal"
-msgstr ""
+msgstr "নীল কাঠকয়লা"
 
 msgid "Blue Fog"
-msgstr ""
+msgstr "নীল কুয়াশা"
 
 msgid "Blue Granite"
-msgstr ""
+msgstr "নীল গ্রানাইট"
 
 msgid "Blue Gray"
-msgstr ""
+msgstr "নীল ধূসর"
 
 msgid "Blue Gray 700"
-msgstr ""
+msgstr "নীল ধূসর 700"
 
 msgid "Blue Haze"
-msgstr ""
+msgstr "নীল কুয়াশা"
 
 msgid "Blue Mist"
-msgstr ""
+msgstr "নীল কুয়াশা"
 
 msgid "Blue Smoke"
-msgstr ""
+msgstr "নীল ধোঁয়া"
 
 msgid "Brick Red"
-msgstr ""
+msgstr "ইট লাল"
 
 msgid "Bronze Night"
-msgstr ""
+msgstr "ব্রোঞ্জ নাইট"
 
 msgid "Brown"
-msgstr ""
+msgstr "বাদামী"
 
 msgid "Brown Night"
-msgstr ""
+msgstr "ব্রাউন নাইট"
 
 msgid "Burgundy Night"
-msgstr ""
+msgstr "বারগান্ডি নাইট"
 
 msgid "Buttons background color."
-msgstr ""
+msgstr "বোতামের পটভূমির রঙ।"
 
 msgid "CD"
-msgstr ""
+msgstr "সিডি"
 
 msgid "CD1"
 msgstr ""
@@ -157,1258 +157,1258 @@ msgid "CD2"
 msgstr ""
 
 msgid "Caid + Protocol + Server + ECM Time"
-msgstr ""
+msgstr "Caid + প্রোটোকল + সার্ভার + ECM সময়"
 
 msgid "Caid + Reader + Protocol + Server + ECM Time"
-msgstr ""
+msgstr "Caid + রিডার + প্রোটোকল + সার্ভার + ECM সময়"
 
 msgid "Cancel"
-msgstr ""
+msgstr "বাতিল করুন"
 
 msgid "Cannot create version file: {}"
-msgstr ""
+msgstr "সংস্করণ ফাইল তৈরি করা যাবে না: {}"
 
 msgid "Carbon Gray"
-msgstr ""
+msgstr "কার্বন গ্রে"
 
 msgid "Channel Description Color:"
-msgstr ""
+msgstr "চ্যানেল বর্ণনা রঙ:"
 
 msgid "Channel Foreground Color:"
-msgstr ""
+msgstr "চ্যানেল ফোরগ্রাউন্ড রঙ:"
 
 msgid "Channel Selected Description Color:"
-msgstr ""
+msgstr "চ্যানেল নির্বাচিত বর্ণনার রঙ:"
 
 msgid "Channel Selected Foreground Color:"
-msgstr ""
+msgstr "চ্যানেল নির্বাচিত অগ্রভাগের রঙ:"
 
 msgid "ChannelSelection Style:"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন শৈলী:"
 
 msgid "ChannelSelection_1_Poster_EX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_1_পোস্টার_এক্স"
 
 msgid "ChannelSelection_1_Poster_PX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_1_পোস্টার_পিএক্স"
 
 msgid "ChannelSelection_4_Posters_EX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_৪_পোস্টার_এক্স"
 
 msgid "ChannelSelection_4_Posters_PX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_৪_পোস্টার_পিএক্স"
 
 msgid "ChannelSelection_6_Posters_EX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_6_পোস্টার_এক্স"
 
 msgid "ChannelSelection_6_Posters_PX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_6_পোস্টার_পিএক্স"
 
 msgid "ChannelSelection_6_Posters_PX_ALL1"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_6_পোস্টার_PX_ALL1"
 
 msgid "ChannelSelection_BackDrop_H_EX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_ব্যাকড্রপ_H_EX"
 
 msgid "ChannelSelection_BackDrop_H_PX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_ব্যাকড্রপ_H_PX"
 
 msgid "ChannelSelection_BackDrop_V_EX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_ব্যাকড্রপ_V_EX"
 
 msgid "ChannelSelection_BackDrop_V_PX"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_ব্যাকড্রপ_ভি_পিএক্স"
 
 msgid "ChannelSelection_NO_Posters"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_নো_পোস্টার"
 
 msgid "ChannelSelection_NO_Posters_NO_Picon"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_NO_Posters_NO_Picon"
 
 msgid "ChannelSelection_big_mini_tv"
-msgstr ""
+msgstr "চ্যানেল নির্বাচন_বড়_মিনি_টিভি"
 
 msgid "Charcoal"
-msgstr ""
+msgstr "কাঠকয়লা"
 
 msgid "Chestnut"
-msgstr ""
+msgstr "চেস্টনাট"
 
 msgid "Choice device download image folder"
-msgstr ""
+msgstr "পছন্দ ডিভাইস ডাউনলোড ইমেজ ফোল্ডার"
 
 msgid "Choose whether bitrate is shown in Kb/s or Mb/s."
-msgstr ""
+msgstr "বিটরেট Kb/s বা Mb/s-এ দেখানো হয়েছে কিনা তা বেছে নিন।"
 
 msgid "City"
-msgstr ""
+msgstr "শহর"
 
 msgid "Classic Gray"
-msgstr ""
+msgstr "ক্লাসিক গ্রে"
 
 msgid "Cloud Blue"
-msgstr ""
+msgstr "মেঘ নীল"
 
 msgid "Cloud Navy"
-msgstr ""
+msgstr "মেঘ নৌবাহিনী"
 
 msgid "Clouded Steel"
-msgstr ""
+msgstr "মেঘাচ্ছন্ন ইস্পাত"
 
 msgid "Coal"
-msgstr ""
+msgstr "কয়লা"
 
 msgid "Cocoa"
-msgstr ""
+msgstr "কোকো"
 
 msgid "Coffee Brown"
-msgstr ""
+msgstr "কফি ব্রাউন"
 
 msgid "Cold Fog"
-msgstr ""
+msgstr "ঠান্ডা কুয়াশা"
 
 msgid "Cold Mist"
-msgstr ""
+msgstr "ঠান্ডা কুয়াশা"
 
 msgid "Cold Steel"
-msgstr ""
+msgstr "কোল্ড স্টিল"
 
 msgid "Color Style:"
-msgstr ""
+msgstr "রঙ শৈলী:"
 
 msgid "Configure the delay time (in minutes) before starting the automatic poster download"
-msgstr ""
+msgstr "স্বয়ংক্রিয় পোস্টার ডাউনলোড শুরু করার আগে বিলম্বের সময় (মিনিটের মধ্যে) কনফিগার করুন"
 
 msgid "Could not create preset folder: {}"
-msgstr ""
+msgstr "প্রিসেট ফোল্ডার তৈরি করা যায়নি: {}"
 
 msgid "Crimson"
-msgstr ""
+msgstr "ক্রিমসন"
 
 msgid "Custom"
-msgstr ""
+msgstr "কাস্টম"
 
 msgid "Custom2"
-msgstr ""
+msgstr "কাস্টম2"
 
 msgid "Customization tool for %s Skin"
-msgstr ""
+msgstr "%s ত্বকের জন্য কাস্টমাইজেশন টুল"
 
 msgid "Dark Amber"
-msgstr ""
+msgstr "ডার্ক অ্যাম্বার"
 
 msgid "Dark Frost"
-msgstr ""
+msgstr "ডার্ক ফ্রস্ট"
 
 msgid "Dark Silver Blue"
-msgstr ""
+msgstr "গাঢ় রূপালী নীল"
 
 msgid "Dark Steel Blue"
-msgstr ""
+msgstr "গাঢ় ইস্পাত নীল"
 
 msgid "Dark Teal Gray"
-msgstr ""
+msgstr "গাঢ় টিল ধূসর"
 
 msgid "Dark Walnut"
-msgstr ""
+msgstr "গাঢ় আখরোট"
 
 msgid "Deep Indigo"
-msgstr ""
+msgstr "ডিপ ইন্ডিগো"
 
 msgid "Deep Ochre"
-msgstr ""
+msgstr "গভীর ওচার"
 
 msgid "Deep Olive Green"
-msgstr ""
+msgstr "গভীর জলপাই সবুজ"
 
 msgid "Deep Purple"
-msgstr ""
+msgstr "গভীর বেগুনি"
 
 msgid "Deep Slate"
-msgstr ""
+msgstr "গভীর স্লেট"
 
 msgid "Deep Wine"
-msgstr ""
+msgstr "ডিপ ওয়াইন"
 
 msgid "Default"
-msgstr ""
+msgstr "ডিফল্ট"
 
 msgid "Default Search (No API)"
-msgstr ""
+msgstr "ডিফল্ট অনুসন্ধান (কোন API নেই)"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ডেল লাইন"
 
 msgid "Delete"
-msgstr ""
+msgstr "মুছে দিন"
 
 msgid "Dim Mist"
-msgstr ""
+msgstr "আবছা কুয়াশা"
 
 msgid "Dim Navy"
-msgstr ""
+msgstr "আবছা নৌবাহিনী"
 
 msgid "Directory creation error:"
-msgstr ""
+msgstr "ডিরেক্টরি তৈরি ত্রুটি:"
 
 msgid "Download error: {}"
-msgstr ""
+msgstr "ডাউনলোড ত্রুটি: {}"
 
 msgid "Download in progress"
-msgstr ""
+msgstr "ডাউনলোড চলছে"
 
 msgid "Download now backdrop"
-msgstr ""
+msgstr "এখন ব্যাকড্রপ ডাউনলোড করুন"
 
 msgid "Download now poster"
-msgstr ""
+msgstr "এখন পোস্টার ডাউনলোড করুন"
 
 msgid "Downloading Aglare..."
-msgstr ""
+msgstr "Aglare ডাউনলোড হচ্ছে..."
 
 msgid "Dusk Gray"
-msgstr ""
+msgstr "সন্ধ্যা ধূসর"
 
 msgid "Dust Blue"
-msgstr ""
+msgstr "ডাস্ট ব্লু"
 
 msgid "Dust Gold"
-msgstr ""
+msgstr "ধুলো সোনা"
 
 msgid "Dust Haze"
-msgstr ""
+msgstr "ধুলোবালি"
 
 msgid "Dust Purple"
-msgstr ""
+msgstr "ধুলো বেগুনি"
 
 msgid "Dust Slate"
-msgstr ""
+msgstr "ডাস্ট স্লেট"
 
 msgid "Dusty Red"
-msgstr ""
+msgstr "ধুলোবালি লাল"
 
 msgid "Dusty Teal"
-msgstr ""
+msgstr "ডাস্টি টিল"
 
 msgid "ECM Short Format:"
-msgstr ""
+msgstr "ECM সংক্ষিপ্ত বিন্যাস:"
 
 msgid "EMC PX"
-msgstr ""
+msgstr "ইএমসি পিএক্স"
 
 msgid "EMC screens Style:"
-msgstr ""
+msgstr "EMC স্ক্রিন শৈলী:"
 
 msgid "Edit"
-msgstr ""
+msgstr "সম্পাদনা করুন"
 
 msgid "Edit Event Name"
-msgstr ""
+msgstr "ইভেন্টের নাম সম্পাদনা করুন"
 
 msgid "Edit Search Query"
-msgstr ""
+msgstr "অনুসন্ধান ক্যোয়ারী সম্পাদনা করুন"
 
 msgid "Enable Backdrop:"
-msgstr ""
+msgstr "ব্যাকড্রপ সক্ষম করুন:"
 
 msgid "Enable Display Genre icons:"
-msgstr ""
+msgstr "ডিসপ্লে জেনার আইকন সক্ষম করুন:"
 
 msgid "Enable Display InfoEvents:"
-msgstr ""
+msgstr "প্রদর্শন তথ্য ইভেন্ট সক্রিয় করুন:"
 
 msgid "Enable Display XMC Backdrop:"
-msgstr ""
+msgstr "প্রদর্শন XMC ব্যাকড্রপ সক্ষম করুন:"
 
 msgid "Enable Display XMC Cast:"
-msgstr ""
+msgstr "প্রদর্শন XMC কাস্ট সক্ষম করুন:"
 
 msgid "Enable Display XMC Info:"
-msgstr ""
+msgstr "XMC তথ্য প্রদর্শন সক্ষম করুন:"
 
 msgid "Enable Display XMC Logo:"
-msgstr ""
+msgstr "প্রদর্শন XMC লোগো সক্ষম করুন:"
 
 msgid "Enable Display XMC Parental:"
-msgstr ""
+msgstr "ডিসপ্লে XMC প্যারেন্টাল সক্ষম করুন:"
 
 msgid "Enable Display XMC Poster:"
-msgstr ""
+msgstr "প্রদর্শন XMC পোস্টার সক্ষম করুন:"
 
 msgid "Enable Display XMC Star:"
-msgstr ""
+msgstr "প্রদর্শন XMC তারকা সক্ষম করুন:"
 
 msgid "Enable Logo:"
-msgstr ""
+msgstr "লোগো সক্ষম করুন:"
 
 msgid "Enable Parental Icons:"
-msgstr ""
+msgstr "অভিভাবকীয় আইকনগুলি সক্ষম করুন:"
 
 msgid "Enable Poster:"
-msgstr ""
+msgstr "পোস্টার সক্ষম করুন:"
 
 msgid "Enable Rating Star:"
-msgstr ""
+msgstr "রেটিং স্টার সক্ষম করুন:"
 
 msgid "Enable extended event information (cast, crew, plot) in the info widget."
-msgstr ""
+msgstr "তথ্য উইজেটে বর্ধিত ইভেন্ট তথ্য (কাস্ট, ক্রু, প্লট) সক্ষম করুন।"
 
 msgid "Enable or disable bundled E2iPlayer screens."
-msgstr ""
+msgstr "বান্ডিল করা E2iPlayer স্ক্রিনগুলি সক্ষম বা অক্ষম করুন৷"
 
 msgid "Enable or disable caching during event download to speed up repeated searches."
-msgstr ""
+msgstr "বারবার অনুসন্ধানের গতি বাড়ানোর জন্য ইভেন্ট ডাউনলোডের সময় ক্যাশিং সক্ষম বা অক্ষম করুন।"
 
 msgid "Enable or disable the display of backdrops."
-msgstr ""
+msgstr "ব্যাকড্রপ প্রদর্শন সক্ষম বা অক্ষম করুন।"
 
 msgid "Enable or disable the display of channel/event logos."
-msgstr ""
+msgstr "চ্যানেল/ইভেন্ট লোগো প্রদর্শন সক্ষম বা অক্ষম করুন।"
 
 msgid "Enable or disable the display of posters."
-msgstr ""
+msgstr "পোস্টার প্রদর্শন সক্ষম বা অক্ষম করুন।"
 
 msgid "Enable the display of rating stars for events."
-msgstr ""
+msgstr "ইভেন্টের জন্য রেটিং তারার প্রদর্শন সক্ষম করুন৷"
 
 msgid "Enter {} color style name"
-msgstr ""
+msgstr "{} রঙ শৈলীর নাম লিখুন"
 
 msgid "Error by processing the skin file: {}"
-msgstr ""
+msgstr "স্কিন ফাইল প্রক্রিয়াকরণে ত্রুটি: {}"
 
 msgid "Error downloading files!"
-msgstr ""
+msgstr "ফাইল ডাউনলোড করার সময় ত্রুটি!"
 
 msgid "Error loading: {}"
-msgstr ""
+msgstr "লোড করার সময় ত্রুটি: {}"
 
 msgid "Error {0}: {1}"
-msgstr ""
+msgstr "ত্রুটি {0}: {1}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "ত্রুটি: {}"
 
 msgid "Espresso Brown"
-msgstr ""
+msgstr "এসপ্রেসো ব্রাউন"
 
 msgid "Event Name (< / >):"
-msgstr ""
+msgstr "ইভেন্টের নাম (< / >):"
 
 msgid "EventView Style:"
-msgstr ""
+msgstr "ইভেন্টভিউ শৈলী:"
 
 msgid "EventView_7_Posters"
-msgstr ""
+msgstr "ইভেন্টভিউ_7_পোস্টার"
 
 msgid "EventView_7_Posters_ALL1"
-msgstr ""
+msgstr "ইভেন্টভিউ_7_পোস্টার_ALL1"
 
 msgid "EventView_NO_Posters"
-msgstr ""
+msgstr "ইভেন্টভিউ_NO_পোস্টার"
 
 msgid "Evergreen"
-msgstr ""
+msgstr "চিরসবুজ"
 
 msgid "Exit"
-msgstr ""
+msgstr "প্রস্থান করুন"
 
 msgid "Export Custom1 color values to /etc/enigma2/aglare as <name>_custum1_color.json."
-msgstr ""
+msgstr "Custom1 রঙের মানগুলিকে /etc/enigma2/aglare-এ <name>_custum1_color.json হিসেবে রপ্তানি করুন।"
 
 msgid "Export Custom1 colors (OK)"
-msgstr ""
+msgstr "কাস্টম১ রং রপ্তানি করুন (ঠিক আছে)"
 
 msgid "Export Custom2 colors (OK)"
-msgstr ""
+msgstr "Custom2 রং রপ্তানি করুন (ঠিক আছে)"
 
 msgid "Export Custom2 named color and transparency selections to /etc/enigma2/aglare as <name>_custum2_color.json."
-msgstr ""
+msgstr "Custom2 নামের রঙ এবং স্বচ্ছতা নির্বাচনগুলিকে /etc/enigma2/aglare-এ <name>_custum2_color.json হিসেবে রপ্তানি করুন।"
 
 msgid "Export failed: {}"
-msgstr ""
+msgstr "রপ্তানি ব্যর্থ হয়েছে: {}"
 
 msgid "File Commander - Addon"
-msgstr ""
+msgstr "ফাইল কমান্ডার - অ্যাডন"
 
 msgid "File {} not found or empty"
-msgstr ""
+msgstr "ফাইল {} পাওয়া যায়নি বা খালি"
 
 msgid "Fjord Gray"
-msgstr ""
+msgstr "Fjord গ্রে"
 
 msgid "Fog Blue"
-msgstr ""
+msgstr "কুয়াশা নীল"
 
 msgid "Forest Night"
-msgstr ""
+msgstr "বনের রাত"
 
 msgid "Gentle Haze"
-msgstr ""
+msgstr "মৃদু ধোঁয়াশা"
 
 msgid "Granite Blue"
-msgstr ""
+msgstr "গ্রানাইট নীল"
 
 msgid "Graphite"
-msgstr ""
+msgstr "গ্রাফাইট"
 
 msgid "Graphite Blue"
-msgstr ""
+msgstr "গ্রাফাইট নীল"
 
 msgid "Green"
-msgstr ""
+msgstr "সবুজ"
 
 msgid "Green2"
-msgstr ""
+msgstr "সবুজ2"
 
 msgid "Greta"
-msgstr ""
+msgstr "গ্রেটা"
 
 msgid "Gunmetal"
-msgstr ""
+msgstr "গুনধাতু"
 
 msgid "HandelGotD"
 msgstr ""
 
 msgid "Honey Bronze"
-msgstr ""
+msgstr "মধু ব্রোঞ্জ"
 
 msgid "Image Compatibility Group:"
-msgstr ""
+msgstr "ছবি সামঞ্জস্যপূর্ণ গ্রুপ:"
 
 msgid "Import Custom1 colors"
-msgstr ""
+msgstr "Custom1 রং আমদানি করুন"
 
 msgid "Import Custom2 colors"
-msgstr ""
+msgstr "Custom2 রং আমদানি করুন"
 
 msgid "Import failed: {}"
-msgstr ""
+msgstr "আমদানি ব্যর্থ হয়েছে: {}"
 
 msgid "Import key {0} from {1}?"
-msgstr ""
+msgstr "{1} থেকে {0} কী আমদানি করবেন?"
 
 msgid "Imported {} color style: {}"
-msgstr ""
+msgstr "আমদানি করা {} রঙ শৈলী: {}"
 
 msgid "Indigo Plum"
-msgstr ""
+msgstr "ইন্ডিগো প্লাম"
 
 msgid "Info..."
-msgstr ""
+msgstr "তথ্য..."
 
 msgid "InfoBar Date:"
-msgstr ""
+msgstr "ইনফোবার তারিখ:"
 
 msgid "InfoBar ECM:"
-msgstr ""
+msgstr "ইনফোবার ইসিএম:"
 
 msgid "InfoBar PosterX:"
-msgstr ""
+msgstr "ইনফোবার পোস্টারএক্স:"
 
 msgid "InfoBar Style:"
-msgstr ""
+msgstr "ইনফোবার স্টাইল:"
 
 msgid "InfoBar Weather:"
-msgstr ""
+msgstr "ইনফোবার আবহাওয়া:"
 
 msgid "InfoBar Xtraevent:"
-msgstr ""
+msgstr "ইনফোবার এক্সট্রাইভেন্ট:"
 
 msgid "Infobar lower color."
-msgstr ""
+msgstr "ইনফোবার নিচের রঙ।"
 
 msgid "Infobar upper color."
-msgstr ""
+msgstr "ইনফোবার উপরের রঙ।"
 
 msgid "Infobar_Date1"
-msgstr ""
+msgstr "ইনফোবার_তারিখ ১"
 
 msgid "Infobar_Date2"
-msgstr ""
+msgstr "ইনফোবার_তারিখ2"
 
 msgid "Infobar_Date3"
-msgstr ""
+msgstr "ইনফোবার_তারিখ3"
 
 msgid "Infobar_Date4"
-msgstr ""
+msgstr "ইনফোবার_তারিখ4"
 
 msgid "Infobar_Date5"
-msgstr ""
+msgstr "ইনফোবার_তারিখ5"
 
 msgid "Infobar_MSNWeather"
-msgstr ""
+msgstr "ইনফোবার_এমএসএনওয়েদার"
 
 msgid "Infobar_NO_Date"
-msgstr ""
+msgstr "ইনফোবার_নো_তারিখ"
 
 msgid "Infobar_NO_Weather"
-msgstr ""
+msgstr "ইনফোবার_নো_ওয়েদার"
 
 msgid "Infobar_OAWeather"
 msgstr ""
 
 msgid "Ink Steel"
-msgstr ""
+msgstr "কালি ইস্পাত"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "ইনস লাইন"
 
 msgid "Installing updates..."
-msgstr ""
+msgstr "আপডেট ইনস্টল করা হচ্ছে..."
 
 msgid "Invalid color value. Use #RRGGBB or #AARRGGBB, for example ff0000 or #80ff0000"
-msgstr ""
+msgstr "অবৈধ রঙের মান। #RRGGBB বা #AARRGGBB ব্যবহার করুন, উদাহরণস্বরূপ ff0000 বা #80ff0000"
 
 msgid "Invalid color value. Use exactly 6 hex digits, for example ff0000"
-msgstr ""
+msgstr "অবৈধ রঙের মান। ঠিক 6 হেক্স ডিজিট ব্যবহার করুন, উদাহরণস্বরূপ ff0000"
 
 msgid "Invalid preset name."
-msgstr ""
+msgstr "অবৈধ প্রিসেট নাম।"
 
 msgid "Iron Blue"
-msgstr ""
+msgstr "আয়রন ব্লু"
 
 msgid "Iron Mist"
-msgstr ""
+msgstr "আয়রন মিস্ট"
 
 msgid "JSON Write Error:"
-msgstr ""
+msgstr "JSON লেখার ত্রুটি:"
 
 msgid "Jade Smoke"
-msgstr ""
+msgstr "জেড স্মোক"
 
 msgid "Key empty"
-msgstr ""
+msgstr "চাবি খালি"
 
 msgid "Key {} successfully loaded!"
-msgstr ""
+msgstr "কী {} সফলভাবে লোড হয়েছে!"
 
 msgid "KhalidArtboldRegular"
-msgstr ""
+msgstr "খালিদআর্টবোল্ড রেগুলার"
 
 msgid "Kilobit/s (Kb/s)"
-msgstr ""
+msgstr "কিলোবিট/সেকেন্ড (কেবি/সেকেন্ড)"
 
 msgid "Lavender Smoke"
-msgstr ""
+msgstr "ল্যাভেন্ডার স্মোক"
 
 msgid "Lead Blue"
-msgstr ""
+msgstr "সীসা নীল"
 
 msgid "Leaf Green"
-msgstr ""
+msgstr "সবুজ পাতা"
 
 msgid "LightGray"
-msgstr ""
+msgstr "হালকা ধূসর"
 
 msgid "LimeGreen"
-msgstr ""
+msgstr "চুন সবুজ"
 
 msgid "List background color."
-msgstr ""
+msgstr "পটভূমির রঙ তালিকা করুন।"
 
 msgid "Load from /tmp/{}key.txt"
-msgstr ""
+msgstr "/tmp/{}key.txt থেকে লোড করুন"
 
 msgid "Local build ({}) is newer than server build ({})."
-msgstr ""
+msgstr "স্থানীয় বিল্ড ({}) সার্ভার বিল্ড ({}) থেকে নতুন।"
 
 msgid "Location code"
-msgstr ""
+msgstr "অবস্থান কোড"
 
 msgid "Lucida"
-msgstr ""
+msgstr "লুসিডা"
 
 msgid "MENU: Settings"
-msgstr ""
+msgstr "মেনু: সেটিংস"
 
 msgid "MSN location search result"
-msgstr ""
+msgstr "MSN অবস্থান অনুসন্ধান ফলাফল"
 
 msgid "MV Boli"
-msgstr ""
+msgstr "এমভি বলি"
 
 msgid "Magenta"
-msgstr ""
+msgstr "ম্যাজেন্টা"
 
 msgid "Marine Gray"
-msgstr ""
+msgstr "সামুদ্রিক ধূসর"
 
 msgid "Medium Gray"
-msgstr ""
+msgstr "মাঝারি ধূসর"
 
 msgid "Megabit/s (Mb/s)"
-msgstr ""
+msgstr "মেগাবিট/সেকেন্ড (Mb/s)"
 
 msgid "Menu selector middle color."
-msgstr ""
+msgstr "মেনু নির্বাচক মধ্যম রঙ।"
 
 msgid "Menu selector upper and lower color."
-msgstr ""
+msgstr "মেনু নির্বাচক উপরের এবং নীচের রঙ."
 
 msgid "Midnight Ink"
-msgstr ""
+msgstr "মধ্যরাতের কালি"
 
 msgid "Midnight Navy"
-msgstr ""
+msgstr "মধ্যরাত নৌবাহিনী"
 
 msgid "Mild Steel"
-msgstr ""
+msgstr "হালকা ইস্পাত"
 
 msgid "Mint"
-msgstr ""
+msgstr "পুদিনা"
 
 msgid "Mist Blue"
-msgstr ""
+msgstr "মিস্ট ব্লু"
 
 msgid "Mix1"
-msgstr ""
+msgstr "মিক্স 1"
 
 msgid "Moss Green"
-msgstr ""
+msgstr "মস সবুজ"
 
 msgid "Muted Brown"
-msgstr ""
+msgstr "নিঃশব্দ ব্রাউন"
 
 msgid "Muted Crimson"
-msgstr ""
+msgstr "নিঃশব্দ ক্রিমসন"
 
 msgid "Muted Denim"
-msgstr ""
+msgstr "নিঃশব্দ ডেনিম"
 
 msgid "Muted Emerald"
-msgstr ""
+msgstr "নিঃশব্দ পান্না"
 
 msgid "Muted Fog"
-msgstr ""
+msgstr "নিঃশব্দ কুয়াশা"
 
 msgid "Muted Gold"
-msgstr ""
+msgstr "নিঃশব্দ গোল্ড"
 
 msgid "Muted Graphite"
-msgstr ""
+msgstr "নিঃশব্দ গ্রাফাইট"
 
 msgid "Muted Green"
-msgstr ""
+msgstr "নিঃশব্দ সবুজ"
 
 msgid "Muted Haze"
-msgstr ""
+msgstr "নিঃশব্দ ধোঁয়াশা"
 
 msgid "Muted Indigo Gray"
-msgstr ""
+msgstr "নিঃশব্দ ইন্ডিগো গ্রে"
 
 msgid "Muted Navy"
-msgstr ""
+msgstr "নিঃশব্দ নৌবাহিনী"
 
 msgid "Muted Purple"
-msgstr ""
+msgstr "নিঃশব্দ বেগুনি"
 
 msgid "Muted Purple Gray"
-msgstr ""
+msgstr "নিঃশব্দ বেগুনি ধূসর"
 
 msgid "Muted Rose"
-msgstr ""
+msgstr "নিঃশব্দ রোজ"
 
 msgid "Muted Saffron"
-msgstr ""
+msgstr "নিঃশব্দ জাফরান"
 
 msgid "Muted Slate"
-msgstr ""
+msgstr "নিঃশব্দ স্লেট"
 
 msgid "Muted Storm"
-msgstr ""
+msgstr "নিঃশব্দ ঝড়"
 
 msgid "Muted Violet"
-msgstr ""
+msgstr "নিঃশব্দ ভায়োলেট"
 
 msgid "Navy Slate"
-msgstr ""
+msgstr "নেভি স্লেট"
 
 msgid "Near Black Blue"
-msgstr ""
+msgstr "কালো নীলের কাছে"
 
 msgid "Neutral Gray"
-msgstr ""
+msgstr "নিরপেক্ষ ধূসর"
 
 msgid "Night Navy"
-msgstr ""
+msgstr "রাতের নৌবাহিনী"
 
 msgid "No active providers enabled"
-msgstr ""
+msgstr "কোন সক্রিয় প্রদানকারী সক্রিয়"
 
 msgid "No description available for this option."
-msgstr ""
+msgstr "এই বিকল্পের জন্য কোন বিবরণ উপলব্ধ."
 
 msgid "No saved {} color style available to import."
-msgstr ""
+msgstr "আমদানি করার জন্য কোনো সংরক্ষিত {} রঙ শৈলী উপলব্ধ নেই৷"
 
 msgid "No saved {} color styles"
-msgstr ""
+msgstr "কোন সংরক্ষিত {} রঙ শৈলী"
 
 msgid "Nord Blue Gray"
-msgstr ""
+msgstr "নর্ড ব্লু গ্রে"
 
 msgid "Nord Gray"
-msgstr ""
+msgstr "নর্ড গ্রে"
 
 msgid "OFF"
-msgstr ""
+msgstr "বন্ধ"
 
 msgid "OK"
-msgstr ""
+msgstr "ঠিক আছে"
 
 msgid "OMDB Only"
-msgstr ""
+msgstr "শুধুমাত্র OMDB"
 
 msgid "ON"
-msgstr ""
+msgstr "চালু"
 
 msgid "Obsidian Blue"
-msgstr ""
+msgstr "অবসিডিয়ান ব্লু"
 
 msgid "Ocean Mist"
-msgstr ""
+msgstr "মহাসাগরের কুয়াশা"
 
 msgid "Ocean Steel"
-msgstr ""
+msgstr "মহাসাগর ইস্পাত"
 
 msgid "Off"
-msgstr ""
+msgstr "বন্ধ"
 
 msgid "Old Gold"
-msgstr ""
+msgstr "পুরাতন সোনা"
 
 msgid "OpenBH / OpenViX / TeamBlue (New Images Group)"
-msgstr ""
+msgstr "OpenBH / OpenViX / TeamBlue (নতুন চিত্র গ্রুপ)"
 
 msgid "OpenPLi / Satlodge (OpenPLi Group)"
-msgstr ""
+msgstr "OpenPLi / Satlodge (OpenPLi গ্রুপ)"
 
 msgid "Orange"
-msgstr ""
+msgstr "কমলা"
 
 msgid "Original Name (Native)"
-msgstr ""
+msgstr "আসল নাম (নেটিভ)"
 
 msgid "Oxblood"
-msgstr ""
+msgstr "অক্সব্লাড"
 
 msgid "Pale Slate"
-msgstr ""
+msgstr "ফ্যাকাশে স্লেট"
 
 msgid "Personal API key for {}"
-msgstr ""
+msgstr "{} এর জন্য ব্যক্তিগত API কী"
 
 msgid "Petrol Blue"
-msgstr ""
+msgstr "পেট্রোল নীল"
 
 msgid "Pine Night"
-msgstr ""
+msgstr "পাইন নাইট"
 
 msgid "Pink"
-msgstr ""
+msgstr "গোলাপী"
 
 msgid "Please enter a valid city name."
-msgstr ""
+msgstr "একটি বৈধ শহরের নাম লিখুন."
 
 msgid "Please enter a valid location code for the city."
-msgstr ""
+msgstr "শহরের জন্য একটি বৈধ অবস্থান কোড লিখুন."
 
 msgid "Plum Smoke"
-msgstr ""
+msgstr "প্লাম স্মোক"
 
 msgid "Poster download error: {}"
-msgstr ""
+msgstr "পোস্টার ডাউনলোড ত্রুটি: {}"
 
 msgid "Progress bar background color."
-msgstr ""
+msgstr "অগ্রগতি বার পটভূমির রঙ।"
 
 msgid "Purple"
-msgstr ""
+msgstr "বেগুনি"
 
 msgid "Really delete this WeatherPlugin Entry?"
-msgstr ""
+msgstr "সত্যিই এই WeatherPlugin এন্ট্রি মুছে ফেলবেন?"
 
 msgid "Red"
-msgstr ""
+msgstr "লাল"
 
 msgid "Red Night"
-msgstr ""
+msgstr "লাল রাত"
 
 msgid "Remove all png (poster - backdrop) (OK)"
-msgstr ""
+msgstr "সমস্ত png সরান (পোস্টার - ব্যাকড্রপ) (ঠিক আছে)"
 
 msgid "Restart GUI now?"
-msgstr ""
+msgstr "এখন GUI পুনরায় চালু করবেন?"
 
 msgid "Rosewood"
-msgstr ""
+msgstr "রোজউড"
 
 msgid "Rounded icon background lower color."
-msgstr ""
+msgstr "গোলাকার আইকন ব্যাকগ্রাউন্ড নিচের রঙ।"
 
 msgid "Rounded icon background upper color."
-msgstr ""
+msgstr "গোলাকার আইকন ব্যাকগ্রাউন্ড উপরের রঙ।"
 
 msgid "Save"
-msgstr ""
+msgstr "সংরক্ষণ করুন"
 
 msgid "Save Selected"
-msgstr ""
+msgstr "নির্বাচিত সংরক্ষণ করুন"
 
 msgid "Screen background lower color."
-msgstr ""
+msgstr "পর্দার পটভূমি নিম্ন রঙ।"
 
 msgid "Screen background middle color."
-msgstr ""
+msgstr "পর্দার পটভূমির মধ্যম রঙ।"
 
 msgid "Screen background upper color."
-msgstr ""
+msgstr "পর্দার পটভূমির উপরের রঙ।"
 
 msgid "Screen icon background left color."
-msgstr ""
+msgstr "স্ক্রীন আইকন ব্যাকগ্রাউন্ডের বাম রঙ।"
 
 msgid "Screen icon background right color."
-msgstr ""
+msgstr "স্ক্রীন আইকন ব্যাকগ্রাউন্ড ডান রঙ."
 
 msgid "Sea Ash"
-msgstr ""
+msgstr "সাগর ছাই"
 
 msgid "Sea Slate"
-msgstr ""
+msgstr "সমুদ্র স্লেট"
 
 msgid "Search Code"
-msgstr ""
+msgstr "অনুসন্ধান কোড"
 
 msgid "Search Method"
-msgstr ""
+msgstr "অনুসন্ধান পদ্ধতি"
 
 msgid "Search Query:"
-msgstr ""
+msgstr "অনুসন্ধান ক্যোয়ারী:"
 
 msgid "Search TMDb"
-msgstr ""
+msgstr "TMDb অনুসন্ধান করুন"
 
 msgid "Second Infobar background color."
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবারের পটভূমির রঙ।"
 
 msgid "Second Infobar_MSNWeather"
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবার_এমএসএনওয়েদার"
 
 msgid "Second Infobar_NO_Weather"
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবার_নো_ওয়েদার"
 
 msgid "Second Infobar_OAWeather"
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবার_OAWeather"
 
 msgid "SecondInfobar Posterx:"
-msgstr ""
+msgstr "সেকেন্ড ইনফোবার পোস্টারএক্স:"
 
 msgid "SecondInfobar Style:"
-msgstr ""
+msgstr "সেকেন্ড ইনফোবার স্টাইল:"
 
 msgid "SecondInfobar Weather:"
-msgstr ""
+msgstr "সেকেন্ড ইনফোবার আবহাওয়া:"
 
 msgid "SecondInfobar Xtraevent:"
-msgstr ""
+msgstr "সেকেন্ড ইনফোবার এক্সট্রাইভেন্ট:"
 
 msgid "Segoe UI light"
-msgstr ""
+msgstr "সেগোই ইউআই লাইট"
 
 msgid "Select Backup Folder"
-msgstr ""
+msgstr "ব্যাকআপ ফোল্ডার নির্বাচন করুন"
 
 msgid "Select EMC style."
-msgstr ""
+msgstr "EMC শৈলী নির্বাচন করুন।"
 
 msgid "Select Folder"
-msgstr ""
+msgstr "ফোল্ডার নির্বাচন করুন"
 
 msgid "Select PosterX display mode for the infobar."
-msgstr ""
+msgstr "ইনফোবারের জন্য PosterX প্রদর্শন মোড নির্বাচন করুন।"
 
 msgid "Select XtraEvent display mode for the infobar."
-msgstr ""
+msgstr "ইনফোবারের জন্য XtraEvent প্রদর্শন মোড নির্বাচন করুন।"
 
 msgid "Select Your Font:"
-msgstr ""
+msgstr "আপনার ফন্ট নির্বাচন করুন:"
 
 msgid "Select a saved Custom1 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr ""
+msgstr "/etc/enigma2/aglare থেকে একটি সংরক্ষিত কাস্টম1 JSON রঙের শৈলী নির্বাচন করুন, তারপর এটি আমদানি করতে ওকে টিপুন।"
 
 msgid "Select a saved Custom2 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr ""
+msgstr "/etc/enigma2/aglare থেকে একটি সংরক্ষিত Custom2 JSON রঙের শৈলী নির্বাচন করুন, তারপর এটি আমদানি করতে ওকে টিপুন।"
 
 msgid "Select channel list event description color."
-msgstr ""
+msgstr "চ্যানেল তালিকা ইভেন্ট বিবরণ রঙ নির্বাচন করুন."
 
 msgid "Select channel list foreground color."
-msgstr ""
+msgstr "চ্যানেল তালিকার অগ্রভাগের রঙ নির্বাচন করুন।"
 
 msgid "Select channel list selected foreground color."
-msgstr ""
+msgstr "চ্যানেল তালিকা নির্বাচিত অগ্রভাগের রঙ নির্বাচন করুন।"
 
 msgid "Select channel selection screen style."
-msgstr ""
+msgstr "চ্যানেল নির্বাচন পর্দা শৈলী নির্বাচন করুন."
 
 msgid "Select event view screen style."
-msgstr ""
+msgstr "ইভেন্ট ভিউ স্ক্রীন শৈলী নির্বাচন করুন।"
 
 msgid "Select infobar layout. Style5 forces ECM off and allows only OFF/CD poster modes. Style6 forces ECM, PosterX, and Xtraevent off."
-msgstr ""
+msgstr "ইনফোবার লেআউট নির্বাচন করুন। Style5 জোর করে ECM বন্ধ করে এবং শুধুমাত্র বন্ধ/CD পোস্টার মোডের অনুমতি দেয়। Style6 জোর করে ECM, PosterX, এবং Xtraevent বন্ধ করে।"
 
 msgid "Select second infobar layout."
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবার লেআউট নির্বাচন করুন।"
 
 msgid "Select selected channel event description color."
-msgstr ""
+msgstr "নির্বাচিত চ্যানেল ইভেন্ট বর্ণনার রঙ নির্বাচন করুন।"
 
 msgid "Select the base skin layout file."
-msgstr ""
+msgstr "বেস স্কিন লেআউট ফাইল নির্বাচন করুন।"
 
 msgid "Select the font package used by the generated skin."
-msgstr ""
+msgstr "উত্পন্ন ত্বক দ্বারা ব্যবহৃত ফন্ট প্যাকেজ নির্বাচন করুন."
 
 msgid "Select the main color preset used by the skin."
-msgstr ""
+msgstr "ত্বক দ্বারা ব্যবহৃত প্রধান রঙের প্রিসেট নির্বাচন করুন।"
 
 msgid "Select the target image base group (OpenPLi vs Others)."
-msgstr ""
+msgstr "টার্গেট ইমেজ বেস গ্রুপ নির্বাচন করুন (OpenPLi বনাম অন্যান্য)।"
 
 msgid "Select transparency for odem{}."
-msgstr ""
+msgstr "ওডেমের জন্য স্বচ্ছতা নির্বাচন করুন{}।"
 
 msgid "Select volume bar style."
-msgstr ""
+msgstr "ভলিউম বার শৈলী নির্বাচন করুন।"
 
 msgid "Select weather provider display for the infobar."
-msgstr ""
+msgstr "ইনফোবারের জন্য আবহাওয়া প্রদানকারী প্রদর্শন নির্বাচন করুন।"
 
 msgid "Select weather provider display for the second infobar."
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবারের জন্য আবহাওয়া প্রদানকারী প্রদর্শন নির্বাচন করুন।"
 
 msgid "Select which ECM fields are shown when the skin uses Short MYEMUPARA."
-msgstr ""
+msgstr "যখন ত্বক সংক্ষিপ্ত MYEMUPARA ব্যবহার করে তখন কোন ECM ক্ষেত্রগুলি দেখানো হয় তা নির্বাচন করুন।"
 
 msgid "Select {} color style to import"
-msgstr ""
+msgstr "আমদানি করতে {} রঙের শৈলী নির্বাচন করুন"
 
 msgid "Set Time our - minute for Backdrop download"
-msgstr ""
+msgstr "ব্যাকড্রপ ডাউনলোডের জন্য আমাদের - মিনিট সেট করুন"
 
 msgid "Set Time our - minute for Poster download"
-msgstr ""
+msgstr "পোস্টার ডাউনলোডের জন্য আমাদের - মিনিট সেট করুন"
 
 msgid "Settings Apikey Server"
-msgstr ""
+msgstr "সেটিংস Apikey সার্ভার"
 
 msgid "Setup Aglare Skin Info"
-msgstr ""
+msgstr "Aglare ত্বকের তথ্য সেটআপ করুন"
 
 msgid "Shadow Blue"
-msgstr ""
+msgstr "ছায়া নীল"
 
 msgid "Show backdrop from movie in local folder"
-msgstr ""
+msgstr "স্থানীয় ফোল্ডারে চলচ্চিত্র থেকে ব্যাকড্রপ দেখান"
 
 msgid "Show cast from movie in local folder"
-msgstr ""
+msgstr "স্থানীয় ফোল্ডারে মুভি থেকে কাস্ট দেখান"
 
 msgid "Show genre icons for events."
-msgstr ""
+msgstr "ইভেন্টের জন্য জেনার আইকন দেখান।"
 
 msgid "Show info from movie in local folder"
-msgstr ""
+msgstr "স্থানীয় ফোল্ডারে চলচ্চিত্র থেকে তথ্য দেখান"
 
 msgid "Show logo from movie in local folder"
-msgstr ""
+msgstr "স্থানীয় ফোল্ডারে মুভি থেকে লোগো দেখান"
 
 msgid "Show or hide ECM information in the infobar."
-msgstr ""
+msgstr "ইনফোবারে ECM তথ্য দেখান বা লুকান।"
 
 msgid "Show or hide PosterX in the second infobar."
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবারে PosterX দেখান বা লুকান।"
 
 msgid "Show or hide XtraEvent in the second infobar."
-msgstr ""
+msgstr "দ্বিতীয় ইনফোবারে XtraEvent দেখান বা লুকান।"
 
 msgid "Show or hide the date panel in the infobar."
-msgstr ""
+msgstr "ইনফোবারে তারিখ প্যানেল দেখান বা লুকান।"
 
 msgid "Show parental from movie in local folder"
-msgstr ""
+msgstr "স্থানীয় ফোল্ডারে চলচ্চিত্র থেকে অভিভাবক দেখান"
 
 msgid "Show parental guidance icons on events."
-msgstr ""
+msgstr "ইভেন্টে অভিভাবকীয় নির্দেশিকা আইকন দেখান।"
 
 msgid "Show poster from movie in local folder"
-msgstr ""
+msgstr "স্থানীয় ফোল্ডারে সিনেমা থেকে পোস্টার দেখান"
 
 msgid "Show star from movie in local folder"
-msgstr ""
+msgstr "স্থানীয় ফোল্ডারে চলচ্চিত্র থেকে তারকা দেখান"
 
 msgid "Sienna"
-msgstr ""
+msgstr "সিয়েনা"
 
 msgid "Silver Haze"
-msgstr ""
+msgstr "সিলভার হ্যাজ"
 
 msgid "Silver Slate"
-msgstr ""
+msgstr "সিলভার স্লেট"
 
 msgid "Skin Style:"
-msgstr ""
+msgstr "ত্বকের ধরন:"
 
 msgid "Skin not supported."
-msgstr ""
+msgstr "চামড়া সমর্থিত নয়।"
 
 msgid "Slate Carbon"
-msgstr ""
+msgstr "স্লেট কার্বন"
 
 msgid "Slate Dust"
-msgstr ""
+msgstr "স্লেট ডাস্ট"
 
 msgid "Slate Fog"
-msgstr ""
+msgstr "স্লেট কুয়াশা"
 
 msgid "Slate Haze"
-msgstr ""
+msgstr "স্লেট হ্যাজ"
 
 msgid "Slate Mist"
-msgstr ""
+msgstr "স্লেট মিস্ট"
 
 msgid "Slate Night"
-msgstr ""
+msgstr "স্লেট নাইট"
 
 msgid "Slate Ocean"
-msgstr ""
+msgstr "স্লেট মহাসাগর"
 
 msgid "Smoke Slate"
-msgstr ""
+msgstr "স্মোক স্লেট"
 
 msgid "Smoky Blue"
-msgstr ""
+msgstr "স্মোকি ব্লু"
 
 msgid "Smoky Steel"
-msgstr ""
+msgstr "স্মোকি স্টিল"
 
 msgid "SnowWhite"
-msgstr ""
+msgstr "স্নোহোয়াইট"
 
 msgid "Soft Black"
-msgstr ""
+msgstr "নরম কালো"
 
 msgid "Soft Brown"
-msgstr ""
+msgstr "নরম ব্রাউন"
 
 msgid "Soft Green"
-msgstr ""
+msgstr "নরম সবুজ"
 
 msgid "Soft Haze"
-msgstr ""
+msgstr "নরম ধোঁয়াশা"
 
 msgid "Soft Indigo"
-msgstr ""
+msgstr "নরম নীল"
 
 msgid "Soft Lavender"
-msgstr ""
+msgstr "নরম ল্যাভেন্ডার"
 
 msgid "Soft Mustard"
-msgstr ""
+msgstr "নরম সরিষা"
 
 msgid "Soft Red"
-msgstr ""
+msgstr "নরম লাল"
 
 msgid "Soft Steel"
-msgstr ""
+msgstr "নরম ইস্পাত"
 
 msgid "Soft White"
-msgstr ""
+msgstr "নরম সাদা"
 
 msgid "Source +  Caid + Reader + Protocol + Server + Port + ECM Time"
-msgstr ""
+msgstr "উত্স + Caid + রিডার + প্রোটোকল + সার্ভার + পোর্ট + ECM সময়"
 
 msgid "Source + Caid + Reader + ECM Time"
-msgstr ""
+msgstr "উত্স + Caid + পাঠক + ECM সময়"
 
 msgid "Source + Prov + Caid + ECM Time"
-msgstr ""
+msgstr "উত্স + Prov + Caid + ECM সময়"
 
 msgid "Source + Prov + Caid + Protocol + Server + Port + ECM Time"
-msgstr ""
+msgstr "উত্স + Prov + Caid + প্রোটোকল + সার্ভার + পোর্ট + ECM সময়"
 
 msgid "Source + Prov + Caid + Server + Port + ECM Time"
-msgstr ""
+msgstr "উৎস + Prov + Caid + সার্ভার + পোর্ট + ECM সময়"
 
 msgid "Standard Name (Translated)"
-msgstr ""
+msgstr "স্ট্যান্ডার্ড নাম (অনুবাদিত)"
 
 msgid "Start downloading backdrop immediately"
-msgstr ""
+msgstr "অবিলম্বে ব্যাকড্রপ ডাউনলোড করা শুরু করুন"
 
 msgid "Start downloading poster immediately"
-msgstr ""
+msgstr "অবিলম্বে পোস্টার ডাউনলোড করা শুরু করুন"
 
 msgid "Steel Fog"
-msgstr ""
+msgstr "ইস্পাত কুয়াশা"
 
 msgid "Steel Gray"
-msgstr ""
+msgstr "ইস্পাত ধূসর"
 
 msgid "Steel Mist"
-msgstr ""
+msgstr "ইস্পাত কুয়াশা"
 
 msgid "SteelBlue"
-msgstr ""
+msgstr "ইস্পাত নীল"
 
 msgid "Stone Blue"
-msgstr ""
+msgstr "স্টোন ব্লু"
 
 msgid "Stone Gray"
-msgstr ""
+msgstr "স্টোন গ্রে"
 
 msgid "Storm Blue"
-msgstr ""
+msgstr "ঝড় নীল"
 
 msgid "Storm Fog"
-msgstr ""
+msgstr "ঝড় কুয়াশা"
 
 msgid "Storm Gray"
-msgstr ""
+msgstr "ঝড় ধূসর"
 
 msgid "Storm Haze"
-msgstr ""
+msgstr "ঝড়ের ধোঁয়াশা"
 
 msgid "Storm Mist"
-msgstr ""
+msgstr "ঝড়ের কুয়াশা"
 
 msgid "Style2"
-msgstr ""
+msgstr "স্টাইল2"
 
 msgid "Style3"
-msgstr ""
+msgstr "শৈলী3"
 
 msgid "Style4"
-msgstr ""
+msgstr "শৈলী4"
 
 msgid "Style5 CD"
-msgstr ""
+msgstr "স্টাইল5 সিডি"
 
 msgid "Style6"
-msgstr ""
+msgstr "শৈলী6"
 
 msgid "Support E2iplayer Skins:"
-msgstr ""
+msgstr "E2iplayer স্কিন সমর্থন করুন:"
 
 msgid "System"
-msgstr ""
+msgstr "সিস্টেম"
 
 msgid "TMDB Only"
-msgstr ""
+msgstr "শুধুমাত্র TMDB"
 
 msgid "Tailwind Gray"
-msgstr ""
+msgstr "টেলউইন্ড গ্রে"
 
 msgid "Teal"
-msgstr ""
+msgstr "টিল"
 
 msgid "Teal Smoke"
-msgstr ""
+msgstr "টিল স্মোক"
 
 msgid "The file %s is empty."
-msgstr ""
+msgstr "%s ফাইলটি খালি।"
 
 msgid "The file %s was not found."
-msgstr ""
+msgstr "%s ফাইলটি পাওয়া যায়নি।"
 
 msgid "This operation assign device path folder to download image (Poster-Backdrop)"
-msgstr ""
+msgstr "এই অপারেশনটি ছবি ডাউনলোড করার জন্য ডিভাইস পাথ ফোল্ডার বরাদ্দ করে (পোস্টার-ব্যাকড্রপ)"
 
 msgid "This operation remove all png from folder device (Poster-Backdrop)"
-msgstr ""
+msgstr "এই অপারেশনটি ফোল্ডার ডিভাইস থেকে সমস্ত png মুছে ফেলুন (পোস্টার-ব্যাকড্রপ)"
 
 msgid "Title Preference"
-msgstr ""
+msgstr "শিরোনাম পছন্দ"
 
 msgid "Tomato"
-msgstr ""
+msgstr "টমেটো"
 
 msgid "Transparency percent for odem{}. 0 = OFF, 100 = fully transparent."
-msgstr ""
+msgstr "ওডেমের জন্য স্বচ্ছতা শতাংশ{}। 0 = বন্ধ, 100 = সম্পূর্ণ স্বচ্ছ।"
 
 msgid "Twilight Blue"
-msgstr ""
+msgstr "গোধূলি নীল"
 
 msgid "Update URL not initialised  open the plugin once from the Plugins menu first."
-msgstr ""
+msgstr "আপডেট URL আরম্ভ করা হয়নি প্রথমে প্লাগইন মেনু থেকে একবার প্লাগইন খুলুন।"
 
 msgid "Update check failed: {}"
-msgstr ""
+msgstr "আপডেট চেক ব্যর্থ হয়েছে: {}"
 
 msgid "Update package not found!"
-msgstr ""
+msgstr "আপডেট প্যাকেজ পাওয়া যায়নি!"
 
 msgid "Violet Night"
-msgstr ""
+msgstr "ভায়োলেট নাইট"
 
 msgid "VolumeBar Style:"
-msgstr ""
+msgstr "ভলিউমবার স্টাইল:"
 
 msgid "Walnut"
-msgstr ""
+msgstr "আখরোট"
 
 msgid "Warm Brass"
-msgstr ""
+msgstr "উষ্ণ পিতল"
 
 msgid "Warm Brown"
-msgstr ""
+msgstr "উষ্ণ বাদামী"
 
 msgid "WeatherPlugin: Edit Entry"
-msgstr ""
+msgstr "WeatherPlugin: এন্ট্রি সম্পাদনা করুন"
 
 msgid "WeatherPlugin: List of Entries"
-msgstr ""
+msgstr "WeatherPlugin: এন্ট্রির তালিকা"
 
 msgid "White"
-msgstr ""
+msgstr "সাদা"
 
 msgid "YellowGreen"
-msgstr ""
+msgstr "হলুদ সবুজ"
 
 msgid "You already have the latest version ({})."
-msgstr ""
+msgstr "আপনার কাছে ইতিমধ্যেই সর্বশেষ সংস্করণ ({}) রয়েছে৷"
 
 msgid "You need to enter a valid city name before you can search for the location code."
-msgstr ""
+msgstr "অবস্থান কোড অনুসন্ধান করার আগে আপনাকে একটি বৈধ শহরের নাম লিখতে হবে।"
 
 msgid "imperial system"
-msgstr ""
+msgstr "সাম্রাজ্য ব্যবস্থা"
 
 msgid "metric system"
-msgstr ""
+msgstr "মেট্রিক সিস্টেম"
 
 msgid "odem{} color"
-msgstr ""
+msgstr "ওডেম{} রঙ"
 
 msgid "odem{} transparency"
-msgstr ""
+msgstr "odem{} স্বচ্ছতা"
 
 msgid "odem{} transparency %"
-msgstr ""
+msgstr "ওডেম{} স্বচ্ছতা %"
 
 msgid "play/show Files"
-msgstr ""
+msgstr "ফাইল চালান/দেখান"
 
 msgid "volume2"
-msgstr ""
+msgstr "ভলিউম2"
 
 msgid "window title foreground."
-msgstr ""
+msgstr "উইন্ডো শিরোনাম অগ্রভাগ।"
 
 msgid "{} color style exported to {}"
-msgstr ""
+msgstr "{} রঙ শৈলী {} এ রপ্তানি করা হয়েছে"
 
 msgid "{} preset data was not found in this file."
-msgstr ""
+msgstr "এই ফাইলে {} প্রিসেট ডেটা পাওয়া যায়নি।"

@@ -13,7 +13,7 @@ msgid "%s key imported!"
 msgstr ""
 
 msgid "1 poster"
-msgstr ""
+msgstr "1 پوستر"
 
 msgid "ALL1"
 msgstr ""
@@ -22,7 +22,7 @@ msgid "ALL2"
 msgstr ""
 
 msgid "API Key Search"
-msgstr ""
+msgstr "جستجوی کلید API"
 
 msgid "Activate/Deactivate ELCINEMA"
 msgstr ""
@@ -37,7 +37,7 @@ msgid "Activate/Deactivate MOLOTOV"
 msgstr ""
 
 msgid "Activate/Deactivate PROGRAMMETV"
-msgstr ""
+msgstr "فعال/غیرفعال کردن PROGRAMMETV"
 
 msgid "Activate/Deactivate {}"
 msgstr ""
@@ -46,13 +46,13 @@ msgid "Add"
 msgstr ""
 
 msgid "Aero Slate"
-msgstr ""
+msgstr "تخته سنگ آئرو"
 
 msgid "All png are removed from folder!"
 msgstr ""
 
 msgid "Anthracite Blue"
-msgstr ""
+msgstr "آبی آنتراسیت"
 
 msgid "Arctic Blue Gray"
 msgstr ""
@@ -88,13 +88,13 @@ msgid "Backdrop download error: {}"
 msgstr ""
 
 msgid "Backup Folder (Press OK to change)"
-msgstr ""
+msgstr "پوشه پشتیبان (برای تغییر OK را فشار دهید)"
 
 msgid "BebasNeue"
 msgstr ""
 
 msgid "Bitrate Unit:"
-msgstr ""
+msgstr "واحد میزان بیت:"
 
 msgid "Black"
 msgstr ""
@@ -109,10 +109,10 @@ msgid "Blue Charcoal"
 msgstr ""
 
 msgid "Blue Fog"
-msgstr ""
+msgstr "مه آبی"
 
 msgid "Blue Granite"
-msgstr ""
+msgstr "گرانیت آبی"
 
 msgid "Blue Gray"
 msgstr ""
