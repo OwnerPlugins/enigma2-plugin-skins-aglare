@@ -463,7 +463,8 @@ def free_up_space(path, min_space_mb, media_type, strategy="oldest_first"):
                 remove(file_info["path"])
                 freed_mb += file_mb
                 logger.info(
-                    f"free_up_space Purged {media_type}: {basename(file_info['path'])} "f"({file_mb:.1f}MB, {ctime(file_info['mtime'])})")
+                    f"free_up_space Purged {media_type}: {basename(file_info['path'])} "
+                    f"({file_mb:.1f}MB, {ctime(file_info['mtime'])})")
             except Exception as e:
                 logger.error(
                     f"free_up_space Purge failed for {file_info['path']}: {str(e)}")
