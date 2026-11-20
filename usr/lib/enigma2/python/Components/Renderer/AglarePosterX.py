@@ -315,10 +315,7 @@ class AglarePosterX(Renderer):
             skip_title, skip_word = should_skip_title(self.pstcanal)
             if skip_title:
                 logger.info(
-                    f"Skipping before queue: original='{
-                        self.canal[2]}' | final_search_title='{
-                        self.pstcanal}' | matched_exclusion='{skip_word}' | channel='{
-                        self.canal[0]}'")
+                    f"Skipping before queue: original='{self.canal[2]}' | final_search_title='{self.pstcanal}' | matched_exclusion='{skip_word}' | channel='{self.canal[0]}'")
                 return
 
             if self.pstcanal in self.poster_cache:
@@ -550,10 +547,7 @@ class PosterDB(AgpDownloadThread):
             skip_title, skip_word = should_skip_title(self.pstcanal)
             if skip_title:
                 logger.info(
-                    f"Skipping title: original='{
-                        canal[2]}' | final_search_title='{
-                        self.pstcanal}' | matched_exclusion='{skip_word}' | channel='{
-                        canal[0]}'")
+                    f"Skipping title: original='{canal[2]}' | final_search_title='{self.pstcanal}' | matched_exclusion='{skip_word}' | channel='{canal[0]}'")
                 return
 
             poster_path = join(POSTER_FOLDER, f"{self.pstcanal}.jpg")
@@ -575,12 +569,7 @@ class PosterDB(AgpDownloadThread):
                     return
 
                 logger.info(
-                    f"Starting download: original='{
-                        canal[2]}' | clean_for_tvdb='{
-                        clean_for_tvdb(
-                            canal[5])}' | final_search_title='{
-                        self.pstcanal}' | channel='{
-                        canal[0]}'")
+                    f"Starting download: original='{canal[2]}' | clean_for_tvdb='{clean_for_tvdb(canal[5])}' | final_search_title='{self.pstcanal}' | channel='{canal[0]}'")
 
                 # Sort providers by configured priority
                 sorted_providers = sorted(
@@ -752,9 +741,7 @@ class PosterAutoDB(AgpDownloadThread):
             self.scheduled_hour = int(scan_time[0])
             self.scheduled_minute = int(scan_time[1])
             logger.debug(
-                f"Configured time: {
-                    self.scheduled_hour:02d}:{
-                    self.scheduled_minute:02d}")
+                f"Configured time: {self.scheduled_hour:02d}:{self.scheduled_minute:02d}")
         except Exception as e:
             logger.error("Error parsing scan time: " + str(e))
 
@@ -940,8 +927,7 @@ class PosterAutoDB(AgpDownloadThread):
                                     self.apdb[service_ref] = service_ref
                 except Exception as e:
                     self._log_error(
-                        f"Error reading bouquet {bouquet}: {
-                            str(e)}")
+                        f"Error reading bouquet {bouquet}: {str(e)}")
 
         return list(services.keys())
 
@@ -969,8 +955,7 @@ class PosterAutoDB(AgpDownloadThread):
 
             except Exception as e:
                 self._log_error(
-                    f"Error processing service {service_ref}: {
-                        str(e)}")
+                    f"Error processing service {service_ref}: {str(e)}")
                 print_exc()
 
     def _prepare_canal_data(self, service_ref, event):
@@ -1033,10 +1018,7 @@ class PosterAutoDB(AgpDownloadThread):
         skip_title, skip_word = should_skip_title(self.pstcanal)
         if skip_title:
             logger.info(
-                f"Skipping auto-download: original='{
-                    canal[2]}' | final_search_title='{
-                    self.pstcanal}' | matched_exclusion='{skip_word}' | channel='{
-                    canal[0]}'")
+                f"Skipping auto-download: original='{canal[2]}' | final_search_title='{self.pstcanal}' | matched_exclusion='{skip_word}' | channel='{canal[0]}'")
             return False
 
         if self.poster_download_count >= self.max_posters:

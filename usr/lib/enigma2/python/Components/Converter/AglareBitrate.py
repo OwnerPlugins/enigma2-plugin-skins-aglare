@@ -180,8 +180,7 @@ class AglareBitrate(Converter, object):
     def doSuspend(self, suspended):
         if DBG:
             agb_debug(
-                f"[AglareBitrate:suspended] self.is_suspended={
-                    self.is_suspended}, suspended={suspended}")
+                f"[AglareBitrate:suspended] self.is_suspended={self.is_suspended}, suspended={suspended}")
         if not suspended:
             self.is_suspended = False
             self.start_timer.start(100, True)
@@ -268,8 +267,7 @@ class AglareBitrate(Converter, object):
     def app_closed(self, retval):
         if DBG:
             agb_debug(
-                f"[AglareBitrate:app_closed] retval={retval}, is_suspended={
-                    self.is_suspended}")
+                f"[AglareBitrate:app_closed] retval={retval}, is_suspended={self.is_suspended}")
         self.is_running = False
         if self.is_suspended:
             self.clear_values()

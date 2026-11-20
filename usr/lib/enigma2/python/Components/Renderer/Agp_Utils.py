@@ -119,8 +119,7 @@ def verify_backdrop_integrity(self):
     for title, entry in list(self.cache.cache.items()):
         if not exists(entry['path']):
             logger.warning(
-                f"verify_backdrop_integrity Missing file: {
-                    entry['path']}")
+                f"verify_backdrop_integrity Missing file: {entry['path']}")
             del self.cache.cache[title]
             missing_files += 1
 
@@ -259,8 +258,7 @@ def clean_for_tvdb_optimized(title):
         return convtext(title) or ""
     except Exception as e:
         logger.error(
-            f"clean_for_tvdb_optimized Error cleaning title: {
-                str(e)}")
+            f"clean_for_tvdb_optimized Error cleaning title: {str(e)}")
         return ""
 
 
@@ -396,9 +394,7 @@ def clean_for_tvdb(title):
         return convtext(title) or ""
     except Exception as e:
         logger.error(
-            f"clean_for_tvdb Error cleaning title '{
-                str(title)}': {
-                str(e)}")
+            f"clean_for_tvdb Error cleaning title '{str(title)}': {str(e)}")
         return ""
 
 
@@ -423,8 +419,7 @@ def check_disk_space(
             return True
 
         logger.warning(
-            f"check_disk_space Low space in {path}: {
-                free_mb:.1f}MB < {min_space_mb}MB")
+            f"check_disk_space Low space in {path}: {free_mb:.1f}MB < {min_space_mb}MB")
 
         if media_type:
             return free_up_space(
@@ -471,14 +466,11 @@ def free_up_space(path, min_space_mb, media_type, strategy="oldest_first"):
                     f"free_up_space Purged {media_type}: {basename(file_info['path'])} "f"({file_mb:.1f}MB, {ctime(file_info['mtime'])})")
             except Exception as e:
                 logger.error(
-                    f"free_up_space Purge failed for {
-                        file_info['path']}: {
-                        str(e)}")
+                    f"free_up_space Purge failed for {file_info['path']}: {str(e)}")
 
         success = check_disk_space(path, min_space_mb, media_type=None)
         logger.info(
-            f"free_up_space Freed {
-                freed_mb:.1f}MB for {media_type}. Success: {success}")
+            f"free_up_space Freed {freed_mb:.1f}MB for {media_type}. Success: {success}")
         return success
 
     except Exception as e:
@@ -555,8 +547,7 @@ class MediaStorage:
                         return folder
                     except OSError as e:
                         self.logger.warning(
-                            f"MediaStorage Create folder failed: {
-                                str(e)}")
+                            f"MediaStorage Create folder failed: {str(e)}")
 
         fallback = f"/tmp/{media_type}"
         try:
@@ -566,8 +557,7 @@ class MediaStorage:
             return fallback
         except OSError as e:
             self.logger.critical(
-                f"MediaStorage All storage options failed: {
-                    str(e)}")
+                f"MediaStorage All storage options failed: {str(e)}")
             raise RuntimeError(
                 f"MediaStorage No valid {media_type} storage available")
 
@@ -596,8 +586,7 @@ def delete_old_files_if_low_disk_space(
 
         if free_space_mb < min_free_space_mb:
             logger.warning(
-                f"{MEDIA_FOLDER}: Low disk space: {
-                    free_space_mb:.2f} MB available. Deleting old files...")
+                f"{MEDIA_FOLDER}: Low disk space: {free_space_mb:.2f} MB available. Deleting old files...")
 
             current_time = time()
 
@@ -612,12 +601,10 @@ def delete_old_files_if_low_disk_space(
                     if file_age > age_limit:
                         remove(file_path)
                         logger.debug(
-                            f"{MEDIA_FOLDER}: Deleted {filename}, it was {
-                                file_age / 86400:.2f} days old.")
+                            f"{MEDIA_FOLDER}: Deleted {filename}, it was {file_age / 86400:.2f} days old.")
         else:
             logger.info(
-                f"{MEDIA_FOLDER}: Sufficient disk space: {
-                    free_space_mb:.2f} MB available. No files will be deleted.")
+                f"{MEDIA_FOLDER}: Sufficient disk space: {free_space_mb:.2f} MB available. No files will be deleted.")
 
     except Exception as e:
         logger.critical(

@@ -680,8 +680,7 @@ class AgpDownloadThread(Thread):
                 if exists(dwn_poster):
                     return True, msg
             else:
-                return False, f"[SKIP : fanart] {
-                    self.title_safe} [{chkType}-{year}] => {url_fanart} (Not found)"
+                return False, f"[SKIP : fanart] {self.title_safe} [{chkType}-{year}] => {url_fanart} (Not found)"
 
         except HTTPError as e:
             if e.response is not None and e.response.status_code == 404:
@@ -823,9 +822,7 @@ class AgpDownloadThread(Thread):
                 callInThread(self.savePoster, url_poster, dwn_poster)
                 if exists(dwn_poster):
                     return (
-                        True, f"[SUCCESS] IMDb poster match: {
-                            match['title']} ({
-                            match['year']})")
+                        True, f"[SUCCESS] IMDb poster match: {match['title']} ({match['year']})")
 
             return (False, f"[SKIP] Download failed for {self.title_safe}")
 
@@ -836,9 +833,7 @@ class AgpDownloadThread(Thread):
     def _build_imdb_search_url(self, title, aka):
         """Construct IMDb search URL with AKA if available"""
         if aka and aka != title:
-            return f"https://m.imdb.com/find?q={
-                quoteEventName(title)}%20({
-                quoteEventName(aka)})"
+            return f"https://m.imdb.com/find?q={quoteEventName(title)}%20({quoteEventName(aka)})"
         return f"https://m.imdb.com/find?q={quoteEventName(title)}"
 
     def _parse_imdb_results(self, html_content):
@@ -876,8 +871,7 @@ class AgpDownloadThread(Thread):
             chkType, fd = self.checkType(shortdesc, fulldesc)
 
             if chkType.startswith("movie"):
-                return False, f"[SKIP : programmetv-google] {
-                    self.title_safe} [{chkType}] => Skip movie title"
+                return False, f"[SKIP : programmetv-google] {self.title_safe} [{chkType}] => Skip movie title"
 
             url_ptv = f"site:programme-tv.net+{self.title_safe}"
             if channel and self.title_safe.find(channel.split()[0]) < 0:
@@ -932,9 +926,7 @@ class AgpDownloadThread(Thread):
             return False, "[SKIP : programmetv-google] {} [{}] => Not found [{}] => {}".format(
                 self.title_safe, chkType, ptv_id, url_ptv)
         except Exception as e:
-            return False, f"[ERROR : programmetv-google] {
-                self.title_safe} [{chkType}] => {url_ptv} ({
-                str(e)})"
+            return False, f"[ERROR : programmetv-google] {self.title_safe} [{chkType}] => {url_ptv} ({str(e)})"
 
         except HTTPError as e:
             if e.response is not None and e.response.status_code == 404:
@@ -961,8 +953,7 @@ class AgpDownloadThread(Thread):
             url_mgoo = ""
             chkType, fd = self.checkType(shortdesc, fulldesc)
             if chkType.startswith("movie"):
-                return False, f"[SKIP : molotov-google] {
-                    self.title_safe} [{chkType}] => Skip movie title"
+                return False, f"[SKIP : molotov-google] {self.title_safe} [{chkType}] => Skip movie title"
 
             # pchannel = self.UNAC(channel).replace(' ', '') if channel else ''
             pchannel = channel.replace(' ', '') if channel else ''
@@ -1029,9 +1020,7 @@ class AgpDownloadThread(Thread):
                     dwn_poster)
 
         except Exception as e:
-            return False, f"[ERROR : molotov-google] {
-                self.title_safe} => {
-                str(e)}"
+            return False, f"[ERROR : molotov-google] {self.title_safe} => {str(e)}"
 
         except HTTPError as e:
             if e.response is not None and e.response.status_code == 404:
@@ -1064,8 +1053,7 @@ class AgpDownloadThread(Thread):
             url_poster = f"https://fusion.molotov.tv/{pltt[0][0]}/jpg"
             callInThread(self.savePoster, url_poster, dwn_poster)
             if exists(dwn_poster):
-                return True, f"[SUCCESS {platform}-google] Found poster for {
-                    self.title_safe} => {url_poster}"
+                return True, f"[SUCCESS {platform}-google] Found poster for {self.title_safe} => {url_poster}"
         else:
             return False, f"[SKIP : {platform}-google] No suitable poster found."
 
@@ -1121,8 +1109,7 @@ class AgpDownloadThread(Thread):
             posterlst = findall(r'\],\["https://(.*?)",\d+,\d+]', ff)
 
             if not posterlst:
-                url_google = f"https://www.google.com/search?q={
-                    self.title_safe}&tbm=isch&tbs=ift:jpg%2Cisz:m"
+                url_google = f"https://www.google.com/search?q={self.title_safe}&tbm=isch&tbs=ift:jpg%2Cisz:m"
                 ff = fetch_images(url_google)
                 posterlst = findall(r'\],\["https://(.*?)",\d+,\d+]', ff)
 
@@ -1131,11 +1118,9 @@ class AgpDownloadThread(Thread):
                 url_poster = sub(r"\\u003d", "=", url_poster)
                 callInThread(self.savePoster, url_poster, dwn_poster)
                 if exists(dwn_poster):
-                    return True, f"[SUCCESS google] Found poster for {
-                        self.title_safe} => {url_poster}"
+                    return True, f"[SUCCESS google] Found poster for {self.title_safe} => {url_poster}"
 
-            return False, f"[SKIP : google] No poster found for {
-                self.title_safe}"
+            return False, f"[SKIP : google] No poster found for {self.title_safe}"
 
         except Exception as e:
             return False, f"[ERROR : google] {self.title_safe} => {str(e)}"
@@ -1366,8 +1351,7 @@ class AgpDownloadThread(Thread):
                     if "image/jpeg" not in response.headers.get(
                             "Content-Type", "").lower():
                         raise ValueError(
-                            f"Invalid content type: {
-                                response.headers.get('Content-Type')}")
+                            f"Invalid content type: {response.headers.get('Content-Type')}")
 
                     # Write directly to final file (no .tmp)
                     with open(filepath, "wb") as f:

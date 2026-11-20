@@ -195,8 +195,7 @@ class AgbanDownloadThread(Thread):
             if not year:
                 year = self._extract_year(fd)
             # &page=1&include_adult=false"
-            url = f"https://api.themoviedb.org/3/search/{srch}?api_key={tmdb_api_key}&language={lng}&query={
-                self.title_safe}"
+            url = f"https://api.themoviedb.org/3/search/{srch}?api_key={tmdb_api_key}&language={lng}&query={self.title_safe}"
 
             if year and srch == "movie":
                 url += f"&year={year}"
@@ -435,8 +434,7 @@ class AgbanDownloadThread(Thread):
                 if exists(dwn_poster):
                     return True, msg
             else:
-                return False, f"[SKIP : fanart] {
-                    self.title_safe} [{chkType}-{year}] => {url_fanart} (Not found)"
+                return False, f"[SKIP : fanart] {self.title_safe} [{chkType}-{year}] => {url_fanart} (Not found)"
 
         except HTTPError as e:
             if e.response is not None and e.response.status_code == 404:
@@ -570,8 +568,7 @@ class AgbanDownloadThread(Thread):
                     if "image/jpeg" not in response.headers.get(
                             "Content-Type", "").lower():
                         raise ValueError(
-                            f"Invalid content type: {
-                                response.headers.get('Content-Type')}")
+                            f"Invalid content type: {response.headers.get('Content-Type')}")
 
                     # Write directly to final file (no .tmp)
                     with open(filepath, "wb") as f:
