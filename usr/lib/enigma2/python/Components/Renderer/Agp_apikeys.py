@@ -114,8 +114,7 @@ def _load_api_keys():
                         plugin_cfg.save()
                     except Exception as e:
                         print(
-                            f"[API Config] Error reading {file_path}: {
-                                str(e)}")
+                            f"[API Config] Error reading {file_path}: {str(e)}")
                 else:
                     print(
                         f"[API Config] Using default key for {key_name} (file not found)")

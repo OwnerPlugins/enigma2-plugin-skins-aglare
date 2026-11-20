@@ -259,10 +259,7 @@ class AglareTemp(Poll, Converter):
 
         if self.short_format:
             return f"{fan_data['speed']} - {fan_data['voltage']}V - P:{fan_data['pwm']}"
-        return f"Speed: {
-            fan_data['speed']} V: {
-            fan_data['voltage']} PWM: {
-            fan_data['pwm']}"
+        return f"Speed: {fan_data['speed']} V: {fan_data['voltage']} PWM: {fan_data['pwm']}"
 
     def _read_fan_file(self, path, hex=False):
         """Read fan information file"""

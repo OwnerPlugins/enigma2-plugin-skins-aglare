@@ -84,22 +84,9 @@ class AglareReceiverInfo(Poll, Converter):
         elif self.shortFormat:
             return f'{label}: {self.getSizeStr(info[0])}, in use: {info[3]}%'
         elif self.fullFormat:
-            return f'{label}: {
-                self.getSizeStr(
-                    info[0])} Free:{
-                self.getSizeStr(
-                    info[2])} used:{
-                self.getSizeStr(
-                    info[1])} ({
-                info[3]}%)'
+            return f'{label}: {self.getSizeStr(info[0])} Free:{self.getSizeStr(info[2])} used:{self.getSizeStr(info[1])} ({info[3]}%)'
         else:
-            return f'{label}: {
-                self.getSizeStr(
-                    info[0])} used:{
-                self.getSizeStr(
-                    info[1])} Free:{
-                self.getSizeStr(
-                    info[2])}'
+            return f'{label}: {self.getSizeStr(info[0])} used:{self.getSizeStr(info[1])} Free:{self.getSizeStr(info[2])}'
 
     @cached
     def getValue(self):
@@ -214,10 +201,7 @@ class AglareReceiverInfo(Poll, Converter):
                 fractal = mod * 10 // 1024
                 u += 1
 
-        return f'{value}{
-            "." +
-            str(fractal) if fractal else ""} {
-            SIZE_UNITS[u]}'
+        return f'{value}{"." +str(fractal) if fractal else ""} {SIZE_UNITS[u]}'
 
     def doSuspend(self, suspended):
         self.poll_enabled = not suspended

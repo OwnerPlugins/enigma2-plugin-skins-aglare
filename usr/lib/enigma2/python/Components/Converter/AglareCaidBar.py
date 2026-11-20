@@ -238,8 +238,7 @@ class AglareCaidBar(Poll, Converter):
                                     ',')[0].split()[-1][2:].upper()
                 except Exception as e:
                     self.logger.warning(
-                        f"Error reading ECM file {ecm_file}: {
-                            str(e)}")
+                        f"Error reading ECM file {ecm_file}: {str(e)}")
         return ""
 
     def _get_caid_name(self, caid):

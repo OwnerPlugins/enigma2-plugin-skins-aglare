@@ -933,15 +933,12 @@ class radiom80(Screen):
         try:
             self.okcoverdown = 'failed'
             clean_title = sub(r'\([^)]*\)', '', title).strip()
-            search_query = f"{
-                self.current_artist} {clean_title}" if self.current_artist else clean_title
-            itunes_url = f'https://itunes.apple.com/search?term={
-                quote(search_query)}&entity=album&limit=1'
+            search_query = f"{self.current_artist} {clean_title}" if self.current_artist else clean_title
+            itunes_url = f'https://itunes.apple.com/search?term={quote(search_query)}&entity=album&limit=1'
             res = requests.get(itunes_url, timeout=10)
             data = res.json()
             if data.get('resultCount', 0) == 0:
-                itunes_url = f'https://itunes.apple.com/search?term={
-                    quote(search_query)}&entity=song&limit=1'
+                itunes_url = f'https://itunes.apple.com/search?term={quote(search_query)}&entity=song&limit=1'
                 res = requests.get(itunes_url, timeout=10)
                 data = res.json()
 
