@@ -88,7 +88,7 @@ msgid "Backdrop download error: {}"
 msgstr "خطأ في تنزيل الخلفية: {}"
 
 msgid "Backup Folder (Press OK to change)"
-msgstr "مجلد النسخ الاحتياطي (اضغط على \\\"موافق\\\" للتغيير)"
+msgstr "مجلد النسخ الاحتياطي (اضغط على \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"موافق\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" للتغيير)"
 
 msgid "BebasNeue"
 msgstr "FreeNeue"
@@ -1036,10 +1036,10 @@ msgid "Select Your Font:"
 msgstr "حدد الخط الخاص بك:"
 
 msgid "Select a saved Custom1 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr "حدد نمط ألوان Custom1 JSON محفوظًا من /etc/enigma2/aglare، ثم اضغط على \\\"موافق\\\" لاستيراده."
+msgstr "حدد نمط ألوان Custom1 JSON محفوظًا من /etc/enigma2/aglare، ثم اضغط على \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"موافق\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" لاستيراده."
 
 msgid "Select a saved Custom2 JSON color style from /etc/enigma2/aglare, then press OK to import it."
-msgstr "حدد نمط ألوان Custom2 JSON محفوظًا من /etc/enigma2/aglare، ثم اضغط على \\\"موافق\\\" لاستيراده."
+msgstr "حدد نمط ألوان Custom2 JSON محفوظًا من /etc/enigma2/aglare، ثم اضغط على \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"موافق\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" لاستيراده."
 
 msgid "Select channel list event description color."
 msgstr "حدد لون وصف حدث قائمة القنوات."
