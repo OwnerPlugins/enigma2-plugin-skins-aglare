@@ -1,79 +1,42 @@
 name: Update Translations
-
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
-
-# Evita che due aggiornamenti delle traduzioni
-# lavorino contemporaneamente sul branch main.
-concurrency:
-  group: update-translations-main
-  cancel-in-progress: false
-
-permissions:
-  contents: write
 
 jobs:
   update-translations:
     runs-on: ubuntu-latest
-
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install gettext (msgmerge, msgfmt)
         run: |
           sudo apt-get update
           sudo apt-get install -y gettext
-
       - name: Run translation updaters
         run: |
-          while IFS= read -r -d '' pyfile; do
+          for pyfile in $(find . -type f -name "update_translations.py"); do
             plugin_dir=$(dirname "$pyfile")
-
             echo "Running translation updater in $plugin_dir"
-
             cd "$plugin_dir"
             python3 update_translations.py
-
-            # Forza l'aggiunta dei file locale generati
-            # anche se presenti in .gitignore.
-            if [ -d locale ]; then
-              git add -f locale/
-            fi
-
+            if [ -d locale ]; then git add -f locale/; fi
             cd - > /dev/null
-          done < <(find . -type f -name "update_translations.py" -print0)
-
+          done
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
           git add .
-
-          if git diff --cached --quiet; then
+          if ! git diff --cached --quiet; then
+            git commit -m "Update translations via workflow"
+            git pull --rebase origin main
+            git push origin main
+          else
             echo "No changes to commit"
-            exit 0
           fi
-
-          git commit -m "Update translations via workflow"
-
-          # Recupera sempre lo stato più recente del main
-          # prima del push.
-          git fetch origin main
-
-          # Porta il commit appena creato sopra l'ultimo main remoto.
-          git rebase origin/main
-
-          # Push del commit corrente sul main.
-          git push origin HEAD:main
-
